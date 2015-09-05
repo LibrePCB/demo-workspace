@@ -14,8 +14,7 @@
   </meta>
   <attributes>
     <!--
-      Attributes of this component. For example, the component "resistor" needs at least an attribute for the "resistance" value.
-      This attributes can be used:
+      Attributes of this component; For example, the component "resistor" needs at least an attribute for the "resistance" value. They can be used:
         - as the "value" of the component
         - as attributes for a SPICE simulation
         - to automatically create BOM lists inclusive all important component attributes
@@ -23,16 +22,12 @@
       XML Attributes:
         - key:  A unique key which identifies this attribute. Instead of a UUID we use a string as identifier because of the easier handling.
                 String style: english, uppercase, underscores instead of spaces, no special characters
-        - type: The datatype of the attribute. Available types (tbc):
-                    - string:       An UTF-8 string
-                    - resistance:   A resistance
-                    - capacitance:  A capacitance
-                    - inductance:   An inductance
+        - type: The datatype of the attribute. Available types (tbc): string (UTF-8), resistance, capacitance, inductance
         - unit: The default unit (available units depends on the attribute type; empty string if the attribute type does not need a unit)
     XML Childs:
         - name:             The name of the attribute (in different languages)
         - description:      A short description of the attribute (in different languages)
-        - default_value:    The default value of this attribute (in different languages). This value (which can be empty) will be used when such a component is added to a schematic. Normally, this attribute does not need multilangual support, so the only needed locale is "en_US". But sometimes (especially when the attribute's type is "string") it may be useful to use different values for different languages.
+        - default_value:    The default value of this attribute (in different languages). This value (which can be empty) will be used when such a component is added to a schematic. Normally, this attribute does not need multilingual support, so the only needed locale is "en_US". But sometimes (especially when the attribute's type is "string") it might be useful to use different values for different languages.
     -->
     <!-- Example:
     <attribute key="RESISTANCE" type="resistance" unit="ohm">
@@ -43,21 +38,9 @@
     -->
   </attributes>
   <properties>
-    <schematic_only>false</schematic_only>
-    <default_values>
-      <!--
-        Default values: This is the value of the component after adding it to a schematic. The user then can change the value if needed. The value is always a string and can contain variables which represent an attribute (syntax: ${ATTRIBUTE_NAME}). The default value can be defined for each language separately.
-      -->
-      <value locale="en_US"></value>
-    </default_values>
-    <prefixes>
-      <!--
-        Prefixes for the automatic generation of component names (X1, U5, L7,...). Attributes:
-          - norm:     This attribute can be used to specify different prefixes for different norms. For each norm there must be an entry in this DOM element. If there are no norms which specify the norm of this component, add only one DOM element with an empty string as the norm.
-          - default:  If the user has no preferred norm defined, we need a default prefix which is used in that case. For this purpose, there must always be exactly one entry with default="true".
-      -->
-      <prefix norm="" default="true">U</prefix>
-    </prefixes>
+    <schematic_only>false</schematic_only> <!-- If true, no devices are available for this component, so it can be added only to schematics and not to boards. -->
+    <value locale="en_US"></value> <!-- This is the value of the component after adding it to a schematic. The user then can change the value if needed. The value is always a string and can contain variables which represent an attribute (syntax: ${ATTRIBUTE_NAME}). The default value can be defined for each language separately. -->
+    <prefix norm="" default="true">U</prefix> <!-- Prefix for the component name (R5, U8,...). With the "norm" attribute, different prefixes for different norms can be defined. -->
   </properties>
   <signals>
     <!--
@@ -74,47 +57,19 @@
         - negated:          Defines if the signal has an inverted logic (low active). This will automatically mark the connected symbol pin as inverted.
         - clock:            Defines if the signal is a clock signal. This will automatically mark the connected symbol pin as a clock signal.
         - forced_net_name:  If this is a non-empty string, the name of the net signal which is connected to this component signal will be forced to this string. This should be used only for supply symbols (GND, VCC, ...). The string can contain variables like ${CMP::VALUE}.
-        - name:             The signal name in different languages. WARNING: Do not change names to identify another signal (like change from "RST" to "GND") as the application uses the uuid (not the name) to identify signals!
-        - description:      A short description of the signal (in different languages). This is optional.
+        - name:             The signal name (en_US, uppercase). Do not use "/RESET", "!RESET" or something similar for inverted signals! Use the attribute negated="true" instead.
     -->
-    <signal uuid="{71a44db9-5e42-405f-b6e4-b4725ae37af3}" role="power" required="true" negated="false" clock="false" forced_net_name="">
-      <name locale="en_US">GND</name>
-      <description locale="en_US"></description>
-    </signal>
-    <signal uuid="{4e391ba5-949a-4f6e-83f4-ea382eed7e3a}" role="input" required="true" negated="false" clock="false" forced_net_name="">
-      <name locale="en_US">TRIGGER</name>
-      <description locale="en_US"></description>
-    </signal>
-    <signal uuid="{a9d3d159-fca9-417e-8bba-13829caa6ae5}" role="output" required="true" negated="false" clock="false" forced_net_name="">
-      <name locale="en_US">OUTPUT</name>
-      <description locale="en_US"></description>
-    </signal>
-    <signal uuid="{da30b112-9ab0-4715-8a6a-9e5414169fd4}" role="input" required="true" negated="true" clock="false" forced_net_name="">
-      <name locale="en_US">/RESET</name>
-      <description locale="en_US"></description>
-    </signal>
-    <signal uuid="{0077fd4c-4ff5-49c7-ac69-02fb7452f7e0}" role="input" required="true" negated="false" clock="false" forced_net_name="">
-      <name locale="en_US">CONTROL</name>
-      <description locale="en_US"></description>
-    </signal>
-    <signal uuid="{dc7b9d6e-d32e-4521-8a75-71003d2c2f56}" role="input" required="true" negated="false" clock="false" forced_net_name="">
-      <name locale="en_US">THRESHOLD</name>
-      <description locale="en_US"></description>
-    </signal>
-    <signal uuid="{af5ff768-2a2b-4f34-bae1-c3b6f02a82f4}" role="inout" required="true" negated="false" clock="false" forced_net_name="">
-      <name locale="en_US">DISCHARGE</name>
-      <description locale="en_US"></description>
-    </signal>
-    <signal uuid="{21ac13f7-ebbd-494b-8a56-024c5b2ee95f}" role="power" required="true" negated="false" clock="false" forced_net_name="">
-      <name locale="en_US">VCC</name>
-      <description locale="en_US"></description>
-    </signal>
+    <signal uuid="{71a44db9-5e42-405f-b6e4-b4725ae37af3}" name="GND" role="power" required="true" negated="false" clock="false" forced_net_name=""/>
+    <signal uuid="{4e391ba5-949a-4f6e-83f4-ea382eed7e3a}" name="TRIGGER" role="input" required="true" negated="false" clock="false" forced_net_name=""/>
+    <signal uuid="{a9d3d159-fca9-417e-8bba-13829caa6ae5}" name="OUTPUT" role="output" required="true" negated="false" clock="false" forced_net_name=""/>
+    <signal uuid="{da30b112-9ab0-4715-8a6a-9e5414169fd4}" name="RESET" role="input" required="true" negated="true" clock="false" forced_net_name=""/>
+    <signal uuid="{0077fd4c-4ff5-49c7-ac69-02fb7452f7e0}" name="CONTROL" role="input" required="true" negated="false" clock="false" forced_net_name=""/>
+    <signal uuid="{dc7b9d6e-d32e-4521-8a75-71003d2c2f56}" name="THRESHOLD" role="input" required="true" negated="false" clock="false" forced_net_name=""/>
+    <signal uuid="{af5ff768-2a2b-4f34-bae1-c3b6f02a82f4}" name="DISCHARGE" role="inout" required="true" negated="false" clock="false" forced_net_name=""/>
+    <signal uuid="{21ac13f7-ebbd-494b-8a56-024c5b2ee95f}" name="VCC" role="power" required="true" negated="false" clock="false" forced_net_name=""/>
   </signals>
   <symbol_variants>
-    <!--
-      Each component can define multiple symbol variants, and each symbol variant can contain multiple symbols.
-      See section "prefixes" for more information about the attributes "norm" and "default" (same rules here).
-    -->
+    <!-- Each component can define multiple symbol variants, and each symbol variant can contain multiple symbols. -->
     <variant uuid="{a3a3db3e-c03e-4b3a-b916-638f75e11d9a}" norm="DIN EN 1234" default="true">
       <name locale="en_US">Euro</name>
       <description locale="en_US">European Variant</description>
@@ -154,8 +109,7 @@
       </symbol_items>
     </variant>
   </symbol_variants>
-  <spice_models>
-      <!-- TODO:
+  <!-- <spice_models>
       <spice_model uuid="{2276fc5e-f67f-404c-aff5-02bc9bc71e87}" default="true">
         <name locale="en_US">simple</name>
         <description locale="en_US">simple, idealized spice model</description>
@@ -173,6 +127,5 @@
         </signal_list>
         <parameters/>
       </spice_model>
-      -->
-  </spice_models>
+  </spice_models> -->
 </component>

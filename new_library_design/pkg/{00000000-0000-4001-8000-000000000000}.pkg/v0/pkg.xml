@@ -7,13 +7,16 @@
     <author>LibrePCB</author>
     <created>2013-04-13T12:43:52Z</created>
     <last_modified>2013-04-20T18:01:33Z</last_modified>
-    <name locale="en_US">DIP08</name>
+    <name locale="en_US">DIP8</name>
     <description locale="en_US">description...</description>
     <keywords locale="en_US">DIP8,DIP08,DIL8,DIL08</keywords>
     <categories>{00000000-0000-4001-8000-000000000000}</categories> <!-- comma separated list of package category UUIDs -->
   </meta>
   <footprint>
     <geometry>
+      <!--
+        Documentation of footprint geometry: see symbol geometry documentation
+      -->
       <polygon layer="10" width="0.254" fill="false" grab_area="true" start_x="-12.7" start_y="-7.62">
         <segment angle="0" end_x="-12.7" end_y="5.08"/>
         <segment angle="0" end_x="12.7" end_y="5.08"/>
@@ -24,41 +27,30 @@
       <text layer="21" v_align="top"    text="${CMP::VALUE}" height="2.54" rotation="0" x="-12.7" y="-7.62" h_align="left"/>
     </geometry>
     <pads>
-      <pad uuid="{4385b685-0cdd-4663-9af9-f4b4273c1c0a}" type="tht_round" x="-3.81" y="2.54" rotation="0" width="3" height="2.1" drill="0.8" layer="0">
-        <name locale="en_US">1</name>
-        <description locale="en_US">Pad 1</description>
-      </pad>
-      <pad uuid="{4bc6e28e-1d0f-419c-8b39-dec456cd3193}" type="tht_round" x="-3.81" y="0" rotation="0" width="3" height="2.1" drill="0.8" layer="0">
-        <name locale="en_US">2</name>
-        <description locale="en_US">Pad 2</description>
-      </pad>
-      <pad uuid="{73ad878d-ade1-4b19-a278-18eda08ffb72}" type="tht_round" x="-3.81" y="-2.54" rotation="0" width="3" height="2.1" drill="0.8" layer="0">
-        <name locale="en_US">3</name>
-        <description locale="en_US">Pad 3</description>
-      </pad>
-      <pad uuid="{4f6c5da7-e0be-4ea1-90fa-0bfa54b3b577}" type="tht_round" x="-3.81" y="-5.08" rotation="0" width="3" height="2.1" drill="0.8" layer="0">
-        <name locale="en_US">4</name>
-        <description locale="en_US">Pad 4</description>
-      </pad>
-      <pad uuid="{58fae4c9-d4b3-45ae-b401-c38ad4157bc6}" type="tht_round" x="3.81" y="-5.08" rotation="0" width="3" height="2.1" drill="0.8" layer="0">
-        <name locale="en_US">5</name>
-        <description locale="en_US">Pad 5</description>
-      </pad>
-      <pad uuid="{0702b483-20b0-4117-b6b7-a4bb71d38207}" type="tht_round" x="3.81" y="-2.54" rotation="0" width="3" height="2.1" drill="0.8" layer="0">
-        <name locale="en_US">6</name>
-        <description locale="en_US">Pad 6</description>
-      </pad>
-      <pad uuid="{e25d41aa-6cc7-40e5-9586-6d8862902130}" type="tht_round" x="3.81" y="0" rotation="0" width="3" height="2.1" drill="0.8" layer="0">
-        <name locale="en_US">7</name>
-        <description locale="en_US">Pad 7</description>
-      </pad>
-      <pad uuid="{5d858bbd-e141-4378-8323-00333f7d1ccd}" type="tht_round" x="3.81" y="2.54" rotation="0" width="3" height="2.1" drill="0.8" layer="0">
-        <name locale="en_US">8</name>
-        <description locale="en_US">Pad 8</description>
-      </pad>
+      <!--
+        Each pad of the footprint is defined here. Attributes:
+          - uuid:         The pad uuid (must be unique in this package)
+          - x:            X coordinate of the pad's connection point / center (in millimeters)
+          - y:            Y coordinate of the pad's connection point / center (in millimeters)
+          - type:         The pin type (tht_rect, tht_octagon, tht_round, smt_rect)
+          - rotation:     The rotation of the pad (in degrees CCW)
+          - width:        The width of the pad (in millimeters)
+          - height:       The height of the pad (in millimeters)
+          - tht_drill:    The drill diameter of THT pads (in millimeters)
+          - smt_side:     The side of SMT pads (top, bottom)
+          - name:         The name of the pad (en_US)
+      -->
+      <pad uuid="{4385b685-0cdd-4663-9af9-f4b4273c1c0a}" name="1" type="tht_round" x="-3.81" y="2.54" rotation="0" width="3" height="2.1" tht_drill="0.8" smt_side="top"/>
+      <pad uuid="{4bc6e28e-1d0f-419c-8b39-dec456cd3193}" name="2" type="tht_round" x="-3.81" y="0" rotation="0" width="3" height="2.1" tht_drill="0.8" smt_side="top"/>
+      <pad uuid="{73ad878d-ade1-4b19-a278-18eda08ffb72}" name="3" type="tht_round" x="-3.81" y="-2.54" rotation="0" width="3" height="2.1" tht_drill="0.8" smt_side="top"/>
+      <pad uuid="{4f6c5da7-e0be-4ea1-90fa-0bfa54b3b577}" name="4" type="tht_round" x="-3.81" y="-5.08" rotation="0" width="3" height="2.1" tht_drill="0.8" smt_side="top"/>
+      <pad uuid="{58fae4c9-d4b3-45ae-b401-c38ad4157bc6}" name="5" type="tht_round" x="3.81" y="-5.08" rotation="0" width="3" height="2.1" tht_drill="0.8" smt_side="top"/>
+      <pad uuid="{0702b483-20b0-4117-b6b7-a4bb71d38207}" name="6" type="tht_round" x="3.81" y="-2.54" rotation="0" width="3" height="2.1" tht_drill="0.8" smt_side="top"/>
+      <pad uuid="{e25d41aa-6cc7-40e5-9586-6d8862902130}" name="7" type="tht_round" x="3.81" y="0" rotation="0" width="3" height="2.1" tht_drill="0.8" smt_side="top"/>
+      <pad uuid="{5d858bbd-e141-4378-8323-00333f7d1ccd}" name="8" type="tht_round" x="3.81" y="2.54" rotation="0" width="3" height="2.1" tht_drill="0.8" smt_side="top"/>
     </pads>
   </footprint>
-  <models3d>
-    <!-- TODO -->
-  </models3d>
+  <!-- <models3d>
+     TODO
+  </models3d> -->
 </package>
