@@ -13,6 +13,7 @@
     <categories>{00000000-0000-4001-8000-000000000000}</categories> <!-- comma separated list of component category UUIDs -->
     <component>{00000000-0000-4001-8000-000000000000}</component>
     <package>{00000000-0000-4001-8000-000000000000}</package>
+    <default_model3d></default_model3d> <!-- UUID of the default 3d model (which is defined in the package); if empty, the package's default 3d model is used -->
   </meta>
   <pad_signal_map>
     <!-- This list must contain every pad of the specified footprint! Each pad can be connected to 0 or 1 component signal (empty signal uuid = not connected) -->
@@ -45,13 +46,28 @@
     </spice_model>
   </spice_models> -->
   <parts>
-    <part manufacturer="Texas Instruments" part_number="NE555P">
-      <supplier name="DigiKey" order_number="296-1411-5-ND" packaging="tube"/>
-      <supplier name="Mouser" order_number="595-NE555P" packaging="tube"/>
+    <!--
+      A list of all concrete parts of this device (parts you can order). Attributes:
+        - uuid:                 The UUID of the part
+        - manufacturer:         The manufacturer of the part
+        - part_number:          The manufacturer's part number of the part
+        - default_spice_model:  The default spice model UUID (defined above in this file) of this part. If empty, the default spice model of this device will be used.
+        - default_model3d:      The default 3D model UUID (defined in the package) of this part. If empty, the default 3D model of this device (defined above in this file) will be used.
+        - description:          Short description of the part (en_US; optional)
+        
+      Child elements are used to define all order informations (supplier + part number) of the parts. Attributes:
+        - uuid:         The UUID of the part order information
+        - supplier:     The supplier's name
+        - order_number: The order number of the part
+        - packaging:    The packaging variant (unknown, bulk, cut_tape, digi_reel, tape_reel, tray, tube, custom); Add a <order> node for each different packaging variant of the part.
+     -->
+    <part uuid="{c2af45f6-6d31-4f7d-b0ba-ac5d613955cc}" manufacturer="Texas Instruments" part_number="NE555P" default_spice_model="" default_model3d="" description="">
+      <order uuid="{4b0b138c-eb9b-4dca-ad40-f20f965b64f8}" supplier="DigiKey" order_number="296-1411-5-ND" packaging="tube"/>
+      <order uuid="{7d182d29-e14e-4b04-b562-15026f18c5e0}" supplier="Mouser" order_number="595-NE555P" packaging="tube"/>
     </part>
-    <part manufacturer="Texas Instruments" part_number="NE555PE4">
-      <supplier name="DigiKey" order_number="296-41585-5-ND" packaging="tube"/>
-      <supplier name="Mouser" order_number="595-NE555PE4" packaging="tube"/>
+    <part uuid="{de4e47e0-2f8b-4b95-97c0-1a1b13d08461}" manufacturer="Texas Instruments" part_number="NE555PE4" default_spice_model="" default_model3d="" description="">
+      <order uuid="{a17cf1c5-47ce-4457-9b5e-c198af9091dc}" supplier="DigiKey" order_number="296-41585-5-ND" packaging="tube"/>
+      <order uuid="{0da3570a-1d1f-49d5-b0d0-553b145487d8}" supplier="Mouser" order_number="595-NE555PE4" packaging="tube"/>
     </part>
   </parts>
 </device>
