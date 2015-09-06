@@ -3,9 +3,9 @@
     <meta>
         <uuid>{58c3c6cd-11eb-4557-aa3f-d3e05874afde}</uuid>
         <version>0.1</version>
-        <author/>
-        <created/>
-        <last_modified/>
+        <author>LibrePCB</author>
+        <created>2015-03-01T20:00:00Z</created>
+        <last_modified>2015-03-01T20:00:00Z</last_modified>
         <name locale="en_US">VCC Supply</name>
         <description locale="en_US"></description>
         <keywords locale="en_US">vcc,supply</keywords>
@@ -24,7 +24,7 @@
         </prefixes>
     </properties>
     <signals>
-        <signal forced_net_name="${CMP::VALUE}" role="power" required="true" negated="false" uuid="{1d893320-f811-4a79-b64e-cc23d749d394}" clock="false">
+        <signal required="true" forced_net_name="${CMP::VALUE}" clock="false" uuid="{1d893320-f811-4a79-b64e-cc23d749d394}" negated="false" role="power">
             <name locale="en_US">Net</name>
             <description locale="en_US"></description>
         </signal>
@@ -34,9 +34,9 @@
             <name locale="en_US">Default</name>
             <description locale="en_US"></description>
             <symbol_items>
-                <item suffix="" symbol="{b95d0aca-7344-41ec-90ed-022f365ad765}" required="true" uuid="{09b6d6c4-2d37-432f-9471-a317aad9a499}">
+                <item required="true" suffix="" symbol="{b95d0aca-7344-41ec-90ed-022f365ad765}" uuid="{09b6d6c4-2d37-432f-9471-a317aad9a499}">
                     <pin_signal_map>
-                        <map signal="{1d893320-f811-4a79-b64e-cc23d749d394}" pin="{771c2d8b-e4ad-487b-bcb1-fe2bc10c8a03}" display="none"/>
+                        <map pin="{771c2d8b-e4ad-487b-bcb1-fe2bc10c8a03}" signal="{1d893320-f811-4a79-b64e-cc23d749d394}" display="none"/>
                     </pin_signal_map>
                 </item>
             </symbol_items>

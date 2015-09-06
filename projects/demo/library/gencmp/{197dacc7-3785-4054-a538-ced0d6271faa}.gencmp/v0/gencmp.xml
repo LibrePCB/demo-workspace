@@ -3,9 +3,9 @@
     <meta>
         <uuid>{197dacc7-3785-4054-a538-ced0d6271faa}</uuid>
         <version>0.1</version>
-        <author/>
-        <created/>
-        <last_modified/>
+        <author>LibrePCB</author>
+        <created>2015-03-08T15:14:19Z</created>
+        <last_modified>2015-03-08T15:14:19Z</last_modified>
         <name locale="en_US">Solder Pad 1P</name>
         <description locale="en_US"></description>
         <keywords locale="en_US"></keywords>
@@ -24,7 +24,7 @@
         </prefixes>
     </properties>
     <signals>
-        <signal forced_net_name="" role="passive" required="true" negated="false" uuid="{ad6ae81a-7914-49b7-a87b-a0e8574b7398}" clock="false">
+        <signal required="true" forced_net_name="" clock="false" uuid="{ad6ae81a-7914-49b7-a87b-a0e8574b7398}" negated="false" role="passive">
             <name locale="en_US">1</name>
             <description locale="en_US"></description>
         </signal>
@@ -34,9 +34,9 @@
             <name locale="en_US">default</name>
             <description locale="en_US"></description>
             <symbol_items>
-                <item suffix="" symbol="{dce44427-4d53-4881-a77a-3e4faa383e3b}" required="true" uuid="{c9c1fdcf-17cb-449d-8d27-2fe6ddd270ae}">
+                <item required="true" suffix="" symbol="{dce44427-4d53-4881-a77a-3e4faa383e3b}" uuid="{c9c1fdcf-17cb-449d-8d27-2fe6ddd270ae}">
                     <pin_signal_map>
-                        <map signal="{ad6ae81a-7914-49b7-a87b-a0e8574b7398}" pin="{01f564d5-9975-4613-bf90-153a031fe625}" display="none"/>
+                        <map pin="{01f564d5-9975-4613-bf90-153a031fe625}" signal="{ad6ae81a-7914-49b7-a87b-a0e8574b7398}" display="none"/>
                     </pin_signal_map>
                 </item>
             </symbol_items>
