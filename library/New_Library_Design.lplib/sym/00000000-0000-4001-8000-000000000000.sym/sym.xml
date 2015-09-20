@@ -2,7 +2,7 @@
 <!-- This file contains comments for documentation -->
 <symbol version="0">
   <meta>
-    <uuid>{00000000-0000-4001-8000-000000000000}</uuid>
+    <uuid>00000000-0000-4001-8000-000000000000</uuid>
     <version>0.1</version>
     <author>LibrePCB</author>
     <created>2015-03-01T20:00:00Z</created>
@@ -13,7 +13,7 @@
     <description locale="gsw_CH">Kei Ahning was da Teil macht...</description>
     <keywords locale="en_US">comma,separated,list,of,keywords</keywords>
     <keywords locale="gsw_CH">bla,blubb,blubber</keywords>
-    <category>{00000000-0000-4001-8000-000000000000}</category> <!-- component category UUID (add more <category> elements to specify multiple categories) -->
+    <category>00000000-0000-4001-8000-000000000000</category> <!-- component category UUID (add more <category> elements to specify multiple categories) -->
   </meta>
   <geometry>
     <!--
@@ -42,7 +42,7 @@
         - rotation:   Rotation of the text (in degrees CCW)
         - h_align:    Horizontal alignment (left, center, right)
         - v_align:    Vertical alignment (top, center, bottom)
-        - node value: The displayed text (can contain placeholders, e.g. ${NAMESPACE::NAME})
+        - node value: The displayed text (can contain placeholders, e.g. $NAMESPACE::NAME)
                       Available namespaces: SYM (class SymbolInstance), CMP (class GenCompInstance), PAGE (class Schematic), PRJ (class Project)
     -->
     <polygon layer="10" width="0.254" fill="false" grab_area="true" start_x="-12.7" start_y="-7.62">
@@ -51,8 +51,8 @@
       <segment angle="0" end_x="12.7" end_y="-7.62"/>
       <segment angle="0" end_x="-12.7" end_y="-7.62"/>
     </polygon>
-    <text layer="20" v_align="bottom" height="2.54" rotation="0" x="-12.7" y="5.08"  h_align="left">${SYM::NAME}</text>
-    <text layer="21" v_align="top"    height="2.54" rotation="0" x="-12.7" y="-7.62" h_align="left">${CMP::VALUE}</text>
+    <text layer="20" v_align="bottom" height="2.54" rotation="0" x="-12.7" y="5.08"  h_align="left">$SYM::NAME</text>
+    <text layer="21" v_align="top"    height="2.54" rotation="0" x="-12.7" y="-7.62" h_align="left">$CMP::VALUE</text>
   </geometry>
   <pins>
     <!--
@@ -64,13 +64,13 @@
         - rotation:     The rotation of the pin (in degrees CCW). Line direction with respect to the pin's connection point: 0° = East, 90° = North, 180° = West, 270° = South
         - node value:   The name of the pin (en_US)
     -->
-    <pin uuid="{702df32a-635f-46e9-85d2-5b7e2c20aa87}" x="-17.78" y="2.54" length="5.08" rotation="0">1</pin>
-    <pin uuid="{1339ffc8-afb2-4137-9d37-d9801ac2bfd0}" x="-17.78" y="0" length="5.08" rotation="0">2</pin>
-    <pin uuid="{8207ee9b-89e5-41bc-a633-078952a6c370}" x="-17.78" y="-2.54" length="5.08" rotation="0">3</pin>
-    <pin uuid="{b5ec7a0f-0f26-482e-a68e-e9a8f108cb80}" x="-17.78" y="-5.08" length="5.08" rotation="0">4</pin>
-    <pin uuid="{10f7c99e-9751-409e-aace-d4fa0f21375f}" x="17.78" y="-5.08" length="5.08" rotation="180">5</pin>
-    <pin uuid="{255e12e0-00b7-4563-b82c-42a4899fddf1}" x="17.78" y="-2.54" length="5.08" rotation="180">6</pin>
-    <pin uuid="{b8aa2aa5-9b1b-4d9a-90c5-b584fe48f5a4}" x="17.78" y="0" length="5.08" rotation="180">7</pin>
-    <pin uuid="{db2223ee-84ce-42ef-93b9-ac6a50b07805}" x="17.78" y="2.54" length="5.08" rotation="180">8</pin>
+    <pin uuid="702df32a-635f-46e9-85d2-5b7e2c20aa87" x="-17.78" y="2.54" length="5.08" rotation="0">1</pin>
+    <pin uuid="1339ffc8-afb2-4137-9d37-d9801ac2bfd0" x="-17.78" y="0" length="5.08" rotation="0">2</pin>
+    <pin uuid="8207ee9b-89e5-41bc-a633-078952a6c370" x="-17.78" y="-2.54" length="5.08" rotation="0">3</pin>
+    <pin uuid="b5ec7a0f-0f26-482e-a68e-e9a8f108cb80" x="-17.78" y="-5.08" length="5.08" rotation="0">4</pin>
+    <pin uuid="10f7c99e-9751-409e-aace-d4fa0f21375f" x="17.78" y="-5.08" length="5.08" rotation="180">5</pin>
+    <pin uuid="255e12e0-00b7-4563-b82c-42a4899fddf1" x="17.78" y="-2.54" length="5.08" rotation="180">6</pin>
+    <pin uuid="b8aa2aa5-9b1b-4d9a-90c5-b584fe48f5a4" x="17.78" y="0" length="5.08" rotation="180">7</pin>
+    <pin uuid="db2223ee-84ce-42ef-93b9-ac6a50b07805" x="17.78" y="2.54" length="5.08" rotation="180">8</pin>
   </pins>
 </symbol>
