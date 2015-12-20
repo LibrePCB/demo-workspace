@@ -1,62 +1,47 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <package version="0">
-    <meta>
-        <uuid>{f6ef66e9-3d11-45e8-a9a7-49d5f281a4a7}</uuid>
-        <version>0.1</version>
-        <author>LibrePCB</author>
-        <created>2015-06-21T12:37:34Z</created>
-        <last_modified>2015-06-21T12:37:34Z</last_modified>
-        <name locale="en_US">R-0201</name>
-        <description locale="en_US"></description>
-        <keywords locale="en_US"/>
-        <footprint>{3739bd6f-bbde-43c9-bda8-72b801569276}</footprint>
-        <model_3d></model_3d>
-    </meta>
-    <categories/>
-    <pads>
-        <pad layer="300" rotation="0.000000" type="smd_rect" x="-0.255000" y="0.000000" width="0.280000" uuid="{cebb1d91-53a8-4afd-86a5-d3406ebf8942}" height="0.430000" drill="0.000000">
-            <name locale="en_US">1</name>
-            <description locale="en_US"/>
-        </pad>
-        <pad layer="300" rotation="0.000000" type="smd_rect" x="0.255000" y="0.000000" width="0.280000" uuid="{6a007f8c-985f-4d06-8e2e-6104b6008441}" height="0.430000" drill="0.000000">
-            <name locale="en_US">2</name>
-            <description locale="en_US"/>
-        </pad>
-    </pads>
-    <footprints>
-        <footprint uuid="{3739bd6f-bbde-43c9-bda8-72b801569276}" default="true">
-            <name locale="en_US">default</name>
-            <description locale="en_US"></description>
-            <geometry>
-        <polygon layer="200" grab_area="true" fill="true" start_x="-0.300000" start_y="-0.150000" width="0.000000">
-            <segment end_x="-0.150000" end_y="-0.150000" angle="0.000000"/>
-            <segment end_x="-0.150000" end_y="0.150000" angle="0.000000"/>
-            <segment end_x="-0.300000" end_y="0.150000" angle="0.000000"/>
-            <segment end_x="-0.300000" end_y="-0.150000" angle="0.000000"/>
-        </polygon>
-        <polygon layer="200" grab_area="true" fill="true" start_x="0.150000" start_y="-0.150000" width="0.000000">
-            <segment end_x="0.300000" end_y="-0.150000" angle="0.000000"/>
-            <segment end_x="0.300000" end_y="0.150000" angle="0.000000"/>
-            <segment end_x="0.150000" end_y="0.150000" angle="0.000000"/>
-            <segment end_x="0.150000" end_y="-0.150000" angle="0.000000"/>
-        </polygon>
-        <polygon layer="260" grab_area="true" fill="true" start_x="-0.150000" start_y="-0.150000" width="0.000000">
-            <segment end_x="0.150000" end_y="-0.150000" angle="0.000000"/>
-            <segment end_x="0.150000" end_y="0.150000" angle="0.000000"/>
-            <segment end_x="-0.150000" end_y="0.150000" angle="0.000000"/>
-            <segment end_x="-0.150000" end_y="-0.150000" angle="0.000000"/>
-        </polygon>
-        <text layer="240" rotation="0.000000" text="${CMP::NAME}" x="-0.635000" y="0.635000" h_align="left" v_align="bottom" height="2.500000"/>
-        <text layer="250" rotation="0.000000" text="${CMP::VALUE}" x="-0.635000" y="-1.905000" h_align="left" v_align="bottom" height="2.000000"/>
-        <pad layer="300" rotation="0.000000" type="smd_rect" x="-0.255000" y="0.000000" width="0.280000" uuid="{cebb1d91-53a8-4afd-86a5-d3406ebf8942}" height="0.430000" drill="0.000000">
-            <name locale="en_US">1</name>
-            <description locale="en_US"/>
-        </pad>
-        <pad layer="300" rotation="0.000000" type="smd_rect" x="0.255000" y="0.000000" width="0.280000" uuid="{6a007f8c-985f-4d06-8e2e-6104b6008441}" height="0.430000" drill="0.000000">
-            <name locale="en_US">2</name>
-            <description locale="en_US"/>
-        </pad>
-    </geometry>
-        </footprint>
-    </footprints>
+ <meta>
+  <uuid>{f6ef66e9-3d11-45e8-a9a7-49d5f281a4a7}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-06-21T12:37:34Z</created>
+  <last_modified>2015-06-21T12:37:34Z</last_modified>
+  <name locale="en_US">R-0201</name>
+  <description locale="en_US"></description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="{cebb1d91-53a8-4afd-86a5-d3406ebf8942}">1</pad>
+  <pad uuid="{6a007f8c-985f-4d06-8e2e-6104b6008441}">2</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{3739bd6f-bbde-43c9-bda8-72b801569276}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon grab_area="true" width="0.000000" fill="true" start_x="-0.300000" start_y="-0.150000" layer="200">
+     <segment end_x="-0.150000" end_y="-0.150000" angle="0.000000"/>
+     <segment end_x="-0.150000" end_y="0.150000" angle="0.000000"/>
+     <segment end_x="-0.300000" end_y="0.150000" angle="0.000000"/>
+     <segment end_x="-0.300000" end_y="-0.150000" angle="0.000000"/>
+    </polygon>
+    <polygon grab_area="true" width="0.000000" fill="true" start_x="0.150000" start_y="-0.150000" layer="200">
+     <segment end_x="0.300000" end_y="-0.150000" angle="0.000000"/>
+     <segment end_x="0.300000" end_y="0.150000" angle="0.000000"/>
+     <segment end_x="0.150000" end_y="0.150000" angle="0.000000"/>
+     <segment end_x="0.150000" end_y="-0.150000" angle="0.000000"/>
+    </polygon>
+    <polygon grab_area="true" width="0.000000" fill="true" start_x="-0.150000" start_y="-0.150000" layer="260">
+     <segment end_x="0.150000" end_y="-0.150000" angle="0.000000"/>
+     <segment end_x="0.150000" end_y="0.150000" angle="0.000000"/>
+     <segment end_x="-0.150000" end_y="0.150000" angle="0.000000"/>
+     <segment end_x="-0.150000" end_y="-0.150000" angle="0.000000"/>
+    </polygon>
+    <text v_align="bottom" height="2.500000" rotation="0.000000" x="-0.635000" y="0.635000" layer="240" h_align="left">${CMP::NAME}</text>
+    <text v_align="bottom" height="2.000000" rotation="0.000000" x="-0.635000" y="-1.905000" layer="250" h_align="left">${CMP::VALUE}</text>
+    <pad width="0.280000" smt_side="top" type="smt_rect" height="0.430000" rotation="0.000000" tht_drill="0.000000" x="0.255000" y="0.000000" uuid="{6a007f8c-985f-4d06-8e2e-6104b6008441}"/>
+    <pad width="0.280000" smt_side="top" type="smt_rect" height="0.430000" rotation="0.000000" tht_drill="0.000000" x="-0.255000" y="0.000000" uuid="{cebb1d91-53a8-4afd-86a5-d3406ebf8942}"/>
+   </geometry>
+  </footprint>
+ </footprints>
 </package>
