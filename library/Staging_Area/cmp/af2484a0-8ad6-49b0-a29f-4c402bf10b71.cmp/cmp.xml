@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{af2484a0-8ad6-49b0-a29f-4c402bf10b71}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <name locale="en_US">P6KEXX</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+transient-voltage suppressor
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: P6KEXX
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{fbacf4f0-898e-438f-b406-1651c3eafa09}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{d69249b7-38d3-4f40-9b75-0ee71fedfb27}" role="passive">C</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{bba7315a-4d26-46da-90ea-2dbc770ef317}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="1" symbol="{b4019e5f-dead-4f11-9040-41fa27f7f4bd}" uuid="{bf669227-0e39-4ee5-bef0-348960217b9d}">
+     <pin_signal_map>
+      <map pin="{0c83d4fb-d2f9-4199-b82e-f65cdb357d55}" display="component_signal">{fbacf4f0-898e-438f-b406-1651c3eafa09}</map>
+      <map pin="{d1121c89-3dea-4883-9bd1-3cba1d5b038d}" display="component_signal">{d69249b7-38d3-4f40-9b75-0ee71fedfb27}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{de050dd6-9c8a-4081-84fd-8e074e38d829}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:49Z</created>
+  <last_modified>2015-12-20T22:10:49Z</last_modified>
+  <name locale="en_US">PT-SPIN</name>
+  <description locale="en_US">&lt;b>Trimm Potentiometer&lt;/b>
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: PT-SPIN
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{cf47dd45-8e68-4b30-96cf-6a60c6fda513}">3</pad>
+  <pad uuid="{a98ee84b-4bdf-4940-8ee9-3d04d4d36047}">2</pad>
+  <pad uuid="{222a79dc-77e4-4b2f-bd2b-06ac779c7d5f}">1</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{3713b6c8-7580-43d9-b04c-6707e4a8d4ab}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.000000" start_x="-9.525000" start_y="-1.270000" fill="true" grab_area="true" layer="260">
+     <segment end_x="-8.890000" end_y="-1.270000" angle="0.000000"/>
+     <segment end_x="-8.890000" end_y="1.270000" angle="0.000000"/>
+     <segment end_x="-9.525000" end_y="1.270000" angle="0.000000"/>
+     <segment end_x="-9.525000" end_y="-1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-10.160000" start_y="0.381000" fill="true" grab_area="true" layer="260">
+     <segment end_x="-9.525000" end_y="0.381000" angle="0.000000"/>
+     <segment end_x="-9.525000" end_y="1.270000" angle="0.000000"/>
+     <segment end_x="-10.160000" end_y="1.270000" angle="0.000000"/>
+     <segment end_x="-10.160000" end_y="0.381000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-10.160000" start_y="-1.270000" fill="true" grab_area="true" layer="260">
+     <segment end_x="-9.525000" end_y="-1.270000" angle="0.000000"/>
+     <segment end_x="-9.525000" end_y="-0.381000" angle="0.000000"/>
+     <segment end_x="-10.160000" end_y="-0.381000" angle="0.000000"/>
+     <segment end_x="-10.160000" end_y="-1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.127000" start_x="8.890000" start_y="-2.540000" fill="false" grab_area="true" layer="260">
+     <segment end_x="8.890000" end_y="2.540000" angle="0.000000"/>
+     <segment end_x="-8.890000" end_y="2.540000" angle="0.000000"/>
+     <segment end_x="-8.890000" end_y="-2.540000" angle="0.000000"/>
+     <segment end_x="8.890000" end_y="-2.540000" angle="0.000000"/>
+    </polygon>
+    <text x="-3.175000" height="2.500000" y="3.175000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-5.080000" height="2.000000" y="-1.778000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="1.524000" x="-6.350000" height="1.524000" y="-1.270000" rotation="0.000000" type="tht_octagon" uuid="{222a79dc-77e4-4b2f-bd2b-06ac779c7d5f}" tht_drill="0.812800"/>
+    <pad smt_side="top" width="1.524000" x="6.350000" height="1.524000" y="-1.270000" rotation="0.000000" type="tht_octagon" uuid="{a98ee84b-4bdf-4940-8ee9-3d04d4d36047}" tht_drill="0.812800"/>
+    <pad smt_side="top" width="1.524000" x="-1.270000" height="1.524000" y="1.270000" rotation="0.000000" type="tht_octagon" uuid="{cf47dd45-8e68-4b30-96cf-6a60c6fda513}" tht_drill="0.812800"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{88bf5799-8a29-4ab1-b1fa-1224192b1e43}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:47Z</created>
+  <last_modified>2015-12-20T22:10:47Z</last_modified>
+  <name locale="en_US">YC10B4</name>
+  <description locale="en_US">&lt;b>Y CAPACITOR&lt;/b>&lt;p>
+body 13.6 x 4 mm, grid 10.16 mm
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: YC10B4
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{d2563b55-d93b-4710-83c7-ca7e3e2455c0}">1</pad>
+  <pad uuid="{54f97ade-34e3-47aa-a84b-6c47d181547f}">2</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{f1c08e9d-70c4-437b-aa87-cdc4c46e1ceb}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.406400" start_x="-2.921000" start_y="1.270000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.921000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.406400" start_x="-2.032000" start_y="1.270000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.032000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="3.810000" start_y="0.000000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.032000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.406400" start_x="-2.032000" start_y="0.000000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.032000" end_y="-1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-3.810000" start_y="0.000000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.921000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.406400" start_x="-2.921000" start_y="0.000000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.921000" end_y="-1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-3.987800" start_y="1.320800" fill="false" grab_area="true" layer="260">
+     <segment end_x="-3.987800" end_y="1.092200" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-3.987800" start_y="1.092200" fill="false" grab_area="true" layer="260">
+     <segment end_x="-3.708400" end_y="0.812800" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-3.708400" start_y="0.812800" fill="false" grab_area="true" layer="260">
+     <segment end_x="-3.708400" end_y="0.457200" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-3.708400" start_y="0.812800" fill="false" grab_area="true" layer="260">
+     <segment end_x="-3.429000" end_y="1.092200" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-3.429000" start_y="1.092200" fill="false" grab_area="true" layer="260">
+     <segment end_x="-3.429000" end_y="1.320800" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-6.731000" start_y="2.032000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-6.731000" end_y="-2.032000" angle="0.000000"/>
+     <segment end_x="6.731000" end_y="-2.032000" angle="0.000000"/>
+     <segment end_x="6.731000" end_y="2.032000" angle="0.000000"/>
+     <segment end_x="-6.731000" end_y="2.032000" angle="0.000000"/>
+    </polygon>
+    <text x="-6.731000" height="2.500000" y="2.387600" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-1.397000" height="2.000000" y="-1.651000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="2.032000" x="5.080000" height="2.032000" y="0.000000" rotation="0.000000" type="tht_octagon" uuid="{54f97ade-34e3-47aa-a84b-6c47d181547f}" tht_drill="1.016000"/>
+    <pad smt_side="top" width="2.032000" x="-5.080000" height="2.032000" y="0.000000" rotation="0.000000" type="tht_octagon" uuid="{d2563b55-d93b-4710-83c7-ca7e3e2455c0}" tht_drill="1.016000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

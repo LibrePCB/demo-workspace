@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{dc16fcb0-c9fa-402e-90c2-6c23f77c44e3}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <name locale="en_US">RV-3029-C2</name>
+  <description locale="en_US">&lt;b>Highly accurate, DTCXO Temperature Compensated Real Time Clock / Calendar&lt;/b>&lt;p>
+Module with I2C Interface.
+Source: &lt;a href="http://www.mcrystal.ch/Resources/PDFs/DataSheet/Real-Time-Clocks/RV-3029-C2.aspx"> Data shhet &lt;/a>
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: RV-3029-C2
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">IC</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{04b94378-ecdf-41f7-b9ec-201e48fcb3ef}" role="passive">!INT</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{854c02cc-7a94-45c9-bf8e-163000861231}" role="passive">CLKOE</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{96b1251b-be21-48b1-bdbd-4b450436413b}" role="passive">CLKOUT</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{694fa0c3-2c3f-40e8-8d53-f9a0bf6f0b2d}" role="passive">SCL</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{0f36ae67-9467-45f9-a14b-297e9a63c719}" role="passive">SDA</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{f7cf6d55-8691-4e78-be66-1791ce8772dd}" role="passive">VBACKUP</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{022484a5-3abf-45a2-a56a-091e401575ea}" role="passive">VDD</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{60598b7a-45ef-4405-87a6-5d8639bb9370}" role="passive">VSS</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{798ad3c2-3a9b-47d3-9380-2bfc6867032a}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="RV-3029-C1" symbol="{ccd54157-5744-44bc-8533-8921a5990137}" uuid="{88ab1c23-5aab-44cb-b15a-acc7c83f6c48}">
+     <pin_signal_map>
+      <map pin="{eb9b79c7-16da-497d-b927-777ebda1218e}" display="component_signal">{04b94378-ecdf-41f7-b9ec-201e48fcb3ef}</map>
+      <map pin="{5d25ccad-0597-42c4-8337-c23fcafe7f64}" display="component_signal">{022484a5-3abf-45a2-a56a-091e401575ea}</map>
+      <map pin="{1d88587e-f565-4f5a-a72d-c142b2083b95}" display="component_signal">{854c02cc-7a94-45c9-bf8e-163000861231}</map>
+      <map pin="{c262cde4-f15f-4da0-b72a-5a52ded2796b}" display="component_signal">{f7cf6d55-8691-4e78-be66-1791ce8772dd}</map>
+      <map pin="{fa457915-9610-4a64-ab76-0efd76a484f3}" display="component_signal">{96b1251b-be21-48b1-bdbd-4b450436413b}</map>
+      <map pin="{fa2bd00d-5d47-4c7c-8ceb-098ddf35ead5}" display="component_signal">{694fa0c3-2c3f-40e8-8d53-f9a0bf6f0b2d}</map>
+      <map pin="{19b2df4a-e11d-40ec-a21a-2074dd64c517}" display="component_signal">{0f36ae67-9467-45f9-a14b-297e9a63c719}</map>
+      <map pin="{0792d1c4-f715-474b-86a8-ba2b09e3d9d0}" display="component_signal">{60598b7a-45ef-4405-87a6-5d8639bb9370}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

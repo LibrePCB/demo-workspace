@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{2d024c02-1b4b-4e9b-b76d-ccc7dbc73319}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:01Z</created>
+  <last_modified>2015-12-20T22:11:01Z</last_modified>
+  <name locale="en_US">OSTAR_6-</name>
+  <description locale="en_US">&lt;b>OSTAR - Lighting wihtout Optics&lt;/b>&lt;p>
+Source: http://catalog.osram-os.com/media/_en/Graphics/00035769_0.pdf
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: OSTAR_6-
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">LED</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{f2126a34-5b3f-4317-bb0a-22de42b66d9d}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{34394fd6-ea9f-4935-b032-a87058d87ac7}" role="passive">C</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{193d6252-d5b5-4577-889f-122fb8e2ceeb}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="{4ba9674b-2ecd-4db2-8fee-5fc2bc27662b}" uuid="{4aa96f95-ac97-4c1e-bc1d-cc388aa6010c}">
+     <pin_signal_map>
+      <map pin="{b2e77975-2b1e-4642-beb2-1294e50ed145}" display="component_signal">{f2126a34-5b3f-4317-bb0a-22de42b66d9d}</map>
+      <map pin="{2f17e861-4502-4d51-94da-e0314fe6efc6}" display="component_signal">{34394fd6-ea9f-4935-b032-a87058d87ac7}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

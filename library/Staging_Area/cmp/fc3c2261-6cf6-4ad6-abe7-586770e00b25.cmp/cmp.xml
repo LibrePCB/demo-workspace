@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{fc3c2261-6cf6-4ad6-abe7-586770e00b25}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <name locale="en_US">UF4003</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+ultrafast recovery diode, 200 V&lt;p>
+rectifier
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: UF4003
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{d69ceb16-7ac4-42d3-8f31-ed0a76a8f2d5}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{224b5c1d-9b9c-4e1a-bd6e-ca30be7cdca4}" role="passive">C</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{a0bde319-379f-4ea6-8dec-908c08ee3b62}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="1" symbol="{8eaf9d11-7442-4af8-9051-9e3662b36279}" uuid="{9af73512-37e9-472a-92b0-b67e8fd082a9}">
+     <pin_signal_map>
+      <map pin="{8aa8c919-7171-4594-ae73-dc0b76bf036f}" display="component_signal">{224b5c1d-9b9c-4e1a-bd6e-ca30be7cdca4}</map>
+      <map pin="{8ebf7e67-03d9-4666-8642-39a59899cb5d}" display="component_signal">{d69ceb16-7ac4-42d3-8f31-ed0a76a8f2d5}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

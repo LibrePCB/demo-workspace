@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{22b690df-7f78-4b6d-8581-ec8a81c076a8}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:48Z</created>
+  <last_modified>2015-12-20T22:10:48Z</last_modified>
+  <name locale="en_US">SANYO-OSCON_F13</name>
+  <description locale="en_US">&lt;b>SANYO OSCON Capacitor&lt;/b>&lt;p>
+Source: e_os_all.pdf
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: SANYO-OSCON_F13
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{de0cfe47-825a-480c-9da0-a491155d38ad}">-</pad>
+  <pad uuid="{4dc6208f-6166-41f3-af7d-f9e114997abd}">+</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{b4a4d110-b132-4de4-9b4b-9201cb61522e}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.203200" start_x="-3.400000" start_y="3.450000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-3.400000" end_y="-3.400000" angle="0.000000"/>
+     <segment end_x="-4.850000" end_y="0.000000" angle="0.000000"/>
+     <segment end_x="-3.400000" end_y="3.450000" angle="0.000000"/>
+    </polygon>
+    <text x="-2.540000" height="2.500000" y="1.905000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-2.540000" height="2.000000" y="-3.175000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.203200" radius_x="4.900000" x="0.000000" radius_y="4.900000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <pad smt_side="top" width="1.270000" x="-2.500000" height="1.270000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{de0cfe47-825a-480c-9da0-a491155d38ad}" tht_drill="0.800000"/>
+    <pad smt_side="top" width="1.270000" x="2.500000" height="1.270000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{4dc6208f-6166-41f3-af7d-f9e114997abd}" tht_drill="0.800000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

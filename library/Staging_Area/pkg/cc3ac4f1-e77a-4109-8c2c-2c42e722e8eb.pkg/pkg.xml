@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{cc3ac4f1-e77a-4109-8c2c-2c42e722e8eb}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:48Z</created>
+  <last_modified>2015-12-20T22:10:48Z</last_modified>
+  <name locale="en_US">CTRIM808-BC</name>
+  <description locale="en_US">&lt;b>Trimm capacitor &lt;/b> BC-Components
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: CTRIM808-BC
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{7ed4b862-8b67-4ffd-90a4-80422e5f772f}">2</pad>
+  <pad uuid="{4c35b132-379b-41d8-b7b8-40738dff71f2}">1</pad>
+  <pad uuid="{f78dbd7e-38de-45bc-aa9e-d0b557eb193b}">3</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{4f27b4ef-9656-4259-b008-c07827d6ab53}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.254000" start_x="-3.403600" start_y="1.016000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-1.016000" end_y="3.403600" angle="-56.758486"/>
+    </polygon>
+    <polygon width="0.254000" start_x="1.016000" start_y="3.403600" fill="false" grab_area="true" layer="260">
+     <segment end_x="3.403600" end_y="1.016000" angle="-56.758486"/>
+    </polygon>
+    <polygon width="0.254000" start_x="-3.403600" start_y="-1.016000" fill="false" grab_area="true" layer="260">
+     <segment end_x="3.403600" end_y="-1.016000" angle="146.758486"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-1.219200" start_y="-0.304800" fill="true" grab_area="true" layer="260">
+     <segment end_x="1.219200" end_y="-0.304800" angle="0.000000"/>
+     <segment end_x="1.219200" end_y="0.304800" angle="0.000000"/>
+     <segment end_x="-1.219200" end_y="0.304800" angle="0.000000"/>
+     <segment end_x="-1.219200" end_y="-0.304800" angle="0.000000"/>
+    </polygon>
+    <text x="-4.468400" height="2.500000" y="-3.405600" rotation="90.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="5.770000" height="2.000000" y="-3.405600" rotation="90.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.254000" radius_x="3.556000" x="0.000000" radius_y="3.556000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="200"/>
+    <ellipse width="0.152400" radius_x="1.271000" x="0.000000" radius_y="1.271000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <pad smt_side="top" width="2.600000" x="-3.606800" height="2.600000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{4c35b132-379b-41d8-b7b8-40738dff71f2}" tht_drill="1.300000"/>
+    <pad smt_side="top" width="2.600000" x="0.000000" height="2.600000" y="3.606800" rotation="0.000000" type="tht_round" uuid="{7ed4b862-8b67-4ffd-90a4-80422e5f772f}" tht_drill="1.300000"/>
+    <pad smt_side="top" width="2.600000" x="3.606800" height="2.600000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{f78dbd7e-38de-45bc-aa9e-d0b557eb193b}" tht_drill="1.300000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

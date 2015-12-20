@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{8c159634-8355-4f95-b656-d56a3e386996}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:50Z</created>
+  <last_modified>2015-12-20T22:10:50Z</last_modified>
+  <name locale="en_US">SM-42/43W</name>
+  <description locale="en_US">&lt;b>COPAL ELECTRONICS SM-42/43 SURFACE MOUNT TRIMMERS&lt;/b> Top adjustmet&lt;p>
+Source: smt-pots.pdf
+
+This element was automatically imported from Eagle
+Filepath: 0_Standardbauteile.lbr
+Name: SM-42/43W
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{7aa0f7b3-d881-49e2-a4ca-30713ced97bf}">1</pad>
+  <pad uuid="{08225942-e255-450d-a154-51dfc893d0b9}">2</pad>
+  <pad uuid="{b8b2c404-d4c9-47d5-86d2-fc0bc3f728c1}">3</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{aa46fef8-dc91-43d7-a877-6d1ea21fec2f}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.203200" start_x="2.300000" start_y="1.650000" fill="false" grab_area="true" layer="260">
+     <segment end_x="1.200000" end_y="1.650000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-1.200000" start_y="1.650000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.300000" end_y="1.650000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="1.525000" start_y="1.175000" fill="false" grab_area="true" layer="200">
+     <segment end_x="0.875000" end_y="0.525000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-1.675000" start_y="-1.950000" fill="true" grab_area="true" layer="200">
+     <segment end_x="-0.875000" end_y="-1.950000" angle="0.000000"/>
+     <segment end_x="-0.875000" end_y="-1.650000" angle="0.000000"/>
+     <segment end_x="-1.675000" end_y="-1.650000" angle="0.000000"/>
+     <segment end_x="-1.675000" end_y="-1.950000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="0.875000" start_y="-1.950000" fill="true" grab_area="true" layer="200">
+     <segment end_x="1.675000" end_y="-1.950000" angle="0.000000"/>
+     <segment end_x="1.675000" end_y="-1.650000" angle="0.000000"/>
+     <segment end_x="0.875000" end_y="-1.650000" angle="0.000000"/>
+     <segment end_x="0.875000" end_y="-1.950000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-0.650000" start_y="1.650000" fill="true" grab_area="true" layer="200">
+     <segment end_x="0.650000" end_y="1.650000" angle="0.000000"/>
+     <segment end_x="0.650000" end_y="1.950000" angle="0.000000"/>
+     <segment end_x="-0.650000" end_y="1.950000" angle="0.000000"/>
+     <segment end_x="-0.650000" end_y="1.650000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-2.300000" start_y="1.650000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-2.300000" end_y="-1.625000" angle="0.000000"/>
+     <segment end_x="2.300000" end_y="-1.625000" angle="0.000000"/>
+     <segment end_x="2.300000" end_y="1.650000" angle="0.000000"/>
+     <segment end_x="-2.300000" end_y="1.650000" angle="0.000000"/>
+    </polygon>
+    <text x="-2.400000" height="2.500000" y="-3.625000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-2.400000" height="2.000000" y="2.475000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.203200" radius_x="0.550500" x="1.200000" radius_y="0.550500" y="0.850000" fill="false" grab_area="true" rotation="0.000000" layer="200"/>
+    <pad smt_side="top" width="2.000000" x="0.000000" height="1.600000" y="1.450000" rotation="0.000000" type="smt_rect" uuid="{08225942-e255-450d-a154-51dfc893d0b9}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="1.300000" x="1.270000" height="1.600000" y="-1.450000" rotation="0.000000" type="smt_rect" uuid="{b8b2c404-d4c9-47d5-86d2-fc0bc3f728c1}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="1.300000" x="-1.270000" height="1.600000" y="-1.450000" rotation="0.000000" type="smt_rect" uuid="{7aa0f7b3-d881-49e2-a4ca-30713ced97bf}" tht_drill="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

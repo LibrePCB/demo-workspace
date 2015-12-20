@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{ea26254e-2745-44dd-8f8e-679cf7adfc62}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <name locale="en_US">BAT54S</name>
+  <description locale="en_US">&lt;b>Schottky Diodes&lt;/b>&lt;p>
+Pin connection corrected 2011-05-04&lt;br>
+Source: Fairchild .. BAT54.pdf
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: BAT54S
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{099df81d-58fc-43d8-ab06-3efd7e6e5481}" role="passive">A1</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{f4e00912-0b5c-441d-8d85-b6ad5baeb2e1}" role="passive">C1A2</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{f739ac3b-17f8-4fa4-84e5-cbd2c56e5343}" role="passive">C2</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{19a749aa-1724-44f6-aea8-3146d0c0656c}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="{d345f71f-20a3-4c6d-a942-bb2d702750c8}" uuid="{c055a50b-44dc-4d77-9ed3-5bfc46368237}">
+     <pin_signal_map>
+      <map pin="{08f31cfc-5473-41f1-9bba-263e486d3adc}" display="component_signal">{099df81d-58fc-43d8-ab06-3efd7e6e5481}</map>
+      <map pin="{9166d3a3-bfe9-47b0-b3df-0dce788d46ae}" display="component_signal">{f4e00912-0b5c-441d-8d85-b6ad5baeb2e1}</map>
+      <map pin="{49d15d1d-fae5-4e85-844c-276ab5d99cde}" display="component_signal">{f739ac3b-17f8-4fa4-84e5-cbd2c56e5343}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

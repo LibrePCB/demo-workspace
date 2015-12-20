@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{836a9d72-7b0e-4a52-b26a-7226e7e653c7}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:50Z</created>
+  <last_modified>2015-12-20T22:10:50Z</last_modified>
+  <name locale="en_US">DO15-12</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+
+diameter 3.5 mm, horizontal, grid 12.7 mm&lt;p>
+&lt;p>
+
+1N4007
+
+This element was automatically imported from Eagle
+Filepath: 0_Standardbauteile.lbr
+Name: DO15-12
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{dab258e0-2829-4fcd-bb7c-e74786922d3e}">C</pad>
+  <pad uuid="{4de2f23b-e61c-4fb6-afa4-8b87ef30634e}">A</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{ebb4e920-f771-494b-8278-57c4229a3cbf}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.762000" start_x="1.270000" start_y="0.000000" fill="false" grab_area="true" layer="200">
+     <segment end_x="0.254000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.762000" start_x="-6.350000" start_y="0.000000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-5.334000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-5.842000" start_y="-0.381000" fill="true" grab_area="true" layer="260">
+     <segment end_x="-4.445000" end_y="-0.381000" angle="0.000000"/>
+     <segment end_x="-4.445000" end_y="0.381000" angle="0.000000"/>
+     <segment end_x="-5.842000" end_y="0.381000" angle="0.000000"/>
+     <segment end_x="-5.842000" end_y="-0.381000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-0.635000" start_y="-0.381000" fill="true" grab_area="true" layer="260">
+     <segment end_x="0.762000" end_y="-0.381000" angle="0.000000"/>
+     <segment end_x="0.762000" end_y="0.381000" angle="0.000000"/>
+     <segment end_x="-0.635000" end_y="0.381000" angle="0.000000"/>
+     <segment end_x="-0.635000" end_y="-0.381000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-3.810000" start_y="-1.270000" fill="true" grab_area="true" layer="260">
+     <segment end_x="-3.175000" end_y="-1.270000" angle="0.000000"/>
+     <segment end_x="-3.175000" end_y="1.270000" angle="0.000000"/>
+     <segment end_x="-3.810000" end_y="1.270000" angle="0.000000"/>
+     <segment end_x="-3.810000" end_y="-1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-0.635000" start_y="-1.143000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-0.635000" end_y="1.143000" angle="0.000000"/>
+     <segment end_x="-4.445000" end_y="1.143000" angle="0.000000"/>
+     <segment end_x="-4.445000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="-0.635000" end_y="-1.143000" angle="0.000000"/>
+    </polygon>
+    <text x="-3.683000" height="2.500000" y="1.524000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-4.064000" height="2.000000" y="-2.667000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="4.470400" x="1.270000" height="2.235200" y="0.000000" rotation="0.000000" type="tht_round" uuid="{4de2f23b-e61c-4fb6-afa4-8b87ef30634e}" tht_drill="1.117600"/>
+    <pad smt_side="top" width="4.470400" x="-6.350000" height="2.235200" y="0.000000" rotation="0.000000" type="tht_round" uuid="{dab258e0-2829-4fcd-bb7c-e74786922d3e}" tht_drill="1.117600"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

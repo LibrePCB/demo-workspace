@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{8de88f5f-6b56-4cf9-83b5-5bd0067bd57e}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <name locale="en_US">P600</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+high voltage diode, silicon rectifier&lt;p>
+1.0 A to 6.0 A, 50 V to 1300 V&lt;p>
+http://www.kosemi.com/product/diosr.html
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: P600
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{02c7bd38-33bf-4a3b-8267-389eec22dc25}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{1546a4a5-26f2-4d77-8d1f-02376f61388c}" role="passive">C</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{36998b05-9f13-492e-8279-f8565aed7a9f}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="{8eaf9d11-7442-4af8-9051-9e3662b36279}" uuid="{0fc90074-59b4-4fb0-9d6e-5e5124dd9b83}">
+     <pin_signal_map>
+      <map pin="{8aa8c919-7171-4594-ae73-dc0b76bf036f}" display="component_signal">{1546a4a5-26f2-4d77-8d1f-02376f61388c}</map>
+      <map pin="{8ebf7e67-03d9-4666-8642-39a59899cb5d}" display="component_signal">{02c7bd38-33bf-4a3b-8267-389eec22dc25}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

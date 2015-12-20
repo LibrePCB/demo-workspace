@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{d4228c3b-2d27-4aa2-a1f7-5a811610a946}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:50Z</created>
+  <last_modified>2015-12-20T22:10:50Z</last_modified>
+  <name locale="en_US">ELKO_D6.5_RM2.54</name>
+  <description locale="en_US">&lt;b>ELECTROLYTIC CAPACITOR&lt;/b>&lt;p>
+grid 2.54 mm, diameter 6,5 mm&lt;p>
+&lt;p>
+220uF/16V&lt;p>
+47uF/35V&lt;p>
+100uF/35V&lt;p>
+22uF/63V&lt;p>
+
+This element was automatically imported from Eagle
+Filepath: 0_Standardbauteile.lbr
+Name: ELKO_D6.5_RM2.54
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{4af692cb-7f18-49d1-91f6-b76d1be0fcb2}">-</pad>
+  <pad uuid="{5330d97b-cd86-4886-a64a-482fd1e6ec14}">+</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{51fcd3c2-87c8-4eae-a542-b9bc2e9a5f49}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.152400" start_x="-3.048000" start_y="0.000000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.286000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-2.667000" start_y="-0.381000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.667000" end_y="0.381000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-1.651000" start_y="0.000000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-0.762000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-0.762000" start_y="0.000000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-0.762000" end_y="-1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-0.762000" start_y="-1.270000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-0.254000" end_y="-1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-0.254000" start_y="-1.270000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-0.254000" end_y="1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-0.254000" start_y="1.270000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-0.762000" end_y="1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-0.762000" start_y="1.270000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-0.762000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="0.635000" start_y="0.000000" fill="false" grab_area="true" layer="200">
+     <segment end_x="1.651000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="0.254000" start_y="-1.270000" fill="true" grab_area="true" layer="200">
+     <segment end_x="0.762000" end_y="-1.270000" angle="0.000000"/>
+     <segment end_x="0.762000" end_y="1.270000" angle="0.000000"/>
+     <segment end_x="0.254000" end_y="1.270000" angle="0.000000"/>
+     <segment end_x="0.254000" end_y="-1.270000" angle="0.000000"/>
+    </polygon>
+    <text x="3.048000" height="2.500000" y="2.032000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="3.048000" height="2.000000" y="-3.175000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.152400" radius_x="3.250000" x="0.000000" radius_y="3.250000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <pad smt_side="top" width="1.600200" x="-1.270000" height="1.600200" y="0.000000" rotation="0.000000" type="tht_round" uuid="{5330d97b-cd86-4886-a64a-482fd1e6ec14}" tht_drill="0.812800"/>
+    <pad smt_side="top" width="1.600200" x="1.270000" height="1.600200" y="0.000000" rotation="0.000000" type="tht_octagon" uuid="{4af692cb-7f18-49d1-91f6-b76d1be0fcb2}" tht_drill="0.812800"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

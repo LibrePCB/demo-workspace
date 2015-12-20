@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{475f7146-6226-45b7-87a4-24aa0db98c3d}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:49Z</created>
+  <last_modified>2015-12-20T22:10:49Z</last_modified>
+  <name locale="en_US">SANYO-OSCON_A'</name>
+  <description locale="en_US">&lt;b>SANYO OSCON Capacitor&lt;/b>&lt;p>
+Source: e_os_all.pdf
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: SANYO-OSCON_A'
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{4b7f1ec9-9c2f-4134-8bca-6542949a5f9b}">-</pad>
+  <pad uuid="{6c2636bf-60ee-4dd1-81fb-90a246220e51}">+</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{f755336b-3d7a-4ab4-8504-ac36b60075b5}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.406400" start_x="-1.550000" start_y="-0.400000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-1.550000" end_y="0.400000" angle="0.000000"/>
+    </polygon>
+    <text x="-1.905000" height="2.500000" y="1.270000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-1.905000" height="2.000000" y="-2.540000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.203200" radius_x="1.900000" x="0.000000" radius_y="1.900000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <pad smt_side="top" width="1.000000" x="-0.750000" height="1.000000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{4b7f1ec9-9c2f-4134-8bca-6542949a5f9b}" tht_drill="0.600000"/>
+    <pad smt_side="top" width="1.000000" x="0.750000" height="1.000000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{6c2636bf-60ee-4dd1-81fb-90a246220e51}" tht_drill="0.600000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

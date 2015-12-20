@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{c52f0fda-4514-4ed5-92cd-12e111ee3b36}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <name locale="en_US">BYW80</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+high-efficiency fast recovery rectifier (ST)
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: BYW80
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{913ecc57-a1b8-42f6-9ea4-dba8a7868ea2}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{e71ea7e6-b3e1-42f3-953d-d32780d1e3e8}" role="passive">C</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{dba0f183-ca48-4652-a09b-ef69a9d093d3}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="1" symbol="{8eaf9d11-7442-4af8-9051-9e3662b36279}" uuid="{5b2b665f-69ae-43a4-abc3-0d71148a4f13}">
+     <pin_signal_map>
+      <map pin="{8aa8c919-7171-4594-ae73-dc0b76bf036f}" display="component_signal">{e71ea7e6-b3e1-42f3-953d-d32780d1e3e8}</map>
+      <map pin="{8ebf7e67-03d9-4666-8642-39a59899cb5d}" display="component_signal">{913ecc57-a1b8-42f6-9ea4-dba8a7868ea2}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

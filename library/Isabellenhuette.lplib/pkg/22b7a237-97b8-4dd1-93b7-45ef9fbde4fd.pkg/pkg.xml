@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{22b7a237-97b8-4dd1-93b7-45ef9fbde4fd}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-21T13:28:18Z</created>
+  <last_modified>2015-12-21T13:28:18Z</last_modified>
+  <name locale="en_US">PMD</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: isabellen.lbr
+Name: PMD
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{bd936443-a760-4d06-94cc-bafa00e6fb4e}">2</pad>
+  <pad uuid="{530f9cfc-110c-4294-bac6-0979f7a90e97}">1</pad>
+ </pads>
+ <footprints>
+  <footprint uuid="{f30e052c-d5a4-40e7-a16e-c52e9bbd5aa3}" default="true">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.200000" fill="false" grab_area="true" layer="260" start_x="-4.900000" start_y="2.900000">
+     <segment end_y="-2.900000" angle="0.000000" end_x="-4.900000"/>
+     <segment end_y="-2.900000" angle="0.000000" end_x="4.900000"/>
+     <segment end_y="2.900000" angle="0.000000" end_x="4.900000"/>
+     <segment end_y="2.900000" angle="0.000000" end_x="-4.900000"/>
+    </polygon>
+    <text h_align="left" v_align="bottom" layer="240" x="-2.692400" y="1.016000" rotation="0.000000" height="2.500000">${CMP::NAME}</text>
+    <text h_align="left" v_align="bottom" layer="250" x="-2.743200" y="-1.930400" rotation="0.000000" height="2.000000">${CMP::VALUE}</text>
+    <pad width="1.700000" type="smt_rect" smt_side="top" uuid="{bd936443-a760-4d06-94cc-bafa00e6fb4e}" x="-3.860800" y="0.000000" rotation="0.000000" height="5.400000" tht_drill="0.000000"/>
+    <pad width="1.700000" type="smt_rect" smt_side="top" uuid="{530f9cfc-110c-4294-bac6-0979f7a90e97}" x="3.860800" y="0.000000" rotation="0.000000" height="5.400000" tht_drill="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

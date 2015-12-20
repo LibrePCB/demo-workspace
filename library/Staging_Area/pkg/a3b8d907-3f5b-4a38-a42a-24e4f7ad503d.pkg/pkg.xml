@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{a3b8d907-3f5b-4a38-a42a-24e4f7ad503d}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:49Z</created>
+  <last_modified>2015-12-20T22:10:49Z</last_modified>
+  <name locale="en_US">6000-XXXX-RC</name>
+  <description locale="en_US">&lt;b>Radial Lead RF Chokes&lt;/b>&lt;p>
+Source: www.bourns.com .. 6000_series.pdf
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: 6000-XXXX-RC
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{63e3a49c-320a-4e2d-9ec9-bb4467d59976}">1</pad>
+  <pad uuid="{ea7a0287-4e08-4131-bca6-119cc8774886}">2</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{5ebd41be-8f3e-4610-af9b-2ebf26f6b23b}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <text x="-4.505600" height="2.500000" y="4.632600" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-4.505600" height="2.000000" y="-6.410600" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.203200" radius_x="4.400000" x="0.000000" radius_y="4.400000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <pad smt_side="top" width="1.422400" x="2.500000" height="1.422400" y="0.000000" rotation="0.000000" type="tht_round" uuid="{ea7a0287-4e08-4131-bca6-119cc8774886}" tht_drill="0.900000"/>
+    <pad smt_side="top" width="1.422400" x="-2.500000" height="1.422400" y="0.000000" rotation="0.000000" type="tht_round" uuid="{63e3a49c-320a-4e2d-9ec9-bb4467d59976}" tht_drill="0.900000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

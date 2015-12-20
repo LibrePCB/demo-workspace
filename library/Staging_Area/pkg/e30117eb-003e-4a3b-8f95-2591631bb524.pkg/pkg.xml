@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{e30117eb-003e-4a3b-8f95-2591631bb524}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:48Z</created>
+  <last_modified>2015-12-20T22:10:48Z</last_modified>
+  <name locale="en_US">A/3216-18R</name>
+  <description locale="en_US">&lt;b>Chip Capacitor Type KEMET A / EIA 3216-18 reflow solder&lt;/b>&lt;p>KEMET S / EIA 3216-12
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: A/3216-18R
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{34a5774f-5072-45d5-90e7-56b986771a40}">+</pad>
+  <pad uuid="{a26d32b9-a80a-4503-9679-484bece44f3e}">-</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{cdce61c2-9dfd-4723-8f18-538ea99d30e5}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.000000" start_x="-1.600000" start_y="-0.600000" fill="true" grab_area="true" layer="200">
+     <segment end_x="-1.475000" end_y="-0.600000" angle="0.000000"/>
+     <segment end_x="-1.475000" end_y="0.600000" angle="0.000000"/>
+     <segment end_x="-1.600000" end_y="0.600000" angle="0.000000"/>
+     <segment end_x="-1.600000" end_y="-0.600000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="1.475000" start_y="-0.600000" fill="true" grab_area="true" layer="200">
+     <segment end_x="1.600000" end_y="-0.600000" angle="0.000000"/>
+     <segment end_x="1.600000" end_y="0.600000" angle="0.000000"/>
+     <segment end_x="1.475000" end_y="0.600000" angle="0.000000"/>
+     <segment end_x="1.475000" end_y="-0.600000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="0.800000" start_y="-0.625000" fill="true" grab_area="true" layer="200">
+     <segment end_x="1.100000" end_y="-0.625000" angle="0.000000"/>
+     <segment end_x="1.100000" end_y="0.625000" angle="0.000000"/>
+     <segment end_x="0.800000" end_y="0.625000" angle="0.000000"/>
+     <segment end_x="0.800000" end_y="-0.625000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.101600" start_x="1.450000" start_y="0.600000" fill="false" grab_area="true" layer="200">
+     <segment end_x="1.450000" end_y="-0.600000" angle="0.000000"/>
+     <segment end_x="-1.450000" end_y="-0.600000" angle="0.000000"/>
+     <segment end_x="-1.450000" end_y="0.600000" angle="0.000000"/>
+     <segment end_x="1.450000" end_y="0.600000" angle="0.000000"/>
+    </polygon>
+    <text x="-1.950000" height="2.500000" y="1.000000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-1.950000" height="2.000000" y="-2.325000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="1.950000" x="1.375000" height="1.500000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{34a5774f-5072-45d5-90e7-56b986771a40}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="1.950000" x="-1.375000" height="1.500000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{a26d32b9-a80a-4503-9679-484bece44f3e}" tht_drill="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

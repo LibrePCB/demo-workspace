@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{c59c0efa-6590-497f-afbb-00e9d9c05767}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:46Z</created>
+  <last_modified>2015-12-20T22:10:46Z</last_modified>
+  <name locale="en_US">0922V</name>
+  <description locale="en_US">&lt;b>RESISTOR&lt;/b>&lt;p>
+type 0922, grid 7.5 mm
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: 0922V
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{4b1d5cf2-1a8d-46b5-a949-33fc5ddf25b6}">1</pad>
+  <pad uuid="{8c851edf-a41f-4ae2-b5e1-db932a4869c8}">2</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{cbbfdaf9-4fc6-43ad-84d9-e0c67776b697}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.812800" start_x="2.540000" start_y="0.000000" fill="false" grab_area="true" layer="200">
+     <segment end_x="1.397000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.812800" start_x="-5.080000" start_y="0.000000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-3.810000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-3.810000" start_y="-0.406400" fill="true" grab_area="true" layer="260">
+     <segment end_x="1.320800" end_y="-0.406400" angle="0.000000"/>
+     <segment end_x="1.320800" end_y="0.406400" angle="0.000000"/>
+     <segment end_x="-3.810000" end_y="0.406400" angle="0.000000"/>
+     <segment end_x="-3.810000" end_y="-0.406400" angle="0.000000"/>
+    </polygon>
+    <text x="-0.508000" height="2.500000" y="1.676400" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-0.508000" height="2.000000" y="-2.997200" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <text x="-6.858000" height="2.032000" y="2.540000" rotation="0.000000" h_align="left" v_align="bottom" layer="260">0922</text>
+    <ellipse width="0.152400" radius_x="4.572000" x="-5.080000" radius_y="4.572000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <ellipse width="0.152400" radius_x="1.905000" x="-5.080000" radius_y="1.905000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <pad smt_side="top" width="2.032000" x="2.540000" height="2.032000" y="0.000000" rotation="0.000000" type="tht_octagon" uuid="{8c851edf-a41f-4ae2-b5e1-db932a4869c8}" tht_drill="1.016000"/>
+    <pad smt_side="top" width="2.032000" x="-5.080000" height="2.032000" y="0.000000" rotation="0.000000" type="tht_octagon" uuid="{4b1d5cf2-1a8d-46b5-a949-33fc5ddf25b6}" tht_drill="1.016000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

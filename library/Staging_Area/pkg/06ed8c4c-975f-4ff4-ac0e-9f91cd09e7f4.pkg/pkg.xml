@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{06ed8c4c-975f-4ff4-ac0e-9f91cd09e7f4}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:48Z</created>
+  <last_modified>2015-12-20T22:10:48Z</last_modified>
+  <name locale="en_US">CTRIM3040.427</name>
+  <description locale="en_US">&lt;b>Trimm capacitor&lt;/b> STELCO GmbH&lt;p>
+ 7 S-Triko 160 V DC for PCB mounting &lt;p>
+ Adjustable from one side, vertical to PCB
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: CTRIM3040.427
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{6a33e704-5ff6-451a-8391-366b8bc29426}">1A</pad>
+  <pad uuid="{8e3ae4eb-a833-4cc9-9595-de00aa303b63}">2</pad>
+  <pad uuid="{38fa9816-9592-485e-8013-a9afe9c21480}">1B</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{1617ba4d-9e15-4206-88e8-a1818b830fb0}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.152400" start_x="0.300000" start_y="1.500000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-0.700000" end_y="-1.350000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-0.300000" start_y="-1.500000" fill="false" grab_area="true" layer="260">
+     <segment end_x="0.700000" end_y="1.350000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-3.900000" start_y="-0.600000" fill="true" grab_area="true" layer="200">
+     <segment end_x="-3.500000" end_y="-0.600000" angle="0.000000"/>
+     <segment end_x="-3.500000" end_y="0.600000" angle="0.000000"/>
+     <segment end_x="-3.900000" end_y="0.600000" angle="0.000000"/>
+     <segment end_x="-3.900000" end_y="-0.600000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="3.500000" start_y="-0.600000" fill="true" grab_area="true" layer="200">
+     <segment end_x="3.900000" end_y="-0.600000" angle="0.000000"/>
+     <segment end_x="3.900000" end_y="0.600000" angle="0.000000"/>
+     <segment end_x="3.500000" end_y="0.600000" angle="0.000000"/>
+     <segment end_x="3.500000" end_y="-0.600000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-0.600000" start_y="-3.900000" fill="true" grab_area="true" layer="200">
+     <segment end_x="0.600000" end_y="-3.900000" angle="0.000000"/>
+     <segment end_x="0.600000" end_y="-3.500000" angle="0.000000"/>
+     <segment end_x="-0.600000" end_y="-3.500000" angle="0.000000"/>
+     <segment end_x="-0.600000" end_y="-3.900000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="3.300000" start_y="1.200000" fill="false" grab_area="true" layer="260">
+     <segment end_x="3.300000" end_y="-1.200000" angle="0.000000"/>
+     <segment end_x="-3.300000" end_y="-1.200000" angle="0.000000"/>
+     <segment end_x="-3.300000" end_y="1.200000" angle="0.000000"/>
+     <segment end_x="3.300000" end_y="1.200000" angle="0.000000"/>
+    </polygon>
+    <text x="-2.540000" height="2.500000" y="3.810000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-2.540000" height="2.000000" y="-6.350000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.152400" radius_x="1.600000" x="0.000000" radius_y="1.600000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <pad smt_side="top" width="2.600000" x="-3.500000" height="2.600000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{6a33e704-5ff6-451a-8391-366b8bc29426}" tht_drill="1.300000"/>
+    <pad smt_side="top" width="2.600000" x="0.000000" height="2.600000" y="-3.500000" rotation="0.000000" type="tht_round" uuid="{8e3ae4eb-a833-4cc9-9595-de00aa303b63}" tht_drill="1.300000"/>
+    <pad smt_side="top" width="2.600000" x="3.500000" height="2.600000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{38fa9816-9592-485e-8013-a9afe9c21480}" tht_drill="1.300000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

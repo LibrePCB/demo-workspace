@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{713fe73e-5c49-4ec8-bb64-2477fbdc7dd0}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:48Z</created>
+  <last_modified>2015-12-20T22:10:48Z</last_modified>
+  <name locale="en_US">MINI_MELF-0102AX</name>
+  <description locale="en_US">&lt;b>Mini MELF 0102 Axial&lt;/b>
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: MINI_MELF-0102AX
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{7925d16a-c00a-4ae4-9372-66c2a4ff905e}">1</pad>
+  <pad uuid="{3e7cded5-f0c6-4f70-aae1-7cabcf66dddc}">2</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{362b5b4e-96dc-428c-b6e2-0d415cad5e18}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <text x="-1.270000" height="2.500000" y="0.952500" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-1.270000" height="2.000000" y="-2.222500" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.000000" radius_x="0.600000" x="0.000000" radius_y="0.600000" y="0.000000" fill="true" grab_area="true" rotation="0.000000" layer="200"/>
+    <ellipse width="0.000000" radius_x="0.600000" x="0.000000" radius_y="0.600000" y="0.000000" fill="true" grab_area="true" rotation="0.000000" layer="500"/>
+    <hole x="0.000000" y="0.000000" diameter="1.300000"/>
+    <pad smt_side="bottom" width="1.900000" x="0.000000" height="1.900000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{3e7cded5-f0c6-4f70-aae1-7cabcf66dddc}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="1.900000" x="0.000000" height="1.900000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{7925d16a-c00a-4ae4-9372-66c2a4ff905e}" tht_drill="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

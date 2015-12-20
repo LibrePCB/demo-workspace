@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol version="0">
+ <meta>
+  <uuid>{c597b49a-d7a0-40c8-9d8b-3f25f505e3eb}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:32Z</created>
+  <last_modified>2015-12-20T22:10:32Z</last_modified>
+  <name locale="en_US">DN</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: DN
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pins>
+  <pin x="0.000000" y="2.540000" length="2.540000" rotation="270.000000" uuid="{43da79e2-de6e-4ecd-bab9-212e0f896de3}">C</pin>
+  <pin x="0.000000" y="-2.540000" length="2.540000" rotation="90.000000" uuid="{35240f37-900f-4c16-9d79-8e61d5e00f1e}">A</pin>
+ </pins>
+ <geometry>
+  <polygon width="0.254000" start_x="0.762000" start_y="-1.016000" fill="false" grab_area="true" layer="10">
+   <segment end_x="0.000000" end_y="1.016000" angle="0.000000"/>
+  </polygon>
+  <polygon width="0.254000" start_x="0.000000" start_y="1.016000" fill="false" grab_area="true" layer="10">
+   <segment end_x="-0.762000" end_y="-1.016000" angle="0.000000"/>
+  </polygon>
+  <polygon width="0.254000" start_x="-0.762000" start_y="1.016000" fill="false" grab_area="true" layer="10">
+   <segment end_x="0.000000" end_y="1.016000" angle="0.000000"/>
+  </polygon>
+  <polygon width="0.254000" start_x="-0.762000" start_y="-1.016000" fill="false" grab_area="true" layer="10">
+   <segment end_x="0.762000" end_y="-1.016000" angle="0.000000"/>
+  </polygon>
+  <polygon width="0.254000" start_x="0.000000" start_y="1.016000" fill="false" grab_area="true" layer="10">
+   <segment end_x="0.762000" end_y="1.016000" angle="0.000000"/>
+  </polygon>
+  <text x="-1.371600" height="3.175000" y="-2.540000" rotation="90.000000" h_align="left" v_align="bottom" layer="20">${SYM::NAME}</text>
+  <text x="2.946400" height="2.500000" y="-2.540000" rotation="90.000000" h_align="left" v_align="bottom" layer="21">${CMP::VALUE}</text>
+ </geometry>
+</symbol>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{1fda142e-f00d-4729-8313-0de0f55e2c7c}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:47Z</created>
+  <last_modified>2015-12-20T22:10:47Z</last_modified>
+  <name locale="en_US">MINI_MELF-0207R</name>
+  <description locale="en_US">&lt;b>CECC Size RC6123&lt;/b> Reflow Soldering&lt;p>
+source Beyschlag
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: MINI_MELF-0207R
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{923a82c7-2e55-409c-9bed-7ee4c72d62a6}">1</pad>
+  <pad uuid="{4d31dd2c-aab2-4694-853f-915e58145120}">2</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{c8658053-fe55-46f7-93bc-925ff5d8cac2}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.203200" start_x="1.212500" start_y="1.000000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-1.212500" end_y="1.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-1.212500" start_y="-1.000000" fill="false" grab_area="true" layer="260">
+     <segment end_x="1.212500" end_y="-1.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-2.800000" start_y="-1.000000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-2.800000" end_y="1.000000" angle="0.000000"/>
+     <segment end_x="2.800000" end_y="1.000000" angle="0.000000"/>
+     <segment end_x="2.800000" end_y="-1.000000" angle="0.000000"/>
+     <segment end_x="-2.800000" end_y="-1.000000" angle="0.000000"/>
+    </polygon>
+    <text x="-2.222500" height="2.500000" y="1.587500" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-2.222500" height="2.000000" y="-2.540000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="1.600000" x="-2.250000" height="2.500000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{923a82c7-2e55-409c-9bed-7ee4c72d62a6}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="1.600000" x="2.250000" height="2.500000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{4d31dd2c-aab2-4694-853f-915e58145120}" tht_drill="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

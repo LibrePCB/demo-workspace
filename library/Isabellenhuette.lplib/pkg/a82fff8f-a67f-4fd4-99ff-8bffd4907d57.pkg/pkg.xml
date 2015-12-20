@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{a82fff8f-a67f-4fd4-99ff-8bffd4907d57}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-21T13:28:18Z</created>
+  <last_modified>2015-12-21T13:28:18Z</last_modified>
+  <name locale="en_US">SMS-REF</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: isabellen.lbr
+Name: SMS-REF
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{68a69ccf-4bd7-463d-acb2-124798911739}">1</pad>
+  <pad uuid="{17a37d1d-f2c8-4312-a672-1b775da50096}">2</pad>
+ </pads>
+ <footprints>
+  <footprint uuid="{256ce0f6-42b4-43cf-9eba-0f637e394866}" default="true">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.200000" fill="false" grab_area="true" layer="200" start_x="-3.075000" start_y="1.400000">
+     <segment end_y="-1.400000" angle="0.000000" end_x="-3.075000"/>
+     <segment end_y="-1.400000" angle="0.000000" end_x="3.075000"/>
+     <segment end_y="1.400000" angle="0.000000" end_x="3.075000"/>
+     <segment end_y="1.400000" angle="0.000000" end_x="-3.075000"/>
+    </polygon>
+    <text h_align="left" v_align="bottom" layer="240" x="-2.717800" y="-0.508000" rotation="0.000000" height="2.500000">${CMP::NAME}</text>
+    <text h_align="left" v_align="bottom" layer="250" x="-3.022600" y="-2.895600" rotation="0.000000" height="2.000000">${CMP::VALUE}</text>
+    <pad width="3.100000" type="smt_rect" smt_side="top" uuid="{68a69ccf-4bd7-463d-acb2-124798911739}" x="1.828800" y="0.000000" rotation="0.000000" height="3.500000" tht_drill="0.000000"/>
+    <pad width="3.100000" type="smt_rect" smt_side="top" uuid="{17a37d1d-f2c8-4312-a672-1b775da50096}" x="-1.828800" y="0.000000" rotation="0.000000" height="3.500000" tht_drill="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

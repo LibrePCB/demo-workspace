@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{b8470f38-b0b1-412e-9149-bf337acdf05a}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:47Z</created>
+  <last_modified>2015-12-20T22:10:47Z</last_modified>
+  <name locale="en_US">EB20D</name>
+  <description locale="en_US">&lt;b>ELECTROLYTIC CAPACITOR&lt;/b>&lt;p>
+grid 10.16 mm, diameter 20 mm
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: EB20D
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{cc834d72-9537-4c85-ac9e-ae7a43526868}">+</pad>
+  <pad uuid="{312bc5ad-cc4f-4a3e-a4da-0e31858eb9f7}">-</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{ed8e26de-2eec-40a3-ab88-d218187d6701}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.254000" start_x="-2.540000" start_y="0.000000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-1.574800" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="-1.574800" start_y="0.000000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-1.574800" end_y="2.540000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="-1.574800" start_y="2.540000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-0.431800" end_y="2.540000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="-0.431800" start_y="2.540000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-0.431800" end_y="-2.540000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="-0.431800" start_y="-2.540000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-1.574800" end_y="-2.540000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="-1.574800" start_y="-2.540000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-1.574800" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="0.635000" start_y="0.000000" fill="false" grab_area="true" layer="260">
+     <segment end_x="2.540000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="-2.794000" start_y="2.540000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.794000" end_y="1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="-2.159000" start_y="1.905000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-3.429000" end_y="1.905000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="0.330200" start_y="-2.540000" fill="true" grab_area="true" layer="260">
+     <segment end_x="1.600200" end_y="-2.540000" angle="0.000000"/>
+     <segment end_x="1.600200" end_y="2.540000" angle="0.000000"/>
+     <segment end_x="0.330200" end_y="2.540000" angle="0.000000"/>
+     <segment end_x="0.330200" end_y="-2.540000" angle="0.000000"/>
+    </polygon>
+    <text x="7.899400" height="2.500000" y="7.366000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-5.054600" height="2.000000" y="-5.080000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.152400" radius_x="10.160000" x="0.000000" radius_y="10.160000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <ellipse width="0.152400" radius_x="7.620000" x="0.000000" radius_y="7.620000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <pad smt_side="top" width="4.597400" x="-5.080000" height="4.597400" y="0.000000" rotation="0.000000" type="tht_round" uuid="{cc834d72-9537-4c85-ac9e-ae7a43526868}" tht_drill="2.006600"/>
+    <pad smt_side="top" width="4.597400" x="5.080000" height="4.597400" y="0.000000" rotation="0.000000" type="tht_octagon" uuid="{312bc5ad-cc4f-4a3e-a4da-0e31858eb9f7}" tht_drill="2.006600"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

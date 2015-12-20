@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{505f3422-6141-4fa0-854c-fac26a0e4a0e}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <name locale="en_US">BAS70VV</name>
+  <description locale="en_US">&lt;b>Silicon Schottky Diodes&lt;/b>&lt;p>
+General-purpose diode for high-speed switching&lt;br>
+Source: BAS70_1PS7XSB70_SER_8.pdf
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: BAS70VV
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{029ac1e3-f156-40a5-94d9-84271cdaf0f0}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{09974453-824b-44d7-a132-15e1f325ba6f}" role="passive">C</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{8b7b0c87-502a-4ea1-98f1-ddda5d593bfd}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{cc142c71-83f4-4101-9be4-3f0e00ed266e}" role="passive">C</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{5cf4e8f4-68ba-4034-876a-7a408dda8183}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{c3c41994-07e7-40ea-ade0-a80e6fc356ad}" role="passive">C</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{d632bff2-776c-41a3-b190-cfeec21bdd09}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="A" symbol="{b4019e5f-dead-4f11-9040-41fa27f7f4bd}" uuid="{abdefd0f-6e3c-4804-9033-d708f146144d}">
+     <pin_signal_map>
+      <map pin="{0c83d4fb-d2f9-4199-b82e-f65cdb357d55}" display="component_signal">{029ac1e3-f156-40a5-94d9-84271cdaf0f0}</map>
+      <map pin="{d1121c89-3dea-4883-9bd1-3cba1d5b038d}" display="component_signal">{09974453-824b-44d7-a132-15e1f325ba6f}</map>
+     </pin_signal_map>
+    </item>
+    <item required="true" suffix="B" symbol="{b4019e5f-dead-4f11-9040-41fa27f7f4bd}" uuid="{3db2aaab-f9a4-47ee-9694-dea095488c2c}">
+     <pin_signal_map>
+      <map pin="{0c83d4fb-d2f9-4199-b82e-f65cdb357d55}" display="component_signal">{8b7b0c87-502a-4ea1-98f1-ddda5d593bfd}</map>
+      <map pin="{d1121c89-3dea-4883-9bd1-3cba1d5b038d}" display="component_signal">{cc142c71-83f4-4101-9be4-3f0e00ed266e}</map>
+     </pin_signal_map>
+    </item>
+    <item required="true" suffix="C" symbol="{b4019e5f-dead-4f11-9040-41fa27f7f4bd}" uuid="{72f4634d-c344-4aff-a64e-b9ccb6a79cdb}">
+     <pin_signal_map>
+      <map pin="{0c83d4fb-d2f9-4199-b82e-f65cdb357d55}" display="component_signal">{5cf4e8f4-68ba-4034-876a-7a408dda8183}</map>
+      <map pin="{d1121c89-3dea-4883-9bd1-3cba1d5b038d}" display="component_signal">{c3c41994-07e7-40ea-ade0-a80e6fc356ad}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{8f08aa86-28bc-40e0-a341-a3c74a70da6a}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:44Z</created>
+  <last_modified>2015-12-20T22:10:44Z</last_modified>
+  <name locale="en_US">TO218S</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+3-lead molded, vertical
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: TO218S
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{2dfe7454-abe9-4252-a20d-6752ef79b46e}">A1</pad>
+  <pad uuid="{f5bfa71d-3397-48ec-b436-723053506108}">C</pad>
+  <pad uuid="{58abdc9a-ddd3-4f3c-bd07-fdd8fd4764af}">A2</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{ef61e323-a04c-454a-9854-ed20c03fbc69}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.152400" start_x="-6.985000" start_y="-5.080000" fill="false" grab_area="true" layer="260">
+     <segment end_x="6.985000" end_y="-5.080000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="6.985000" start_y="-5.080000" fill="false" grab_area="true" layer="260">
+     <segment end_x="7.366000" end_y="-4.699000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-6.985000" start_y="-5.080000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-7.366000" end_y="-4.699000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="7.366000" start_y="-4.699000" fill="false" grab_area="true" layer="260">
+     <segment end_x="7.620000" end_y="-1.524000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-7.366000" start_y="-4.699000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-7.620000" end_y="-1.524000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-7.874000" start_y="-1.143000" fill="true" grab_area="true" layer="260">
+     <segment end_x="7.874000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="7.874000" end_y="0.000000" angle="0.000000"/>
+     <segment end_x="-7.874000" end_y="0.000000" angle="0.000000"/>
+     <segment end_x="-7.874000" end_y="-1.143000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-3.556000" start_y="-2.032000" fill="true" grab_area="true" layer="260">
+     <segment end_x="-1.905000" end_y="-2.032000" angle="0.000000"/>
+     <segment end_x="-1.905000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="-3.556000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="-3.556000" end_y="-2.032000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="1.905000" start_y="-2.032000" fill="true" grab_area="true" layer="260">
+     <segment end_x="3.556000" end_y="-2.032000" angle="0.000000"/>
+     <segment end_x="3.556000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="1.905000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="1.905000" end_y="-2.032000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-7.874000" start_y="-2.032000" fill="true" grab_area="true" layer="260">
+     <segment end_x="-7.239000" end_y="-2.032000" angle="0.000000"/>
+     <segment end_x="-7.239000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="-7.874000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="-7.874000" end_y="-2.032000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="7.239000" start_y="-2.032000" fill="true" grab_area="true" layer="260">
+     <segment end_x="7.874000" end_y="-2.032000" angle="0.000000"/>
+     <segment end_x="7.874000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="7.239000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="7.239000" end_y="-2.032000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="3.556000" start_y="-2.032000" fill="true" grab_area="true" layer="200">
+     <segment end_x="7.239000" end_y="-2.032000" angle="0.000000"/>
+     <segment end_x="7.239000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="3.556000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="3.556000" end_y="-2.032000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-7.239000" start_y="-2.032000" fill="true" grab_area="true" layer="200">
+     <segment end_x="-3.556000" end_y="-2.032000" angle="0.000000"/>
+     <segment end_x="-3.556000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="-7.239000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="-7.239000" end_y="-2.032000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-1.905000" start_y="-2.032000" fill="true" grab_area="true" layer="200">
+     <segment end_x="1.905000" end_y="-2.032000" angle="0.000000"/>
+     <segment end_x="1.905000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="-1.905000" end_y="-1.143000" angle="0.000000"/>
+     <segment end_x="-1.905000" end_y="-2.032000" angle="0.000000"/>
+    </polygon>
+    <text x="-7.620000" height="2.500000" y="-6.731000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-1.397000" height="2.000000" y="-6.731000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="5.588000" x="0.000000" height="2.794000" y="-3.175000" rotation="90.000000" type="tht_round" uuid="{f5bfa71d-3397-48ec-b436-723053506108}" tht_drill="1.397000"/>
+    <pad smt_side="top" width="5.588000" x="-5.461000" height="2.794000" y="-3.175000" rotation="90.000000" type="tht_round" uuid="{2dfe7454-abe9-4252-a20d-6752ef79b46e}" tht_drill="1.397000"/>
+    <pad smt_side="top" width="5.588000" x="5.461000" height="2.794000" y="-3.175000" rotation="90.000000" type="tht_round" uuid="{58abdc9a-ddd3-4f3c-bd07-fdd8fd4764af}" tht_drill="1.397000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

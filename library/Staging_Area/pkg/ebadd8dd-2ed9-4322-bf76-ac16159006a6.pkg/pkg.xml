@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{ebadd8dd-2ed9-4322-bf76-ac16159006a6}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:43Z</created>
+  <last_modified>2015-12-20T22:10:43Z</last_modified>
+  <name locale="en_US">TC48</name>
+  <description locale="en_US">&lt;b>Temperature Compensated Xtal Oscillator&lt;/b>&lt;p>
+HCMOS, Clipped Sine Wave or Sine Wave Compatible&lt;br>
+Source: www.pletronics.com .. tc4.pdf
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: TC48
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{ff59e806-34e6-490e-8316-1363f7e74cdd}">1</pad>
+  <pad uuid="{ccf450a0-f76b-403f-8b30-1260c78e2036}">2</pad>
+  <pad uuid="{9e537fd2-0e73-41d4-a0af-a6170f4996dc}">3</pad>
+  <pad uuid="{6d19c0a1-9d4e-42d0-ac6e-5f3d97fdb765}">4</pad>
+  <pad uuid="{75898e2c-24df-403d-b3d2-0efe8552f335}">5</pad>
+  <pad uuid="{0dadce82-ee8b-4866-aef6-01755dfd9703}">6</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{5f11d155-dfc4-4ab0-812d-053b8d726a5e}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.203200" start_x="-4.801100" start_y="5.173400" fill="false" grab_area="true" layer="260">
+     <segment end_x="-4.301100" end_y="5.675000" angle="-90.205976"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-4.301100" start_y="5.675000" fill="false" grab_area="true" layer="260">
+     <segment end_x="4.301100" end_y="5.675000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="4.301100" start_y="5.675000" fill="false" grab_area="true" layer="260">
+     <segment end_x="4.801100" end_y="5.173400" angle="-90.183053"/>
+    </polygon>
+    <polygon width="0.203200" start_x="4.801100" start_y="5.173400" fill="false" grab_area="true" layer="200">
+     <segment end_x="4.801100" end_y="-5.173400" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="4.801100" start_y="-5.173400" fill="false" grab_area="true" layer="260">
+     <segment end_x="4.301100" end_y="-5.700000" angle="-90.239868"/>
+    </polygon>
+    <polygon width="0.203200" start_x="4.301100" start_y="-5.700000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-4.301100" end_y="-5.700000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-4.301100" start_y="-5.700000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-4.801100" end_y="-5.173400" angle="-90.196181"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-4.801100" start_y="-5.173400" fill="false" grab_area="true" layer="200">
+     <segment end_x="-4.801100" end_y="5.173400" angle="0.000000"/>
+    </polygon>
+    <text x="-4.445000" height="2.500000" y="6.350000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-2.540000" height="2.000000" y="-0.635000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.000000" radius_x="0.635000" x="-1.905000" radius_y="0.635000" y="3.810000" fill="true" grab_area="true" rotation="0.000000" layer="260"/>
+    <pad smt_side="top" width="2.800000" x="-4.570000" height="1.400000" y="1.270000" rotation="0.000000" type="smt_rect" uuid="{ccf450a0-f76b-403f-8b30-1260c78e2036}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="2.800000" x="4.570000" height="1.400000" y="3.810000" rotation="180.000000" type="smt_rect" uuid="{0dadce82-ee8b-4866-aef6-01755dfd9703}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="2.800000" x="-4.570000" height="1.400000" y="3.810000" rotation="0.000000" type="smt_rect" uuid="{ff59e806-34e6-490e-8316-1363f7e74cdd}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="2.800000" x="-4.570000" height="1.400000" y="-3.810000" rotation="0.000000" type="smt_rect" uuid="{6d19c0a1-9d4e-42d0-ac6e-5f3d97fdb765}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="2.800000" x="4.570000" height="1.400000" y="-3.810000" rotation="180.000000" type="smt_rect" uuid="{75898e2c-24df-403d-b3d2-0efe8552f335}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="2.800000" x="-4.570000" height="1.400000" y="-1.270000" rotation="0.000000" type="smt_rect" uuid="{9e537fd2-0e73-41d4-a0af-a6170f4996dc}" tht_drill="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

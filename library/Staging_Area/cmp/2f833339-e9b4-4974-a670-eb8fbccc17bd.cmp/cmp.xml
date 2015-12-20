@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{2f833339-e9b4-4974-a670-eb8fbccc17bd}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <name locale="en_US">TC47</name>
+  <description locale="en_US">&lt;b>Temperature Compensated Xtal Oscillator&lt;/b>&lt;p>
+HCMOS, Clipped Sine Wave or Sine Wave Compatible&lt;br>
+Source: www.pletronics.com .. tc4.pdf
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: TC47
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">QG</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{107dc0cb-d444-4c9b-8f01-bfd8fa8198c4}" role="passive">GND</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{0a2174bb-cf88-43b8-82a0-e8538edb1d8c}" role="passive">OUT</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{139c9a7c-ab90-4208-8927-f76aa53fc7d6}" role="passive">S1</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{6a52037a-84f2-4d6e-ba30-b4a7d0cbe8bc}" role="passive">S2</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{3f2daa35-dd8d-4499-bfec-e64c567e9cdb}" role="passive">VCC</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{edc6b6dc-1baa-46b5-927b-e7206e49eb94}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="{18de4e9c-63c9-4d88-9fa4-e425f945f800}" uuid="{1809e700-d1f3-401f-9f01-8b0aa1f0ee83}">
+     <pin_signal_map>
+      <map pin="{ffc7a11b-14ed-4cb6-86ea-31ba061c3876}" display="component_signal">{107dc0cb-d444-4c9b-8f01-bfd8fa8198c4}</map>
+      <map pin="{473ef144-f5d6-4ebf-98a7-39240cfe6ced}" display="component_signal">{3f2daa35-dd8d-4499-bfec-e64c567e9cdb}</map>
+      <map pin="{b9d1bad1-8a27-45a6-aa4e-cb5fe210cf6a}" display="component_signal">{6a52037a-84f2-4d6e-ba30-b4a7d0cbe8bc}</map>
+      <map pin="{cfb406a5-dd6b-42c0-ba07-8a66c981461c}" display="component_signal">{0a2174bb-cf88-43b8-82a0-e8538edb1d8c}</map>
+      <map pin="{3a383c80-7c31-4623-b1ed-4fd505b769fc}" display="component_signal">{139c9a7c-ab90-4208-8927-f76aa53fc7d6}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

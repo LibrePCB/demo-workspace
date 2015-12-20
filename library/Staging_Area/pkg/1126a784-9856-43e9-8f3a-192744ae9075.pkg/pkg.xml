@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{1126a784-9856-43e9-8f3a-192744ae9075}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:43Z</created>
+  <last_modified>2015-12-20T22:10:43Z</last_modified>
+  <name locale="en_US">SM77H</name>
+  <description locale="en_US">&lt;b>3.3V CMOS Clock Oscillator&lt;/b>&lt;p>
+Source: www.pletronics.com .. sm77h%203.3v.pdf
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: SM77H
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{b171a8bf-4da5-4ae0-aa1b-cd79d24942bc}">1</pad>
+  <pad uuid="{78531d61-e28d-4245-807f-e8b21d9026d9}">2</pad>
+  <pad uuid="{b59de88e-01d8-4390-93b5-548617d7385b}">3</pad>
+  <pad uuid="{3400da54-a7d7-4f25-95b8-b4df6e3334b4}">4</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{29c02918-bd6c-459c-a843-7a8db7864ef9}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.203200" start_x="-1.368000" start_y="-2.400000" fill="false" grab_area="true" layer="260">
+     <segment end_x="1.368000" end_y="-2.400000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-3.400000" start_y="0.876000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-3.400000" end_y="-0.876000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="1.368000" start_y="2.400000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-1.368000" end_y="2.400000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="3.400000" start_y="-0.876000" fill="false" grab_area="true" layer="260">
+     <segment end_x="3.400000" end_y="0.876000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-3.400000" start_y="2.400000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-3.400000" end_y="-2.400000" angle="0.000000"/>
+     <segment end_x="3.400000" end_y="-2.400000" angle="0.000000"/>
+     <segment end_x="3.400000" end_y="2.400000" angle="0.000000"/>
+     <segment end_x="-3.400000" end_y="2.400000" angle="0.000000"/>
+    </polygon>
+    <text x="-3.810000" height="2.500000" y="-2.540000" rotation="90.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-2.286000" height="2.000000" y="-0.508000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.000000" radius_x="0.254000" x="-2.794000" radius_y="0.254000" y="-0.762000" fill="true" grab_area="true" rotation="0.000000" layer="260"/>
+    <pad smt_side="top" width="1.500000" x="2.550000" height="1.600000" y="-1.900000" rotation="90.000000" type="smt_rect" uuid="{78531d61-e28d-4245-807f-e8b21d9026d9}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="1.500000" x="-2.550000" height="1.600000" y="1.900000" rotation="270.000000" type="smt_rect" uuid="{3400da54-a7d7-4f25-95b8-b4df6e3334b4}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="1.500000" x="2.550000" height="1.600000" y="1.900000" rotation="270.000000" type="smt_rect" uuid="{b59de88e-01d8-4390-93b5-548617d7385b}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="1.500000" x="-2.550000" height="1.600000" y="-1.900000" rotation="90.000000" type="smt_rect" uuid="{b171a8bf-4da5-4ae0-aa1b-cd79d24942bc}" tht_drill="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

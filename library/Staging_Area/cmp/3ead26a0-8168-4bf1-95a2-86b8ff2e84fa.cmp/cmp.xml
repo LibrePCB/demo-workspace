@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{3ead26a0-8168-4bf1-95a2-86b8ff2e84fa}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <name locale="en_US">BAT54A</name>
+  <description locale="en_US">&lt;b>Schottky Diodes&lt;/b>&lt;p>
+Source: Fairchild .. BAT54.pdf
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: BAT54A
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{49fc28cd-07c4-4a70-b181-2d72243dff31}" role="passive">AA</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{fc42d582-126d-4884-92ce-832a892ac9ed}" role="passive">K1</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{b9128271-d1d7-484b-9cfc-65fd251bb86b}" role="passive">K2</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{1f68a245-19be-469c-8e2c-5fc6b1f7f942}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="{3d1998f3-34a4-4896-9f48-dc572357ea86}" uuid="{11fd29b6-a43d-411c-941a-4094a9dd23f8}">
+     <pin_signal_map>
+      <map pin="{9e28bcac-1d49-43bc-b63d-9e7851fd10ec}" display="component_signal">{fc42d582-126d-4884-92ce-832a892ac9ed}</map>
+      <map pin="{ec8dfe68-e549-4ee2-971d-002458137bb9}" display="component_signal">{49fc28cd-07c4-4a70-b181-2d72243dff31}</map>
+      <map pin="{91696bdd-e5da-4ab7-bb34-d52f47f783d4}" display="component_signal">{b9128271-d1d7-484b-9cfc-65fd251bb86b}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

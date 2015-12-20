@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{e975af27-9c1d-4608-888b-908c96b50f8f}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <name locale="en_US">BY500</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+fast recovery diode, 5 A, 800 V
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: BY500
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{b493e0ab-cda3-4fa5-b851-aca8d3865c2f}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{deffceab-3b83-49a6-a76e-9d76c1293112}" role="passive">C</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{458f9de1-04da-4e8a-9d20-df3e0a916213}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="1" symbol="{8eaf9d11-7442-4af8-9051-9e3662b36279}" uuid="{f818e4c3-91db-4dd5-bef1-c13f184d3bbf}">
+     <pin_signal_map>
+      <map pin="{8aa8c919-7171-4594-ae73-dc0b76bf036f}" display="component_signal">{deffceab-3b83-49a6-a76e-9d76c1293112}</map>
+      <map pin="{8ebf7e67-03d9-4666-8642-39a59899cb5d}" display="component_signal">{b493e0ab-cda3-4fa5-b851-aca8d3865c2f}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

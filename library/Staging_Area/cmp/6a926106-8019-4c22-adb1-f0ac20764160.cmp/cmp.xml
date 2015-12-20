@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{6a926106-8019-4c22-adb1-f0ac20764160}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <name locale="en_US">D5-1CS</name>
+  <description locale="en_US">4 &lt;B>DIODES&lt;/B>&lt;p>
+SIL, common anode (single gate)
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: D5-1CS
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">DN</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{c6993187-6a5a-4007-a273-f7a962443641}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{8a63d5bb-c371-4b65-ba46-eb9309891af3}" role="passive">C</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{d8be9cbb-abdb-456b-aee2-9b62fb4230ac}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{f083cc75-a76c-49cb-8d22-4690a01a23bd}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{5061cfff-93c3-45aa-a20b-42fe86b83b8c}" role="passive">A</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{f2d9c911-d1a3-4b1f-baf5-ae47c95971b2}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="A" symbol="{c597b49a-d7a0-40c8-9d8b-3f25f505e3eb}" uuid="{c8601907-9484-4270-b7ab-3e288ac39dbf}">
+     <pin_signal_map>
+      <map pin="{43da79e2-de6e-4ecd-bab9-212e0f896de3}" display="component_signal">{8a63d5bb-c371-4b65-ba46-eb9309891af3}</map>
+      <map pin="{35240f37-900f-4c16-9d79-8e61d5e00f1e}" display="component_signal">{c6993187-6a5a-4007-a273-f7a962443641}</map>
+     </pin_signal_map>
+    </item>
+    <item required="true" suffix="B" symbol="{f1110271-fea2-45cd-8e41-6abe02d35576}" uuid="{7ec22f4d-60b1-4e07-9945-728d073d0837}">
+     <pin_signal_map>
+      <map pin="{23fc1c2d-55ad-4a87-a98c-dc2d0420a360}" display="component_signal">{d8be9cbb-abdb-456b-aee2-9b62fb4230ac}</map>
+     </pin_signal_map>
+    </item>
+    <item required="true" suffix="C" symbol="{f1110271-fea2-45cd-8e41-6abe02d35576}" uuid="{14b8f96e-e174-4f22-9833-d4cb90caacd3}">
+     <pin_signal_map>
+      <map pin="{23fc1c2d-55ad-4a87-a98c-dc2d0420a360}" display="component_signal">{f083cc75-a76c-49cb-8d22-4690a01a23bd}</map>
+     </pin_signal_map>
+    </item>
+    <item required="true" suffix="D" symbol="{f1110271-fea2-45cd-8e41-6abe02d35576}" uuid="{6264655f-755a-4c9e-9674-7883fda9dc3f}">
+     <pin_signal_map>
+      <map pin="{23fc1c2d-55ad-4a87-a98c-dc2d0420a360}" display="component_signal">{5061cfff-93c3-45aa-a20b-42fe86b83b8c}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

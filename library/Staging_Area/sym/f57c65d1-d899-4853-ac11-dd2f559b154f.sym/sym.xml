@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol version="0">
+ <meta>
+  <uuid>{f57c65d1-d899-4853-ac11-dd2f559b154f}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:32Z</created>
+  <last_modified>2015-12-20T22:10:32Z</last_modified>
+  <name locale="en_US">PHOTODIODE</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: PHOTODIODE
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pins>
+  <pin x="0.000000" y="2.540000" length="2.540000" rotation="270.000000" uuid="{e82fb240-b93c-4463-a191-1e65147bb758}">C</pin>
+  <pin x="0.000000" y="-2.540000" length="2.540000" rotation="90.000000" uuid="{6a23e8de-8b10-4814-a5f4-4ad02ab3fc42}">A</pin>
+ </pins>
+ <geometry>
+  <polygon width="0.254000" start_x="1.905000" start_y="-1.270000" fill="false" grab_area="true" layer="10">
+   <segment end_x="0.000000" end_y="1.270000" angle="0.000000"/>
+  </polygon>
+  <polygon width="0.254000" start_x="0.000000" start_y="1.270000" fill="false" grab_area="true" layer="10">
+   <segment end_x="-1.905000" end_y="-1.270000" angle="0.000000"/>
+  </polygon>
+  <polygon width="0.254000" start_x="-1.905000" start_y="-1.270000" fill="false" grab_area="true" layer="10">
+   <segment end_x="1.905000" end_y="-1.270000" angle="0.000000"/>
+  </polygon>
+  <polygon width="0.254000" start_x="-1.905000" start_y="1.397000" fill="false" grab_area="true" layer="10">
+   <segment end_x="1.905000" end_y="1.397000" angle="0.000000"/>
+  </polygon>
+  <polygon width="0.152400" start_x="-3.556000" start_y="1.016000" fill="false" grab_area="true" layer="10">
+   <segment end_x="-4.572000" end_y="2.032000" angle="0.000000"/>
+  </polygon>
+  <polygon width="0.152400" start_x="-2.794000" start_y="1.778000" fill="false" grab_area="true" layer="10">
+   <segment end_x="-3.810000" end_y="2.794000" angle="0.000000"/>
+  </polygon>
+  <polygon width="0.152400" start_x="-4.064000" start_y="1.016000" fill="false" grab_area="true" layer="10">
+   <segment end_x="-3.556000" end_y="1.524000" angle="0.000000"/>
+   <segment end_x="-3.302000" end_y="0.762000" angle="0.000000"/>
+   <segment end_x="-4.064000" end_y="1.016000" angle="0.000000"/>
+  </polygon>
+  <polygon width="0.152400" start_x="-3.302000" start_y="1.778000" fill="false" grab_area="true" layer="10">
+   <segment end_x="-2.794000" end_y="2.286000" angle="0.000000"/>
+   <segment end_x="-2.540000" end_y="1.524000" angle="0.000000"/>
+   <segment end_x="-3.302000" end_y="1.778000" angle="0.000000"/>
+  </polygon>
+  <text x="3.810000" height="3.175000" y="1.270000" rotation="0.000000" h_align="left" v_align="bottom" layer="20">${SYM::NAME}</text>
+  <text x="3.810000" height="2.500000" y="-1.270000" rotation="0.000000" h_align="left" v_align="bottom" layer="21">${CMP::VALUE}</text>
+ </geometry>
+</symbol>

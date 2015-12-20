@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{80618837-5a5c-4216-8328-e3b3c332c9c0}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <name locale="en_US">MBRA340T3</name>
+  <description locale="en_US">&lt;b>Surface Mount Schottky Power Rectifier&lt;/b>&lt;p>
+Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: MBRA340T3
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{7e878a8a-1c0b-415e-94c0-f0556db49ca5}" role="passive">A</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{f33d08bf-9e27-4e74-82eb-911c4bc6fe41}" role="passive">C</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{fa162e89-4243-46d8-aa5f-5861b988a0eb}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="{9b75d0ce-ac4e-4a52-a88a-8777f66d3241}" uuid="{6f7c6abf-1fa3-48fb-bd6b-d813fb0bcfef}">
+     <pin_signal_map>
+      <map pin="{48dad2d5-4392-4d8f-870e-9e69d9727b83}" display="component_signal">{f33d08bf-9e27-4e74-82eb-911c4bc6fe41}</map>
+      <map pin="{cd50cc1e-a0d2-460e-818b-c9a4cc03ec42}" display="component_signal">{7e878a8a-1c0b-415e-94c0-f0556db49ca5}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

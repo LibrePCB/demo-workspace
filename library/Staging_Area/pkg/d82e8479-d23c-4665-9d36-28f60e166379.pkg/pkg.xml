@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{d82e8479-d23c-4665-9d36-28f60e166379}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:48Z</created>
+  <last_modified>2015-12-20T22:10:48Z</last_modified>
+  <name locale="en_US">TJ5-U2</name>
+  <description locale="en_US">&lt;b>Inductor&lt;/b>&lt;p>
+Source: TJ-Serie Vishay.pdf
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: TJ5-U2
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{4b68c964-b2b3-48c1-8417-36a798a5aa31}">1</pad>
+  <pad uuid="{c982c5e0-a697-4f8c-8fa9-6809f5600a11}">2</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{907c5a86-1ae3-47ab-953e-1231f10ae676}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <text x="-5.080000" height="2.500000" y="0.635000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-5.080000" height="2.000000" y="-1.905000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.203200" radius_x="12.600000" x="0.000000" radius_y="12.600000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="250"/>
+    <pad smt_side="top" width="1.800000" x="11.450000" height="1.800000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{c982c5e0-a697-4f8c-8fa9-6809f5600a11}" tht_drill="0.900000"/>
+    <pad smt_side="top" width="1.800000" x="-11.450000" height="1.800000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{4b68c964-b2b3-48c1-8417-36a798a5aa31}" tht_drill="0.900000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

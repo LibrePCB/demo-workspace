@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{8bbaf771-d3fe-4f4e-a892-63f159cb8ac5}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:43Z</created>
+  <last_modified>2015-12-20T22:10:43Z</last_modified>
+  <name locale="en_US">M-A</name>
+  <description locale="en_US">&lt;b>Monolithic Crystal Filters&lt;/b>&lt;p>
+Source: www.vanlong.com
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: M-A
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{2e2c4808-ee59-4c41-9d43-3b13bc6a947f}">1</pad>
+  <pad uuid="{12c2aefc-a97b-4942-8a0f-cb0de3e74d79}">2</pad>
+  <pad uuid="{2afaff12-819a-4788-9c96-aa9d5e6b82df}">3</pad>
+  <pad uuid="{61dc062e-32e3-4dc7-846f-b53676bbf229}">4</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{7da1c83a-6f1e-493e-95be-1a96fff7e261}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.203200" start_x="4.900000" start_y="-4.650000" fill="false" grab_area="true" layer="260">
+     <segment end_x="5.900000" end_y="-3.650000" angle="90.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="5.900000" start_y="-3.650000" fill="false" grab_area="true" layer="260">
+     <segment end_x="5.900000" end_y="3.650000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="5.900000" start_y="3.650000" fill="false" grab_area="true" layer="260">
+     <segment end_x="4.900000" end_y="4.650000" angle="90.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="4.900000" start_y="4.650000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-4.900000" end_y="4.650000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-4.900000" start_y="4.650000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-5.900000" end_y="3.650000" angle="90.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-5.900000" start_y="3.650000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-5.900000" end_y="-3.650000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-5.900000" start_y="-3.650000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-4.900000" end_y="-4.650000" angle="90.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-4.900000" start_y="-4.650000" fill="false" grab_area="true" layer="260">
+     <segment end_x="4.900000" end_y="-4.650000" angle="0.000000"/>
+    </polygon>
+    <text x="-5.080000" height="2.500000" y="5.715000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-5.080000" height="2.000000" y="-6.985000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="1.016000" x="-2.500000" height="1.016000" y="2.300000" rotation="0.000000" type="tht_round" uuid="{2e2c4808-ee59-4c41-9d43-3b13bc6a947f}" tht_drill="0.600000"/>
+    <pad smt_side="top" width="1.016000" x="0.000000" height="1.016000" y="2.300000" rotation="0.000000" type="tht_round" uuid="{12c2aefc-a97b-4942-8a0f-cb0de3e74d79}" tht_drill="0.600000"/>
+    <pad smt_side="top" width="1.016000" x="2.500000" height="1.016000" y="-2.300000" rotation="180.000000" type="tht_round" uuid="{61dc062e-32e3-4dc7-846f-b53676bbf229}" tht_drill="0.600000"/>
+    <pad smt_side="top" width="1.016000" x="0.000000" height="1.016000" y="-2.300000" rotation="180.000000" type="tht_round" uuid="{2afaff12-819a-4788-9c96-aa9d5e6b82df}" tht_drill="0.600000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

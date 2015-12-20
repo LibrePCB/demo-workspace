@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{aeca3492-06fb-477c-b9d5-8fd21d5e99b2}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:01Z</created>
+  <last_modified>2015-12-20T22:11:01Z</last_modified>
+  <name locale="en_US">TLUV5300</name>
+  <description locale="en_US">&lt;b>Bicolor LED 5 mm&lt;/b> Untinted Diffused Package&lt;p>
+Source: www.vishay.com .. Bi-Color LED Vashay TLUV5300.pdf
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: TLUV5300
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">LED</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{7a1a4021-0e28-425e-9f79-cf5a40fb6f5d}" role="passive">AG</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{1f35d61f-9dfa-4a7e-a2d3-3f0065164fb5}" role="passive">AO</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{b92a7efd-47bd-49e2-b544-144b9a1d0ba8}" role="passive">CC</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{1323b190-1303-4263-8df6-33d80045fd2d}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="{fc440b09-8e99-4ad6-8cf2-6bd681faae53}" uuid="{4bea04bb-05ac-4a11-a88e-644e8a7757ba}">
+     <pin_signal_map>
+      <map pin="{d492ad44-2f06-45a4-9c11-aa858612bf0e}" display="component_signal">{7a1a4021-0e28-425e-9f79-cf5a40fb6f5d}</map>
+      <map pin="{4eef9bcf-68ec-4ae7-9ea3-08d703ef40ba}" display="component_signal">{1f35d61f-9dfa-4a7e-a2d3-3f0065164fb5}</map>
+      <map pin="{d3680e06-17f7-45aa-a073-aea258aa8ec8}" display="component_signal">{b92a7efd-47bd-49e2-b544-144b9a1d0ba8}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

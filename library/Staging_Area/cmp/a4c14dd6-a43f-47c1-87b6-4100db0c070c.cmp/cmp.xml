@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{a4c14dd6-a43f-47c1-87b6-4100db0c070c}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <name locale="en_US">43160-*02</name>
+  <description locale="en_US">&lt;b>SDA-43160 Connector&lt;/b>&lt;p>
+Source: http://www.molex.com/pdm_docs/sd/431601306_sd.pdf
+
+This element was automatically imported from Eagle
+Filepath: con-molex.lbr
+Name: 43160-*02
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">X</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{6752dedc-4ece-48fb-873c-30a752c59dbc}" role="passive">S</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{a2c54435-170f-43c3-8b9b-56bc49846bb3}" role="passive">S</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{12b016d9-a0e8-4dbf-a800-e570cb7e899c}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="-1" symbol="{de13cfaf-4ebe-47df-b55a-190a1bd35a02}" uuid="{ea5d8c72-b57c-4032-994b-7fbe8faea8c8}">
+     <pin_signal_map>
+      <map pin="{be996167-186d-4064-96d8-2ea695ee9fce}" display="component_signal">{6752dedc-4ece-48fb-873c-30a752c59dbc}</map>
+      <map pin="{1c2c1832-2057-41f4-96ac-a0c08c7dc8ee}" display="component_signal">{6752dedc-4ece-48fb-873c-30a752c59dbc}</map>
+     </pin_signal_map>
+    </item>
+    <item required="true" suffix="-2" symbol="{0ec4c95b-7237-427c-8eb1-76a3afed20ea}" uuid="{dea8144e-662c-4128-abed-0e7412707ef3}">
+     <pin_signal_map>
+      <map pin="{0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9}" display="component_signal">{a2c54435-170f-43c3-8b9b-56bc49846bb3}</map>
+      <map pin="{39249903-f7b9-4a60-83ff-4af061a9d13d}" display="component_signal">{a2c54435-170f-43c3-8b9b-56bc49846bb3}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

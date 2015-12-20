@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{fe7fbc5e-1818-41af-a08d-1d54af25a97b}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:43Z</created>
+  <last_modified>2015-12-20T22:10:43Z</last_modified>
+  <name locale="en_US">RAD2,5</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+diameter 2.54 mm, vertical, grid 2.54 mm
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: RAD2,5
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{fed30733-eb20-4d9b-bdc6-c4197a655ce0}">C</pad>
+  <pad uuid="{bcf621e0-ad12-4e61-8780-48983619fee7}">A</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{4b706a62-4130-4214-8c26-c428790a6eeb}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.609600" start_x="0.304800" start_y="0.000000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-0.279400" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.609600" start_x="1.270000" start_y="0.000000" fill="false" grab_area="true" layer="200">
+     <segment end_x="0.508000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.609600" start_x="-1.270000" start_y="0.000000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-0.381000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <text x="0.914400" height="2.000000" y="-2.159000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <text x="0.889000" height="2.500000" y="0.990600" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <ellipse width="0.152400" radius_x="1.905000" x="-1.270000" radius_y="1.905000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <pad smt_side="top" width="1.625600" x="-1.270000" height="1.625600" y="0.000000" rotation="0.000000" type="tht_round" uuid="{fed30733-eb20-4d9b-bdc6-c4197a655ce0}" tht_drill="0.812800"/>
+    <pad smt_side="top" width="1.625600" x="1.270000" height="1.625600" y="0.000000" rotation="0.000000" type="tht_octagon" uuid="{bcf621e0-ad12-4e61-8780-48983619fee7}" tht_drill="0.812800"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

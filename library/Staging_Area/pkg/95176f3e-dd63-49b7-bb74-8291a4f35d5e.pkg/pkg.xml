@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{95176f3e-dd63-49b7-bb74-8291a4f35d5e}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:48Z</created>
+  <last_modified>2015-12-20T22:10:48Z</last_modified>
+  <name locale="en_US">RTRIMT93YA</name>
+  <description locale="en_US">&lt;b>Trimm resistor&lt;/b> VISHAY&lt;p>
+Cermet, abgedichtet nach IP67
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: RTRIMT93YA
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{cf56814c-d66b-40ff-9c4a-b62ff5657c43}">1</pad>
+  <pad uuid="{0222dd30-2471-4c36-b81b-c5ec409c46f9}">2</pad>
+  <pad uuid="{717a7d58-441b-47d5-babb-13353d1af8f4}">3</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{58af6cbe-9b8d-4c2d-be57-a67d47d1f155}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.152400" start_x="-0.750000" start_y="2.600000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-0.300000" end_y="3.300000" angle="-311.390901"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-0.750000" start_y="2.600000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-0.300000" end_y="3.300000" angle="48.609099"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-1.450000" start_y="2.500000" fill="true" grab_area="true" layer="260">
+     <segment end_x="-1.150000" end_y="2.500000" angle="0.000000"/>
+     <segment end_x="-1.150000" end_y="4.400000" angle="0.000000"/>
+     <segment end_x="-1.450000" end_y="4.400000" angle="0.000000"/>
+     <segment end_x="-1.450000" end_y="2.500000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="-2.550000" start_y="-4.750000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.550000" end_y="4.750000" angle="0.000000"/>
+     <segment end_x="2.150000" end_y="4.750000" angle="0.000000"/>
+     <segment end_x="2.150000" end_y="-4.750000" angle="0.000000"/>
+     <segment end_x="-2.550000" end_y="-4.750000" angle="0.000000"/>
+    </polygon>
+    <text x="-3.040000" height="2.500000" y="-4.890000" rotation="90.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="4.010000" height="2.000000" y="-4.890000" rotation="90.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="1.219200" x="0.000000" height="1.219200" y="-2.540000" rotation="0.000000" type="tht_round" uuid="{cf56814c-d66b-40ff-9c4a-b62ff5657c43}" tht_drill="0.609600"/>
+    <pad smt_side="top" width="1.219200" x="0.000000" height="1.219200" y="2.540000" rotation="0.000000" type="tht_round" uuid="{717a7d58-441b-47d5-babb-13353d1af8f4}" tht_drill="0.609600"/>
+    <pad smt_side="top" width="1.219200" x="0.000000" height="1.219200" y="0.000000" rotation="0.000000" type="tht_round" uuid="{0222dd30-2471-4c36-b81b-c5ec409c46f9}" tht_drill="0.609600"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

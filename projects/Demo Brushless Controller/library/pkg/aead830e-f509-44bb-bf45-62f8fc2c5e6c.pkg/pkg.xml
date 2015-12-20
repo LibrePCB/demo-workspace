@@ -1,22 +1,59 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <package version="0">
-    <meta>
-        <uuid>{aead830e-f509-44bb-bf45-62f8fc2c5e6c}</uuid>
-        <version>0.1</version>
-        <author>LibrePCB</author>
-        <created>2015-08-15T20:18:53Z</created>
-        <last_modified>2015-08-15T20:18:53Z</last_modified>
-        <name locale="en_US">SE14</name>
-        <description locale="en_US">&lt;b>SOLDER PAD&lt;/b>&lt;p>
+ <meta>
+  <uuid>{aead830e-f509-44bb-bf45-62f8fc2c5e6c}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-08-15T20:18:53Z</created>
+  <last_modified>2015-08-15T20:18:53Z</last_modified>
+  <name locale="en_US">SE14</name>
+  <description locale="en_US">&lt;b>SOLDER PAD&lt;/b>&lt;p>
 drill 1.4 mm
 
 This element was automatically imported from Eagle
 Filepath: solpad.lbr
 Name: SE14
 NOTE: Remove this text after manual rework!</description>
-        <keywords locale="en_US"></keywords>
-        <footprint>{e2ecd2de-237c-4f0f-8a1d-085af7f88f4e}</footprint>
-        <model_3d></model_3d>
-    </meta>
-    <categories/>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="{55b24224-6a36-4a83-b456-6435eeb92da5}">MP</pad>
+ </pads>
+ <footprints>
+  <footprint uuid="{e2ecd2de-237c-4f0f-8a1d-085af7f88f4e}" default="true">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon layer="260" grab_area="true" width="0.152400" start_x="-1.524000" start_y="0.635000" fill="false">
+     <segment end_x="-1.524000" end_y="-0.635000" angle="0.000000"/>
+    </polygon>
+    <polygon layer="260" grab_area="true" width="0.152400" start_x="0.635000" start_y="-1.524000" fill="false">
+     <segment end_x="1.524000" end_y="-0.635000" angle="0.000000"/>
+    </polygon>
+    <polygon layer="260" grab_area="true" width="0.152400" start_x="0.635000" start_y="1.524000" fill="false">
+     <segment end_x="1.524000" end_y="0.635000" angle="0.000000"/>
+    </polygon>
+    <polygon layer="260" grab_area="true" width="0.152400" start_x="1.524000" start_y="0.635000" fill="false">
+     <segment end_x="1.524000" end_y="-0.635000" angle="0.000000"/>
+    </polygon>
+    <polygon layer="260" grab_area="true" width="0.152400" start_x="-1.524000" start_y="0.635000" fill="false">
+     <segment end_x="-0.635000" end_y="1.524000" angle="0.000000"/>
+    </polygon>
+    <polygon layer="260" grab_area="true" width="0.152400" start_x="-0.635000" start_y="1.524000" fill="false">
+     <segment end_x="0.635000" end_y="1.524000" angle="0.000000"/>
+    </polygon>
+    <polygon layer="260" grab_area="true" width="0.152400" start_x="-0.635000" start_y="-1.524000" fill="false">
+     <segment end_x="-1.524000" end_y="-0.635000" angle="0.000000"/>
+    </polygon>
+    <polygon layer="260" grab_area="true" width="0.152400" start_x="0.635000" start_y="-1.524000" fill="false">
+     <segment end_x="-0.635000" end_y="-1.524000" angle="0.000000"/>
+    </polygon>
+    <text h_align="left" x="-1.397000" v_align="bottom" y="1.778000" rotation="0.000000" layer="240" height="2.500000">${CMP::NAME}</text>
+    <text h_align="left" x="0.000000" v_align="bottom" y="0.381000" rotation="0.000000" layer="250" height="2.000000">${CMP::VALUE}</text>
+    <ellipse radius_x="0.762000" radius_y="0.762000" x="0.000000" y="0.000000" rotation="0.000000" layer="200" grab_area="true" width="0.152400" fill="false"/>
+    <ellipse radius_x="0.381000" radius_y="0.381000" x="0.000000" y="0.000000" rotation="0.000000" layer="200" grab_area="true" width="0.254000" fill="false"/>
+    <pad tht_drill="1.397000" smt_side="top" x="0.000000" y="0.000000" rotation="0.000000" uuid="{55b24224-6a36-4a83-b456-6435eeb92da5}" height="2.540000" width="2.540000" type="tht_octagon"/>
+   </geometry>
+  </footprint>
+ </footprints>
 </package>

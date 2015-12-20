@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{b7f46f68-ff91-4a61-a0af-965a3424d6f8}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:03Z</created>
+  <last_modified>2015-12-20T22:11:03Z</last_modified>
+  <name locale="en_US">LSP11</name>
+  <description locale="en_US">&lt;b>SOLDER PAD&lt;/b>&lt;p>
+drill 1.1 mm
+
+This element was automatically imported from Eagle
+Filepath: solpad.lbr
+Name: LSP11
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">LSP</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{c721ddf0-eb66-4204-9351-d479a0929695}" role="passive">MP</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{aa13a9a7-2006-47f7-9988-a0f00c436f15}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="1" symbol="{052aa7bc-7a56-4a3e-8b6e-8bd20873f5fe}" uuid="{28433448-ca10-4df2-8e28-bba94caf2d35}">
+     <pin_signal_map>
+      <map pin="{85838f32-e34b-43b7-929c-8dad5764c146}" display="component_signal">{c721ddf0-eb66-4204-9351-d479a0929695}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

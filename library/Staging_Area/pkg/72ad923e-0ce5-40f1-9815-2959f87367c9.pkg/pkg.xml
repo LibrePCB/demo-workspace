@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{72ad923e-0ce5-40f1-9815-2959f87367c9}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:49Z</created>
+  <last_modified>2015-12-20T22:10:49Z</last_modified>
+  <name locale="en_US">SANYO-OSCON_C</name>
+  <description locale="en_US">&lt;b>SANYO OSCON Capacitor&lt;/b>&lt;p>
+Source: e_os_all.pdf
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: SANYO-OSCON_C
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{1cbf509c-72a5-438e-a3de-2c4594db484b}">-</pad>
+  <pad uuid="{d237cf71-40d3-4b3c-aa09-69a7ab1ef2df}">+</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{0801ad9e-7fd5-4555-ba76-5cde0aef426f}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.406400" start_x="-2.200000" start_y="0.000000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.700000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <text x="-1.905000" height="2.500000" y="1.270000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-1.905000" height="2.000000" y="-2.540000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <ellipse width="0.203200" radius_x="3.050000" x="0.000000" radius_y="3.050000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <pad smt_side="top" width="1.270000" x="1.250000" height="1.270000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{d237cf71-40d3-4b3c-aa09-69a7ab1ef2df}" tht_drill="0.800000"/>
+    <pad smt_side="top" width="1.270000" x="-1.250000" height="1.270000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{1cbf509c-72a5-438e-a3de-2c4594db484b}" tht_drill="0.800000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

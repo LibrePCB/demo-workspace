@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{9b1481ca-7d89-4157-90ce-6e7ffc339249}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <name locale="en_US">ASF*</name>
+  <description locale="en_US">&lt;b>CRYSTAL CLOCK OSCILLATORS&lt;/b>&lt;p>
+5.0 Vdc or 3.3 Vdc - LOW PROFILE ULTRA MINIATURE CERAMIC SURFACE MOUNT&lt;br>
+Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: ASF*
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">Q</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{d2df895a-e472-48ed-863e-f0aee18b8161}" role="passive">FO</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{a0b8cf68-2b23-4a39-b5d5-cb3a7dc21546}" role="passive">GND</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{ba73b6f0-1114-4200-8b6b-bad2f0dd23f9}" role="passive">OE</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{637f1f36-7633-426e-be13-550b920e8e48}" role="passive">VCC</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{d243e01a-8258-4e96-acb3-6c3ece46e5de}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="{e24e0a27-d7dc-43d5-8ca6-cef47a36f6ec}" uuid="{6760a81b-5854-4a88-a1c2-67bfc9d284d3}">
+     <pin_signal_map>
+      <map pin="{31ba3c4d-bd94-478f-9d9d-44c3a4873f01}" display="component_signal">{637f1f36-7633-426e-be13-550b920e8e48}</map>
+      <map pin="{dc5cf84f-31a3-49fb-aa13-19792c2247b4}" display="component_signal">{ba73b6f0-1114-4200-8b6b-bad2f0dd23f9}</map>
+      <map pin="{19366e0b-bfc6-4b78-b509-815d6c6f0700}" display="component_signal">{a0b8cf68-2b23-4a39-b5d5-cb3a7dc21546}</map>
+      <map pin="{604f3601-87d1-40be-98ee-7567fe90557f}" display="component_signal">{d2df895a-e472-48ed-863e-f0aee18b8161}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

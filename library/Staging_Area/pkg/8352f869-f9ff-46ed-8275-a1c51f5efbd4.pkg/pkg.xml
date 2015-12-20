@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{8352f869-f9ff-46ed-8275-a1c51f5efbd4}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:47Z</created>
+  <last_modified>2015-12-20T22:10:47Z</last_modified>
+  <name locale="en_US">RTRIMCVR42A</name>
+  <description locale="en_US">&lt;b>Trimm resistor&lt;/b> AVX
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: RTRIMCVR42A
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{197eeaab-1872-47b7-9278-34f6746cb6ab}">2</pad>
+  <pad uuid="{9eecace8-f7f6-4194-8117-9d88d3d0bb53}">1</pad>
+  <pad uuid="{f4f3722f-215c-464a-9f8d-85ce200dfcbe}">3</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{97964083-5424-4889-b806-d1beef0ab422}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.812800" start_x="-0.600000" start_y="-1.100000" fill="false" grab_area="true" layer="200">
+     <segment end_x="0.600000" end_y="-1.100000" angle="-302.779081"/>
+    </polygon>
+    <polygon width="0.254000" start_x="-1.900000" start_y="-1.150000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-1.900000" end_y="1.900000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="-1.900000" start_y="1.900000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-1.350000" end_y="1.900000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="1.900000" start_y="-1.150000" fill="false" grab_area="true" layer="260">
+     <segment end_x="1.900000" end_y="1.900000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="1.900000" start_y="1.900000" fill="false" grab_area="true" layer="260">
+     <segment end_x="1.350000" end_y="1.900000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-0.650000" start_y="-1.150000" fill="true" grab_area="true" layer="200">
+     <segment end_x="0.650000" end_y="-1.150000" angle="0.000000"/>
+     <segment end_x="0.650000" end_y="-0.750000" angle="0.000000"/>
+     <segment end_x="-0.650000" end_y="-0.750000" angle="0.000000"/>
+     <segment end_x="-0.650000" end_y="-1.150000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.000000" start_x="-1.050000" start_y="-0.150000" fill="true" grab_area="true" layer="260">
+     <segment end_x="1.050000" end_y="-0.150000" angle="0.000000"/>
+     <segment end_x="1.050000" end_y="0.150000" angle="0.000000"/>
+     <segment end_x="-1.050000" end_y="0.150000" angle="0.000000"/>
+     <segment end_x="-1.050000" end_y="-0.150000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.254000" start_x="-1.900000" start_y="-1.900000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-1.900000" end_y="1.900000" angle="0.000000"/>
+     <segment end_x="1.900000" end_y="1.900000" angle="0.000000"/>
+     <segment end_x="1.900000" end_y="-1.900000" angle="0.000000"/>
+     <segment end_x="-1.900000" end_y="-1.900000" angle="0.000000"/>
+    </polygon>
+    <text x="-2.290000" height="2.500000" y="-2.690000" rotation="90.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="3.510000" height="2.000000" y="-2.690000" rotation="90.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="1.300000" x="1.150000" height="1.400000" y="-2.050000" rotation="0.000000" type="smt_rect" uuid="{f4f3722f-215c-464a-9f8d-85ce200dfcbe}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="2.300000" x="0.000000" height="1.500000" y="1.800000" rotation="0.000000" type="smt_rect" uuid="{197eeaab-1872-47b7-9278-34f6746cb6ab}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="1.300000" x="-1.150000" height="1.400000" y="-2.050000" rotation="0.000000" type="smt_rect" uuid="{9eecace8-f7f6-4194-8117-9d88d3d0bb53}" tht_drill="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

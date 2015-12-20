@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{9122d12a-f5d5-42f4-a1c2-c8e6876dae51}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:44Z</created>
+  <last_modified>2015-12-20T22:10:44Z</last_modified>
+  <name locale="en_US">C182A</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+2-lead plasic, vertical
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: C182A
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{1ae19155-4504-4866-89b5-ace3fca41628}">A</pad>
+  <pad uuid="{d3795896-e9d5-45cc-abdf-4fc16944da27}">C</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{b18feeef-ba63-4169-961e-7c5477f32015}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.152400" start_x="2.286000" start_y="1.270000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-2.286000" end_y="1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_x="-2.270500" start_y="1.272400" fill="false" grab_area="true" layer="260">
+     <segment end_x="2.286000" end_y="1.270000" angle="240.509903"/>
+    </polygon>
+    <text x="3.175000" height="2.500000" y="0.635000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="3.175000" height="2.000000" y="-1.270000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="1.625600" x="1.270000" height="1.625600" y="0.000000" rotation="0.000000" type="tht_octagon" uuid="{1ae19155-4504-4866-89b5-ace3fca41628}" tht_drill="0.812800"/>
+    <pad smt_side="top" width="1.625600" x="-1.270000" height="1.625600" y="0.000000" rotation="0.000000" type="tht_octagon" uuid="{d3795896-e9d5-45cc-abdf-4fc16944da27}" tht_drill="0.812800"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

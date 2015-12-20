@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{c32c858a-cdf5-4794-8a98-96d22341c0c0}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:48Z</created>
+  <last_modified>2015-12-20T22:10:48Z</last_modified>
+  <name locale="en_US">2200-15.24</name>
+  <description locale="en_US">&lt;b>newport components&lt;/b> 2200 Serie RM 15.24 mm&lt;p>
+Miniatur Axial Lead Inductors&lt;br>
+Source: www.rsonline.de&lt;br>
+Order code 240-517
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: 2200-15.24
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{14fd4fa2-ebbc-49ef-9385-0193b9dff31d}">1</pad>
+  <pad uuid="{1406be19-6bf9-45fd-bd26-d3d42b7a2e18}">2</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{53d54d64-68da-45f4-8034-f56465ef403c}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.500000" start_x="-7.620000" start_y="0.000000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-5.080000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.500000" start_x="7.620000" start_y="0.000000" fill="false" grab_area="true" layer="200">
+     <segment end_x="5.080000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="4.900000" start_y="-1.900000" fill="false" grab_area="true" layer="200">
+     <segment end_x="4.900000" end_y="1.900000" angle="0.000000"/>
+     <segment end_x="-4.900000" end_y="1.900000" angle="0.000000"/>
+     <segment end_x="-4.900000" end_y="-1.900000" angle="0.000000"/>
+     <segment end_x="4.900000" end_y="-1.900000" angle="0.000000"/>
+    </polygon>
+    <text x="-4.445000" height="2.500000" y="2.540000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-3.810000" height="2.000000" y="-0.635000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="1.270000" x="-7.620000" height="1.270000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{14fd4fa2-ebbc-49ef-9385-0193b9dff31d}" tht_drill="0.800000"/>
+    <pad smt_side="top" width="1.270000" x="7.620000" height="1.270000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{1406be19-6bf9-45fd-bd26-d3d42b7a2e18}" tht_drill="0.800000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>{d40f5fbf-085a-461b-9922-89cc6f94ed88}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <name locale="en_US">DIAC2-</name>
+  <description locale="en_US">&lt;B>DIAC&lt;/B>&lt;p>
+double diode
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: DIAC2-
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <value locale="en_US"></value>
+  <prefix default="true" norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{bd5e5eff-8b69-412e-8a7f-27a3b6e0442e}" role="passive">T1</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{c77f6b0d-d360-4871-a757-6f79170bc60b}" role="passive">T2</signal>
+  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{ad7af6e3-39a8-400e-9a0a-61a3fc666e17}" role="passive">T3</signal>
+ </signals>
+ <symbol_variants>
+  <variant default="true" norm="" uuid="{d528a560-7c02-4ef0-a265-d6df09ccfcee}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="-B1" symbol="{3cf0cac9-a1c6-4995-8eee-04e41e518029}" uuid="{e676b0ab-f6bf-49d4-b626-121c8228db28}">
+     <pin_signal_map>
+      <map pin="{711d0ef8-a72a-4542-a474-baa0074e25e1}" display="component_signal">{c77f6b0d-d360-4871-a757-6f79170bc60b}</map>
+      <map pin="{ea1a9645-2a7e-4bad-854b-0b52ff507810}" display="component_signal">{bd5e5eff-8b69-412e-8a7f-27a3b6e0442e}</map>
+      <map pin="{24ac5697-3a34-4696-8479-9cc3b2c04abd}" display="component_signal">{ad7af6e3-39a8-400e-9a0a-61a3fc666e17}</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+ <spice_models/>
+</component>

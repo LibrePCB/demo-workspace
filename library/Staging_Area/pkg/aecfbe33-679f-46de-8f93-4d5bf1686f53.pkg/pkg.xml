@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{aecfbe33-679f-46de-8f93-4d5bf1686f53}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:49Z</created>
+  <last_modified>2015-12-20T22:10:49Z</last_modified>
+  <name locale="en_US">WSC2515</name>
+  <description locale="en_US">&lt;b>Wirewound Resistors, Precision Power&lt;/b>&lt;p>
+Source: VISHAY wscwsn.pdf
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: WSC2515
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{b5ec33ec-9bb0-4d20-904c-84996dc008a2}">1</pad>
+  <pad uuid="{e5c1161e-b0cc-4824-b301-facd839849da}">2</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{fa13cf92-8e3f-4ed7-9584-e37ddd717a43}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.203200" start_x="-3.075000" start_y="1.800000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-3.075000" end_y="1.606000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-3.075000" start_y="-1.606000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-3.075000" end_y="-1.800000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="3.050000" start_y="1.606000" fill="false" grab_area="true" layer="260">
+     <segment end_x="3.050000" end_y="1.800000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="3.050000" start_y="-1.800000" fill="false" grab_area="true" layer="260">
+     <segment end_x="3.050000" end_y="-1.606000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-3.075000" start_y="1.800000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-3.075000" end_y="-1.800000" angle="0.000000"/>
+     <segment end_x="3.050000" end_y="-1.800000" angle="0.000000"/>
+     <segment end_x="3.050000" end_y="1.800000" angle="0.000000"/>
+     <segment end_x="-3.075000" end_y="1.800000" angle="0.000000"/>
+    </polygon>
+    <text x="-3.200000" height="2.500000" y="2.150000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-3.200000" height="2.000000" y="-3.400000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="2.290000" x="-2.675000" height="2.920000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{b5ec33ec-9bb0-4d20-904c-84996dc008a2}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="2.290000" x="2.675000" height="2.920000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{e5c1161e-b0cc-4824-b301-facd839849da}" tht_drill="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

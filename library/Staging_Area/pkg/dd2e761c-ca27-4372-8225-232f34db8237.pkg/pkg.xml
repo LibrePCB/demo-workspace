@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{dd2e761c-ca27-4372-8225-232f34db8237}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:48Z</created>
+  <last_modified>2015-12-20T22:10:48Z</last_modified>
+  <name locale="en_US">153CLV-1012</name>
+  <description locale="en_US">&lt;b>Aluminum electrolytic capacitors&lt;/b>&lt;p>
+SMD (Chip) Long Life Vertical 153 CLV&lt;p>
+http://www.bccomponents.com/
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: 153CLV-1012
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{e2d07e0b-24ed-4a5b-831d-d76dd90d1b29}">+</pad>
+  <pad uuid="{4b3c9327-30b7-4261-98f8-d2df0cda60e7}">-</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{d9383aa5-3754-49eb-bc86-dd2e3af3b8bb}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.203200" start_x="4.300000" start_y="-5.200000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-5.200000" end_y="-5.200000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-5.200000" start_y="-5.200000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-5.200000" end_y="-1.500000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-5.200000" start_y="-1.500000" fill="false" grab_area="true" layer="200">
+     <segment end_x="-5.200000" end_y="1.500000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-5.200000" start_y="1.500000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-5.200000" end_y="5.200000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="-5.200000" start_y="5.200000" fill="false" grab_area="true" layer="260">
+     <segment end_x="4.300000" end_y="5.200000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="5.200000" start_y="4.300000" fill="false" grab_area="true" layer="260">
+     <segment end_x="5.200000" end_y="1.500000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="5.200000" start_y="1.500000" fill="false" grab_area="true" layer="200">
+     <segment end_x="5.200000" end_y="-1.500000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="5.200000" start_y="-1.500000" fill="false" grab_area="true" layer="260">
+     <segment end_x="5.200000" end_y="-4.300000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="5.200000" start_y="-4.300000" fill="false" grab_area="true" layer="260">
+     <segment end_x="4.300000" end_y="-5.200000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="4.300000" start_y="5.200000" fill="false" grab_area="true" layer="260">
+     <segment end_x="5.200000" end_y="4.300000" angle="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_x="4.650000" start_y="-1.550000" fill="false" grab_area="true" layer="260">
+     <segment end_x="4.650000" end_y="1.550000" angle="0.000000"/>
+     <segment end_x="-4.650000" end_y="1.550000" angle="0.000000"/>
+     <segment end_x="-4.650000" end_y="-1.550000" angle="0.000000"/>
+     <segment end_x="4.650000" end_y="-1.550000" angle="0.000000"/>
+    </polygon>
+    <text x="-5.290000" height="2.500000" y="5.530000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="-5.325000" height="2.000000" y="-6.785000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="4.300000" x="4.150000" height="2.500000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{e2d07e0b-24ed-4a5b-831d-d76dd90d1b29}" tht_drill="0.000000"/>
+    <pad smt_side="top" width="4.300000" x="-4.150000" height="2.500000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{4b3c9327-30b7-4261-98f8-d2df0cda60e7}" tht_drill="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

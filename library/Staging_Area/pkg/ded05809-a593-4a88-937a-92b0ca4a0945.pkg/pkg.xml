@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>{ded05809-a593-4a88-937a-92b0ca4a0945}</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:48Z</created>
+  <last_modified>2015-12-20T22:10:48Z</last_modified>
+  <name locale="en_US">TJ4-U1</name>
+  <description locale="en_US">&lt;b>Inductor&lt;/b>&lt;p>
+Source: TJ-Serie Vishay.pdf
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: TJ4-U1
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"/>
+ </meta>
+ <pads>
+  <pad uuid="{a19f9331-1063-436b-835b-680c938e8d76}">1</pad>
+  <pad uuid="{f3c05c40-36cf-453d-9776-2337bf810fcb}">2</pad>
+ </pads>
+ <footprints>
+  <footprint default="true" uuid="{d56b802e-ef04-434d-a8fb-66baf3a1f42b}">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.203200" start_x="-4.950000" start_y="-11.050000" fill="false" grab_area="true" layer="260">
+     <segment end_x="-4.950000" end_y="11.050000" angle="0.000000"/>
+     <segment end_x="4.950000" end_y="11.050000" angle="0.000000"/>
+     <segment end_x="4.950000" end_y="-11.050000" angle="0.000000"/>
+     <segment end_x="-4.950000" end_y="-11.050000" angle="0.000000"/>
+    </polygon>
+    <text x="-0.635000" height="2.500000" y="-5.080000" rotation="90.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
+    <text x="1.905000" height="2.000000" y="-5.080000" rotation="90.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
+    <pad smt_side="top" width="1.800000" x="-3.935000" height="1.800000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{a19f9331-1063-436b-835b-680c938e8d76}" tht_drill="0.900000"/>
+    <pad smt_side="top" width="1.800000" x="3.935000" height="1.800000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{f3c05c40-36cf-453d-9776-2337bf810fcb}" tht_drill="0.900000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>
