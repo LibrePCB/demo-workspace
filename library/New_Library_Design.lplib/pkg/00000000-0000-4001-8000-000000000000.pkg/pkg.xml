@@ -49,14 +49,14 @@
         - tht_drill:    The drill diameter of THT pads (in millimeters)
         - smt_side:     The side of SMT pads (top, bottom)
     -->
-    <polygon layer="top:dev:outline" width="0.254" fill="false" grab_area="true" start_x="-12.7" start_y="-7.62">
+    <polygon layer="200" width="0.254" fill="false" grab_area="true" start_x="-12.7" start_y="-7.62">
      <segment angle="0" end_x="-12.7" end_y="5.08"/>
      <segment angle="0" end_x="12.7" end_y="5.08"/>
      <segment angle="0" end_x="12.7" end_y="-7.62"/>
      <segment angle="0" end_x="-12.7" end_y="-7.62"/>
     </polygon>
-    <text layer="top:dev:name" v_align="bottom" height="2.54" rotation="0" x="-12.7" y="5.08"  h_align="left">${CMP::NAME}</text>
-    <text layer="top:dev:value" v_align="top" height="2.54" rotation="0" x="-12.7" y="-7.62" h_align="left">${CMP::VALUE}</text>
+    <text layer="240" v_align="bottom" height="2.54" rotation="0" x="-12.7" y="5.08"  h_align="left">${CMP::NAME}</text>
+    <text layer="250" v_align="top" height="2.54" rotation="0" x="-12.7" y="-7.62" h_align="left">${CMP::VALUE}</text>
     <pad uuid="4385b685-0cdd-4663-9af9-f4b4273c1c0a" type="tht_round" x="-3.81" y="2.54" rotation="0" width="3" height="2.1" tht_drill="0.8" smt_side="top"/>
     <pad uuid="4bc6e28e-1d0f-419c-8b39-dec456cd3193" type="tht_round" x="-3.81" y="0" rotation="0" width="3" height="2.1" tht_drill="0.8" smt_side="top"/>
     <pad uuid="73ad878d-ade1-4b19-a278-18eda08ffb72" type="tht_round" x="-3.81" y="-2.54" rotation="0" width="3" height="2.1" tht_drill="0.8" smt_side="top"/>
@@ -69,6 +69,6 @@
   </footprint>
  </footprints>
  <models3d>
-  <model3d uuid="{19b31428-795a-48ed-ac70-30cd868d8ec7}" filename="DIP-8_W7.62mm.wrl" dx="0" dy="0" dz="0" rot_x="0" rot_y="0" rot_z="0" default="true">default</model>
+  <model3d uuid="{19b31428-795a-48ed-ac70-30cd868d8ec7}" filename="DIP-8_W7.62mm.wrl" dx="0" dy="0" dz="0" rot_x="0" rot_y="0" rot_z="0" default="true">default</model3d>
  </models3d>
 </package>

@@ -48,6 +48,14 @@
         </polygon>
         <text layer="240" rotation="0.000000" text="${CMP::NAME}" x="-2.540000" y="2.540000" h_align="left" v_align="bottom" height="2.500000"/>
         <text layer="250" rotation="0.000000" text="${CMP::VALUE}" x="-2.540000" y="-3.810000" h_align="left" v_align="bottom" height="2.000000"/>
+        <pad layer="300" rotation="0.000000" type="smd_rect" x="-1.475000" y="0.000000" width="1.050000" uuid="{89eedec9-5ff5-424d-a52e-d504c13a515c}" height="4.900000" drill="0.000000">
+            <name locale="en_US">1</name>
+            <description locale="en_US"/>
+        </pad>
+        <pad layer="300" rotation="0.000000" type="smd_rect" x="1.475000" y="0.000000" width="1.050000" uuid="{a2b76af6-4957-47ab-92be-1c65777f569b}" height="4.900000" drill="0.000000">
+            <name locale="en_US">2</name>
+            <description locale="en_US"/>
+        </pad>
     </geometry>
         </footprint>
     </footprints>

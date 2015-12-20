@@ -59,6 +59,14 @@ NOTE: Remove this text after manual rework!</description>
         </polygon>
         <text layer="240" h_align="left" rotation="0.000000" v_align="bottom" text="${CMP::NAME}" x="-2.540000" y="1.905000" height="2.500000"/>
         <text layer="250" h_align="left" rotation="0.000000" v_align="bottom" text="${CMP::VALUE}" x="-2.540000" y="-3.175000" height="2.000000"/>
+        <pad layer="300" rotation="0.000000" type="smd_rect" width="2.200000" x="-2.050000" y="0.000000" height="2.400000" uuid="{aaf74b7f-e453-47a4-808f-66deaa34fc1b}" drill="0.000000">
+            <name locale="en_US">1</name>
+            <description locale="en_US"/>
+        </pad>
+        <pad layer="300" rotation="0.000000" type="smd_rect" width="2.200000" x="2.050000" y="0.000000" height="2.400000" uuid="{62e1ed41-b4a0-4fa5-a204-735cda0e77fb}" drill="0.000000">
+            <name locale="en_US">2</name>
+            <description locale="en_US"/>
+        </pad>
     </geometry>
         </footprint>
     </footprints>
