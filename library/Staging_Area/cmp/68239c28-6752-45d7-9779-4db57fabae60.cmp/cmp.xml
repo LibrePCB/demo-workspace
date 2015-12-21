@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{68239c28-6752-45d7-9779-4db57fabae60}</uuid>
+  <uuid>68239c28-6752-45d7-9779-4db57fabae60</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:11:01Z</created>
@@ -14,37 +14,37 @@ This element was automatically imported from Eagle
 Filepath: led.lbr
 Name: SPHWHTHAD605S0W0U4
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix default="true" norm="">LED</prefix>
+  <prefix norm="" default="true">LED</prefix>
  </properties>
  <signals>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{6e678969-f0d0-4945-8c6e-5b8f9bfa155d}" role="passive">1</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{787275e3-8ac0-4bc1-bb0d-1b30eb20a901}" role="passive">2</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{fd8c228b-fb9d-49dc-ade9-c23bfe3439b0}" role="passive">4</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{742de1a9-95ef-48fa-b7ca-73dc5436d078}" role="passive">5</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{8f2debd3-0f54-4600-af01-5a7b560f98cf}" role="passive">TH</signal>
+  <signal required="false" uuid="6e678969-f0d0-4945-8c6e-5b8f9bfa155d" role="passive" clock="false" forced_net_name="" negated="false">1</signal>
+  <signal required="false" uuid="787275e3-8ac0-4bc1-bb0d-1b30eb20a901" role="passive" clock="false" forced_net_name="" negated="false">2</signal>
+  <signal required="false" uuid="fd8c228b-fb9d-49dc-ade9-c23bfe3439b0" role="passive" clock="false" forced_net_name="" negated="false">4</signal>
+  <signal required="false" uuid="742de1a9-95ef-48fa-b7ca-73dc5436d078" role="passive" clock="false" forced_net_name="" negated="false">5</signal>
+  <signal required="false" uuid="8f2debd3-0f54-4600-af01-5a7b560f98cf" role="passive" clock="false" forced_net_name="" negated="false">TH</signal>
  </signals>
  <symbol_variants>
-  <variant default="true" norm="" uuid="{5f6b1f51-d439-4e64-b73a-e9bea8ae8dc9}">
+  <variant norm="" uuid="5f6b1f51-d439-4e64-b73a-e9bea8ae8dc9" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" symbol="{1c700993-5be5-4648-9e5c-03c0ebe4a060}" uuid="{cacb2a37-dc67-4cf2-95c9-14a7f59b8cb2}">
+    <item required="true" uuid="cacb2a37-dc67-4cf2-95c9-14a7f59b8cb2" suffix="" symbol="1c700993-5be5-4648-9e5c-03c0ebe4a060">
      <pin_signal_map>
-      <map pin="{c31c5b96-b640-4d74-8e93-f1d1a7100b1c}" display="component_signal">{742de1a9-95ef-48fa-b7ca-73dc5436d078}</map>
-      <map pin="{ec569bd3-6c07-4bc6-857a-a3b00914800b}" display="component_signal">{6e678969-f0d0-4945-8c6e-5b8f9bfa155d}</map>
-      <map pin="{43398469-a6e2-4f12-b745-63ef8e700544}" display="component_signal">{fd8c228b-fb9d-49dc-ade9-c23bfe3439b0}</map>
-      <map pin="{97c31098-fe42-40d0-8841-cf106f87ca01}" display="component_signal">{787275e3-8ac0-4bc1-bb0d-1b30eb20a901}</map>
+      <map pin="c31c5b96-b640-4d74-8e93-f1d1a7100b1c" display="component_signal">742de1a9-95ef-48fa-b7ca-73dc5436d078</map>
+      <map pin="43398469-a6e2-4f12-b745-63ef8e700544" display="component_signal">fd8c228b-fb9d-49dc-ade9-c23bfe3439b0</map>
+      <map pin="97c31098-fe42-40d0-8841-cf106f87ca01" display="component_signal">787275e3-8ac0-4bc1-bb0d-1b30eb20a901</map>
+      <map pin="ec569bd3-6c07-4bc6-857a-a3b00914800b" display="component_signal">6e678969-f0d0-4945-8c6e-5b8f9bfa155d</map>
      </pin_signal_map>
     </item>
-    <item required="true" suffix="TH" symbol="{a49024b3-de81-419e-a4cf-1841b255e637}" uuid="{622add06-99af-421b-9171-e69de2e21b8f}">
+    <item required="true" uuid="622add06-99af-421b-9171-e69de2e21b8f" suffix="TH" symbol="a49024b3-de81-419e-a4cf-1841b255e637">
      <pin_signal_map>
-      <map pin="{d6cd1e3e-8404-47b3-b588-361810590a72}" display="component_signal">{8f2debd3-0f54-4600-af01-5a7b560f98cf}</map>
+      <map pin="d6cd1e3e-8404-47b3-b588-361810590a72" display="component_signal">8f2debd3-0f54-4600-af01-5a7b560f98cf</map>
      </pin_signal_map>
     </item>
    </symbol_items>

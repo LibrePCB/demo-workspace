@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{2b24b18d-bd95-4fb4-8fe6-bce1d020ead4}</uuid>
+  <uuid>2b24b18d-bd95-4fb4-8fe6-bce1d020ead4</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-03-08T16:21:14Z</created>
@@ -9,7 +9,7 @@
   <name locale="en_US">LED</name>
   <description locale="en_US"></description>
   <keywords locale="en_US"></keywords>
-  <category>{70421345-ae1d-4fed-aa60-e7619524b97f}</category>
+  <category>70421345-ae1d-4fed-aa60-e7619524b97f</category>
  </meta>
  <attributes>
   <attribute unit="" type="string" key="COLOR">
@@ -24,18 +24,18 @@
   <prefix norm="" default="true">LED</prefix>
  </properties>
  <signals>
-  <signal role="passive" negated="false" clock="false" forced_net_name="" required="true" uuid="{f1467b5c-cc7d-44b4-8076-d729f35b3a6a}">A</signal>
-  <signal role="passive" negated="false" clock="false" forced_net_name="" required="true" uuid="{7b023430-b68f-403a-80b8-c7deb12e7a0c}">C</signal>
+  <signal required="true" uuid="f1467b5c-cc7d-44b4-8076-d729f35b3a6a" role="passive" clock="false" forced_net_name="" negated="false">A</signal>
+  <signal required="true" uuid="7b023430-b68f-403a-80b8-c7deb12e7a0c" role="passive" clock="false" forced_net_name="" negated="false">C</signal>
  </signals>
  <symbol_variants>
-  <variant norm="" default="true" uuid="{ed0f0ca2-43ff-4a10-94c2-2958bc336586}">
+  <variant norm="" uuid="ed0f0ca2-43ff-4a10-94c2-2958bc336586" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" uuid="{80e56299-8f8c-4613-a559-1fba31f01411}" symbol="{cb442e56-0ec7-4486-8c43-7bdfa9b47d9a}">
+    <item required="true" uuid="80e56299-8f8c-4613-a559-1fba31f01411" suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a">
      <pin_signal_map>
-      <map display="none" pin="{2a64f851-340a-43f2-b1cf-06a1d4b54560}">{f1467b5c-cc7d-44b4-8076-d729f35b3a6a}</map>
-      <map display="none" pin="{18de942d-8b47-4daf-9e07-d089204e09d0}">{7b023430-b68f-403a-80b8-c7deb12e7a0c}</map>
+      <map pin="2a64f851-340a-43f2-b1cf-06a1d4b54560" display="none">f1467b5c-cc7d-44b4-8076-d729f35b3a6a</map>
+      <map pin="18de942d-8b47-4daf-9e07-d089204e09d0" display="none">7b023430-b68f-403a-80b8-c7deb12e7a0c</map>
      </pin_signal_map>
     </item>
    </symbol_items>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{197dacc7-3785-4054-a538-ced0d6271faa}</uuid>
+  <uuid>197dacc7-3785-4054-a538-ced0d6271faa</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-03-08T15:14:19Z</created>
@@ -9,7 +9,7 @@
   <name locale="en_US">Solder Pad 1P</name>
   <description locale="en_US"></description>
   <keywords locale="en_US"></keywords>
-  <category>{f8ad7e13-8509-45be-acce-68f2589a6814}</category>
+  <category>f8ad7e13-8509-45be-acce-68f2589a6814</category>
  </meta>
  <attributes/>
  <properties>
@@ -18,16 +18,16 @@
   <prefix norm="" default="true">PAD</prefix>
  </properties>
  <signals>
-  <signal negated="false" required="true" uuid="{ad6ae81a-7914-49b7-a87b-a0e8574b7398}" role="passive" forced_net_name="" clock="false">1</signal>
+  <signal clock="false" required="true" uuid="ad6ae81a-7914-49b7-a87b-a0e8574b7398" role="passive" forced_net_name="" negated="false">1</signal>
  </signals>
  <symbol_variants>
-  <variant norm="" uuid="{0f0439a1-c258-40e7-b407-029f084c372f}" default="true">
+  <variant norm="" uuid="0f0439a1-c258-40e7-b407-029f084c372f" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="{c9c1fdcf-17cb-449d-8d27-2fe6ddd270ae}" suffix="" symbol="{dce44427-4d53-4881-a77a-3e4faa383e3b}">
+    <item required="true" suffix="" uuid="c9c1fdcf-17cb-449d-8d27-2fe6ddd270ae" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b">
      <pin_signal_map>
-      <map pin="{01f564d5-9975-4613-bf90-153a031fe625}" display="none">{ad6ae81a-7914-49b7-a87b-a0e8574b7398}</map>
+      <map display="none" pin="01f564d5-9975-4613-bf90-153a031fe625">ad6ae81a-7914-49b7-a87b-a0e8574b7398</map>
      </pin_signal_map>
     </item>
    </symbol_items>

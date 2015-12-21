@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{1d52c850-82f0-404c-9bba-0ef92626d02b}</uuid>
+  <uuid>1d52c850-82f0-404c-9bba-0ef92626d02b</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:10:54Z</created>
@@ -14,43 +14,43 @@ This element was automatically imported from Eagle
 Filepath: con-molex.lbr
 Name: 22-?-04
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix default="true" norm="">J</prefix>
+  <prefix norm="" default="true">J</prefix>
  </properties>
  <signals>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{e9c73e5a-5609-441c-a062-233f3caebf70}" role="passive">S</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{a7783f44-5a0e-4e2a-a96e-9f122666f4ae}" role="passive">S</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{abade74c-c5ef-40ea-9249-5676095bb35e}" role="passive">S</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{cf48e871-b3ab-4149-9a81-22e3b287b4f2}" role="passive">S</signal>
+  <signal required="false" uuid="e9c73e5a-5609-441c-a062-233f3caebf70" role="passive" clock="false" forced_net_name="" negated="false">S</signal>
+  <signal required="false" uuid="a7783f44-5a0e-4e2a-a96e-9f122666f4ae" role="passive" clock="false" forced_net_name="" negated="false">S</signal>
+  <signal required="false" uuid="abade74c-c5ef-40ea-9249-5676095bb35e" role="passive" clock="false" forced_net_name="" negated="false">S</signal>
+  <signal required="false" uuid="cf48e871-b3ab-4149-9a81-22e3b287b4f2" role="passive" clock="false" forced_net_name="" negated="false">S</signal>
  </signals>
  <symbol_variants>
-  <variant default="true" norm="" uuid="{04d4aca1-93e0-4d70-90ed-9953e306f728}">
+  <variant norm="" uuid="04d4aca1-93e0-4d70-90ed-9953e306f728" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="-1" symbol="{0a757ef4-781e-4f3c-aade-8a81ddaced49}" uuid="{df56dcb3-6aa0-43eb-ba5b-ffd96d96824d}">
+    <item required="true" uuid="df56dcb3-6aa0-43eb-ba5b-ffd96d96824d" suffix="-1" symbol="0a757ef4-781e-4f3c-aade-8a81ddaced49">
      <pin_signal_map>
-      <map pin="{45616a4f-3a27-43fe-b63f-11ee8266a5d9}" display="component_signal">{e9c73e5a-5609-441c-a062-233f3caebf70}</map>
+      <map pin="45616a4f-3a27-43fe-b63f-11ee8266a5d9" display="component_signal">e9c73e5a-5609-441c-a062-233f3caebf70</map>
      </pin_signal_map>
     </item>
-    <item required="true" suffix="-2" symbol="{37fe28e9-c52d-4849-a2d5-a7288e0ad8f5}" uuid="{f35abd27-20d8-4c14-855d-9abd3efdc89c}">
+    <item required="true" uuid="f35abd27-20d8-4c14-855d-9abd3efdc89c" suffix="-2" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5">
      <pin_signal_map>
-      <map pin="{30aecab6-78da-4867-91a2-4425c2addf92}" display="component_signal">{a7783f44-5a0e-4e2a-a96e-9f122666f4ae}</map>
+      <map pin="30aecab6-78da-4867-91a2-4425c2addf92" display="component_signal">a7783f44-5a0e-4e2a-a96e-9f122666f4ae</map>
      </pin_signal_map>
     </item>
-    <item required="true" suffix="-3" symbol="{37fe28e9-c52d-4849-a2d5-a7288e0ad8f5}" uuid="{f78fce13-965b-49c0-b30d-b8491d2305bd}">
+    <item required="true" uuid="f78fce13-965b-49c0-b30d-b8491d2305bd" suffix="-3" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5">
      <pin_signal_map>
-      <map pin="{30aecab6-78da-4867-91a2-4425c2addf92}" display="component_signal">{abade74c-c5ef-40ea-9249-5676095bb35e}</map>
+      <map pin="30aecab6-78da-4867-91a2-4425c2addf92" display="component_signal">abade74c-c5ef-40ea-9249-5676095bb35e</map>
      </pin_signal_map>
     </item>
-    <item required="true" suffix="-4" symbol="{37fe28e9-c52d-4849-a2d5-a7288e0ad8f5}" uuid="{aec4adee-9d95-423f-8971-72fc8d642abe}">
+    <item required="true" uuid="aec4adee-9d95-423f-8971-72fc8d642abe" suffix="-4" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5">
      <pin_signal_map>
-      <map pin="{30aecab6-78da-4867-91a2-4425c2addf92}" display="component_signal">{cf48e871-b3ab-4149-9a81-22e3b287b4f2}</map>
+      <map pin="30aecab6-78da-4867-91a2-4425c2addf92" display="component_signal">cf48e871-b3ab-4149-9a81-22e3b287b4f2</map>
      </pin_signal_map>
     </item>
    </symbol_items>

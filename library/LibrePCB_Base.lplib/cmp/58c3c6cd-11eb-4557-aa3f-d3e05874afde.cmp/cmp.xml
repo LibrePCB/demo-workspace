@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{58c3c6cd-11eb-4557-aa3f-d3e05874afde}</uuid>
+  <uuid>58c3c6cd-11eb-4557-aa3f-d3e05874afde</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-03-01T20:00:00Z</created>
@@ -9,7 +9,7 @@
   <name locale="en_US">VCC Supply</name>
   <description locale="en_US"></description>
   <keywords locale="en_US">vcc,supply</keywords>
-  <category>{adf8d941-787c-4b02-8772-fbc0a587463d}</category>
+  <category>adf8d941-787c-4b02-8772-fbc0a587463d</category>
  </meta>
  <attributes/>
  <properties>
@@ -18,16 +18,16 @@
   <prefix norm="" default="true">SUP</prefix>
  </properties>
  <signals>
-  <signal role="power" negated="false" clock="false" forced_net_name="${CMP::VALUE}" required="true" uuid="{1d893320-f811-4a79-b64e-cc23d749d394}">Net</signal>
+  <signal required="true" uuid="1d893320-f811-4a79-b64e-cc23d749d394" role="power" clock="false" forced_net_name="${CMP::VALUE}" negated="false">Net</signal>
  </signals>
  <symbol_variants>
-  <variant norm="" default="true" uuid="{afb86b45-68ec-47b6-8d96-153d73567228}">
+  <variant norm="" uuid="afb86b45-68ec-47b6-8d96-153d73567228" default="true">
    <name locale="en_US">Default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" uuid="{09b6d6c4-2d37-432f-9471-a317aad9a499}" symbol="{b95d0aca-7344-41ec-90ed-022f365ad765}">
+    <item required="true" uuid="09b6d6c4-2d37-432f-9471-a317aad9a499" suffix="" symbol="b95d0aca-7344-41ec-90ed-022f365ad765">
      <pin_signal_map>
-      <map display="none" pin="{771c2d8b-e4ad-487b-bcb1-fe2bc10c8a03}">{1d893320-f811-4a79-b64e-cc23d749d394}</map>
+      <map pin="771c2d8b-e4ad-487b-bcb1-fe2bc10c8a03" display="none">1d893320-f811-4a79-b64e-cc23d749d394</map>
      </pin_signal_map>
     </item>
    </symbol_items>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{b2498f77-03a1-4f18-82b3-45a50abd823a}</uuid>
+  <uuid>b2498f77-03a1-4f18-82b3-45a50abd823a</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:10:58Z</created>
@@ -13,31 +13,31 @@ This element was automatically imported from Eagle
 Filepath: crystal.lbr
 Name: CRYSTAL_RES-
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix default="true" norm="">QG</prefix>
+  <prefix norm="" default="true">QG</prefix>
  </properties>
  <signals>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{374c7871-5ca5-4564-8507-1b70a146eae9}" role="passive">CON</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{71f24938-fcc5-4bde-aedc-b5a0d4a35b99}" role="passive">OUT</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{172f8862-c1dc-4fbc-9332-d70dfdee4201}" role="passive">VDD</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{b7f5568a-7e24-4ecb-85f7-b45125a23e08}" role="passive">VSS</signal>
+  <signal required="false" uuid="374c7871-5ca5-4564-8507-1b70a146eae9" role="passive" clock="false" forced_net_name="" negated="false">CON</signal>
+  <signal required="false" uuid="71f24938-fcc5-4bde-aedc-b5a0d4a35b99" role="passive" clock="false" forced_net_name="" negated="false">OUT</signal>
+  <signal required="false" uuid="172f8862-c1dc-4fbc-9332-d70dfdee4201" role="passive" clock="false" forced_net_name="" negated="false">VDD</signal>
+  <signal required="false" uuid="b7f5568a-7e24-4ecb-85f7-b45125a23e08" role="passive" clock="false" forced_net_name="" negated="false">VSS</signal>
  </signals>
  <symbol_variants>
-  <variant default="true" norm="" uuid="{547cf112-695e-4595-887c-872870ef1076}">
+  <variant norm="" uuid="547cf112-695e-4595-887c-872870ef1076" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="A" symbol="{c7cf04be-ae05-40f7-98ff-1a04a988623c}" uuid="{d44a4753-35f2-43ad-a81a-689d2c3d8efe}">
+    <item required="true" uuid="d44a4753-35f2-43ad-a81a-689d2c3d8efe" suffix="A" symbol="c7cf04be-ae05-40f7-98ff-1a04a988623c">
      <pin_signal_map>
-      <map pin="{6735bbe2-8f1c-4ed0-9d56-b72c4406c4c1}" display="component_signal">{b7f5568a-7e24-4ecb-85f7-b45125a23e08}</map>
-      <map pin="{4406c046-3329-4b93-879f-93c0bf7857d6}" display="component_signal">{71f24938-fcc5-4bde-aedc-b5a0d4a35b99}</map>
-      <map pin="{9f9242db-84f2-47b2-8c4e-7f6ab5761cca}" display="component_signal">{172f8862-c1dc-4fbc-9332-d70dfdee4201}</map>
-      <map pin="{7a8c5f99-38c0-4a6b-bc2e-69ea5525be14}" display="component_signal">{374c7871-5ca5-4564-8507-1b70a146eae9}</map>
+      <map pin="4406c046-3329-4b93-879f-93c0bf7857d6" display="component_signal">71f24938-fcc5-4bde-aedc-b5a0d4a35b99</map>
+      <map pin="6735bbe2-8f1c-4ed0-9d56-b72c4406c4c1" display="component_signal">b7f5568a-7e24-4ecb-85f7-b45125a23e08</map>
+      <map pin="9f9242db-84f2-47b2-8c4e-7f6ab5761cca" display="component_signal">172f8862-c1dc-4fbc-9332-d70dfdee4201</map>
+      <map pin="7a8c5f99-38c0-4a6b-bc2e-69ea5525be14" display="component_signal">374c7871-5ca5-4564-8507-1b70a146eae9</map>
      </pin_signal_map>
     </item>
    </symbol_items>

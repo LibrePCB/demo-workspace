@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{1a3f3e99-0126-4bed-b8a1-2eb8df46a9dc}</uuid>
+  <uuid>1a3f3e99-0126-4bed-b8a1-2eb8df46a9dc</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-06-21T12:37:47Z</created>
@@ -9,7 +9,7 @@
   <name locale="en_US">Diac</name>
   <description locale="en_US"></description>
   <keywords locale="en_US"></keywords>
-  <category>{e9663545-80dd-4658-9357-d4ef62e55168}</category>
+  <category>e9663545-80dd-4658-9357-d4ef62e55168</category>
  </meta>
  <attributes/>
  <properties>
@@ -18,18 +18,18 @@
   <prefix norm="" default="true">D</prefix>
  </properties>
  <signals>
-  <signal role="passive" negated="false" clock="false" forced_net_name="" required="true" uuid="{97d4bb0b-844f-4d15-bea4-730e4815418a}">1</signal>
-  <signal role="passive" negated="false" clock="false" forced_net_name="" required="true" uuid="{b5933321-d574-4dba-be74-02ba467cd8f3}">2</signal>
+  <signal required="true" uuid="97d4bb0b-844f-4d15-bea4-730e4815418a" role="passive" clock="false" forced_net_name="" negated="false">1</signal>
+  <signal required="true" uuid="b5933321-d574-4dba-be74-02ba467cd8f3" role="passive" clock="false" forced_net_name="" negated="false">2</signal>
  </signals>
  <symbol_variants>
-  <variant norm="" default="true" uuid="{6af49dd3-3354-4735-a346-93d602879c6c}">
+  <variant norm="" uuid="6af49dd3-3354-4735-a346-93d602879c6c" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" uuid="{08d77d8a-2ff2-4bdd-9aab-b91a077188cb}" symbol="{95cd851e-d42d-492b-973a-01ef01e3fbfd}">
+    <item required="true" uuid="08d77d8a-2ff2-4bdd-9aab-b91a077188cb" suffix="" symbol="95cd851e-d42d-492b-973a-01ef01e3fbfd">
      <pin_signal_map>
-      <map display="none" pin="{3fce42f5-dc60-4afa-9857-883b54a040db}">{b5933321-d574-4dba-be74-02ba467cd8f3}</map>
-      <map display="none" pin="{e601594a-c7b8-47c8-86cb-8ea938b44c4a}">{97d4bb0b-844f-4d15-bea4-730e4815418a}</map>
+      <map pin="3fce42f5-dc60-4afa-9857-883b54a040db" display="none">b5933321-d574-4dba-be74-02ba467cd8f3</map>
+      <map pin="e601594a-c7b8-47c8-86cb-8ea938b44c4a" display="none">97d4bb0b-844f-4d15-bea4-730e4815418a</map>
      </pin_signal_map>
     </item>
    </symbol_items>

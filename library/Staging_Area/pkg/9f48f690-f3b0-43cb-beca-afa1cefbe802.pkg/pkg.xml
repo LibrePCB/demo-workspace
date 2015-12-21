@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <package version="0">
  <meta>
-  <uuid>{9f48f690-f3b0-43cb-beca-afa1cefbe802}</uuid>
+  <uuid>9f48f690-f3b0-43cb-beca-afa1cefbe802</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:10:48Z</created>
@@ -15,35 +15,35 @@ This element was automatically imported from Eagle
 Filepath: rcl.lbr
 Name: CTRIM3050.505
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <pads>
-  <pad uuid="{39206a85-e88e-4799-ac10-a803c9fa2512}">1</pad>
-  <pad uuid="{4fbf182e-e888-4caf-85b8-2a6fac5f89b7}">2</pad>
+  <pad uuid="39206a85-e88e-4799-ac10-a803c9fa2512">1</pad>
+  <pad uuid="4fbf182e-e888-4caf-85b8-2a6fac5f89b7">2</pad>
  </pads>
  <footprints>
-  <footprint default="true" uuid="{b3adda1e-350d-4908-aec4-fe88c038139b}">
+  <footprint uuid="b3adda1e-350d-4908-aec4-fe88c038139b" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.152400" start_x="-0.700000" start_y="0.400000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="-0.700000" start_y="0.400000" fill="false" width="0.152400">
      <segment end_x="0.600000" end_y="-0.900000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.152400" start_x="-0.200000" start_y="0.900000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="-0.200000" start_y="0.900000" fill="false" width="0.152400">
      <segment end_x="1.100000" end_y="-0.400000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.254000" start_x="2.800000" start_y="1.000000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="2.800000" start_y="1.000000" fill="false" width="0.254000">
      <segment end_x="2.800000" end_y="-1.000000" angle="0.000000"/>
      <segment end_x="-2.400000" end_y="-1.000000" angle="0.000000"/>
      <segment end_x="-2.400000" end_y="1.000000" angle="0.000000"/>
      <segment end_x="2.800000" end_y="1.000000" angle="0.000000"/>
     </polygon>
-    <text x="-2.540000" height="2.500000" y="3.175000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
-    <text x="-2.540000" height="2.000000" y="-4.445000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
-    <ellipse width="0.152400" radius_x="1.000000" x="0.200000" radius_y="1.000000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="260"/>
+    <text x="-2.540000" height="2.500000" y="3.175000" rotation="0.000000" layer="240" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text x="-2.540000" height="2.000000" y="-4.445000" rotation="0.000000" layer="250" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <ellipse radius_y="1.000000" x="0.200000" y="0.000000" rotation="0.000000" layer="260" grab_area="true" fill="false" width="0.152400" radius_x="1.000000"/>
     <hole x="0.200000" y="0.000000" diameter="2.500000"/>
-    <pad smt_side="top" width="2.200000" x="2.500000" height="2.200000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{4fbf182e-e888-4caf-85b8-2a6fac5f89b7}" tht_drill="1.100000"/>
-    <pad smt_side="top" width="2.200000" x="-2.500000" height="2.200000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{39206a85-e88e-4799-ac10-a803c9fa2512}" tht_drill="1.100000"/>
+    <pad x="2.500000" height="2.200000" y="0.000000" uuid="4fbf182e-e888-4caf-85b8-2a6fac5f89b7" rotation="0.000000" width="2.200000" type="tht_round" tht_drill="1.100000" smt_side="top"/>
+    <pad x="-2.500000" height="2.200000" y="0.000000" uuid="39206a85-e88e-4799-ac10-a803c9fa2512" rotation="0.000000" width="2.200000" type="tht_round" tht_drill="1.100000" smt_side="top"/>
    </geometry>
   </footprint>
  </footprints>

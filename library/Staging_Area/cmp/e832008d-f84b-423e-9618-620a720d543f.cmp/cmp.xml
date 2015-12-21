@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{e832008d-f84b-423e-9618-620a720d543f}</uuid>
+  <uuid>e832008d-f84b-423e-9618-620a720d543f</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:11:01Z</created>
@@ -14,27 +14,27 @@ This element was automatically imported from Eagle
 Filepath: led.lbr
 Name: TLLY4400
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix default="true" norm="">LED</prefix>
+  <prefix norm="" default="true">LED</prefix>
  </properties>
  <signals>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{b2092cc0-38d7-4639-b4dc-757a30b2f2ef}" role="passive">A</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{31771a37-d1ae-4078-8c03-d981fb89f14d}" role="passive">C</signal>
+  <signal required="false" uuid="b2092cc0-38d7-4639-b4dc-757a30b2f2ef" role="passive" clock="false" forced_net_name="" negated="false">A</signal>
+  <signal required="false" uuid="31771a37-d1ae-4078-8c03-d981fb89f14d" role="passive" clock="false" forced_net_name="" negated="false">C</signal>
  </signals>
  <symbol_variants>
-  <variant default="true" norm="" uuid="{7c78bf84-c3cd-4172-870f-2da2a0cb85a0}">
+  <variant norm="" uuid="7c78bf84-c3cd-4172-870f-2da2a0cb85a0" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" symbol="{cb442e56-0ec7-4486-8c43-7bdfa9b47d9a}" uuid="{cf26df81-4a2d-4eec-92ee-1ae226ee9880}">
+    <item required="true" uuid="cf26df81-4a2d-4eec-92ee-1ae226ee9880" suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a">
      <pin_signal_map>
-      <map pin="{18de942d-8b47-4daf-9e07-d089204e09d0}" display="component_signal">{31771a37-d1ae-4078-8c03-d981fb89f14d}</map>
-      <map pin="{2a64f851-340a-43f2-b1cf-06a1d4b54560}" display="component_signal">{b2092cc0-38d7-4639-b4dc-757a30b2f2ef}</map>
+      <map pin="18de942d-8b47-4daf-9e07-d089204e09d0" display="component_signal">31771a37-d1ae-4078-8c03-d981fb89f14d</map>
+      <map pin="2a64f851-340a-43f2-b1cf-06a1d4b54560" display="component_signal">b2092cc0-38d7-4639-b4dc-757a30b2f2ef</map>
      </pin_signal_map>
     </item>
    </symbol_items>

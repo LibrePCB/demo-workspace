@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{ea25a7ed-0ea8-42f4-9862-b7a1327ef82c}</uuid>
+  <uuid>ea25a7ed-0ea8-42f4-9862-b7a1327ef82c</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:11:00Z</created>
@@ -13,27 +13,27 @@ This element was automatically imported from Eagle
 Filepath: diode.lbr
 Name: DIODE_SCHOTTKY2-
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix default="true" norm="">D</prefix>
+  <prefix norm="" default="true">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{e203c41a-6b5f-4448-80aa-27029d69a82b}" role="passive">1</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{4ac0bbfd-cf86-442f-a60d-85434e43f2e0}" role="passive">2</signal>
+  <signal required="false" uuid="e203c41a-6b5f-4448-80aa-27029d69a82b" role="passive" clock="false" forced_net_name="" negated="false">1</signal>
+  <signal required="false" uuid="4ac0bbfd-cf86-442f-a60d-85434e43f2e0" role="passive" clock="false" forced_net_name="" negated="false">2</signal>
  </signals>
  <symbol_variants>
-  <variant default="true" norm="" uuid="{a6819386-e8d2-47ef-a45b-529a8a154444}">
+  <variant norm="" uuid="a6819386-e8d2-47ef-a45b-529a8a154444" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" symbol="{4a47ee5d-7e92-4b92-a62a-267f2bd5c1fb}" uuid="{c9c4a3f3-39d4-4af5-9c26-cbf4ae81b0f7}">
+    <item required="true" uuid="c9c4a3f3-39d4-4af5-9c26-cbf4ae81b0f7" suffix="" symbol="4a47ee5d-7e92-4b92-a62a-267f2bd5c1fb">
      <pin_signal_map>
-      <map pin="{49a7765d-263c-47b8-84b0-ed5e18d23510}" display="component_signal">{e203c41a-6b5f-4448-80aa-27029d69a82b}</map>
-      <map pin="{23ed63d6-d60d-46c0-82f8-3bddacf237d4}" display="component_signal">{4ac0bbfd-cf86-442f-a60d-85434e43f2e0}</map>
+      <map pin="23ed63d6-d60d-46c0-82f8-3bddacf237d4" display="component_signal">4ac0bbfd-cf86-442f-a60d-85434e43f2e0</map>
+      <map pin="49a7765d-263c-47b8-84b0-ed5e18d23510" display="component_signal">e203c41a-6b5f-4448-80aa-27029d69a82b</map>
      </pin_signal_map>
     </item>
    </symbol_items>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{af33e8ef-4f14-47ea-a8d1-c4e9b6a0484e}</uuid>
+  <uuid>af33e8ef-4f14-47ea-a8d1-c4e9b6a0484e</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:11:00Z</created>
@@ -13,29 +13,29 @@ This element was automatically imported from Eagle
 Filepath: diode.lbr
 Name: DIODE-2CA|AC
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix default="true" norm="">D</prefix>
+  <prefix norm="" default="true">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{cd1a1d7e-b28b-4a06-bb29-bbb5b2808072}" role="passive">A</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{8747c95b-1da8-457f-8475-f77866767d6e}" role="passive">K1</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{51e12fe0-ad29-4d8f-9eb2-8dd4148dc89b}" role="passive">K2</signal>
+  <signal required="false" uuid="cd1a1d7e-b28b-4a06-bb29-bbb5b2808072" role="passive" clock="false" forced_net_name="" negated="false">A</signal>
+  <signal required="false" uuid="8747c95b-1da8-457f-8475-f77866767d6e" role="passive" clock="false" forced_net_name="" negated="false">K1</signal>
+  <signal required="false" uuid="51e12fe0-ad29-4d8f-9eb2-8dd4148dc89b" role="passive" clock="false" forced_net_name="" negated="false">K2</signal>
  </signals>
  <symbol_variants>
-  <variant default="true" norm="" uuid="{7be4b55f-a159-4113-9162-a33f576cf473}">
+  <variant norm="" uuid="7be4b55f-a159-4113-9162-a33f576cf473" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" symbol="{04d35015-c691-48d4-a04a-d91083500fcb}" uuid="{bffd0760-b1c6-4e05-85c0-ecd1025a9f5d}">
+    <item required="true" uuid="bffd0760-b1c6-4e05-85c0-ecd1025a9f5d" suffix="" symbol="04d35015-c691-48d4-a04a-d91083500fcb">
      <pin_signal_map>
-      <map pin="{7e80204f-6db7-4ea2-b825-80e0c5f4e2e1}" display="component_signal">{8747c95b-1da8-457f-8475-f77866767d6e}</map>
-      <map pin="{cea34ac7-8192-44fb-97c1-d9b7e022e9f4}" display="component_signal">{cd1a1d7e-b28b-4a06-bb29-bbb5b2808072}</map>
-      <map pin="{65f6f8ce-7452-44d3-887c-5e876ccfd6b3}" display="component_signal">{51e12fe0-ad29-4d8f-9eb2-8dd4148dc89b}</map>
+      <map pin="cea34ac7-8192-44fb-97c1-d9b7e022e9f4" display="component_signal">cd1a1d7e-b28b-4a06-bb29-bbb5b2808072</map>
+      <map pin="7e80204f-6db7-4ea2-b825-80e0c5f4e2e1" display="component_signal">8747c95b-1da8-457f-8475-f77866767d6e</map>
+      <map pin="65f6f8ce-7452-44d3-887c-5e876ccfd6b3" display="component_signal">51e12fe0-ad29-4d8f-9eb2-8dd4148dc89b</map>
      </pin_signal_map>
     </item>
    </symbol_items>

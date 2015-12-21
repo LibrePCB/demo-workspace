@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{e9c9642a-ff50-44ee-989b-65687a6faff6}</uuid>
+  <uuid>e9c9642a-ff50-44ee-989b-65687a6faff6</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:11:03Z</created>
@@ -13,25 +13,25 @@ This element was automatically imported from Eagle
 Filepath: wirepad.lbr
 Name: SMD5
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix default="true" norm="">PAD</prefix>
+  <prefix norm="" default="true">PAD</prefix>
  </properties>
  <signals>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{11f4148c-c108-4a45-8099-5d4521e63f97}" role="passive">P</signal>
+  <signal required="false" uuid="11f4148c-c108-4a45-8099-5d4521e63f97" role="passive" clock="false" forced_net_name="" negated="false">P</signal>
  </signals>
  <symbol_variants>
-  <variant default="true" norm="" uuid="{5664514f-a27b-4bf7-b8b8-4d4b77fbeb84}">
+  <variant norm="" uuid="5664514f-a27b-4bf7-b8b8-4d4b77fbeb84" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="1" symbol="{dce44427-4d53-4881-a77a-3e4faa383e3b}" uuid="{7de0538f-a163-43cf-adf7-671566cfb9aa}">
+    <item required="true" uuid="7de0538f-a163-43cf-adf7-671566cfb9aa" suffix="1" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b">
      <pin_signal_map>
-      <map pin="{01f564d5-9975-4613-bf90-153a031fe625}" display="component_signal">{11f4148c-c108-4a45-8099-5d4521e63f97}</map>
+      <map pin="01f564d5-9975-4613-bf90-153a031fe625" display="component_signal">11f4148c-c108-4a45-8099-5d4521e63f97</map>
      </pin_signal_map>
     </item>
    </symbol_items>

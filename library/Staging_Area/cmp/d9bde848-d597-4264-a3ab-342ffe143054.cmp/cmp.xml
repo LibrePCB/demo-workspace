@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{d9bde848-d597-4264-a3ab-342ffe143054}</uuid>
+  <uuid>d9bde848-d597-4264-a3ab-342ffe143054</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:10:54Z</created>
@@ -14,31 +14,31 @@ This element was automatically imported from Eagle
 Filepath: con-molex.lbr
 Name: 87832-04
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix default="true" norm="">X</prefix>
+  <prefix norm="" default="true">X</prefix>
  </properties>
  <signals>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{3dad6d23-10df-469b-99b2-aa9046dfe369}" role="passive">1</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{10667233-ac82-4ffc-b9f9-2cfea3e454d7}" role="passive">2</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{3cfb3118-ae69-48c7-9756-3bc8bfd170e8}" role="passive">3</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{53d9e9a3-d80c-4909-9c4a-11a34394e2d0}" role="passive">4</signal>
+  <signal required="false" uuid="3dad6d23-10df-469b-99b2-aa9046dfe369" role="passive" clock="false" forced_net_name="" negated="false">1</signal>
+  <signal required="false" uuid="10667233-ac82-4ffc-b9f9-2cfea3e454d7" role="passive" clock="false" forced_net_name="" negated="false">2</signal>
+  <signal required="false" uuid="3cfb3118-ae69-48c7-9756-3bc8bfd170e8" role="passive" clock="false" forced_net_name="" negated="false">3</signal>
+  <signal required="false" uuid="53d9e9a3-d80c-4909-9c4a-11a34394e2d0" role="passive" clock="false" forced_net_name="" negated="false">4</signal>
  </signals>
  <symbol_variants>
-  <variant default="true" norm="" uuid="{ea544a03-5e29-4fe2-b312-c8764b236b78}">
+  <variant norm="" uuid="ea544a03-5e29-4fe2-b312-c8764b236b78" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" symbol="{d20641b7-bc34-4008-bb60-a913b235e0fb}" uuid="{42f5a1e7-2d80-4aec-8da1-d8c64f72e08f}">
+    <item required="true" uuid="42f5a1e7-2d80-4aec-8da1-d8c64f72e08f" suffix="" symbol="d20641b7-bc34-4008-bb60-a913b235e0fb">
      <pin_signal_map>
-      <map pin="{a36fea7e-8459-4140-b01a-f1c48f04fb4e}" display="component_signal">{53d9e9a3-d80c-4909-9c4a-11a34394e2d0}</map>
-      <map pin="{483086db-de40-49d8-86ac-6ce3aa56b5f6}" display="component_signal">{10667233-ac82-4ffc-b9f9-2cfea3e454d7}</map>
-      <map pin="{f86aaf6b-c4cc-4cc5-b4f2-652729e0434f}" display="component_signal">{3dad6d23-10df-469b-99b2-aa9046dfe369}</map>
-      <map pin="{84f171c8-a0b5-4cdb-98af-a57c354eec96}" display="component_signal">{3cfb3118-ae69-48c7-9756-3bc8bfd170e8}</map>
+      <map pin="483086db-de40-49d8-86ac-6ce3aa56b5f6" display="component_signal">10667233-ac82-4ffc-b9f9-2cfea3e454d7</map>
+      <map pin="a36fea7e-8459-4140-b01a-f1c48f04fb4e" display="component_signal">53d9e9a3-d80c-4909-9c4a-11a34394e2d0</map>
+      <map pin="84f171c8-a0b5-4cdb-98af-a57c354eec96" display="component_signal">3cfb3118-ae69-48c7-9756-3bc8bfd170e8</map>
+      <map pin="f86aaf6b-c4cc-4cc5-b4f2-652729e0434f" display="component_signal">3dad6d23-10df-469b-99b2-aa9046dfe369</map>
      </pin_signal_map>
     </item>
    </symbol_items>

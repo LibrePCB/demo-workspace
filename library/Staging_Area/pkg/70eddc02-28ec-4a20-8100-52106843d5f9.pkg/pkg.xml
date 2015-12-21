@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <package version="0">
  <meta>
-  <uuid>{70eddc02-28ec-4a20-8100-52106843d5f9}</uuid>
+  <uuid>70eddc02-28ec-4a20-8100-52106843d5f9</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:10:43Z</created>
@@ -14,53 +14,53 @@ This element was automatically imported from Eagle
 Filepath: crystal.lbr
 Name: F13/8A
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <pads>
-  <pad uuid="{16267814-6c08-4ab8-a7d5-623200b62c1c}">1</pad>
-  <pad uuid="{4a7f46fc-87d3-4a34-9b83-b09ad43fe2ca}">2</pad>
-  <pad uuid="{bf7a0728-0b15-468e-a3cb-719ed157be70}">3</pad>
-  <pad uuid="{67a17c25-2ee0-4bfa-a67b-3910fa4df932}">4</pad>
-  <pad uuid="{96d3a4c7-de23-4a80-9d02-eb58917b806e}">S@1</pad>
-  <pad uuid="{04ce39e5-e94d-49b6-bbe4-e0cb0a48bc3f}">S@2</pad>
+  <pad uuid="16267814-6c08-4ab8-a7d5-623200b62c1c">1</pad>
+  <pad uuid="4a7f46fc-87d3-4a34-9b83-b09ad43fe2ca">2</pad>
+  <pad uuid="bf7a0728-0b15-468e-a3cb-719ed157be70">3</pad>
+  <pad uuid="67a17c25-2ee0-4bfa-a67b-3910fa4df932">4</pad>
+  <pad uuid="96d3a4c7-de23-4a80-9d02-eb58917b806e">S@1</pad>
+  <pad uuid="04ce39e5-e94d-49b6-bbe4-e0cb0a48bc3f">S@2</pad>
  </pads>
  <footprints>
-  <footprint default="true" uuid="{2f9476aa-0abb-4153-80c4-da478d1fa636}">
+  <footprint uuid="2f9476aa-0abb-4153-80c4-da478d1fa636" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.203200" start_x="5.600000" start_y="-4.250000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="5.600000" start_y="-4.250000" fill="false" width="0.203200">
      <segment end_x="6.600000" end_y="-3.250000" angle="90.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="6.600000" start_y="-3.250000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="6.600000" start_y="-3.250000" fill="false" width="0.203200">
      <segment end_x="6.600000" end_y="3.250000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="6.600000" start_y="3.250000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="6.600000" start_y="3.250000" fill="false" width="0.203200">
      <segment end_x="5.600000" end_y="4.250000" angle="90.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="5.600000" start_y="4.250000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="5.600000" start_y="4.250000" fill="false" width="0.203200">
      <segment end_x="-5.575000" end_y="4.250000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="-5.575000" start_y="4.250000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="-5.575000" start_y="4.250000" fill="false" width="0.203200">
      <segment end_x="-6.575000" end_y="3.250000" angle="90.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="-6.575000" start_y="3.250000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="-6.575000" start_y="3.250000" fill="false" width="0.203200">
      <segment end_x="-6.575000" end_y="-3.250000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="-6.575000" start_y="-3.250000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="-6.575000" start_y="-3.250000" fill="false" width="0.203200">
      <segment end_x="-5.575000" end_y="-4.250000" angle="90.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="-5.575000" start_y="-4.250000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="-5.575000" start_y="-4.250000" fill="false" width="0.203200">
      <segment end_x="5.600000" end_y="-4.250000" angle="0.000000"/>
     </polygon>
-    <text x="-5.080000" height="2.500000" y="5.715000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
-    <text x="-5.080000" height="2.000000" y="-6.985000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
-    <pad smt_side="top" width="1.016000" x="4.900000" height="1.016000" y="-2.000000" rotation="180.000000" type="tht_round" uuid="{67a17c25-2ee0-4bfa-a67b-3910fa4df932}" tht_drill="0.600000"/>
-    <pad smt_side="top" width="1.016000" x="-4.900000" height="1.016000" y="0.000000" rotation="0.000000" type="tht_round" uuid="{4a7f46fc-87d3-4a34-9b83-b09ad43fe2ca}" tht_drill="0.600000"/>
-    <pad smt_side="top" width="1.016000" x="-4.900000" height="1.016000" y="2.000000" rotation="0.000000" type="tht_round" uuid="{16267814-6c08-4ab8-a7d5-623200b62c1c}" tht_drill="0.600000"/>
-    <pad smt_side="top" width="1.016000" x="4.900000" height="1.016000" y="0.000000" rotation="180.000000" type="tht_round" uuid="{bf7a0728-0b15-468e-a3cb-719ed157be70}" tht_drill="0.600000"/>
-    <pad smt_side="top" width="1.930400" x="0.000000" height="1.930400" y="4.100000" rotation="0.000000" type="tht_round" uuid="{96d3a4c7-de23-4a80-9d02-eb58917b806e}" tht_drill="1.600000"/>
-    <pad smt_side="top" width="1.930400" x="0.000000" height="1.930400" y="-4.100000" rotation="0.000000" type="tht_round" uuid="{04ce39e5-e94d-49b6-bbe4-e0cb0a48bc3f}" tht_drill="1.600000"/>
+    <text x="-5.080000" height="2.500000" y="5.715000" rotation="0.000000" layer="240" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text x="-5.080000" height="2.000000" y="-6.985000" rotation="0.000000" layer="250" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="0.000000" height="1.930400" y="4.100000" uuid="96d3a4c7-de23-4a80-9d02-eb58917b806e" rotation="0.000000" width="1.930400" type="tht_round" tht_drill="1.600000" smt_side="top"/>
+    <pad x="4.900000" height="1.016000" y="-2.000000" uuid="67a17c25-2ee0-4bfa-a67b-3910fa4df932" rotation="180.000000" width="1.016000" type="tht_round" tht_drill="0.600000" smt_side="top"/>
+    <pad x="-4.900000" height="1.016000" y="2.000000" uuid="16267814-6c08-4ab8-a7d5-623200b62c1c" rotation="0.000000" width="1.016000" type="tht_round" tht_drill="0.600000" smt_side="top"/>
+    <pad x="0.000000" height="1.930400" y="-4.100000" uuid="04ce39e5-e94d-49b6-bbe4-e0cb0a48bc3f" rotation="0.000000" width="1.930400" type="tht_round" tht_drill="1.600000" smt_side="top"/>
+    <pad x="-4.900000" height="1.016000" y="0.000000" uuid="4a7f46fc-87d3-4a34-9b83-b09ad43fe2ca" rotation="0.000000" width="1.016000" type="tht_round" tht_drill="0.600000" smt_side="top"/>
+    <pad x="4.900000" height="1.016000" y="0.000000" uuid="bf7a0728-0b15-468e-a3cb-719ed157be70" rotation="180.000000" width="1.016000" type="tht_round" tht_drill="0.600000" smt_side="top"/>
    </geometry>
   </footprint>
  </footprints>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <package version="0">
  <meta>
-  <uuid>{4a2ac796-1a9d-4516-af33-60a7d5fd795c}</uuid>
+  <uuid>4a2ac796-1a9d-4516-af33-60a7d5fd795c</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:10:45Z</created>
@@ -14,52 +14,52 @@ This element was automatically imported from Eagle
 Filepath: led.lbr
 Name: SUPERFLUX-SMD-7.6X7.6
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <pads>
-  <pad uuid="{733fecbf-7081-40c4-a138-2793b45373a1}">1</pad>
-  <pad uuid="{da8ab3bc-906e-404c-9aac-724de40b4b98}">2</pad>
-  <pad uuid="{e25c1bf3-bf07-4e75-90ce-3af3c7a6aa32}">3</pad>
-  <pad uuid="{276faed8-a53d-4603-95db-62213c202b53}">4</pad>
+  <pad uuid="733fecbf-7081-40c4-a138-2793b45373a1">1</pad>
+  <pad uuid="da8ab3bc-906e-404c-9aac-724de40b4b98">2</pad>
+  <pad uuid="e25c1bf3-bf07-4e75-90ce-3af3c7a6aa32">3</pad>
+  <pad uuid="276faed8-a53d-4603-95db-62213c202b53">4</pad>
  </pads>
  <footprints>
-  <footprint default="true" uuid="{c19e6a42-a6a3-478f-beed-9a7d9f4852ab}">
+  <footprint uuid="c19e6a42-a6a3-478f-beed-9a7d9f4852ab" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.203200" start_x="3.700000" start_y="-3.700000" fill="false" grab_area="true" layer="200">
+    <polygon layer="200" grab_area="true" start_x="3.700000" start_y="-3.700000" fill="false" width="0.203200">
      <segment end_x="-2.600000" end_y="-3.700000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="-2.600000" start_y="-3.700000" fill="false" grab_area="true" layer="200">
+    <polygon layer="200" grab_area="true" start_x="-2.600000" start_y="-3.700000" fill="false" width="0.203200">
      <segment end_x="-3.700000" end_y="-2.600000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="-3.700000" start_y="-2.600000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="-3.700000" start_y="-2.600000" fill="false" width="0.203200">
      <segment end_x="-3.700000" end_y="-0.700000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="-3.700000" start_y="0.700000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="-3.700000" start_y="0.700000" fill="false" width="0.203200">
      <segment end_x="-3.700000" end_y="3.700000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="-3.700000" start_y="3.700000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="-3.700000" start_y="3.700000" fill="false" width="0.203200">
      <segment end_x="3.700000" end_y="3.700000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="3.700000" start_y="3.700000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="3.700000" start_y="3.700000" fill="false" width="0.203200">
      <segment end_x="3.700000" end_y="0.700000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="3.700000" start_y="-0.700000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="3.700000" start_y="-0.700000" fill="false" width="0.203200">
      <segment end_x="3.700000" end_y="-3.700000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="-3.700000" start_y="-0.700000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="-3.700000" start_y="-0.700000" fill="false" width="0.203200">
      <segment end_x="-3.700000" end_y="0.700000" angle="180.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="3.700000" start_y="0.700000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="3.700000" start_y="0.700000" fill="false" width="0.203200">
      <segment end_x="3.700000" end_y="-0.700000" angle="180.000000"/>
     </polygon>
-    <text x="-4.445000" height="2.500000" y="-3.810000" rotation="90.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
-    <text x="5.715000" height="2.000000" y="-3.810000" rotation="90.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
-    <pad smt_side="top" width="1.000000" x="2.540000" height="3.000000" y="-3.556000" rotation="0.000000" type="smt_rect" uuid="{276faed8-a53d-4603-95db-62213c202b53}" tht_drill="0.000000"/>
-    <pad smt_side="top" width="1.000000" x="2.540000" height="3.000000" y="3.556000" rotation="0.000000" type="smt_rect" uuid="{da8ab3bc-906e-404c-9aac-724de40b4b98}" tht_drill="0.000000"/>
-    <pad smt_side="top" width="1.000000" x="-2.540000" height="3.000000" y="-3.556000" rotation="0.000000" type="smt_rect" uuid="{e25c1bf3-bf07-4e75-90ce-3af3c7a6aa32}" tht_drill="0.000000"/>
-    <pad smt_side="top" width="1.000000" x="-2.540000" height="3.000000" y="3.556000" rotation="0.000000" type="smt_rect" uuid="{733fecbf-7081-40c4-a138-2793b45373a1}" tht_drill="0.000000"/>
+    <text x="-4.445000" height="2.500000" y="-3.810000" rotation="90.000000" layer="240" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text x="5.715000" height="2.000000" y="-3.810000" rotation="90.000000" layer="250" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="2.540000" height="3.000000" y="3.556000" uuid="da8ab3bc-906e-404c-9aac-724de40b4b98" rotation="0.000000" width="1.000000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
+    <pad x="-2.540000" height="3.000000" y="3.556000" uuid="733fecbf-7081-40c4-a138-2793b45373a1" rotation="0.000000" width="1.000000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
+    <pad x="-2.540000" height="3.000000" y="-3.556000" uuid="e25c1bf3-bf07-4e75-90ce-3af3c7a6aa32" rotation="0.000000" width="1.000000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
+    <pad x="2.540000" height="3.000000" y="-3.556000" uuid="276faed8-a53d-4603-95db-62213c202b53" rotation="0.000000" width="1.000000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
    </geometry>
   </footprint>
  </footprints>

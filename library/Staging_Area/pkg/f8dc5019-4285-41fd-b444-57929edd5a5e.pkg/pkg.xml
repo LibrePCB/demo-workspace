@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <package version="0">
  <meta>
-  <uuid>{f8dc5019-4285-41fd-b444-57929edd5a5e}</uuid>
+  <uuid>f8dc5019-4285-41fd-b444-57929edd5a5e</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:10:45Z</created>
@@ -13,45 +13,45 @@ This element was automatically imported from Eagle
 Filepath: diode.lbr
 Name: SOD123
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <pads>
-  <pad uuid="{33084c48-b498-49d9-99fd-d0c962ee54a0}">C</pad>
-  <pad uuid="{2cb1cad8-999e-4ba8-ae33-d0b55813656f}">A</pad>
+  <pad uuid="33084c48-b498-49d9-99fd-d0c962ee54a0">C</pad>
+  <pad uuid="2cb1cad8-999e-4ba8-ae33-d0b55813656f">A</pad>
  </pads>
  <footprints>
-  <footprint default="true" uuid="{d59d066d-b3aa-4a00-9a58-f967a8e56bab}">
+  <footprint uuid="d59d066d-b3aa-4a00-9a58-f967a8e56bab" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.000000" start_x="-1.950000" start_y="-0.450000" fill="true" grab_area="true" layer="200">
+    <polygon layer="200" grab_area="true" start_x="-1.950000" start_y="-0.450000" fill="true" width="0.000000">
      <segment end_x="-1.200000" end_y="-0.450000" angle="0.000000"/>
      <segment end_x="-1.200000" end_y="0.400000" angle="0.000000"/>
      <segment end_x="-1.950000" end_y="0.400000" angle="0.000000"/>
      <segment end_x="-1.950000" end_y="-0.450000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.000000" start_x="1.200000" start_y="-0.450000" fill="true" grab_area="true" layer="200">
+    <polygon layer="200" grab_area="true" start_x="1.200000" start_y="-0.450000" fill="true" width="0.000000">
      <segment end_x="1.950000" end_y="-0.450000" angle="0.000000"/>
      <segment end_x="1.950000" end_y="0.400000" angle="0.000000"/>
      <segment end_x="1.200000" end_y="0.400000" angle="0.000000"/>
      <segment end_x="1.200000" end_y="-0.450000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.000000" start_x="-1.050000" start_y="-0.650000" fill="true" grab_area="true" layer="200">
+    <polygon layer="200" grab_area="true" start_x="-1.050000" start_y="-0.650000" fill="true" width="0.000000">
      <segment end_x="-0.150000" end_y="-0.650000" angle="0.000000"/>
      <segment end_x="-0.150000" end_y="0.700000" angle="0.000000"/>
      <segment end_x="-1.050000" end_y="0.700000" angle="0.000000"/>
      <segment end_x="-1.050000" end_y="-0.650000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.254000" start_x="-1.100000" start_y="-0.700000" fill="false" grab_area="true" layer="200">
+    <polygon layer="200" grab_area="true" start_x="-1.100000" start_y="-0.700000" fill="false" width="0.254000">
      <segment end_x="-1.100000" end_y="0.700000" angle="0.000000"/>
      <segment end_x="1.100000" end_y="0.700000" angle="0.000000"/>
      <segment end_x="1.100000" end_y="-0.700000" angle="0.000000"/>
      <segment end_x="-1.100000" end_y="-0.700000" angle="0.000000"/>
     </polygon>
-    <text x="-1.100000" height="2.500000" y="1.000000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
-    <text x="-1.100000" height="2.000000" y="-2.300000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
-    <pad smt_side="top" width="1.400000" x="-1.900000" height="1.400000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{33084c48-b498-49d9-99fd-d0c962ee54a0}" tht_drill="0.000000"/>
-    <pad smt_side="top" width="1.400000" x="1.900000" height="1.400000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{2cb1cad8-999e-4ba8-ae33-d0b55813656f}" tht_drill="0.000000"/>
+    <text x="-1.100000" height="2.500000" y="1.000000" rotation="0.000000" layer="240" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text x="-1.100000" height="2.000000" y="-2.300000" rotation="0.000000" layer="250" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="-1.900000" height="1.400000" y="0.000000" uuid="33084c48-b498-49d9-99fd-d0c962ee54a0" rotation="0.000000" width="1.400000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
+    <pad x="1.900000" height="1.400000" y="0.000000" uuid="2cb1cad8-999e-4ba8-ae33-d0b55813656f" rotation="0.000000" width="1.400000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
    </geometry>
   </footprint>
  </footprints>

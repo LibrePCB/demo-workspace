@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{506bd124-6062-400e-9078-b38bd7e1aaee}</uuid>
+  <uuid>506bd124-6062-400e-9078-b38bd7e1aaee</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-03-01T20:00:00Z</created>
@@ -9,7 +9,7 @@
   <name locale="en_US">Inductor</name>
   <description locale="en_US"></description>
   <keywords locale="en_US">inductor,inductance</keywords>
-  <category>{b3adfa1e-b878-44f6-902a-14ef3dad7a14}</category>
+  <category>b3adfa1e-b878-44f6-902a-14ef3dad7a14</category>
  </meta>
  <attributes>
   <attribute unit="millihenry" type="inductance" key="INDUCTANCE">
@@ -24,30 +24,30 @@
   <prefix norm="" default="true">L</prefix>
  </properties>
  <signals>
-  <signal role="passive" negated="false" clock="false" forced_net_name="" required="true" uuid="{777f11cd-9d4e-4b2b-aafa-7e7a836ff56e}">1</signal>
-  <signal role="passive" negated="false" clock="false" forced_net_name="" required="true" uuid="{5b36d330-6f19-4391-8f95-1c2f6a658286}">2</signal>
+  <signal required="true" uuid="777f11cd-9d4e-4b2b-aafa-7e7a836ff56e" role="passive" clock="false" forced_net_name="" negated="false">1</signal>
+  <signal required="true" uuid="5b36d330-6f19-4391-8f95-1c2f6a658286" role="passive" clock="false" forced_net_name="" negated="false">2</signal>
  </signals>
  <symbol_variants>
-  <variant norm="IEC 60617" default="true" uuid="{62a7598c-17fe-41cf-8fa1-4ed274c3adc2}">
+  <variant norm="IEC 60617" uuid="62a7598c-17fe-41cf-8fa1-4ed274c3adc2" default="true">
    <name locale="en_US">European</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" uuid="{60cec411-a717-4893-b12f-7b698925e15b}" symbol="{11e1f693-0777-48e4-b3bd-b451f3c929b3}">
+    <item required="true" uuid="60cec411-a717-4893-b12f-7b698925e15b" suffix="" symbol="11e1f693-0777-48e4-b3bd-b451f3c929b3">
      <pin_signal_map>
-      <map display="none" pin="{06d55f94-1316-48cb-a20f-0d4231eced31}">{777f11cd-9d4e-4b2b-aafa-7e7a836ff56e}</map>
-      <map display="none" pin="{1b2d8b3c-b531-48ec-a0f9-07e91687c214}">{5b36d330-6f19-4391-8f95-1c2f6a658286}</map>
+      <map pin="1b2d8b3c-b531-48ec-a0f9-07e91687c214" display="none">5b36d330-6f19-4391-8f95-1c2f6a658286</map>
+      <map pin="06d55f94-1316-48cb-a20f-0d4231eced31" display="none">777f11cd-9d4e-4b2b-aafa-7e7a836ff56e</map>
      </pin_signal_map>
     </item>
    </symbol_items>
   </variant>
-  <variant norm="IEEE 315" default="false" uuid="{4245d515-6f6d-48cb-9958-a4ea23d0187f}">
+  <variant norm="IEEE 315" uuid="4245d515-6f6d-48cb-9958-a4ea23d0187f" default="false">
    <name locale="en_US">American</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" uuid="{1a96486c-cb0e-4bd2-81cc-926f7b1dd2e4}" symbol="{d52c9a67-e522-4e17-8663-2b933b51f9fa}">
+    <item required="true" uuid="1a96486c-cb0e-4bd2-81cc-926f7b1dd2e4" suffix="" symbol="d52c9a67-e522-4e17-8663-2b933b51f9fa">
      <pin_signal_map>
-      <map display="none" pin="{7c8796e8-a731-4428-ad4e-a85eeeaf58d1}">{5b36d330-6f19-4391-8f95-1c2f6a658286}</map>
-      <map display="none" pin="{d1587bb1-f5be-451c-b0ea-9298743dfc3d}">{777f11cd-9d4e-4b2b-aafa-7e7a836ff56e}</map>
+      <map pin="7c8796e8-a731-4428-ad4e-a85eeeaf58d1" display="none">5b36d330-6f19-4391-8f95-1c2f6a658286</map>
+      <map pin="d1587bb1-f5be-451c-b0ea-9298743dfc3d" display="none">777f11cd-9d4e-4b2b-aafa-7e7a836ff56e</map>
      </pin_signal_map>
     </item>
    </symbol_items>

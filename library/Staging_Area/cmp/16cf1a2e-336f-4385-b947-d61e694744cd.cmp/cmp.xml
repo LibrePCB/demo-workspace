@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{16cf1a2e-336f-4385-b947-d61e694744cd}</uuid>
+  <uuid>16cf1a2e-336f-4385-b947-d61e694744cd</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:10:59Z</created>
@@ -14,27 +14,27 @@ This element was automatically imported from Eagle
 Filepath: diode.lbr
 Name: GI820
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix default="true" norm="">D</prefix>
+  <prefix norm="" default="true">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{238d17ed-e488-4169-90f0-79c0221cbaa2}" role="passive">A</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{1ab8feef-97ec-4586-8a03-7f3344bfa399}" role="passive">C</signal>
+  <signal required="false" uuid="238d17ed-e488-4169-90f0-79c0221cbaa2" role="passive" clock="false" forced_net_name="" negated="false">A</signal>
+  <signal required="false" uuid="1ab8feef-97ec-4586-8a03-7f3344bfa399" role="passive" clock="false" forced_net_name="" negated="false">C</signal>
  </signals>
  <symbol_variants>
-  <variant default="true" norm="" uuid="{562433b1-e5a3-43c8-b0b9-66dca926ff0c}">
+  <variant norm="" uuid="562433b1-e5a3-43c8-b0b9-66dca926ff0c" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="1" symbol="{8eaf9d11-7442-4af8-9051-9e3662b36279}" uuid="{7da8bbe7-6759-4945-8b19-cc221f720cff}">
+    <item required="true" uuid="7da8bbe7-6759-4945-8b19-cc221f720cff" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279">
      <pin_signal_map>
-      <map pin="{8aa8c919-7171-4594-ae73-dc0b76bf036f}" display="component_signal">{1ab8feef-97ec-4586-8a03-7f3344bfa399}</map>
-      <map pin="{8ebf7e67-03d9-4666-8642-39a59899cb5d}" display="component_signal">{238d17ed-e488-4169-90f0-79c0221cbaa2}</map>
+      <map pin="8aa8c919-7171-4594-ae73-dc0b76bf036f" display="component_signal">1ab8feef-97ec-4586-8a03-7f3344bfa399</map>
+      <map pin="8ebf7e67-03d9-4666-8642-39a59899cb5d" display="component_signal">238d17ed-e488-4169-90f0-79c0221cbaa2</map>
      </pin_signal_map>
     </item>
    </symbol_items>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{0edf3c02-e112-44d8-9990-1c6f01e5c15f}</uuid>
+  <uuid>0edf3c02-e112-44d8-9990-1c6f01e5c15f</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:10:58Z</created>
@@ -14,34 +14,34 @@ This element was automatically imported from Eagle
 Filepath: crystal.lbr
 Name: 10M*C
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix default="true" norm="">QF</prefix>
+  <prefix norm="" default="true">QF</prefix>
  </properties>
  <signals>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{16194aff-62f7-4556-a663-182010cfb2ba}" role="passive">1</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{59eb07a0-e2eb-4fe8-a1fa-e2ea07d3c237}" role="passive">2</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{17128db4-5dc4-4581-a045-8d2610bbc8e6}" role="passive">3</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{00f8a355-884d-411d-852c-efd07e17b64a}" role="passive">4</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{090f66a3-a456-491d-9e6a-e22fc4562f75}" role="passive">S</signal>
+  <signal required="false" uuid="16194aff-62f7-4556-a663-182010cfb2ba" role="passive" clock="false" forced_net_name="" negated="false">1</signal>
+  <signal required="false" uuid="59eb07a0-e2eb-4fe8-a1fa-e2ea07d3c237" role="passive" clock="false" forced_net_name="" negated="false">2</signal>
+  <signal required="false" uuid="17128db4-5dc4-4581-a045-8d2610bbc8e6" role="passive" clock="false" forced_net_name="" negated="false">3</signal>
+  <signal required="false" uuid="00f8a355-884d-411d-852c-efd07e17b64a" role="passive" clock="false" forced_net_name="" negated="false">4</signal>
+  <signal required="false" uuid="090f66a3-a456-491d-9e6a-e22fc4562f75" role="passive" clock="false" forced_net_name="" negated="false">S</signal>
  </signals>
  <symbol_variants>
-  <variant default="true" norm="" uuid="{e301a648-d8a6-4b51-b83e-65a0a5ff6cb9}">
+  <variant norm="" uuid="e301a648-d8a6-4b51-b83e-65a0a5ff6cb9" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" symbol="{201f2252-819c-4a1a-9caf-7c9dbec58b1d}" uuid="{66962937-1bb9-43de-b426-1ae14fa4f068}">
+    <item required="true" uuid="66962937-1bb9-43de-b426-1ae14fa4f068" suffix="" symbol="201f2252-819c-4a1a-9caf-7c9dbec58b1d">
      <pin_signal_map>
-      <map pin="{d54041e0-a3ed-479f-9513-5a564cb8c845}" display="component_signal">{17128db4-5dc4-4581-a045-8d2610bbc8e6}</map>
-      <map pin="{c0d2dc4b-379b-4ca5-b082-f07430aec34b}" display="component_signal">{00f8a355-884d-411d-852c-efd07e17b64a}</map>
-      <map pin="{e90e5283-3be6-403a-97e0-bd5c12624824}" display="component_signal">{59eb07a0-e2eb-4fe8-a1fa-e2ea07d3c237}</map>
-      <map pin="{f2643e59-10ec-486d-b19b-ae746f70a9a8}" display="component_signal">{090f66a3-a456-491d-9e6a-e22fc4562f75}</map>
-      <map pin="{c571343d-0864-49c5-b50c-fc87aad016d6}" display="component_signal">{16194aff-62f7-4556-a663-182010cfb2ba}</map>
-      <map pin="{b2134a90-4701-4550-9753-dc816d453078}" display="component_signal">{090f66a3-a456-491d-9e6a-e22fc4562f75}</map>
+      <map pin="d54041e0-a3ed-479f-9513-5a564cb8c845" display="component_signal">17128db4-5dc4-4581-a045-8d2610bbc8e6</map>
+      <map pin="f2643e59-10ec-486d-b19b-ae746f70a9a8" display="component_signal">090f66a3-a456-491d-9e6a-e22fc4562f75</map>
+      <map pin="c0d2dc4b-379b-4ca5-b082-f07430aec34b" display="component_signal">00f8a355-884d-411d-852c-efd07e17b64a</map>
+      <map pin="c571343d-0864-49c5-b50c-fc87aad016d6" display="component_signal">16194aff-62f7-4556-a663-182010cfb2ba</map>
+      <map pin="b2134a90-4701-4550-9753-dc816d453078" display="component_signal">090f66a3-a456-491d-9e6a-e22fc4562f75</map>
+      <map pin="e90e5283-3be6-403a-97e0-bd5c12624824" display="component_signal">59eb07a0-e2eb-4fe8-a1fa-e2ea07d3c237</map>
      </pin_signal_map>
     </item>
    </symbol_items>

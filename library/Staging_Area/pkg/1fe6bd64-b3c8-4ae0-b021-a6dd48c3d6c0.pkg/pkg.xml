@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <package version="0">
  <meta>
-  <uuid>{1fe6bd64-b3c8-4ae0-b021-a6dd48c3d6c0}</uuid>
+  <uuid>1fe6bd64-b3c8-4ae0-b021-a6dd48c3d6c0</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:10:48Z</created>
@@ -14,45 +14,45 @@ This element was automatically imported from Eagle
 Filepath: rcl.lbr
 Name: SANYO-OSCON_SMD_F8
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <pads>
-  <pad uuid="{b439b531-cd0b-4e36-9049-3b108eb95f37}">-</pad>
-  <pad uuid="{ba245f1d-01a8-4e12-bdd8-7c35e94e4208}">+</pad>
+  <pad uuid="b439b531-cd0b-4e36-9049-3b108eb95f37">-</pad>
+  <pad uuid="ba245f1d-01a8-4e12-bdd8-7c35e94e4208">+</pad>
  </pads>
  <footprints>
-  <footprint default="true" uuid="{7904d9ce-4599-4e1e-a053-98a0b9c64ef4}">
+  <footprint uuid="7904d9ce-4599-4e1e-a053-98a0b9c64ef4" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.203200" start_x="-5.050000" start_y="5.050000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="-5.050000" start_y="5.050000" fill="false" width="0.203200">
      <segment end_x="3.950000" end_y="5.050000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="3.950000" start_y="5.050000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="3.950000" start_y="5.050000" fill="false" width="0.203200">
      <segment end_x="5.050000" end_y="3.950000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="5.050000" start_y="3.950000" fill="false" grab_area="true" layer="200">
+    <polygon layer="200" grab_area="true" start_x="5.050000" start_y="3.950000" fill="false" width="0.203200">
      <segment end_x="5.050000" end_y="-3.950000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="3.950000" start_y="-5.050000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="3.950000" start_y="-5.050000" fill="false" width="0.203200">
      <segment end_x="-5.050000" end_y="-5.050000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="-5.050000" start_y="-5.050000" fill="false" grab_area="true" layer="200">
+    <polygon layer="200" grab_area="true" start_x="-5.050000" start_y="-5.050000" fill="false" width="0.203200">
      <segment end_x="-5.050000" end_y="5.050000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="5.050000" start_y="-3.950000" fill="false" grab_area="true" layer="260">
+    <polygon layer="260" grab_area="true" start_x="5.050000" start_y="-3.950000" fill="false" width="0.203200">
      <segment end_x="3.950000" end_y="-5.050000" angle="0.000000"/>
     </polygon>
-    <polygon width="0.203200" start_x="-3.050000" start_y="-3.650000" fill="false" grab_area="true" layer="200">
+    <polygon layer="200" grab_area="true" start_x="-3.050000" start_y="-3.650000" fill="false" width="0.203200">
      <segment end_x="-3.050000" end_y="3.650000" angle="0.000000"/>
      <segment end_x="-4.750000" end_y="0.000000" angle="0.000000"/>
      <segment end_x="-3.050000" end_y="-3.650000" angle="0.000000"/>
     </polygon>
-    <text x="-5.080000" height="2.500000" y="5.715000" rotation="0.000000" h_align="left" v_align="bottom" layer="240">${CMP::NAME}</text>
-    <text x="-5.080000" height="2.000000" y="-6.985000" rotation="0.000000" h_align="left" v_align="bottom" layer="250">${CMP::VALUE}</text>
-    <ellipse width="0.203200" radius_x="4.800000" x="0.000000" radius_y="4.800000" y="0.000000" fill="false" grab_area="true" rotation="0.000000" layer="200"/>
-    <pad smt_side="top" width="4.700000" x="-4.500000" height="1.900000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{b439b531-cd0b-4e36-9049-3b108eb95f37}" tht_drill="0.000000"/>
-    <pad smt_side="top" width="4.700000" x="4.500000" height="1.900000" y="0.000000" rotation="0.000000" type="smt_rect" uuid="{ba245f1d-01a8-4e12-bdd8-7c35e94e4208}" tht_drill="0.000000"/>
+    <text x="-5.080000" height="2.500000" y="5.715000" rotation="0.000000" layer="240" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text x="-5.080000" height="2.000000" y="-6.985000" rotation="0.000000" layer="250" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <ellipse radius_y="4.800000" x="0.000000" y="0.000000" rotation="0.000000" layer="200" grab_area="true" fill="false" width="0.203200" radius_x="4.800000"/>
+    <pad x="4.500000" height="1.900000" y="0.000000" uuid="ba245f1d-01a8-4e12-bdd8-7c35e94e4208" rotation="0.000000" width="4.700000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
+    <pad x="-4.500000" height="1.900000" y="0.000000" uuid="b439b531-cd0b-4e36-9049-3b108eb95f37" rotation="0.000000" width="4.700000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
    </geometry>
   </footprint>
  </footprints>

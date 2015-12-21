@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <package version="0">
  <meta>
-  <uuid>{c124ed69-55f1-4662-9068-efbc07d0b3f4}</uuid>
+  <uuid>c124ed69-55f1-4662-9068-efbc07d0b3f4</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-06-21T12:37:35Z</created>
@@ -11,36 +11,36 @@
   <keywords locale="en_US"></keywords>
  </meta>
  <pads>
-  <pad uuid="{89eedec9-5ff5-424d-a52e-d504c13a515c}">1</pad>
-  <pad uuid="{a2b76af6-4957-47ab-92be-1c65777f569b}">2</pad>
+  <pad uuid="89eedec9-5ff5-424d-a52e-d504c13a515c">1</pad>
+  <pad uuid="a2b76af6-4957-47ab-92be-1c65777f569b">2</pad>
  </pads>
  <footprints>
-  <footprint default="true" uuid="{3d38b934-b6be-439b-9a06-b4c359819908}">
+  <footprint uuid="3d38b934-b6be-439b-9a06-b4c359819908" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon grab_area="true" width="0.152400" fill="false" start_x="-0.913000" start_y="-2.219000" layer="200">
+    <polygon layer="200" grab_area="true" start_x="-0.913000" start_y="-2.219000" fill="false" width="0.152400">
      <segment end_x="0.939000" end_y="-2.219000" angle="0.000000"/>
     </polygon>
-    <polygon grab_area="true" width="0.152400" fill="false" start_x="0.913000" start_y="2.219000" layer="200">
+    <polygon layer="200" grab_area="true" start_x="0.913000" start_y="2.219000" fill="false" width="0.152400">
      <segment end_x="-0.939000" end_y="2.219000" angle="0.000000"/>
     </polygon>
-    <polygon grab_area="true" width="0.000000" fill="true" start_x="-1.651000" start_y="-2.300000" layer="200">
+    <polygon layer="200" grab_area="true" start_x="-1.651000" start_y="-2.300000" fill="true" width="0.000000">
      <segment end_x="-0.900900" end_y="-2.300000" angle="0.000000"/>
      <segment end_x="-0.900900" end_y="2.300000" angle="0.000000"/>
      <segment end_x="-1.651000" end_y="2.300000" angle="0.000000"/>
      <segment end_x="-1.651000" end_y="-2.300000" angle="0.000000"/>
     </polygon>
-    <polygon grab_area="true" width="0.000000" fill="true" start_x="0.914400" start_y="-2.300000" layer="200">
+    <polygon layer="200" grab_area="true" start_x="0.914400" start_y="-2.300000" fill="true" width="0.000000">
      <segment end_x="1.664500" end_y="-2.300000" angle="0.000000"/>
      <segment end_x="1.664500" end_y="2.300000" angle="0.000000"/>
      <segment end_x="0.914400" end_y="2.300000" angle="0.000000"/>
      <segment end_x="0.914400" end_y="-2.300000" angle="0.000000"/>
     </polygon>
-    <text v_align="bottom" height="2.500000" rotation="0.000000" x="-2.540000" y="2.540000" layer="240" h_align="left">${CMP::NAME}</text>
-    <text v_align="bottom" height="2.000000" rotation="0.000000" x="-2.540000" y="-3.810000" layer="250" h_align="left">${CMP::VALUE}</text>
-    <pad width="1.050000" smt_side="top" type="smt_rect" height="4.900000" rotation="0.000000" tht_drill="0.000000" x="1.475000" y="0.000000" uuid="{a2b76af6-4957-47ab-92be-1c65777f569b}"/>
-    <pad width="1.050000" smt_side="top" type="smt_rect" height="4.900000" rotation="0.000000" tht_drill="0.000000" x="-1.475000" y="0.000000" uuid="{89eedec9-5ff5-424d-a52e-d504c13a515c}"/>
+    <text x="-2.540000" height="2.500000" y="2.540000" rotation="0.000000" layer="240" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text x="-2.540000" height="2.000000" y="-3.810000" rotation="0.000000" layer="250" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="1.475000" height="4.900000" y="0.000000" uuid="a2b76af6-4957-47ab-92be-1c65777f569b" rotation="0.000000" width="1.050000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
+    <pad x="-1.475000" height="4.900000" y="0.000000" uuid="89eedec9-5ff5-424d-a52e-d504c13a515c" rotation="0.000000" width="1.050000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
    </geometry>
   </footprint>
  </footprints>

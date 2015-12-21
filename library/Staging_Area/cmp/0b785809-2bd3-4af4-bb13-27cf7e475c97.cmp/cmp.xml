@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{0b785809-2bd3-4af4-bb13-27cf7e475c97}</uuid>
+  <uuid>0b785809-2bd3-4af4-bb13-27cf7e475c97</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:11:03Z</created>
@@ -13,25 +13,25 @@ This element was automatically imported from Eagle
 Filepath: wirepad.lbr
 Name: 1,6/0,8
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix default="true" norm="">PAD</prefix>
+  <prefix norm="" default="true">PAD</prefix>
  </properties>
  <signals>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{b8f314a9-ddb4-457b-a36b-bca7472d9f7e}" role="passive">P</signal>
+  <signal required="false" uuid="b8f314a9-ddb4-457b-a36b-bca7472d9f7e" role="passive" clock="false" forced_net_name="" negated="false">P</signal>
  </signals>
  <symbol_variants>
-  <variant default="true" norm="" uuid="{1ce77640-2835-4cea-99f9-ff1364f62514}">
+  <variant norm="" uuid="1ce77640-2835-4cea-99f9-ff1364f62514" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="P" symbol="{dce44427-4d53-4881-a77a-3e4faa383e3b}" uuid="{3d52b09e-1041-443c-9058-b127af0b0cce}">
+    <item required="true" uuid="3d52b09e-1041-443c-9058-b127af0b0cce" suffix="P" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b">
      <pin_signal_map>
-      <map pin="{01f564d5-9975-4613-bf90-153a031fe625}" display="component_signal">{b8f314a9-ddb4-457b-a36b-bca7472d9f7e}</map>
+      <map pin="01f564d5-9975-4613-bf90-153a031fe625" display="component_signal">b8f314a9-ddb4-457b-a36b-bca7472d9f7e</map>
      </pin_signal_map>
     </item>
    </symbol_items>

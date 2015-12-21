@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <component version="0">
  <meta>
-  <uuid>{08886d99-3466-4b27-a760-86f34ce2c0c3}</uuid>
+  <uuid>08886d99-3466-4b27-a760-86f34ce2c0c3</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-20T22:10:59Z</created>
@@ -14,27 +14,27 @@ This element was automatically imported from Eagle
 Filepath: diode.lbr
 Name: BAT19
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix default="true" norm="">D</prefix>
+  <prefix norm="" default="true">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{24792c39-4db9-4b6b-8e1c-ba5e58075f5a}" role="passive">A</signal>
-  <signal clock="false" forced_net_name="" required="false" negated="false" uuid="{d6f3de0d-26e6-4d19-87a7-efe578467530}" role="passive">C</signal>
+  <signal required="false" uuid="24792c39-4db9-4b6b-8e1c-ba5e58075f5a" role="passive" clock="false" forced_net_name="" negated="false">A</signal>
+  <signal required="false" uuid="d6f3de0d-26e6-4d19-87a7-efe578467530" role="passive" clock="false" forced_net_name="" negated="false">C</signal>
  </signals>
  <symbol_variants>
-  <variant default="true" norm="" uuid="{7195c545-ddeb-4153-9a8f-9d415103f640}">
+  <variant norm="" uuid="7195c545-ddeb-4153-9a8f-9d415103f640" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="1" symbol="{b4019e5f-dead-4f11-9040-41fa27f7f4bd}" uuid="{8a2a6fdd-37be-42aa-9478-877fa5a839b2}">
+    <item required="true" uuid="8a2a6fdd-37be-42aa-9478-877fa5a839b2" suffix="1" symbol="b4019e5f-dead-4f11-9040-41fa27f7f4bd">
      <pin_signal_map>
-      <map pin="{0c83d4fb-d2f9-4199-b82e-f65cdb357d55}" display="component_signal">{24792c39-4db9-4b6b-8e1c-ba5e58075f5a}</map>
-      <map pin="{d1121c89-3dea-4883-9bd1-3cba1d5b038d}" display="component_signal">{d6f3de0d-26e6-4d19-87a7-efe578467530}</map>
+      <map pin="d1121c89-3dea-4883-9bd1-3cba1d5b038d" display="component_signal">d6f3de0d-26e6-4d19-87a7-efe578467530</map>
+      <map pin="0c83d4fb-d2f9-4199-b82e-f65cdb357d55" display="component_signal">24792c39-4db9-4b6b-8e1c-ba5e58075f5a</map>
      </pin_signal_map>
     </item>
    </symbol_items>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <symbol version="0">
  <meta>
-  <uuid>{11e1f693-0777-48e4-b3bd-b451f3c929b3}</uuid>
+  <uuid>11e1f693-0777-48e4-b3bd-b451f3c929b3</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-03-01T20:00:00Z</created>
@@ -9,20 +9,20 @@
   <name locale="en_US">L-EU</name>
   <description locale="en_US">Inductor European (IEC 60617)</description>
   <keywords locale="en_US">inductor,inductance</keywords>
-  <category>{00000000-0000-4001-8000-000000000000}</category>
+  <category>00000000-0000-4001-8000-000000000000</category>
  </meta>
  <pins>
-  <pin length="2.000000" rotation="0.000000" x="-5.080000" y="0.000000" uuid="{06d55f94-1316-48cb-a20f-0d4231eced31}">1</pin>
-  <pin length="2.000000" rotation="180.000000" x="5.080000" y="0.000000" uuid="{1b2d8b3c-b531-48ec-a0f9-07e91687c214}">2</pin>
+  <pin x="5.080000" y="0.000000" length="2.000000" uuid="1b2d8b3c-b531-48ec-a0f9-07e91687c214" rotation="180.000000">2</pin>
+  <pin x="-5.080000" y="0.000000" length="2.000000" uuid="06d55f94-1316-48cb-a20f-0d4231eced31" rotation="0.000000">1</pin>
  </pins>
  <geometry>
-  <polygon grab_area="true" width="0.254000" fill="true" start_x="-3.080000" start_y="-1.016000" layer="10">
+  <polygon layer="10" grab_area="true" start_x="-3.080000" start_y="-1.016000" fill="true" width="0.254000">
    <segment end_x="-3.080000" end_y="1.016000" angle="0.000000"/>
    <segment end_x="3.080000" end_y="1.016000" angle="0.000000"/>
    <segment end_x="3.080000" end_y="-1.016000" angle="0.000000"/>
    <segment end_x="-3.080000" end_y="-1.016000" angle="0.000000"/>
   </polygon>
-  <text v_align="bottom" height="2.540000" rotation="0.000000" x="-3.080000" y="1.016000" layer="20" h_align="left">${SYM::NAME}</text>
-  <text v_align="top" height="2.540000" rotation="0.000000" x="-3.080000" y="-1.016000" layer="21" h_align="left">${CMP::VALUE}</text>
+  <text x="-3.080000" height="2.540000" y="1.016000" rotation="0.000000" layer="20" h_align="left" v_align="bottom">${SYM::NAME}</text>
+  <text x="-3.080000" height="2.540000" y="-1.016000" rotation="0.000000" layer="21" h_align="left" v_align="top">${CMP::VALUE}</text>
  </geometry>
 </symbol>

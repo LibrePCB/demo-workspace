@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <package version="0">
  <meta>
-  <uuid>{3ecdb8bd-cba5-4bad-8a08-89da6ed3d5a8}</uuid>
+  <uuid>3ecdb8bd-cba5-4bad-8a08-89da6ed3d5a8</uuid>
   <version>0.1</version>
   <author>LibrePCB</author>
   <created>2015-12-21T13:28:18Z</created>
@@ -13,27 +13,27 @@ This element was automatically imported from Eagle
 Filepath: isabellen.lbr
 Name: SMT-WAV
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"/>
+  <keywords locale="en_US"></keywords>
  </meta>
  <pads>
-  <pad uuid="{659f0b4e-d487-4a91-a83b-65bea415e76a}">1</pad>
-  <pad uuid="{b914e02d-5815-4558-ace5-81fdb42665cf}">2</pad>
+  <pad uuid="659f0b4e-d487-4a91-a83b-65bea415e76a">1</pad>
+  <pad uuid="b914e02d-5815-4558-ace5-81fdb42665cf">2</pad>
  </pads>
  <footprints>
-  <footprint uuid="{f11afe00-fa1c-485e-9ee3-91d071d97489}" default="true">
+  <footprint uuid="f11afe00-fa1c-485e-9ee3-91d071d97489" default="true">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.200000" fill="false" grab_area="true" layer="200" start_x="-3.450000" start_y="2.000000">
-     <segment end_y="-2.000000" angle="0.000000" end_x="-3.450000"/>
-     <segment end_y="-2.000000" angle="0.000000" end_x="3.450000"/>
-     <segment end_y="2.000000" angle="0.000000" end_x="3.450000"/>
-     <segment end_y="2.000000" angle="0.000000" end_x="-3.450000"/>
+    <polygon layer="200" grab_area="true" start_x="-3.450000" start_y="2.000000" fill="false" width="0.200000">
+     <segment end_x="-3.450000" end_y="-2.000000" angle="0.000000"/>
+     <segment end_x="3.450000" end_y="-2.000000" angle="0.000000"/>
+     <segment end_x="3.450000" end_y="2.000000" angle="0.000000"/>
+     <segment end_x="-3.450000" end_y="2.000000" angle="0.000000"/>
     </polygon>
-    <text h_align="left" v_align="bottom" layer="240" x="-2.844800" y="0.457200" rotation="0.000000" height="2.500000">${CMP::NAME}</text>
-    <text h_align="left" v_align="bottom" layer="250" x="-2.895600" y="-1.625600" rotation="0.000000" height="2.000000">${CMP::VALUE}</text>
-    <pad width="3.200000" type="smt_rect" smt_side="top" uuid="{b914e02d-5815-4558-ace5-81fdb42665cf}" x="-2.362200" y="0.000000" rotation="0.000000" height="5.000000" tht_drill="0.000000"/>
-    <pad width="3.200000" type="smt_rect" smt_side="top" uuid="{659f0b4e-d487-4a91-a83b-65bea415e76a}" x="2.362200" y="0.000000" rotation="0.000000" height="5.000000" tht_drill="0.000000"/>
+    <text x="-2.844800" height="2.500000" y="0.457200" rotation="0.000000" layer="240" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text x="-2.895600" height="2.000000" y="-1.625600" rotation="0.000000" layer="250" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="2.362200" height="5.000000" y="0.000000" uuid="659f0b4e-d487-4a91-a83b-65bea415e76a" rotation="0.000000" width="3.200000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
+    <pad x="-2.362200" height="5.000000" y="0.000000" uuid="b914e02d-5815-4558-ace5-81fdb42665cf" rotation="0.000000" width="3.200000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
    </geometry>
   </footprint>
  </footprints>
