@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#shopt -s globstar
-
 # rename Components (cmp) to Devices (dev)
 if [ -d "cmp" ]; then
   mv cmp dev
