@@ -62,7 +62,7 @@
       - h_align:    Horizontal alignment (left, center, right)
       - v_align:    Vertical alignment (top, center, bottom)
       - node value: The displayed text (can contain placeholders, e.g. ${NAMESPACE::NAME})
-                    Available namespaces: SYM (class SymbolInstance), CMP (class GenCompInstance), PAGE (class Schematic), PRJ (class Project)
+                    Available namespaces: SYM (class project::SI_Symbol), CMP (class project::ComponentInstance), PAGE (class project::Schematic), PRJ (class project::Project)
   -->
   <polygon layer="10" width="0.254" fill="false" grab_area="true" start_x="-12.7" start_y="-7.62">
    <segment angle="0" end_x="-12.7" end_y="5.08"/>
