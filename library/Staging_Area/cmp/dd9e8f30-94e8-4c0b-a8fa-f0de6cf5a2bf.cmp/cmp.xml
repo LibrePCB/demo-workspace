@@ -20,18 +20,18 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">LED</prefix>
+  <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="d4824bee-6461-4b95-a773-15e30586fd45" role="passive" clock="false" forced_net_name="" negated="false">A</signal>
-  <signal required="false" uuid="54167112-e7e5-4f8e-8fa4-1c33897d636b" role="passive" clock="false" forced_net_name="" negated="false">C</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="d4824bee-6461-4b95-a773-15e30586fd45" role="passive">A</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="54167112-e7e5-4f8e-8fa4-1c33897d636b" role="passive">C</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="29edfd3c-2243-45ac-bb51-e57911968ae8" default="true">
+ <symbol_variants default="29edfd3c-2243-45ac-bb51-e57911968ae8">
+  <variant norm="" uuid="29edfd3c-2243-45ac-bb51-e57911968ae8">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="9e675612-e568-40ba-bf48-da3191150213" suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a">
+    <item required="true" suffix="" uuid="9e675612-e568-40ba-bf48-da3191150213" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a">
      <pin_signal_map>
       <map pin="18de942d-8b47-4daf-9e07-d089204e09d0" display="component_signal">54167112-e7e5-4f8e-8fa4-1c33897d636b</map>
       <map pin="2a64f851-340a-43f2-b1cf-06a1d4b54560" display="component_signal">d4824bee-6461-4b95-a773-15e30586fd45</map>

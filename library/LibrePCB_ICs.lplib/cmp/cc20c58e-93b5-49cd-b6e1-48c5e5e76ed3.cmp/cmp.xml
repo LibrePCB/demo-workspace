@@ -15,33 +15,33 @@
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">IC</prefix>
+  <prefix norm="">IC</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="ff96d3fb-e43d-4391-b30f-ec72cbefb149" role="passive" clock="false" forced_net_name="" negated="false">VS</signal>
-  <signal required="false" uuid="0c2b7df1-57c7-47a7-944f-4aece84b05ca" role="passive" clock="false" forced_net_name="" negated="false">LIN</signal>
-  <signal required="false" uuid="de468cc9-06de-415f-b1d7-ec82bb8b355a" role="passive" clock="false" forced_net_name="" negated="false">HIN</signal>
-  <signal required="false" uuid="7c1df97a-34a0-470c-9d96-ebbd5f281aaa" role="passive" clock="false" forced_net_name="" negated="false">COM</signal>
-  <signal required="false" uuid="5f74c850-c401-4600-b6c8-58bb87764a59" role="passive" clock="false" forced_net_name="" negated="false">VB</signal>
-  <signal required="false" uuid="922cf4f3-4ced-4ffc-91b2-483129005356" role="passive" clock="false" forced_net_name="" negated="false">HO</signal>
-  <signal required="false" uuid="1076d030-d216-467b-8a2d-40338779ad94" role="passive" clock="false" forced_net_name="" negated="false">VCC</signal>
-  <signal required="false" uuid="a1b2b926-d1f1-40be-9f2c-e8c4a1e9a883" role="passive" clock="false" forced_net_name="" negated="false">LO</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="ff96d3fb-e43d-4391-b30f-ec72cbefb149" role="passive">VS</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="0c2b7df1-57c7-47a7-944f-4aece84b05ca" role="passive">LIN</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="de468cc9-06de-415f-b1d7-ec82bb8b355a" role="passive">HIN</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="7c1df97a-34a0-470c-9d96-ebbd5f281aaa" role="passive">COM</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="5f74c850-c401-4600-b6c8-58bb87764a59" role="passive">VB</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="922cf4f3-4ced-4ffc-91b2-483129005356" role="passive">HO</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="1076d030-d216-467b-8a2d-40338779ad94" role="passive">VCC</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="a1b2b926-d1f1-40be-9f2c-e8c4a1e9a883" role="passive">LO</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="4bfd5089-9ea7-4019-a507-583509a32d75" default="true">
+ <symbol_variants default="4bfd5089-9ea7-4019-a507-583509a32d75">
+  <variant norm="" uuid="4bfd5089-9ea7-4019-a507-583509a32d75">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="dcf1ad9b-0242-450e-bb79-9ad9a1b82bf8" suffix="" symbol="8f089c97-5f9b-4437-94a6-3d2f958583c7">
+    <item required="true" suffix="" uuid="dcf1ad9b-0242-450e-bb79-9ad9a1b82bf8" symbol="8f089c97-5f9b-4437-94a6-3d2f958583c7">
      <pin_signal_map>
-      <map pin="64b1cf6f-dc2c-4ea1-9f4b-fac229b2df07" display="component_signal">1076d030-d216-467b-8a2d-40338779ad94</map>
-      <map pin="4338b443-d96e-4725-9d32-06a76a4680bf" display="component_signal">de468cc9-06de-415f-b1d7-ec82bb8b355a</map>
       <map pin="8115b469-234c-4f72-bef2-2e46d48daa90" display="component_signal">a1b2b926-d1f1-40be-9f2c-e8c4a1e9a883</map>
       <map pin="800ff2c4-86ae-43e3-9f05-4dc2b47e28df" display="component_signal">5f74c850-c401-4600-b6c8-58bb87764a59</map>
       <map pin="f9f7d4ec-6ee7-4634-96b7-50b8838630a2" display="component_signal">0c2b7df1-57c7-47a7-944f-4aece84b05ca</map>
       <map pin="8217d867-da05-4630-a4d7-1926324fe9a5" display="component_signal">7c1df97a-34a0-470c-9d96-ebbd5f281aaa</map>
       <map pin="b3f36961-22ee-4e87-9189-68282ae86ad9" display="component_signal">922cf4f3-4ced-4ffc-91b2-483129005356</map>
       <map pin="371eaace-87bd-4780-846c-1cf31e4f1b74" display="component_signal">ff96d3fb-e43d-4391-b30f-ec72cbefb149</map>
+      <map pin="64b1cf6f-dc2c-4ea1-9f4b-fac229b2df07" display="component_signal">1076d030-d216-467b-8a2d-40338779ad94</map>
+      <map pin="4338b443-d96e-4725-9d32-06a76a4680bf" display="component_signal">de468cc9-06de-415f-b1d7-ec82bb8b355a</map>
      </pin_signal_map>
     </item>
    </symbol_items>

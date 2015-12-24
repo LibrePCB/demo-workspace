@@ -15,18 +15,18 @@
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">D</prefix>
+  <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal required="true" uuid="0b345c41-0429-47f3-917a-5140944c7755" role="passive" clock="false" forced_net_name="" negated="false">A</signal>
-  <signal required="true" uuid="78fc7eeb-dca2-40c7-9543-9444e527056e" role="passive" clock="false" forced_net_name="" negated="false">C</signal>
+  <signal forced_net_name="" clock="false" required="true" negated="false" uuid="0b345c41-0429-47f3-917a-5140944c7755" role="passive">A</signal>
+  <signal forced_net_name="" clock="false" required="true" negated="false" uuid="78fc7eeb-dca2-40c7-9543-9444e527056e" role="passive">C</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="c864d663-a22e-4814-bc03-017d5bc7d6c6" default="true">
+ <symbol_variants default="c864d663-a22e-4814-bc03-017d5bc7d6c6">
+  <variant norm="" uuid="c864d663-a22e-4814-bc03-017d5bc7d6c6">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="fade976e-1f99-41a4-bcfc-b29524c37768" suffix="" symbol="c2c427a9-17c6-4400-981c-6ece1c9735c3">
+    <item required="true" suffix="" uuid="fade976e-1f99-41a4-bcfc-b29524c37768" symbol="c2c427a9-17c6-4400-981c-6ece1c9735c3">
      <pin_signal_map>
       <map pin="e433fe3f-c104-4bc8-9e93-312bea6dd368" display="none">78fc7eeb-dca2-40c7-9543-9444e527056e</map>
       <map pin="b03c23a6-4890-42b5-ad6a-4b4fe1f77fbd" display="none">0b345c41-0429-47f3-917a-5140944c7755</map>

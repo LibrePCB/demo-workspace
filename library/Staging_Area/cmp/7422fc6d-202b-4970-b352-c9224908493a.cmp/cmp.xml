@@ -30,25 +30,25 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">LED</prefix>
+  <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="23482608-9c7f-4b15-b17f-063b6e1c19bc" role="passive" clock="false" forced_net_name="" negated="false">A2</signal>
-  <signal required="false" uuid="6dd0a4ca-8c19-4c30-85e4-822136325fde" role="passive" clock="false" forced_net_name="" negated="false">CBLUE</signal>
-  <signal required="false" uuid="be0ecbbd-1ade-4930-93fa-070363edea28" role="passive" clock="false" forced_net_name="" negated="false">CGREEN</signal>
-  <signal required="false" uuid="2ebb14e5-180b-4a98-9ad8-47125f58a74b" role="passive" clock="false" forced_net_name="" negated="false">CRED</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="23482608-9c7f-4b15-b17f-063b6e1c19bc" role="passive">A2</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="6dd0a4ca-8c19-4c30-85e4-822136325fde" role="passive">CBLUE</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="be0ecbbd-1ade-4930-93fa-070363edea28" role="passive">CGREEN</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="2ebb14e5-180b-4a98-9ad8-47125f58a74b" role="passive">CRED</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="26f27ef5-676f-454f-9aa1-e76ba8759441" default="true">
+ <symbol_variants default="26f27ef5-676f-454f-9aa1-e76ba8759441">
+  <variant norm="" uuid="26f27ef5-676f-454f-9aa1-e76ba8759441">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="13be01f3-7556-43b2-9923-2febe6ace4c4" suffix="" symbol="e1f7369c-9dbb-41df-977c-446a6b666485">
+    <item required="true" suffix="" uuid="13be01f3-7556-43b2-9923-2febe6ace4c4" symbol="e1f7369c-9dbb-41df-977c-446a6b666485">
      <pin_signal_map>
+      <map pin="8aa3d141-a9be-4a73-9844-a27fa1abc8d3" display="component_signal">2ebb14e5-180b-4a98-9ad8-47125f58a74b</map>
       <map pin="b11cc9c6-c6bd-4e1d-b901-aec62f231886" display="component_signal">be0ecbbd-1ade-4930-93fa-070363edea28</map>
       <map pin="2365c69b-df3f-44f5-aa4a-c61b45ff0772" display="component_signal">6dd0a4ca-8c19-4c30-85e4-822136325fde</map>
       <map pin="df2bfad0-06d9-4485-9a04-3b5d747c8475" display="component_signal">23482608-9c7f-4b15-b17f-063b6e1c19bc</map>
-      <map pin="8aa3d141-a9be-4a73-9844-a27fa1abc8d3" display="component_signal">2ebb14e5-180b-4a98-9ad8-47125f58a74b</map>
      </pin_signal_map>
     </item>
    </symbol_items>

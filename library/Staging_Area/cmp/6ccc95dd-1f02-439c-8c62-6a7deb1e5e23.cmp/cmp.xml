@@ -19,21 +19,21 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">R</prefix>
+  <prefix norm="">R</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="28a408e3-5fc8-431f-952d-caafbea5e1bb" role="passive" clock="false" forced_net_name="" negated="false">1</signal>
-  <signal required="false" uuid="b88d9e05-0296-46d3-9195-76f78e5ddb8a" role="passive" clock="false" forced_net_name="" negated="false">2</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="28a408e3-5fc8-431f-952d-caafbea5e1bb" role="passive">1</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="b88d9e05-0296-46d3-9195-76f78e5ddb8a" role="passive">2</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="2c2f4b3a-cf68-41e9-8e84-36ea240ee224" default="true">
+ <symbol_variants default="2c2f4b3a-cf68-41e9-8e84-36ea240ee224">
+  <variant norm="" uuid="2c2f4b3a-cf68-41e9-8e84-36ea240ee224">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="6a8054de-d581-4796-88d1-704d4543b066" suffix="" symbol="3d077a0c-9523-46fb-9afc-cd44d1f197ab">
+    <item required="true" suffix="" uuid="6a8054de-d581-4796-88d1-704d4543b066" symbol="3d077a0c-9523-46fb-9afc-cd44d1f197ab">
      <pin_signal_map>
-      <map pin="3dd63044-7022-44c6-95cb-3f4205c67f1c" display="component_signal">b88d9e05-0296-46d3-9195-76f78e5ddb8a</map>
       <map pin="1779c9ef-c47c-46f8-a983-464bad8d18d4" display="component_signal">28a408e3-5fc8-431f-952d-caafbea5e1bb</map>
+      <map pin="3dd63044-7022-44c6-95cb-3f4205c67f1c" display="component_signal">b88d9e05-0296-46d3-9195-76f78e5ddb8a</map>
      </pin_signal_map>
     </item>
    </symbol_items>

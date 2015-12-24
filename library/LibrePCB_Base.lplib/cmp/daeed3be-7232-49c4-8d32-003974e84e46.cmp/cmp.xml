@@ -15,23 +15,23 @@
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">R</prefix>
+  <prefix norm="">R</prefix>
  </properties>
  <signals>
-  <signal required="true" uuid="8a87b90b-5d61-46e1-8af1-f554e3c83bf9" role="passive" clock="false" forced_net_name="" negated="false">A</signal>
-  <signal required="true" uuid="dc6abef1-4b87-4cf9-9559-480498799fa9" role="passive" clock="false" forced_net_name="" negated="false">E</signal>
-  <signal required="true" uuid="ef7d6004-a9dd-441a-a605-965863019345" role="passive" clock="false" forced_net_name="" negated="false">S</signal>
+  <signal forced_net_name="" clock="false" required="true" negated="false" uuid="8a87b90b-5d61-46e1-8af1-f554e3c83bf9" role="passive">A</signal>
+  <signal forced_net_name="" clock="false" required="true" negated="false" uuid="dc6abef1-4b87-4cf9-9559-480498799fa9" role="passive">E</signal>
+  <signal forced_net_name="" clock="false" required="true" negated="false" uuid="ef7d6004-a9dd-441a-a605-965863019345" role="passive">S</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="56d736fc-1072-4b28-b8d4-65cd4bc1fb18" default="true">
+ <symbol_variants default="56d736fc-1072-4b28-b8d4-65cd4bc1fb18">
+  <variant norm="" uuid="56d736fc-1072-4b28-b8d4-65cd4bc1fb18">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="5f06611c-a279-4ebb-a121-23732911c8eb" suffix="" symbol="2da144df-507b-4c51-8f16-174229e04572">
+    <item required="true" suffix="" uuid="5f06611c-a279-4ebb-a121-23732911c8eb" symbol="2da144df-507b-4c51-8f16-174229e04572">
      <pin_signal_map>
+      <map pin="9a0141ed-f763-4793-b234-ef0a3cfc3e57" display="none">8a87b90b-5d61-46e1-8af1-f554e3c83bf9</map>
       <map pin="9b63737f-6e0c-4484-a5c9-b5969de600c4" display="none">dc6abef1-4b87-4cf9-9559-480498799fa9</map>
       <map pin="1224afb4-3447-4078-8477-f84d4ac669be" display="none">ef7d6004-a9dd-441a-a605-965863019345</map>
-      <map pin="9a0141ed-f763-4793-b234-ef0a3cfc3e57" display="none">8a87b90b-5d61-46e1-8af1-f554e3c83bf9</map>
      </pin_signal_map>
     </item>
    </symbol_items>

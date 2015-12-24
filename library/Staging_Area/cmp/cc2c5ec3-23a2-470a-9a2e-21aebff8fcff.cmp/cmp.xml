@@ -20,18 +20,18 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">D</prefix>
+  <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="cbb199c1-9db5-45e3-93c9-1139e305dd5c" role="passive" clock="false" forced_net_name="" negated="false">A</signal>
-  <signal required="false" uuid="f1e36d4b-cbb3-4af2-be51-8debfcd527c8" role="passive" clock="false" forced_net_name="" negated="false">C</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="cbb199c1-9db5-45e3-93c9-1139e305dd5c" role="passive">A</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="f1e36d4b-cbb3-4af2-be51-8debfcd527c8" role="passive">C</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="1e6d6a39-bde2-4423-b3a3-8ca7d1447f4a" default="true">
+ <symbol_variants default="1e6d6a39-bde2-4423-b3a3-8ca7d1447f4a">
+  <variant norm="" uuid="1e6d6a39-bde2-4423-b3a3-8ca7d1447f4a">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="4d336fe4-3ea4-499e-a464-b7e51ccf143e" suffix="1" symbol="d7a60962-0f8b-44e9-831b-dd7bca1649b0">
+    <item required="true" suffix="1" uuid="4d336fe4-3ea4-499e-a464-b7e51ccf143e" symbol="d7a60962-0f8b-44e9-831b-dd7bca1649b0">
      <pin_signal_map>
       <map pin="bcc4ce5f-1594-4790-be6a-b42e9f0ddea3" display="component_signal">f1e36d4b-cbb3-4af2-be51-8debfcd527c8</map>
       <map pin="e72b6a12-69fb-44b7-ba93-b164352f614f" display="component_signal">cbb199c1-9db5-45e3-93c9-1139e305dd5c</map>

@@ -20,19 +20,19 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">LED</prefix>
+  <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="7a1a4021-0e28-425e-9f79-cf5a40fb6f5d" role="passive" clock="false" forced_net_name="" negated="false">AG</signal>
-  <signal required="false" uuid="1f35d61f-9dfa-4a7e-a2d3-3f0065164fb5" role="passive" clock="false" forced_net_name="" negated="false">AO</signal>
-  <signal required="false" uuid="b92a7efd-47bd-49e2-b544-144b9a1d0ba8" role="passive" clock="false" forced_net_name="" negated="false">CC</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="7a1a4021-0e28-425e-9f79-cf5a40fb6f5d" role="passive">AG</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="1f35d61f-9dfa-4a7e-a2d3-3f0065164fb5" role="passive">AO</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="b92a7efd-47bd-49e2-b544-144b9a1d0ba8" role="passive">CC</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="1323b190-1303-4263-8df6-33d80045fd2d" default="true">
+ <symbol_variants default="1323b190-1303-4263-8df6-33d80045fd2d">
+  <variant norm="" uuid="1323b190-1303-4263-8df6-33d80045fd2d">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="4bea04bb-05ac-4a11-a88e-644e8a7757ba" suffix="" symbol="fc440b09-8e99-4ad6-8cf2-6bd681faae53">
+    <item required="true" suffix="" uuid="4bea04bb-05ac-4a11-a88e-644e8a7757ba" symbol="fc440b09-8e99-4ad6-8cf2-6bd681faae53">
      <pin_signal_map>
       <map pin="d3680e06-17f7-45aa-a073-aea258aa8ec8" display="component_signal">b92a7efd-47bd-49e2-b544-144b9a1d0ba8</map>
       <map pin="d492ad44-2f06-45a4-9c11-aa858612bf0e" display="component_signal">7a1a4021-0e28-425e-9f79-cf5a40fb6f5d</map>

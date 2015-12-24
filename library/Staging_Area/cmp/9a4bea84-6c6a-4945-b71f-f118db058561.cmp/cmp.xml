@@ -20,27 +20,27 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">IC</prefix>
+  <prefix norm="">IC</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="58d0a48f-3adf-4004-9e49-9bda700c24a6" role="passive" clock="false" forced_net_name="" negated="false">BOOST</signal>
-  <signal required="false" uuid="cd932cd4-9fe7-4a42-8054-63914cd054a6" role="passive" clock="false" forced_net_name="" negated="false">IOUT</signal>
-  <signal required="false" uuid="9da4bc2e-4ade-422c-b77b-3b4010053105" role="passive" clock="false" forced_net_name="" negated="false">PWM</signal>
-  <signal required="false" uuid="65f2dfcb-04d2-4da1-9a83-15cf569ccced" role="passive" clock="false" forced_net_name="" negated="false">REXT</signal>
-  <signal required="false" uuid="9a1431af-a1f0-445f-ad21-f0f5ec74190a" role="passive" clock="false" forced_net_name="" negated="false">VIN</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="58d0a48f-3adf-4004-9e49-9bda700c24a6" role="passive">BOOST</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="cd932cd4-9fe7-4a42-8054-63914cd054a6" role="passive">IOUT</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="9da4bc2e-4ade-422c-b77b-3b4010053105" role="passive">PWM</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="65f2dfcb-04d2-4da1-9a83-15cf569ccced" role="passive">REXT</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="9a1431af-a1f0-445f-ad21-f0f5ec74190a" role="passive">VIN</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="54eb46ce-0468-4559-bfb0-603e96899617" default="true">
+ <symbol_variants default="54eb46ce-0468-4559-bfb0-603e96899617">
+  <variant norm="" uuid="54eb46ce-0468-4559-bfb0-603e96899617">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="dce5958c-5ae5-460e-b00d-e4416d5886af" suffix="B" symbol="655b930c-a333-409e-aab6-03f17410a725">
+    <item required="true" suffix="B" uuid="dce5958c-5ae5-460e-b00d-e4416d5886af" symbol="655b930c-a333-409e-aab6-03f17410a725">
      <pin_signal_map>
+      <map pin="ad9d7b5d-e4cf-4ea0-961e-44cda23fbeff" display="component_signal">cd932cd4-9fe7-4a42-8054-63914cd054a6</map>
       <map pin="08ccb7fa-d9e7-4178-ad07-ce0ce31391fb" display="component_signal">9da4bc2e-4ade-422c-b77b-3b4010053105</map>
       <map pin="ed854cd8-9d40-406a-9d19-1e29777626aa" display="component_signal">58d0a48f-3adf-4004-9e49-9bda700c24a6</map>
       <map pin="6bb61c3d-5d72-4154-aee0-e623169b45ce" display="component_signal">9a1431af-a1f0-445f-ad21-f0f5ec74190a</map>
       <map pin="c6526b82-a6d4-4d29-a0af-7dd4c447f54e" display="component_signal">65f2dfcb-04d2-4da1-9a83-15cf569ccced</map>
-      <map pin="ad9d7b5d-e4cf-4ea0-961e-44cda23fbeff" display="component_signal">cd932cd4-9fe7-4a42-8054-63914cd054a6</map>
      </pin_signal_map>
     </item>
    </symbol_items>

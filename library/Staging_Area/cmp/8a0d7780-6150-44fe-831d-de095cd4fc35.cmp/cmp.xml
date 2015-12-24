@@ -20,25 +20,25 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">Q</prefix>
+  <prefix norm="">Q</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="39e183fe-cab8-431b-9168-df821178568d" role="passive" clock="false" forced_net_name="" negated="false">1</signal>
-  <signal required="false" uuid="f1ff2237-ffbb-4f15-b22f-b2d30d9eaadc" role="passive" clock="false" forced_net_name="" negated="false">2</signal>
-  <signal required="false" uuid="32ba994d-e39e-4b2b-9773-0db4e40fdc49" role="passive" clock="false" forced_net_name="" negated="false">3</signal>
-  <signal required="false" uuid="9afbbeb7-632f-47a4-a071-135ce58eaf11" role="passive" clock="false" forced_net_name="" negated="false">4</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="39e183fe-cab8-431b-9168-df821178568d" role="passive">1</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="f1ff2237-ffbb-4f15-b22f-b2d30d9eaadc" role="passive">2</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="32ba994d-e39e-4b2b-9773-0db4e40fdc49" role="passive">3</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="9afbbeb7-632f-47a4-a071-135ce58eaf11" role="passive">4</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="a91b9c8f-dc37-49de-9d2f-d02a687f14bc" default="true">
+ <symbol_variants default="a91b9c8f-dc37-49de-9d2f-d02a687f14bc">
+  <variant norm="" uuid="a91b9c8f-dc37-49de-9d2f-d02a687f14bc">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="d6f333c8-d5f5-4e9a-bea7-893662833f70" suffix="" symbol="a909fd73-ff6e-489a-9062-f816b26d5094">
+    <item required="true" suffix="" uuid="d6f333c8-d5f5-4e9a-bea7-893662833f70" symbol="a909fd73-ff6e-489a-9062-f816b26d5094">
      <pin_signal_map>
-      <map pin="71358fb5-0c95-491a-9ee8-165ebe8411fc" display="component_signal">f1ff2237-ffbb-4f15-b22f-b2d30d9eaadc</map>
       <map pin="c22d2d34-fb10-4182-9e99-ee7e7f98d00b" display="component_signal">9afbbeb7-632f-47a4-a071-135ce58eaf11</map>
       <map pin="ba76e64f-63d0-47d0-bcab-180c52799484" display="component_signal">39e183fe-cab8-431b-9168-df821178568d</map>
       <map pin="1853f7e7-7649-4df8-830f-16b3e5845af2" display="component_signal">32ba994d-e39e-4b2b-9773-0db4e40fdc49</map>
+      <map pin="71358fb5-0c95-491a-9ee8-165ebe8411fc" display="component_signal">f1ff2237-ffbb-4f15-b22f-b2d30d9eaadc</map>
      </pin_signal_map>
     </item>
    </symbol_items>

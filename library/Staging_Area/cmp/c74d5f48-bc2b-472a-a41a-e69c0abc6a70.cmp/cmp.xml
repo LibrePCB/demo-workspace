@@ -20,23 +20,23 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">J</prefix>
+  <prefix norm="">J</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="d162d4ae-03c2-4855-9742-06d62f79dbcd" role="passive" clock="false" forced_net_name="" negated="false">S</signal>
-  <signal required="false" uuid="1935ab06-00ec-422a-89ec-c315a5b72693" role="passive" clock="false" forced_net_name="" negated="false">S</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="d162d4ae-03c2-4855-9742-06d62f79dbcd" role="passive">S</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="1935ab06-00ec-422a-89ec-c315a5b72693" role="passive">S</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="9310b09d-83b1-42c9-b174-a4495c94ed77" default="true">
+ <symbol_variants default="9310b09d-83b1-42c9-b174-a4495c94ed77">
+  <variant norm="" uuid="9310b09d-83b1-42c9-b174-a4495c94ed77">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="80ce3cca-c40b-4477-abe8-1ee31a9088ed" suffix="-1" symbol="0a757ef4-781e-4f3c-aade-8a81ddaced49">
+    <item required="true" suffix="-1" uuid="80ce3cca-c40b-4477-abe8-1ee31a9088ed" symbol="0a757ef4-781e-4f3c-aade-8a81ddaced49">
      <pin_signal_map>
       <map pin="45616a4f-3a27-43fe-b63f-11ee8266a5d9" display="component_signal">d162d4ae-03c2-4855-9742-06d62f79dbcd</map>
      </pin_signal_map>
     </item>
-    <item required="true" uuid="75328899-9501-42de-9fac-77622e10b24b" suffix="-2" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5">
+    <item required="true" suffix="-2" uuid="75328899-9501-42de-9fac-77622e10b24b" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5">
      <pin_signal_map>
       <map pin="30aecab6-78da-4867-91a2-4425c2addf92" display="component_signal">1935ab06-00ec-422a-89ec-c315a5b72693</map>
      </pin_signal_map>

@@ -40,7 +40,7 @@
  <properties>
   <schematic_only>false</schematic_only> <!-- If true, no devices are available for this component, so it can be added only to schematics and not to boards. -->
   <value locale="en_US"></value> <!-- This is the value of the component after adding it to a schematic. The user then can change the value if needed. The value is always a string and can contain variables which represent an attribute (syntax: ${ATTRIBUTE_NAME}). The default value can be defined for each language separately. -->
-  <prefix norm="" default="true">U</prefix> <!-- Prefix for the component name (R5, U8,...). With the "norm" attribute, different prefixes for different norms can be defined. -->
+  <prefix norm="">U</prefix> <!-- Prefix for the component name (R5, U8,...). Different prefixes for different norms can be defined. There must be exactly one prefix with norm="" to define the default prefix. -->
  </properties>
  <signals>
   <!--
@@ -69,9 +69,9 @@
   <signal uuid="af5ff768-2a2b-4f34-bae1-c3b6f02a82f4" role="inout"  required="true" negated="false" clock="false" forced_net_name="">DISCHARGE</signal>
   <signal uuid="21ac13f7-ebbd-494b-8a56-024c5b2ee95f" role="power"  required="true" negated="false" clock="false" forced_net_name="">VCC</signal>
  </signals>
- <symbol_variants>
+ <symbol_variants default="a3a3db3e-c03e-4b3a-b916-638f75e11d9a">
   <!-- Each component can define multiple symbol variants, and each symbol variant can contain multiple symbols. -->
-  <variant uuid="a3a3db3e-c03e-4b3a-b916-638f75e11d9a" norm="DIN EN 1234" default="true">
+  <variant uuid="a3a3db3e-c03e-4b3a-b916-638f75e11d9a" norm="DIN EN 1234">
    <name locale="en_US">Euro</name>
    <description locale="en_US">European Variant</description>
    <symbol_items>

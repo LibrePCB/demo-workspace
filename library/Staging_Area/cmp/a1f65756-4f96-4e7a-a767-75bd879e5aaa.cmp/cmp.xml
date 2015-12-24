@@ -20,18 +20,18 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">CY</prefix>
+  <prefix norm="">CY</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="65038c85-5c1e-4cc2-8a0e-9553a24ab341" role="passive" clock="false" forced_net_name="" negated="false">1</signal>
-  <signal required="false" uuid="f1de620d-f2bd-4ee0-ba92-9153fdc9d6c6" role="passive" clock="false" forced_net_name="" negated="false">2</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="65038c85-5c1e-4cc2-8a0e-9553a24ab341" role="passive">1</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="f1de620d-f2bd-4ee0-ba92-9153fdc9d6c6" role="passive">2</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="cde64ad3-2b4f-477d-a2fa-60968fcf3454" default="true">
+ <symbol_variants default="cde64ad3-2b4f-477d-a2fa-60968fcf3454">
+  <variant norm="" uuid="cde64ad3-2b4f-477d-a2fa-60968fcf3454">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="78ad323a-6940-4861-a71a-1021ba5cbea9" suffix="" symbol="26407a68-e278-4464-b15a-44504345524c">
+    <item required="true" suffix="" uuid="78ad323a-6940-4861-a71a-1021ba5cbea9" symbol="26407a68-e278-4464-b15a-44504345524c">
      <pin_signal_map>
       <map pin="cb22cc71-d694-41b8-afdf-022acfe65004" display="component_signal">65038c85-5c1e-4cc2-8a0e-9553a24ab341</map>
       <map pin="c8472c3d-0737-4ce3-9a71-ae4c2d4ca5ee" display="component_signal">f1de620d-f2bd-4ee0-ba92-9153fdc9d6c6</map>

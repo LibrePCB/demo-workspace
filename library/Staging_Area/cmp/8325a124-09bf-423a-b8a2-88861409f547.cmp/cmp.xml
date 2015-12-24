@@ -20,25 +20,25 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">LED</prefix>
+  <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="74c504b4-8a66-482b-a593-7bc44c729518" role="passive" clock="false" forced_net_name="" negated="false">A</signal>
-  <signal required="false" uuid="a2a08c10-486f-454c-8305-11d1fbd88aba" role="passive" clock="false" forced_net_name="" negated="false">C</signal>
-  <signal required="false" uuid="e5526cca-26ec-4d6e-8879-cc681fd389ae" role="passive" clock="false" forced_net_name="" negated="false">TH</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="74c504b4-8a66-482b-a593-7bc44c729518" role="passive">A</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="a2a08c10-486f-454c-8305-11d1fbd88aba" role="passive">C</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="e5526cca-26ec-4d6e-8879-cc681fd389ae" role="passive">TH</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="204c55e9-8818-4458-810d-8c66e6fcc2e5" default="true">
+ <symbol_variants default="204c55e9-8818-4458-810d-8c66e6fcc2e5">
+  <variant norm="" uuid="204c55e9-8818-4458-810d-8c66e6fcc2e5">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="e3cdb3d6-ac09-4d4c-9088-995ae83de0f4" suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a">
+    <item required="true" suffix="" uuid="e3cdb3d6-ac09-4d4c-9088-995ae83de0f4" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a">
      <pin_signal_map>
       <map pin="18de942d-8b47-4daf-9e07-d089204e09d0" display="component_signal">a2a08c10-486f-454c-8305-11d1fbd88aba</map>
       <map pin="2a64f851-340a-43f2-b1cf-06a1d4b54560" display="component_signal">74c504b4-8a66-482b-a593-7bc44c729518</map>
      </pin_signal_map>
     </item>
-    <item required="true" uuid="0ca940df-c242-4a89-9d40-ef6b9fb749f6" suffix="TH" symbol="a49024b3-de81-419e-a4cf-1841b255e637">
+    <item required="true" suffix="TH" uuid="0ca940df-c242-4a89-9d40-ef6b9fb749f6" symbol="a49024b3-de81-419e-a4cf-1841b255e637">
      <pin_signal_map>
       <map pin="d6cd1e3e-8404-47b3-b588-361810590a72" display="component_signal">e5526cca-26ec-4d6e-8879-cc681fd389ae</map>
      </pin_signal_map>

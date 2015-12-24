@@ -20,25 +20,25 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">QG</prefix>
+  <prefix norm="">QG</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="979eedd2-1e3d-48e1-bf99-e52c2e04e93a" role="passive" clock="false" forced_net_name="" negated="false">E/D</signal>
-  <signal required="false" uuid="929ad3e8-c204-42a1-bcfa-28b41ed39863" role="passive" clock="false" forced_net_name="" negated="false">GND</signal>
-  <signal required="false" uuid="c5efad17-6da6-4ed7-9031-0e67172a51f1" role="passive" clock="false" forced_net_name="" negated="false">OUT</signal>
-  <signal required="false" uuid="183b22c3-3cb8-4b6c-819d-d8343065035b" role="passive" clock="false" forced_net_name="" negated="false">VCC</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="979eedd2-1e3d-48e1-bf99-e52c2e04e93a" role="passive">E/D</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="929ad3e8-c204-42a1-bcfa-28b41ed39863" role="passive">GND</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="c5efad17-6da6-4ed7-9031-0e67172a51f1" role="passive">OUT</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="183b22c3-3cb8-4b6c-819d-d8343065035b" role="passive">VCC</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="bbbbf8a5-633a-4ac0-ae69-014bcab8050f" default="true">
+ <symbol_variants default="bbbbf8a5-633a-4ac0-ae69-014bcab8050f">
+  <variant norm="" uuid="bbbbf8a5-633a-4ac0-ae69-014bcab8050f">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="c6c149ed-6e1f-4037-9d85-ca637b81e540" suffix="" symbol="7e87f8e3-b8cf-4f5e-821a-c066f05ec162">
+    <item required="true" suffix="" uuid="c6c149ed-6e1f-4037-9d85-ca637b81e540" symbol="7e87f8e3-b8cf-4f5e-821a-c066f05ec162">
      <pin_signal_map>
-      <map pin="360d3da3-966e-4eb3-aedd-8873402bec3e" display="component_signal">183b22c3-3cb8-4b6c-819d-d8343065035b</map>
       <map pin="3f8b2861-4acc-4f41-b13f-10887a3fefca" display="component_signal">c5efad17-6da6-4ed7-9031-0e67172a51f1</map>
       <map pin="c04544a1-6fbd-4578-b0f8-cc3b2d1571ca" display="component_signal">979eedd2-1e3d-48e1-bf99-e52c2e04e93a</map>
       <map pin="cd2ae635-ba8e-4af8-a93d-f849048a88ac" display="component_signal">929ad3e8-c204-42a1-bcfa-28b41ed39863</map>
+      <map pin="360d3da3-966e-4eb3-aedd-8873402bec3e" display="component_signal">183b22c3-3cb8-4b6c-819d-d8343065035b</map>
      </pin_signal_map>
     </item>
    </symbol_items>

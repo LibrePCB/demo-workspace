@@ -20,23 +20,23 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">D</prefix>
+  <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="dbaea8d9-cc6f-4679-a89c-6c74e12cec6a" role="passive" clock="false" forced_net_name="" negated="false">A1</signal>
-  <signal required="false" uuid="c83a5965-2c3f-40a3-b921-9c9257105a0e" role="passive" clock="false" forced_net_name="" negated="false">A2</signal>
-  <signal required="false" uuid="7f593ae8-d0dc-4597-9671-4384b57dd1eb" role="passive" clock="false" forced_net_name="" negated="false">C</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="dbaea8d9-cc6f-4679-a89c-6c74e12cec6a" role="passive">A1</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="c83a5965-2c3f-40a3-b921-9c9257105a0e" role="passive">A2</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="7f593ae8-d0dc-4597-9671-4384b57dd1eb" role="passive">C</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="ec403d36-dd69-4783-b269-6dcce7e6af53" default="true">
+ <symbol_variants default="ec403d36-dd69-4783-b269-6dcce7e6af53">
+  <variant norm="" uuid="ec403d36-dd69-4783-b269-6dcce7e6af53">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="7b0300a4-0a6c-44fc-8680-e9fa99c05880" suffix="-B1" symbol="ef47f640-bc59-44c2-b2c4-ca53f075d392">
+    <item required="true" suffix="-B1" uuid="7b0300a4-0a6c-44fc-8680-e9fa99c05880" symbol="ef47f640-bc59-44c2-b2c4-ca53f075d392">
      <pin_signal_map>
+      <map pin="ba59f65f-ab4a-4fb4-9af2-989b4f65808f" display="component_signal">c83a5965-2c3f-40a3-b921-9c9257105a0e</map>
       <map pin="3bb212ed-c465-44f6-9435-ac6a11895a5c" display="component_signal">7f593ae8-d0dc-4597-9671-4384b57dd1eb</map>
       <map pin="cb551ac5-c8fc-4a3b-99bc-080295d20ba8" display="component_signal">dbaea8d9-cc6f-4679-a89c-6c74e12cec6a</map>
-      <map pin="ba59f65f-ab4a-4fb4-9af2-989b4f65808f" display="component_signal">c83a5965-2c3f-40a3-b921-9c9257105a0e</map>
      </pin_signal_map>
     </item>
    </symbol_items>

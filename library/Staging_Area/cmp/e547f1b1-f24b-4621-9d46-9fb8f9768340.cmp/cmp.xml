@@ -20,25 +20,25 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">QG</prefix>
+  <prefix norm="">QG</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="9e25960a-82e2-4adc-803e-574d37ab1eb9" role="passive" clock="false" forced_net_name="" negated="false">FO</signal>
-  <signal required="false" uuid="fcefc1ef-f878-4c02-ad3e-1cf83660ba48" role="passive" clock="false" forced_net_name="" negated="false">GND</signal>
-  <signal required="false" uuid="ee70385f-2fcc-4d01-8adb-d6b2a6960497" role="passive" clock="false" forced_net_name="" negated="false">OE</signal>
-  <signal required="false" uuid="1c2dca89-265f-440a-aa88-250d6e580e49" role="passive" clock="false" forced_net_name="" negated="false">VCC</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="9e25960a-82e2-4adc-803e-574d37ab1eb9" role="passive">FO</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="fcefc1ef-f878-4c02-ad3e-1cf83660ba48" role="passive">GND</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="ee70385f-2fcc-4d01-8adb-d6b2a6960497" role="passive">OE</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="1c2dca89-265f-440a-aa88-250d6e580e49" role="passive">VCC</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="916a7b60-a256-4c87-9185-d40c51321d66" default="true">
+ <symbol_variants default="916a7b60-a256-4c87-9185-d40c51321d66">
+  <variant norm="" uuid="916a7b60-a256-4c87-9185-d40c51321d66">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="05a17ab4-4c30-4095-9ec5-739ce43c5892" suffix="" symbol="e24e0a27-d7dc-43d5-8ca6-cef47a36f6ec">
+    <item required="true" suffix="" uuid="05a17ab4-4c30-4095-9ec5-739ce43c5892" symbol="e24e0a27-d7dc-43d5-8ca6-cef47a36f6ec">
      <pin_signal_map>
-      <map pin="19366e0b-bfc6-4b78-b509-815d6c6f0700" display="component_signal">fcefc1ef-f878-4c02-ad3e-1cf83660ba48</map>
-      <map pin="604f3601-87d1-40be-98ee-7567fe90557f" display="component_signal">9e25960a-82e2-4adc-803e-574d37ab1eb9</map>
       <map pin="31ba3c4d-bd94-478f-9d9d-44c3a4873f01" display="component_signal">1c2dca89-265f-440a-aa88-250d6e580e49</map>
       <map pin="dc5cf84f-31a3-49fb-aa13-19792c2247b4" display="component_signal">ee70385f-2fcc-4d01-8adb-d6b2a6960497</map>
+      <map pin="19366e0b-bfc6-4b78-b509-815d6c6f0700" display="component_signal">fcefc1ef-f878-4c02-ad3e-1cf83660ba48</map>
+      <map pin="604f3601-87d1-40be-98ee-7567fe90557f" display="component_signal">9e25960a-82e2-4adc-803e-574d37ab1eb9</map>
      </pin_signal_map>
     </item>
    </symbol_items>

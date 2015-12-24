@@ -19,17 +19,17 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">LSP</prefix>
+  <prefix norm="">LSP</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="817cd168-188f-4d28-97ec-11ba150e1e4b" role="passive" clock="false" forced_net_name="" negated="false">MP</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="817cd168-188f-4d28-97ec-11ba150e1e4b" role="passive">MP</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="42433e30-4dd7-4f47-adee-e88dc1e57252" default="true">
+ <symbol_variants default="42433e30-4dd7-4f47-adee-e88dc1e57252">
+  <variant norm="" uuid="42433e30-4dd7-4f47-adee-e88dc1e57252">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="772af259-6f16-4a8a-91e1-dac7d2e3edcf" suffix="" symbol="052aa7bc-7a56-4a3e-8b6e-8bd20873f5fe">
+    <item required="true" suffix="" uuid="772af259-6f16-4a8a-91e1-dac7d2e3edcf" symbol="052aa7bc-7a56-4a3e-8b6e-8bd20873f5fe">
      <pin_signal_map>
       <map pin="85838f32-e34b-43b7-929c-8dad5764c146" display="component_signal">817cd168-188f-4d28-97ec-11ba150e1e4b</map>
      </pin_signal_map>

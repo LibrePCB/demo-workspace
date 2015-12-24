@@ -27,11 +27,11 @@
   <pad uuid="e25d41aa-6cc7-40e5-9586-6d8862902130">7</pad>
   <pad uuid="5d858bbd-e141-4378-8323-00333f7d1ccd">8</pad>
  </pads>
- <footprints>
+ <footprints default="007b0374-45ea-466b-b66f-3c9bd8ec7768">
   <!--
     For each different mounting variant and/or soldering technology, a separate footprint can be designed.
   -->
-  <footprint uuid="007b0374-45ea-466b-b66f-3c9bd8ec7768" default="true">
+  <footprint uuid="007b0374-45ea-466b-b66f-3c9bd8ec7768">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
@@ -68,7 +68,7 @@
    </geometry>
   </footprint>
  </footprints>
- <models3d>
-  <model3d uuid="19b31428-795a-48ed-ac70-30cd868d8ec7" filename="DIP-8_W7.62mm.wrl" dx="0" dy="0" dz="0" rot_x="0" rot_y="0" rot_z="0" default="true">default</model3d>
- </models3d>
+ <!--<models3d default="19b31428-795a-48ed-ac70-30cd868d8ec7">
+  <model3d uuid="19b31428-795a-48ed-ac70-30cd868d8ec7" filename="DIP-8_W7.62mm.wrl" dx="0" dy="0" dz="0" rot_x="0" rot_y="0" rot_z="0">default</model3d>
+ </models3d>-->
 </package>

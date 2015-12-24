@@ -19,17 +19,17 @@ NOTE: Remove this text after manual rework!</description>
  <properties>
   <schematic_only>false</schematic_only>
   <value locale="en_US"></value>
-  <prefix norm="" default="true">PAD</prefix>
+  <prefix norm="">PAD</prefix>
  </properties>
  <signals>
-  <signal required="false" uuid="b8f314a9-ddb4-457b-a36b-bca7472d9f7e" role="passive" clock="false" forced_net_name="" negated="false">P</signal>
+  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="b8f314a9-ddb4-457b-a36b-bca7472d9f7e" role="passive">P</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="1ce77640-2835-4cea-99f9-ff1364f62514" default="true">
+ <symbol_variants default="1ce77640-2835-4cea-99f9-ff1364f62514">
+  <variant norm="" uuid="1ce77640-2835-4cea-99f9-ff1364f62514">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" uuid="3d52b09e-1041-443c-9058-b127af0b0cce" suffix="P" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b">
+    <item required="true" suffix="P" uuid="3d52b09e-1041-443c-9058-b127af0b0cce" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b">
      <pin_signal_map>
       <map pin="01f564d5-9975-4613-bf90-153a031fe625" display="component_signal">b8f314a9-ddb4-457b-a36b-bca7472d9f7e</map>
      </pin_signal_map>

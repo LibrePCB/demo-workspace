@@ -14,45 +14,45 @@
   <pad uuid="22cce6f3-6fa6-400c-8e3f-b74e37ffb9f7">2</pad>
   <pad uuid="2c721928-775b-430e-a3d3-512ee0042a9c">1</pad>
  </pads>
- <footprints>
-  <footprint uuid="a7ec7af5-e853-4560-92c4-3f05d97f5ea9" default="true">
+ <footprints default="a7ec7af5-e853-4560-92c4-3f05d97f5ea9">
+  <footprint uuid="a7ec7af5-e853-4560-92c4-3f05d97f5ea9">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon layer="200" grab_area="true" start_x="-2.362000" start_y="1.473000" fill="false" width="0.152400">
+    <polygon fill="false" layer="200" grab_area="true" start_x="-2.362000" start_y="1.473000" width="0.152400">
      <segment end_x="2.387000" end_y="1.473000" angle="0.000000"/>
     </polygon>
-    <polygon layer="200" grab_area="true" start_x="-2.362000" start_y="-1.473000" fill="false" width="0.152400">
+    <polygon fill="false" layer="200" grab_area="true" start_x="-2.362000" start_y="-1.473000" width="0.152400">
      <segment end_x="2.387000" end_y="-1.473000" angle="0.000000"/>
     </polygon>
-    <polygon layer="200" grab_area="true" start_x="-3.200400" start_y="-1.549400" fill="true" width="0.000000">
+    <polygon fill="true" layer="200" grab_area="true" start_x="-3.200400" start_y="-1.549400" width="0.000000">
      <segment end_x="-2.350500" end_y="-1.549400" angle="0.000000"/>
      <segment end_x="-2.350500" end_y="1.550700" angle="0.000000"/>
      <segment end_x="-3.200400" end_y="1.550700" angle="0.000000"/>
      <segment end_x="-3.200400" end_y="-1.549400" angle="0.000000"/>
     </polygon>
-    <polygon layer="200" grab_area="true" start_x="2.362200" start_y="-1.549400" fill="true" width="0.000000">
+    <polygon fill="true" layer="200" grab_area="true" start_x="2.362200" start_y="-1.549400" width="0.000000">
      <segment end_x="3.212100" end_y="-1.549400" angle="0.000000"/>
      <segment end_x="3.212100" end_y="1.550700" angle="0.000000"/>
      <segment end_x="2.362200" end_y="1.550700" angle="0.000000"/>
      <segment end_x="2.362200" end_y="-1.549400" angle="0.000000"/>
     </polygon>
-    <polygon layer="220" grab_area="true" start_x="-0.500100" start_y="-1.000000" fill="true" width="0.000000">
+    <polygon fill="true" layer="220" grab_area="true" start_x="-0.500100" start_y="-1.000000" width="0.000000">
      <segment end_x="0.500100" end_y="-1.000000" angle="0.000000"/>
      <segment end_x="0.500100" end_y="1.000000" angle="0.000000"/>
      <segment end_x="-0.500100" end_y="1.000000" angle="0.000000"/>
      <segment end_x="-0.500100" end_y="-1.000000" angle="0.000000"/>
     </polygon>
-    <polygon layer="280" grab_area="true" start_x="3.973000" start_y="1.983000" fill="false" width="0.050800">
+    <polygon fill="false" layer="280" grab_area="true" start_x="3.973000" start_y="1.983000" width="0.050800">
      <segment end_x="3.973000" end_y="-1.983000" angle="0.000000"/>
      <segment end_x="-3.973000" end_y="-1.983000" angle="0.000000"/>
      <segment end_x="-3.973000" end_y="1.983000" angle="0.000000"/>
      <segment end_x="3.973000" end_y="1.983000" angle="0.000000"/>
     </polygon>
-    <text x="-2.540000" height="2.500000" y="1.905000" rotation="0.000000" layer="240" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <text x="-2.540000" height="2.000000" y="-3.175000" rotation="0.000000" layer="250" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <pad x="-3.100000" height="3.200000" y="0.000000" uuid="2c721928-775b-430e-a3d3-512ee0042a9c" rotation="0.000000" width="1.000000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
-    <pad x="3.100000" height="3.200000" y="0.000000" uuid="22cce6f3-6fa6-400c-8e3f-b74e37ffb9f7" rotation="0.000000" width="1.000000" type="smt_rect" tht_drill="0.000000" smt_side="top"/>
+    <text layer="240" height="2.500000" h_align="left" rotation="0.000000" v_align="bottom" x="-2.540000" y="1.905000">${CMP::NAME}</text>
+    <text layer="250" height="2.000000" h_align="left" rotation="0.000000" v_align="bottom" x="-2.540000" y="-3.175000">${CMP::VALUE}</text>
+    <pad type="smt_rect" height="3.200000" smt_side="top" width="1.000000" uuid="2c721928-775b-430e-a3d3-512ee0042a9c" rotation="0.000000" tht_drill="0.000000" x="-3.100000" y="0.000000"/>
+    <pad type="smt_rect" height="3.200000" smt_side="top" width="1.000000" uuid="22cce6f3-6fa6-400c-8e3f-b74e37ffb9f7" rotation="0.000000" tht_drill="0.000000" x="3.100000" y="0.000000"/>
    </geometry>
   </footprint>
  </footprints>
