@@ -15,9 +15,9 @@
   <pin x="0.000000" y="2.540000" length="2.540000" uuid="abcc319b-d09f-437b-a624-3dcf3eff5792" rotation="-90.000000">GND</pin>
  </pins>
  <geometry>
-  <polygon layer="10" grab_area="false" start_x="-1.905000" start_y="0.000000" fill="false" width="0.254000">
+  <polygon start_y="0.000000" fill="false" width="0.254000" grab_area="false" layer="10" start_x="-1.905000">
    <segment end_x="1.905000" end_y="0.000000" angle="0.000000"/>
   </polygon>
-  <text x="0.000000" height="2.540000" y="0.000000" rotation="0.000000" layer="21" h_align="center" v_align="top">${CMP::VALUE}</text>
+  <text x="0.000000" y="0.000000" height="2.540000" h_align="center" v_align="top" rotation="0.000000" layer="21">${CMP::VALUE}</text>
  </geometry>
 </symbol>

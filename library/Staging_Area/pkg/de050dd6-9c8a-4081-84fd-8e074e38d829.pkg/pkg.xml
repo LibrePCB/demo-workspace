@@ -16,44 +16,44 @@ NOTE: Remove this text after manual rework!</description>
   <keywords locale="en_US"></keywords>
  </meta>
  <pads>
-  <pad uuid="cf47dd45-8e68-4b30-96cf-6a60c6fda513">3</pad>
-  <pad uuid="a98ee84b-4bdf-4940-8ee9-3d04d4d36047">2</pad>
   <pad uuid="222a79dc-77e4-4b2f-bd2b-06ac779c7d5f">1</pad>
+  <pad uuid="a98ee84b-4bdf-4940-8ee9-3d04d4d36047">2</pad>
+  <pad uuid="cf47dd45-8e68-4b30-96cf-6a60c6fda513">3</pad>
  </pads>
  <footprints default="3713b6c8-7580-43d9-b04c-6707e4a8d4ab">
   <footprint uuid="3713b6c8-7580-43d9-b04c-6707e4a8d4ab">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon fill="true" layer="260" grab_area="true" start_x="-9.525000" start_y="-1.270000" width="0.000000">
+    <polygon fill="true" start_x="-9.525000" start_y="-1.270000" layer="260" width="0.000000" grab_area="true">
      <segment end_x="-8.890000" end_y="-1.270000" angle="0.000000"/>
      <segment end_x="-8.890000" end_y="1.270000" angle="0.000000"/>
      <segment end_x="-9.525000" end_y="1.270000" angle="0.000000"/>
      <segment end_x="-9.525000" end_y="-1.270000" angle="0.000000"/>
     </polygon>
-    <polygon fill="true" layer="260" grab_area="true" start_x="-10.160000" start_y="0.381000" width="0.000000">
+    <polygon fill="true" start_x="-10.160000" start_y="0.381000" layer="260" width="0.000000" grab_area="true">
      <segment end_x="-9.525000" end_y="0.381000" angle="0.000000"/>
      <segment end_x="-9.525000" end_y="1.270000" angle="0.000000"/>
      <segment end_x="-10.160000" end_y="1.270000" angle="0.000000"/>
      <segment end_x="-10.160000" end_y="0.381000" angle="0.000000"/>
     </polygon>
-    <polygon fill="true" layer="260" grab_area="true" start_x="-10.160000" start_y="-1.270000" width="0.000000">
+    <polygon fill="true" start_x="-10.160000" start_y="-1.270000" layer="260" width="0.000000" grab_area="true">
      <segment end_x="-9.525000" end_y="-1.270000" angle="0.000000"/>
      <segment end_x="-9.525000" end_y="-0.381000" angle="0.000000"/>
      <segment end_x="-10.160000" end_y="-0.381000" angle="0.000000"/>
      <segment end_x="-10.160000" end_y="-1.270000" angle="0.000000"/>
     </polygon>
-    <polygon fill="false" layer="260" grab_area="true" start_x="8.890000" start_y="-2.540000" width="0.127000">
+    <polygon fill="false" start_x="8.890000" start_y="-2.540000" layer="260" width="0.127000" grab_area="true">
      <segment end_x="8.890000" end_y="2.540000" angle="0.000000"/>
      <segment end_x="-8.890000" end_y="2.540000" angle="0.000000"/>
      <segment end_x="-8.890000" end_y="-2.540000" angle="0.000000"/>
      <segment end_x="8.890000" end_y="-2.540000" angle="0.000000"/>
     </polygon>
-    <text layer="240" height="2.500000" h_align="left" rotation="0.000000" v_align="bottom" x="-3.175000" y="3.175000">${CMP::NAME}</text>
-    <text layer="250" height="2.000000" h_align="left" rotation="0.000000" v_align="bottom" x="-5.080000" y="-1.778000">${CMP::VALUE}</text>
-    <pad type="tht_octagon" height="1.524000" smt_side="top" width="1.524000" uuid="222a79dc-77e4-4b2f-bd2b-06ac779c7d5f" rotation="0.000000" tht_drill="0.812800" x="-6.350000" y="-1.270000"/>
-    <pad type="tht_octagon" height="1.524000" smt_side="top" width="1.524000" uuid="cf47dd45-8e68-4b30-96cf-6a60c6fda513" rotation="0.000000" tht_drill="0.812800" x="-1.270000" y="1.270000"/>
-    <pad type="tht_octagon" height="1.524000" smt_side="top" width="1.524000" uuid="a98ee84b-4bdf-4940-8ee9-3d04d4d36047" rotation="0.000000" tht_drill="0.812800" x="6.350000" y="-1.270000"/>
+    <text x="-3.175000" y="3.175000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-5.080000" y="-1.778000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="-6.350000" y="-1.270000" shape="octagon" drill="0.812800" rotation="0.000000" height="1.524000" uuid="222a79dc-77e4-4b2f-bd2b-06ac779c7d5f" width="1.524000" technology="tht"/>
+    <pad x="6.350000" y="-1.270000" shape="octagon" drill="0.812800" rotation="0.000000" height="1.524000" uuid="a98ee84b-4bdf-4940-8ee9-3d04d4d36047" width="1.524000" technology="tht"/>
+    <pad x="-1.270000" y="1.270000" shape="octagon" drill="0.812800" rotation="0.000000" height="1.524000" uuid="cf47dd45-8e68-4b30-96cf-6a60c6fda513" width="1.524000" technology="tht"/>
    </geometry>
   </footprint>
  </footprints>

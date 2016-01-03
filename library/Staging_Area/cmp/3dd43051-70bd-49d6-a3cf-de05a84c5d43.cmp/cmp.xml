@@ -19,28 +19,27 @@ NOTE: Remove this text after manual rework!</description>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
-  <value locale="en_US"></value>
+  <default_value locale="en_US"></default_value>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="c8248bf6-3665-4d1b-bd97-b419e0cdebe3" role="passive">A1</signal>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="cb3a35b8-23ce-4356-b428-b0d08c643376" role="passive">A2</signal>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="e78ec09a-2359-4106-b342-bcf0f6b3c571" role="passive">C</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="c8248bf6-3665-4d1b-bd97-b419e0cdebe3" clock="false" role="passive">A1</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="cb3a35b8-23ce-4356-b428-b0d08c643376" clock="false" role="passive">A2</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="e78ec09a-2359-4106-b342-bcf0f6b3c571" clock="false" role="passive">C</signal>
  </signals>
  <symbol_variants default="5e74f17f-7b85-4c90-bad5-19eafc21fd32">
   <variant norm="" uuid="5e74f17f-7b85-4c90-bad5-19eafc21fd32">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="1" uuid="6834257f-bead-4201-8ebe-a1928ff6825b" symbol="bcb4e654-9c8a-4373-8024-4f823afd72b4">
+    <item required="true" uuid="6834257f-bead-4201-8ebe-a1928ff6825b" suffix="1" symbol="bcb4e654-9c8a-4373-8024-4f823afd72b4">
      <pin_signal_map>
-      <map pin="3fa1746f-f8b7-423e-b582-849abb746ea0" display="component_signal">e78ec09a-2359-4106-b342-bcf0f6b3c571</map>
-      <map pin="94b8db6f-6433-4010-9235-4fa2057a18ba" display="component_signal">c8248bf6-3665-4d1b-bd97-b419e0cdebe3</map>
-      <map pin="1c997823-be8b-4853-8997-1bdb649731fe" display="component_signal">cb3a35b8-23ce-4356-b428-b0d08c643376</map>
+      <map display="component_signal" pin="1c997823-be8b-4853-8997-1bdb649731fe">cb3a35b8-23ce-4356-b428-b0d08c643376</map>
+      <map display="component_signal" pin="3fa1746f-f8b7-423e-b582-849abb746ea0">e78ec09a-2359-4106-b342-bcf0f6b3c571</map>
+      <map display="component_signal" pin="94b8db6f-6433-4010-9235-4fa2057a18ba">c8248bf6-3665-4d1b-bd97-b419e0cdebe3</map>
      </pin_signal_map>
     </item>
    </symbol_items>
   </variant>
  </symbol_variants>
- <spice_models/>
 </component>

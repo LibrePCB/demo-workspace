@@ -18,24 +18,23 @@ NOTE: Remove this text after manual rework!</description>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
-  <value locale="en_US"></value>
+  <default_value locale="en_US"></default_value>
   <prefix norm="">PAD</prefix>
  </properties>
  <signals>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="f759fb8b-630a-4a24-b914-0d78b8ccac54" role="passive">P</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="f759fb8b-630a-4a24-b914-0d78b8ccac54" clock="false" role="passive">P</signal>
  </signals>
  <symbol_variants default="a41df54c-8b98-4de8-8cf7-6c64353dfc8e">
   <variant norm="" uuid="a41df54c-8b98-4de8-8cf7-6c64353dfc8e">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="1" uuid="f43b07c9-5c91-4817-ae54-92492e6bf576" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b">
+    <item required="true" uuid="f43b07c9-5c91-4817-ae54-92492e6bf576" suffix="1" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b">
      <pin_signal_map>
-      <map pin="01f564d5-9975-4613-bf90-153a031fe625" display="component_signal">f759fb8b-630a-4a24-b914-0d78b8ccac54</map>
+      <map display="component_signal" pin="01f564d5-9975-4613-bf90-153a031fe625">f759fb8b-630a-4a24-b914-0d78b8ccac54</map>
      </pin_signal_map>
     </item>
    </symbol_items>
   </variant>
  </symbol_variants>
- <spice_models/>
 </component>

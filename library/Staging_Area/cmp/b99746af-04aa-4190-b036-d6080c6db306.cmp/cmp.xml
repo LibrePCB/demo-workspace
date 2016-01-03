@@ -18,26 +18,25 @@ NOTE: Remove this text after manual rework!</description>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
-  <value locale="en_US"></value>
+  <default_value locale="en_US"></default_value>
   <prefix norm="">R</prefix>
  </properties>
  <signals>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="35d071cb-87dc-4e6f-b07d-73b84eacab93" role="passive">1</signal>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="d26792db-05f4-4efb-ad64-cca2b04fcc26" role="passive">2</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="35d071cb-87dc-4e6f-b07d-73b84eacab93" clock="false" role="passive">1</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="d26792db-05f4-4efb-ad64-cca2b04fcc26" clock="false" role="passive">2</signal>
  </signals>
  <symbol_variants default="b224b9b9-7378-4896-a9ae-d9aa6dbc5f35">
   <variant norm="" uuid="b224b9b9-7378-4896-a9ae-d9aa6dbc5f35">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" uuid="f66d9c49-7d03-43c7-8ed1-2649f4aff657" symbol="3d077a0c-9523-46fb-9afc-cd44d1f197ab">
+    <item required="true" uuid="f66d9c49-7d03-43c7-8ed1-2649f4aff657" suffix="" symbol="3d077a0c-9523-46fb-9afc-cd44d1f197ab">
      <pin_signal_map>
-      <map pin="1779c9ef-c47c-46f8-a983-464bad8d18d4" display="component_signal">35d071cb-87dc-4e6f-b07d-73b84eacab93</map>
-      <map pin="3dd63044-7022-44c6-95cb-3f4205c67f1c" display="component_signal">d26792db-05f4-4efb-ad64-cca2b04fcc26</map>
+      <map display="component_signal" pin="1779c9ef-c47c-46f8-a983-464bad8d18d4">35d071cb-87dc-4e6f-b07d-73b84eacab93</map>
+      <map display="component_signal" pin="3dd63044-7022-44c6-95cb-3f4205c67f1c">d26792db-05f4-4efb-ad64-cca2b04fcc26</map>
      </pin_signal_map>
     </item>
    </symbol_items>
   </variant>
  </symbol_variants>
- <spice_models/>
 </component>

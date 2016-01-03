@@ -13,29 +13,29 @@
  </meta>
  <pins/>
  <geometry>
-  <polygon layer="10" grab_area="false" start_x="0.000000" start_y="0.000000" fill="false" width="0.600000">
+  <polygon start_y="0.000000" fill="false" width="0.600000" grab_area="false" layer="10" start_x="0.000000">
    <segment end_x="0.000000" end_y="190.000000" angle="0.000000"/>
    <segment end_x="277.000000" end_y="190.000000" angle="0.000000"/>
    <segment end_x="277.000000" end_y="0.000000" angle="0.000000"/>
    <segment end_x="0.000000" end_y="0.000000" angle="0.000000"/>
   </polygon>
-  <polygon layer="10" grab_area="false" start_x="170.000000" start_y="0.000000" fill="false" width="0.600000">
+  <polygon start_y="0.000000" fill="false" width="0.600000" grab_area="false" layer="10" start_x="170.000000">
    <segment end_x="170.000000" end_y="15.000000" angle="0.000000"/>
    <segment end_x="277.000000" end_y="15.000000" angle="0.000000"/>
   </polygon>
-  <polygon layer="10" grab_area="false" start_x="240.000000" start_y="0.000000" fill="false" width="0.600000">
+  <polygon start_y="0.000000" fill="false" width="0.600000" grab_area="false" layer="10" start_x="240.000000">
    <segment end_x="240.000000" end_y="15.000000" angle="0.000000"/>
   </polygon>
-  <polygon layer="10" grab_area="false" start_x="170.000000" start_y="5.000000" fill="false" width="0.600000">
+  <polygon start_y="5.000000" fill="false" width="0.600000" grab_area="false" layer="10" start_x="170.000000">
    <segment end_x="277.000000" end_y="5.000000" angle="0.000000"/>
   </polygon>
-  <polygon layer="10" grab_area="false" start_x="240.000000" start_y="10.000000" fill="false" width="0.600000">
+  <polygon start_y="10.000000" fill="false" width="0.600000" grab_area="false" layer="10" start_x="240.000000">
    <segment end_x="277.000000" end_y="10.000000" angle="0.000000"/>
   </polygon>
-  <text x="172.000000" height="8.000000" y="10.000000" rotation="0.000000" layer="10" h_align="left" v_align="center">${PAGE::NAME}</text>
-  <text x="172.000000" height="4.000000" y="2.500000" rotation="0.000000" layer="10" h_align="left" v_align="center">${PRJ::NAME}</text>
-  <text x="242.000000" height="4.000000" y="12.500000" rotation="0.000000" layer="10" h_align="left" v_align="center">${PAGE::LAST_MODIFIED}</text>
-  <text x="242.000000" height="4.000000" y="7.500000" rotation="0.000000" layer="10" h_align="left" v_align="center">${PAGE::AUTHOR}</text>
-  <text x="242.000000" height="4.000000" y="2.500000" rotation="0.000000" layer="10" h_align="left" v_align="center">Page ${PAGE::NBR}/${PAGE::CNT}</text>
+  <text x="172.000000" y="10.000000" height="8.000000" h_align="left" v_align="center" rotation="0.000000" layer="10">${PAGE::NAME}</text>
+  <text x="172.000000" y="2.500000" height="4.000000" h_align="left" v_align="center" rotation="0.000000" layer="10">${PRJ::NAME}</text>
+  <text x="242.000000" y="12.500000" height="4.000000" h_align="left" v_align="center" rotation="0.000000" layer="10">${PAGE::LAST_MODIFIED}</text>
+  <text x="242.000000" y="7.500000" height="4.000000" h_align="left" v_align="center" rotation="0.000000" layer="10">${PAGE::AUTHOR}</text>
+  <text x="242.000000" y="2.500000" height="4.000000" h_align="left" v_align="center" rotation="0.000000" layer="10">Page ${PAGE::NBR}/${PAGE::CNT}</text>
  </geometry>
 </symbol>

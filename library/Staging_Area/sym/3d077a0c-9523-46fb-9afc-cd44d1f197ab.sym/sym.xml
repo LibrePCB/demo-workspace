@@ -16,17 +16,17 @@ NOTE: Remove this text after manual rework!</description>
   <keywords locale="en_US"></keywords>
  </meta>
  <pins>
-  <pin x="-5.080000" y="0.000000" length="2.540000" uuid="3dd63044-7022-44c6-95cb-3f4205c67f1c" rotation="0.000000">2</pin>
   <pin x="5.080000" y="0.000000" length="2.540000" uuid="1779c9ef-c47c-46f8-a983-464bad8d18d4" rotation="180.000000">1</pin>
+  <pin x="-5.080000" y="0.000000" length="2.540000" uuid="3dd63044-7022-44c6-95cb-3f4205c67f1c" rotation="0.000000">2</pin>
  </pins>
  <geometry>
-  <polygon layer="10" grab_area="true" start_x="-2.540000" start_y="-0.889000" fill="false" width="0.254000">
+  <polygon start_y="-0.889000" fill="false" width="0.254000" grab_area="true" layer="10" start_x="-2.540000">
    <segment end_x="-2.540000" end_y="0.889000" angle="0.000000"/>
    <segment end_x="2.540000" end_y="0.889000" angle="0.000000"/>
    <segment end_x="2.540000" end_y="-0.889000" angle="0.000000"/>
    <segment end_x="-2.540000" end_y="-0.889000" angle="0.000000"/>
   </polygon>
-  <text x="-3.810000" height="3.175000" y="1.371600" rotation="0.000000" layer="20" h_align="left" v_align="bottom">${SYM::NAME}</text>
-  <text x="-3.810000" height="2.500000" y="-2.921000" rotation="0.000000" layer="21" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+  <text x="-3.810000" y="1.371600" height="3.175000" h_align="left" v_align="bottom" rotation="0.000000" layer="20">${SYM::NAME}</text>
+  <text x="-3.810000" y="-2.921000" height="2.500000" h_align="left" v_align="bottom" rotation="0.000000" layer="21">${CMP::VALUE}</text>
  </geometry>
 </symbol>

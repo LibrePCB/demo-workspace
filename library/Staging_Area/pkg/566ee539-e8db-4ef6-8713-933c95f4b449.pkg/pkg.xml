@@ -23,9 +23,9 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <text layer="250" height="2.000000" h_align="left" rotation="0.000000" v_align="bottom" x="0.000000" y="0.000000">${CMP::VALUE}</text>
-    <text layer="240" height="2.500000" h_align="left" rotation="0.000000" v_align="bottom" x="-2.100000" y="2.200000">${CMP::NAME}</text>
-    <pad type="tht_octagon" height="4.165600" smt_side="top" width="4.165600" uuid="913e2998-c791-4424-97c0-36dbcff883de" rotation="0.000000" tht_drill="1.600200" x="0.000000" y="0.000000"/>
+    <text x="0.000000" y="0.000000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <text x="-2.100000" y="2.200000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <pad x="0.000000" y="0.000000" shape="octagon" drill="1.600200" rotation="0.000000" height="4.165600" uuid="913e2998-c791-4424-97c0-36dbcff883de" width="4.165600" technology="tht"/>
    </geometry>
   </footprint>
  </footprints>

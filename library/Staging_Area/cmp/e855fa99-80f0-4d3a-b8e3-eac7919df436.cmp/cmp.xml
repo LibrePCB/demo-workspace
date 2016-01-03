@@ -19,26 +19,25 @@ NOTE: Remove this text after manual rework!</description>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
-  <value locale="en_US"></value>
+  <default_value locale="en_US"></default_value>
   <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="4c87884a-f93f-4405-9324-556c3cb03fd0" role="passive">A</signal>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="ffb741ec-9df6-489c-9da7-7b1f329fe38c" role="passive">C</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="4c87884a-f93f-4405-9324-556c3cb03fd0" clock="false" role="passive">A</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="ffb741ec-9df6-489c-9da7-7b1f329fe38c" clock="false" role="passive">C</signal>
  </signals>
  <symbol_variants default="309cd1ae-ae52-4110-a572-7accb7d4582f">
   <variant norm="" uuid="309cd1ae-ae52-4110-a572-7accb7d4582f">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" uuid="a794b2e3-0357-416c-ae8e-cbcc95b3b01a" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a">
+    <item required="true" uuid="a794b2e3-0357-416c-ae8e-cbcc95b3b01a" suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a">
      <pin_signal_map>
-      <map pin="18de942d-8b47-4daf-9e07-d089204e09d0" display="component_signal">ffb741ec-9df6-489c-9da7-7b1f329fe38c</map>
-      <map pin="2a64f851-340a-43f2-b1cf-06a1d4b54560" display="component_signal">4c87884a-f93f-4405-9324-556c3cb03fd0</map>
+      <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">ffb741ec-9df6-489c-9da7-7b1f329fe38c</map>
+      <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">4c87884a-f93f-4405-9324-556c3cb03fd0</map>
      </pin_signal_map>
     </item>
    </symbol_items>
   </variant>
  </symbol_variants>
- <spice_models/>
 </component>

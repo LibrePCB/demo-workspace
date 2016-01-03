@@ -16,24 +16,24 @@ NOTE: Remove this text after manual rework!</description>
   <keywords locale="en_US"></keywords>
  </meta>
  <pads>
-  <pad uuid="e51c4909-4235-487a-82e6-eb490d4121eb">1</pad>
   <pad uuid="ac395512-4938-4ced-b7e0-5cbd81181987">2</pad>
+  <pad uuid="e51c4909-4235-487a-82e6-eb490d4121eb">1</pad>
  </pads>
  <footprints default="067fdbe4-30ed-4003-b7f9-cc929390db1e">
   <footprint uuid="067fdbe4-30ed-4003-b7f9-cc929390db1e">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon fill="false" layer="200" grab_area="true" start_x="-3.450000" start_y="2.000000" width="0.200000">
+    <polygon fill="false" start_x="-3.450000" start_y="2.000000" layer="200" width="0.200000" grab_area="true">
      <segment end_x="-3.450000" end_y="-2.000000" angle="0.000000"/>
      <segment end_x="3.450000" end_y="-2.000000" angle="0.000000"/>
      <segment end_x="3.450000" end_y="2.000000" angle="0.000000"/>
      <segment end_x="-3.450000" end_y="2.000000" angle="0.000000"/>
     </polygon>
-    <text layer="240" height="2.500000" h_align="left" rotation="0.000000" v_align="bottom" x="-2.717800" y="0.304800">${CMP::NAME}</text>
-    <text layer="250" height="2.000000" h_align="left" rotation="0.000000" v_align="bottom" x="-2.895600" y="-1.600200">${CMP::VALUE}</text>
-    <pad type="smt_rect" height="4.600000" smt_side="top" width="3.400000" uuid="e51c4909-4235-487a-82e6-eb490d4121eb" rotation="0.000000" tht_drill="0.000000" x="2.006600" y="0.000000"/>
-    <pad type="smt_rect" height="4.600000" smt_side="top" width="3.400000" uuid="ac395512-4938-4ced-b7e0-5cbd81181987" rotation="0.000000" tht_drill="0.000000" x="-2.006600" y="0.000000"/>
+    <text x="-2.717800" y="0.304800" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-2.895600" y="-1.600200" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="-2.006600" y="0.000000" rotation="0.000000" side="top" height="4.600000" uuid="ac395512-4938-4ced-b7e0-5cbd81181987" width="3.400000" technology="smt"/>
+    <pad x="2.006600" y="0.000000" rotation="0.000000" side="top" height="4.600000" uuid="e51c4909-4235-487a-82e6-eb490d4121eb" width="3.400000" technology="smt"/>
    </geometry>
   </footprint>
  </footprints>

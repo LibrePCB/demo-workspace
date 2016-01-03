@@ -19,34 +19,33 @@ NOTE: Remove this text after manual rework!</description>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
-  <value locale="en_US"></value>
+  <default_value locale="en_US"></default_value>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="8dbd1fa6-c543-40fe-ae7f-62dae7977493" role="passive">AA</signal>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="076cd49e-4237-4897-88ec-4b20bcd79156" role="passive">AB</signal>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="6e4d94a4-3d0a-48e8-92be-65e3c305c57d" role="passive">AC</signal>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="e849fb14-79c1-4938-a789-9d36fff93f0f" role="passive">AD</signal>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="07482d84-a073-40f8-a601-1bdd27c439d9" role="passive">C1</signal>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="c26b7c1a-627e-4be8-9fc8-2369b004939b" role="passive">C2</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="8dbd1fa6-c543-40fe-ae7f-62dae7977493" clock="false" role="passive">AA</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="076cd49e-4237-4897-88ec-4b20bcd79156" clock="false" role="passive">AB</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="6e4d94a4-3d0a-48e8-92be-65e3c305c57d" clock="false" role="passive">AC</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="e849fb14-79c1-4938-a789-9d36fff93f0f" clock="false" role="passive">AD</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="07482d84-a073-40f8-a601-1bdd27c439d9" clock="false" role="passive">C1</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="c26b7c1a-627e-4be8-9fc8-2369b004939b" clock="false" role="passive">C2</signal>
  </signals>
  <symbol_variants default="8495ae91-867d-4ff7-a6a8-e17025296bd5">
   <variant norm="" uuid="8495ae91-867d-4ff7-a6a8-e17025296bd5">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" uuid="0d03a673-d8f4-4e0b-a1c5-13cb379a5618" symbol="29c75321-a306-4770-947e-7d621f256da3">
+    <item required="true" uuid="0d03a673-d8f4-4e0b-a1c5-13cb379a5618" suffix="" symbol="29c75321-a306-4770-947e-7d621f256da3">
      <pin_signal_map>
-      <map pin="b3a2f31a-57a0-435e-90d2-225d07f680cc" display="component_signal">07482d84-a073-40f8-a601-1bdd27c439d9</map>
-      <map pin="19619e53-8957-4b28-9b77-d6caaf2cea6d" display="component_signal">6e4d94a4-3d0a-48e8-92be-65e3c305c57d</map>
-      <map pin="b14ddd80-be76-47cc-89cb-05971c0f3162" display="component_signal">8dbd1fa6-c543-40fe-ae7f-62dae7977493</map>
-      <map pin="8fd9d849-5c45-41ef-8e02-aca7e69c3ad8" display="component_signal">e849fb14-79c1-4938-a789-9d36fff93f0f</map>
-      <map pin="2108cbd3-732f-47e4-bc25-6b03be6245d9" display="component_signal">c26b7c1a-627e-4be8-9fc8-2369b004939b</map>
-      <map pin="1002eb00-2319-41ea-819b-91acfafeabb9" display="component_signal">076cd49e-4237-4897-88ec-4b20bcd79156</map>
+      <map display="component_signal" pin="1002eb00-2319-41ea-819b-91acfafeabb9">076cd49e-4237-4897-88ec-4b20bcd79156</map>
+      <map display="component_signal" pin="19619e53-8957-4b28-9b77-d6caaf2cea6d">6e4d94a4-3d0a-48e8-92be-65e3c305c57d</map>
+      <map display="component_signal" pin="2108cbd3-732f-47e4-bc25-6b03be6245d9">c26b7c1a-627e-4be8-9fc8-2369b004939b</map>
+      <map display="component_signal" pin="8fd9d849-5c45-41ef-8e02-aca7e69c3ad8">e849fb14-79c1-4938-a789-9d36fff93f0f</map>
+      <map display="component_signal" pin="b14ddd80-be76-47cc-89cb-05971c0f3162">8dbd1fa6-c543-40fe-ae7f-62dae7977493</map>
+      <map display="component_signal" pin="b3a2f31a-57a0-435e-90d2-225d07f680cc">07482d84-a073-40f8-a601-1bdd27c439d9</map>
      </pin_signal_map>
     </item>
    </symbol_items>
   </variant>
  </symbol_variants>
- <spice_models/>
 </component>

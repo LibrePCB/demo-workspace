@@ -16,9 +16,9 @@ NOTE: Remove this text after manual rework!</description>
   <keywords locale="en_US"></keywords>
  </meta>
  <pads>
+  <pad uuid="7193095b-06ae-4a31-833d-c1413c1c8344">B</pad>
   <pad uuid="7d114eda-8b0e-4e3a-9b98-d168090c7598">A</pad>
   <pad uuid="c1b480a1-b365-46ee-863e-9bc3253ca215">SA</pad>
-  <pad uuid="7193095b-06ae-4a31-833d-c1413c1c8344">B</pad>
   <pad uuid="f72ea0d7-1e30-45aa-b9f5-db5365026497">SB</pad>
  </pads>
  <footprints default="d3c40ef2-f097-46a5-8b92-753fd91521aa">
@@ -26,18 +26,18 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon fill="false" layer="260" grab_area="true" start_x="4.876800" start_y="-2.895600" width="0.200000">
+    <polygon fill="false" start_x="4.876800" start_y="-2.895600" layer="260" width="0.200000" grab_area="true">
      <segment end_x="4.876800" end_y="2.895600" angle="0.000000"/>
      <segment end_x="-4.876800" end_y="2.895600" angle="0.000000"/>
      <segment end_x="-4.876800" end_y="-2.895600" angle="0.000000"/>
      <segment end_x="4.876800" end_y="-2.895600" angle="0.000000"/>
     </polygon>
-    <text layer="240" height="2.500000" h_align="left" rotation="90.000000" v_align="bottom" x="-0.355600" y="-2.590800">${CMP::NAME}</text>
-    <text layer="250" height="2.000000" h_align="left" rotation="90.000000" v_align="bottom" x="1.574800" y="-2.590800">${CMP::VALUE}</text>
-    <pad type="smt_rect" height="3.300000" smt_side="top" width="2.800000" uuid="7193095b-06ae-4a31-833d-c1413c1c8344" rotation="0.000000" tht_drill="0.000000" x="-3.200400" y="-0.965200"/>
-    <pad type="smt_rect" height="1.600000" smt_side="top" width="2.800000" uuid="c1b480a1-b365-46ee-863e-9bc3253ca215" rotation="0.000000" tht_drill="0.000000" x="3.200400" y="1.828800"/>
-    <pad type="smt_rect" height="1.600000" smt_side="top" width="2.800000" uuid="f72ea0d7-1e30-45aa-b9f5-db5365026497" rotation="0.000000" tht_drill="0.000000" x="-3.200400" y="1.828800"/>
-    <pad type="smt_rect" height="3.300000" smt_side="top" width="2.800000" uuid="7d114eda-8b0e-4e3a-9b98-d168090c7598" rotation="0.000000" tht_drill="0.000000" x="3.200400" y="-0.965200"/>
+    <text x="-0.355600" y="-2.590800" rotation="90.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="1.574800" y="-2.590800" rotation="90.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="-3.200400" y="-0.965200" rotation="0.000000" side="top" height="3.300000" uuid="7193095b-06ae-4a31-833d-c1413c1c8344" width="2.800000" technology="smt"/>
+    <pad x="3.200400" y="-0.965200" rotation="0.000000" side="top" height="3.300000" uuid="7d114eda-8b0e-4e3a-9b98-d168090c7598" width="2.800000" technology="smt"/>
+    <pad x="3.200400" y="1.828800" rotation="0.000000" side="top" height="1.600000" uuid="c1b480a1-b365-46ee-863e-9bc3253ca215" width="2.800000" technology="smt"/>
+    <pad x="-3.200400" y="1.828800" rotation="0.000000" side="top" height="1.600000" uuid="f72ea0d7-1e30-45aa-b9f5-db5365026497" width="2.800000" technology="smt"/>
    </geometry>
   </footprint>
  </footprints>

@@ -25,16 +25,16 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon fill="false" layer="260" grab_area="true" start_x="-4.950000" start_y="-11.050000" width="0.203200">
+    <polygon fill="false" start_x="-4.950000" start_y="-11.050000" layer="260" width="0.203200" grab_area="true">
      <segment end_x="-4.950000" end_y="11.050000" angle="0.000000"/>
      <segment end_x="4.950000" end_y="11.050000" angle="0.000000"/>
      <segment end_x="4.950000" end_y="-11.050000" angle="0.000000"/>
      <segment end_x="-4.950000" end_y="-11.050000" angle="0.000000"/>
     </polygon>
-    <text layer="240" height="2.500000" h_align="left" rotation="90.000000" v_align="bottom" x="-0.635000" y="-5.080000">${CMP::NAME}</text>
-    <text layer="250" height="2.000000" h_align="left" rotation="90.000000" v_align="bottom" x="1.905000" y="-5.080000">${CMP::VALUE}</text>
-    <pad type="tht_round" height="1.800000" smt_side="top" width="1.800000" uuid="f3c05c40-36cf-453d-9776-2337bf810fcb" rotation="0.000000" tht_drill="0.900000" x="3.935000" y="0.000000"/>
-    <pad type="tht_round" height="1.800000" smt_side="top" width="1.800000" uuid="a19f9331-1063-436b-835b-680c938e8d76" rotation="0.000000" tht_drill="0.900000" x="-3.935000" y="0.000000"/>
+    <text x="-0.635000" y="-5.080000" rotation="90.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="1.905000" y="-5.080000" rotation="90.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="-3.935000" y="0.000000" shape="round" drill="0.900000" rotation="0.000000" height="1.800000" uuid="a19f9331-1063-436b-835b-680c938e8d76" width="1.800000" technology="tht"/>
+    <pad x="3.935000" y="0.000000" shape="round" drill="0.900000" rotation="0.000000" height="1.800000" uuid="f3c05c40-36cf-453d-9776-2337bf810fcb" width="1.800000" technology="tht"/>
    </geometry>
   </footprint>
  </footprints>

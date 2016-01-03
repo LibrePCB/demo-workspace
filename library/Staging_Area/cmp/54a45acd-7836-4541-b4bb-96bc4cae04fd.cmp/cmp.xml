@@ -19,26 +19,25 @@ NOTE: Remove this text after manual rework!</description>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
-  <value locale="en_US"></value>
+  <default_value locale="en_US"></default_value>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="e9e18b1f-0e10-4356-83fe-80fd8e2b4255" role="passive">A</signal>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="b91929b8-82c9-43ca-b8e8-d642b228ae1f" role="passive">C</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="e9e18b1f-0e10-4356-83fe-80fd8e2b4255" clock="false" role="passive">A</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="b91929b8-82c9-43ca-b8e8-d642b228ae1f" clock="false" role="passive">C</signal>
  </signals>
  <symbol_variants default="4b68dc49-82b2-4832-935f-5d28bcec14d7">
   <variant norm="" uuid="4b68dc49-82b2-4832-935f-5d28bcec14d7">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="1" uuid="659f6616-8b2e-40fe-89d5-a21188bd49bd" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279">
+    <item required="true" uuid="659f6616-8b2e-40fe-89d5-a21188bd49bd" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279">
      <pin_signal_map>
-      <map pin="8aa8c919-7171-4594-ae73-dc0b76bf036f" display="component_signal">b91929b8-82c9-43ca-b8e8-d642b228ae1f</map>
-      <map pin="8ebf7e67-03d9-4666-8642-39a59899cb5d" display="component_signal">e9e18b1f-0e10-4356-83fe-80fd8e2b4255</map>
+      <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">b91929b8-82c9-43ca-b8e8-d642b228ae1f</map>
+      <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">e9e18b1f-0e10-4356-83fe-80fd8e2b4255</map>
      </pin_signal_map>
     </item>
    </symbol_items>
   </variant>
  </symbol_variants>
- <spice_models/>
 </component>

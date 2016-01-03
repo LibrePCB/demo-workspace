@@ -17,55 +17,55 @@ NOTE: Remove this text after manual rework!</description>
   <keywords locale="en_US"></keywords>
  </meta>
  <pads>
-  <pad uuid="5703a27b-a7c6-4829-9106-0861e3f21dd3">1</pad>
   <pad uuid="06beabc1-d196-4868-ba5f-3bbec55432e0">2</pad>
+  <pad uuid="5703a27b-a7c6-4829-9106-0861e3f21dd3">1</pad>
  </pads>
  <footprints default="459c6138-45a3-46a1-add6-ee17558178f3">
   <footprint uuid="459c6138-45a3-46a1-add6-ee17558178f3">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon fill="false" layer="200" grab_area="true" start_x="-0.762000" start_y="1.200000" width="0.101600">
+    <polygon fill="false" start_x="-0.762000" start_y="1.200000" layer="200" width="0.101600" grab_area="true">
      <segment end_x="0.762000" end_y="1.200000" angle="0.000000"/>
     </polygon>
-    <polygon fill="false" layer="200" grab_area="true" start_x="-0.762000" start_y="-1.213000" width="0.101600">
+    <polygon fill="false" start_x="-0.762000" start_y="-1.213000" layer="200" width="0.101600" grab_area="true">
      <segment end_x="0.762000" end_y="-1.213000" angle="0.000000"/>
     </polygon>
-    <polygon fill="false" layer="200" grab_area="true" start_x="1.340000" start_y="-0.965000" width="0.101600">
+    <polygon fill="false" start_x="1.340000" start_y="-0.965000" layer="200" width="0.101600" grab_area="true">
      <segment end_x="1.340000" end_y="0.965000" angle="0.000000"/>
     </polygon>
-    <polygon fill="false" layer="200" grab_area="true" start_x="-1.340000" start_y="0.965000" width="0.101600">
+    <polygon fill="false" start_x="-1.340000" start_y="0.965000" layer="200" width="0.101600" grab_area="true">
      <segment end_x="-1.340000" end_y="-0.965000" angle="0.000000"/>
     </polygon>
-    <polygon fill="true" layer="200" grab_area="true" start_x="0.736600" start_y="-1.270000" width="0.000000">
+    <polygon fill="true" start_x="0.736600" start_y="-1.270000" layer="200" width="0.000000" grab_area="true">
      <segment end_x="1.320800" end_y="-1.270000" angle="0.000000"/>
      <segment end_x="1.320800" end_y="1.270000" angle="0.000000"/>
      <segment end_x="0.736600" end_y="1.270000" angle="0.000000"/>
      <segment end_x="0.736600" end_y="-1.270000" angle="0.000000"/>
     </polygon>
-    <polygon fill="true" layer="200" grab_area="true" start_x="-1.320800" start_y="-1.270000" width="0.000000">
+    <polygon fill="true" start_x="-1.320800" start_y="-1.270000" layer="200" width="0.000000" grab_area="true">
      <segment end_x="-0.736600" end_y="-1.270000" angle="0.000000"/>
      <segment end_x="-0.736600" end_y="1.270000" angle="0.000000"/>
      <segment end_x="-1.320800" end_y="1.270000" angle="0.000000"/>
      <segment end_x="-1.320800" end_y="-1.270000" angle="0.000000"/>
     </polygon>
-    <polygon fill="true" layer="220" grab_area="true" start_x="-0.300000" start_y="-0.700000" width="0.000000">
+    <polygon fill="true" start_x="-0.300000" start_y="-0.700000" layer="220" width="0.000000" grab_area="true">
      <segment end_x="0.300000" end_y="-0.700000" angle="0.000000"/>
      <segment end_x="0.300000" end_y="0.700000" angle="0.000000"/>
      <segment end_x="-0.300000" end_y="0.700000" angle="0.000000"/>
      <segment end_x="-0.300000" end_y="-0.700000" angle="0.000000"/>
     </polygon>
-    <polygon fill="false" layer="280" grab_area="true" start_x="2.473000" start_y="-1.483000" width="0.050800">
+    <polygon fill="false" start_x="2.473000" start_y="-1.483000" layer="280" width="0.050800" grab_area="true">
      <segment end_x="2.473000" end_y="1.483000" angle="0.000000"/>
      <segment end_x="-2.473000" end_y="1.483000" angle="0.000000"/>
      <segment end_x="-2.473000" end_y="-1.483000" angle="0.000000"/>
      <segment end_x="2.473000" end_y="-1.483000" angle="0.000000"/>
     </polygon>
-    <text layer="240" height="2.500000" h_align="left" rotation="0.000000" v_align="bottom" x="-1.905000" y="1.905000">${CMP::NAME}</text>
-    <text layer="250" height="2.000000" h_align="left" rotation="0.000000" v_align="bottom" x="-1.905000" y="-3.175000">${CMP::VALUE}</text>
-    <ellipse fill="false" layer="200" grab_area="true" radius_x="0.660400" radius_y="0.660400" width="0.152400" rotation="0.000000" x="0.000000" y="0.000000"/>
-    <pad type="smt_rect" height="2.400000" smt_side="top" width="1.400000" uuid="5703a27b-a7c6-4829-9106-0861e3f21dd3" rotation="0.000000" tht_drill="0.000000" x="-1.200000" y="0.000000"/>
-    <pad type="smt_rect" height="2.400000" smt_side="top" width="1.400000" uuid="06beabc1-d196-4868-ba5f-3bbec55432e0" rotation="0.000000" tht_drill="0.000000" x="1.200000" y="0.000000"/>
+    <text x="-1.905000" y="1.905000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-1.905000" y="-3.175000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <ellipse fill="false" x="0.000000" radius_x="0.660400" y="0.000000" radius_y="0.660400" rotation="0.000000" layer="200" width="0.152400" grab_area="true"/>
+    <pad x="1.200000" y="0.000000" rotation="0.000000" side="top" height="2.400000" uuid="06beabc1-d196-4868-ba5f-3bbec55432e0" width="1.400000" technology="smt"/>
+    <pad x="-1.200000" y="0.000000" rotation="0.000000" side="top" height="2.400000" uuid="5703a27b-a7c6-4829-9106-0861e3f21dd3" width="1.400000" technology="smt"/>
    </geometry>
   </footprint>
  </footprints>

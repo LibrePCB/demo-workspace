@@ -18,24 +18,23 @@ NOTE: Remove this text after manual rework!</description>
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
-  <value locale="en_US"></value>
+  <default_value locale="en_US"></default_value>
   <prefix norm="">LSP</prefix>
  </properties>
  <signals>
-  <signal forced_net_name="" clock="false" required="false" negated="false" uuid="5905bc42-8589-45f0-aca6-f6ea00631349" role="passive">MP</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="5905bc42-8589-45f0-aca6-f6ea00631349" clock="false" role="passive">MP</signal>
  </signals>
  <symbol_variants default="edd426d8-fb53-4b2c-865e-7d05284bf6e2">
   <variant norm="" uuid="edd426d8-fb53-4b2c-865e-7d05284bf6e2">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="1" uuid="62357968-7444-410d-97f2-17a65b2f91da" symbol="052aa7bc-7a56-4a3e-8b6e-8bd20873f5fe">
+    <item required="true" uuid="62357968-7444-410d-97f2-17a65b2f91da" suffix="1" symbol="052aa7bc-7a56-4a3e-8b6e-8bd20873f5fe">
      <pin_signal_map>
-      <map pin="85838f32-e34b-43b7-929c-8dad5764c146" display="component_signal">5905bc42-8589-45f0-aca6-f6ea00631349</map>
+      <map display="component_signal" pin="85838f32-e34b-43b7-929c-8dad5764c146">5905bc42-8589-45f0-aca6-f6ea00631349</map>
      </pin_signal_map>
     </item>
    </symbol_items>
   </variant>
  </symbol_variants>
- <spice_models/>
 </component>

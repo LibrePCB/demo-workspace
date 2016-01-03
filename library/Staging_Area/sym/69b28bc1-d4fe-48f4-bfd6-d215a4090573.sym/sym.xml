@@ -16,22 +16,22 @@ NOTE: Remove this text after manual rework!</description>
   <keywords locale="en_US"></keywords>
  </meta>
  <pins>
-  <pin x="10.160000" y="-7.620000" length="2.540000" uuid="cc58fc9b-9eb3-4b22-84f9-c73f26d2234c" rotation="180.000000">ST</pin>
-  <pin x="-10.160000" y="-2.540000" length="2.540000" uuid="bd235a9d-11e3-422c-88a9-322e7513297a" rotation="0.000000">D</pin>
-  <pin x="10.160000" y="7.620000" length="2.540000" uuid="e197d31c-2cf8-4a02-8747-1cdaec5e1e79" rotation="180.000000">Q</pin>
   <pin x="-10.160000" y="7.620000" length="2.540000" uuid="6266f161-b958-4954-a638-c9d3638413b7" rotation="0.000000">IN</pin>
-  <pin x="-10.160000" y="2.540000" length="2.540000" uuid="fae58459-cfa5-4f9e-99dd-a1b17e8c6bab" rotation="0.000000">PWM</pin>
-  <pin x="-10.160000" y="-7.620000" length="2.540000" uuid="f5c1c09a-08f6-400b-b585-c9389ee2f94c" rotation="0.000000">GND</pin>
+  <pin x="-10.160000" y="-2.540000" length="2.540000" uuid="bd235a9d-11e3-422c-88a9-322e7513297a" rotation="0.000000">D</pin>
+  <pin x="10.160000" y="-7.620000" length="2.540000" uuid="cc58fc9b-9eb3-4b22-84f9-c73f26d2234c" rotation="180.000000">ST</pin>
   <pin x="10.160000" y="0.000000" length="2.540000" uuid="cccd263c-c124-459c-9c32-96dde7d2470e" rotation="180.000000">REF</pin>
+  <pin x="10.160000" y="7.620000" length="2.540000" uuid="e197d31c-2cf8-4a02-8747-1cdaec5e1e79" rotation="180.000000">Q</pin>
+  <pin x="-10.160000" y="-7.620000" length="2.540000" uuid="f5c1c09a-08f6-400b-b585-c9389ee2f94c" rotation="0.000000">GND</pin>
+  <pin x="-10.160000" y="2.540000" length="2.540000" uuid="fae58459-cfa5-4f9e-99dd-a1b17e8c6bab" rotation="0.000000">PWM</pin>
  </pins>
  <geometry>
-  <polygon layer="10" grab_area="true" start_x="7.620000" start_y="10.160000" fill="false" width="0.254000">
+  <polygon start_y="10.160000" fill="false" width="0.254000" grab_area="true" layer="10" start_x="7.620000">
    <segment end_x="7.620000" end_y="-10.160000" angle="0.000000"/>
    <segment end_x="-7.620000" end_y="-10.160000" angle="0.000000"/>
    <segment end_x="-7.620000" end_y="10.160000" angle="0.000000"/>
    <segment end_x="7.620000" end_y="10.160000" angle="0.000000"/>
   </polygon>
-  <text x="-7.620000" height="3.175000" y="11.430000" rotation="0.000000" layer="20" h_align="left" v_align="bottom">${SYM::NAME}</text>
-  <text x="-7.620000" height="2.500000" y="-12.700000" rotation="0.000000" layer="21" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+  <text x="-7.620000" y="11.430000" height="3.175000" h_align="left" v_align="bottom" rotation="0.000000" layer="20">${SYM::NAME}</text>
+  <text x="-7.620000" y="-12.700000" height="2.500000" h_align="left" v_align="bottom" rotation="0.000000" layer="21">${CMP::VALUE}</text>
  </geometry>
 </symbol>

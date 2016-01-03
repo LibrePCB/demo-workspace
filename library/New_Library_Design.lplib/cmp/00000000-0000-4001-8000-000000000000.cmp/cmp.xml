@@ -39,7 +39,7 @@
  </attributes>
  <properties>
   <schematic_only>false</schematic_only> <!-- If true, no devices are available for this component, so it can be added only to schematics and not to boards. -->
-  <value locale="en_US"></value> <!-- This is the value of the component after adding it to a schematic. The user then can change the value if needed. The value is always a string and can contain variables which represent an attribute (syntax: ${ATTRIBUTE_NAME}). The default value can be defined for each language separately. -->
+  <default_value locale="en_US"></default_value> <!-- This is the value of the component after adding it to a schematic. The user then can change the value if needed. The value is always a string and can contain variables which represent an attribute (syntax: ${ATTRIBUTE_NAME}). The default value can be defined for each language separately. -->
   <prefix norm="">U</prefix> <!-- Prefix for the component name (R5, U8,...). Different prefixes for different norms can be defined. There must be exactly one prefix with norm="" to define the default prefix. -->
  </properties>
  <signals>
