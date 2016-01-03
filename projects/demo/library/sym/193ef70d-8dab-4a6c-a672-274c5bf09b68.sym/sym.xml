@@ -12,11 +12,11 @@
   <category>00000000-0000-4001-8000-000000000000</category>
  </meta>
  <pins>
-  <pin length="2.000000" x="-5.080000" y="0.000000" uuid="f42020e8-c53f-4ff2-947e-07879cf42546" rotation="0.000000">1</pin>
-  <pin length="2.000000" x="5.080000" y="0.000000" uuid="2b3dd7f8-043b-4d43-9302-9300ba356de7" rotation="180.000000">2</pin>
+  <pin rotation="180.000000" x="5.080000" uuid="2b3dd7f8-043b-4d43-9302-9300ba356de7" y="0.000000" length="2.000000">2</pin>
+  <pin rotation="0.000000" x="-5.080000" uuid="f42020e8-c53f-4ff2-947e-07879cf42546" y="0.000000" length="2.000000">1</pin>
  </pins>
  <geometry>
-  <polygon grab_area="false" width="0.203200" start_x="-3.080000" start_y="0.000000" fill="false" layer="10">
+  <polygon fill="false" width="0.203200" grab_area="false" start_x="-3.080000" start_y="0.000000" layer="10">
    <segment end_x="-2.695000" end_y="1.016000" angle="0.000000"/>
    <segment end_x="-1.925000" end_y="-1.016000" angle="0.000000"/>
    <segment end_x="-1.155000" end_y="1.016000" angle="0.000000"/>
@@ -27,7 +27,7 @@
    <segment end_x="2.695000" end_y="-1.016000" angle="0.000000"/>
    <segment end_x="3.080000" end_y="0.000000" angle="0.000000"/>
   </polygon>
-  <text v_align="bottom" height="2.540000" x="-3.080000" y="1.016000" rotation="0.000000" h_align="left" layer="20">${SYM::NAME}</text>
-  <text v_align="top" height="2.540000" x="-3.080000" y="-1.016000" rotation="0.000000" h_align="left" layer="21">${CMP::VALUE}</text>
+  <text v_align="bottom" rotation="0.000000" x="-3.080000" y="1.016000" layer="20" height="2.540000" h_align="left">${SYM::NAME}</text>
+  <text v_align="top" rotation="0.000000" x="-3.080000" y="-1.016000" layer="21" height="2.540000" h_align="left">${CMP::VALUE}</text>
  </geometry>
 </symbol>

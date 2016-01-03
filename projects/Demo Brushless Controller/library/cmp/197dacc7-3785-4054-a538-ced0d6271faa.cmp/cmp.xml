@@ -14,18 +14,18 @@
  <attributes/>
  <properties>
   <schematic_only>false</schematic_only>
-  <value locale="en_US"></value>
-  <prefix norm="" default="true">PAD</prefix>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">PAD</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="true" uuid="ad6ae81a-7914-49b7-a87b-a0e8574b7398" role="passive" forced_net_name="" negated="false">1</signal>
+  <signal required="true" clock="false" uuid="ad6ae81a-7914-49b7-a87b-a0e8574b7398" role="passive" forced_net_name="" negated="false">1</signal>
  </signals>
- <symbol_variants>
-  <variant norm="" uuid="0f0439a1-c258-40e7-b407-029f084c372f" default="true">
+ <symbol_variants default="0f0439a1-c258-40e7-b407-029f084c372f">
+  <variant norm="" uuid="0f0439a1-c258-40e7-b407-029f084c372f">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item required="true" suffix="" uuid="c9c1fdcf-17cb-449d-8d27-2fe6ddd270ae" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b">
+    <item required="true" suffix="" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b" uuid="c9c1fdcf-17cb-449d-8d27-2fe6ddd270ae">
      <pin_signal_map>
       <map display="none" pin="01f564d5-9975-4613-bf90-153a031fe625">ad6ae81a-7914-49b7-a87b-a0e8574b7398</map>
      </pin_signal_map>
@@ -33,5 +33,4 @@
    </symbol_items>
   </variant>
  </symbol_variants>
- <spice_models/>
 </component>
