@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>d6527201-0b43-4ec6-96e1-8dde11a38645</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:45Z</created>
+  <last_modified>2015-12-20T22:10:45Z</last_modified>
+  <name locale="en_US">SMBJ</name>
+  <description locale="en_US">&lt;b>DO-214AA Modified J_BEND&lt;/b>&lt;p>
+Source: www.rsonline.de .. SMBJ12/C/15/C/24/C/30/C/5.0/C/7.5/C Voltage Suppressor. Data Sheet
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: SMBJ
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="7294480b-112f-4b6e-9f5b-f9239b95c5dd">C</pad>
+  <pad uuid="cc97d7ce-a4d0-482c-89d4-f82015f81a0b">A</pad>
+ </pads>
+ <footprints default="836cfc84-54f9-485e-b810-75afe31a59ba">
+  <footprint uuid="836cfc84-54f9-485e-b810-75afe31a59ba">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="true" width="0.000000" grab_area="true" start_x="-2.800000" start_y="-1.100000" layer="200">
+     <segment end_x="-2.250000" end_y="-1.100000" angle="0.000000"/>
+     <segment end_x="-2.250000" end_y="1.100000" angle="0.000000"/>
+     <segment end_x="-2.800000" end_y="1.100000" angle="0.000000"/>
+     <segment end_x="-2.800000" end_y="-1.100000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" width="0.000000" grab_area="true" start_x="2.250000" start_y="-1.100000" layer="200">
+     <segment end_x="2.800000" end_y="-1.100000" angle="0.000000"/>
+     <segment end_x="2.800000" end_y="1.100000" angle="0.000000"/>
+     <segment end_x="2.250000" end_y="1.100000" angle="0.000000"/>
+     <segment end_x="2.250000" end_y="-1.100000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" width="0.101600" grab_area="true" start_x="2.240000" start_y="1.920000" layer="260">
+     <segment end_x="2.240000" end_y="-1.920000" angle="0.000000"/>
+     <segment end_x="-2.240000" end_y="-1.920000" angle="0.000000"/>
+     <segment end_x="-2.240000" end_y="1.920000" angle="0.000000"/>
+     <segment end_x="2.240000" end_y="1.920000" angle="0.000000"/>
+    </polygon>
+    <text v_align="bottom" rotation="0.000000" x="-1.905000" y="2.540000" layer="240" height="2.500000" h_align="left">${CMP::NAME}</text>
+    <text v_align="bottom" rotation="0.000000" x="-1.905000" y="-3.810000" layer="250" height="2.000000" h_align="left">${CMP::VALUE}</text>
+    <pad rotation="0.000000" width="1.780000" technology="smt" side="top" x="-2.030000" uuid="7294480b-112f-4b6e-9f5b-f9239b95c5dd" y="0.000000" height="2.160000"/>
+    <pad rotation="180.000000" width="1.780000" technology="smt" side="top" x="2.040000" uuid="cc97d7ce-a4d0-482c-89d4-f82015f81a0b" y="0.000000" height="2.160000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

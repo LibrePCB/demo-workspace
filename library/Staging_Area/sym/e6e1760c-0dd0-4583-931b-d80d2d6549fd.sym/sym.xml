@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol version="0">
+ <meta>
+  <uuid>e6e1760c-0dd0-4583-931b-d80d2d6549fd</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:33Z</created>
+  <last_modified>2015-12-20T22:10:33Z</last_modified>
+  <name locale="en_US">L-EU</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: L-EU
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pins>
+  <pin x="0.000000" y="-5.080000" length="2.540000" uuid="7ce12983-cda0-49ec-8650-40536af507ca" rotation="90.000000">2</pin>
+  <pin x="0.000000" y="5.080000" length="2.540000" uuid="f5069b7c-21ff-4500-8f41-58e08b8eb9a2" rotation="270.000000">1</pin>
+ </pins>
+ <geometry>
+  <polygon start_y="-3.556000" fill="true" width="0.000000" grab_area="true" layer="10" start_x="-1.016000">
+   <segment end_x="1.016000" end_y="-3.556000" angle="0.000000"/>
+   <segment end_x="1.016000" end_y="3.556000" angle="0.000000"/>
+   <segment end_x="-1.016000" end_y="3.556000" angle="0.000000"/>
+   <segment end_x="-1.016000" end_y="-3.556000" angle="0.000000"/>
+  </polygon>
+  <text x="-1.498600" y="-3.810000" height="3.175000" h_align="left" v_align="bottom" rotation="90.000000" layer="20">${SYM::NAME}</text>
+  <text x="3.302000" y="-3.810000" height="2.500000" h_align="left" v_align="bottom" rotation="90.000000" layer="21">${CMP::VALUE}</text>
+ </geometry>
+</symbol>

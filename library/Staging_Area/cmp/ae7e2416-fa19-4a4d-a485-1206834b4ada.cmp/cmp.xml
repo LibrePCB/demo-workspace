@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>ae7e2416-fa19-4a4d-a485-1206834b4ada</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <name locale="en_US">TC48</name>
+  <description locale="en_US">&lt;b>Temperature Compensated Xtal Oscillator&lt;/b>&lt;p>
+HCMOS, Clipped Sine Wave or Sine Wave Compatible&lt;br>
+Source: www.pletronics.com .. tc4.pdf
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: TC48
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">QG</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="8f46d7e4-0836-4549-a414-0456d3567ca5" clock="false" role="passive">GND</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="c41ff776-7fe4-40df-84ea-1a80765336b0" clock="false" role="passive">OUT</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="78bbf7cf-22c4-4ab2-899d-783468e0e434" clock="false" role="passive">VCC</signal>
+ </signals>
+ <symbol_variants default="488856bc-92a5-4f96-8fa7-109285c8ad2b">
+  <variant norm="" uuid="488856bc-92a5-4f96-8fa7-109285c8ad2b">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="53721cfc-9b64-434b-aa5c-c7f4d51a912d" suffix="" symbol="beb2fedc-fccc-4287-aebf-9619da02fc8b">
+     <pin_signal_map>
+      <map display="component_signal" pin="0a33f3e7-d2d2-46ea-87f6-27b67b3561cd">8f46d7e4-0836-4549-a414-0456d3567ca5</map>
+      <map display="component_signal" pin="2754b147-eb07-49a3-9ebc-de5d4048ffd1">78bbf7cf-22c4-4ab2-899d-783468e0e434</map>
+      <map display="component_signal" pin="afe3fbb5-cdf8-403a-bbe2-52f2a151c580">8f46d7e4-0836-4549-a414-0456d3567ca5</map>
+      <map display="component_signal" pin="bd40b861-3de7-4e1b-93a9-664c83dae243">c41ff776-7fe4-40df-84ea-1a80765336b0</map>
+      <map display="component_signal" pin="fee84b18-72ec-4403-bd8f-e737ae53c3cb">8f46d7e4-0836-4549-a414-0456d3567ca5</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>8d533445-1177-456d-8225-04b63f82eb4c</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <name locale="en_US">PMA-A</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: isabellen.lbr
+Name: PMA-A
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">R</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="83107df5-21e5-4ad9-9596-7c39d6123068" clock="false" role="passive">A</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="7db0999d-7169-40c6-8cd6-8cea6dd1a87a" clock="false" role="passive">B</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="de480d52-ac62-4b1f-8229-f5fd191dc5f4" clock="false" role="passive">SA</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="bf6d1f47-aa43-4ff6-93e4-2d688d3711b6" clock="false" role="passive">SB</signal>
+ </signals>
+ <symbol_variants default="f21977ff-693c-488d-a68d-9cb8de6083a3">
+  <variant norm="" uuid="f21977ff-693c-488d-a68d-9cb8de6083a3">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="47e085e4-b710-4b8e-880e-2eed11ef7221" suffix="" symbol="51e6510a-e590-4a1d-88d1-b418834d526d">
+     <pin_signal_map>
+      <map display="component_signal" pin="217e7a05-1bff-4a3c-82af-21637b96a306">bf6d1f47-aa43-4ff6-93e4-2d688d3711b6</map>
+      <map display="component_signal" pin="27e8c42e-7b07-4805-b06d-11f1a847d83d">de480d52-ac62-4b1f-8229-f5fd191dc5f4</map>
+      <map display="component_signal" pin="5a617374-3ef1-4046-96a1-b4bc534f1338">83107df5-21e5-4ad9-9596-7c39d6123068</map>
+      <map display="component_signal" pin="e5e6a057-fea4-455e-b8c5-79283953a48e">7db0999d-7169-40c6-8cd6-8cea6dd1a87a</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

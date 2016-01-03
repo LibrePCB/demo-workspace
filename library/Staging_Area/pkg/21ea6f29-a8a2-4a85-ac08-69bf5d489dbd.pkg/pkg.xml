@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>21ea6f29-a8a2-4a85-ac08-69bf5d489dbd</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:49Z</created>
+  <last_modified>2015-12-20T22:10:49Z</last_modified>
+  <name locale="en_US">SANYO-OSCON_G</name>
+  <description locale="en_US">&lt;b>SANYO OSCON Capacitor&lt;/b>&lt;p>
+Source: e_os_all.pdf
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: SANYO-OSCON_G
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="7c627bab-9c55-4f00-bd94-e1b6a1483103">+</pad>
+  <pad uuid="e36e71e6-844a-4653-b2de-a38ab31e0aca">-</pad>
+ </pads>
+ <footprints default="8a4c937c-e78b-4982-8199-cd7acbaf0a10">
+  <footprint uuid="8a4c937c-e78b-4982-8199-cd7acbaf0a10">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="-4.500000" start_y="0.000000" layer="260" width="0.406400" grab_area="true">
+     <segment end_x="-5.700000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <text x="-1.905000" y="1.270000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-1.905000" y="-2.540000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <ellipse fill="false" x="0.000000" radius_x="6.150000" y="0.000000" radius_y="6.150000" rotation="0.000000" layer="260" width="0.203200" grab_area="true"/>
+    <pad x="2.500000" y="0.000000" shape="round" drill="0.800000" rotation="0.000000" height="1.270000" uuid="7c627bab-9c55-4f00-bd94-e1b6a1483103" width="1.270000" technology="tht"/>
+    <pad x="-2.500000" y="0.000000" shape="round" drill="0.800000" rotation="0.000000" height="1.270000" uuid="e36e71e6-844a-4653-b2de-a38ab31e0aca" width="1.270000" technology="tht"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

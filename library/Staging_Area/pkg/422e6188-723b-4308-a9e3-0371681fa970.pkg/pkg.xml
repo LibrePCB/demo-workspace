@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>422e6188-723b-4308-a9e3-0371681fa970</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:45Z</created>
+  <last_modified>2015-12-20T22:10:45Z</last_modified>
+  <name locale="en_US">SOT23</name>
+  <description locale="en_US">&lt;b>SOT-23&lt;/b>
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: SOT23
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="2de8b9cc-2951-491d-a30c-4c6c30d2019a">3</pad>
+  <pad uuid="a7de4ab4-598e-4103-8e39-9dbcd38ac09d">1</pad>
+  <pad uuid="ff5ba22b-4c57-4913-8ebb-a0640b9ba647">2</pad>
+ </pads>
+ <footprints default="c7a65a03-bb01-4f9d-8e19-7485f241c07e">
+  <footprint uuid="c7a65a03-bb01-4f9d-8e19-7485f241c07e">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="true" start_x="-0.228600" start_y="0.711200" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="0.228600" end_y="0.711200" angle="0.000000"/>
+     <segment end_x="0.228600" end_y="1.295400" angle="0.000000"/>
+     <segment end_x="-0.228600" end_y="1.295400" angle="0.000000"/>
+     <segment end_x="-0.228600" end_y="0.711200" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="0.711200" start_y="-1.295400" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="1.168400" end_y="-1.295400" angle="0.000000"/>
+     <segment end_x="1.168400" end_y="-0.711200" angle="0.000000"/>
+     <segment end_x="0.711200" end_y="-0.711200" angle="0.000000"/>
+     <segment end_x="0.711200" end_y="-1.295400" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="-1.168400" start_y="-1.295400" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="-0.711200" end_y="-1.295400" angle="0.000000"/>
+     <segment end_x="-0.711200" end_y="-0.711200" angle="0.000000"/>
+     <segment end_x="-1.168400" end_y="-0.711200" angle="0.000000"/>
+     <segment end_x="-1.168400" end_y="-1.295400" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-1.422400" start_y="0.660400" layer="200" width="0.152400" grab_area="true">
+     <segment end_x="-1.422400" end_y="-0.660400" angle="0.000000"/>
+     <segment end_x="1.422400" end_y="-0.660400" angle="0.000000"/>
+     <segment end_x="1.422400" end_y="0.660400" angle="0.000000"/>
+     <segment end_x="-1.422400" end_y="0.660400" angle="0.000000"/>
+    </polygon>
+    <text x="-1.905000" y="1.905000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-1.905000" y="-3.175000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="0.000000" y="1.100000" rotation="0.000000" side="top" height="1.400000" uuid="2de8b9cc-2951-491d-a30c-4c6c30d2019a" width="1.000000" technology="smt"/>
+    <pad x="-0.950000" y="-1.100000" rotation="0.000000" side="top" height="1.400000" uuid="a7de4ab4-598e-4103-8e39-9dbcd38ac09d" width="1.000000" technology="smt"/>
+    <pad x="0.950000" y="-1.100000" rotation="0.000000" side="top" height="1.400000" uuid="ff5ba22b-4c57-4913-8ebb-a0640b9ba647" width="1.000000" technology="smt"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>0caf07ec-5f0d-440b-b450-76f3471b12c2</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:46Z</created>
+  <last_modified>2015-12-20T22:10:46Z</last_modified>
+  <name locale="en_US">GM1BW78140A</name>
+  <description locale="en_US">&lt;b>High Brightness Chip LED (White)&lt;/b>&lt;p>
+Source: http://document.sharpsma.com/files/GM1BW78140A.pdf
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: GM1BW78140A
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="c145af3e-1db7-4a45-9e1f-2cbb57b12c68">A</pad>
+  <pad uuid="c8782173-df25-4332-adf6-6ad87f7cf484">C</pad>
+ </pads>
+ <footprints default="efb48cab-79a1-4d51-97e5-fb5cc0aa8123">
+  <footprint uuid="efb48cab-79a1-4d51-97e5-fb5cc0aa8123">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="true" start_x="-1.320000" start_y="-0.820000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="1.320000" end_y="-0.820000" angle="0.000000"/>
+     <segment end_x="1.320000" end_y="0.820000" angle="0.000000"/>
+     <segment end_x="-1.320000" end_y="0.820000" angle="0.000000"/>
+     <segment end_x="-1.320000" end_y="-0.820000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="0.350000" start_y="-0.675000" layer="230" width="0.000000" grab_area="true">
+     <segment end_x="1.175000" end_y="-0.675000" angle="0.000000"/>
+     <segment end_x="1.175000" end_y="0.675000" angle="0.000000"/>
+     <segment end_x="0.350000" end_y="0.675000" angle="0.000000"/>
+     <segment end_x="0.350000" end_y="-0.675000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="0.275000" start_y="-0.775000" layer="270" width="0.000000" grab_area="true">
+     <segment end_x="1.275000" end_y="-0.775000" angle="0.000000"/>
+     <segment end_x="1.275000" end_y="0.775000" angle="0.000000"/>
+     <segment end_x="0.275000" end_y="0.775000" angle="0.000000"/>
+     <segment end_x="0.275000" end_y="-0.775000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-1.250000" start_y="0.750000" layer="270" width="0.050800" grab_area="true">
+     <segment end_x="-0.300000" end_y="0.750000" angle="0.000000"/>
+     <segment end_x="-0.300000" end_y="0.200000" angle="0.000000"/>
+     <segment end_x="-0.500000" end_y="0.000000" angle="0.000000"/>
+     <segment end_x="-0.300000" end_y="-0.200000" angle="0.000000"/>
+     <segment end_x="-0.300000" end_y="-0.750000" angle="0.000000"/>
+     <segment end_x="-1.250000" end_y="-0.750000" angle="0.000000"/>
+     <segment end_x="-1.250000" end_y="0.750000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-1.175000" start_y="0.675000" layer="230" width="0.050800" grab_area="true">
+     <segment end_x="-0.375000" end_y="0.675000" angle="0.000000"/>
+     <segment end_x="-0.375000" end_y="0.225000" angle="0.000000"/>
+     <segment end_x="-0.600000" end_y="0.000000" angle="0.000000"/>
+     <segment end_x="-0.375000" end_y="-0.225000" angle="0.000000"/>
+     <segment end_x="-0.375000" end_y="-0.675000" angle="0.000000"/>
+     <segment end_x="-1.175000" end_y="-0.675000" angle="0.000000"/>
+     <segment end_x="-1.175000" end_y="0.675000" angle="0.000000"/>
+    </polygon>
+    <text x="-1.270000" y="1.016000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-1.270000" y="-2.286000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="0.770000" y="0.000000" rotation="0.000000" side="top" height="1.440000" uuid="c145af3e-1db7-4a45-9e1f-2cbb57b12c68" width="0.900000" technology="smt"/>
+    <pad x="-0.770000" y="0.000000" rotation="0.000000" side="top" height="1.440000" uuid="c8782173-df25-4332-adf6-6ad87f7cf484" width="0.900000" technology="smt"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

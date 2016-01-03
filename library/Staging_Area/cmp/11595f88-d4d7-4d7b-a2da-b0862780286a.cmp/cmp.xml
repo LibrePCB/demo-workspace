@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>11595f88-d4d7-4d7b-a2da-b0862780286a</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <name locale="en_US">LZR182</name>
+  <description locale="en_US">&lt;B>LED BLOCK&lt;/B>&lt;p>
+2 LEDs, Siemens
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: LZR182
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">DZ</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="b5f12e1b-6b3f-4269-9ecb-505f7da3013a" clock="false" role="passive">A</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="12317861-5c99-4720-abb1-c20e41abde88" clock="false" role="passive">C</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="e4d115ff-3389-4981-870c-1e3eac6f93cb" clock="false" role="passive">A</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="379d834e-d6dd-4568-ba75-a74f9cda6be2" clock="false" role="passive">C</signal>
+ </signals>
+ <symbol_variants default="fc4b35f8-ce0d-4da5-99c6-14e400abdb4e">
+  <variant norm="" uuid="fc4b35f8-ce0d-4da5-99c6-14e400abdb4e">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="9e06db58-47de-4427-994b-51273065c5e8" suffix="-1" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a">
+     <pin_signal_map>
+      <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">12317861-5c99-4720-abb1-c20e41abde88</map>
+      <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">b5f12e1b-6b3f-4269-9ecb-505f7da3013a</map>
+     </pin_signal_map>
+    </item>
+    <item required="true" uuid="0c3e6170-419c-43e5-b5eb-ece121e04f4b" suffix="-2" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a">
+     <pin_signal_map>
+      <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">379d834e-d6dd-4568-ba75-a74f9cda6be2</map>
+      <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">e4d115ff-3389-4981-870c-1e3eac6f93cb</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

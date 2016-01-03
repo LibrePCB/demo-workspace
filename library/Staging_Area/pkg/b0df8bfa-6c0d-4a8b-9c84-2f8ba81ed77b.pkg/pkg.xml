@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>b0df8bfa-6c0d-4a8b-9c84-2f8ba81ed77b</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:44Z</created>
+  <last_modified>2015-12-20T22:10:44Z</last_modified>
+  <name locale="en_US">SC59-W</name>
+  <description locale="en_US">&lt;b>SC59 Wave soldering&lt;/b> Philips SC01_Mounting_1996.pdf
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: SC59-W
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="42f744d3-2d99-48ff-91aa-fa6406eba018">3</pad>
+  <pad uuid="68a28f1b-5a81-4f94-abe4-08f12076b4ba">1</pad>
+  <pad uuid="9308a165-4eb1-4fe9-8893-3715f58632a2">2</pad>
+ </pads>
+ <footprints default="4649e37e-20dd-41a3-acf5-070dd086aa6f">
+  <footprint uuid="4649e37e-20dd-41a3-acf5-070dd086aa6f">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="-1.550000" start_y="-0.400000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="-1.550000" end_y="0.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="1.550000" start_y="0.400000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="1.550000" end_y="-0.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="0.250000" start_y="-0.850000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="-0.250000" end_y="-0.850000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="-1.150000" start_y="-1.500000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="-0.750000" end_y="-1.500000" angle="0.000000"/>
+     <segment end_x="-0.750000" end_y="-0.950000" angle="0.000000"/>
+     <segment end_x="-1.150000" end_y="-0.950000" angle="0.000000"/>
+     <segment end_x="-1.150000" end_y="-1.500000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="0.750000" start_y="-1.500000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="1.150000" end_y="-1.500000" angle="0.000000"/>
+     <segment end_x="1.150000" end_y="-0.950000" angle="0.000000"/>
+     <segment end_x="0.750000" end_y="-0.950000" angle="0.000000"/>
+     <segment end_x="0.750000" end_y="-1.500000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="-0.200000" start_y="0.950000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="0.200000" end_y="0.950000" angle="0.000000"/>
+     <segment end_x="0.200000" end_y="1.500000" angle="0.000000"/>
+     <segment end_x="-0.200000" end_y="1.500000" angle="0.000000"/>
+     <segment end_x="-0.200000" end_y="0.950000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-1.550000" start_y="0.850000" layer="200" width="0.254000" grab_area="true">
+     <segment end_x="-1.550000" end_y="-0.850000" angle="0.000000"/>
+     <segment end_x="1.550000" end_y="-0.850000" angle="0.000000"/>
+     <segment end_x="1.550000" end_y="0.850000" angle="0.000000"/>
+     <segment end_x="-1.550000" end_y="0.850000" angle="0.000000"/>
+    </polygon>
+    <text x="-1.650000" y="2.500000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-1.650000" y="-3.800000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="0.000000" y="1.450000" rotation="0.000000" side="top" height="1.700000" uuid="42f744d3-2d99-48ff-91aa-fa6406eba018" width="2.800000" technology="smt"/>
+    <pad x="-1.100000" y="-1.450000" rotation="0.000000" side="top" height="1.700000" uuid="68a28f1b-5a81-4f94-abe4-08f12076b4ba" width="1.200000" technology="smt"/>
+    <pad x="1.100000" y="-1.450000" rotation="0.000000" side="top" height="1.700000" uuid="9308a165-4eb1-4fe9-8893-3715f58632a2" width="1.200000" technology="smt"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

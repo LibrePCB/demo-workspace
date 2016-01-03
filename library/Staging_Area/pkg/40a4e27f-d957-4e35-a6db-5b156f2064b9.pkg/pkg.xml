@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>40a4e27f-d957-4e35-a6db-5b156f2064b9</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:46Z</created>
+  <last_modified>2015-12-20T22:10:46Z</last_modified>
+  <name locale="en_US">W5KM</name>
+  <description locale="en_US">&lt;b>Golden DRAGON® ARGUS® LED&lt;/b>&lt;p>
+Place TH-Gate and connect pins in schematic.&lt;br>
+Set DRC-Clearance - Same Signals to 0mm in board.&lt;br>
+Source: catalog.osram-os.com .. LD_LB_LT_W5KM_Pb_free.pdf
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: W5KM
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="31c178cf-c8f7-4ff9-9758-da9cc9a48260">A</pad>
+  <pad uuid="48009612-8404-45ed-9861-11e5203db4ac">HT@1</pad>
+  <pad uuid="be65cade-1eff-4f10-bdf7-8431d83aed8f">TH</pad>
+  <pad uuid="d1f0b2c4-3898-4623-8960-e0d9352d7df7">HT@2</pad>
+  <pad uuid="fa39a094-2847-4b6b-94cc-40b9af2e3b7f">C</pad>
+ </pads>
+ <footprints default="8c8f1bfe-c38d-46f6-aae0-697a1f2fd4bd">
+  <footprint uuid="8c8f1bfe-c38d-46f6-aae0-697a1f2fd4bd">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="-1.250000" start_y="4.500000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="-1.250000" end_y="-4.500000" angle="148.951778"/>
+    </polygon>
+    <polygon fill="false" start_x="1.250000" start_y="-4.500000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="1.250000" end_y="4.500000" angle="148.951778"/>
+    </polygon>
+    <polygon fill="true" start_x="-0.950000" start_y="-5.600000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="0.950000" end_y="-5.600000" angle="0.000000"/>
+     <segment end_x="0.950000" end_y="-3.200000" angle="0.000000"/>
+     <segment end_x="-0.950000" end_y="-3.200000" angle="0.000000"/>
+     <segment end_x="-0.950000" end_y="-5.600000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="-0.950000" start_y="3.200000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="0.950000" end_y="3.200000" angle="0.000000"/>
+     <segment end_x="0.950000" end_y="5.600000" angle="0.000000"/>
+     <segment end_x="-0.950000" end_y="5.600000" angle="0.000000"/>
+     <segment end_x="-0.950000" end_y="3.200000" angle="0.000000"/>
+    </polygon>
+    <text x="-5.665000" y="-2.500000" rotation="90.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="6.915000" y="-2.500000" rotation="90.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <ellipse fill="false" x="0.000000" radius_x="4.675000" y="0.000000" radius_y="4.675000" rotation="0.000000" layer="200" width="0.203200" grab_area="true"/>
+    <ellipse fill="true" x="0.000000" radius_x="2.000000" y="0.000000" radius_y="2.000000" rotation="0.000000" layer="270" width="0.000000" grab_area="true"/>
+    <ellipse fill="true" x="0.000000" radius_x="1.802700" y="0.000000" radius_y="1.802700" rotation="0.000000" layer="230" width="0.000000" grab_area="true"/>
+    <pad x="0.000000" y="5.350000" rotation="180.000000" side="top" height="2.300000" uuid="31c178cf-c8f7-4ff9-9758-da9cc9a48260" width="2.300000" technology="smt"/>
+    <pad x="-3.325000" y="0.000000" rotation="0.000000" side="top" height="13.000000" uuid="48009612-8404-45ed-9861-11e5203db4ac" width="3.350000" technology="smt"/>
+    <pad x="0.000000" y="0.000000" rotation="0.000000" side="top" height="7.400000" uuid="be65cade-1eff-4f10-bdf7-8431d83aed8f" width="3.350000" technology="smt"/>
+    <pad x="3.325000" y="0.000000" rotation="180.000000" side="top" height="13.000000" uuid="d1f0b2c4-3898-4623-8960-e0d9352d7df7" width="3.350000" technology="smt"/>
+    <pad x="0.000000" y="-5.350000" rotation="0.000000" side="top" height="2.300000" uuid="fa39a094-2847-4b6b-94cc-40b9af2e3b7f" width="2.300000" technology="smt"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

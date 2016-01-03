@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>1e2dc9fd-7268-4235-8f2f-110ddb810cb2</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:45Z</created>
+  <last_modified>2015-12-20T22:10:45Z</last_modified>
+  <name locale="en_US">SOT666</name>
+  <description locale="en_US">&lt;b>SOT 666 Reflow soldering foorprint&lt;/b>&lt;p>
+Source: Philips - BAS70_1PS7XSB70_SER_8.pdf
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: SOT666
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="3a6ea356-8371-4596-a4c6-ff9591a757b9">2</pad>
+  <pad uuid="4bfbc54b-b55c-4a11-abd6-4eecada85fc2">6</pad>
+  <pad uuid="a824c6bc-d60a-4916-890f-fec4710bf2d0">4</pad>
+  <pad uuid="a9f7def5-e7c0-4a47-9936-86775f6e5e19">5</pad>
+  <pad uuid="c4ab4252-607b-41f4-823f-0ca6c2918b19">1</pad>
+  <pad uuid="c8eb65eb-c097-4042-b392-ee74ff39aebe">3</pad>
+ </pads>
+ <footprints default="4f80e51e-dead-4a52-8584-7a6ef76fdb20">
+  <footprint uuid="4f80e51e-dead-4a52-8584-7a6ef76fdb20">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="true" start_x="-0.612500" start_y="-0.862500" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="-0.387500" end_y="-0.862500" angle="0.000000"/>
+     <segment end_x="-0.387500" end_y="-0.612500" angle="0.000000"/>
+     <segment end_x="-0.612500" end_y="-0.612500" angle="0.000000"/>
+     <segment end_x="-0.612500" end_y="-0.862500" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="-0.112500" start_y="-0.862500" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="0.112500" end_y="-0.862500" angle="0.000000"/>
+     <segment end_x="0.112500" end_y="-0.612500" angle="0.000000"/>
+     <segment end_x="-0.112500" end_y="-0.612500" angle="0.000000"/>
+     <segment end_x="-0.112500" end_y="-0.862500" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="0.387500" start_y="-0.862500" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="0.612500" end_y="-0.862500" angle="0.000000"/>
+     <segment end_x="0.612500" end_y="-0.612500" angle="0.000000"/>
+     <segment end_x="0.387500" end_y="-0.612500" angle="0.000000"/>
+     <segment end_x="0.387500" end_y="-0.862500" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="0.387500" start_y="0.612500" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="0.612500" end_y="0.612500" angle="0.000000"/>
+     <segment end_x="0.612500" end_y="0.862500" angle="0.000000"/>
+     <segment end_x="0.387500" end_y="0.862500" angle="0.000000"/>
+     <segment end_x="0.387500" end_y="0.612500" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="-0.112500" start_y="0.612500" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="0.112500" end_y="0.612500" angle="0.000000"/>
+     <segment end_x="0.112500" end_y="0.862500" angle="0.000000"/>
+     <segment end_x="-0.112500" end_y="0.862500" angle="0.000000"/>
+     <segment end_x="-0.112500" end_y="0.612500" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="-0.612500" start_y="0.612500" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="-0.387500" end_y="0.612500" angle="0.000000"/>
+     <segment end_x="-0.387500" end_y="0.862500" angle="0.000000"/>
+     <segment end_x="-0.612500" end_y="0.862500" angle="0.000000"/>
+     <segment end_x="-0.612500" end_y="0.612500" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="0.800000" start_y="-0.600000" layer="260" width="0.101600" grab_area="true">
+     <segment end_x="0.800000" end_y="0.600000" angle="0.000000"/>
+     <segment end_x="-0.800000" end_y="0.600000" angle="0.000000"/>
+     <segment end_x="-0.800000" end_y="-0.600000" angle="0.000000"/>
+     <segment end_x="0.800000" end_y="-0.600000" angle="0.000000"/>
+    </polygon>
+    <text x="-1.270000" y="1.270000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-1.270000" y="-2.540000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <ellipse fill="true" x="-0.525000" radius_x="0.150000" y="-0.300000" radius_y="0.150000" rotation="0.000000" layer="260" width="0.000000" grab_area="true"/>
+    <pad x="0.000000" y="-0.923000" rotation="90.000000" side="top" height="0.300000" uuid="3a6ea356-8371-4596-a4c6-ff9591a757b9" width="0.650000" technology="smt"/>
+    <pad x="-0.538000" y="0.850000" rotation="90.000000" side="top" height="0.375000" uuid="4bfbc54b-b55c-4a11-abd6-4eecada85fc2" width="0.500000" technology="smt"/>
+    <pad x="0.538000" y="0.849000" rotation="90.000000" side="top" height="0.375000" uuid="a824c6bc-d60a-4916-890f-fec4710bf2d0" width="0.500000" technology="smt"/>
+    <pad x="0.000000" y="0.925000" rotation="90.000000" side="top" height="0.300000" uuid="a9f7def5-e7c0-4a47-9936-86775f6e5e19" width="0.650000" technology="smt"/>
+    <pad x="-0.537000" y="-0.850000" rotation="90.000000" side="top" height="0.375000" uuid="c4ab4252-607b-41f4-823f-0ca6c2918b19" width="0.500000" technology="smt"/>
+    <pad x="0.538000" y="-0.850000" rotation="90.000000" side="top" height="0.375000" uuid="c8eb65eb-c097-4042-b392-ee74ff39aebe" width="0.500000" technology="smt"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>c6e0e470-f2e2-41d6-8c14-ce9c8bc8f4e9</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <name locale="en_US">10M*A</name>
+  <description locale="en_US">&lt;b>Monolithic Crystal Filters&lt;/b>&lt;p>
+Source: www.vanlong.com
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: 10M*A
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">QF</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="e971e743-178c-460b-bea9-2299f3be4717" clock="false" role="passive">1</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="329ae15f-d30e-4092-aea6-e03b4dce07e3" clock="false" role="passive">2</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="effc0908-52e7-4494-81d7-0ed8621d9cd2" clock="false" role="passive">3</signal>
+ </signals>
+ <symbol_variants default="77611816-1a99-4efe-ba23-83e2dd1a192b">
+  <variant norm="" uuid="77611816-1a99-4efe-ba23-83e2dd1a192b">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="148334e3-aeb8-47f6-837a-7d1b9ca5bce3" suffix="" symbol="a6126794-71cd-44d0-813f-fe1847754a41">
+     <pin_signal_map>
+      <map display="component_signal" pin="7a058510-7077-48de-bfdf-f7bde9458f69">effc0908-52e7-4494-81d7-0ed8621d9cd2</map>
+      <map display="component_signal" pin="a5bf62e8-174f-4ea6-b364-dc67be3f427f">e971e743-178c-460b-bea9-2299f3be4717</map>
+      <map display="component_signal" pin="d2cced97-9b40-4d03-af13-56366de0c62e">329ae15f-d30e-4092-aea6-e03b4dce07e3</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

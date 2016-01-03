@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>97a5bf31-eede-4e3c-a3c0-3a145caa86d2</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:53Z</created>
+  <last_modified>2015-12-20T22:10:53Z</last_modified>
+  <name locale="en_US">MA08-1</name>
+  <description locale="en_US">&lt;b>PIN HEADER&lt;/b>
+
+This element was automatically imported from Eagle
+Filepath: con-lstb.lbr
+Name: MA08-1
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">SV</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="7ef6b106-0989-402b-a30a-052ea504b654" clock="false" role="passive">1</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="ae61876f-b6dc-4782-912d-1165d516dad6" clock="false" role="passive">2</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="72d7e018-13c2-4de2-b61f-773b602b301a" clock="false" role="passive">3</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="ba6ca61d-bf36-4c24-98f3-eef2518465cd" clock="false" role="passive">4</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="4db5c7fc-a730-489f-ad70-b10c59daf0c3" clock="false" role="passive">5</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="5f50e585-c28d-45cb-be02-5046d2d5b4bf" clock="false" role="passive">6</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="17ea5e98-6abf-4d0a-b5a1-c2c73f45e6ad" clock="false" role="passive">7</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="82225963-1fa3-42f9-8213-6db4a856f444" clock="false" role="passive">8</signal>
+ </signals>
+ <symbol_variants default="e1cde2e3-7772-4d52-99ad-93a77aa37a44">
+  <variant norm="" uuid="e1cde2e3-7772-4d52-99ad-93a77aa37a44">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="aff40d93-0b1e-47a8-bfd9-e8f1c349577b" suffix="1" symbol="0916f25a-31f6-46d0-9f8f-8784e2e99b0c">
+     <pin_signal_map>
+      <map display="component_signal" pin="0098f19d-dcbf-4e34-aae5-6cb01d47f47c">ba6ca61d-bf36-4c24-98f3-eef2518465cd</map>
+      <map display="component_signal" pin="21f8998f-1ff5-49a1-8c95-41f78a9abba6">4db5c7fc-a730-489f-ad70-b10c59daf0c3</map>
+      <map display="component_signal" pin="25754c70-8913-4478-abee-5bda1a756c5d">5f50e585-c28d-45cb-be02-5046d2d5b4bf</map>
+      <map display="component_signal" pin="3d790c58-2f39-40dc-b028-586abcf8dafd">82225963-1fa3-42f9-8213-6db4a856f444</map>
+      <map display="component_signal" pin="4d5670b7-1a65-4c5b-a209-020b62e7217e">72d7e018-13c2-4de2-b61f-773b602b301a</map>
+      <map display="component_signal" pin="4ef87db1-1f0f-42c4-8e90-ee80f932faf5">ae61876f-b6dc-4782-912d-1165d516dad6</map>
+      <map display="component_signal" pin="979803c9-d4e6-4aeb-bd21-5515579efc9e">17ea5e98-6abf-4d0a-b5a1-c2c73f45e6ad</map>
+      <map display="component_signal" pin="b0eabeb8-9116-4825-98dd-a58fbab7e16a">7ef6b106-0989-402b-a30a-052ea504b654</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

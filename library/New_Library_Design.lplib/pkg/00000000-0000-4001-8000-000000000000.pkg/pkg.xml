@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- This file contains comments for documentation -->
+<package version="0">
+ <meta>
+  <uuid>00000000-0000-4001-8000-000000000000</uuid>
+  <version>1</version>
+  <author>LibrePCB</author>
+  <created>2013-04-13T12:43:52Z</created>
+  <last_modified>2013-04-20T18:01:33Z</last_modified>
+  <name locale="en_US">DIP8</name>
+  <description locale="en_US">description...</description>
+  <keywords locale="en_US">DIP8,DIP08,DIL8,DIL08</keywords>
+  <category>00000000-0000-4001-8000-000000000000</category> <!-- package category UUID (add more <category> elements to specify multiple categories) -->
+ </meta>
+ <pads>
+  <!--
+    Each pad of the package is defined here. Attributes:
+      - uuid:         The pad uuid (must be unique in this package)
+      - node value:   The name of the pad (en_US)
+  -->
+  <pad uuid="4385b685-0cdd-4663-9af9-f4b4273c1c0a">1</pad>
+  <pad uuid="4bc6e28e-1d0f-419c-8b39-dec456cd3193">2</pad>
+  <pad uuid="73ad878d-ade1-4b19-a278-18eda08ffb72">3</pad>
+  <pad uuid="4f6c5da7-e0be-4ea1-90fa-0bfa54b3b577">4</pad>
+  <pad uuid="58fae4c9-d4b3-45ae-b401-c38ad4157bc6">5</pad>
+  <pad uuid="0702b483-20b0-4117-b6b7-a4bb71d38207">6</pad>
+  <pad uuid="e25d41aa-6cc7-40e5-9586-6d8862902130">7</pad>
+  <pad uuid="5d858bbd-e141-4378-8323-00333f7d1ccd">8</pad>
+ </pads>
+ <footprints default="007b0374-45ea-466b-b66f-3c9bd8ec7768">
+  <!--
+    For each different mounting variant and/or soldering technology, a separate footprint can be designed.
+  -->
+  <footprint uuid="007b0374-45ea-466b-b66f-3c9bd8ec7768">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <!--
+      Documentation of polygon and text elements: see symbol geometry documentation
+      
+      Each pad of the package must be used in all footprints. Pad attributes:
+        - uuid:         The pad uuid (from the pad list above)
+        - x:            X coordinate of the pad's connection point / center (in millimeters)
+        - y:            Y coordinate of the pad's connection point / center (in millimeters)
+        - technology:   The pin technology (smt, tht)
+        - shape:        The pin shape (rect, octagon, round)
+        - rotation:     The rotation of the pad (in degrees CCW)
+        - width:        The width of the pad (in millimeters)
+        - height:       The height of the pad (in millimeters)
+        - drill:        The drill diameter of THT pads (in millimeters)
+        - side:         The side of SMT pads (top, bottom)
+    -->
+    <polygon layer="200" width="0.254" fill="false" grab_area="true" start_x="-12.7" start_y="-7.62">
+     <segment angle="0" end_x="-12.7" end_y="5.08"/>
+     <segment angle="0" end_x="12.7" end_y="5.08"/>
+     <segment angle="0" end_x="12.7" end_y="-7.62"/>
+     <segment angle="0" end_x="-12.7" end_y="-7.62"/>
+    </polygon>
+    <text layer="240" v_align="bottom" height="2.54" rotation="0" x="-12.7" y="5.08"  h_align="left">${CMP::NAME}</text>
+    <text layer="250" v_align="top" height="2.54" rotation="0" x="-12.7" y="-7.62" h_align="left">${CMP::VALUE}</text>
+    <pad uuid="4385b685-0cdd-4663-9af9-f4b4273c1c0a" technology="tht" shape="round" x="-3.81" y="2.54" rotation="0" width="3" height="2.1" drill="0.8"/>
+    <pad uuid="4bc6e28e-1d0f-419c-8b39-dec456cd3193" technology="tht" shape="round" x="-3.81" y="0" rotation="0" width="3" height="2.1" drill="0.8"/>
+    <pad uuid="73ad878d-ade1-4b19-a278-18eda08ffb72" technology="tht" shape="round" x="-3.81" y="-2.54" rotation="0" width="3" height="2.1" drill="0.8"/>
+    <pad uuid="4f6c5da7-e0be-4ea1-90fa-0bfa54b3b577" technology="tht" shape="round" x="-3.81" y="-5.08" rotation="0" width="3" height="2.1" drill="0.8"/>
+    <pad uuid="58fae4c9-d4b3-45ae-b401-c38ad4157bc6" technology="tht" shape="round" x="3.81" y="-5.08" rotation="0" width="3" height="2.1" drill="0.8"/>
+    <pad uuid="0702b483-20b0-4117-b6b7-a4bb71d38207" technology="tht" shape="round" x="3.81" y="-2.54" rotation="0" width="3" height="2.1" drill="0.8"/>
+    <pad uuid="e25d41aa-6cc7-40e5-9586-6d8862902130" technology="tht" shape="round" x="3.81" y="0" rotation="0" width="3" height="2.1" drill="0.8"/>
+    <pad uuid="5d858bbd-e141-4378-8323-00333f7d1ccd" technology="tht" shape="round" x="3.81" y="2.54" rotation="0" width="3" height="2.1" drill="0.8"/>
+   </geometry>
+  </footprint>
+ </footprints>
+ <!--<models3d default="19b31428-795a-48ed-ac70-30cd868d8ec7">
+  <model3d uuid="19b31428-795a-48ed-ac70-30cd868d8ec7" filename="DIP-8_W7.62mm.wrl" dx="0" dy="0" dz="0" rot_x="0" rot_y="0" rot_z="0">default</model3d>
+ </models3d>-->
+</package>

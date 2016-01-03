@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>3216c386-c85f-433e-a818-ed9bc8d64ef1</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:01Z</created>
+  <last_modified>2015-12-20T22:11:01Z</last_modified>
+  <name locale="en_US">DUOLED-RG-C</name>
+  <description locale="en_US">&lt;B>DUO LED&lt;/B>&lt;P>
+2 colors (red/green), 5 mm, round, common Cathode&lt;BR>
+&lt;I>www.ligitek.com&lt;/I> or other producers.
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: DUOLED-RG-C
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">LD</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="699e8bac-c114-47e0-a4b4-8b10a0acfa3a" clock="false" role="passive">AG</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="7ce1cada-c1e4-45b2-94e7-ecd6b9341882" clock="false" role="passive">AR</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="19155ad0-192d-443c-b746-377d6580afae" clock="false" role="passive">C</signal>
+ </signals>
+ <symbol_variants default="5add7375-1325-440c-a1e4-419daa6e2ad1">
+  <variant norm="" uuid="5add7375-1325-440c-a1e4-419daa6e2ad1">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="1b674dd7-4e43-4e56-af29-868bb8527b2a" suffix="" symbol="5d9a5c33-04e5-43d4-8fee-76a68adfd34f">
+     <pin_signal_map>
+      <map display="component_signal" pin="4f88000b-7546-436c-9355-7103c566940d">7ce1cada-c1e4-45b2-94e7-ecd6b9341882</map>
+      <map display="component_signal" pin="aa84558f-ab30-4f4f-aefa-5c7b49a8bcf3">699e8bac-c114-47e0-a4b4-8b10a0acfa3a</map>
+      <map display="component_signal" pin="bf6dd80f-71b7-493a-8aff-b7221601a376">19155ad0-192d-443c-b746-377d6580afae</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol version="0">
+ <meta>
+  <uuid>ccca4631-4d89-491d-ae31-6423cde4571c</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-06-21T12:37:28Z</created>
+  <last_modified>2015-06-21T12:37:28Z</last_modified>
+  <name locale="en_US">Trimmer Capacitor</name>
+  <description locale="en_US"></description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pins>
+  <pin x="0.000000" y="2.540000" length="1.524000" uuid="18884b25-28e3-4449-a906-eaf6756398cf" rotation="-90.000000">E</pin>
+  <pin x="0.000000" y="-2.540000" length="1.524000" uuid="1b5d5845-d043-442f-bfaa-25f8fdee8997" rotation="90.000000">A</pin>
+ </pins>
+ <geometry>
+  <polygon start_y="-2.048000" fill="false" width="0.304800" grab_area="true" layer="10" start_x="1.524000">
+   <segment end_x="-2.286000" end_y="1.762000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="1.000000" fill="false" width="0.304800" grab_area="true" layer="10" start_x="-3.048000">
+   <segment end_x="-2.286000" end_y="1.762000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="1.762000" fill="false" width="0.304800" grab_area="true" layer="10" start_x="-2.286000">
+   <segment end_x="-1.524000" end_y="2.524000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="-2.302000" fill="false" width="0.152400" grab_area="true" layer="10" start_x="-3.048000">
+   <segment end_x="-3.048000" end_y="-0.016000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="0.016000" fill="false" width="0.152400" grab_area="true" layer="10" start_x="-3.048000">
+   <segment end_x="-3.302000" end_y="-0.778000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="0.016000" fill="false" width="0.152400" grab_area="true" layer="10" start_x="-3.048000">
+   <segment end_x="-2.794000" end_y="-0.778000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="1.016000" fill="true" width="0.150000" grab_area="true" layer="10" start_x="-1.900000">
+   <segment end_x="1.900000" end_y="1.016000" angle="0.000000"/>
+   <segment end_x="1.900000" end_y="0.400000" angle="0.000000"/>
+   <segment end_x="-1.900000" end_y="0.400000" angle="0.000000"/>
+   <segment end_x="-1.900000" end_y="1.016000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="-1.016000" fill="true" width="0.150000" grab_area="true" layer="10" start_x="-1.900000">
+   <segment end_x="1.900000" end_y="-1.016000" angle="0.000000"/>
+   <segment end_x="1.900000" end_y="-0.400000" angle="0.000000"/>
+   <segment end_x="-1.900000" end_y="-0.400000" angle="0.000000"/>
+   <segment end_x="-1.900000" end_y="-1.016000" angle="0.000000"/>
+  </polygon>
+  <text x="2.540000" y="0.000000" height="2.540000" h_align="left" v_align="bottom" rotation="0.000000" layer="20">${SYM::NAME}</text>
+  <text x="2.540000" y="0.000000" height="2.540000" h_align="left" v_align="top" rotation="0.000000" layer="21">${CMP::VALUE}</text>
+ </geometry>
+</symbol>

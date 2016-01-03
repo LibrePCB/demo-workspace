@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>dd6f1ca8-7222-41d5-be2f-2ed4b4e17213</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <name locale="en_US">DIODE_2SCHOTTKY-</name>
+  <description locale="en_US">Dual &lt;B>SCHOTTKY DIODE&lt;/B>&lt;p>
+common cathode
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: DIODE_2SCHOTTKY-
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="dbaea8d9-cc6f-4679-a89c-6c74e12cec6a" clock="false" role="passive">A1</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="c83a5965-2c3f-40a3-b921-9c9257105a0e" clock="false" role="passive">A2</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="7f593ae8-d0dc-4597-9671-4384b57dd1eb" clock="false" role="passive">C</signal>
+ </signals>
+ <symbol_variants default="ec403d36-dd69-4783-b269-6dcce7e6af53">
+  <variant norm="" uuid="ec403d36-dd69-4783-b269-6dcce7e6af53">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="7b0300a4-0a6c-44fc-8680-e9fa99c05880" suffix="-B1" symbol="ef47f640-bc59-44c2-b2c4-ca53f075d392">
+     <pin_signal_map>
+      <map display="component_signal" pin="3bb212ed-c465-44f6-9435-ac6a11895a5c">7f593ae8-d0dc-4597-9671-4384b57dd1eb</map>
+      <map display="component_signal" pin="ba59f65f-ab4a-4fb4-9af2-989b4f65808f">c83a5965-2c3f-40a3-b921-9c9257105a0e</map>
+      <map display="component_signal" pin="cb551ac5-c8fc-4a3b-99bc-080295d20ba8">dbaea8d9-cc6f-4679-a89c-6c74e12cec6a</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

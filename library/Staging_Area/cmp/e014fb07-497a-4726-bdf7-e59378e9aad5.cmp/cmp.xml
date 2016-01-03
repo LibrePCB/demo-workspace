@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>e014fb07-497a-4726-bdf7-e59378e9aad5</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <name locale="en_US">SRP100</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: SRP100
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="4695a418-9765-4274-aaf7-de1a0ee3c76e" clock="false" role="passive">A</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="7c921958-59b9-44bc-a660-db273f08192d" clock="false" role="passive">C</signal>
+ </signals>
+ <symbol_variants default="09569e0d-d224-4321-80ac-796c6ccbba79">
+  <variant norm="" uuid="09569e0d-d224-4321-80ac-796c6ccbba79">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="c72ae460-dfb9-42cc-9bfe-de4e1d61d51a" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279">
+     <pin_signal_map>
+      <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">7c921958-59b9-44bc-a660-db273f08192d</map>
+      <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">4695a418-9765-4274-aaf7-de1a0ee3c76e</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

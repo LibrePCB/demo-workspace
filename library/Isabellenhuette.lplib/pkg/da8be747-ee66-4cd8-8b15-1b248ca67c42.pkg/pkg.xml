@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>da8be747-ee66-4cd8-8b15-1b248ca67c42</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-21T13:28:18Z</created>
+  <last_modified>2015-12-21T13:28:18Z</last_modified>
+  <name locale="en_US">SMV</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: isabellen.lbr
+Name: SMV
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="0a2a1ade-0491-43d9-92df-707a2a63c3cf">U1</pad>
+  <pad uuid="16356546-e767-476b-80dc-c96a64e97a13">U2</pad>
+  <pad uuid="40a04984-146f-4809-a263-005872d93b1d">I1</pad>
+  <pad uuid="febe955d-a35d-4e4a-aa70-54804dd3ef1d">I2</pad>
+ </pads>
+ <footprints default="20a7294a-5667-4a17-b191-a20b718f7331">
+  <footprint uuid="20a7294a-5667-4a17-b191-a20b718f7331">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="-1.300000" start_y="2.994200" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="-1.300000" end_y="4.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-1.300000" start_y="4.400000" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="-0.400000" end_y="4.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-0.400000" start_y="2.994200" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="-0.400000" end_y="4.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="1.300000" start_y="-2.994200" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="1.300000" end_y="-4.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="1.300000" start_y="-4.400000" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="0.400000" end_y="-4.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="0.400000" start_y="-2.994200" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="0.400000" end_y="-4.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-5.900000" start_y="-2.400000" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="-5.900000" end_y="2.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-5.900000" start_y="2.400000" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="-4.940000" end_y="2.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="4.940000" start_y="2.400000" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="5.900000" end_y="2.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="5.900000" start_y="2.400000" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="5.900000" end_y="-2.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="5.900000" start_y="-2.400000" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="4.940000" end_y="-2.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-4.965400" start_y="-2.400000" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="-5.900000" end_y="-2.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-4.900000" start_y="2.900000" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="-4.900000" end_y="-2.900000" angle="0.000000"/>
+     <segment end_x="4.900000" end_y="-2.900000" angle="0.000000"/>
+     <segment end_x="4.900000" end_y="2.900000" angle="0.000000"/>
+     <segment end_x="-4.900000" end_y="2.900000" angle="0.000000"/>
+    </polygon>
+    <text x="-3.175000" y="0.635000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-3.175000" y="-1.905000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="0.889000" y="-4.207000" rotation="0.000000" side="top" height="1.500000" uuid="0a2a1ade-0491-43d9-92df-707a2a63c3cf" width="1.800000" technology="smt"/>
+    <pad x="-0.889000" y="4.207000" rotation="0.000000" side="top" height="1.500000" uuid="16356546-e767-476b-80dc-c96a64e97a13" width="1.800000" technology="smt"/>
+    <pad x="5.003800" y="0.000000" rotation="0.000000" side="top" height="5.800000" uuid="40a04984-146f-4809-a263-005872d93b1d" width="2.800000" technology="smt"/>
+    <pad x="-5.003800" y="0.000000" rotation="0.000000" side="top" height="5.800000" uuid="febe955d-a35d-4e4a-aa70-54804dd3ef1d" width="2.800000" technology="smt"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

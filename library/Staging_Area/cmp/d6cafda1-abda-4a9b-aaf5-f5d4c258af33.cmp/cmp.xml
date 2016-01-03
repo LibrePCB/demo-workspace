@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>d6cafda1-abda-4a9b-aaf5-f5d4c258af33</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <name locale="en_US">BYV96</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+fast soft-recovery controlled avalanche rectifier
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: BYV96
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="56c8f4eb-6894-4df8-bd17-535c0bf50eb6" clock="false" role="passive">A</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="eeb82260-d5ab-4cd5-ab6c-232cb0a68f32" clock="false" role="passive">C</signal>
+ </signals>
+ <symbol_variants default="f3ffea7e-36e7-4493-8a24-9a93c6cf4687">
+  <variant norm="" uuid="f3ffea7e-36e7-4493-8a24-9a93c6cf4687">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="653f57f7-5b01-45be-9551-17ec9ac540cb" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279">
+     <pin_signal_map>
+      <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">eeb82260-d5ab-4cd5-ab6c-232cb0a68f32</map>
+      <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">56c8f4eb-6894-4df8-bd17-535c0bf50eb6</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

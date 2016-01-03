@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>5d953e71-fbd7-40f6-a609-850bdc2599bf</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:47Z</created>
+  <last_modified>2015-12-20T22:10:47Z</last_modified>
+  <name locale="en_US">TT5D7</name>
+  <description locale="en_US">&lt;b>ELECTROLYTIC CAPACITOR&lt;/b>&lt;p>
+diameter 7 mm, grid 5.08 mm
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: TT5D7
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="1ec1070d-5499-4f0e-92e9-0d0e10265609">-</pad>
+  <pad uuid="be77e5f5-ff7b-473f-88ef-f67716c93886">+</pad>
+ </pads>
+ <footprints default="669161aa-d3f3-447e-93fe-477f7100e83c">
+  <footprint uuid="669161aa-d3f3-447e-93fe-477f7100e83c">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="-1.524000" start_y="0.000000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="-0.635000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-0.635000" start_y="0.000000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="-0.635000" end_y="-1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-0.635000" start_y="-1.270000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="-0.127000" end_y="-1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-0.127000" start_y="-1.270000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="-0.127000" end_y="1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-0.127000" start_y="1.270000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="-0.635000" end_y="1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-0.635000" start_y="1.270000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="-0.635000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="0.635000" start_y="0.000000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="1.524000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-2.286000" start_y="1.524000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="-1.270000" end_y="1.524000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-1.778000" start_y="1.016000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="-1.778000" end_y="2.032000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="0.254000" start_y="-1.270000" layer="260" width="0.000000" grab_area="true">
+     <segment end_x="0.762000" end_y="-1.270000" angle="0.000000"/>
+     <segment end_x="0.762000" end_y="1.270000" angle="0.000000"/>
+     <segment end_x="0.254000" end_y="1.270000" angle="0.000000"/>
+     <segment end_x="0.254000" end_y="-1.270000" angle="0.000000"/>
+    </polygon>
+    <text x="3.302000" y="2.032000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="3.175000" y="-3.175000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <text x="0.635000" y="-2.667000" rotation="0.000000" layer="260" h_align="left" height="1.981200" v_align="bottom">TT</text>
+    <ellipse fill="false" x="0.000000" radius_x="3.556000" y="0.000000" radius_y="3.556000" rotation="0.000000" layer="260" width="0.152400" grab_area="true"/>
+    <pad x="2.540000" y="0.000000" shape="octagon" drill="0.812800" rotation="0.000000" height="1.625600" uuid="1ec1070d-5499-4f0e-92e9-0d0e10265609" width="1.625600" technology="tht"/>
+    <pad x="-2.540000" y="0.000000" shape="round" drill="0.812800" rotation="0.000000" height="1.625600" uuid="be77e5f5-ff7b-473f-88ef-f67716c93886" width="1.625600" technology="tht"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

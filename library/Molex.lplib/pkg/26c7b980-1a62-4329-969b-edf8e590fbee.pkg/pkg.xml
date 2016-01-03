@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>26c7b980-1a62-4329-969b-edf8e590fbee</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-21T13:40:32Z</created>
+  <last_modified>2015-12-21T13:40:32Z</last_modified>
+  <name locale="en_US">53047-08</name>
+  <description locale="en_US">&lt;b>CONNECTOR&lt;/b>&lt;p>
+wire to board 1.25 mm (.049 inch) pitch header&lt;p>
+straight&lt;br>
+Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf
+
+This element was automatically imported from Eagle
+Filepath: con-molex.lbr
+Name: 53047-08
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="0028c255-b31f-4896-8d12-8be97c57e698">4</pad>
+  <pad uuid="7d9d0427-1147-4a76-8c3d-26e93618240c">6</pad>
+  <pad uuid="8f1955ad-821d-44c7-90de-c7d9341b5835">8</pad>
+  <pad uuid="977c3e06-d684-4211-973a-2c1a200e10e0">2</pad>
+  <pad uuid="9d32fbe0-d3cd-4af1-89e7-0e65cc8534b1">1</pad>
+  <pad uuid="c34121d6-806b-4910-88c9-ee61c1652d11">5</pad>
+  <pad uuid="c81db177-8a9e-44d8-b2de-1c93d0196cd0">7</pad>
+  <pad uuid="f54d83c6-4ce9-4abf-9a09-d6dba7d544fa">3</pad>
+ </pads>
+ <footprints default="079ffad0-f6bc-450f-a012-c8603c44e48c">
+  <footprint uuid="079ffad0-f6bc-450f-a012-c8603c44e48c">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="-5.750000" start_y="-0.250000" layer="260" width="0.050800" grab_area="true">
+     <segment end_x="-5.375000" end_y="-0.250000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-5.375000" start_y="-0.250000" layer="260" width="0.050800" grab_area="true">
+     <segment end_x="-5.375000" end_y="-1.250000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="5.375000" start_y="-0.250000" layer="260" width="0.050800" grab_area="true">
+     <segment end_x="5.750000" end_y="-0.250000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="5.375000" start_y="-0.250000" layer="260" width="0.050800" grab_area="true">
+     <segment end_x="5.375000" end_y="-1.250000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-5.750000" start_y="0.375000" layer="260" width="0.050800" grab_area="true">
+     <segment end_x="-5.375000" end_y="0.375000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="5.375000" start_y="0.375000" layer="260" width="0.050800" grab_area="true">
+     <segment end_x="5.750000" end_y="0.375000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-5.375000" start_y="0.375000" layer="260" width="0.050800" grab_area="true">
+     <segment end_x="-5.375000" end_y="1.125000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-5.375000" start_y="1.125000" layer="260" width="0.050800" grab_area="true">
+     <segment end_x="5.375000" end_y="1.125000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="5.375000" start_y="1.125000" layer="260" width="0.050800" grab_area="true">
+     <segment end_x="5.375000" end_y="0.375000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="5.375000" start_y="1.125000" layer="260" width="0.050800" grab_area="true">
+     <segment end_x="5.625000" end_y="1.375000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-5.375000" start_y="1.125000" layer="260" width="0.050800" grab_area="true">
+     <segment end_x="-5.625000" end_y="1.375000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="-5.750000" start_y="-1.500000" layer="260" width="0.000000" grab_area="true">
+     <segment end_x="5.750000" end_y="-1.500000" angle="0.000000"/>
+     <segment end_x="5.750000" end_y="-1.125000" angle="0.000000"/>
+     <segment end_x="-5.750000" end_y="-1.125000" angle="0.000000"/>
+     <segment end_x="-5.750000" end_y="-1.500000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="5.775000" start_y="-1.500000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="5.775000" end_y="1.500000" angle="0.000000"/>
+     <segment end_x="-5.775000" end_y="1.500000" angle="0.000000"/>
+     <segment end_x="-5.775000" end_y="-1.500000" angle="0.000000"/>
+     <segment end_x="5.775000" end_y="-1.500000" angle="0.000000"/>
+    </polygon>
+    <text x="-5.625000" y="1.750000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="1.125000" y="1.750000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="0.625000" y="0.450000" shape="round" drill="0.500000" rotation="90.000000" height="0.698400" uuid="0028c255-b31f-4896-8d12-8be97c57e698" width="1.396800" technology="tht"/>
+    <pad x="-1.875000" y="0.450000" shape="round" drill="0.500000" rotation="90.000000" height="0.698400" uuid="7d9d0427-1147-4a76-8c3d-26e93618240c" width="1.396800" technology="tht"/>
+    <pad x="-4.375000" y="0.450000" shape="round" drill="0.500000" rotation="90.000000" height="0.698400" uuid="8f1955ad-821d-44c7-90de-c7d9341b5835" width="1.396800" technology="tht"/>
+    <pad x="3.125000" y="0.450000" shape="round" drill="0.500000" rotation="90.000000" height="0.698400" uuid="977c3e06-d684-4211-973a-2c1a200e10e0" width="1.396800" technology="tht"/>
+    <pad x="4.375000" y="0.450000" shape="round" drill="0.500000" rotation="90.000000" height="0.698400" uuid="9d32fbe0-d3cd-4af1-89e7-0e65cc8534b1" width="1.396800" technology="tht"/>
+    <pad x="-0.625000" y="0.450000" shape="round" drill="0.500000" rotation="90.000000" height="0.698400" uuid="c34121d6-806b-4910-88c9-ee61c1652d11" width="1.396800" technology="tht"/>
+    <pad x="-3.125000" y="0.450000" shape="round" drill="0.500000" rotation="90.000000" height="0.698400" uuid="c81db177-8a9e-44d8-b2de-1c93d0196cd0" width="1.396800" technology="tht"/>
+    <pad x="1.875000" y="0.450000" shape="round" drill="0.500000" rotation="90.000000" height="0.698400" uuid="f54d83c6-4ce9-4abf-9a09-d6dba7d544fa" width="1.396800" technology="tht"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

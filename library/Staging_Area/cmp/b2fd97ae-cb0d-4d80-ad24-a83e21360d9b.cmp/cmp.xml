@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>b2fd97ae-cb0d-4d80-ad24-a83e21360d9b</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <name locale="en_US">MF_</name>
+  <description locale="en_US">&lt;b>CRYSTAL FILTERS&lt;/b>&lt;p>
+Source: http://www.presto.co.uk
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: MF_
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">QF</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="9da894ea-39cb-46dd-9cbc-f8a995b0a593" clock="false" role="passive">1</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="2130af63-5935-4b20-b704-31aac32eddda" clock="false" role="passive">2</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="e5870025-c1a8-4d9b-94a5-cfa0041af592" clock="false" role="passive">3</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="19892a62-9f2e-4601-a85f-ad33cf7309b6" clock="false" role="passive">4</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="8d002610-6d7e-4276-b918-87879208ac57" clock="false" role="passive">S</signal>
+ </signals>
+ <symbol_variants default="ded3f8af-0856-46fa-910a-90d21ff9ca64">
+  <variant norm="" uuid="ded3f8af-0856-46fa-910a-90d21ff9ca64">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="9bdcc178-86be-43a5-9bb8-1e524b9b16b1" suffix="" symbol="201f2252-819c-4a1a-9caf-7c9dbec58b1d">
+     <pin_signal_map>
+      <map display="component_signal" pin="b2134a90-4701-4550-9753-dc816d453078">8d002610-6d7e-4276-b918-87879208ac57</map>
+      <map display="component_signal" pin="c0d2dc4b-379b-4ca5-b082-f07430aec34b">19892a62-9f2e-4601-a85f-ad33cf7309b6</map>
+      <map display="component_signal" pin="c571343d-0864-49c5-b50c-fc87aad016d6">9da894ea-39cb-46dd-9cbc-f8a995b0a593</map>
+      <map display="component_signal" pin="d54041e0-a3ed-479f-9513-5a564cb8c845">e5870025-c1a8-4d9b-94a5-cfa0041af592</map>
+      <map display="component_signal" pin="e90e5283-3be6-403a-97e0-bd5c12624824">2130af63-5935-4b20-b704-31aac32eddda</map>
+      <map display="component_signal" pin="f2643e59-10ec-486d-b19b-ae746f70a9a8">8d002610-6d7e-4276-b918-87879208ac57</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

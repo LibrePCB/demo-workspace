@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>d3db5ecc-91a4-4b1c-8d74-b837ec7a6d4e</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-21T13:40:33Z</created>
+  <last_modified>2015-12-21T13:40:33Z</last_modified>
+  <name locale="en_US">22-23-2061</name>
+  <description locale="en_US">.100" (2.54mm) Center Header - 6 Pin
+
+This element was automatically imported from Eagle
+Filepath: con-molex.lbr
+Name: 22-23-2061
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="06c78592-2e5a-4d89-8876-166dbbfffd59">4</pad>
+  <pad uuid="5eba61fc-d4db-4da6-b6c7-1c7b42fc6844">3</pad>
+  <pad uuid="8028f83a-04c2-4aab-9b10-9dcb5b8adca1">1</pad>
+  <pad uuid="92bf3cb7-79d1-4a51-b0e2-c54d10770c92">2</pad>
+  <pad uuid="9b19d831-ba2f-4050-8400-264c01fd4d1b">5</pad>
+  <pad uuid="c3c83929-defc-4163-858c-bbb56dda2f4b">6</pad>
+ </pads>
+ <footprints default="1bb0d019-674f-4b1f-a2aa-8e859ebcfe0a">
+  <footprint uuid="1bb0d019-674f-4b1f-a2aa-8e859ebcfe0a">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="-7.620000" start_y="3.175000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="7.620000" end_y="3.175000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="7.620000" start_y="3.175000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="7.620000" end_y="1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="7.620000" start_y="1.270000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="7.620000" end_y="-3.175000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="7.620000" start_y="-3.175000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="-7.620000" end_y="-3.175000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-7.620000" start_y="-3.175000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="-7.620000" end_y="1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-7.620000" start_y="1.270000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="-7.620000" end_y="3.175000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-7.620000" start_y="1.270000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="7.620000" end_y="1.270000" angle="0.000000"/>
+    </polygon>
+    <text x="-7.620000" y="3.810000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-7.620000" y="-5.080000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="1.270000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="06c78592-2e5a-4d89-8876-166dbbfffd59" width="4.000000" technology="tht"/>
+    <pad x="-1.270000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="5eba61fc-d4db-4da6-b6c7-1c7b42fc6844" width="4.000000" technology="tht"/>
+    <pad x="-6.350000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="8028f83a-04c2-4aab-9b10-9dcb5b8adca1" width="4.000000" technology="tht"/>
+    <pad x="-3.810000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="92bf3cb7-79d1-4a51-b0e2-c54d10770c92" width="4.000000" technology="tht"/>
+    <pad x="3.810000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="9b19d831-ba2f-4050-8400-264c01fd4d1b" width="4.000000" technology="tht"/>
+    <pad x="6.350000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="c3c83929-defc-4163-858c-bbb56dda2f4b" width="4.000000" technology="tht"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

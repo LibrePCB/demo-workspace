@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol version="0">
+ <meta>
+  <uuid>3d077a0c-9523-46fb-9afc-cd44d1f197ab</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:33Z</created>
+  <last_modified>2015-12-20T22:10:33Z</last_modified>
+  <name locale="en_US">R</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: isabellen.lbr
+Name: R
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pins>
+  <pin x="5.080000" y="0.000000" length="2.540000" uuid="1779c9ef-c47c-46f8-a983-464bad8d18d4" rotation="180.000000">1</pin>
+  <pin x="-5.080000" y="0.000000" length="2.540000" uuid="3dd63044-7022-44c6-95cb-3f4205c67f1c" rotation="0.000000">2</pin>
+ </pins>
+ <geometry>
+  <polygon start_y="-0.889000" fill="false" width="0.254000" grab_area="true" layer="10" start_x="-2.540000">
+   <segment end_x="-2.540000" end_y="0.889000" angle="0.000000"/>
+   <segment end_x="2.540000" end_y="0.889000" angle="0.000000"/>
+   <segment end_x="2.540000" end_y="-0.889000" angle="0.000000"/>
+   <segment end_x="-2.540000" end_y="-0.889000" angle="0.000000"/>
+  </polygon>
+  <text x="-3.810000" y="1.371600" height="3.175000" h_align="left" v_align="bottom" rotation="0.000000" layer="20">${SYM::NAME}</text>
+  <text x="-3.810000" y="-2.921000" height="2.500000" h_align="left" v_align="bottom" rotation="0.000000" layer="21">${CMP::VALUE}</text>
+ </geometry>
+</symbol>

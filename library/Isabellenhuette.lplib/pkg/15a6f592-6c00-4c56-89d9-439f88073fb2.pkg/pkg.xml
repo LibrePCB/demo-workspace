@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>15a6f592-6c00-4c56-89d9-439f88073fb2</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-21T13:28:18Z</created>
+  <last_modified>2015-12-21T13:28:18Z</last_modified>
+  <name locale="en_US">SMK</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: isabellen.lbr
+Name: SMK
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="598ae543-3f62-4b9c-8a43-ae0c39112a12">1</pad>
+  <pad uuid="920a8be0-72a5-4a2f-a438-82105c8569da">2</pad>
+ </pads>
+ <footprints default="e115eed0-96e6-4d73-9f9b-b4c7b48d557c">
+  <footprint uuid="e115eed0-96e6-4d73-9f9b-b4c7b48d557c">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="1.400000" start_y="-0.650000" layer="200" width="0.200000" grab_area="true">
+     <segment end_x="1.400000" end_y="0.650000" angle="0.000000"/>
+     <segment end_x="-1.400000" end_y="0.650000" angle="0.000000"/>
+     <segment end_x="-1.400000" end_y="-0.650000" angle="0.000000"/>
+     <segment end_x="1.400000" end_y="-0.650000" angle="0.000000"/>
+    </polygon>
+    <text x="-2.692400" y="1.066800" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-2.692400" y="-2.336800" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="1.524000" y="0.000000" rotation="0.000000" side="top" height="2.000000" uuid="598ae543-3f62-4b9c-8a43-ae0c39112a12" width="2.500000" technology="smt"/>
+    <pad x="-1.524000" y="0.000000" rotation="0.000000" side="top" height="2.000000" uuid="920a8be0-72a5-4a2f-a438-82105c8569da" width="2.500000" technology="smt"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

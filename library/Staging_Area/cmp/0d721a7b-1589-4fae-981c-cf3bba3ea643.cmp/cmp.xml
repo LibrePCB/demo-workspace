@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>0d721a7b-1589-4fae-981c-cf3bba3ea643</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <name locale="en_US">RG1</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: RG1
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="03f58681-af80-443b-b480-62cbd9ba246f" clock="false" role="passive">A</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="4b679548-58c2-4319-986d-9cafe7e21711" clock="false" role="passive">C</signal>
+ </signals>
+ <symbol_variants default="4620bcf9-c3d1-44ea-99ed-2231ae32d11b">
+  <variant norm="" uuid="4620bcf9-c3d1-44ea-99ed-2231ae32d11b">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="f0d48151-6e28-438b-82d7-3ba562c6d0db" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279">
+     <pin_signal_map>
+      <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">4b679548-58c2-4319-986d-9cafe7e21711</map>
+      <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">03f58681-af80-443b-b480-62cbd9ba246f</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

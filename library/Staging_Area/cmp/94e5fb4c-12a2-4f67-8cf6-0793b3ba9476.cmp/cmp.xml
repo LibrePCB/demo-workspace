@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>94e5fb4c-12a2-4f67-8cf6-0793b3ba9476</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <name locale="en_US">43160-*05</name>
+  <description locale="en_US">&lt;b>SDA-43160 Connector&lt;/b>&lt;p>
+Source: http://www.molex.com/pdm_docs/sd/431601306_sd.pdf
+
+This element was automatically imported from Eagle
+Filepath: con-molex.lbr
+Name: 43160-*05
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">X</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="60cbe674-70be-49aa-bf6b-4ebe4db6c97f" clock="false" role="passive">S</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="67ef13a3-a53b-41d0-9fec-2ec172f58710" clock="false" role="passive">S</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="ca0e0cb7-242c-48bb-9b77-2820607914be" clock="false" role="passive">S</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="d2acf115-2056-43e1-8e72-ddc73e56bb90" clock="false" role="passive">S</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="78b8c980-6067-4279-8f0d-09237f28bf69" clock="false" role="passive">S</signal>
+ </signals>
+ <symbol_variants default="857230de-18ad-4457-baad-00e3110def06">
+  <variant norm="" uuid="857230de-18ad-4457-baad-00e3110def06">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="d839a0dc-2bfa-496d-8f5f-abaced11f6d2" suffix="-1" symbol="de13cfaf-4ebe-47df-b55a-190a1bd35a02">
+     <pin_signal_map>
+      <map display="component_signal" pin="1c2c1832-2057-41f4-96ac-a0c08c7dc8ee">60cbe674-70be-49aa-bf6b-4ebe4db6c97f</map>
+      <map display="component_signal" pin="be996167-186d-4064-96d8-2ea695ee9fce">60cbe674-70be-49aa-bf6b-4ebe4db6c97f</map>
+     </pin_signal_map>
+    </item>
+    <item required="true" uuid="61f0be33-b081-400f-aef2-68db01e18a06" suffix="-2" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea">
+     <pin_signal_map>
+      <map display="component_signal" pin="0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9">67ef13a3-a53b-41d0-9fec-2ec172f58710</map>
+      <map display="component_signal" pin="39249903-f7b9-4a60-83ff-4af061a9d13d">67ef13a3-a53b-41d0-9fec-2ec172f58710</map>
+     </pin_signal_map>
+    </item>
+    <item required="true" uuid="f5a33833-d927-4389-a056-3c9fb03938ee" suffix="-3" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea">
+     <pin_signal_map>
+      <map display="component_signal" pin="0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9">ca0e0cb7-242c-48bb-9b77-2820607914be</map>
+      <map display="component_signal" pin="39249903-f7b9-4a60-83ff-4af061a9d13d">ca0e0cb7-242c-48bb-9b77-2820607914be</map>
+     </pin_signal_map>
+    </item>
+    <item required="true" uuid="829d4046-cc3f-48e8-9f47-51191abc5f10" suffix="-4" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea">
+     <pin_signal_map>
+      <map display="component_signal" pin="0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9">d2acf115-2056-43e1-8e72-ddc73e56bb90</map>
+      <map display="component_signal" pin="39249903-f7b9-4a60-83ff-4af061a9d13d">d2acf115-2056-43e1-8e72-ddc73e56bb90</map>
+     </pin_signal_map>
+    </item>
+    <item required="true" uuid="9fb29e91-63fe-42da-b57f-aa7ae6a14c4a" suffix="-5" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea">
+     <pin_signal_map>
+      <map display="component_signal" pin="0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9">78b8c980-6067-4279-8f0d-09237f28bf69</map>
+      <map display="component_signal" pin="39249903-f7b9-4a60-83ff-4af061a9d13d">78b8c980-6067-4279-8f0d-09237f28bf69</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>df1bb453-a34f-4eee-be12-fc693bdb38d4</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:54Z</created>
+  <last_modified>2015-12-20T22:10:54Z</last_modified>
+  <name locale="en_US">87832-06</name>
+  <description locale="en_US">&lt;b>Milli-Grid Header&lt;/b>&lt;p> 
+2.00mm (.079") Pitch
+
+This element was automatically imported from Eagle
+Filepath: con-molex.lbr
+Name: 87832-06
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">X</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="dad83967-7201-44ec-9f48-335561616b7c" clock="false" role="passive">1</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="0f1e1e2f-e746-4438-b6b3-b3197ad76c8c" clock="false" role="passive">2</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="72a606b4-5fa9-4e9e-a385-0ecca7cde429" clock="false" role="passive">3</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="53a41981-8b93-48c9-8ddf-611ed60aa174" clock="false" role="passive">4</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="9453773a-46d4-4aa7-8e2a-1fe20051f197" clock="false" role="passive">5</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="5276a8fb-0e32-409d-b629-14f75f437c9a" clock="false" role="passive">6</signal>
+ </signals>
+ <symbol_variants default="db7c6e04-837f-420e-b4d3-e16ecf8c8573">
+  <variant norm="" uuid="db7c6e04-837f-420e-b4d3-e16ecf8c8573">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="3827b45c-c745-4428-9a09-db126caf0f75" suffix="" symbol="51857bc6-0757-4181-bcd8-d342054fab04">
+     <pin_signal_map>
+      <map display="component_signal" pin="085d609b-ef38-408d-996b-2c11ed57cf58">5276a8fb-0e32-409d-b629-14f75f437c9a</map>
+      <map display="component_signal" pin="13436ead-0ec8-488e-b1da-b7478f3a5b5f">dad83967-7201-44ec-9f48-335561616b7c</map>
+      <map display="component_signal" pin="1c1c0c28-50b7-438e-af37-d4c16a6121ea">9453773a-46d4-4aa7-8e2a-1fe20051f197</map>
+      <map display="component_signal" pin="3db69966-3552-4092-899d-6c3651e55176">72a606b4-5fa9-4e9e-a385-0ecca7cde429</map>
+      <map display="component_signal" pin="3df0077a-d82a-4660-9707-c80cddeedc34">53a41981-8b93-48c9-8ddf-611ed60aa174</map>
+      <map display="component_signal" pin="e73f1374-ca29-4082-83df-b846f8b02892">0f1e1e2f-e746-4438-b6b3-b3197ad76c8c</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

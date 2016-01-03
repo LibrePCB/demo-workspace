@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>7429b59b-aead-407e-a5e1-6ad434c0dbd8</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:49Z</created>
+  <last_modified>2015-12-20T22:10:49Z</last_modified>
+  <name locale="en_US">VTA53</name>
+  <description locale="en_US">&lt;b>Bulk Metal® Foil Technology&lt;/b>, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements&lt;p>
+MIL SIZE RBR53&lt;br>
+Source: VISHAY .. vta56.pdf
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: VTA53
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="7ebdcaa7-c3be-4c4f-9dd0-1514bb13e4e0">2</pad>
+  <pad uuid="fbc43b57-433f-43bc-9052-fa361832081b">1</pad>
+ </pads>
+ <footprints default="f7ac1824-2613-4464-9bf5-174a5a11b6ab">
+  <footprint uuid="f7ac1824-2613-4464-9bf5-174a5a11b6ab">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="-12.065000" start_y="0.000000" layer="200" width="0.609600" grab_area="true">
+     <segment end_x="-10.795000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="9.897500" start_y="0.000000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="9.897500" end_y="4.700000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="9.897500" start_y="4.700000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="-9.897500" end_y="4.700000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-9.897500" start_y="4.700000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="-9.897500" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-9.897500" start_y="0.000000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="-9.897500" end_y="-4.675000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-9.897500" start_y="-4.675000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="9.897500" end_y="-4.675000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="9.897500" start_y="-4.675000" layer="260" width="0.152400" grab_area="true">
+     <segment end_x="9.897500" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="10.795000" start_y="0.000000" layer="200" width="0.609600" grab_area="true">
+     <segment end_x="12.065000" end_y="0.000000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="-10.795000" start_y="-0.304800" layer="260" width="0.000000" grab_area="true">
+     <segment end_x="-9.842500" end_y="-0.304800" angle="0.000000"/>
+     <segment end_x="-9.842500" end_y="0.304800" angle="0.000000"/>
+     <segment end_x="-10.795000" end_y="0.304800" angle="0.000000"/>
+     <segment end_x="-10.795000" end_y="-0.304800" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="9.842500" start_y="-0.304800" layer="260" width="0.000000" grab_area="true">
+     <segment end_x="10.795000" end_y="-0.304800" angle="0.000000"/>
+     <segment end_x="10.795000" end_y="0.304800" angle="0.000000"/>
+     <segment end_x="9.842500" end_y="0.304800" angle="0.000000"/>
+     <segment end_x="9.842500" end_y="-0.304800" angle="0.000000"/>
+    </polygon>
+    <text x="-3.810000" y="5.080000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-3.175000" y="-0.635000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="12.065000" y="0.000000" shape="octagon" drill="1.100000" rotation="0.000000" height="2.200000" uuid="7ebdcaa7-c3be-4c4f-9dd0-1514bb13e4e0" width="2.200000" technology="tht"/>
+    <pad x="-12.065000" y="0.000000" shape="octagon" drill="1.100000" rotation="0.000000" height="2.200000" uuid="fbc43b57-433f-43bc-9052-fa361832081b" width="2.200000" technology="tht"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

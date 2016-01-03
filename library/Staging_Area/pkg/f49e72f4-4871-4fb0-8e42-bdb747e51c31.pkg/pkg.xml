@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>f49e72f4-4871-4fb0-8e42-bdb747e51c31</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:50Z</created>
+  <last_modified>2015-12-20T22:10:50Z</last_modified>
+  <name locale="en_US">FOLIENKONDENSATOR_RM7.5_10X5.5</name>
+  <description locale="en_US">Folienkondensator
+
+Rastermass 7,5mm
+Aussenmasse 10x5,5mm
+Höhe 12mm
+
+This element was automatically imported from Eagle
+Filepath: 0_Standardbauteile.lbr
+Name: FOLIENKONDENSATOR_RM7.5_10X5.5
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="2699bfcd-3963-4f49-9551-824e38d07091">P$2</pad>
+  <pad uuid="d1ed6b39-8ae6-42bb-9a79-d716935da2c6">P$1</pad>
+ </pads>
+ <footprints default="60390245-ba32-4189-b53e-efa1fcdebf0f">
+  <footprint uuid="60390245-ba32-4189-b53e-efa1fcdebf0f">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="2.170000" start_y="2.730000" layer="260" width="0.127000" grab_area="true">
+     <segment end_x="2.920000" end_y="2.730000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="3.170000" start_y="2.730000" layer="260" width="0.127000" grab_area="true">
+     <segment end_x="3.920000" end_y="2.730000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="2.920000" start_y="3.230000" layer="260" width="0.127000" grab_area="true">
+     <segment end_x="2.920000" end_y="2.730000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="2.920000" start_y="2.730000" layer="260" width="0.127000" grab_area="true">
+     <segment end_x="2.920000" end_y="2.230000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="3.170000" start_y="3.230000" layer="260" width="0.127000" grab_area="true">
+     <segment end_x="3.170000" end_y="2.730000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="3.170000" start_y="2.730000" layer="260" width="0.127000" grab_area="true">
+     <segment end_x="3.170000" end_y="2.230000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="0.000000" start_y="5.500000" layer="260" width="0.127000" grab_area="true">
+     <segment end_x="0.000000" end_y="0.000000" angle="0.000000"/>
+     <segment end_x="10.000000" end_y="0.000000" angle="0.000000"/>
+     <segment end_x="10.000000" end_y="5.500000" angle="0.000000"/>
+     <segment end_x="0.000000" end_y="5.500000" angle="0.000000"/>
+    </polygon>
+    <text x="-0.080000" y="5.730000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="8.020000" y="3.080000" rotation="180.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="8.750000" y="2.750000" shape="rect" drill="0.800000" rotation="0.000000" height="1.600000" uuid="2699bfcd-3963-4f49-9551-824e38d07091" width="1.600000" technology="tht"/>
+    <pad x="1.250000" y="2.750000" shape="rect" drill="0.800000" rotation="0.000000" height="1.600000" uuid="d1ed6b39-8ae6-42bb-9a79-d716935da2c6" width="1.600000" technology="tht"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>b9e41cff-1a26-4238-ba95-2afbe8509eb2</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <name locale="en_US">BYT01</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+ultra fast
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: BYT01
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="d2ba4de1-1bd5-4c50-8e3b-e6a70f83be40" clock="false" role="passive">A</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="e19945b9-26c2-453d-a174-9b6c3a2217fa" clock="false" role="passive">C</signal>
+ </signals>
+ <symbol_variants default="09d77a2d-b423-48cb-9734-e2773a40ae70">
+  <variant norm="" uuid="09d77a2d-b423-48cb-9734-e2773a40ae70">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="6d12949d-4cb4-4682-8a46-6b3e3515b0b5" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279">
+     <pin_signal_map>
+      <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">e19945b9-26c2-453d-a174-9b6c3a2217fa</map>
+      <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">d2ba4de1-1bd5-4c50-8e3b-e6a70f83be40</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

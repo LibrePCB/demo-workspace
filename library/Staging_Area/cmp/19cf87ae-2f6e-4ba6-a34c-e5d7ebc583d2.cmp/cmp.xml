@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>19cf87ae-2f6e-4ba6-a34c-e5d7ebc583d2</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <name locale="en_US">BY203</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+Si, 2 kV, 0.25 A, 300 ns
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: BY203
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="6f0284a3-73d6-438e-a0b9-2714535288be" clock="false" role="passive">A</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="ca7981f2-5cfe-4d1c-bdec-76a504343401" clock="false" role="passive">C</signal>
+ </signals>
+ <symbol_variants default="b2c03c5a-1ba9-4ab8-a16a-c837ccb03256">
+  <variant norm="" uuid="b2c03c5a-1ba9-4ab8-a16a-c837ccb03256">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="420cef3e-0850-4827-9543-1c84cf1fcf31" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279">
+     <pin_signal_map>
+      <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">ca7981f2-5cfe-4d1c-bdec-76a504343401</map>
+      <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">6f0284a3-73d6-438e-a0b9-2714535288be</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

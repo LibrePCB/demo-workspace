@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol version="0">
+ <meta>
+  <uuid>3e5b79b5-a47b-486a-a0b6-e26fbb5416b5</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:33Z</created>
+  <last_modified>2015-12-20T22:10:33Z</last_modified>
+  <name locale="en_US">FOLIENKONDENSATOR</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: 0_Standardbauteile.lbr
+Name: FOLIENKONDENSATOR
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pins>
+  <pin x="0.000000" y="-2.540000" length="2.540000" uuid="0cf9b68e-68e9-42fc-8a04-8e9444d7b687" rotation="90.000000">2</pin>
+  <pin x="0.000000" y="5.080000" length="2.540000" uuid="a089d1a5-5767-4817-bd36-501f5fbcc1f3" rotation="270.000000">1</pin>
+ </pins>
+ <geometry>
+  <polygon start_y="2.540000" fill="false" width="0.152400" grab_area="true" layer="10" start_x="0.000000">
+   <segment end_x="0.000000" end_y="2.032000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="0.000000" fill="false" width="0.152400" grab_area="true" layer="10" start_x="0.000000">
+   <segment end_x="0.000000" end_y="0.508000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="0.508000" fill="true" width="0.000000" grab_area="true" layer="10" start_x="-2.032000">
+   <segment end_x="2.032000" end_y="0.508000" angle="0.000000"/>
+   <segment end_x="2.032000" end_y="1.016000" angle="0.000000"/>
+   <segment end_x="-2.032000" end_y="1.016000" angle="0.000000"/>
+   <segment end_x="-2.032000" end_y="0.508000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="1.524000" fill="true" width="0.000000" grab_area="true" layer="10" start_x="-2.032000">
+   <segment end_x="2.032000" end_y="1.524000" angle="0.000000"/>
+   <segment end_x="2.032000" end_y="2.032000" angle="0.000000"/>
+   <segment end_x="-2.032000" end_y="2.032000" angle="0.000000"/>
+   <segment end_x="-2.032000" end_y="1.524000" angle="0.000000"/>
+  </polygon>
+  <text x="1.524000" y="2.921000" height="3.175000" h_align="left" v_align="bottom" rotation="0.000000" layer="20">${SYM::NAME}</text>
+  <text x="1.524000" y="-2.159000" height="2.500000" h_align="left" v_align="bottom" rotation="0.000000" layer="21">${CMP::VALUE}</text>
+ </geometry>
+</symbol>

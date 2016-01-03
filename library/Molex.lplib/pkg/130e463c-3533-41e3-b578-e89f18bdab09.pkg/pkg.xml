@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>130e463c-3533-41e3-b578-e89f18bdab09</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-21T13:40:33Z</created>
+  <last_modified>2015-12-21T13:40:33Z</last_modified>
+  <name locale="en_US">22-23-2111</name>
+  <description locale="en_US">.100" (2.54mm) Center Header - 11 Pin
+
+This element was automatically imported from Eagle
+Filepath: con-molex.lbr
+Name: 22-23-2111
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="59af20b0-fa92-4e81-b1b9-c35891eb4ae9">8</pad>
+  <pad uuid="5f79d3df-b21e-4442-a998-3e8e665fd9ca">9</pad>
+  <pad uuid="868590b3-4634-41c4-b1ca-b50f63d7bdcf">1</pad>
+  <pad uuid="afe1a979-fe70-4c39-a87c-e531c050c395">7</pad>
+  <pad uuid="c129766f-7619-4402-b9a5-1cb047a45582">3</pad>
+  <pad uuid="d077b992-bd03-4cf2-ac05-465f1887f953">10</pad>
+  <pad uuid="d24334ed-f479-4fdc-b5f2-293ed67c5c9f">11</pad>
+  <pad uuid="d390e143-859d-4612-be18-87495298a9e5">6</pad>
+  <pad uuid="e660eaf7-d3e3-4755-b6ad-53adbc9c8f5e">4</pad>
+  <pad uuid="e7e958a4-f33c-41b4-9b82-987545281f06">2</pad>
+  <pad uuid="f3202818-1570-42db-8106-a3e993c78d46">5</pad>
+ </pads>
+ <footprints default="9fbcc687-184d-4da8-b528-605f1b0a7f2f">
+  <footprint uuid="9fbcc687-184d-4da8-b528-605f1b0a7f2f">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="-13.970000" start_y="3.175000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="13.970000" end_y="3.175000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="13.970000" start_y="3.175000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="13.970000" end_y="1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="13.970000" start_y="1.270000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="13.970000" end_y="-3.175000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="13.970000" start_y="-3.175000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="-13.970000" end_y="-3.175000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-13.970000" start_y="-3.175000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="-13.970000" end_y="1.270000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-13.970000" start_y="1.270000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="-13.970000" end_y="3.175000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-13.970000" start_y="1.270000" layer="260" width="0.254000" grab_area="true">
+     <segment end_x="13.970000" end_y="1.270000" angle="0.000000"/>
+    </polygon>
+    <text x="-13.970000" y="3.810000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-13.970000" y="-5.080000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="5.080000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="59af20b0-fa92-4e81-b1b9-c35891eb4ae9" width="4.000000" technology="tht"/>
+    <pad x="7.620000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="5f79d3df-b21e-4442-a998-3e8e665fd9ca" width="4.000000" technology="tht"/>
+    <pad x="-12.700000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="868590b3-4634-41c4-b1ca-b50f63d7bdcf" width="4.000000" technology="tht"/>
+    <pad x="2.540000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="afe1a979-fe70-4c39-a87c-e531c050c395" width="4.000000" technology="tht"/>
+    <pad x="-7.620000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="c129766f-7619-4402-b9a5-1cb047a45582" width="4.000000" technology="tht"/>
+    <pad x="10.160000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="d077b992-bd03-4cf2-ac05-465f1887f953" width="4.000000" technology="tht"/>
+    <pad x="12.700000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="d24334ed-f479-4fdc-b5f2-293ed67c5c9f" width="4.000000" technology="tht"/>
+    <pad x="0.000000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="d390e143-859d-4612-be18-87495298a9e5" width="4.000000" technology="tht"/>
+    <pad x="-5.080000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="e660eaf7-d3e3-4755-b6ad-53adbc9c8f5e" width="4.000000" technology="tht"/>
+    <pad x="-10.160000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="e7e958a4-f33c-41b4-9b82-987545281f06" width="4.000000" technology="tht"/>
+    <pad x="-2.540000" y="0.000000" shape="round" drill="1.000000" rotation="90.000000" height="2.000000" uuid="f3202818-1570-42db-8106-a3e993c78d46" width="4.000000" technology="tht"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

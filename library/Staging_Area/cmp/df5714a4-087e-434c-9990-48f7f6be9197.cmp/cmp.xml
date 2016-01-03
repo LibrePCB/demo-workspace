@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>df5714a4-087e-434c-9990-48f7f6be9197</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <name locale="en_US">BB112</name>
+  <description locale="en_US">Capacity &lt;b>DIODE&lt;/b>&lt;p>
+variable-capacitance diode
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: BB112
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="60d16253-3355-4a31-880a-6463cf2d170e" clock="false" role="passive">A</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="8dfe4b7b-f9f1-492d-9783-b502196a6ff7" clock="false" role="passive">C</signal>
+ </signals>
+ <symbol_variants default="c92f74c4-bd49-46e9-bda3-232621a36e99">
+  <variant norm="" uuid="c92f74c4-bd49-46e9-bda3-232621a36e99">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="61932869-1a5f-46d0-a6db-8aca077a4b22" suffix="1" symbol="6597da4b-0d3a-4002-8239-996dd850ce8b">
+     <pin_signal_map>
+      <map display="component_signal" pin="75817588-f9d3-4a6b-b9da-fcb12d072d4a">60d16253-3355-4a31-880a-6463cf2d170e</map>
+      <map display="component_signal" pin="7b8901fb-4d1b-424a-ba1b-59ab9cf948be">8dfe4b7b-f9f1-492d-9783-b502196a6ff7</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

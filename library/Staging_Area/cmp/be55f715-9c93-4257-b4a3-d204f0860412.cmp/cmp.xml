@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>be55f715-9c93-4257-b4a3-d204f0860412</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <name locale="en_US">PMLL4150</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+high speed
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: PMLL4150
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="70af8a4b-b3fb-4d68-b4d3-9a7078ad61cd" clock="false" role="passive">A</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="d700a4c8-a63e-4bca-9c32-4ea8ca0646d5" clock="false" role="passive">C</signal>
+ </signals>
+ <symbol_variants default="bd6e4fdd-aa2d-4705-b174-74ce8c4fed2f">
+  <variant norm="" uuid="bd6e4fdd-aa2d-4705-b174-74ce8c4fed2f">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="6f05bcc5-df83-4449-8dd0-dee899730fd9" suffix="" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279">
+     <pin_signal_map>
+      <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">d700a4c8-a63e-4bca-9c32-4ea8ca0646d5</map>
+      <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">70af8a4b-b3fb-4d68-b4d3-9a7078ad61cd</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

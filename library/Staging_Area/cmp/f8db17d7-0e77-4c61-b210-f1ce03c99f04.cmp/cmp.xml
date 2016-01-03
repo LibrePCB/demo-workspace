@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>f8db17d7-0e77-4c61-b210-f1ce03c99f04</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <name locale="en_US">XO-</name>
+  <description locale="en_US">&lt;b>CRYSTAL&lt;/b>
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: XO-
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">QG</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="0fd20573-f121-4985-8144-2d0f63964ba9" clock="false" role="passive">GND</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="1cba5d45-a53f-494e-82b8-9ad3224ef5b4" clock="false" role="passive">OUT</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="58dda0ec-82a7-4ec5-8842-42b0d99101c5" clock="false" role="passive">TS</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="5a236670-9c5d-4efe-a00c-821112a82b40" clock="false" role="passive">VCC</signal>
+ </signals>
+ <symbol_variants default="d26ab7e7-859f-4db0-a160-5f497eb21174">
+  <variant norm="" uuid="d26ab7e7-859f-4db0-a160-5f497eb21174">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="deb2f7b4-d58a-42ce-a9d6-0ecd37f8eceb" suffix="" symbol="0bdf3777-f39c-41f7-8e0c-7e385d6f5bbf">
+     <pin_signal_map>
+      <map display="component_signal" pin="5c26a6db-d6e3-458c-9ba1-cf48c9f92b97">5a236670-9c5d-4efe-a00c-821112a82b40</map>
+      <map display="component_signal" pin="c461416f-4233-41a5-b288-d8b526d04809">58dda0ec-82a7-4ec5-8842-42b0d99101c5</map>
+      <map display="component_signal" pin="d2e04381-89c1-4ff3-a8f2-ddae44f23637">0fd20573-f121-4985-8144-2d0f63964ba9</map>
+      <map display="component_signal" pin="dde72139-f3cf-4a42-aa34-63aad0e88bc9">1cba5d45-a53f-494e-82b8-9ad3224ef5b4</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

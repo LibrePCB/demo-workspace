@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>8672fad8-238d-4782-ae39-01427900aee6</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:57Z</created>
+  <last_modified>2015-12-20T22:10:57Z</last_modified>
+  <name locale="en_US">87758-0216</name>
+  <description locale="en_US">&lt;b>2 Pin - 2mm Dual Row Single Wafer, Vertical T/H HDR&lt;/b>&lt;p>
+Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf
+
+This element was automatically imported from Eagle
+Filepath: con-molex.lbr
+Name: 87758-0216
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">X</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="2dd92d11-fdc7-46b7-9a92-66fc55630fa6" clock="false" role="passive">S</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="9a61cbd5-28f6-4ba0-b913-7271318ee6c5" clock="false" role="passive">S</signal>
+ </signals>
+ <symbol_variants default="51040575-cc9f-401c-abb8-3b7908b1169f">
+  <variant norm="" uuid="51040575-cc9f-401c-abb8-3b7908b1169f">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="799ad562-5e5c-4ad3-a879-9e841790d849" suffix="-1" symbol="0a757ef4-781e-4f3c-aade-8a81ddaced49">
+     <pin_signal_map>
+      <map display="component_signal" pin="45616a4f-3a27-43fe-b63f-11ee8266a5d9">2dd92d11-fdc7-46b7-9a92-66fc55630fa6</map>
+     </pin_signal_map>
+    </item>
+    <item required="true" uuid="829de73f-5f8a-4e4f-8d5c-9122115b48d1" suffix="-2" symbol="0a757ef4-781e-4f3c-aade-8a81ddaced49">
+     <pin_signal_map>
+      <map display="component_signal" pin="45616a4f-3a27-43fe-b63f-11ee8266a5d9">9a61cbd5-28f6-4ba0-b913-7271318ee6c5</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

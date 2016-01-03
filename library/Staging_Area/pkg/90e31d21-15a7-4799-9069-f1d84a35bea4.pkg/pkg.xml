@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>90e31d21-15a7-4799-9069-f1d84a35bea4</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:48Z</created>
+  <last_modified>2015-12-20T22:10:48Z</last_modified>
+  <name locale="en_US">SANYO-OSCON_SMD_E12</name>
+  <description locale="en_US">&lt;b>SANYO OSCON Capacitor&lt;/b> SMD type with conductive polymer electrolyte&lt;p>
+Source: e_os_all.pdf
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: SANYO-OSCON_SMD_E12
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="2df9acde-ecd6-4027-a5cd-27684e4738aa">+</pad>
+  <pad uuid="58a9d10c-86bb-4e94-9560-2f3579e61a88">-</pad>
+ </pads>
+ <footprints default="e8faeb5f-472e-4a69-9a86-5c6059211243">
+  <footprint uuid="e8faeb5f-472e-4a69-9a86-5c6059211243">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="-4.050000" start_y="4.050000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="2.950000" end_y="4.050000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="2.950000" start_y="4.050000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="4.050000" end_y="2.950000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="4.050000" start_y="2.950000" layer="200" width="0.203200" grab_area="true">
+     <segment end_x="4.050000" end_y="-2.950000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="2.950000" start_y="-4.050000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="-4.050000" end_y="-4.050000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-4.050000" start_y="-4.050000" layer="200" width="0.203200" grab_area="true">
+     <segment end_x="-4.050000" end_y="4.050000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="4.050000" start_y="-2.950000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="2.950000" end_y="-4.050000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-2.600000" start_y="-2.750000" layer="200" width="0.203200" grab_area="true">
+     <segment end_x="-2.600000" end_y="2.750000" angle="0.000000"/>
+     <segment end_x="-3.850000" end_y="0.000000" angle="0.000000"/>
+     <segment end_x="-2.600000" end_y="-2.750000" angle="0.000000"/>
+    </polygon>
+    <text x="-3.810000" y="4.445000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-3.810000" y="-5.715000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <ellipse fill="false" x="0.000000" radius_x="3.850000" y="0.000000" radius_y="3.850000" rotation="0.000000" layer="200" width="0.203200" grab_area="true"/>
+    <pad x="3.500000" y="0.000000" rotation="0.000000" side="top" height="1.900000" uuid="2df9acde-ecd6-4027-a5cd-27684e4738aa" width="4.150000" technology="smt"/>
+    <pad x="-3.500000" y="0.000000" rotation="0.000000" side="top" height="1.900000" uuid="58a9d10c-86bb-4e94-9560-2f3579e61a88" width="4.150000" technology="smt"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

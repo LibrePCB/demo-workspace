@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>67918c32-377a-492f-991b-813e97166499</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:03Z</created>
+  <last_modified>2015-12-20T22:11:03Z</last_modified>
+  <name locale="en_US">WIDERSTÄNDE</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: 0_Standardbauteile.lbr
+Name: WIDERSTÄNDE
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">R</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="08a50ac3-6232-4ef5-be56-733fb7968070" clock="false" role="passive">1</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="91d05c56-1e94-487e-aae9-0658d57e7d97" clock="false" role="passive">2</signal>
+ </signals>
+ <symbol_variants default="ec59bfb8-de94-4997-94ba-a045bc36b71a">
+  <variant norm="" uuid="ec59bfb8-de94-4997-94ba-a045bc36b71a">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="ccb69dc7-4e6d-4633-b501-8f068d3506e1" suffix="" symbol="ca60a16a-c36f-4d29-8f44-c4bdc1e0be4b">
+     <pin_signal_map>
+      <map display="component_signal" pin="a910865f-c041-4124-98ba-026b870297f2">08a50ac3-6232-4ef5-be56-733fb7968070</map>
+      <map display="component_signal" pin="fb48052d-57f3-462f-b2b4-07b941de5f06">91d05c56-1e94-487e-aae9-0658d57e7d97</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

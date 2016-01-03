@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>d0a09149-d04c-46d8-911b-e709c5384f4e</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-21T13:28:18Z</created>
+  <last_modified>2015-12-21T13:28:18Z</last_modified>
+  <name locale="en_US">PMA-B</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: isabellen.lbr
+Name: PMA-B
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="7193095b-06ae-4a31-833d-c1413c1c8344">B</pad>
+  <pad uuid="7d114eda-8b0e-4e3a-9b98-d168090c7598">A</pad>
+  <pad uuid="c1b480a1-b365-46ee-863e-9bc3253ca215">SA</pad>
+  <pad uuid="f72ea0d7-1e30-45aa-b9f5-db5365026497">SB</pad>
+ </pads>
+ <footprints default="d3c40ef2-f097-46a5-8b92-753fd91521aa">
+  <footprint uuid="d3c40ef2-f097-46a5-8b92-753fd91521aa">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="4.876800" start_y="-2.895600" layer="260" width="0.200000" grab_area="true">
+     <segment end_x="4.876800" end_y="2.895600" angle="0.000000"/>
+     <segment end_x="-4.876800" end_y="2.895600" angle="0.000000"/>
+     <segment end_x="-4.876800" end_y="-2.895600" angle="0.000000"/>
+     <segment end_x="4.876800" end_y="-2.895600" angle="0.000000"/>
+    </polygon>
+    <text x="-0.355600" y="-2.590800" rotation="90.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="1.574800" y="-2.590800" rotation="90.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="-3.200400" y="-0.965200" rotation="0.000000" side="top" height="3.300000" uuid="7193095b-06ae-4a31-833d-c1413c1c8344" width="2.800000" technology="smt"/>
+    <pad x="3.200400" y="-0.965200" rotation="0.000000" side="top" height="3.300000" uuid="7d114eda-8b0e-4e3a-9b98-d168090c7598" width="2.800000" technology="smt"/>
+    <pad x="3.200400" y="1.828800" rotation="0.000000" side="top" height="1.600000" uuid="c1b480a1-b365-46ee-863e-9bc3253ca215" width="2.800000" technology="smt"/>
+    <pad x="-3.200400" y="1.828800" rotation="0.000000" side="top" height="1.600000" uuid="f72ea0d7-1e30-45aa-b9f5-db5365026497" width="2.800000" technology="smt"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

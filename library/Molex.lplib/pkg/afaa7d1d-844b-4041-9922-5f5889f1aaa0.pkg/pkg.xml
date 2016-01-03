@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package version="0">
+ <meta>
+  <uuid>afaa7d1d-844b-4041-9922-5f5889f1aaa0</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-21T13:40:36Z</created>
+  <last_modified>2015-12-21T13:40:36Z</last_modified>
+  <name locale="en_US">87758-0816</name>
+  <description locale="en_US">&lt;b>8 Pin - 2mm Dual Row Single Wafer, Vertical T/H HDR&lt;/b>&lt;p>
+Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf
+
+This element was automatically imported from Eagle
+Filepath: con-molex.lbr
+Name: 87758-0816
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="4fa288d0-526f-43b7-9c3e-2aa744ec1e37">6</pad>
+  <pad uuid="75f8e6d0-21a9-4dfa-b943-c351a031a5bb">4</pad>
+  <pad uuid="7774f255-b4f6-4875-9221-cca700e4d08c">1</pad>
+  <pad uuid="a750b8ae-ac34-4ae7-b75e-c6cbcfa5bb9f">5</pad>
+  <pad uuid="afabdc88-cd09-4e11-a406-c44e96b35982">7</pad>
+  <pad uuid="d7002c55-20e1-4c76-8d24-074480641efa">8</pad>
+  <pad uuid="ebdea0da-0b72-44a1-983f-771046d45b78">2</pad>
+  <pad uuid="f62d009a-ce6d-484a-aad9-0cea81daa1a0">3</pad>
+ </pads>
+ <footprints default="9322c9b6-fe5c-43a8-b9e4-f9ed00d6aadf">
+  <footprint uuid="9322c9b6-fe5c-43a8-b9e4-f9ed00d6aadf">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon fill="false" start_x="-3.850000" start_y="-1.900000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="3.850000" end_y="-1.900000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="3.850000" start_y="-1.900000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="3.850000" end_y="-0.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="3.850000" start_y="0.400000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="3.850000" end_y="1.900000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="3.850000" start_y="1.900000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="-3.850000" end_y="1.900000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-3.850000" start_y="1.900000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="-3.850000" end_y="0.400000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-3.850000" start_y="-0.400000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="-3.850000" end_y="-1.900000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="false" start_x="-3.850000" start_y="0.400000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="-3.850000" end_y="-0.400000" angle="-129.184564"/>
+    </polygon>
+    <polygon fill="false" start_x="3.850000" start_y="-0.400000" layer="260" width="0.203200" grab_area="true">
+     <segment end_x="3.850000" end_y="0.400000" angle="-129.184564"/>
+    </polygon>
+    <polygon fill="true" start_x="-3.250000" start_y="-1.250000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="-2.750000" end_y="-1.250000" angle="0.000000"/>
+     <segment end_x="-2.750000" end_y="-0.750000" angle="0.000000"/>
+     <segment end_x="-3.250000" end_y="-0.750000" angle="0.000000"/>
+     <segment end_x="-3.250000" end_y="-1.250000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="-3.250000" start_y="0.750000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="-2.750000" end_y="0.750000" angle="0.000000"/>
+     <segment end_x="-2.750000" end_y="1.250000" angle="0.000000"/>
+     <segment end_x="-3.250000" end_y="1.250000" angle="0.000000"/>
+     <segment end_x="-3.250000" end_y="0.750000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="-1.250000" start_y="-1.250000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="-0.750000" end_y="-1.250000" angle="0.000000"/>
+     <segment end_x="-0.750000" end_y="-0.750000" angle="0.000000"/>
+     <segment end_x="-1.250000" end_y="-0.750000" angle="0.000000"/>
+     <segment end_x="-1.250000" end_y="-1.250000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="-1.250000" start_y="0.750000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="-0.750000" end_y="0.750000" angle="0.000000"/>
+     <segment end_x="-0.750000" end_y="1.250000" angle="0.000000"/>
+     <segment end_x="-1.250000" end_y="1.250000" angle="0.000000"/>
+     <segment end_x="-1.250000" end_y="0.750000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="0.750000" start_y="-1.250000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="1.250000" end_y="-1.250000" angle="0.000000"/>
+     <segment end_x="1.250000" end_y="-0.750000" angle="0.000000"/>
+     <segment end_x="0.750000" end_y="-0.750000" angle="0.000000"/>
+     <segment end_x="0.750000" end_y="-1.250000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="0.750000" start_y="0.750000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="1.250000" end_y="0.750000" angle="0.000000"/>
+     <segment end_x="1.250000" end_y="1.250000" angle="0.000000"/>
+     <segment end_x="0.750000" end_y="1.250000" angle="0.000000"/>
+     <segment end_x="0.750000" end_y="0.750000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="2.750000" start_y="-1.250000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="3.250000" end_y="-1.250000" angle="0.000000"/>
+     <segment end_x="3.250000" end_y="-0.750000" angle="0.000000"/>
+     <segment end_x="2.750000" end_y="-0.750000" angle="0.000000"/>
+     <segment end_x="2.750000" end_y="-1.250000" angle="0.000000"/>
+    </polygon>
+    <polygon fill="true" start_x="2.750000" start_y="0.750000" layer="200" width="0.000000" grab_area="true">
+     <segment end_x="3.250000" end_y="0.750000" angle="0.000000"/>
+     <segment end_x="3.250000" end_y="1.250000" angle="0.000000"/>
+     <segment end_x="2.750000" end_y="1.250000" angle="0.000000"/>
+     <segment end_x="2.750000" end_y="0.750000" angle="0.000000"/>
+    </polygon>
+    <text x="-3.650000" y="-1.750000" rotation="0.000000" layer="260" h_align="left" height="0.609600" v_align="bottom">1</text>
+    <text x="-3.620000" y="-3.810000" rotation="0.000000" layer="240" h_align="left" height="2.500000" v_align="bottom">${CMP::NAME}</text>
+    <text x="-3.620000" y="2.540000" rotation="0.000000" layer="250" h_align="left" height="2.000000" v_align="bottom">${CMP::VALUE}</text>
+    <pad x="1.000000" y="1.000000" shape="round" drill="0.900000" rotation="0.000000" height="1.270000" uuid="4fa288d0-526f-43b7-9c3e-2aa744ec1e37" width="1.270000" technology="tht"/>
+    <pad x="-1.000000" y="1.000000" shape="round" drill="0.900000" rotation="0.000000" height="1.270000" uuid="75f8e6d0-21a9-4dfa-b943-c351a031a5bb" width="1.270000" technology="tht"/>
+    <pad x="-3.000000" y="-1.000000" shape="round" drill="0.900000" rotation="0.000000" height="1.270000" uuid="7774f255-b4f6-4875-9221-cca700e4d08c" width="1.270000" technology="tht"/>
+    <pad x="1.000000" y="-1.000000" shape="round" drill="0.900000" rotation="0.000000" height="1.270000" uuid="a750b8ae-ac34-4ae7-b75e-c6cbcfa5bb9f" width="1.270000" technology="tht"/>
+    <pad x="3.000000" y="-1.000000" shape="round" drill="0.900000" rotation="0.000000" height="1.270000" uuid="afabdc88-cd09-4e11-a406-c44e96b35982" width="1.270000" technology="tht"/>
+    <pad x="3.000000" y="1.000000" shape="round" drill="0.900000" rotation="0.000000" height="1.270000" uuid="d7002c55-20e1-4c76-8d24-074480641efa" width="1.270000" technology="tht"/>
+    <pad x="-3.000000" y="1.000000" shape="round" drill="0.900000" rotation="0.000000" height="1.270000" uuid="ebdea0da-0b72-44a1-983f-771046d45b78" width="1.270000" technology="tht"/>
+    <pad x="-1.000000" y="-1.000000" shape="round" drill="0.900000" rotation="0.000000" height="1.270000" uuid="f62d009a-ce6d-484a-aad9-0cea81daa1a0" width="1.270000" technology="tht"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

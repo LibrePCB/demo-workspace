@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- This file contains comments for documentation -->
+<device version="0">
+ <meta>
+  <uuid>00000000-0000-4001-8000-000000000000</uuid>
+  <version>1</version>
+  <author>LibrePCB</author>
+  <created>2013-04-13T12:43:52Z</created>
+  <last_modified>2013-04-20T18:01:33Z</last_modified>
+  <name locale="en_US">NE555P</name>
+  <description locale="en_US">blablabla...</description>
+  <keywords locale="en_US">comma,separated,list,of,keywords</keywords>
+  <category>00000000-0000-4001-8000-000000000000</category> <!-- component category UUID (add more <category> elements to specify multiple categories) -->
+  <component>00000000-0000-4001-8000-000000000000</component> <!-- UUID of the component of this device -->
+  <package>00000000-0000-4001-8000-000000000000</package> <!-- UUID of the package of this device -->
+  <default_footprint></default_footprint> <!-- UUID of the default footprint (which is defined in the package); if empty, the package's default footprint is used -->
+  <default_model3d></default_model3d> <!-- UUID of the default 3d model (which is defined in the package); if empty, the package's default 3d model is used -->
+  <datasheet></datasheet> <!-- HTTP URL to datasheet (empty string if not used) -->
+ </meta>
+ <pad_signal_map>
+  <!--
+    This list must contain every pad of the specified package! Attributes:
+      - pad:        The UUID of the package's pad
+      - node value: The UUID of the component's signal which should be connected to the specified pad (empty string = not connected)
+  -->
+  <map pad="c686d86d-35ac-4cb5-9528-cbe0e93a8183">71a44db9-5e42-405f-b6e4-b4725ae37af3</map>
+  <map pad="bef95b7e-91de-48d2-aa59-205bc29fcb8c">4e391ba5-949a-4f6e-83f4-ea382eed7e3a</map>
+  <map pad="fd51d02e-bc8b-4bdb-86b6-5100b11e2c63">a9d3d159-fca9-417e-8bba-13829caa6ae5</map>
+  <map pad="ec1de8a9-1bde-47ae-bae9-bcecb95dab97">da30b112-9ab0-4715-8a6a-9e5414169fd4</map>
+  <map pad="abe09fac-b418-4c85-8e66-b5d1303376c8">0077fd4c-4ff5-49c7-ac69-02fb7452f7e0</map>
+  <map pad="5ee9ae38-0117-431b-9256-f3639211e134">dc7b9d6e-d32e-4521-8a75-71003d2c2f56</map>
+  <map pad="b843dfe0-ab34-4a6c-b3a2-c443d2ed4fb3">af5ff768-2a2b-4f34-bae1-c3b6f02a82f4</map>
+  <map pad="10d65efd-982d-4649-8571-c44c4d9ae36b">21ac13f7-ebbd-494b-8a56-024c5b2ee95f</map>
+ </pad_signal_map>
+ <!-- <spice_models>
+   TODO
+ </spice_models> -->
+ <parts>
+  <!--
+    A list of all concrete parts of this device (parts you can order). Attributes:
+      - uuid:                 The UUID of the part
+      - manufacturer:         The manufacturer of the part
+      - part_number:          The manufacturer's part number of the part
+      - default_spice_model:  The default spice model UUID (defined above in this file) of this part. If empty, the default spice model of this device will be used.
+      - default_footprint:    The default footprint UUID (defined in the package) of this part. If empty, the default footprint of this device (defined above in this file) will be used.
+      - default_model3d:      The default 3D model UUID (defined in the package) of this part. If empty, the default 3D model of this device (defined above in this file) will be used.
+      - description:          Short description of the part (en_US; optional)
+      - datasheet:            HTTP URL to datasheet (empty string if not used)
+      
+    Child elements are used to define all order informations (supplier + part number) of the parts. Attributes:
+      - uuid:         The UUID of the part order information
+      - supplier:     The supplier's name
+      - packaging:    The packaging variant (unknown, bulk, cut_tape, digi_reel, tape_reel, tray, tube, custom); Add a <number> node for each different packaging variant of the part.
+      - node value:   The order number of the part
+  -->
+  <part uuid="c2af45f6-6d31-4f7d-b0ba-ac5d613955cc" manufacturer="Texas Instruments" part_number="NE555P" default_spice_model="" default_footprint="" default_model3d="" description="" datasheet="">
+   <number uuid="4b0b138c-eb9b-4dca-ad40-f20f965b64f8" supplier="DigiKey" packaging="tube">296-1411-5-ND</number>
+   <number uuid="7d182d29-e14e-4b04-b562-15026f18c5e0" supplier="Mouser" packaging="tube">595-NE555P</number>
+  </part>
+  <part uuid="de4e47e0-2f8b-4b95-97c0-1a1b13d08461" manufacturer="Texas Instruments" part_number="NE555PE4" default_spice_model="" default_footprint="" default_model3d="" description="" datasheet="">
+   <number uuid="a17cf1c5-47ce-4457-9b5e-c198af9091dc" supplier="DigiKey" packaging="tube">296-41585-5-ND</number>
+   <number uuid="0da3570a-1d1f-49d5-b0d0-553b145487d8" supplier="Mouser" packaging="tube">595-NE555PE4</number>
+  </part>
+ </parts>
+</device>

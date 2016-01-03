@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol version="0">
+ <meta>
+  <uuid>d20641b7-bc34-4008-bb60-a913b235e0fb</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:32Z</created>
+  <last_modified>2015-12-20T22:10:32Z</last_modified>
+  <name locale="en_US">CON-2X02</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: con-molex.lbr
+Name: CON-2X02
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pins>
+  <pin x="7.620000" y="0.000000" length="2.540000" uuid="483086db-de40-49d8-86ac-6ce3aa56b5f6" rotation="180.000000">2</pin>
+  <pin x="-5.080000" y="-2.540000" length="2.540000" uuid="84f171c8-a0b5-4cdb-98af-a57c354eec96" rotation="0.000000">3</pin>
+  <pin x="7.620000" y="-2.540000" length="2.540000" uuid="a36fea7e-8459-4140-b01a-f1c48f04fb4e" rotation="180.000000">4</pin>
+  <pin x="-5.080000" y="0.000000" length="2.540000" uuid="f86aaf6b-c4cc-4cc5-b4f2-652729e0434f" rotation="0.000000">1</pin>
+ </pins>
+ <geometry>
+  <polygon start_y="0.000000" fill="false" width="0.152400" grab_area="true" layer="10" start_x="-2.540000">
+   <segment end_x="-0.635000" end_y="0.000000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="-2.540000" fill="false" width="0.152400" grab_area="true" layer="10" start_x="-2.540000">
+   <segment end_x="-0.635000" end_y="-2.540000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="0.000000" fill="false" width="0.152400" grab_area="true" layer="10" start_x="5.080000">
+   <segment end_x="3.175000" end_y="0.000000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="-2.540000" fill="false" width="0.152400" grab_area="true" layer="10" start_x="5.080000">
+   <segment end_x="3.175000" end_y="-2.540000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="0.000000" fill="false" width="0.406400" grab_area="true" layer="10" start_x="-0.635000">
+   <segment end_x="0.635000" end_y="0.000000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="-2.540000" fill="false" width="0.406400" grab_area="true" layer="10" start_x="-0.635000">
+   <segment end_x="0.635000" end_y="-2.540000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="0.000000" fill="false" width="0.406400" grab_area="true" layer="10" start_x="1.905000">
+   <segment end_x="3.175000" end_y="0.000000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="-2.540000" fill="false" width="0.406400" grab_area="true" layer="10" start_x="1.905000">
+   <segment end_x="3.175000" end_y="-2.540000" angle="0.000000"/>
+  </polygon>
+  <polygon start_y="-3.810000" fill="false" width="0.254000" grab_area="true" layer="10" start_x="4.445000">
+   <segment end_x="4.445000" end_y="1.270000" angle="0.000000"/>
+   <segment end_x="-1.905000" end_y="1.270000" angle="0.000000"/>
+   <segment end_x="-1.905000" end_y="-3.810000" angle="0.000000"/>
+   <segment end_x="4.445000" end_y="-3.810000" angle="0.000000"/>
+  </polygon>
+  <text x="-1.905000" y="2.540000" height="3.175000" h_align="left" v_align="bottom" rotation="0.000000" layer="20">${SYM::NAME}</text>
+  <text x="-1.905000" y="-6.667500" height="2.500000" h_align="left" v_align="bottom" rotation="0.000000" layer="21">${CMP::VALUE}</text>
+ </geometry>
+</symbol>

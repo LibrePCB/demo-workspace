@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol version="0">
+ <meta>
+  <uuid>f00ab942-6980-442b-86a8-51b92de5704d</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-03-01T20:00:00Z</created>
+  <last_modified>2015-03-01T20:00:00Z</last_modified>
+  <name locale="en_US">A4 Frame Landscape</name>
+  <description locale="en_US"></description>
+  <keywords locale="en_US">frame</keywords>
+  <category>00000000-0000-4001-8000-000000000000</category>
+ </meta>
+ <pins/>
+ <geometry>
+  <polygon fill="false" width="0.600000" grab_area="false" start_x="0.000000" start_y="0.000000" layer="10">
+   <segment end_x="0.000000" end_y="190.000000" angle="0.000000"/>
+   <segment end_x="277.000000" end_y="190.000000" angle="0.000000"/>
+   <segment end_x="277.000000" end_y="0.000000" angle="0.000000"/>
+   <segment end_x="0.000000" end_y="0.000000" angle="0.000000"/>
+  </polygon>
+  <polygon fill="false" width="0.600000" grab_area="false" start_x="170.000000" start_y="0.000000" layer="10">
+   <segment end_x="170.000000" end_y="15.000000" angle="0.000000"/>
+   <segment end_x="277.000000" end_y="15.000000" angle="0.000000"/>
+  </polygon>
+  <polygon fill="false" width="0.600000" grab_area="false" start_x="240.000000" start_y="0.000000" layer="10">
+   <segment end_x="240.000000" end_y="15.000000" angle="0.000000"/>
+  </polygon>
+  <polygon fill="false" width="0.600000" grab_area="false" start_x="170.000000" start_y="5.000000" layer="10">
+   <segment end_x="277.000000" end_y="5.000000" angle="0.000000"/>
+  </polygon>
+  <polygon fill="false" width="0.600000" grab_area="false" start_x="240.000000" start_y="10.000000" layer="10">
+   <segment end_x="277.000000" end_y="10.000000" angle="0.000000"/>
+  </polygon>
+  <text v_align="center" rotation="0.000000" x="172.000000" y="10.000000" layer="10" height="8.000000" h_align="left">${PAGE::NAME}</text>
+  <text v_align="center" rotation="0.000000" x="172.000000" y="2.500000" layer="10" height="4.000000" h_align="left">${PRJ::NAME}</text>
+  <text v_align="center" rotation="0.000000" x="242.000000" y="12.500000" layer="10" height="4.000000" h_align="left">${PAGE::LAST_MODIFIED}</text>
+  <text v_align="center" rotation="0.000000" x="242.000000" y="7.500000" layer="10" height="4.000000" h_align="left">${PAGE::AUTHOR}</text>
+  <text v_align="center" rotation="0.000000" x="242.000000" y="2.500000" layer="10" height="4.000000" h_align="left">Page ${PAGE::NBR}/${PAGE::CNT}</text>
+ </geometry>
+</symbol>

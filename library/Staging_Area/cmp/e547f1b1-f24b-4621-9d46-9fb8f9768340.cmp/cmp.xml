@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component version="0">
+ <meta>
+  <uuid>e547f1b1-f24b-4621-9d46-9fb8f9768340</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <name locale="en_US">SG-615</name>
+  <description locale="en_US">&lt;b>SOJ HIGH-FREQUENCY CRYSTAL OSCILLATOR&lt;/b>&lt;p>
+Source: Crystal Oscillator SG-615%20Series.pdf
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: SG-615
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">QG</prefix>
+ </properties>
+ <signals>
+  <signal forced_net_name="" required="false" negated="false" uuid="9e25960a-82e2-4adc-803e-574d37ab1eb9" clock="false" role="passive">FO</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="fcefc1ef-f878-4c02-ad3e-1cf83660ba48" clock="false" role="passive">GND</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="ee70385f-2fcc-4d01-8adb-d6b2a6960497" clock="false" role="passive">OE</signal>
+  <signal forced_net_name="" required="false" negated="false" uuid="1c2dca89-265f-440a-aa88-250d6e580e49" clock="false" role="passive">VCC</signal>
+ </signals>
+ <symbol_variants default="916a7b60-a256-4c87-9185-d40c51321d66">
+  <variant norm="" uuid="916a7b60-a256-4c87-9185-d40c51321d66">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" uuid="05a17ab4-4c30-4095-9ec5-739ce43c5892" suffix="" symbol="e24e0a27-d7dc-43d5-8ca6-cef47a36f6ec">
+     <pin_signal_map>
+      <map display="component_signal" pin="19366e0b-bfc6-4b78-b509-815d6c6f0700">fcefc1ef-f878-4c02-ad3e-1cf83660ba48</map>
+      <map display="component_signal" pin="31ba3c4d-bd94-478f-9d9d-44c3a4873f01">1c2dca89-265f-440a-aa88-250d6e580e49</map>
+      <map display="component_signal" pin="604f3601-87d1-40be-98ee-7567fe90557f">9e25960a-82e2-4adc-803e-574d37ab1eb9</map>
+      <map display="component_signal" pin="dc5cf84f-31a3-49fb-aa13-19792c2247b4">ee70385f-2fcc-4d01-8adb-d6b2a6960497</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>
