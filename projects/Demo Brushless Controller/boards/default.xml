@@ -7,6 +7,45 @@
  <properties>
   <grid_properties type="off" interval="0.317500" unit="millimeters"/>
  </properties>
+ <layer_stack>
+  <layers>
+   <layer color_hl="#ffc0c0c0" visible="true" id="1" color="#ffffffff">Grid</layer>
+   <layer color_hl="#ffffff00" visible="true" id="3" color="#ff808000">Unrouted</layer>
+   <layer color_hl="#dcffffff" visible="true" id="10" color="#b4ffffff">Board Outlines</layer>
+   <layer color_hl="#dcffffff" visible="true" id="20" color="#96ffffff">Drills</layer>
+   <layer color_hl="#dc00ff00" visible="true" id="30" color="#9600ff00">Vias</layer>
+   <layer color_hl="#50ffff00" visible="false" id="40" color="#32ffff00">Via Restrict</layer>
+   <layer color_hl="#dc00ff00" visible="true" id="50" color="#9600ff00">THT Pads</layer>
+   <layer color_hl="#dce0e0e0" visible="true" id="200" color="#96e0e0e0">Top Device Outlines</layer>
+   <layer color_hl="#50ffffff" visible="true" id="201" color="#32ffffff">Top Device Origin Crosses</layer>
+   <layer color_hl="#32ffffff" visible="false" id="202" color="#14ffffff">Top Device Grab Areas</layer>
+   <layer color_hl="#dce0e0e0" visible="true" id="210" color="#96e0e0e0">Top Test Points</layer>
+   <layer color_hl="#78e0e0e0" visible="false" id="220" color="#64e0e0e0">Top Glue</layer>
+   <layer color_hl="#78e0e0e0" visible="false" id="230" color="#64e0e0e0">Top Paste</layer>
+   <layer color_hl="#dce0e0e0" visible="false" id="240" color="#96e0e0e0">Top Overlay Names</layer>
+   <layer color_hl="#dce0e0e0" visible="false" id="250" color="#96e0e0e0">Top Overlay Values</layer>
+   <layer color_hl="#dce0e0e0" visible="true" id="260" color="#96e0e0e0">Top Overlay</layer>
+   <layer color_hl="#96ff0000" visible="false" id="270" color="#64ff0000">Top Stop Mask</layer>
+   <layer color_hl="#50ffff00" visible="false" id="280" color="#32ffff00">Top Device Keepout</layer>
+   <layer color_hl="#50ffff00" visible="false" id="290" color="#32ffff00">Top Copper Restrict</layer>
+   <layer color_hl="#dcff0000" visible="true" id="300" color="#96ff0000">Top Copper</layer>
+   <layer color_hl="#dc0000ff" visible="true" id="400" color="#960000ff">Bottom Copper</layer>
+   <layer color_hl="#50ffff00" visible="false" id="410" color="#32ffff00">Bottom Copper Restrict</layer>
+   <layer color_hl="#50ffff00" visible="false" id="420" color="#32ffff00">Bottom Device Keepout</layer>
+   <layer color_hl="#96ff0000" visible="false" id="430" color="#64ff0000">Bottom Stop Mask</layer>
+   <layer color_hl="#dce0e0e0" visible="true" id="440" color="#96e0e0e0">Bottom Overlay</layer>
+   <layer color_hl="#dce0e0e0" visible="false" id="450" color="#96e0e0e0">Bottom Overlay Values</layer>
+   <layer color_hl="#dce0e0e0" visible="false" id="460" color="#96e0e0e0">Bottom Overlay Names</layer>
+   <layer color_hl="#78e0e0e0" visible="false" id="470" color="#64e0e0e0">Bottom Paste</layer>
+   <layer color_hl="#78e0e0e0" visible="false" id="480" color="#64e0e0e0">Bottom Glue</layer>
+   <layer color_hl="#dce0e0e0" visible="true" id="490" color="#96e0e0e0">Bottom Test Points</layer>
+   <layer color_hl="#32ffffff" visible="false" id="498" color="#14ffffff">Bottom Device Grab Areas</layer>
+   <layer color_hl="#50ffffff" visible="true" id="499" color="#32ffffff">Bottom Device Origin Crosses</layer>
+   <layer color_hl="#dce0e0e0" visible="true" id="500" color="#96e0e0e0">Bottom Device Outlines</layer>
+   <layer color_hl="#ffff0000" visible="false" id="900" color="#ff800000">[DEBUG] GraphicsItems Bounding Rects</layer>
+   <layer color_hl="#ffff0000" visible="false" id="901" color="#ff800000">[DEBUG] GraphicsItems Texts Bounding Rects</layer>
+  </layers>
+ </layer_stack>
  <device_instances>
   <device_instance device="b45ab168-2941-463d-9fbe-dfb4ed6cebfa" footprint="e2ecd2de-237c-4f0f-8a1d-085af7f88f4e" component_instance="0035f2f4-c0fe-4b64-8830-f4e8fd34d204">
    <footprint/>
