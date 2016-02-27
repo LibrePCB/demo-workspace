@@ -5,338 +5,437 @@
   <name>default</name>
  </meta>
  <properties>
-  <grid_properties type="off" interval="0.317500" unit="millimeters"/>
+  <grid_properties unit="millimeters" interval="0.158750" type="off"/>
  </properties>
  <layer_stack>
   <layers>
-   <layer color_hl="#ffc0c0c0" visible="true" id="1" color="#ffffffff">Grid</layer>
-   <layer color_hl="#ffffff00" visible="true" id="3" color="#ff808000">Unrouted</layer>
-   <layer color_hl="#dcffffff" visible="true" id="10" color="#b4ffffff">Board Outlines</layer>
-   <layer color_hl="#dcffffff" visible="true" id="20" color="#96ffffff">Drills</layer>
-   <layer color_hl="#dc00ff00" visible="true" id="30" color="#9600ff00">Vias</layer>
-   <layer color_hl="#50ffff00" visible="false" id="40" color="#32ffff00">Via Restrict</layer>
-   <layer color_hl="#dc00ff00" visible="true" id="50" color="#9600ff00">THT Pads</layer>
-   <layer color_hl="#dce0e0e0" visible="true" id="200" color="#96e0e0e0">Top Device Outlines</layer>
-   <layer color_hl="#50ffffff" visible="true" id="201" color="#32ffffff">Top Device Origin Crosses</layer>
-   <layer color_hl="#32ffffff" visible="false" id="202" color="#14ffffff">Top Device Grab Areas</layer>
-   <layer color_hl="#dce0e0e0" visible="true" id="210" color="#96e0e0e0">Top Test Points</layer>
-   <layer color_hl="#78e0e0e0" visible="false" id="220" color="#64e0e0e0">Top Glue</layer>
-   <layer color_hl="#78e0e0e0" visible="false" id="230" color="#64e0e0e0">Top Paste</layer>
-   <layer color_hl="#dce0e0e0" visible="false" id="240" color="#96e0e0e0">Top Overlay Names</layer>
-   <layer color_hl="#dce0e0e0" visible="false" id="250" color="#96e0e0e0">Top Overlay Values</layer>
-   <layer color_hl="#dce0e0e0" visible="true" id="260" color="#96e0e0e0">Top Overlay</layer>
-   <layer color_hl="#96ff0000" visible="false" id="270" color="#64ff0000">Top Stop Mask</layer>
-   <layer color_hl="#50ffff00" visible="false" id="280" color="#32ffff00">Top Device Keepout</layer>
-   <layer color_hl="#50ffff00" visible="false" id="290" color="#32ffff00">Top Copper Restrict</layer>
-   <layer color_hl="#dcff0000" visible="true" id="300" color="#96ff0000">Top Copper</layer>
-   <layer color_hl="#dc0000ff" visible="true" id="400" color="#960000ff">Bottom Copper</layer>
-   <layer color_hl="#50ffff00" visible="false" id="410" color="#32ffff00">Bottom Copper Restrict</layer>
-   <layer color_hl="#50ffff00" visible="false" id="420" color="#32ffff00">Bottom Device Keepout</layer>
-   <layer color_hl="#96ff0000" visible="false" id="430" color="#64ff0000">Bottom Stop Mask</layer>
-   <layer color_hl="#dce0e0e0" visible="true" id="440" color="#96e0e0e0">Bottom Overlay</layer>
-   <layer color_hl="#dce0e0e0" visible="false" id="450" color="#96e0e0e0">Bottom Overlay Values</layer>
-   <layer color_hl="#dce0e0e0" visible="false" id="460" color="#96e0e0e0">Bottom Overlay Names</layer>
-   <layer color_hl="#78e0e0e0" visible="false" id="470" color="#64e0e0e0">Bottom Paste</layer>
-   <layer color_hl="#78e0e0e0" visible="false" id="480" color="#64e0e0e0">Bottom Glue</layer>
-   <layer color_hl="#dce0e0e0" visible="true" id="490" color="#96e0e0e0">Bottom Test Points</layer>
-   <layer color_hl="#32ffffff" visible="false" id="498" color="#14ffffff">Bottom Device Grab Areas</layer>
-   <layer color_hl="#50ffffff" visible="true" id="499" color="#32ffffff">Bottom Device Origin Crosses</layer>
-   <layer color_hl="#dce0e0e0" visible="true" id="500" color="#96e0e0e0">Bottom Device Outlines</layer>
-   <layer color_hl="#ffff0000" visible="false" id="900" color="#ff800000">[DEBUG] GraphicsItems Bounding Rects</layer>
-   <layer color_hl="#ffff0000" visible="false" id="901" color="#ff800000">[DEBUG] GraphicsItems Texts Bounding Rects</layer>
+   <layer color_hl="#ffc0c0c0" color="#ffffffff" visible="true" id="1">Grid</layer>
+   <layer color_hl="#ffffff00" color="#ff808000" visible="true" id="3">Unrouted</layer>
+   <layer color_hl="#dcffffff" color="#b4ffffff" visible="true" id="10">Board Outlines</layer>
+   <layer color_hl="#dcffffff" color="#96ffffff" visible="true" id="20">Drills</layer>
+   <layer color_hl="#dc00ff00" color="#9600ff00" visible="true" id="30">Vias</layer>
+   <layer color_hl="#50ffff00" color="#32ffff00" visible="false" id="40">Via Restrict</layer>
+   <layer color_hl="#dc00ff00" color="#9600ff00" visible="true" id="50">THT Pads</layer>
+   <layer color_hl="#dce0e0e0" color="#96e0e0e0" visible="true" id="200">Top Device Outlines</layer>
+   <layer color_hl="#50ffffff" color="#32ffffff" visible="true" id="201">Top Device Origin Crosses</layer>
+   <layer color_hl="#32ffffff" color="#14ffffff" visible="false" id="202">Top Device Grab Areas</layer>
+   <layer color_hl="#dce0e0e0" color="#96e0e0e0" visible="true" id="210">Top Test Points</layer>
+   <layer color_hl="#78e0e0e0" color="#64e0e0e0" visible="false" id="220">Top Glue</layer>
+   <layer color_hl="#78e0e0e0" color="#64e0e0e0" visible="false" id="230">Top Paste</layer>
+   <layer color_hl="#dce0e0e0" color="#96e0e0e0" visible="false" id="240">Top Overlay Names</layer>
+   <layer color_hl="#dce0e0e0" color="#96e0e0e0" visible="false" id="250">Top Overlay Values</layer>
+   <layer color_hl="#dce0e0e0" color="#96e0e0e0" visible="true" id="260">Top Overlay</layer>
+   <layer color_hl="#96ff0000" color="#64ff0000" visible="false" id="270">Top Stop Mask</layer>
+   <layer color_hl="#50ffff00" color="#32ffff00" visible="false" id="280">Top Device Keepout</layer>
+   <layer color_hl="#50ffff00" color="#32ffff00" visible="false" id="290">Top Copper Restrict</layer>
+   <layer color_hl="#dcff0000" color="#96ff0000" visible="true" id="300">Top Copper</layer>
+   <layer color_hl="#dc0000ff" color="#960000ff" visible="true" id="400">Bottom Copper</layer>
+   <layer color_hl="#50ffff00" color="#32ffff00" visible="false" id="410">Bottom Copper Restrict</layer>
+   <layer color_hl="#50ffff00" color="#32ffff00" visible="false" id="420">Bottom Device Keepout</layer>
+   <layer color_hl="#96ff0000" color="#64ff0000" visible="false" id="430">Bottom Stop Mask</layer>
+   <layer color_hl="#dce0e0e0" color="#96e0e0e0" visible="true" id="440">Bottom Overlay</layer>
+   <layer color_hl="#dce0e0e0" color="#96e0e0e0" visible="false" id="450">Bottom Overlay Values</layer>
+   <layer color_hl="#dce0e0e0" color="#96e0e0e0" visible="false" id="460">Bottom Overlay Names</layer>
+   <layer color_hl="#78e0e0e0" color="#64e0e0e0" visible="false" id="470">Bottom Paste</layer>
+   <layer color_hl="#78e0e0e0" color="#64e0e0e0" visible="false" id="480">Bottom Glue</layer>
+   <layer color_hl="#dce0e0e0" color="#96e0e0e0" visible="true" id="490">Bottom Test Points</layer>
+   <layer color_hl="#32ffffff" color="#14ffffff" visible="false" id="498">Bottom Device Grab Areas</layer>
+   <layer color_hl="#50ffffff" color="#32ffffff" visible="true" id="499">Bottom Device Origin Crosses</layer>
+   <layer color_hl="#dce0e0e0" color="#96e0e0e0" visible="true" id="500">Bottom Device Outlines</layer>
+   <layer color_hl="#ffff0000" color="#ff800000" visible="false" id="900">[DEBUG] GraphicsItems Bounding Rects</layer>
+   <layer color_hl="#ffff0000" color="#ff800000" visible="false" id="901">[DEBUG] GraphicsItems Texts Bounding Rects</layer>
   </layers>
  </layer_stack>
  <device_instances>
-  <device_instance device="b45ab168-2941-463d-9fbe-dfb4ed6cebfa" footprint="e2ecd2de-237c-4f0f-8a1d-085af7f88f4e" component_instance="0035f2f4-c0fe-4b64-8830-f4e8fd34d204">
+  <device_instance device="b45ab168-2941-463d-9fbe-dfb4ed6cebfa" component_instance="0035f2f4-c0fe-4b64-8830-f4e8fd34d204" footprint="e2ecd2de-237c-4f0f-8a1d-085af7f88f4e">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="55.880000" y="14.605000"/>
+   <position x="55.880000" y="14.605000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="2d1c60f7-955e-45a7-895c-be934ab55f31" footprint="dc411140-e9d3-46ad-9543-828b3da6a963" component_instance="00df6fcc-ebae-4597-8398-a2d3864d3b43">
+  <device_instance device="2d1c60f7-955e-45a7-895c-be934ab55f31" component_instance="00df6fcc-ebae-4597-8398-a2d3864d3b43" footprint="dc411140-e9d3-46ad-9543-828b3da6a963">
    <footprint/>
-   <position mirror="false" rotation="180.000000" x="29.845000" y="12.700000"/>
+   <position x="29.845000" y="12.700000" rotation="180.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="013aa324-6581-4a59-ba01-cce4dfa14c1c">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="013aa324-6581-4a59-ba01-cce4dfa14c1c" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="19.685000" y="15.557500"/>
+   <position x="19.685000" y="15.557500" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="7179688e-d68a-482d-9c63-6e5781fbc59c" footprint="b997971a-d0c0-4bd4-bcfb-798174dc9a18" component_instance="0184602f-8b64-4bc2-ae5a-624b5f6d8907">
+  <device_instance device="7179688e-d68a-482d-9c63-6e5781fbc59c" component_instance="0184602f-8b64-4bc2-ae5a-624b5f6d8907" footprint="b997971a-d0c0-4bd4-bcfb-798174dc9a18">
    <footprint/>
-   <position mirror="false" rotation="90.000000" x="3.175000" y="1.270000"/>
+   <position x="3.175000" y="1.270000" rotation="90.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="04eff528-df9e-4969-bc7e-5633d8011087">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="04eff528-df9e-4969-bc7e-5633d8011087" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="8.572500" y="0.952500"/>
+   <position x="8.572500" y="0.952500" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="8e641299-bdb9-4df2-b5e3-ff15b13703b5" footprint="d3f189de-e0aa-4ecd-8738-7450dfb78e5d" component_instance="06d050d5-cea1-4a9b-b92d-9c5114bdb3d1">
+  <device_instance device="8e641299-bdb9-4df2-b5e3-ff15b13703b5" component_instance="06d050d5-cea1-4a9b-b92d-9c5114bdb3d1" footprint="d3f189de-e0aa-4ecd-8738-7450dfb78e5d">
    <footprint/>
-   <position mirror="true" rotation="-90.000000" x="6.350000" y="15.240000"/>
+   <position x="6.350000" y="15.240000" rotation="-90.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="37d6efc3-31f9-4657-91dc-50e77929f690" footprint="d5c6e2d9-3717-412a-b2a3-7831bfd8bf55" component_instance="06d30802-ba7f-431d-843d-42f276aaed22">
+  <device_instance device="37d6efc3-31f9-4657-91dc-50e77929f690" component_instance="06d30802-ba7f-431d-843d-42f276aaed22" footprint="d5c6e2d9-3717-412a-b2a3-7831bfd8bf55">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="13.970000" y="8.572500"/>
+   <position x="13.970000" y="8.572500" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="0c451a9f-1e21-4533-8d52-e2aacef8a883">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="0c451a9f-1e21-4533-8d52-e2aacef8a883" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="13.970000" y="10.160000"/>
+   <position x="13.970000" y="10.160000" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="0c46076b-7882-4e44-942f-2592d2a21879">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="0c46076b-7882-4e44-942f-2592d2a21879" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="39.370000" y="2.540000"/>
+   <position x="39.370000" y="2.540000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="279d2e58-835e-4681-bd71-40ee69b1aede" footprint="e0098de2-125b-4100-bad2-3c629160bfba" component_instance="0cd12bfe-4971-4905-8354-c2b2c47bfcde">
+  <device_instance device="279d2e58-835e-4681-bd71-40ee69b1aede" component_instance="0cd12bfe-4971-4905-8354-c2b2c47bfcde" footprint="e0098de2-125b-4100-bad2-3c629160bfba">
    <footprint/>
-   <position mirror="false" rotation="270.000000" x="55.880000" y="8.255000"/>
+   <position x="55.880000" y="8.255000" rotation="270.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="15e33177-fef9-4030-93f7-b7cf8b9ad9e7">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="15e33177-fef9-4030-93f7-b7cf8b9ad9e7" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="49.847500" y="11.430000"/>
+   <position x="49.847500" y="11.430000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="18cf34f6-95e4-48a0-bf4b-6a2d13523f0f">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="18cf34f6-95e4-48a0-bf4b-6a2d13523f0f" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="90.000000" x="20.002500" y="7.937500"/>
+   <position x="20.002500" y="7.937500" rotation="90.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="1b1ac6e2-3309-4447-8fcf-e95221f19090">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="1b1ac6e2-3309-4447-8fcf-e95221f19090" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="39.370000" y="3.810000"/>
+   <position x="39.370000" y="3.810000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="1d8a93b9-7ac2-40a0-b1b7-79e987600197">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="1d8a93b9-7ac2-40a0-b1b7-79e987600197" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="90.000000" x="20.002500" y="11.112500"/>
+   <position x="20.002500" y="11.112500" rotation="90.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="f7fb22e8-0bbc-4f0f-aa89-596823b5bc3e" footprint="3ef861e5-cad6-4321-87af-620dd88a5f13" component_instance="1fe7624e-269b-4fba-880d-abef3d0efa2e">
+  <device_instance device="f7fb22e8-0bbc-4f0f-aa89-596823b5bc3e" component_instance="1fe7624e-269b-4fba-880d-abef3d0efa2e" footprint="3ef861e5-cad6-4321-87af-620dd88a5f13">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="24.130000" y="5.397500"/>
+   <position x="24.130000" y="5.397500" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="37307681-4cbd-443d-b1ac-cb6dd985af5d" footprint="9c610655-cdf6-46a8-b0a3-cc968a1c8328" component_instance="217de8c7-c834-4900-b3b2-7c5b277a5737">
+  <device_instance device="37307681-4cbd-443d-b1ac-cb6dd985af5d" component_instance="217de8c7-c834-4900-b3b2-7c5b277a5737" footprint="9c610655-cdf6-46a8-b0a3-cc968a1c8328">
    <footprint/>
-   <position mirror="true" rotation="-90.000000" x="2.857500" y="8.255000"/>
+   <position x="2.857500" y="8.255000" rotation="-90.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="26965a1b-09e1-41ee-b463-2684e7a87818">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="26965a1b-09e1-41ee-b463-2684e7a87818" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="false" rotation="90.000000" x="22.225000" y="7.937500"/>
+   <position x="22.225000" y="7.937500" rotation="90.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="2c8af4fb-cc24-4676-b77e-8d2b64dd73d0">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="2c8af4fb-cc24-4676-b77e-8d2b64dd73d0" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="true" rotation="90.000000" x="6.985000" y="2.857500"/>
+   <position x="6.985000" y="2.857500" rotation="90.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="2e61020a-4346-4277-8f6b-42d8ec60fe49">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="2e61020a-4346-4277-8f6b-42d8ec60fe49" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="42.545000" y="3.810000"/>
+   <position x="42.545000" y="3.810000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="f7fb22e8-0bbc-4f0f-aa89-596823b5bc3e" footprint="3ef861e5-cad6-4321-87af-620dd88a5f13" component_instance="2ebbad7c-7050-4575-a1aa-4f3966506d83">
+  <device_instance device="f7fb22e8-0bbc-4f0f-aa89-596823b5bc3e" component_instance="2ebbad7c-7050-4575-a1aa-4f3966506d83" footprint="3ef861e5-cad6-4321-87af-620dd88a5f13">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="24.130000" y="13.017500"/>
+   <position x="24.130000" y="13.017500" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="3079e423-f0e6-42fc-8c93-4cd82690bdc1">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="3079e423-f0e6-42fc-8c93-4cd82690bdc1" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="8.572500" y="4.127500"/>
+   <position x="8.572500" y="4.127500" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="3110f961-42bd-4e24-bba7-47930f1b2c03">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="3110f961-42bd-4e24-bba7-47930f1b2c03" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="19.050000" y="3.810000"/>
+   <position x="19.050000" y="3.810000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="a19b9b5d-9a29-4b96-b1a1-d804d644a7b7" footprint="812465e5-1b09-4a04-8863-d80d58c6f334" component_instance="3437d160-1c40-458f-9867-f30c7706e0c3">
+  <device_instance device="a19b9b5d-9a29-4b96-b1a1-d804d644a7b7" component_instance="3437d160-1c40-458f-9867-f30c7706e0c3" footprint="812465e5-1b09-4a04-8863-d80d58c6f334">
    <footprint/>
-   <position mirror="false" rotation="270.000000" x="49.847500" y="6.985000"/>
+   <position x="49.847500" y="7.143750" rotation="270.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="3499d4eb-40bd-44df-8ef1-9544fae56a75">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="3499d4eb-40bd-44df-8ef1-9544fae56a75" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="false" rotation="90.000000" x="29.845000" y="7.620000"/>
+   <position x="29.845000" y="7.620000" rotation="90.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="43bc94dc-6ab0-4bb2-bf66-c034b9f1cfd0">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="43bc94dc-6ab0-4bb2-bf66-c034b9f1cfd0" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="13.652500" y="0.952500"/>
+   <position x="13.652500" y="0.952500" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="f7fb22e8-0bbc-4f0f-aa89-596823b5bc3e" footprint="3ef861e5-cad6-4321-87af-620dd88a5f13" component_instance="46601a79-4b4e-401c-826b-6c04056b4080">
+  <device_instance device="f7fb22e8-0bbc-4f0f-aa89-596823b5bc3e" component_instance="46601a79-4b4e-401c-826b-6c04056b4080" footprint="3ef861e5-cad6-4321-87af-620dd88a5f13">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="32.385000" y="5.397500"/>
+   <position x="32.385000" y="5.397500" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="4ea5b830-f231-4ded-9d0d-3d69b6a938df">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="4ea5b830-f231-4ded-9d0d-3d69b6a938df" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="5.715000" y="13.335000"/>
+   <position x="5.715000" y="13.335000" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="5295af36-44e2-4a2e-a988-87c9e1026ae9">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="5295af36-44e2-4a2e-a988-87c9e1026ae9" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="26.352500" y="14.287500"/>
+   <position x="25.558750" y="14.287500" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="5a493e46-5b95-4d98-ba08-8bf6a741a817">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="5a493e46-5b95-4d98-ba08-8bf6a741a817" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="18.415000" y="2.222500"/>
+   <position x="18.415000" y="2.222500" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="b45ab168-2941-463d-9fbe-dfb4ed6cebfa" footprint="e2ecd2de-237c-4f0f-8a1d-085af7f88f4e" component_instance="5ce9b3be-1fa3-471e-b498-77bfbf6c415a">
+  <device_instance device="b45ab168-2941-463d-9fbe-dfb4ed6cebfa" component_instance="5ce9b3be-1fa3-471e-b498-77bfbf6c415a" footprint="e2ecd2de-237c-4f0f-8a1d-085af7f88f4e">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="55.880000" y="1.905000"/>
+   <position x="55.880000" y="1.905000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="f7fb22e8-0bbc-4f0f-aa89-596823b5bc3e" footprint="3ef861e5-cad6-4321-87af-620dd88a5f13" component_instance="5e0bdeff-3d85-4b74-b94d-097fb1de25ac">
+  <device_instance device="f7fb22e8-0bbc-4f0f-aa89-596823b5bc3e" component_instance="5e0bdeff-3d85-4b74-b94d-097fb1de25ac" footprint="3ef861e5-cad6-4321-87af-620dd88a5f13">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="32.385000" y="13.017500"/>
+   <position x="32.385000" y="13.017500" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="5ef7639d-db84-4bfa-8356-83fc28a1a9f7">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="5ef7639d-db84-4bfa-8356-83fc28a1a9f7" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="false" rotation="90.000000" x="21.272500" y="11.112500"/>
+   <position x="21.272500" y="11.112500" rotation="90.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="68c6b6ce-0bad-4965-aa85-c972ab3f16c6">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="68c6b6ce-0bad-4965-aa85-c972ab3f16c6" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="90.000000" x="45.085000" y="2.222500"/>
+   <position x="45.085000" y="2.222500" rotation="90.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="69f3d0cf-ca3d-4323-b0c3-67c4fce8b501">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="69f3d0cf-ca3d-4323-b0c3-67c4fce8b501" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="42.227500" y="14.287500"/>
+   <position x="42.068750" y="14.287500" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="6c9b623e-6231-4e9c-bf97-944df7a5d3d5">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="6c9b623e-6231-4e9c-bf97-944df7a5d3d5" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="26.035000" y="3.810000"/>
+   <position x="26.035000" y="3.810000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="709a326c-b6ad-4dcb-95cf-7ce8962bb16c">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="709a326c-b6ad-4dcb-95cf-7ce8962bb16c" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="false" rotation="90.000000" x="38.100000" y="7.620000"/>
+   <position x="38.100000" y="7.620000" rotation="90.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="76c1f0be-1e24-4b1d-beed-edc08bd44118">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="76c1f0be-1e24-4b1d-beed-edc08bd44118" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="10.160000" y="15.240000"/>
+   <position x="10.160000" y="15.240000" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="8092d8bb-f5df-4a43-b5d4-751cdfb474e9">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="8092d8bb-f5df-4a43-b5d4-751cdfb474e9" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="true" rotation="90.000000" x="17.145000" y="2.857500"/>
+   <position x="17.145000" y="2.857500" rotation="90.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="557dfa77-1ad5-47ec-b604-74fc6c5dcd21" footprint="8be0901b-7ea3-423a-b28f-91b19e13c6a1" component_instance="81c6addc-9f55-40ef-9b5a-08816ca0a661">
+  <device_instance device="557dfa77-1ad5-47ec-b604-74fc6c5dcd21" component_instance="81c6addc-9f55-40ef-9b5a-08816ca0a661" footprint="8be0901b-7ea3-423a-b28f-91b19e13c6a1">
    <footprint/>
-   <position mirror="false" rotation="180.000000" x="33.972500" y="9.207500"/>
+   <position x="33.972500" y="9.207500" rotation="180.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="2b482546-923f-4bc7-a7e6-65852d47aa64" footprint="b75f70f2-4b7a-428b-8ab6-e8943fc06d7e" component_instance="820e8fe1-b1a9-488d-9610-0a97204391b4">
+  <device_instance device="2b482546-923f-4bc7-a7e6-65852d47aa64" component_instance="820e8fe1-b1a9-488d-9610-0a97204391b4" footprint="b75f70f2-4b7a-428b-8ab6-e8943fc06d7e">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="36.195000" y="8.890000"/>
+   <position x="36.195000" y="8.890000" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="2b482546-923f-4bc7-a7e6-65852d47aa64" footprint="b75f70f2-4b7a-428b-8ab6-e8943fc06d7e" component_instance="82709ca3-4d60-4b8c-9bbb-4c2669acf146">
+  <device_instance device="2b482546-923f-4bc7-a7e6-65852d47aa64" component_instance="82709ca3-4d60-4b8c-9bbb-4c2669acf146" footprint="b75f70f2-4b7a-428b-8ab6-e8943fc06d7e">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="44.450000" y="8.890000"/>
+   <position x="44.450000" y="8.890000" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="8417e1db-8764-46a7-b5ef-2c606ecab6e1">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="8417e1db-8764-46a7-b5ef-2c606ecab6e1" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="22.860000" y="3.810000"/>
+   <position x="22.860000" y="3.810000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="84e890a4-2a41-4721-8737-a71f79f7d101">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="84e890a4-2a41-4721-8737-a71f79f7d101" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="8.572500" y="2.540000"/>
+   <position x="8.572500" y="2.540000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="f7fb22e8-0bbc-4f0f-aa89-596823b5bc3e" footprint="3ef861e5-cad6-4321-87af-620dd88a5f13" component_instance="893b43c4-ef31-4853-bfa2-bd7f919ba5e3">
+  <device_instance device="f7fb22e8-0bbc-4f0f-aa89-596823b5bc3e" component_instance="893b43c4-ef31-4853-bfa2-bd7f919ba5e3" footprint="3ef861e5-cad6-4321-87af-620dd88a5f13">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="40.640000" y="13.017500"/>
+   <position x="40.640000" y="13.017500" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="2d1c60f7-955e-45a7-895c-be934ab55f31" footprint="dc411140-e9d3-46ad-9543-828b3da6a963" component_instance="8a1420be-e7d4-4a7f-a88d-4dcfa99f67ed">
+  <device_instance device="2d1c60f7-955e-45a7-895c-be934ab55f31" component_instance="8a1420be-e7d4-4a7f-a88d-4dcfa99f67ed" footprint="dc411140-e9d3-46ad-9543-828b3da6a963">
    <footprint/>
-   <position mirror="false" rotation="180.000000" x="38.100000" y="12.700000"/>
+   <position x="38.100000" y="12.700000" rotation="180.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="90c89ce4-fb19-458d-912b-cf9818efd764">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="90c89ce4-fb19-458d-912b-cf9818efd764" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="34.290000" y="3.810000"/>
+   <position x="34.290000" y="3.810000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="f83a5ae8-7f42-42be-9dd6-e762f4da2ec2" footprint="46e587d8-d0df-4403-be4d-4027e6dc9ad6" component_instance="91f8c3d3-c497-4d3f-b7a0-4088b442647b">
+  <device_instance device="f83a5ae8-7f42-42be-9dd6-e762f4da2ec2" component_instance="91f8c3d3-c497-4d3f-b7a0-4088b442647b" footprint="46e587d8-d0df-4403-be4d-4027e6dc9ad6">
    <footprint/>
-   <position mirror="true" rotation="270.000000" x="10.477500" y="9.525000"/>
+   <position x="10.477500" y="9.525000" rotation="270.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="98064fbf-64b1-4958-a0b0-825005d7a6a1">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="98064fbf-64b1-4958-a0b0-825005d7a6a1" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="true" rotation="90.000000" x="20.002500" y="2.540000"/>
+   <position x="20.002500" y="2.540000" rotation="90.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="9843ce9e-8e17-4baa-9980-6826fc257abf">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="9843ce9e-8e17-4baa-9980-6826fc257abf" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="13.970000" y="6.985000"/>
+   <position x="13.970000" y="6.985000" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="78e041c5-9c12-4bb3-b8d9-eb98d5c7dfd1" footprint="836cfc84-54f9-485e-b810-75afe31a59ba" component_instance="98757eea-e6bf-4fe5-adaa-a7f407373243">
+  <device_instance device="78e041c5-9c12-4bb3-b8d9-eb98d5c7dfd1" component_instance="98757eea-e6bf-4fe5-adaa-a7f407373243" footprint="836cfc84-54f9-485e-b810-75afe31a59ba">
    <footprint/>
-   <position mirror="true" rotation="270.000000" x="52.705000" y="8.890000"/>
+   <position x="52.705000" y="8.890000" rotation="270.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="f7fb22e8-0bbc-4f0f-aa89-596823b5bc3e" footprint="3ef861e5-cad6-4321-87af-620dd88a5f13" component_instance="a2df92fe-89d7-4c67-9d33-c4041c0e8f40">
+  <device_instance device="f7fb22e8-0bbc-4f0f-aa89-596823b5bc3e" component_instance="a2df92fe-89d7-4c67-9d33-c4041c0e8f40" footprint="3ef861e5-cad6-4321-87af-620dd88a5f13">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="40.640000" y="5.397500"/>
+   <position x="40.640000" y="5.397500" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="557dfa77-1ad5-47ec-b604-74fc6c5dcd21" footprint="8be0901b-7ea3-423a-b28f-91b19e13c6a1" component_instance="aaec816a-e94e-4d00-8ac6-dd105da862e3">
+  <device_instance device="557dfa77-1ad5-47ec-b604-74fc6c5dcd21" component_instance="aaec816a-e94e-4d00-8ac6-dd105da862e3" footprint="8be0901b-7ea3-423a-b28f-91b19e13c6a1">
    <footprint/>
-   <position mirror="false" rotation="180.000000" x="25.717500" y="9.207500"/>
+   <position x="25.717500" y="9.207500" rotation="180.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="557dfa77-1ad5-47ec-b604-74fc6c5dcd21" footprint="8be0901b-7ea3-423a-b28f-91b19e13c6a1" component_instance="ab96ca5d-43e6-4ecb-8981-1fa3117c1c7d">
+  <device_instance device="557dfa77-1ad5-47ec-b604-74fc6c5dcd21" component_instance="ab96ca5d-43e6-4ecb-8981-1fa3117c1c7d" footprint="8be0901b-7ea3-423a-b28f-91b19e13c6a1">
    <footprint/>
-   <position mirror="false" rotation="180.000000" x="42.227500" y="9.207500"/>
+   <position x="42.227500" y="9.207500" rotation="180.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="56d346ac-a7fe-4dff-858a-9001c504c893" footprint="475b4255-db0b-487c-b618-89718bf61208" component_instance="ad7d2b6e-21cc-4540-8ec8-bb24a61980ea">
+  <device_instance device="56d346ac-a7fe-4dff-858a-9001c504c893" component_instance="ad7d2b6e-21cc-4540-8ec8-bb24a61980ea" footprint="475b4255-db0b-487c-b618-89718bf61208">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="16.827500" y="0.952500"/>
+   <position x="16.827500" y="0.952500" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="2d1c60f7-955e-45a7-895c-be934ab55f31" footprint="dc411140-e9d3-46ad-9543-828b3da6a963" component_instance="afd4e910-3c79-46cd-8d71-2ad6c33768d5">
+  <device_instance device="2d1c60f7-955e-45a7-895c-be934ab55f31" component_instance="afd4e910-3c79-46cd-8d71-2ad6c33768d5" footprint="dc411140-e9d3-46ad-9543-828b3da6a963">
    <footprint/>
-   <position mirror="false" rotation="180.000000" x="46.355000" y="12.700000"/>
+   <position x="46.355000" y="12.700000" rotation="180.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="b179313a-5fcb-4fb6-8e56-55865ed6ea4b">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="b179313a-5fcb-4fb6-8e56-55865ed6ea4b" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="9.207500" y="13.017500"/>
+   <position x="9.207500" y="13.017500" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="7179688e-d68a-482d-9c63-6e5781fbc59c" footprint="b997971a-d0c0-4bd4-bcfb-798174dc9a18" component_instance="b44652fd-99b6-459a-914b-41e0137146f1">
+  <device_instance device="7179688e-d68a-482d-9c63-6e5781fbc59c" component_instance="b44652fd-99b6-459a-914b-41e0137146f1" footprint="b997971a-d0c0-4bd4-bcfb-798174dc9a18">
    <footprint/>
-   <position mirror="true" rotation="90.000000" x="3.175000" y="1.270000"/>
+   <position x="3.175000" y="1.270000" rotation="90.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="37fd1f94-e678-434f-bdbf-2742c334036f" footprint="8be0901b-7ea3-423a-b28f-91b19e13c6a1" component_instance="b9859056-bbef-4848-9b60-978594cce1d4">
+  <device_instance device="37fd1f94-e678-434f-bdbf-2742c334036f" component_instance="b9859056-bbef-4848-9b60-978594cce1d4" footprint="8be0901b-7ea3-423a-b28f-91b19e13c6a1">
    <footprint/>
-   <position mirror="true" rotation="270.000000" x="12.065000" y="2.857500"/>
+   <position x="12.065000" y="2.857500" rotation="270.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="8e641299-bdb9-4df2-b5e3-ff15b13703b5" footprint="d3f189de-e0aa-4ecd-8738-7450dfb78e5d" component_instance="bfdf81af-9505-4e77-97e4-d68e4a90ba0f">
+  <device_instance device="8e641299-bdb9-4df2-b5e3-ff15b13703b5" component_instance="bfdf81af-9505-4e77-97e4-d68e4a90ba0f" footprint="d3f189de-e0aa-4ecd-8738-7450dfb78e5d">
    <footprint/>
-   <position mirror="true" rotation="-90.000000" x="2.222500" y="15.240000"/>
+   <position x="2.222500" y="15.240000" rotation="-90.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="462544b4-5997-46e1-84c6-2add9046ed18" footprint="699777cb-a10b-4502-8b70-722e73214d1a" component_instance="c2030b99-62f8-4440-81de-fe7c31583926">
+  <device_instance device="462544b4-5997-46e1-84c6-2add9046ed18" component_instance="c2030b99-62f8-4440-81de-fe7c31583926" footprint="699777cb-a10b-4502-8b70-722e73214d1a">
    <footprint/>
-   <position mirror="false" rotation="90.000000" x="2.857500" y="9.525000"/>
+   <position x="2.857500" y="9.525000" rotation="90.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="2b482546-923f-4bc7-a7e6-65852d47aa64" footprint="b75f70f2-4b7a-428b-8ab6-e8943fc06d7e" component_instance="c330f5a3-9bd5-4189-a86d-a7020235db20">
+  <device_instance device="2b482546-923f-4bc7-a7e6-65852d47aa64" component_instance="c330f5a3-9bd5-4189-a86d-a7020235db20" footprint="b75f70f2-4b7a-428b-8ab6-e8943fc06d7e">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="27.940000" y="8.890000"/>
+   <position x="27.940000" y="8.890000" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="d00cf83f-e2de-4e12-b176-1c45eb6fcf6c">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="d00cf83f-e2de-4e12-b176-1c45eb6fcf6c" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="31.115000" y="2.540000"/>
+   <position x="31.115000" y="2.540000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="dd53b53b-5c7a-4f96-9a6e-771708b23895" footprint="f11afe00-fa1c-485e-9ee3-91d071d97489" component_instance="d98d04c5-74c7-4b7d-8f09-611ed955dd57">
+  <device_instance device="dd53b53b-5c7a-4f96-9a6e-771708b23895" component_instance="d98d04c5-74c7-4b7d-8f09-611ed955dd57" footprint="f11afe00-fa1c-485e-9ee3-91d071d97489">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="48.260000" y="3.175000"/>
+   <position x="47.466250" y="2.857500" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="ddba5f4c-cacf-45da-91d6-bac636da3a6e">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="ddba5f4c-cacf-45da-91d6-bac636da3a6e" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="31.115000" y="3.810000"/>
+   <position x="31.115000" y="3.810000" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="df40333d-b0ea-4b4f-8a7a-a59ae2de610f">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="df40333d-b0ea-4b4f-8a7a-a59ae2de610f" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="16.192500" y="15.557500"/>
+   <position x="16.192500" y="15.557500" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="e4a5cdce-be42-4597-a045-6135ecd25ab8">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="e4a5cdce-be42-4597-a045-6135ecd25ab8" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="15.240000" y="2.222500"/>
+   <position x="15.240000" y="2.222500" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="e69f768b-412d-4fe5-aeb3-c743351a6544">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="e69f768b-412d-4fe5-aeb3-c743351a6544" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="true" rotation="0.000000" x="13.970000" y="8.572500"/>
+   <position x="13.970000" y="8.572500" rotation="0.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="e8ab7388-1846-4ca4-912d-d533fae37f01">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="e8ab7388-1846-4ca4-912d-d533fae37f01" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="34.290000" y="14.287500"/>
+   <position x="33.813750" y="14.287500" rotation="0.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="14d643eb-999d-4cab-aac8-cd3d35415865" footprint="24c7568f-195b-4c93-8e69-1e8faaa1bf7c" component_instance="ef27ad46-be54-4b1c-ba51-0446a0853203">
+  <device_instance device="14d643eb-999d-4cab-aac8-cd3d35415865" component_instance="ef27ad46-be54-4b1c-ba51-0446a0853203" footprint="24c7568f-195b-4c93-8e69-1e8faaa1bf7c">
    <footprint/>
-   <position mirror="false" rotation="180.000000" x="48.895000" y="1.905000"/>
+   <position x="48.895000" y="1.905000" rotation="180.000000" mirror="false"/>
   </device_instance>
-  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6" component_instance="f1121620-c541-46a5-90cc-92578e822b8f">
+  <device_instance device="e80a2ba5-13dd-41f2-9cdc-f29e30a9e2ed" component_instance="f1121620-c541-46a5-90cc-92578e822b8f" footprint="d61e4907-6a28-4015-a0be-5885f7cc1bc6">
    <footprint/>
-   <position mirror="true" rotation="-90.000000" x="18.732500" y="10.160000"/>
+   <position x="18.732500" y="10.160000" rotation="-90.000000" mirror="true"/>
   </device_instance>
-  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" component_instance="f900538b-090d-482f-9c4c-b0da46d087a8">
+  <device_instance device="483a71eb-318e-448e-82ff-f02efc4821aa" component_instance="f900538b-090d-482f-9c4c-b0da46d087a8" footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69">
    <footprint/>
-   <position mirror="false" rotation="0.000000" x="21.907500" y="5.715000"/>
+   <position x="21.907500" y="5.715000" rotation="0.000000" mirror="false"/>
   </device_instance>
  </device_instances>
- <vias/>
+ <vias>
+  <via size="0.700000" uuid="0ee77ac6-67c7-47da-8c9f-6683def86c63" netsignal="" x="4.445000" y="15.875000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="edb05e16-8be1-478b-9293-1d1784cba5df" netsignal="" x="13.652500" y="12.065000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="9199a6cd-cc0a-45d3-893a-70a9609d1992" netsignal="" x="15.240000" y="12.065000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="0f88c86d-c098-40ca-8ea6-d665adacae8b" netsignal="" x="16.192500" y="11.588750" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="e66be5aa-4836-4e99-8655-7aab6848dfe8" netsignal="" x="17.780000" y="12.382500" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="11ff7c3b-c5af-489d-bfe6-3a3ef3d4bb4b" netsignal="" x="12.223750" y="14.605000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="cbe17e02-3c72-4ada-a0db-ba376d0e20c1" netsignal="" x="13.176250" y="14.446250" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="995d4c95-b7b4-4376-a94d-5092c48530de" netsignal="" x="14.128750" y="14.446250" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="c167b707-be19-4c2e-ab42-5800ac06a635" netsignal="" x="12.858750" y="15.398750" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="3e7e7445-f6cd-4212-84ff-1c5d2a4561cc" netsignal="" x="13.652500" y="15.398750" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="c203fea3-f12c-4177-bdf5-ada349d31de4" netsignal="" x="19.367500" y="13.970000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="26ddb32b-6d99-4253-9585-4b51511a0952" netsignal="" x="18.415000" y="13.970000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="ff9e4c2f-eec3-472c-876e-18a2b08392ee" netsignal="" x="20.002500" y="9.525000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="06c3960d-b07b-486a-9598-b2abd9ceb7be" netsignal="" x="8.255000" y="12.065000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="4de49902-1a5b-42ef-b3d1-4aaa69747e5e" netsignal="" x="10.636250" y="9.525000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="6d9bedd1-917c-4a01-982b-3cc26d71dc84" netsignal="" x="11.430000" y="9.525000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="6680ee3e-fc7b-4c6d-865a-31a6c37dbefb" netsignal="" x="8.096250" y="9.048750" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="9cc6f11c-6fda-4068-afcc-378a69e1e233" netsignal="" x="8.096250" y="8.255000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="a56f51bf-913e-4e9c-a49f-145b5920730c" netsignal="" x="8.096250" y="6.826250" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="0d7ca36f-bceb-42bc-a116-3da978984934" netsignal="" x="7.461250" y="6.191250" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="6338f1ee-e0fd-458b-a19b-96a5f099edb7" netsignal="" x="7.461250" y="5.556250" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="fe5ec91d-7967-4327-b5c4-33ed3dbe6067" netsignal="" x="4.603750" y="5.080000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="4809ea08-6166-4a6e-bb86-2daa308a4459" netsignal="" x="4.603750" y="4.286250" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="f76d7ce6-ec10-4111-917e-375fb5cb950e" netsignal="" x="6.667500" y="0.793750" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="a53fbb7b-a125-45b0-ae58-dbccbd4f9bfc" netsignal="" x="11.747500" y="0.793750" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="07d9b7bf-2616-4e23-ba6f-cc12f5617baa" netsignal="" x="12.700000" y="1.905000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="3b05f147-a2e7-4de0-b92a-198e683b6fe6" netsignal="" x="11.747500" y="5.556250" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="ebb2773d-6381-4570-a5ea-bf2aeec2400e" netsignal="" x="12.858750" y="5.556250" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="3c3ab67f-b447-4b9f-8cbe-b00909ff7bbc" netsignal="" x="16.827500" y="5.715000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="4ed5f14a-bb92-4d5e-9c68-3054f2a7ae70" netsignal="" x="16.033750" y="5.715000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="d86eca6d-86f0-430a-82b4-9fae98253a0f" netsignal="" x="15.240000" y="5.715000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="90abb0da-181b-485c-bf27-8b1e748ae61c" netsignal="" x="14.446250" y="5.715000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="f25c54a9-d6d8-4330-9aa0-84669e083272" netsignal="" x="17.462500" y="8.890000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="36baeca5-88fa-4796-b78a-7e7d3137d30a" netsignal="" x="20.002500" y="5.873750" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="ceaf566d-d95f-4c25-9d7e-0ba7a804d91e" netsignal="" x="20.002500" y="4.921250" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="023c6ef1-6bb2-489c-aea2-61c7c2ab3d36" netsignal="" x="21.113750" y="3.810000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="6599296e-6076-4699-bcc3-4e2da475b50f" netsignal="" x="21.113750" y="2.857500" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="0faafffd-735b-473b-9004-786049e7104d" netsignal="" x="21.431250" y="9.048750" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="2af554e3-a789-431f-91f9-30a86034c773" netsignal="" x="41.275000" y="4.762500" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="47050c9f-99cb-49cb-bb17-134bc021837b" netsignal="" x="33.020000" y="4.762500" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="1e910429-d31f-48bf-9ff7-e63ac11aa175" netsignal="" x="24.765000" y="4.762500" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="7e5e4baa-5211-47d9-828d-01141641367f" netsignal="" x="30.321250" y="9.366250" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="ff702e94-cd2e-43e2-856d-a1cd27aa542f" netsignal="" x="38.576250" y="9.366250" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="3a9554fd-4fab-4a3f-b3bb-7a15c0513d3e" netsignal="" x="37.623750" y="3.810000" shape="round" drill="0.300000"/>
+  <via size="0.700000" uuid="78248dee-a5d8-44f0-a301-62ef7ab3fbf7" netsignal="" x="29.368750" y="3.651250" shape="round" drill="0.300000"/>
+  <via size="1.000000" uuid="5ab08ba2-a7e3-45a0-aa65-86414a33a56f" netsignal="" x="27.622500" y="14.128750" shape="round" drill="0.600000"/>
+  <via size="1.000000" uuid="2074494f-59f7-409a-b469-75733e433ed3" netsignal="" x="35.877500" y="14.128750" shape="round" drill="0.600000"/>
+  <via size="1.000000" uuid="a4e45164-cf1e-48cf-8a30-d176f0ee6667" netsignal="" x="44.132500" y="14.128750" shape="round" drill="0.600000"/>
+  <via size="1.000000" uuid="e393226f-1ac6-458c-aba6-38e389d517d8" netsignal="" x="5.080000" y="3.016250" shape="round" drill="0.600000"/>
+  <via size="1.000000" uuid="12c068a4-113c-45bb-9fea-bc6bceeb269e" netsignal="" x="10.953750" y="2.540000" shape="round" drill="0.600000"/>
+  <via size="0.800000" uuid="a6f95f97-91bf-49d4-af6d-df08249672fa" netsignal="" x="1.587500" y="8.255000" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="b234f88d-5c38-4066-bfdf-888fefd01ea4" netsignal="" x="2.698750" y="8.255000" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="32c7be26-7220-4bda-8adb-0d186cb7f3f2" netsignal="" x="1.587500" y="9.366250" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="37c6549a-93bb-4f0a-87a0-a170c7f5019d" netsignal="" x="1.587500" y="10.477500" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="d18bdb42-9537-4193-bb27-5c242f47e284" netsignal="" x="2.698750" y="9.366250" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="01f96dc6-312e-4109-ba33-49899f84e22b" netsignal="" x="2.698750" y="10.477500" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="24b5c895-38b1-4124-909f-bb7288da73af" netsignal="" x="1.587500" y="7.143750" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="19075609-efc6-4ae8-bf97-f071864397c5" netsignal="" x="2.698750" y="7.143750" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="574b55e8-ecb1-454b-b467-ec1f71069d5e" netsignal="" x="1.587500" y="6.032500" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="81d512d9-9836-49b5-ba76-ae37bcd9baf4" netsignal="" x="2.698750" y="6.032500" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="8bfc3cb3-fcd9-4d08-bcd2-e18629b8c8ec" netsignal="" x="18.891250" y="0.635000" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="64f9e645-7197-425e-b095-3b3c6ca28eeb" netsignal="" x="19.843750" y="0.635000" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="d7341066-e14e-48ec-9520-ee153d1a7acf" netsignal="" x="20.796250" y="0.635000" shape="round" drill="0.400000"/>
+  <via size="0.800000" uuid="305e5657-a980-4576-a97c-7dd3713c4747" netsignal="" x="21.748750" y="0.635000" shape="round" drill="0.400000"/>
+  <via size="0.900000" uuid="3eacc7c9-8c83-4ab2-b9c3-be38a9603b6d" netsignal="" x="47.625000" y="12.065000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="a1031393-5117-4c9a-81a7-a13269968595" netsignal="" x="47.625000" y="10.953750" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="7d6bf63e-5b8c-453e-97d5-7544ffc11257" netsignal="" x="48.736250" y="12.858750" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="5dd0c7f3-201d-45a2-b5f2-ab61a98919fa" netsignal="" x="48.736250" y="10.160000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="bd802f61-41e6-499a-bc9d-04a3c7810dde" netsignal="" x="48.736250" y="7.143750" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="64073697-7cfe-48d5-aa3a-3b86e41588f3" netsignal="" x="49.688750" y="7.143750" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="7076cea3-f2a6-4a89-892b-1011d25d5763" netsignal="" x="50.641250" y="7.143750" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="fd05a8dd-ccff-4bde-8221-4c6833b79b4b" netsignal="" x="48.736250" y="8.096250" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="daeeab94-49e5-4af7-8290-90f857332adc" netsignal="" x="49.688750" y="8.096250" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="f7288911-43aa-43dd-9916-ff976d66585f" netsignal="" x="50.641250" y="8.096250" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="62b57f4b-b224-4051-9b87-19d04205a163" netsignal="" x="50.641250" y="6.191250" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="18589534-e0b3-40cd-b623-159686a37336" netsignal="" x="49.688750" y="6.191250" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="7ec70665-bbc3-4abb-8ebf-8f75060b679d" netsignal="" x="48.736250" y="6.191250" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="df959e79-18b8-4b96-9ba9-3cd54ae9b989" netsignal="" x="56.038750" y="3.810000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="88d9853b-70f4-4173-8603-c3e4f587f564" netsignal="" x="56.991250" y="3.810000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="484d0d7c-bb26-4cd7-ac10-59523d2418e0" netsignal="" x="55.086250" y="3.810000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="9fce4f57-fec4-46ac-a639-39e1e0a89757" netsignal="" x="56.038750" y="8.572500" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="03a79e5b-ef28-4114-8abb-2bc4765ae5fb" netsignal="" x="56.991250" y="8.572500" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="c1ae3b4e-1611-4564-bb0d-7cff724b1459" netsignal="" x="55.086250" y="8.572500" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="7dfb5fa4-d8b6-4357-b5e9-ae8e9d0d7a7f" netsignal="" x="56.038750" y="7.620000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="c8c2b906-c009-436c-bf17-73259691f0f8" netsignal="" x="56.991250" y="7.620000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="e8fd6995-7e29-46d9-a941-a41bacf6ef49" netsignal="" x="55.086250" y="7.620000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="8c7969eb-4e80-4d81-a8af-07bb9db2a956" netsignal="" x="52.070000" y="8.572500" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="8350e27d-ffd3-45f3-b5e3-ea0a9d592d91" netsignal="" x="53.022500" y="8.572500" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="ab2739f2-2e21-4349-9a24-82f0cd0398fe" netsignal="" x="53.975000" y="8.572500" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="94d1010a-61b5-46c6-bd96-b8bb3719e1f7" netsignal="" x="52.070000" y="7.620000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="13d3d70f-5396-412b-a91f-42e48a2c37fe" netsignal="" x="52.070000" y="6.667500" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="d3fa2623-1abc-4d64-8beb-4589fd30b975" netsignal="" x="52.070000" y="5.715000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="ad0b5a09-9114-4055-8961-176a268f0c52" netsignal="" x="53.022500" y="5.715000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="9f910d08-cd27-4896-ab3e-6438ae4d518f" netsignal="" x="53.022500" y="6.667500" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="5ddd0649-c3e0-470c-b983-39415587b202" netsignal="" x="53.022500" y="7.620000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="e80af90b-a724-4da6-a294-b72052e4ca55" netsignal="" x="53.975000" y="7.620000" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="c454d62f-2b10-438d-9a38-316a638460b3" netsignal="" x="53.975000" y="6.667500" shape="round" drill="0.500000"/>
+  <via size="0.900000" uuid="2e423cfe-e601-430f-94a1-3c5468b94ff5" netsignal="" x="53.975000" y="5.715000" shape="round" drill="0.500000"/>
+ </vias>
  <netpoints/>
  <netlines/>
  <geometry>
-  <polygon fill="false" grab_area="false" layer="10" width="0.000000" start_x="0.000000" start_y="0.000000">
+  <polygon width="0.000000" grab_area="false" fill="false" start_x="0.000000" start_y="0.000000" layer="10">
    <segment end_x="58.000000" end_y="0.000000" angle="0.000000"/>
    <segment end_x="58.000000" end_y="16.500000" angle="0.000000"/>
    <segment end_x="0.000000" end_y="16.500000" angle="0.000000"/>
