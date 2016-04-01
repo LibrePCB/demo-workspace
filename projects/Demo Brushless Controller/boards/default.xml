@@ -25,14 +25,14 @@
    <layer id="240" color_hl="#dce0e0e0" color="#96e0e0e0" visible="false">Top Overlay Names</layer>
    <layer id="250" color_hl="#dce0e0e0" color="#96e0e0e0" visible="false">Top Overlay Values</layer>
    <layer id="260" color_hl="#dce0e0e0" color="#96e0e0e0" visible="true">Top Overlay</layer>
-   <layer id="270" color_hl="#96ff0000" color="#64ff0000" visible="false">Top Stop Mask</layer>
+   <layer id="270" color_hl="#96ff0000" color="#64ffffff" visible="false">Top Stop Mask</layer>
    <layer id="280" color_hl="#50ffff00" color="#32ffff00" visible="false">Top Device Keepout</layer>
    <layer id="290" color_hl="#50ffff00" color="#32ffff00" visible="false">Top Copper Restrict</layer>
    <layer id="300" color_hl="#dcff0000" color="#96ff0000" visible="true">Top Copper</layer>
    <layer id="400" color_hl="#dc0000ff" color="#960000ff" visible="true">Bottom Copper</layer>
    <layer id="410" color_hl="#50ffff00" color="#32ffff00" visible="false">Bottom Copper Restrict</layer>
    <layer id="420" color_hl="#50ffff00" color="#32ffff00" visible="false">Bottom Device Keepout</layer>
-   <layer id="430" color_hl="#96ff0000" color="#64ff0000" visible="false">Bottom Stop Mask</layer>
+   <layer id="430" color_hl="#96ff0000" color="#64ffffff" visible="false">Bottom Stop Mask</layer>
    <layer id="440" color_hl="#dce0e0e0" color="#96e0e0e0" visible="true">Bottom Overlay</layer>
    <layer id="450" color_hl="#dce0e0e0" color="#96e0e0e0" visible="false">Bottom Overlay Values</layer>
    <layer id="460" color_hl="#dce0e0e0" color="#96e0e0e0" visible="false">Bottom Overlay Names</layer>
@@ -46,6 +46,23 @@
    <layer id="901" color_hl="#ffff0000" color="#ff800000" visible="false">[DEBUG] GraphicsItems Texts Bounding Rects</layer>
   </layers>
  </layer_stack>
+ <board_design_rules>
+  <name>LibrePCB Default Design Rules</name>
+  <description></description>
+  <stopmask_clearance_ratio>0</stopmask_clearance_ratio>
+  <stopmask_clearance_min>0.100000</stopmask_clearance_min>
+  <stopmask_clearance_max>0.100000</stopmask_clearance_max>
+  <stopmask_max_via_drill_diameter>0.500000</stopmask_max_via_drill_diameter>
+  <creammask_clearance_ratio>0.1</creammask_clearance_ratio>
+  <creammask_clearance_min>0.000000</creammask_clearance_min>
+  <creammask_clearance_max>1.000000</creammask_clearance_max>
+  <restring_pad_ratio>0.25</restring_pad_ratio>
+  <restring_pad_min>0.250000</restring_pad_min>
+  <restring_pad_max>2.000000</restring_pad_max>
+  <restring_via_ratio>0.25</restring_via_ratio>
+  <restring_via_min>0.200000</restring_via_min>
+  <restring_via_max>2.000000</restring_via_max>
+ </board_design_rules>
  <devices>
   <device device="b45ab168-2941-463d-9fbe-dfb4ed6cebfa" footprint="e2ecd2de-237c-4f0f-8a1d-085af7f88f4e" component="0035f2f4-c0fe-4b64-8830-f4e8fd34d204">
    <footprint/>
