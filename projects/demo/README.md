@@ -1,0 +1,3 @@
+# LibrePCB Demo Project
+
+...just a useless demo project...
