@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package>
+ <meta>
+  <uuid>886cf4d7-e6f4-44d7-bf7e-425d51d18377</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:45Z</created>
+  <last_modified>2015-12-20T22:10:45Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">POWERDI323</name>
+  <description locale="en_US">1.0A SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER POWERDI ® 323 &lt;p>
+Source: http://www.diodes.com/datasheets/ds30899.pdf
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: POWERDI323
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="2114c098-9e6b-40b2-a119-80260dbf060c">A</pad>
+  <pad uuid="e5ba0734-9bd9-48ed-9ec6-1922709b0867">C</pad>
+ </pads>
+ <footprints default="72850286-4196-4903-b8a1-8c1110b96bad">
+  <footprint uuid="72850286-4196-4903-b8a1-8c1110b96bad">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.000000" start_y="-0.537500" grab_area="true" fill="true" layer="200" start_x="-1.300000">
+     <segment angle="0.000000" end_x="-0.525000" end_y="-0.537500"/>
+     <segment angle="0.000000" end_x="-0.525000" end_y="0.537500"/>
+     <segment angle="0.000000" end_x="-1.300000" end_y="0.537500"/>
+     <segment angle="0.000000" end_x="-1.300000" end_y="-0.537500"/>
+    </polygon>
+    <polygon width="0.000000" start_y="-0.400000" grab_area="true" fill="true" layer="200" start_x="0.837500">
+     <segment angle="0.000000" end_x="1.300000" end_y="-0.400000"/>
+     <segment angle="0.000000" end_x="1.300000" end_y="0.400000"/>
+     <segment angle="0.000000" end_x="0.837500" end_y="0.400000"/>
+     <segment angle="0.000000" end_x="0.837500" end_y="-0.400000"/>
+    </polygon>
+    <polygon width="0.200000" start_y="0.350000" grab_area="true" fill="false" layer="200" start_x="0.000000">
+     <segment angle="0.000000" end_x="-0.425000" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.200000" start_y="0.000000" grab_area="true" fill="false" layer="200" start_x="-0.425000">
+     <segment angle="0.000000" end_x="0.000000" end_y="-0.350000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="0.550000" grab_area="true" fill="false" layer="200" start_x="-0.875000">
+     <segment angle="0.000000" end_x="-0.875000" end_y="-0.550000"/>
+     <segment angle="0.000000" end_x="0.862500" end_y="-0.550000"/>
+     <segment angle="0.000000" end_x="0.862500" end_y="0.550000"/>
+     <segment angle="0.000000" end_x="-0.875000" end_y="0.550000"/>
+    </polygon>
+    <text rotation="0.000000" x="-1.851600" height="2.500000" layer="240" y="0.778600" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text rotation="0.000000" x="-1.851600" height="2.000000" layer="250" y="-2.556600" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <pad rotation="0.000000" technology="smt" side="top" x="1.150000" height="0.800000" width="0.800000" uuid="2114c098-9e6b-40b2-a119-80260dbf060c" y="0.000000"/>
+    <pad rotation="0.000000" technology="smt" side="top" x="-0.750000" height="1.100000" width="2.000000" uuid="e5ba0734-9bd9-48ed-9ec6-1922709b0867" y="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>764610b1-4ebb-41c1-9a89-353c2dbe7fd6</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:03Z</created>
+  <last_modified>2015-12-20T22:11:03Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">MCS08</name>
+  <description locale="en_US">&lt;b>SOLDER PAD&lt;/b>&lt;p> MC S0,8, drill 1.2 mm, distributor Buerklin, 08F130
+
+This element was automatically imported from Eagle
+Filepath: solpad.lbr
+Name: MCS08
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">LSP</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="817cd168-188f-4d28-97ec-11ba150e1e4b" role="passive" negated="false">MP</signal>
+ </signals>
+ <symbol_variants default="42433e30-4dd7-4f47-adee-e88dc1e57252">
+  <variant norm="" uuid="42433e30-4dd7-4f47-adee-e88dc1e57252">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="" symbol="052aa7bc-7a56-4a3e-8b6e-8bd20873f5fe" required="true" uuid="772af259-6f16-4a8a-91e1-dac7d2e3edcf">
+     <pin_signal_map>
+      <map display="component_signal" pin="85838f32-e34b-43b7-929c-8dad5764c146">817cd168-188f-4d28-97ec-11ba150e1e4b</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

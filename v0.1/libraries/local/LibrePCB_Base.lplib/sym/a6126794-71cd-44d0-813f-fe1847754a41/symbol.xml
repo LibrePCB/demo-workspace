@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol>
+ <meta>
+  <uuid>a6126794-71cd-44d0-813f-fe1847754a41</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-06-21T12:37:29Z</created>
+  <last_modified>2015-06-21T12:37:29Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">Crystal Filter 4 poles</name>
+  <description locale="en_US"></description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pins>
+  <pin rotation="-90.000000" x="2.540000" length="0.000000" uuid="7a058510-7077-48de-bfdf-f7bde9458f69" y="0.000000">2</pin>
+  <pin rotation="0.000000" x="-2.540000" length="0.000000" uuid="a5bf62e8-174f-4ea6-b364-dc67be3f427f" y="0.000000">1</pin>
+  <pin rotation="90.000000" x="0.000000" length="2.540000" uuid="d2cced97-9b40-4d03-af13-56366de0c62e" y="-5.080000">GND</pin>
+ </pins>
+ <geometry>
+  <polygon width="0.152400" start_y="0.000000" grab_area="true" fill="false" layer="10" start_x="1.016000">
+   <segment angle="0.000000" end_x="2.540000" end_y="0.000000"/>
+  </polygon>
+  <polygon width="0.152400" start_y="0.000000" grab_area="true" fill="false" layer="10" start_x="-2.540000">
+   <segment angle="0.000000" end_x="-1.016000" end_y="0.000000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="1.778000" grab_area="true" fill="false" layer="10" start_x="1.016000">
+   <segment angle="0.000000" end_x="1.016000" end_y="-1.778000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="1.778000" grab_area="true" fill="false" layer="10" start_x="-1.016000">
+   <segment angle="0.000000" end_x="-1.016000" end_y="-1.778000"/>
+  </polygon>
+  <polygon width="0.152400" start_y="1.905000" grab_area="true" fill="false" layer="10" start_x="-1.778000">
+   <segment angle="0.000000" end_x="-1.778000" end_y="2.540000"/>
+  </polygon>
+  <polygon width="0.152400" start_y="2.540000" grab_area="true" fill="false" layer="10" start_x="-1.778000">
+   <segment angle="0.000000" end_x="1.778000" end_y="2.540000"/>
+  </polygon>
+  <polygon width="0.152400" start_y="2.540000" grab_area="true" fill="false" layer="10" start_x="1.778000">
+   <segment angle="0.000000" end_x="1.778000" end_y="1.905000"/>
+  </polygon>
+  <polygon width="0.152400" start_y="-1.905000" grab_area="true" fill="false" layer="10" start_x="1.778000">
+   <segment angle="0.000000" end_x="1.778000" end_y="-2.540000"/>
+  </polygon>
+  <polygon width="0.152400" start_y="-2.540000" grab_area="true" fill="false" layer="10" start_x="-1.778000">
+   <segment angle="0.000000" end_x="1.778000" end_y="-2.540000"/>
+  </polygon>
+  <polygon width="0.152400" start_y="-2.540000" grab_area="true" fill="false" layer="10" start_x="-1.778000">
+   <segment angle="0.000000" end_x="-1.778000" end_y="-1.905000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="1.524000" grab_area="true" fill="false" layer="10" start_x="-0.381000">
+   <segment angle="0.000000" end_x="-0.381000" end_y="-1.524000"/>
+   <segment angle="0.000000" end_x="0.381000" end_y="-1.524000"/>
+   <segment angle="0.000000" end_x="0.381000" end_y="1.524000"/>
+   <segment angle="0.000000" end_x="-0.381000" end_y="1.524000"/>
+  </polygon>
+  <text rotation="0.000000" x="2.540000" height="3.175000" layer="20" y="1.016000" h_align="left" v_align="bottom">${SYM::NAME}</text>
+  <text rotation="0.000000" x="2.540000" height="2.500000" layer="21" y="-2.540000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+ </geometry>
+</symbol>

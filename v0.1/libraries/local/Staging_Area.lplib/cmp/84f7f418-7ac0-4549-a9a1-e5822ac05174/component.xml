@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>84f7f418-7ac0-4549-a9a1-e5822ac05174</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">RGP30</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+fast-recovery rectifier
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: RGP30
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="e4785d33-625f-4162-a499-79d3dfa48936" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="27c4c2b8-3a64-4d35-a382-6ef58971cecb" role="passive" negated="false">C</signal>
+ </signals>
+ <symbol_variants default="6e8cc1d9-52a6-4e47-9367-0dfa021198e2">
+  <variant norm="" uuid="6e8cc1d9-52a6-4e47-9367-0dfa021198e2">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="30753dc0-7c60-4c52-9f8c-7d02bae6dc58">
+     <pin_signal_map>
+      <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">27c4c2b8-3a64-4d35-a382-6ef58971cecb</map>
+      <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">e4785d33-625f-4162-a499-79d3dfa48936</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

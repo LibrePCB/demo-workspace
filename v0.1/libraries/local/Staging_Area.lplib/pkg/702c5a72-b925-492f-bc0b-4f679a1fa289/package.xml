@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package>
+ <meta>
+  <uuid>702c5a72-b925-492f-bc0b-4f679a1fa289</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:46Z</created>
+  <last_modified>2015-12-20T22:10:46Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">C050-035X075</name>
+  <description locale="en_US">&lt;b>CAPACITOR&lt;/b>&lt;p>
+grid 5 mm, outline 3.5 x 7.5 mm
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: C050-035X075
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="3fa84f19-3849-410d-ae2e-03730868a5a4">1</pad>
+  <pad uuid="eafaf38a-7378-454c-99a5-48a239ad9323">2</pad>
+ </pads>
+ <footprints default="21dafc1b-70fd-41b5-9474-c822f4936626">
+  <footprint uuid="21dafc1b-70fd-41b5-9474-c822f4936626">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.304800" start_y="0.635000" grab_area="true" fill="false" layer="260" start_x="-0.304800">
+     <segment angle="0.000000" end_x="-0.304800" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.304800" start_y="0.000000" grab_area="true" fill="false" layer="260" start_x="-0.304800">
+     <segment angle="0.000000" end_x="-0.304800" end_y="-0.635000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.000000" grab_area="true" fill="false" layer="260" start_x="-0.304800">
+     <segment angle="0.000000" end_x="-1.524000" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.304800" start_y="0.635000" grab_area="true" fill="false" layer="260" start_x="0.330200">
+     <segment angle="0.000000" end_x="0.330200" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.304800" start_y="0.000000" grab_area="true" fill="false" layer="260" start_x="0.330200">
+     <segment angle="0.000000" end_x="0.330200" end_y="-0.635000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.000000" grab_area="true" fill="false" layer="260" start_x="0.330200">
+     <segment angle="0.000000" end_x="1.524000" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="1.524000" grab_area="true" fill="false" layer="260" start_x="-3.683000">
+     <segment angle="0.000000" end_x="-3.683000" end_y="-1.524000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="-1.778000" grab_area="true" fill="false" layer="260" start_x="-3.429000">
+     <segment angle="0.000000" end_x="3.429000" end_y="-1.778000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="-1.524000" grab_area="true" fill="false" layer="260" start_x="3.683000">
+     <segment angle="0.000000" end_x="3.683000" end_y="1.524000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="1.778000" grab_area="true" fill="false" layer="260" start_x="3.429000">
+     <segment angle="0.000000" end_x="-3.429000" end_y="1.778000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="1.778000" grab_area="true" fill="false" layer="260" start_x="3.429000">
+     <segment angle="-90.000000" end_x="3.683000" end_y="1.524000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="-1.778000" grab_area="true" fill="false" layer="260" start_x="3.429000">
+     <segment angle="90.000000" end_x="3.683000" end_y="-1.524000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="-1.524000" grab_area="true" fill="false" layer="260" start_x="-3.683000">
+     <segment angle="90.000000" end_x="-3.429000" end_y="-1.778000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="1.524000" grab_area="true" fill="false" layer="260" start_x="-3.683000">
+     <segment angle="-90.000000" end_x="-3.429000" end_y="1.778000"/>
+    </polygon>
+    <text rotation="0.000000" x="-3.556000" height="2.500000" layer="240" y="2.159000" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text rotation="0.000000" x="-3.556000" height="2.000000" layer="250" y="-3.429000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <pad rotation="0.000000" technology="tht" shape="octagon" x="-2.540000" height="1.625600" width="1.625600" drill="0.812800" uuid="3fa84f19-3849-410d-ae2e-03730868a5a4" y="0.000000"/>
+    <pad rotation="0.000000" technology="tht" shape="octagon" x="2.540000" height="1.625600" width="1.625600" drill="0.812800" uuid="eafaf38a-7378-454c-99a5-48a239ad9323" y="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

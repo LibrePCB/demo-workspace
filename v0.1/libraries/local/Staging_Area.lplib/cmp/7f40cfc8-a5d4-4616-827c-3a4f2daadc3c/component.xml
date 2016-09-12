@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>7f40cfc8-a5d4-4616-827c-3a4f2daadc3c</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:03Z</created>
+  <last_modified>2015-12-20T22:11:03Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">LSP10</name>
+  <description locale="en_US">&lt;b>SOLDER PAD&lt;/b>&lt;p> drill 1.0 mm, distributor Buerklin, 12H555
+
+This element was automatically imported from Eagle
+Filepath: solpad.lbr
+Name: LSP10
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">LSP</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="d3e78216-6f61-4d95-b485-c1b5482ef34b" role="passive" negated="false">MP</signal>
+ </signals>
+ <symbol_variants default="96dd115e-3a67-4c49-a677-862e5b9621fe">
+  <variant norm="" uuid="96dd115e-3a67-4c49-a677-862e5b9621fe">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="1" symbol="052aa7bc-7a56-4a3e-8b6e-8bd20873f5fe" required="true" uuid="41aee854-3bf0-4e61-925e-c39fb97d0ee6">
+     <pin_signal_map>
+      <map display="component_signal" pin="85838f32-e34b-43b7-929c-8dad5764c146">d3e78216-6f61-4d95-b485-c1b5482ef34b</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

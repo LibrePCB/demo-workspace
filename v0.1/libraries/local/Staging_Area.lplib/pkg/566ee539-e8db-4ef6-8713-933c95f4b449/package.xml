@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package>
+ <meta>
+  <uuid>566ee539-e8db-4ef6-8713-933c95f4b449</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:50Z</created>
+  <last_modified>2015-12-20T22:10:50Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">4,16O1,6</name>
+  <description locale="en_US">&lt;b>THROUGH-HOLE PAD&lt;/b>
+
+This element was automatically imported from Eagle
+Filepath: wirepad.lbr
+Name: 4,16O1,6
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="913e2998-c791-4424-97c0-36dbcff883de">1</pad>
+ </pads>
+ <footprints default="4dbcb001-cdba-4397-b577-6af007603e53">
+  <footprint uuid="4dbcb001-cdba-4397-b577-6af007603e53">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <text rotation="0.000000" x="0.000000" height="2.000000" layer="250" y="0.000000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <text rotation="0.000000" x="-2.100000" height="2.500000" layer="240" y="2.200000" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <pad rotation="0.000000" technology="tht" shape="octagon" x="0.000000" height="4.165600" width="4.165600" drill="1.600200" uuid="913e2998-c791-4424-97c0-36dbcff883de" y="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

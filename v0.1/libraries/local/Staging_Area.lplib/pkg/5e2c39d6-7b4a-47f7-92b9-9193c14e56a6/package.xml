@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package>
+ <meta>
+  <uuid>5e2c39d6-7b4a-47f7-92b9-9193c14e56a6</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:43Z</created>
+  <last_modified>2015-12-20T22:10:43Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">UM4</name>
+  <description locale="en_US">&lt;b>Crystal Filter&lt;/b>&lt;p>
+Source: www.ilsiamerica.com .. C1 IXF Series.pdf
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: UM4
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="2e0427f0-5851-49d9-b65f-ac738f2bb7c2">2</pad>
+  <pad uuid="a74eba58-ac44-4eaf-9607-463960d3f34c">3</pad>
+  <pad uuid="e9c67af2-535d-406b-baf2-714164bc6c06">1</pad>
+ </pads>
+ <footprints default="be7bfe45-32af-4605-82ff-7bf33d3291ee">
+  <footprint uuid="be7bfe45-32af-4605-82ff-7bf33d3291ee">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.406400" start_y="-1.411000" grab_area="true" fill="false" layer="260" start_x="-2.396000">
+     <segment angle="0.000000" end_x="2.421000" end_y="-1.411000"/>
+    </polygon>
+    <polygon width="0.406400" start_y="1.361000" grab_area="true" fill="false" layer="260" start_x="-2.421000">
+     <segment angle="0.000000" end_x="2.396000" end_y="1.361000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="-0.903000" grab_area="true" fill="false" layer="260" start_x="-2.396000">
+     <segment angle="0.000000" end_x="2.421000" end_y="-0.903000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.853000" grab_area="true" fill="false" layer="260" start_x="2.396000">
+     <segment angle="0.000000" end_x="-2.421000" end_y="0.853000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.853000" grab_area="true" fill="false" layer="260" start_x="2.396000">
+     <segment angle="-180.000000" end_x="2.421000" end_y="-0.903000"/>
+    </polygon>
+    <polygon width="0.406400" start_y="1.361000" grab_area="true" fill="false" layer="260" start_x="2.396000">
+     <segment angle="-180.000000" end_x="2.421000" end_y="-1.411000"/>
+    </polygon>
+    <polygon width="0.406400" start_y="1.361000" grab_area="true" fill="false" layer="260" start_x="-2.421000">
+     <segment angle="180.000000" end_x="-2.396000" end_y="-1.411000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.853000" grab_area="true" fill="false" layer="260" start_x="-2.421000">
+     <segment angle="180.000000" end_x="-2.396000" end_y="-0.903000"/>
+    </polygon>
+    <text rotation="0.000000" x="-3.810000" height="2.500000" layer="240" y="1.905000" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text rotation="0.000000" x="-3.810000" height="2.000000" layer="250" y="-3.175000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <pad rotation="0.000000" technology="tht" shape="round" x="-0.027000" height="1.200000" width="1.200000" drill="0.700000" uuid="2e0427f0-5851-49d9-b65f-ac738f2bb7c2" y="0.000000"/>
+    <pad rotation="0.000000" technology="tht" shape="round" x="1.875000" height="1.200000" width="1.200000" drill="0.700000" uuid="a74eba58-ac44-4eaf-9607-463960d3f34c" y="0.000000"/>
+    <pad rotation="0.000000" technology="tht" shape="round" x="-1.875000" height="1.200000" width="1.200000" drill="0.700000" uuid="e9c67af2-535d-406b-baf2-714164bc6c06" y="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

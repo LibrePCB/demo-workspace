@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>393038f6-1be7-4e10-ac10-35fc55a90f39</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">ZDXX</name>
+  <description locale="en_US">&lt;b>Z DIODE&lt;/b>&lt;p>
+1.3 W
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: ZDXX
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="67a1fed4-c34d-48df-96f8-25efecfdb44d" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="7fa144c7-4414-4fe0-a320-c3101e7a874a" role="passive" negated="false">C</signal>
+ </signals>
+ <symbol_variants default="6104ba87-3170-42d7-82cc-099f623fa877">
+  <variant norm="" uuid="6104ba87-3170-42d7-82cc-099f623fa877">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="1" symbol="d7a60962-0f8b-44e9-831b-dd7bca1649b0" required="true" uuid="a5543942-e2b1-4d86-9563-a1acd9181607">
+     <pin_signal_map>
+      <map display="component_signal" pin="bcc4ce5f-1594-4790-be6a-b42e9f0ddea3">7fa144c7-4414-4fe0-a320-c3101e7a874a</map>
+      <map display="component_signal" pin="e72b6a12-69fb-44b7-ba93-b164352f614f">67a1fed4-c34d-48df-96f8-25efecfdb44d</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

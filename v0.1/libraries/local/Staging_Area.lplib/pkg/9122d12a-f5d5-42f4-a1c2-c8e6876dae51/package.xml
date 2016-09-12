@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package>
+ <meta>
+  <uuid>9122d12a-f5d5-42f4-a1c2-c8e6876dae51</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:44Z</created>
+  <last_modified>2015-12-20T22:10:44Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">C182A</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+2-lead plasic, vertical
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: C182A
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="1ae19155-4504-4866-89b5-ace3fca41628">A</pad>
+  <pad uuid="d3795896-e9d5-45cc-abdf-4fc16944da27">C</pad>
+ </pads>
+ <footprints default="b18feeef-ba63-4169-961e-7c5477f32015">
+  <footprint uuid="b18feeef-ba63-4169-961e-7c5477f32015">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.152400" start_y="1.270000" grab_area="true" fill="false" layer="260" start_x="2.286000">
+     <segment angle="0.000000" end_x="-2.286000" end_y="1.270000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="1.272400" grab_area="true" fill="false" layer="260" start_x="-2.270500">
+     <segment angle="240.509903" end_x="2.286000" end_y="1.270000"/>
+    </polygon>
+    <text rotation="0.000000" x="3.175000" height="2.500000" layer="240" y="0.635000" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text rotation="0.000000" x="3.175000" height="2.000000" layer="250" y="-1.270000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <pad rotation="0.000000" technology="tht" shape="octagon" x="1.270000" height="1.625600" width="1.625600" drill="0.812800" uuid="1ae19155-4504-4866-89b5-ace3fca41628" y="0.000000"/>
+    <pad rotation="0.000000" technology="tht" shape="octagon" x="-1.270000" height="1.625600" width="1.625600" drill="0.812800" uuid="d3795896-e9d5-45cc-abdf-4fc16944da27" y="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

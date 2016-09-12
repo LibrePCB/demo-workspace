@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol>
+ <meta>
+  <uuid>81fc75ae-26c0-40b0-a228-496d3cd08752</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:32Z</created>
+  <last_modified>2015-12-20T22:10:32Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">TC46</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: TC46
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pins>
+  <pin rotation="180.000000" x="10.160000" length="2.540000" uuid="3e319604-fe2e-4609-8af2-335f1215df1e" y="2.540000">OUT</pin>
+  <pin rotation="0.000000" x="-10.160000" length="2.540000" uuid="5bf3ff92-28eb-427b-865c-8efb6a5973b8" y="2.540000">VCC</pin>
+  <pin rotation="0.000000" x="-10.160000" length="2.540000" uuid="76b70852-b348-452c-9cd8-ea7d164d12f9" y="-2.540000">GND</pin>
+  <pin rotation="90.000000" x="7.620000" length="2.540000" uuid="bc9a9256-5955-4afc-ac20-227a3413234f" y="-10.160000">S2</pin>
+  <pin rotation="90.000000" x="5.080000" length="2.540000" uuid="ced5130d-478d-41dd-99cc-2cb87fe53f72" y="-10.160000">S1</pin>
+ </pins>
+ <geometry>
+  <polygon width="0.101600" start_y="-1.270000" grab_area="true" fill="false" layer="10" start_x="0.762000">
+   <segment angle="0.000000" end_x="1.778000" end_y="-1.270000"/>
+  </polygon>
+  <polygon width="0.101600" start_y="-1.270000" grab_area="true" fill="false" layer="10" start_x="1.778000">
+   <segment angle="0.000000" end_x="1.778000" end_y="-0.381000"/>
+  </polygon>
+  <polygon width="0.101600" start_y="-1.270000" grab_area="true" fill="false" layer="10" start_x="1.778000">
+   <segment angle="0.000000" end_x="1.778000" end_y="-2.159000"/>
+  </polygon>
+  <polygon width="0.101600" start_y="-1.270000" grab_area="true" fill="false" layer="10" start_x="4.318000">
+   <segment angle="0.000000" end_x="3.302000" end_y="-1.270000"/>
+  </polygon>
+  <polygon width="0.101600" start_y="-1.270000" grab_area="true" fill="false" layer="10" start_x="3.302000">
+   <segment angle="0.000000" end_x="3.302000" end_y="-2.159000"/>
+  </polygon>
+  <polygon width="0.101600" start_y="-1.270000" grab_area="true" fill="false" layer="10" start_x="3.302000">
+   <segment angle="0.000000" end_x="3.302000" end_y="-0.381000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="-5.080000" grab_area="true" fill="false" layer="10" start_x="-8.890000">
+   <segment angle="0.000000" end_x="-8.890000" end_y="-6.350000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="-6.350000" grab_area="true" fill="false" layer="10" start_x="-8.890000">
+   <segment angle="0.000000" end_x="8.890000" end_y="-6.350000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="-6.350000" grab_area="true" fill="false" layer="10" start_x="8.890000">
+   <segment angle="0.000000" end_x="8.890000" end_y="0.000000"/>
+  </polygon>
+  <polygon width="0.152400" start_y="-7.620000" grab_area="true" fill="false" layer="10" start_x="5.080000">
+   <segment angle="0.000000" end_x="5.080000" end_y="-6.477000"/>
+  </polygon>
+  <polygon width="0.152400" start_y="-7.620000" grab_area="true" fill="false" layer="10" start_x="7.620000">
+   <segment angle="0.000000" end_x="7.620000" end_y="-6.477000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="5.080000" grab_area="true" fill="false" layer="10" start_x="7.620000">
+   <segment angle="0.000000" end_x="7.620000" end_y="-5.080000"/>
+   <segment angle="0.000000" end_x="-7.620000" end_y="-5.080000"/>
+   <segment angle="0.000000" end_x="-7.620000" end_y="5.080000"/>
+   <segment angle="0.000000" end_x="7.620000" end_y="5.080000"/>
+  </polygon>
+  <polygon width="0.101600" start_y="-1.905000" grab_area="true" fill="false" layer="10" start_x="2.286000">
+   <segment angle="0.000000" end_x="2.286000" end_y="-0.635000"/>
+   <segment angle="0.000000" end_x="2.794000" end_y="-0.635000"/>
+   <segment angle="0.000000" end_x="2.794000" end_y="-1.905000"/>
+   <segment angle="0.000000" end_x="2.286000" end_y="-1.905000"/>
+  </polygon>
+  <text rotation="0.000000" x="-7.620000" height="3.175000" layer="20" y="6.350000" h_align="left" v_align="bottom">${SYM::NAME}</text>
+  <text rotation="0.000000" x="-10.160000" height="2.500000" layer="21" y="-10.160000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+ </geometry>
+</symbol>

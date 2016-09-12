@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>af33e8ef-4f14-47ea-a8d1-c4e9b6a0484e</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">DIODE-2CA|AC</name>
+  <description locale="en_US">Dual &lt;b>DIODE&lt;/b> Cathode-Anode|Anode-Cathode
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: DIODE-2CA|AC
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="cd1a1d7e-b28b-4a06-bb29-bbb5b2808072" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="8747c95b-1da8-457f-8475-f77866767d6e" role="passive" negated="false">K1</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="51e12fe0-ad29-4d8f-9eb2-8dd4148dc89b" role="passive" negated="false">K2</signal>
+ </signals>
+ <symbol_variants default="7be4b55f-a159-4113-9162-a33f576cf473">
+  <variant norm="" uuid="7be4b55f-a159-4113-9162-a33f576cf473">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="" symbol="04d35015-c691-48d4-a04a-d91083500fcb" required="true" uuid="bffd0760-b1c6-4e05-85c0-ecd1025a9f5d">
+     <pin_signal_map>
+      <map display="component_signal" pin="65f6f8ce-7452-44d3-887c-5e876ccfd6b3">51e12fe0-ad29-4d8f-9eb2-8dd4148dc89b</map>
+      <map display="component_signal" pin="7e80204f-6db7-4ea2-b825-80e0c5f4e2e1">8747c95b-1da8-457f-8475-f77866767d6e</map>
+      <map display="component_signal" pin="cea34ac7-8192-44fb-97c1-d9b7e022e9f4">cd1a1d7e-b28b-4a06-bb29-bbb5b2808072</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

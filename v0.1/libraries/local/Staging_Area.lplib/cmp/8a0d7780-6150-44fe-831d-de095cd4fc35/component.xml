@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>8a0d7780-6150-44fe-831d-de095cd4fc35</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">FA-</name>
+  <description locale="en_US">&lt;b>MHz RANGE CRYSTAL UNIT&lt;/b> &lt;p>
+Source: Epson Toyocom
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: FA-
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">Q</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="39e183fe-cab8-431b-9168-df821178568d" role="passive" negated="false">1</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="f1ff2237-ffbb-4f15-b22f-b2d30d9eaadc" role="passive" negated="false">2</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="32ba994d-e39e-4b2b-9773-0db4e40fdc49" role="passive" negated="false">3</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="9afbbeb7-632f-47a4-a071-135ce58eaf11" role="passive" negated="false">4</signal>
+ </signals>
+ <symbol_variants default="a91b9c8f-dc37-49de-9d2f-d02a687f14bc">
+  <variant norm="" uuid="a91b9c8f-dc37-49de-9d2f-d02a687f14bc">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="" symbol="a909fd73-ff6e-489a-9062-f816b26d5094" required="true" uuid="d6f333c8-d5f5-4e9a-bea7-893662833f70">
+     <pin_signal_map>
+      <map display="component_signal" pin="1853f7e7-7649-4df8-830f-16b3e5845af2">32ba994d-e39e-4b2b-9773-0db4e40fdc49</map>
+      <map display="component_signal" pin="71358fb5-0c95-491a-9ee8-165ebe8411fc">f1ff2237-ffbb-4f15-b22f-b2d30d9eaadc</map>
+      <map display="component_signal" pin="ba76e64f-63d0-47d0-bcab-180c52799484">39e183fe-cab8-431b-9168-df821178568d</map>
+      <map display="component_signal" pin="c22d2d34-fb10-4182-9e99-ee7e7f98d00b">9afbbeb7-632f-47a4-a071-135ce58eaf11</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

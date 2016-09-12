@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>d5395bbf-8f69-41af-b8a1-767802755275</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">DUOLED5MM</name>
+  <description locale="en_US">&lt;B>DUO LED&lt;/B>&lt;p>
+2 colors, 5 mm, round
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: DUOLED5MM
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="164b963b-76d5-4d79-bd7e-7096135744fc" role="passive" negated="false">AG</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="6f8f0d46-ad84-4ba9-838b-bc693625e56d" role="passive" negated="false">AR</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="247e3d9e-99f0-446d-9761-876f3415a449" role="passive" negated="false">C</signal>
+ </signals>
+ <symbol_variants default="ccefb62e-7d44-4e0e-be9c-3fc911ed1e61">
+  <variant norm="" uuid="ccefb62e-7d44-4e0e-be9c-3fc911ed1e61">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="1" symbol="124e8406-03c0-41db-a2cc-106f0d0ea9b2" required="true" uuid="dcd93d54-2dda-48ad-9c50-03070f0aa005">
+     <pin_signal_map>
+      <map display="component_signal" pin="253adbbf-c32a-43cd-9b0c-53d7f5114e2d">6f8f0d46-ad84-4ba9-838b-bc693625e56d</map>
+      <map display="component_signal" pin="641d8d32-a597-4b97-8a74-02342ad8e6e6">247e3d9e-99f0-446d-9761-876f3415a449</map>
+      <map display="component_signal" pin="8963a8cf-9b6b-42a0-bb2f-772a21356cb2">164b963b-76d5-4d79-bd7e-7096135744fc</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

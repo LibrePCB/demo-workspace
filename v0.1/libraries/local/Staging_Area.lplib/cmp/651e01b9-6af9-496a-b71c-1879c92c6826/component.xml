@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>651e01b9-6af9-496a-b71c-1879c92c6826</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">BYW29</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+ultra fast rectifier, 200 V, 8 A
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: BYW29
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="2b07e7ac-6606-49cd-9a3e-dd3223d45f9b" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="fe5dd1f8-c4f8-4a1a-9b65-dc7ae07f3a4b" role="passive" negated="false">C</signal>
+ </signals>
+ <symbol_variants default="e702647e-feea-4ce3-a653-818f603960d9">
+  <variant norm="" uuid="e702647e-feea-4ce3-a653-818f603960d9">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="b47d31bf-52c9-4865-8490-ca5c7a4b6fc6">
+     <pin_signal_map>
+      <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">fe5dd1f8-c4f8-4a1a-9b65-dc7ae07f3a4b</map>
+      <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">2b07e7ac-6606-49cd-9a3e-dd3223d45f9b</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>6da40918-f548-4d16-b360-d4d2b1b3421c</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">MC-306</name>
+  <description locale="en_US">&lt;b>kHz RANGE CRYSTAL UNIT&lt;/b> SMD&lt;p>
+Source: MC-306_405_406_E07X.PDF &lt;a href="http://www.epsontoyocom.co.jp"> Homepage &lt;/a>
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: MC-306
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">Q</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="09876c0f-f981-48b3-87c9-fd6e8faa2a0e" role="passive" negated="false">1</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="f331b467-2311-4caa-9ff2-5b3a5b259431" role="passive" negated="false">2</signal>
+ </signals>
+ <symbol_variants default="0748d03c-8f6c-4591-be76-0f408786c2c9">
+  <variant norm="" uuid="0748d03c-8f6c-4591-be76-0f408786c2c9">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="P" symbol="986f38ca-ea17-4c03-97a6-b7d5fc7d8012" required="true" uuid="77a9a40f-c2c5-4493-ae79-847a082fee45">
+     <pin_signal_map>
+      <map display="component_signal" pin="2fa806c9-af1c-457c-a92f-3459e6131fbc">f331b467-2311-4caa-9ff2-5b3a5b259431</map>
+      <map display="component_signal" pin="ac7d1cc8-4a9e-4936-ab7c-ed70c7347195">09876c0f-f981-48b3-87c9-fd6e8faa2a0e</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

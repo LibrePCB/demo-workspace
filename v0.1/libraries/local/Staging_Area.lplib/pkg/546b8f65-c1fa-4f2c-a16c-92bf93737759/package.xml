@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package>
+ <meta>
+  <uuid>546b8f65-c1fa-4f2c-a16c-92bf93737759</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:47Z</created>
+  <last_modified>2015-12-20T22:10:47Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">TT5D10</name>
+  <description locale="en_US">&lt;b>ELECTROLYTIC CAPACITOR&lt;/b>&lt;p>
+diameter 10 mm, grid 5.08 mm
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: TT5D10
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="3a349e26-a225-43fd-b1cd-b1d05730321a">+</pad>
+  <pad uuid="5483bf40-0cbe-4f58-a54b-ae47b9c235f0">-</pad>
+ </pads>
+ <footprints default="479f7069-2e3c-421c-b0af-3734f9896284">
+  <footprint uuid="479f7069-2e3c-421c-b0af-3734f9896284">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.152400" start_y="0.000000" grab_area="true" fill="false" layer="260" start_x="-1.397000">
+     <segment angle="0.000000" end_x="-0.635000" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.000000" grab_area="true" fill="false" layer="260" start_x="-0.635000">
+     <segment angle="0.000000" end_x="-0.635000" end_y="-1.270000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="-1.270000" grab_area="true" fill="false" layer="260" start_x="-0.635000">
+     <segment angle="0.000000" end_x="-0.127000" end_y="-1.270000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="-1.270000" grab_area="true" fill="false" layer="260" start_x="-0.127000">
+     <segment angle="0.000000" end_x="-0.127000" end_y="1.270000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="1.270000" grab_area="true" fill="false" layer="260" start_x="-0.127000">
+     <segment angle="0.000000" end_x="-0.635000" end_y="1.270000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="1.270000" grab_area="true" fill="false" layer="260" start_x="-0.635000">
+     <segment angle="0.000000" end_x="-0.635000" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.000000" grab_area="true" fill="false" layer="260" start_x="0.635000">
+     <segment angle="0.000000" end_x="1.397000" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="1.651000" grab_area="true" fill="false" layer="260" start_x="-2.413000">
+     <segment angle="0.000000" end_x="-1.397000" end_y="1.651000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="1.143000" grab_area="true" fill="false" layer="260" start_x="-1.905000">
+     <segment angle="0.000000" end_x="-1.905000" end_y="2.159000"/>
+    </polygon>
+    <polygon width="0.000000" start_y="-1.270000" grab_area="true" fill="true" layer="260" start_x="0.254000">
+     <segment angle="0.000000" end_x="0.762000" end_y="-1.270000"/>
+     <segment angle="0.000000" end_x="0.762000" end_y="1.270000"/>
+     <segment angle="0.000000" end_x="0.254000" end_y="1.270000"/>
+     <segment angle="0.000000" end_x="0.254000" end_y="-1.270000"/>
+    </polygon>
+    <text rotation="0.000000" x="4.191000" height="2.500000" layer="240" y="3.302000" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text rotation="0.000000" x="-3.302000" height="2.000000" layer="250" y="-3.048000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <text rotation="0.000000" x="2.794000" height="1.981200" layer="260" y="1.143000" h_align="left" v_align="bottom">TT</text>
+    <ellipse radius_y="5.080000" rotation="0.000000" radius_x="5.080000" x="0.000000" width="0.152400" grab_area="true" fill="false" layer="260" y="0.000000"/>
+    <pad rotation="0.000000" technology="tht" shape="round" x="-2.540000" height="1.625600" width="1.625600" drill="0.812800" uuid="3a349e26-a225-43fd-b1cd-b1d05730321a" y="0.000000"/>
+    <pad rotation="0.000000" technology="tht" shape="octagon" x="2.540000" height="1.625600" width="1.625600" drill="0.812800" uuid="5483bf40-0cbe-4f58-a54b-ae47b9c235f0" y="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

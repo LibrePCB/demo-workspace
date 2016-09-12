@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package>
+ <meta>
+  <uuid>c55cb8b2-372c-4ef8-b093-02fa40d252d9</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:49Z</created>
+  <last_modified>2015-12-20T22:10:49Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">CT3216</name>
+  <description locale="en_US">&lt;b>TANTALUM CAPACITOR&lt;/b>
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: CT3216
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="85c5ab21-ca14-4125-b667-dcb6123ca6e7">+</pad>
+  <pad uuid="975918d0-a5d0-46fa-b4a4-5c343e985ba1">-</pad>
+ </pads>
+ <footprints default="13d9ba4b-13fd-4ab2-86f6-b6c918c22a84">
+  <footprint uuid="13d9ba4b-13fd-4ab2-86f6-b6c918c22a84">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.152400" start_y="0.559000" grab_area="true" fill="false" layer="200" start_x="-1.651000">
+     <segment angle="0.000000" end_x="-1.651000" end_y="-0.559000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.559000" grab_area="true" fill="false" layer="200" start_x="1.651000">
+     <segment angle="0.000000" end_x="1.651000" end_y="-0.559000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="0.000000" grab_area="true" fill="false" layer="200" start_x="-0.700000">
+     <segment angle="0.000000" end_x="-1.260000" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="0.260000" grab_area="true" fill="false" layer="200" start_x="-0.970000">
+     <segment angle="0.000000" end_x="-0.970000" end_y="-0.300000"/>
+    </polygon>
+    <polygon width="0.000000" start_y="-0.599900" grab_area="true" fill="true" layer="220" start_x="-0.199900">
+     <segment angle="0.000000" end_x="0.199900" end_y="-0.599900"/>
+     <segment angle="0.000000" end_x="0.199900" end_y="0.599900"/>
+     <segment angle="0.000000" end_x="-0.199900" end_y="0.599900"/>
+     <segment angle="0.000000" end_x="-0.199900" end_y="-0.599900"/>
+    </polygon>
+    <polygon width="0.050800" start_y="-1.483000" grab_area="true" fill="false" layer="280" start_x="2.973000">
+     <segment angle="0.000000" end_x="2.973000" end_y="1.483000"/>
+     <segment angle="0.000000" end_x="-2.973000" end_y="1.483000"/>
+     <segment angle="0.000000" end_x="-2.973000" end_y="-1.483000"/>
+     <segment angle="0.000000" end_x="2.973000" end_y="-1.483000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="-0.798000" grab_area="true" fill="false" layer="200" start_x="-1.535000">
+     <segment angle="0.000000" end_x="-1.535000" end_y="0.798000"/>
+     <segment angle="0.000000" end_x="1.535000" end_y="0.798000"/>
+     <segment angle="0.000000" end_x="1.535000" end_y="-0.798000"/>
+     <segment angle="0.000000" end_x="-1.535000" end_y="-0.798000"/>
+    </polygon>
+    <text rotation="0.000000" x="-2.540000" height="2.500000" layer="240" y="1.270000" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text rotation="0.000000" x="-2.540000" height="2.000000" layer="250" y="-2.540000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <pad rotation="0.000000" technology="smt" side="top" x="-1.400000" height="1.200000" width="2.000000" uuid="85c5ab21-ca14-4125-b667-dcb6123ca6e7" y="0.000000"/>
+    <pad rotation="0.000000" technology="smt" side="top" x="1.400000" height="1.200000" width="2.000000" uuid="975918d0-a5d0-46fa-b4a4-5c343e985ba1" y="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

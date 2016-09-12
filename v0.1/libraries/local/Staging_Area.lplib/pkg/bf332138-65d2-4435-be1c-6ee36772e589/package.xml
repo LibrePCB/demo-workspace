@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package>
+ <meta>
+  <uuid>bf332138-65d2-4435-be1c-6ee36772e589</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:48Z</created>
+  <last_modified>2015-12-20T22:10:48Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">175TMP-0810</name>
+  <description locale="en_US">&lt;b>Aluminum electrolytic capacitors&lt;/b>&lt;p>
+High Temperature solid electrolytic SMD 175 TMP&lt;p>
+http://www.bccomponents.com/
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: 175TMP-0810
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="b31e3c48-bcdf-40f8-b851-7ff0616625aa">-</pad>
+  <pad uuid="f9b6588b-039c-40c9-9cf9-982db102e3aa">+</pad>
+ </pads>
+ <footprints default="66600171-7cd4-407e-a89a-e6e43b339a9e">
+  <footprint uuid="66600171-7cd4-407e-a89a-e6e43b339a9e">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.203200" start_y="-4.100000" grab_area="true" fill="false" layer="260" start_x="3.200000">
+     <segment angle="0.000000" end_x="-4.100000" end_y="-4.100000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="-4.100000" grab_area="true" fill="false" layer="260" start_x="-4.100000">
+     <segment angle="0.000000" end_x="-4.100000" end_y="-1.550000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="-1.550000" grab_area="true" fill="false" layer="200" start_x="-4.100000">
+     <segment angle="0.000000" end_x="-4.100000" end_y="1.550000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="1.550000" grab_area="true" fill="false" layer="260" start_x="-4.100000">
+     <segment angle="0.000000" end_x="-4.100000" end_y="4.100000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="4.100000" grab_area="true" fill="false" layer="260" start_x="-4.100000">
+     <segment angle="0.000000" end_x="3.200000" end_y="4.100000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="3.200000" grab_area="true" fill="false" layer="260" start_x="4.100000">
+     <segment angle="0.000000" end_x="4.100000" end_y="1.500000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="1.500000" grab_area="true" fill="false" layer="200" start_x="4.100000">
+     <segment angle="0.000000" end_x="4.100000" end_y="-1.550000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="-1.550000" grab_area="true" fill="false" layer="260" start_x="4.100000">
+     <segment angle="0.000000" end_x="4.100000" end_y="-3.200000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="-3.200000" grab_area="true" fill="false" layer="260" start_x="4.100000">
+     <segment angle="0.000000" end_x="3.200000" end_y="-4.100000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="4.100000" grab_area="true" fill="false" layer="260" start_x="3.200000">
+     <segment angle="0.000000" end_x="4.100000" end_y="3.200000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="1.450000" grab_area="true" fill="false" layer="260" start_x="-3.600000">
+     <segment angle="0.000000" end_x="-3.600000" end_y="-1.450000"/>
+     <segment angle="0.000000" end_x="3.600000" end_y="-1.450000"/>
+     <segment angle="0.000000" end_x="3.600000" end_y="1.450000"/>
+     <segment angle="0.000000" end_x="-3.600000" end_y="1.450000"/>
+    </polygon>
+    <text rotation="0.000000" x="-4.290000" height="2.500000" layer="240" y="4.530000" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text rotation="0.000000" x="-4.325000" height="2.000000" layer="250" y="-5.785000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <pad rotation="0.000000" technology="smt" side="top" x="-3.500000" height="2.500000" width="3.000000" uuid="b31e3c48-bcdf-40f8-b851-7ff0616625aa" y="0.000000"/>
+    <pad rotation="0.000000" technology="smt" side="top" x="3.500000" height="2.500000" width="3.000000" uuid="f9b6588b-039c-40c9-9cf9-982db102e3aa" y="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

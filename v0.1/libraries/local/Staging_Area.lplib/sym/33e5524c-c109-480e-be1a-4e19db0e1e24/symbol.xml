@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol>
+ <meta>
+  <uuid>33e5524c-c109-480e-be1a-4e19db0e1e24</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:33Z</created>
+  <last_modified>2015-12-20T22:10:33Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">CPOL</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: rcl.lbr
+Name: CPOL
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pins>
+  <pin rotation="270.000000" x="0.000000" length="2.540000" uuid="97df472f-879c-4ff2-afd8-4c7753ec1d24" y="2.540000">+</pin>
+  <pin rotation="90.000000" x="0.000000" length="2.540000" uuid="bdd8e0c8-de4c-4aab-bffc-8493927b76f8" y="-5.080000">-</pin>
+ </pins>
+ <geometry>
+  <polygon width="0.000000" start_y="-2.540000" grab_area="true" fill="true" layer="10" start_x="-1.651000">
+   <segment angle="0.000000" end_x="1.651000" end_y="-2.540000"/>
+   <segment angle="0.000000" end_x="1.651000" end_y="-1.651000"/>
+   <segment angle="0.000000" end_x="-1.651000" end_y="-1.651000"/>
+   <segment angle="0.000000" end_x="-1.651000" end_y="-2.540000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="-0.889000" grab_area="true" fill="false" layer="10" start_x="-1.524000">
+   <segment angle="0.000000" end_x="-1.524000" end_y="0.000000"/>
+   <segment angle="0.000000" end_x="1.524000" end_y="0.000000"/>
+   <segment angle="0.000000" end_x="1.524000" end_y="-0.889000"/>
+   <segment angle="0.000000" end_x="-1.524000" end_y="-0.889000"/>
+  </polygon>
+  <text rotation="0.000000" x="1.143000" height="3.175000" layer="20" y="0.482600" h_align="left" v_align="bottom">${SYM::NAME}</text>
+  <text rotation="90.000000" x="-0.584200" height="2.540000" layer="10" y="0.406400" h_align="left" v_align="bottom">+</text>
+  <text rotation="0.000000" x="1.143000" height="2.500000" layer="21" y="-4.597400" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+ </geometry>
+</symbol>

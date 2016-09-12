@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>dfdaf608-2fea-4ffe-8e65-067d422aae10</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">PD3S160</name>
+  <description locale="en_US">1.0A SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER POWERDI ® 323 &lt;p>
+Source: http://www.diodes.com/datasheets/ds30899.pdf
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: PD3S160
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="bbe07a96-9022-4237-99f0-d645d7f4a632" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="79011c3e-a83c-47ae-863e-bf72323febc0" role="passive" negated="false">C</signal>
+ </signals>
+ <symbol_variants default="dd5366e7-5e37-4c09-9e30-e2469c671fb9">
+  <variant norm="" uuid="dd5366e7-5e37-4c09-9e30-e2469c671fb9">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="" symbol="b4019e5f-dead-4f11-9040-41fa27f7f4bd" required="true" uuid="1e7947ee-94ef-4177-916e-8537240dc0b2">
+     <pin_signal_map>
+      <map display="component_signal" pin="0c83d4fb-d2f9-4199-b82e-f65cdb357d55">bbe07a96-9022-4237-99f0-d645d7f4a632</map>
+      <map display="component_signal" pin="d1121c89-3dea-4883-9bd1-3cba1d5b038d">79011c3e-a83c-47ae-863e-bf72323febc0</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

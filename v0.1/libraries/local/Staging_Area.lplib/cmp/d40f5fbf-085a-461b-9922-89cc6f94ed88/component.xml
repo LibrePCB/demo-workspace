@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>d40f5fbf-085a-461b-9922-89cc6f94ed88</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">DIAC2-</name>
+  <description locale="en_US">&lt;B>DIAC&lt;/B>&lt;p>
+double diode
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: DIAC2-
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="bd5e5eff-8b69-412e-8a7f-27a3b6e0442e" role="passive" negated="false">T1</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="c77f6b0d-d360-4871-a757-6f79170bc60b" role="passive" negated="false">T2</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="ad7af6e3-39a8-400e-9a0a-61a3fc666e17" role="passive" negated="false">T3</signal>
+ </signals>
+ <symbol_variants default="d528a560-7c02-4ef0-a265-d6df09ccfcee">
+  <variant norm="" uuid="d528a560-7c02-4ef0-a265-d6df09ccfcee">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="-B1" symbol="3cf0cac9-a1c6-4995-8eee-04e41e518029" required="true" uuid="e676b0ab-f6bf-49d4-b626-121c8228db28">
+     <pin_signal_map>
+      <map display="component_signal" pin="24ac5697-3a34-4696-8479-9cc3b2c04abd">ad7af6e3-39a8-400e-9a0a-61a3fc666e17</map>
+      <map display="component_signal" pin="711d0ef8-a72a-4542-a474-baa0074e25e1">c77f6b0d-d360-4871-a757-6f79170bc60b</map>
+      <map display="component_signal" pin="ea1a9645-2a7e-4bad-854b-0b52ff507810">bd5e5eff-8b69-412e-8a7f-27a3b6e0442e</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

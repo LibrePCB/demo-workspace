@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package>
+ <meta>
+  <uuid>4ebed051-648b-4d86-9753-874ad1070498</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:43Z</created>
+  <last_modified>2015-12-20T22:10:43Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">CSM-7X-DU</name>
+  <description locale="en_US">&lt;b>SMD CRYSTAL&lt;/b>&lt;p>
+Source: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: CSM-7X-DU
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="47ed2c1e-bedb-419b-bf04-810cefd87922">1</pad>
+  <pad uuid="f35862c9-f9d5-4662-8ace-c63e8bb01bc4">2</pad>
+ </pads>
+ <footprints default="84e99d03-88ee-4e12-ba11-cf0b3685d5e2">
+  <footprint uuid="84e99d03-88ee-4e12-ba11-cf0b3685d5e2">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.203200" start_y="2.300000" grab_area="true" fill="false" layer="200" start_x="-5.575000">
+     <segment angle="0.000000" end_x="-2.725000" end_y="2.300000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="2.300000" grab_area="true" fill="false" layer="200" start_x="-2.725000">
+     <segment angle="0.000000" end_x="2.750000" end_y="2.300000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="2.300000" grab_area="true" fill="false" layer="200" start_x="2.750000">
+     <segment angle="0.000000" end_x="5.550000" end_y="2.300000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="2.300000" grab_area="true" fill="false" layer="200" start_x="5.550000">
+     <segment angle="0.000000" end_x="5.550000" end_y="-2.300000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="-2.300000" grab_area="true" fill="false" layer="200" start_x="5.550000">
+     <segment angle="0.000000" end_x="-2.750000" end_y="-2.300000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="-2.300000" grab_area="true" fill="false" layer="200" start_x="-2.750000">
+     <segment angle="0.000000" end_x="-5.575000" end_y="-2.300000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="-2.300000" grab_area="true" fill="false" layer="200" start_x="-5.575000">
+     <segment angle="0.000000" end_x="-5.575000" end_y="2.300000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="-2.300000" grab_area="true" fill="false" layer="200" start_x="-2.750000">
+     <segment angle="-180.000000" end_x="-2.725000" end_y="2.300000"/>
+    </polygon>
+    <polygon width="0.203200" start_y="2.300000" grab_area="true" fill="false" layer="200" start_x="2.750000">
+     <segment angle="-180.000000" end_x="2.725000" end_y="-2.300000"/>
+    </polygon>
+    <text rotation="0.000000" x="-7.628800" height="2.500000" layer="240" y="2.533400" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text rotation="0.000000" x="-7.628800" height="2.000000" layer="250" y="-4.311400" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <pad rotation="0.000000" technology="smt" side="top" x="-4.750000" height="2.000000" width="5.500000" uuid="47ed2c1e-bedb-419b-bf04-810cefd87922" y="0.000000"/>
+    <pad rotation="0.000000" technology="smt" side="top" x="4.750000" height="2.000000" width="5.500000" uuid="f35862c9-f9d5-4662-8ace-c63e8bb01bc4" y="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>c6f34eb0-f48a-4d56-8f38-022cbf84711a</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:59Z</created>
+  <last_modified>2015-12-20T22:10:59Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">BYD14</name>
+  <description locale="en_US">&lt;B>DIODE&lt;/B>
+
+This element was automatically imported from Eagle
+Filepath: diode.lbr
+Name: BYD14
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="9f0bab8e-53b1-41f0-8faa-6a6483c44182" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="49af5aec-b11b-4129-bc79-3117b42fc5d8" role="passive" negated="false">C</signal>
+ </signals>
+ <symbol_variants default="b3a6205e-8bf2-4b61-a147-70f8c1c0b0a9">
+  <variant norm="" uuid="b3a6205e-8bf2-4b61-a147-70f8c1c0b0a9">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="aca3ab2f-1c95-4edb-9e04-ef926ef087f8">
+     <pin_signal_map>
+      <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">49af5aec-b11b-4129-bc79-3117b42fc5d8</map>
+      <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">9f0bab8e-53b1-41f0-8faa-6a6483c44182</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

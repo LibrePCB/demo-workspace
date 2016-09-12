@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>f9c0896e-27aa-4c35-a510-c2abc966d0c3</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:01Z</created>
+  <last_modified>2015-12-20T22:11:01Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">GM5WA94310A</name>
+  <description locale="en_US">&lt;b>Chip LED&lt;/b> RGB&lt;p>
+Source: http://document.sharpsma.com/files/GM5WA94310A_SS.pdf
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: GM5WA94310A
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">LED</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="4e7dfef4-3000-41df-abf5-59f0718df892" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="cb155e73-ed7d-4939-891c-9cd3a8f41d8c" role="passive" negated="false">C</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="b021dec9-e368-4f46-907c-9fbf8b783323" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="5fadb213-e8b3-48ed-9a9c-facee042648e" role="passive" negated="false">C</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="f8d52bd7-dcca-4f91-97c4-2142565e5a78" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="94d65b9f-2b59-4ca9-b555-7e23685ebfdf" role="passive" negated="false">C</signal>
+ </signals>
+ <symbol_variants default="742824e2-072f-452e-a382-6951afb95eb3">
+  <variant norm="" uuid="742824e2-072f-452e-a382-6951afb95eb3">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="R" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" required="true" uuid="761b29f6-f90a-4f57-8ae5-e2edae17fd05">
+     <pin_signal_map>
+      <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">94d65b9f-2b59-4ca9-b555-7e23685ebfdf</map>
+      <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">f8d52bd7-dcca-4f91-97c4-2142565e5a78</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="G" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" required="true" uuid="d4b5b780-c870-4e42-8608-617b92acb63b">
+     <pin_signal_map>
+      <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">5fadb213-e8b3-48ed-9a9c-facee042648e</map>
+      <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">b021dec9-e368-4f46-907c-9fbf8b783323</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="B" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" required="true" uuid="35b3ed59-5c6d-4cef-ae7b-050d93e497ab">
+     <pin_signal_map>
+      <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">cb155e73-ed7d-4939-891c-9cd3a8f41d8c</map>
+      <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">4e7dfef4-3000-41df-abf5-59f0718df892</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

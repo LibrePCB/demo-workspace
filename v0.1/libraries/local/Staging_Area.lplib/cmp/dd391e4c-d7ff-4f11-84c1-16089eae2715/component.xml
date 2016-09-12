@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>dd391e4c-d7ff-4f11-84c1-16089eae2715</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:58Z</created>
+  <last_modified>2015-12-20T22:10:58Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">F90M</name>
+  <description locale="en_US">&lt;b>Monolithic Crystal Filters&lt;/b>&lt;p>
+Source: ECM Electronics Limited
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: F90M
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">QF</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="35247bdc-bf58-487b-9c8b-a9cb975bb4cd" role="passive" negated="false">1</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="f4c55c56-5271-43e0-8c1f-453429a58c5f" role="passive" negated="false">2</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="565729fc-87fd-412c-a6ef-041d2f7c153f" role="passive" negated="false">3</signal>
+ </signals>
+ <symbol_variants default="e11d9d59-8d49-4cfd-8845-c0a8cc7d817e">
+  <variant norm="" uuid="e11d9d59-8d49-4cfd-8845-c0a8cc7d817e">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="" symbol="a6126794-71cd-44d0-813f-fe1847754a41" required="true" uuid="feff0762-2b9a-4a0e-9d36-df2cf9f0bd2b">
+     <pin_signal_map>
+      <map display="component_signal" pin="7a058510-7077-48de-bfdf-f7bde9458f69">565729fc-87fd-412c-a6ef-041d2f7c153f</map>
+      <map display="component_signal" pin="a5bf62e8-174f-4ea6-b364-dc67be3f427f">35247bdc-bf58-487b-9c8b-a9cb975bb4cd</map>
+      <map display="component_signal" pin="d2cced97-9b40-4d03-af13-56366de0c62e">f4c55c56-5271-43e0-8c1f-453429a58c5f</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

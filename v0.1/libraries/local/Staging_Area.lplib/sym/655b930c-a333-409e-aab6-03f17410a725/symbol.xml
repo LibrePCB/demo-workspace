@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol>
+ <meta>
+  <uuid>655b930c-a333-409e-aab6-03f17410a725</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:33Z</created>
+  <last_modified>2015-12-20T22:10:33Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">NUD4011</name>
+  <description locale="en_US">
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: NUD4011
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pins>
+  <pin rotation="0.000000" x="-10.160000" length="2.540000" uuid="08ccb7fa-d9e7-4178-ad07-ce0ce31391fb" y="-5.080000">PWM</pin>
+  <pin rotation="0.000000" x="-10.160000" length="2.540000" uuid="6bb61c3d-5d72-4154-aee0-e623169b45ce" y="5.080000">VIN</pin>
+  <pin rotation="180.000000" x="10.160000" length="2.540000" uuid="ad9d7b5d-e4cf-4ea0-961e-44cda23fbeff" y="0.000000">IOUT</pin>
+  <pin rotation="0.000000" x="-10.160000" length="2.540000" uuid="c6526b82-a6d4-4d29-a0af-7dd4c447f54e" y="-2.540000">REXT</pin>
+  <pin rotation="0.000000" x="-10.160000" length="2.540000" uuid="ed854cd8-9d40-406a-9d19-1e29777626aa" y="2.540000">BOOST</pin>
+ </pins>
+ <geometry>
+  <polygon width="0.254000" start_y="7.620000" grab_area="true" fill="false" layer="10" start_x="7.620000">
+   <segment angle="0.000000" end_x="7.620000" end_y="-7.620000"/>
+   <segment angle="0.000000" end_x="-7.620000" end_y="-7.620000"/>
+   <segment angle="0.000000" end_x="-7.620000" end_y="7.620000"/>
+   <segment angle="0.000000" end_x="7.620000" end_y="7.620000"/>
+  </polygon>
+  <text rotation="0.000000" x="-7.620000" height="3.175000" layer="20" y="8.890000" h_align="left" v_align="bottom">${SYM::NAME}</text>
+  <text rotation="0.000000" x="-7.620000" height="2.500000" layer="21" y="-10.160000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+ </geometry>
+</symbol>

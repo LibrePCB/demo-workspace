@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<package>
+ <meta>
+  <uuid>2c3fc89e-af1c-45b5-aa73-143ae91b268d</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:43Z</created>
+  <last_modified>2015-12-20T22:10:43Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">TC26V</name>
+  <description locale="en_US">&lt;b>CRYSTAL&lt;/b>
+
+This element was automatically imported from Eagle
+Filepath: crystal.lbr
+Name: TC26V
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <pads>
+  <pad uuid="57cd625d-ad73-4837-a35a-e3a82179cbf5">2</pad>
+  <pad uuid="c66900cd-19f0-499e-a431-b8507d6d88ce">1</pad>
+ </pads>
+ <footprints default="72aebdd2-b0da-408d-aba9-a0fc9a300b03">
+  <footprint uuid="72aebdd2-b0da-408d-aba9-a0fc9a300b03">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <geometry>
+    <polygon width="0.152400" start_y="-0.508000" grab_area="true" fill="false" layer="200" start_x="-0.381000">
+     <segment angle="0.000000" end_x="-0.381000" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="-0.508000" grab_area="true" fill="false" layer="200" start_x="0.381000">
+     <segment angle="0.000000" end_x="0.381000" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.000000" grab_area="true" fill="false" layer="200" start_x="0.381000">
+     <segment angle="0.000000" end_x="0.762000" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.000000" grab_area="true" fill="false" layer="200" start_x="0.381000">
+     <segment angle="0.000000" end_x="0.381000" end_y="0.508000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.000000" grab_area="true" fill="false" layer="200" start_x="-0.381000">
+     <segment angle="0.000000" end_x="-0.762000" end_y="0.000000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.000000" grab_area="true" fill="false" layer="200" start_x="-0.381000">
+     <segment angle="0.000000" end_x="-0.381000" end_y="0.508000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="1.016000" grab_area="true" fill="false" layer="260" start_x="0.000000">
+     <segment angle="-44.999323" end_x="0.718400" end_y="0.718400"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.718400" grab_area="true" fill="false" layer="260" start_x="-0.718400">
+     <segment angle="-44.999323" end_x="0.000000" end_y="1.016000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="-0.718400" grab_area="true" fill="false" layer="260" start_x="-0.718400">
+     <segment angle="44.999323" end_x="0.000000" end_y="-1.016000"/>
+    </polygon>
+    <polygon width="0.152400" start_y="-1.016000" grab_area="true" fill="false" layer="260" start_x="0.000000">
+     <segment angle="44.999323" end_x="0.718400" end_y="-0.718400"/>
+    </polygon>
+    <polygon width="0.152400" start_y="0.508000" grab_area="true" fill="false" layer="200" start_x="-0.127000">
+     <segment angle="0.000000" end_x="-0.127000" end_y="-0.508000"/>
+     <segment angle="0.000000" end_x="0.127000" end_y="-0.508000"/>
+     <segment angle="0.000000" end_x="0.127000" end_y="0.508000"/>
+     <segment angle="0.000000" end_x="-0.127000" end_y="0.508000"/>
+    </polygon>
+    <text rotation="0.000000" x="-2.032000" height="2.500000" layer="240" y="1.397000" h_align="left" v_align="bottom">${CMP::NAME}</text>
+    <text rotation="0.000000" x="-2.032000" height="2.000000" layer="250" y="-2.667000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+    <ellipse radius_y="1.016000" rotation="0.000000" radius_x="1.016000" x="0.000000" width="0.152400" grab_area="true" fill="false" layer="200" y="0.000000"/>
+    <pad rotation="0.000000" technology="tht" shape="round" x="1.270000" height="1.625600" width="1.625600" drill="0.812800" uuid="57cd625d-ad73-4837-a35a-e3a82179cbf5" y="0.000000"/>
+    <pad rotation="0.000000" technology="tht" shape="round" x="-1.270000" height="1.625600" width="1.625600" drill="0.812800" uuid="c66900cd-19f0-499e-a431-b8507d6d88ce" y="0.000000"/>
+   </geometry>
+  </footprint>
+ </footprints>
+</package>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>51ca2618-eb8a-4db6-923b-96b9ba97f34a</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:00Z</created>
+  <last_modified>2015-12-20T22:11:00Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">LZR183</name>
+  <description locale="en_US">&lt;B>LED BLOCK&lt;/B>&lt;p>
+3 LEDs, Siemens
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: LZR183
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">DZ</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="322e4eac-851e-4e6b-8fa8-b175bdc8ec4e" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="2bde244a-3b5d-4d36-85be-75f1f10e9b5d" role="passive" negated="false">C</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="341fc1a1-2347-4061-92c8-f9d15215cdc2" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="a0433563-088c-4fae-92d8-ac3eb0fdbf36" role="passive" negated="false">C</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="82693b18-e79f-4aad-8529-fff3d3c16449" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="04ba56aa-d7a3-4c91-ae76-9268b183f55f" role="passive" negated="false">C</signal>
+ </signals>
+ <symbol_variants default="d61c2291-473b-450e-b6ee-405acf6d433a">
+  <variant norm="" uuid="d61c2291-473b-450e-b6ee-405acf6d433a">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="-1" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" required="true" uuid="b45ca0ea-86ce-41f3-8751-2f42c9dafe74">
+     <pin_signal_map>
+      <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">2bde244a-3b5d-4d36-85be-75f1f10e9b5d</map>
+      <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">322e4eac-851e-4e6b-8fa8-b175bdc8ec4e</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="-2" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" required="true" uuid="f3c0cbfb-b761-4577-92d6-f8b1bdebb808">
+     <pin_signal_map>
+      <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">a0433563-088c-4fae-92d8-ac3eb0fdbf36</map>
+      <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">341fc1a1-2347-4061-92c8-f9d15215cdc2</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="-3" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" required="true" uuid="a8aaa248-3b30-4165-a901-533290ca964b">
+     <pin_signal_map>
+      <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">04ba56aa-d7a3-4c91-ae76-9268b183f55f</map>
+      <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">82693b18-e79f-4aad-8529-fff3d3c16449</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

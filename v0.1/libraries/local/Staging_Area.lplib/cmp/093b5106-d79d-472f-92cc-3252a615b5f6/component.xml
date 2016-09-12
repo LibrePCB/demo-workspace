@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>093b5106-d79d-472f-92cc-3252a615b5f6</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:01Z</created>
+  <last_modified>2015-12-20T22:11:01Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">LZ4-00WW10</name>
+  <description locale="en_US">&lt;b>High Luminous Efficacy 10W LED&lt;/b>&lt;p>
+http://www.ledengin.com/products/10wLZ/LZ4-00WW10.pdf
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: LZ4-00WW10
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">LED</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="9dd0fe0e-4657-4c0a-bd86-155595cf5afb" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="604410af-21de-4c92-bf33-3b922976c737" role="passive" negated="false">C</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="f5d5bad0-3522-4a6e-86a5-46bfe98de799" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="f4d437d3-2ac6-4705-921a-7b3bf1a5ab9d" role="passive" negated="false">C</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="fc7692ac-3196-43d3-a38e-e21b82c3359a" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="0a6c1ec8-1742-4650-9b49-fd4367cf103f" role="passive" negated="false">C</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="51f3c459-7a76-4ae0-8f2f-1c4baab6970b" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="8555e0b4-09e5-4a74-b82f-1d41a6efad83" role="passive" negated="false">C</signal>
+ </signals>
+ <symbol_variants default="2553c18a-89bd-4379-a85c-238cb3cf6315">
+  <variant norm="" uuid="2553c18a-89bd-4379-a85c-238cb3cf6315">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="C" symbol="896051ee-322a-47fc-82ce-b1cd85dc68fb" required="true" uuid="4e4baeb5-7de3-491a-af16-20e3f43217ab">
+     <pin_signal_map>
+      <map display="component_signal" pin="5b998a18-5b51-4d0f-9229-6f7ebbd46bc9">fc7692ac-3196-43d3-a38e-e21b82c3359a</map>
+      <map display="component_signal" pin="da37419d-1c37-4f65-9f45-32390e7f301c">0a6c1ec8-1742-4650-9b49-fd4367cf103f</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="D" symbol="896051ee-322a-47fc-82ce-b1cd85dc68fb" required="true" uuid="dcce1039-f0ee-42ae-a636-fa66c2238a22">
+     <pin_signal_map>
+      <map display="component_signal" pin="5b998a18-5b51-4d0f-9229-6f7ebbd46bc9">51f3c459-7a76-4ae0-8f2f-1c4baab6970b</map>
+      <map display="component_signal" pin="da37419d-1c37-4f65-9f45-32390e7f301c">8555e0b4-09e5-4a74-b82f-1d41a6efad83</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="A" symbol="896051ee-322a-47fc-82ce-b1cd85dc68fb" required="true" uuid="6eb7ee9f-b506-458f-948f-48fa463cd13a">
+     <pin_signal_map>
+      <map display="component_signal" pin="5b998a18-5b51-4d0f-9229-6f7ebbd46bc9">9dd0fe0e-4657-4c0a-bd86-155595cf5afb</map>
+      <map display="component_signal" pin="da37419d-1c37-4f65-9f45-32390e7f301c">604410af-21de-4c92-bf33-3b922976c737</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="B" symbol="896051ee-322a-47fc-82ce-b1cd85dc68fb" required="true" uuid="808e32da-3db1-470c-a8c8-71befbf0ca48">
+     <pin_signal_map>
+      <map display="component_signal" pin="5b998a18-5b51-4d0f-9229-6f7ebbd46bc9">f5d5bad0-3522-4a6e-86a5-46bfe98de799</map>
+      <map display="component_signal" pin="da37419d-1c37-4f65-9f45-32390e7f301c">f4d437d3-2ac6-4705-921a-7b3bf1a5ab9d</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

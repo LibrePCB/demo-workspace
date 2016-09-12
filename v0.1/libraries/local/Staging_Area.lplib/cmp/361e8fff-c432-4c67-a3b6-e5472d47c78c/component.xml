@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>361e8fff-c432-4c67-a3b6-e5472d47c78c</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:10:55Z</created>
+  <last_modified>2015-12-20T22:10:55Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">52559-0692</name>
+  <description locale="en_US">&lt;b>FFC/FPC&lt;/b>-to-Board  0.50mm (.020") SMT, Vertical, ZIF Receptacle&lt;p>
+Source: http://www.molex.com/product/ffc/52559.html
+
+This element was automatically imported from Eagle
+Filepath: con-molex.lbr
+Name: 52559-0692
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">X</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="dd590fb5-b1fb-4e7d-a127-fbc337fc4876" role="passive" negated="false">S</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="0c17d87b-133e-46b0-88db-c248475914ad" role="passive" negated="false">S</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="3dff4c8d-e667-4e2a-94c7-25e69e832b2a" role="passive" negated="false">S</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="92c03b48-7cfc-42cb-8d17-fd60a89296b7" role="passive" negated="false">S</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="14f4c6b5-7afe-4390-b36f-f7f81f10d8cc" role="passive" negated="false">S</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="5ec910ae-586c-4b23-91a4-c3e4f880ca37" role="passive" negated="false">S</signal>
+ </signals>
+ <symbol_variants default="d4d2b3a4-adf0-4e42-a766-0676f3f09736">
+  <variant norm="" uuid="d4d2b3a4-adf0-4e42-a766-0676f3f09736">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="-1" symbol="0a757ef4-781e-4f3c-aade-8a81ddaced49" required="true" uuid="884bb5a2-9694-492f-9f85-8ce483883ac1">
+     <pin_signal_map>
+      <map display="component_signal" pin="45616a4f-3a27-43fe-b63f-11ee8266a5d9">dd590fb5-b1fb-4e7d-a127-fbc337fc4876</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="-2" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5" required="true" uuid="43789258-f925-4bb9-8670-8ae6cff44558">
+     <pin_signal_map>
+      <map display="component_signal" pin="30aecab6-78da-4867-91a2-4425c2addf92">0c17d87b-133e-46b0-88db-c248475914ad</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="-3" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5" required="true" uuid="151a88d5-ef19-4690-8615-76e0d4a0624f">
+     <pin_signal_map>
+      <map display="component_signal" pin="30aecab6-78da-4867-91a2-4425c2addf92">3dff4c8d-e667-4e2a-94c7-25e69e832b2a</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="-4" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5" required="true" uuid="ebe8cf59-a575-4866-9ca7-49e71d455be3">
+     <pin_signal_map>
+      <map display="component_signal" pin="30aecab6-78da-4867-91a2-4425c2addf92">92c03b48-7cfc-42cb-8d17-fd60a89296b7</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="-5" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5" required="true" uuid="bdf0a2e4-15fd-4e6a-a3ea-4808cc9f0c3d">
+     <pin_signal_map>
+      <map display="component_signal" pin="30aecab6-78da-4867-91a2-4425c2addf92">14f4c6b5-7afe-4390-b36f-f7f81f10d8cc</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="-6" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5" required="true" uuid="75c72399-af04-41dc-bcd0-9bc592fab489">
+     <pin_signal_map>
+      <map display="component_signal" pin="30aecab6-78da-4867-91a2-4425c2addf92">5ec910ae-586c-4b23-91a4-c3e4f880ca37</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

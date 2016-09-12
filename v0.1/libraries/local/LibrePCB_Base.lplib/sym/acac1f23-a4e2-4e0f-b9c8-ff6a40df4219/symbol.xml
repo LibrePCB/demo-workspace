@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<symbol>
+ <meta>
+  <uuid>acac1f23-a4e2-4e0f-b9c8-ff6a40df4219</uuid>
+  <version>0.1</version>
+  <author>Luz</author>
+  <created>2015-11-02T20:35:00Z</created>
+  <last_modified>2015-11-02T20:35:00Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">Transformer</name>
+  <description locale="en_US">Transformer simple</description>
+  <keywords locale="en_US">transformer</keywords>
+  <category>00000000-0000-4001-8000-000000000000</category>
+ </meta>
+ <pins>
+  <pin rotation="180.000000" x="5.080000" length="2.540000" uuid="0cff3006-ab43-4d98-a2c4-dfa633977b49" y="-5.080000">W2b</pin>
+  <pin rotation="0.000000" x="-5.080000" length="2.540000" uuid="193c60a4-5a9b-4174-85dd-d08ca5b390eb" y="5.080000">W1a</pin>
+  <pin rotation="180.000000" x="5.080000" length="2.540000" uuid="68b0fb32-c051-44f4-9222-2bbc1de187ae" y="5.080000">W1c</pin>
+  <pin rotation="0.000000" x="-5.080000" length="2.540000" uuid="9b42b5e9-be8a-4fe7-aeee-373e6d0723a1" y="0.000000">W1b</pin>
+  <pin rotation="0.000000" x="-5.080000" length="2.540000" uuid="b6765e68-bce6-4f6e-b3be-7d6819839484" y="-5.080000">W2a</pin>
+ </pins>
+ <geometry>
+  <polygon width="0.254000" start_y="5.080000" grab_area="false" fill="false" layer="10" start_x="0.508000">
+   <segment angle="0.000000" end_x="0.508000" end_y="-5.080000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="2.540000" grab_area="false" fill="false" layer="10" start_x="2.540000">
+   <segment angle="180.000000" end_x="2.540000" end_y="0.000000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="0.000000" grab_area="false" fill="false" layer="10" start_x="2.540000">
+   <segment angle="180.000000" end_x="2.540000" end_y="-2.540000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="-2.540000" grab_area="false" fill="false" layer="10" start_x="2.540000">
+   <segment angle="180.000000" end_x="2.540000" end_y="-5.080000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="5.080000" grab_area="false" fill="false" layer="10" start_x="2.540000">
+   <segment angle="180.000000" end_x="2.540000" end_y="2.540000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="0.000000" grab_area="false" fill="false" layer="10" start_x="-2.540000">
+   <segment angle="180.000000" end_x="-2.540000" end_y="2.540000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="2.540000" grab_area="false" fill="false" layer="10" start_x="-2.540000">
+   <segment angle="180.000000" end_x="-2.540000" end_y="5.080000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="-2.540000" grab_area="false" fill="false" layer="10" start_x="-2.540000">
+   <segment angle="180.000000" end_x="-2.540000" end_y="0.000000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="-5.080000" grab_area="false" fill="false" layer="10" start_x="-2.540000">
+   <segment angle="180.000000" end_x="-2.540000" end_y="-2.540000"/>
+  </polygon>
+  <polygon width="0.254000" start_y="5.080000" grab_area="false" fill="false" layer="10" start_x="-0.508000">
+   <segment angle="0.000000" end_x="-0.508000" end_y="-5.080000"/>
+  </polygon>
+  <text rotation="0.000000" x="0.000000" height="2.540000" layer="20" y="5.080000" h_align="center" v_align="bottom">${SYM::NAME}</text>
+  <text rotation="0.000000" x="0.000000" height="2.540000" layer="21" y="-5.080000" h_align="center" v_align="top">${CMP::VALUE}</text>
+ </geometry>
+</symbol>

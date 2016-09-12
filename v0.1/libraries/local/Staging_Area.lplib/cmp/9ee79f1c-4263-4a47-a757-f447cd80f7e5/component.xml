@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>9ee79f1c-4263-4a47-a757-f447cd80f7e5</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:01Z</created>
+  <last_modified>2015-12-20T22:11:01Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">NFSG036BT</name>
+  <description locale="en_US">&lt;b>CHIP TYPE GREEN LED&lt;/b> NFSx036xT&lt;p>
+Source: NICHIA CORPORATION .. NFSG036BT-E.pdf
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: NFSG036BT
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">LED</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="bd3f537b-b6e6-4c4d-9ccf-86a295f3a38c" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="8abaac26-6c3e-4fdb-8bac-4719cb72ee7b" role="passive" negated="false">C</signal>
+ </signals>
+ <symbol_variants default="3c47e7f0-9d77-484d-a73d-f4e45a02f403">
+  <variant norm="" uuid="3c47e7f0-9d77-484d-a73d-f4e45a02f403">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" required="true" uuid="44b8b8f7-40fc-4c06-a1c3-7b92a20890b8">
+     <pin_signal_map>
+      <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">8abaac26-6c3e-4fdb-8bac-4719cb72ee7b</map>
+      <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">bd3f537b-b6e6-4c4d-9ccf-86a295f3a38c</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

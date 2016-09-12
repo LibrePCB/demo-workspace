@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<component>
+ <meta>
+  <uuid>1a319250-d292-4449-b94f-b3b14352ba89</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-12-20T22:11:01Z</created>
+  <last_modified>2015-12-20T22:11:01Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">OVSTRGBBCR8</name>
+  <description locale="en_US">&lt;b>Full Color PLCC6 LED&lt;/b> OVSTRGBBCR8&lt;p>
+Source: www.optekinc.com  .. ovstrgbbcr8.pdf
+
+This element was automatically imported from Eagle
+Filepath: led.lbr
+Name: OVSTRGBBCR8
+NOTE: Remove this text after manual rework!</description>
+  <keywords locale="en_US"></keywords>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">LED</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" required="false" forced_net_name="" uuid="ffd3b1b4-f46a-4905-a91c-9ce290863c14" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="4871d13a-dfe3-4e1e-996a-a856f5b60e74" role="passive" negated="false">C</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="23e0b882-6b21-438c-b0d7-72c9119ee36b" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="d8aa1c7e-fe59-4036-85fd-43addeebdc08" role="passive" negated="false">C</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="e55386e9-265d-4211-a5c0-3a35de14516e" role="passive" negated="false">A</signal>
+  <signal clock="false" required="false" forced_net_name="" uuid="da2fa1e8-7b8d-4718-9d34-e8ca897f46a6" role="passive" negated="false">C</signal>
+ </signals>
+ <symbol_variants default="e7322125-2bdd-46aa-a273-901616088a94">
+  <variant norm="" uuid="e7322125-2bdd-46aa-a273-901616088a94">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item suffix="-G" symbol="896051ee-322a-47fc-82ce-b1cd85dc68fb" required="true" uuid="d0d331d4-c311-42f6-bcd9-7978af324488">
+     <pin_signal_map>
+      <map display="component_signal" pin="5b998a18-5b51-4d0f-9229-6f7ebbd46bc9">ffd3b1b4-f46a-4905-a91c-9ce290863c14</map>
+      <map display="component_signal" pin="da37419d-1c37-4f65-9f45-32390e7f301c">4871d13a-dfe3-4e1e-996a-a856f5b60e74</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="-R" symbol="896051ee-322a-47fc-82ce-b1cd85dc68fb" required="true" uuid="6e543e4b-3ba7-4e36-bce2-34c878bc5f04">
+     <pin_signal_map>
+      <map display="component_signal" pin="5b998a18-5b51-4d0f-9229-6f7ebbd46bc9">23e0b882-6b21-438c-b0d7-72c9119ee36b</map>
+      <map display="component_signal" pin="da37419d-1c37-4f65-9f45-32390e7f301c">d8aa1c7e-fe59-4036-85fd-43addeebdc08</map>
+     </pin_signal_map>
+    </item>
+    <item suffix="" symbol="896051ee-322a-47fc-82ce-b1cd85dc68fb" required="true" uuid="0cece282-10f7-4fbf-9c3b-bd2035f757ff">
+     <pin_signal_map>
+      <map display="component_signal" pin="5b998a18-5b51-4d0f-9229-6f7ebbd46bc9">e55386e9-265d-4211-a5c0-3a35de14516e</map>
+      <map display="component_signal" pin="da37419d-1c37-4f65-9f45-32390e7f301c">da2fa1e8-7b8d-4718-9d34-e8ca897f46a6</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>
