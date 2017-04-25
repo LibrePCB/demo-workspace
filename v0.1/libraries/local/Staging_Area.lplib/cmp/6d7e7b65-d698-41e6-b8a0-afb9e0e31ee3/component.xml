@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>6d7e7b65-d698-41e6-b8a0-afb9e0e31ee3</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:00Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">D9-1C</name>
-  <description locale="en_US">8 &lt;B>DIODES&lt;/B>&lt;p>
+  <description locale="en_US">8 &lt;B&gt;DIODES&lt;/B&gt;&lt;p&gt;
 SIL, common cathode
 
 This element was automatically imported from Eagle
@@ -24,22 +24,22 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">DN</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="cf0a61f8-d9e5-49cf-94c2-50ba034007eb" role="passive" negated="false">2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="6c91413f-05f1-4bab-90aa-c5a6f83a5e61" role="passive" negated="false">3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="0242e4a0-f32f-4b0b-a697-c9721934084b" role="passive" negated="false">4</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="dd0c634a-39b3-4685-8c79-d7a2d38444f9" role="passive" negated="false">5</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="74580229-165a-4adf-b70f-448282a921e3" role="passive" negated="false">6</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="e6374d8c-6fa1-44b8-a929-04a37299fc8c" role="passive" negated="false">7</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="3f1b6212-8542-4dd9-92c3-4e21098813ad" role="passive" negated="false">8</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="47480f96-7070-4c7d-9403-a20bdaf7f59a" role="passive" negated="false">9</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="12adba12-2e97-4fd8-9f0d-8d8e1becc322" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="cf0a61f8-d9e5-49cf-94c2-50ba034007eb">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6c91413f-05f1-4bab-90aa-c5a6f83a5e61">3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0242e4a0-f32f-4b0b-a697-c9721934084b">4</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="dd0c634a-39b3-4685-8c79-d7a2d38444f9">5</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="74580229-165a-4adf-b70f-448282a921e3">6</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e6374d8c-6fa1-44b8-a929-04a37299fc8c">7</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="3f1b6212-8542-4dd9-92c3-4e21098813ad">8</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="47480f96-7070-4c7d-9403-a20bdaf7f59a">9</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="12adba12-2e97-4fd8-9f0d-8d8e1becc322">C</signal>
  </signals>
  <symbol_variants default="61bfafe4-ae29-460c-98b9-5945cbad6f07">
   <variant norm="" uuid="61bfafe4-ae29-460c-98b9-5945cbad6f07">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="A" symbol="f99362bb-d825-4167-8499-10fa4167738a" required="true" uuid="a6c9f8b8-5e16-414b-81b0-1a9704ba8640">
+    <item required="true" suffix="A" symbol="f99362bb-d825-4167-8499-10fa4167738a" uuid="a6c9f8b8-5e16-414b-81b0-1a9704ba8640">
      <pin_signal_map>
       <map display="component_signal" pin="0cc670bf-549b-420e-991c-78cbf16fde5d">47480f96-7070-4c7d-9403-a20bdaf7f59a</map>
       <map display="component_signal" pin="1b728883-5c7a-490a-be40-be7ce160f346">3f1b6212-8542-4dd9-92c3-4e21098813ad</map>

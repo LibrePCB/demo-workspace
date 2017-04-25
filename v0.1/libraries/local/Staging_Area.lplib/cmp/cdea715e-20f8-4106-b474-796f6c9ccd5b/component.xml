@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>cdea715e-20f8-4106-b474-796f6c9ccd5b</uuid>
@@ -8,8 +8,8 @@
   <last_modified>2015-12-20T22:11:01Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">ML-E</name>
-  <description locale="en_US">&lt;b>Cree® XLamp® ML-E LEDs&lt;/b> 1/2 watt, 3.5 x 3.5 mm&lt;p>
-Source: &lt;a href="http://www.cree.com/products/pdf/XLampML-E.pdf"> Data sheet &lt;/a>
+  <description locale="en_US">&lt;b&gt;Cree® XLamp® ML-E LEDs&lt;/b&gt; 1/2 watt, 3.5 x 3.5 mm&lt;p&gt;
+Source: &lt;a href=&quot;http://www.cree.com/products/pdf/XLampML-E.pdf&quot;&gt; Data sheet &lt;/a&gt;
 
 This element was automatically imported from Eagle
 Filepath: led.lbr
@@ -24,16 +24,16 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="704d3738-8425-4836-b1c5-0239937aa8ed" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="eab25fb6-353a-40c7-861e-9da625ff9218" role="passive" negated="false">C</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="f0ca98b0-8596-43ab-a310-898a79fc479d" role="passive" negated="false">TH</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="704d3738-8425-4836-b1c5-0239937aa8ed">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="eab25fb6-353a-40c7-861e-9da625ff9218">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f0ca98b0-8596-43ab-a310-898a79fc479d">TH</signal>
  </signals>
  <symbol_variants default="1dca5115-c361-4bcc-80eb-3cc4d9f797cd">
   <variant norm="" uuid="1dca5115-c361-4bcc-80eb-3cc4d9f797cd">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="6cebe46f-52ed-4ff4-ba53-cdb2d66912a1" required="true" uuid="22d708d7-8c23-4fb1-9d48-63df2f2f263c">
+    <item required="true" suffix="" symbol="6cebe46f-52ed-4ff4-ba53-cdb2d66912a1" uuid="22d708d7-8c23-4fb1-9d48-63df2f2f263c">
      <pin_signal_map>
       <map display="component_signal" pin="301fe6b0-3ccd-4c62-a77c-51a755280931">eab25fb6-353a-40c7-861e-9da625ff9218</map>
       <map display="component_signal" pin="974467d8-0e3d-4a8e-bccb-574ef922777c">eab25fb6-353a-40c7-861e-9da625ff9218</map>
@@ -41,7 +41,7 @@ NOTE: Remove this text after manual rework!</description>
       <map display="component_signal" pin="f398942b-cd58-48ce-81c4-4d4a7476f4a3">704d3738-8425-4836-b1c5-0239937aa8ed</map>
      </pin_signal_map>
     </item>
-    <item suffix="TH" symbol="a49024b3-de81-419e-a4cf-1841b255e637" required="true" uuid="1335847c-9da7-4a0e-98fe-6dcd4855a2e3">
+    <item required="true" suffix="TH" symbol="a49024b3-de81-419e-a4cf-1841b255e637" uuid="1335847c-9da7-4a0e-98fe-6dcd4855a2e3">
      <pin_signal_map>
       <map display="component_signal" pin="d6cd1e3e-8404-47b3-b588-361810590a72">f0ca98b0-8596-43ab-a310-898a79fc479d</map>
      </pin_signal_map>

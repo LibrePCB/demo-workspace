@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>41398dcf-ce4b-42f8-91d2-3c5da1a8245f</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BYX90G</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 high voltage
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="e4bf2e67-7c8a-4d16-8e57-34a87b1f3f27" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="2fab78af-3503-49be-b922-37f3686be799" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e4bf2e67-7c8a-4d16-8e57-34a87b1f3f27">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="2fab78af-3503-49be-b922-37f3686be799">C</signal>
  </signals>
  <symbol_variants default="398278dd-bfa7-4697-9b2c-98828127d355">
   <variant norm="" uuid="398278dd-bfa7-4697-9b2c-98828127d355">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="d9201c81-4867-4d4e-ad96-ade3d143f5b7">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="d9201c81-4867-4d4e-ad96-ade3d143f5b7">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">2fab78af-3503-49be-b922-37f3686be799</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">e4bf2e67-7c8a-4d16-8e57-34a87b1f3f27</map>

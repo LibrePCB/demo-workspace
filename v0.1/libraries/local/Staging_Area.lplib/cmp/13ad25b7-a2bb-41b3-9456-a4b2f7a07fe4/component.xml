@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>13ad25b7-a2bb-41b3-9456-a4b2f7a07fe4</uuid>
@@ -8,12 +8,12 @@
   <last_modified>2015-12-20T22:11:01Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">LUXEON_REBEL</name>
-  <description locale="en_US">&lt;b>LUXEON Rebel&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;LUXEON Rebel&lt;/b&gt;&lt;p&gt;
 
-Display layer 93, Pins, and connect all contact points with a net.&lt;br>
-The thermal pads are defined in a separate gate with addlevel REQUEST.&lt;br>
-Draw a net named 'TH' and connect all thermal pads with it.&lt;br>
-Please read the Package's Description about DRC settings.&lt;p>
+Display layer 93, Pins, and connect all contact points with a net.&lt;br&gt;
+The thermal pads are defined in a separate gate with addlevel REQUEST.&lt;br&gt;
+Draw a net named 'TH' and connect all thermal pads with it.&lt;br&gt;
+Please read the Package's Description about DRC settings.&lt;p&gt;
 Source: http://www.lumileds.com/pdfs/AB32.pdf
 
 This element was automatically imported from Eagle
@@ -29,22 +29,22 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="849359a7-cab8-4ec0-bad9-8a08431ce489" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="174e469e-9672-425e-b8d8-b0722c93aa59" role="passive" negated="false">C</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="4f5e4041-4029-4882-b46c-99a328300660" role="passive" negated="false">TH</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="849359a7-cab8-4ec0-bad9-8a08431ce489">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="174e469e-9672-425e-b8d8-b0722c93aa59">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="4f5e4041-4029-4882-b46c-99a328300660">TH</signal>
  </signals>
  <symbol_variants default="f26b14aa-5e08-4068-8ea4-683b47b01f33">
   <variant norm="" uuid="f26b14aa-5e08-4068-8ea4-683b47b01f33">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" required="true" uuid="cb344c4d-54ba-4bb2-b3c5-1d2039b16e45">
+    <item required="true" suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" uuid="cb344c4d-54ba-4bb2-b3c5-1d2039b16e45">
      <pin_signal_map>
       <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">174e469e-9672-425e-b8d8-b0722c93aa59</map>
       <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">849359a7-cab8-4ec0-bad9-8a08431ce489</map>
      </pin_signal_map>
     </item>
-    <item suffix="TH" symbol="a49024b3-de81-419e-a4cf-1841b255e637" required="true" uuid="143067a6-00da-4581-a1d2-bfcab66c8d53">
+    <item required="true" suffix="TH" symbol="a49024b3-de81-419e-a4cf-1841b255e637" uuid="143067a6-00da-4581-a1d2-bfcab66c8d53">
      <pin_signal_map>
       <map display="component_signal" pin="d6cd1e3e-8404-47b3-b588-361810590a72">4f5e4041-4029-4882-b46c-99a328300660</map>
      </pin_signal_map>

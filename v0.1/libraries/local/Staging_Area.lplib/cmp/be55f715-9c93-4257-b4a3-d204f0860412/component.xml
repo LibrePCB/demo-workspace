@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>be55f715-9c93-4257-b4a3-d204f0860412</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:00Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">PMLL4150</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 high speed
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="70af8a4b-b3fb-4d68-b4d3-9a7078ad61cd" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="d700a4c8-a63e-4bca-9c32-4ea8ca0646d5" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="70af8a4b-b3fb-4d68-b4d3-9a7078ad61cd">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="d700a4c8-a63e-4bca-9c32-4ea8ca0646d5">C</signal>
  </signals>
  <symbol_variants default="bd6e4fdd-aa2d-4705-b174-74ce8c4fed2f">
   <variant norm="" uuid="bd6e4fdd-aa2d-4705-b174-74ce8c4fed2f">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="6f05bcc5-df83-4449-8dd0-dee899730fd9">
+    <item required="true" suffix="" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="6f05bcc5-df83-4449-8dd0-dee899730fd9">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">d700a4c8-a63e-4bca-9c32-4ea8ca0646d5</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">70af8a4b-b3fb-4d68-b4d3-9a7078ad61cd</map>

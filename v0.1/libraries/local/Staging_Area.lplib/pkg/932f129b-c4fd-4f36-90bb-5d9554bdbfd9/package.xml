@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>932f129b-c4fd-4f36-90bb-5d9554bdbfd9</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:48Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">D/7343-31R</name>
-  <description locale="en_US">&lt;b>Chip Capacitor Type KEMET D / EIA 7343-21&lt;/b>&lt;p>KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder
+  <description locale="en_US">&lt;b&gt;Chip Capacitor Type KEMET D / EIA 7343-21&lt;/b&gt;&lt;p&gt;KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder
 
 This element was automatically imported from Eagle
 Filepath: rcl.lbr
@@ -25,34 +25,34 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.000000" start_y="-1.200000" grab_area="true" fill="true" layer="200" start_x="-3.650000">
+    <polygon fill="true" grab_area="true" layer="200" start_x="-3.650000" start_y="-1.200000" width="0.000000">
      <segment angle="0.000000" end_x="-3.500000" end_y="-1.200000"/>
      <segment angle="0.000000" end_x="-3.500000" end_y="1.200000"/>
      <segment angle="0.000000" end_x="-3.650000" end_y="1.200000"/>
      <segment angle="0.000000" end_x="-3.650000" end_y="-1.200000"/>
     </polygon>
-    <polygon width="0.000000" start_y="-1.200000" grab_area="true" fill="true" layer="200" start_x="3.500000">
+    <polygon fill="true" grab_area="true" layer="200" start_x="3.500000" start_y="-1.200000" width="0.000000">
      <segment angle="0.000000" end_x="3.650000" end_y="-1.200000"/>
      <segment angle="0.000000" end_x="3.650000" end_y="1.200000"/>
      <segment angle="0.000000" end_x="3.500000" end_y="1.200000"/>
      <segment angle="0.000000" end_x="3.500000" end_y="-1.200000"/>
     </polygon>
-    <polygon width="0.000000" start_y="-2.125000" grab_area="true" fill="true" layer="200" start_x="2.675000">
+    <polygon fill="true" grab_area="true" layer="200" start_x="2.675000" start_y="-2.125000" width="0.000000">
      <segment angle="0.000000" end_x="3.150000" end_y="-2.125000"/>
      <segment angle="0.000000" end_x="3.150000" end_y="2.125000"/>
      <segment angle="0.000000" end_x="2.675000" end_y="2.125000"/>
      <segment angle="0.000000" end_x="2.675000" end_y="-2.125000"/>
     </polygon>
-    <polygon width="0.101600" start_y="-2.100000" grab_area="true" fill="false" layer="200" start_x="-3.450000">
+    <polygon fill="false" grab_area="true" layer="200" start_x="-3.450000" start_y="-2.100000" width="0.101600">
      <segment angle="0.000000" end_x="-3.450000" end_y="2.100000"/>
      <segment angle="0.000000" end_x="3.450000" end_y="2.100000"/>
      <segment angle="0.000000" end_x="3.450000" end_y="-2.100000"/>
      <segment angle="0.000000" end_x="-3.450000" end_y="-2.100000"/>
     </polygon>
-    <text rotation="0.000000" x="-3.650000" height="2.500000" layer="240" y="2.300000" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <text rotation="0.000000" x="-3.650000" height="2.000000" layer="250" y="-3.575000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <pad rotation="0.000000" technology="smt" side="top" x="3.175000" height="2.700000" width="2.550000" uuid="78f83227-0e4b-4219-b09b-8cb6f2e7d593" y="0.000000"/>
-    <pad rotation="0.000000" technology="smt" side="top" x="-3.175000" height="2.700000" width="2.550000" uuid="e4ac1f2c-2715-402d-ab68-1c5b1f872475" y="0.000000"/>
+    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="-3.650000" y="2.300000">${CMP::NAME}</text>
+    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="-3.650000" y="-3.575000">${CMP::VALUE}</text>
+    <pad height="2.700000" rotation="0.000000" side="top" technology="smt" uuid="78f83227-0e4b-4219-b09b-8cb6f2e7d593" width="2.550000" x="3.175000" y="0.000000"/>
+    <pad height="2.700000" rotation="0.000000" side="top" technology="smt" uuid="e4ac1f2c-2715-402d-ab68-1c5b1f872475" width="2.550000" x="-3.175000" y="0.000000"/>
    </geometry>
   </footprint>
  </footprints>

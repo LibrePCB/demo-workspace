@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>752116ae-2815-42b7-9bf4-fd7a366bcb31</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">EGP10A</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 ultra fast-recovery rectifier
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="d9a26423-8ec5-4106-a67f-c3f6b9587a1b" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="79051579-1e9b-4510-9712-78cc3d0d4d88" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="d9a26423-8ec5-4106-a67f-c3f6b9587a1b">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="79051579-1e9b-4510-9712-78cc3d0d4d88">C</signal>
  </signals>
  <symbol_variants default="ea6b0451-2d58-4c3b-972f-58a98c5780ce">
   <variant norm="" uuid="ea6b0451-2d58-4c3b-972f-58a98c5780ce">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="a1616467-1aca-4aa8-a459-fdef9ea8d14c">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="a1616467-1aca-4aa8-a459-fdef9ea8d14c">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">79051579-1e9b-4510-9712-78cc3d0d4d88</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">d9a26423-8ec5-4106-a67f-c3f6b9587a1b</map>

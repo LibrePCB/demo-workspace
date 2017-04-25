@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>b2fd97ae-cb0d-4d80-ad24-a83e21360d9b</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">MF_</name>
-  <description locale="en_US">&lt;b>CRYSTAL FILTERS&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;CRYSTAL FILTERS&lt;/b&gt;&lt;p&gt;
 Source: http://www.presto.co.uk
 
 This element was automatically imported from Eagle
@@ -24,18 +24,18 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">QF</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="9da894ea-39cb-46dd-9cbc-f8a995b0a593" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="2130af63-5935-4b20-b704-31aac32eddda" role="passive" negated="false">2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="e5870025-c1a8-4d9b-94a5-cfa0041af592" role="passive" negated="false">3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="19892a62-9f2e-4601-a85f-ad33cf7309b6" role="passive" negated="false">4</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="8d002610-6d7e-4276-b918-87879208ac57" role="passive" negated="false">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9da894ea-39cb-46dd-9cbc-f8a995b0a593">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="2130af63-5935-4b20-b704-31aac32eddda">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e5870025-c1a8-4d9b-94a5-cfa0041af592">3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="19892a62-9f2e-4601-a85f-ad33cf7309b6">4</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8d002610-6d7e-4276-b918-87879208ac57">S</signal>
  </signals>
  <symbol_variants default="ded3f8af-0856-46fa-910a-90d21ff9ca64">
   <variant norm="" uuid="ded3f8af-0856-46fa-910a-90d21ff9ca64">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="201f2252-819c-4a1a-9caf-7c9dbec58b1d" required="true" uuid="9bdcc178-86be-43a5-9bb8-1e524b9b16b1">
+    <item required="true" suffix="" symbol="201f2252-819c-4a1a-9caf-7c9dbec58b1d" uuid="9bdcc178-86be-43a5-9bb8-1e524b9b16b1">
      <pin_signal_map>
       <map display="component_signal" pin="b2134a90-4701-4550-9753-dc816d453078">8d002610-6d7e-4276-b918-87879208ac57</map>
       <map display="component_signal" pin="c0d2dc4b-379b-4ca5-b082-f07430aec34b">19892a62-9f2e-4601-a85f-ad33cf7309b6</map>

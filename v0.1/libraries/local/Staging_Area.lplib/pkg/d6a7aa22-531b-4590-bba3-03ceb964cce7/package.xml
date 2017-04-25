@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>d6a7aa22-531b-4590-bba3-03ceb964cce7</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:48Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">C2225K</name>
-  <description locale="en_US">&lt;b>Ceramic Chip Capacitor KEMET 2225 reflow solder&lt;/b>&lt;p>Metric Code Size 5664
+  <description locale="en_US">&lt;b&gt;Ceramic Chip Capacitor KEMET 2225 reflow solder&lt;/b&gt;&lt;p&gt;Metric Code Size 5664
 
 This element was automatically imported from Eagle
 Filepath: rcl.lbr
@@ -25,28 +25,28 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.101600" start_y="3.075000" grab_area="true" fill="false" layer="200" start_x="-2.725000">
+    <polygon fill="false" grab_area="true" layer="200" start_x="-2.725000" start_y="3.075000" width="0.101600">
      <segment angle="0.000000" end_x="2.725000" end_y="3.075000"/>
     </polygon>
-    <polygon width="0.101600" start_y="-3.075000" grab_area="true" fill="false" layer="200" start_x="2.725000">
+    <polygon fill="false" grab_area="true" layer="200" start_x="2.725000" start_y="-3.075000" width="0.101600">
      <segment angle="0.000000" end_x="-2.725000" end_y="-3.075000"/>
     </polygon>
-    <polygon width="0.000000" start_y="-3.150000" grab_area="true" fill="true" layer="200" start_x="-2.800000">
+    <polygon fill="true" grab_area="true" layer="200" start_x="-2.800000" start_y="-3.150000" width="0.000000">
      <segment angle="0.000000" end_x="-2.200000" end_y="-3.150000"/>
      <segment angle="0.000000" end_x="-2.200000" end_y="3.150000"/>
      <segment angle="0.000000" end_x="-2.800000" end_y="3.150000"/>
      <segment angle="0.000000" end_x="-2.800000" end_y="-3.150000"/>
     </polygon>
-    <polygon width="0.000000" start_y="-3.150000" grab_area="true" fill="true" layer="200" start_x="2.200000">
+    <polygon fill="true" grab_area="true" layer="200" start_x="2.200000" start_y="-3.150000" width="0.000000">
      <segment angle="0.000000" end_x="2.800000" end_y="-3.150000"/>
      <segment angle="0.000000" end_x="2.800000" end_y="3.150000"/>
      <segment angle="0.000000" end_x="2.200000" end_y="3.150000"/>
      <segment angle="0.000000" end_x="2.200000" end_y="-3.150000"/>
     </polygon>
-    <text rotation="0.000000" x="-2.800000" height="2.500000" layer="240" y="3.600000" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <text rotation="0.000000" x="-2.800000" height="2.000000" layer="250" y="-4.575000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <pad rotation="0.000000" technology="smt" side="top" x="2.550000" height="6.800000" width="1.850000" uuid="6c55f204-c224-4be9-a988-2411498dfd95" y="0.000000"/>
-    <pad rotation="0.000000" technology="smt" side="top" x="-2.550000" height="6.800000" width="1.850000" uuid="9d7707ad-dbbb-42e5-9198-42879f8091e9" y="0.000000"/>
+    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="-2.800000" y="3.600000">${CMP::NAME}</text>
+    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="-2.800000" y="-4.575000">${CMP::VALUE}</text>
+    <pad height="6.800000" rotation="0.000000" side="top" technology="smt" uuid="6c55f204-c224-4be9-a988-2411498dfd95" width="1.850000" x="2.550000" y="0.000000"/>
+    <pad height="6.800000" rotation="0.000000" side="top" technology="smt" uuid="9d7707ad-dbbb-42e5-9198-42879f8091e9" width="1.850000" x="-2.550000" y="0.000000"/>
    </geometry>
   </footprint>
  </footprints>

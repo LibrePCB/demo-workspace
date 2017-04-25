@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>1491c9f1-7d84-4c24-ae6f-3849646aa395</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:53Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">MA09-1W</name>
-  <description locale="en_US">&lt;b>PIN HEADER&lt;/b>
+  <description locale="en_US">&lt;b&gt;PIN HEADER&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: con-lstb.lbr
@@ -23,22 +23,22 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">SV</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="eba2942d-3596-4e8a-9d8b-1e34e65b14e9" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="97bf9199-3d1e-40e7-8b3f-83b4071a7ed0" role="passive" negated="false">2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="b484fef6-6f3c-40c3-be8c-33ca39511072" role="passive" negated="false">3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="b46b68bc-95d5-4ab7-bf68-dcf8d69ca8c1" role="passive" negated="false">4</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="a00af6bf-8672-48a0-ba61-58638dc4c072" role="passive" negated="false">5</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="7dd6df19-3318-4253-bd6f-dda3e98f885e" role="passive" negated="false">6</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="6cd3c8ca-2fe8-4f1b-b6f3-16f88928bc3f" role="passive" negated="false">7</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="c50d6be2-5b45-4434-af6b-56105e042220" role="passive" negated="false">8</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="edfe186c-f3b8-4fae-b665-4ca213a3cab2" role="passive" negated="false">9</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="eba2942d-3596-4e8a-9d8b-1e34e65b14e9">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="97bf9199-3d1e-40e7-8b3f-83b4071a7ed0">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="b484fef6-6f3c-40c3-be8c-33ca39511072">3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="b46b68bc-95d5-4ab7-bf68-dcf8d69ca8c1">4</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="a00af6bf-8672-48a0-ba61-58638dc4c072">5</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="7dd6df19-3318-4253-bd6f-dda3e98f885e">6</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6cd3c8ca-2fe8-4f1b-b6f3-16f88928bc3f">7</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c50d6be2-5b45-4434-af6b-56105e042220">8</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="edfe186c-f3b8-4fae-b665-4ca213a3cab2">9</signal>
  </signals>
  <symbol_variants default="bebe08a8-afc8-452c-86bd-42daf5f6fb1c">
   <variant norm="" uuid="bebe08a8-afc8-452c-86bd-42daf5f6fb1c">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="ee0c0a81-7bf6-4a8a-9bb6-d5b968536933" required="true" uuid="71779bc4-817c-4332-95ea-c4873363ecaa">
+    <item required="true" suffix="" symbol="ee0c0a81-7bf6-4a8a-9bb6-d5b968536933" uuid="71779bc4-817c-4332-95ea-c4873363ecaa">
      <pin_signal_map>
       <map display="component_signal" pin="1fa63032-736b-4253-94b0-04ed55cc3047">b484fef6-6f3c-40c3-be8c-33ca39511072</map>
       <map display="component_signal" pin="20fd8c26-5b42-4a4c-897e-20e097e1f0a0">a00af6bf-8672-48a0-ba61-58638dc4c072</map>

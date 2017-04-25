@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>ea26254e-2745-44dd-8f8e-679cf7adfc62</uuid>
@@ -8,8 +8,8 @@
   <last_modified>2015-12-20T22:11:00Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BAT54S</name>
-  <description locale="en_US">&lt;b>Schottky Diodes&lt;/b>&lt;p>
-Pin connection corrected 2011-05-04&lt;br>
+  <description locale="en_US">&lt;b&gt;Schottky Diodes&lt;/b&gt;&lt;p&gt;
+Pin connection corrected 2011-05-04&lt;br&gt;
 Source: Fairchild .. BAT54.pdf
 
 This element was automatically imported from Eagle
@@ -25,16 +25,16 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="099df81d-58fc-43d8-ab06-3efd7e6e5481" role="passive" negated="false">A1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="f4e00912-0b5c-441d-8d85-b6ad5baeb2e1" role="passive" negated="false">C1A2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="f739ac3b-17f8-4fa4-84e5-cbd2c56e5343" role="passive" negated="false">C2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="099df81d-58fc-43d8-ab06-3efd7e6e5481">A1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f4e00912-0b5c-441d-8d85-b6ad5baeb2e1">C1A2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f739ac3b-17f8-4fa4-84e5-cbd2c56e5343">C2</signal>
  </signals>
  <symbol_variants default="19a749aa-1724-44f6-aea8-3146d0c0656c">
   <variant norm="" uuid="19a749aa-1724-44f6-aea8-3146d0c0656c">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="d345f71f-20a3-4c6d-a942-bb2d702750c8" required="true" uuid="c055a50b-44dc-4d77-9ed3-5bfc46368237">
+    <item required="true" suffix="" symbol="d345f71f-20a3-4c6d-a942-bb2d702750c8" uuid="c055a50b-44dc-4d77-9ed3-5bfc46368237">
      <pin_signal_map>
       <map display="component_signal" pin="08f31cfc-5473-41f1-9bba-263e486d3adc">099df81d-58fc-43d8-ab06-3efd7e6e5481</map>
       <map display="component_signal" pin="49d15d1d-fae5-4e85-844c-276ab5d99cde">f739ac3b-17f8-4fa4-84e5-cbd2c56e5343</map>

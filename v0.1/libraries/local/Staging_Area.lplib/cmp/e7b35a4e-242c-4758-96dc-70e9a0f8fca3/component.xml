@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>e7b35a4e-242c-4758-96dc-70e9a0f8fca3</uuid>
@@ -8,8 +8,8 @@
   <last_modified>2015-12-20T22:11:01Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">TLLR4400</name>
-  <description locale="en_US">&lt;b>Low Current (2mA) LED 3 mm Tinted Diffused Package&lt;/b> color &lt;b>&lt;font color="darkred">RED&lt;/font>&lt;/b>&lt;p>
-Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"> Data sheet&lt;/a>
+  <description locale="en_US">&lt;b&gt;Low Current (2mA) LED 3 mm Tinted Diffused Package&lt;/b&gt; color &lt;b&gt;&lt;font color=&quot;darkred&quot;&gt;RED&lt;/font&gt;&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=&quot;http://www.farnell.com/datasheets/391100.pdf&quot;&gt; Data sheet&lt;/a&gt;
 
 This element was automatically imported from Eagle
 Filepath: led.lbr
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="17cd6695-6900-4e1c-966f-d0a49828fd1a" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="060dccd9-ac03-4421-9871-173f660a5b99" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="17cd6695-6900-4e1c-966f-d0a49828fd1a">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="060dccd9-ac03-4421-9871-173f660a5b99">C</signal>
  </signals>
  <symbol_variants default="627bb0ba-47db-4012-b72f-31d5dcb99582">
   <variant norm="" uuid="627bb0ba-47db-4012-b72f-31d5dcb99582">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" required="true" uuid="0a9573d3-d504-4fb1-8dd4-f155cc0c54e2">
+    <item required="true" suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" uuid="0a9573d3-d504-4fb1-8dd4-f155cc0c54e2">
      <pin_signal_map>
       <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">060dccd9-ac03-4421-9871-173f660a5b99</map>
       <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">17cd6695-6900-4e1c-966f-d0a49828fd1a</map>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>dc16fcb0-c9fa-402e-90c2-6c23f77c44e3</uuid>
@@ -8,9 +8,9 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">RV-3029-C2</name>
-  <description locale="en_US">&lt;b>Highly accurate, DTCXO Temperature Compensated Real Time Clock / Calendar&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;Highly accurate, DTCXO Temperature Compensated Real Time Clock / Calendar&lt;/b&gt;&lt;p&gt;
 Module with I2C Interface.
-Source: &lt;a href="http://www.mcrystal.ch/Resources/PDFs/DataSheet/Real-Time-Clocks/RV-3029-C2.aspx"> Data shhet &lt;/a>
+Source: &lt;a href=&quot;http://www.mcrystal.ch/Resources/PDFs/DataSheet/Real-Time-Clocks/RV-3029-C2.aspx&quot;&gt; Data shhet &lt;/a&gt;
 
 This element was automatically imported from Eagle
 Filepath: crystal.lbr
@@ -25,21 +25,21 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">IC</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="04b94378-ecdf-41f7-b9ec-201e48fcb3ef" role="passive" negated="false">!INT</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="854c02cc-7a94-45c9-bf8e-163000861231" role="passive" negated="false">CLKOE</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="96b1251b-be21-48b1-bdbd-4b450436413b" role="passive" negated="false">CLKOUT</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="694fa0c3-2c3f-40e8-8d53-f9a0bf6f0b2d" role="passive" negated="false">SCL</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="0f36ae67-9467-45f9-a14b-297e9a63c719" role="passive" negated="false">SDA</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="f7cf6d55-8691-4e78-be66-1791ce8772dd" role="passive" negated="false">VBACKUP</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="022484a5-3abf-45a2-a56a-091e401575ea" role="passive" negated="false">VDD</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="60598b7a-45ef-4405-87a6-5d8639bb9370" role="passive" negated="false">VSS</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="04b94378-ecdf-41f7-b9ec-201e48fcb3ef">!INT</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="854c02cc-7a94-45c9-bf8e-163000861231">CLKOE</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="96b1251b-be21-48b1-bdbd-4b450436413b">CLKOUT</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="694fa0c3-2c3f-40e8-8d53-f9a0bf6f0b2d">SCL</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0f36ae67-9467-45f9-a14b-297e9a63c719">SDA</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f7cf6d55-8691-4e78-be66-1791ce8772dd">VBACKUP</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="022484a5-3abf-45a2-a56a-091e401575ea">VDD</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="60598b7a-45ef-4405-87a6-5d8639bb9370">VSS</signal>
  </signals>
  <symbol_variants default="798ad3c2-3a9b-47d3-9380-2bfc6867032a">
   <variant norm="" uuid="798ad3c2-3a9b-47d3-9380-2bfc6867032a">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="RV-3029-C1" symbol="ccd54157-5744-44bc-8533-8921a5990137" required="true" uuid="88ab1c23-5aab-44cb-b15a-acc7c83f6c48">
+    <item required="true" suffix="RV-3029-C1" symbol="ccd54157-5744-44bc-8533-8921a5990137" uuid="88ab1c23-5aab-44cb-b15a-acc7c83f6c48">
      <pin_signal_map>
       <map display="component_signal" pin="0792d1c4-f715-474b-86a8-ba2b09e3d9d0">60598b7a-45ef-4405-87a6-5d8639bb9370</map>
       <map display="component_signal" pin="19b2df4a-e11d-40ec-a21a-2074dd64c517">0f36ae67-9467-45f9-a14b-297e9a63c719</map>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>37afa3de-06dc-4dda-86d1-673099564e56</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:00Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">DIODE-</name>
-  <description locale="en_US">&lt;b>DIODE&lt;/b>
+  <description locale="en_US">&lt;b&gt;DIODE&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: diode.lbr
@@ -23,15 +23,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="e9c960fd-ff27-4ec4-a801-43ce63e5fe33" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="2b1bc88a-66af-4d12-a243-011dcad5944e" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e9c960fd-ff27-4ec4-a801-43ce63e5fe33">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="2b1bc88a-66af-4d12-a243-011dcad5944e">C</signal>
  </signals>
  <symbol_variants default="87950ec9-acca-4b65-b991-4d98a6234afa">
   <variant norm="" uuid="87950ec9-acca-4b65-b991-4d98a6234afa">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="eac0c1f4-5dbb-40bd-8d37-a30428214d9e">
+    <item required="true" suffix="" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="eac0c1f4-5dbb-40bd-8d37-a30428214d9e">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">2b1bc88a-66af-4d12-a243-011dcad5944e</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">e9c960fd-ff27-4ec4-a801-43ce63e5fe33</map>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <symbol>
  <meta>
   <uuid>8f089c97-5f9b-4437-94a6-3d2f958583c7</uuid>
@@ -12,23 +12,23 @@
   <keywords locale="en_US"></keywords>
  </meta>
  <pins>
-  <pin rotation="180.000000" x="12.700000" length="5.080000" uuid="371eaace-87bd-4780-846c-1cf31e4f1b74" y="-2.540000">6</pin>
-  <pin rotation="0.000000" x="-12.700000" length="5.080000" uuid="4338b443-d96e-4725-9d32-06a76a4680bf" y="2.540000">2</pin>
-  <pin rotation="0.000000" x="-12.700000" length="5.080000" uuid="64b1cf6f-dc2c-4ea1-9f4b-fac229b2df07" y="7.620000">1</pin>
-  <pin rotation="180.000000" x="12.700000" length="5.080000" uuid="800ff2c4-86ae-43e3-9f05-4dc2b47e28df" y="7.620000">8</pin>
-  <pin rotation="180.000000" x="12.700000" length="5.080000" uuid="8115b469-234c-4f72-bef2-2e46d48daa90" y="-7.620000">5</pin>
-  <pin rotation="0.000000" x="-12.700000" length="5.080000" uuid="8217d867-da05-4630-a4d7-1926324fe9a5" y="-7.620000">4</pin>
-  <pin rotation="180.000000" x="12.700000" length="5.080000" uuid="b3f36961-22ee-4e87-9189-68282ae86ad9" y="2.540000">7</pin>
-  <pin rotation="0.000000" x="-12.700000" length="5.080000" uuid="f9f7d4ec-6ee7-4634-96b7-50b8838630a2" y="-2.540000">3</pin>
+  <pin length="5.080000" rotation="180.000000" uuid="371eaace-87bd-4780-846c-1cf31e4f1b74" x="12.700000" y="-2.540000">6</pin>
+  <pin length="5.080000" rotation="0.000000" uuid="4338b443-d96e-4725-9d32-06a76a4680bf" x="-12.700000" y="2.540000">2</pin>
+  <pin length="5.080000" rotation="0.000000" uuid="64b1cf6f-dc2c-4ea1-9f4b-fac229b2df07" x="-12.700000" y="7.620000">1</pin>
+  <pin length="5.080000" rotation="180.000000" uuid="800ff2c4-86ae-43e3-9f05-4dc2b47e28df" x="12.700000" y="7.620000">8</pin>
+  <pin length="5.080000" rotation="180.000000" uuid="8115b469-234c-4f72-bef2-2e46d48daa90" x="12.700000" y="-7.620000">5</pin>
+  <pin length="5.080000" rotation="0.000000" uuid="8217d867-da05-4630-a4d7-1926324fe9a5" x="-12.700000" y="-7.620000">4</pin>
+  <pin length="5.080000" rotation="180.000000" uuid="b3f36961-22ee-4e87-9189-68282ae86ad9" x="12.700000" y="2.540000">7</pin>
+  <pin length="5.080000" rotation="0.000000" uuid="f9f7d4ec-6ee7-4634-96b7-50b8838630a2" x="-12.700000" y="-2.540000">3</pin>
  </pins>
  <geometry>
-  <polygon width="0.254000" start_y="-10.160000" grab_area="true" fill="false" layer="10" start_x="-7.620000">
+  <polygon fill="false" grab_area="true" layer="10" start_x="-7.620000" start_y="-10.160000" width="0.254000">
    <segment angle="0.000000" end_x="-7.620000" end_y="10.160000"/>
    <segment angle="0.000000" end_x="7.620000" end_y="10.160000"/>
    <segment angle="0.000000" end_x="7.620000" end_y="-10.160000"/>
    <segment angle="0.000000" end_x="-7.620000" end_y="-10.160000"/>
   </polygon>
-  <text rotation="0.000000" x="-7.620000" height="2.540000" layer="20" y="10.160000" h_align="left" v_align="bottom">${SYM::NAME}</text>
-  <text rotation="0.000000" x="-7.620000" height="2.540000" layer="21" y="-10.160000" h_align="left" v_align="top">${CMP::VALUE}</text>
+  <text h_align="left" height="2.540000" layer="20" rotation="0.000000" v_align="bottom" x="-7.620000" y="10.160000">${SYM::NAME}</text>
+  <text h_align="left" height="2.540000" layer="21" rotation="0.000000" v_align="top" x="-7.620000" y="-10.160000">${CMP::VALUE}</text>
  </geometry>
 </symbol>

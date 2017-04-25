@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>df26b758-350c-43dd-9aa9-ff01ab76f000</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">SG531</name>
-  <description locale="en_US">&lt;b>CRYSTAL RESONATOR&lt;/b>
+  <description locale="en_US">&lt;b&gt;CRYSTAL RESONATOR&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: crystal.lbr
@@ -23,16 +23,16 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">QG</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="6f32349e-bf2b-46f2-b5cf-f97be7aed36b" role="passive" negated="false">GND</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="4a0b8797-ff62-4d09-a2bf-6ee6c5e15574" role="passive" negated="false">OUT</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="48435977-30e5-4bbb-bd7b-4a58479e7352" role="passive" negated="false">VCC</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6f32349e-bf2b-46f2-b5cf-f97be7aed36b">GND</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="4a0b8797-ff62-4d09-a2bf-6ee6c5e15574">OUT</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="48435977-30e5-4bbb-bd7b-4a58479e7352">VCC</signal>
  </signals>
  <symbol_variants default="470d4c96-89e9-4b36-816c-9efcaff418ec">
   <variant norm="" uuid="470d4c96-89e9-4b36-816c-9efcaff418ec">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="529f49ff-3117-4163-9ace-b68e82440707" required="true" uuid="17488ff6-10d1-4a6d-be39-7781895e5bde">
+    <item required="true" suffix="" symbol="529f49ff-3117-4163-9ace-b68e82440707" uuid="17488ff6-10d1-4a6d-be39-7781895e5bde">
      <pin_signal_map>
       <map display="component_signal" pin="26aa46ae-ecb4-456c-a410-fe6aabc8fec9">48435977-30e5-4bbb-bd7b-4a58479e7352</map>
       <map display="component_signal" pin="3a4f3e19-cb51-4eea-a346-acec304838b1">4a0b8797-ff62-4d09-a2bf-6ee6c5e15574</map>

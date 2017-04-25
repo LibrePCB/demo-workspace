@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>4f05b918-056c-4cb3-8bf2-f966805698c5</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:01Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">F50380</name>
-  <description locale="en_US">&lt;b>Z-POWER LED&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;Z-POWER LED&lt;/b&gt;&lt;p&gt;
 Source: www.zpowerled.com .. F50380.pdf
 
 This element was automatically imported from Eagle
@@ -24,20 +24,20 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="1da1d97e-0aad-46a2-9a13-1ee2d33109fb" role="passive" negated="false">B+</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="0231b73e-4be9-42a3-a9e7-552e65359242" role="passive" negated="false">B-</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="de928edf-c8c4-431a-8c86-8e729ef432b0" role="passive" negated="false">G+</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="8e88d5de-1f34-4b38-a16d-cd54bc034e5b" role="passive" negated="false">G-</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="1d1f6f70-2e67-4edf-a35b-d2642d395188" role="passive" negated="false">R+</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="7530b95e-304e-4888-b117-3f3045b5e2b1" role="passive" negated="false">R-</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="1c1ba6d2-78c7-4749-911a-34f192e411fa" role="passive" negated="false">TH</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="1da1d97e-0aad-46a2-9a13-1ee2d33109fb">B+</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0231b73e-4be9-42a3-a9e7-552e65359242">B-</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="de928edf-c8c4-431a-8c86-8e729ef432b0">G+</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8e88d5de-1f34-4b38-a16d-cd54bc034e5b">G-</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="1d1f6f70-2e67-4edf-a35b-d2642d395188">R+</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="7530b95e-304e-4888-b117-3f3045b5e2b1">R-</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="1c1ba6d2-78c7-4749-911a-34f192e411fa">TH</signal>
  </signals>
  <symbol_variants default="23f01bb6-1a99-495c-8abf-e59bfee71dc1">
   <variant norm="" uuid="23f01bb6-1a99-495c-8abf-e59bfee71dc1">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="P" symbol="37e54e2a-4efd-472f-8b48-948ab1be3c78" required="true" uuid="af2d69ba-6eaa-442b-8c56-a261671ca11e">
+    <item required="true" suffix="P" symbol="37e54e2a-4efd-472f-8b48-948ab1be3c78" uuid="af2d69ba-6eaa-442b-8c56-a261671ca11e">
      <pin_signal_map>
       <map display="component_signal" pin="1192f62a-4b75-4956-bd27-34fc8d5c48b9">0231b73e-4be9-42a3-a9e7-552e65359242</map>
       <map display="component_signal" pin="19ffd930-52e4-41c7-8f1b-2ce8f75a05db">de928edf-c8c4-431a-8c86-8e729ef432b0</map>
@@ -47,7 +47,7 @@ NOTE: Remove this text after manual rework!</description>
       <map display="component_signal" pin="e3d6f79e-d611-420d-b377-b0ab97655c4b">7530b95e-304e-4888-b117-3f3045b5e2b1</map>
      </pin_signal_map>
     </item>
-    <item suffix="T" symbol="a49024b3-de81-419e-a4cf-1841b255e637" required="true" uuid="5273fb1a-9877-4126-8a18-b10214f381c1">
+    <item required="true" suffix="T" symbol="a49024b3-de81-419e-a4cf-1841b255e637" uuid="5273fb1a-9877-4126-8a18-b10214f381c1">
      <pin_signal_map>
       <map display="component_signal" pin="d6cd1e3e-8404-47b3-b588-361810590a72">1c1ba6d2-78c7-4749-911a-34f192e411fa</map>
      </pin_signal_map>

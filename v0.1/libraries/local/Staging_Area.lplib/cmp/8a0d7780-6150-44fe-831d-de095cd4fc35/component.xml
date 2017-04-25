@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>8a0d7780-6150-44fe-831d-de095cd4fc35</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">FA-</name>
-  <description locale="en_US">&lt;b>MHz RANGE CRYSTAL UNIT&lt;/b> &lt;p>
+  <description locale="en_US">&lt;b&gt;MHz RANGE CRYSTAL UNIT&lt;/b&gt; &lt;p&gt;
 Source: Epson Toyocom
 
 This element was automatically imported from Eagle
@@ -24,17 +24,17 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">Q</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="39e183fe-cab8-431b-9168-df821178568d" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="f1ff2237-ffbb-4f15-b22f-b2d30d9eaadc" role="passive" negated="false">2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="32ba994d-e39e-4b2b-9773-0db4e40fdc49" role="passive" negated="false">3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="9afbbeb7-632f-47a4-a071-135ce58eaf11" role="passive" negated="false">4</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="39e183fe-cab8-431b-9168-df821178568d">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f1ff2237-ffbb-4f15-b22f-b2d30d9eaadc">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="32ba994d-e39e-4b2b-9773-0db4e40fdc49">3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9afbbeb7-632f-47a4-a071-135ce58eaf11">4</signal>
  </signals>
  <symbol_variants default="a91b9c8f-dc37-49de-9d2f-d02a687f14bc">
   <variant norm="" uuid="a91b9c8f-dc37-49de-9d2f-d02a687f14bc">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="a909fd73-ff6e-489a-9062-f816b26d5094" required="true" uuid="d6f333c8-d5f5-4e9a-bea7-893662833f70">
+    <item required="true" suffix="" symbol="a909fd73-ff6e-489a-9062-f816b26d5094" uuid="d6f333c8-d5f5-4e9a-bea7-893662833f70">
      <pin_signal_map>
       <map display="component_signal" pin="1853f7e7-7649-4df8-830f-16b3e5845af2">32ba994d-e39e-4b2b-9773-0db4e40fdc49</map>
       <map display="component_signal" pin="71358fb5-0c95-491a-9ee8-165ebe8411fc">f1ff2237-ffbb-4f15-b22f-b2d30d9eaadc</map>

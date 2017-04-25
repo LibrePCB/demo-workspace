@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>a4c14dd6-a43f-47c1-87b6-4100db0c070c</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">43160-*02</name>
-  <description locale="en_US">&lt;b>SDA-43160 Connector&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;SDA-43160 Connector&lt;/b&gt;&lt;p&gt;
 Source: http://www.molex.com/pdm_docs/sd/431601306_sd.pdf
 
 This element was automatically imported from Eagle
@@ -24,21 +24,21 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">X</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="6752dedc-4ece-48fb-873c-30a752c59dbc" role="passive" negated="false">S</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="a2c54435-170f-43c3-8b9b-56bc49846bb3" role="passive" negated="false">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6752dedc-4ece-48fb-873c-30a752c59dbc">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="a2c54435-170f-43c3-8b9b-56bc49846bb3">S</signal>
  </signals>
  <symbol_variants default="12b016d9-a0e8-4dbf-a800-e570cb7e899c">
   <variant norm="" uuid="12b016d9-a0e8-4dbf-a800-e570cb7e899c">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="-1" symbol="de13cfaf-4ebe-47df-b55a-190a1bd35a02" required="true" uuid="ea5d8c72-b57c-4032-994b-7fbe8faea8c8">
+    <item required="true" suffix="-1" symbol="de13cfaf-4ebe-47df-b55a-190a1bd35a02" uuid="ea5d8c72-b57c-4032-994b-7fbe8faea8c8">
      <pin_signal_map>
       <map display="component_signal" pin="1c2c1832-2057-41f4-96ac-a0c08c7dc8ee">6752dedc-4ece-48fb-873c-30a752c59dbc</map>
       <map display="component_signal" pin="be996167-186d-4064-96d8-2ea695ee9fce">6752dedc-4ece-48fb-873c-30a752c59dbc</map>
      </pin_signal_map>
     </item>
-    <item suffix="-2" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea" required="true" uuid="dea8144e-662c-4128-abed-0e7412707ef3">
+    <item required="true" suffix="-2" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea" uuid="dea8144e-662c-4128-abed-0e7412707ef3">
      <pin_signal_map>
       <map display="component_signal" pin="0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9">a2c54435-170f-43c3-8b9b-56bc49846bb3</map>
       <map display="component_signal" pin="39249903-f7b9-4a60-83ff-4af061a9d13d">a2c54435-170f-43c3-8b9b-56bc49846bb3</map>

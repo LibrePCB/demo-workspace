@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>ac87323a-305b-4597-bc7b-33e624eccb2c</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">SB320</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 barrier rectifier, 3 A (Fairchild)
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="226a5cea-4387-4030-8c22-190b804a1f33" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="a649dd36-eca8-480d-ab1b-fce647fd99d0" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="226a5cea-4387-4030-8c22-190b804a1f33">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="a649dd36-eca8-480d-ab1b-fce647fd99d0">C</signal>
  </signals>
  <symbol_variants default="21252459-78e3-4e12-a354-62cb92d703cf">
   <variant norm="" uuid="21252459-78e3-4e12-a354-62cb92d703cf">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="1347bb8b-cbd6-4262-9a14-085288baebbb">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="1347bb8b-cbd6-4262-9a14-085288baebbb">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">a649dd36-eca8-480d-ab1b-fce647fd99d0</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">226a5cea-4387-4030-8c22-190b804a1f33</map>

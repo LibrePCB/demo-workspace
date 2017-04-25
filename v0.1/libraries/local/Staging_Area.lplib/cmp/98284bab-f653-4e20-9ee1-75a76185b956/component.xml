@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>98284bab-f653-4e20-9ee1-75a76185b956</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">1N4933</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 fast recovery rectifier, 1A
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="1d466e5b-7101-4e43-adf3-ed71cf420773" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="328d52a2-b7df-4c5e-bcdf-a1366fd674a4" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="1d466e5b-7101-4e43-adf3-ed71cf420773">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="328d52a2-b7df-4c5e-bcdf-a1366fd674a4">C</signal>
  </signals>
  <symbol_variants default="7fe3a4c1-cc8a-452e-8df6-aa7f73759824">
   <variant norm="" uuid="7fe3a4c1-cc8a-452e-8df6-aa7f73759824">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="ce166e98-89d6-4943-b4ee-f385e0a6780a">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="ce166e98-89d6-4943-b4ee-f385e0a6780a">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">328d52a2-b7df-4c5e-bcdf-a1366fd674a4</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">1d466e5b-7101-4e43-adf3-ed71cf420773</map>

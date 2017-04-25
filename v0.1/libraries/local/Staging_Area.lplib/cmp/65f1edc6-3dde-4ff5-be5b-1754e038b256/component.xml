@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>65f1edc6-3dde-4ff5-be5b-1754e038b256</uuid>
@@ -23,57 +23,57 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm=""></prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="35e22656-d7e1-44a1-921c-ce73c991c256" role="passive" negated="false">BOOT0</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="b8749c5b-fd33-4f69-bde8-6a9e2bc3681a" role="passive" negated="false">NPOR</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="f97e0eac-ddf7-4322-825a-7157626b5c7e" role="passive" negated="false">NRST</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="d8cb2644-73ff-47d0-b535-001bf7a533ab" role="passive" negated="false">PA0</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="54290dc6-ae2d-49de-8683-900b5908f3a7" role="passive" negated="false">PA1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="8b5c92ba-1139-4738-90a8-0918e3be468e" role="passive" negated="false">PA10</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="fb2059dd-97d7-4771-8113-44fa8120c728" role="passive" negated="false">PA11</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="cc8d881e-dee7-4187-9776-5fc9aeee4edb" role="passive" negated="false">PA12</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="2ef175e4-73cc-4265-aeda-0011a11351dd" role="passive" negated="false">PA13/JTMS</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="c5eea2f8-6f17-410c-bd0c-b746ae6d3240" role="passive" negated="false">PA14/JTCK</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="04f1212c-bb63-4c10-afd3-1151b464f123" role="passive" negated="false">PA15/JTDI</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="d9d2b64c-bc60-4549-b6aa-ef048a5cd614" role="passive" negated="false">PA2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="66653f0a-7f27-4beb-aa5c-659d93253ad6" role="passive" negated="false">PA3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="25d9d2e5-2a9e-447a-b1f7-7454f90c2807" role="passive" negated="false">PA4</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="5c1796e4-3cbf-4ef2-a380-60844fe2178f" role="passive" negated="false">PA5</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="e274eb67-a8fa-4ecb-9bc2-0bc7eeccf9df" role="passive" negated="false">PA6</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="580a8542-0264-4edc-8cef-f4c71b62b4ac" role="passive" negated="false">PA7</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="5ea5bf6b-56a7-4e07-948d-13235ef26d1a" role="passive" negated="false">PA8</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="3b431544-b7f2-417f-8f48-9e10495a3485" role="passive" negated="false">PA9</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="4f413fd6-f45f-4b29-8327-9fbb09602732" role="passive" negated="false">PB0</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="d415cb1c-fb09-42fa-b885-ae3a5028c94a" role="passive" negated="false">PB1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="d8aac727-05f2-4a74-8140-ec054b149a37" role="passive" negated="false">PB10</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="ab77f49c-520b-4648-9142-2a9dfb86ba64" role="passive" negated="false">PB11</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="f39b8247-c436-45b3-be07-77ebbb93b03a" role="passive" negated="false">PB12</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="8af448cb-d59e-4b3a-accb-2afc178aca80" role="passive" negated="false">PB13</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="bae474fc-b8c0-4533-865e-b38a92acb42c" role="passive" negated="false">PB14</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="a77570a5-72f2-44d0-82cd-8fbbaad3bc6a" role="passive" negated="false">PB15</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="7052fadd-f1d1-4a38-90f6-432fda3e51b2" role="passive" negated="false">PB3/JTDO</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="88be5595-14f9-472a-82c5-c37c0982bb4a" role="passive" negated="false">PB4/NJTRST</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="ef5ab157-2240-46c2-8c4d-8f8b73be1170" role="passive" negated="false">PB5</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="b7ec71fe-2e17-4a97-83a6-ae4e0d9f072e" role="passive" negated="false">PB6</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="05c6498e-6085-4f23-8cc2-bf00f199605a" role="passive" negated="false">PB7</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="cf15aaab-01dd-45f4-99e5-5e65be4cd6a6" role="passive" negated="false">PB8</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="85f1c19c-f8d6-4b43-97cf-b4b8f5a80e1f" role="passive" negated="false">PB9</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="d48762ed-1fda-4009-9f81-773e4d1018bd" role="passive" negated="false">PC13</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="e9667511-79c6-4aad-918a-1394b083c02c" role="passive" negated="false">PC14</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="8d8cfe30-8fc6-45c6-86d3-64b012ed97cf" role="passive" negated="false">PC15</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="5d63a2fa-51f7-4f47-9e39-09f0aed1e70a" role="passive" negated="false">PF0/OSC_IN</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="5cbf921e-344e-4bff-9fcb-08ff1594f2eb" role="passive" negated="false">PF1/OSC_OUT</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="0b079d45-5118-48f6-8a79-4f53c2e8fb72" role="passive" negated="false">VBAT</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="79d86b44-14fe-4c14-aff7-9787811a44a4" role="passive" negated="false">VDD</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="a2e93aaf-1d54-4120-ac22-e6e7c1a59b4a" role="passive" negated="false">VDDA/VREF+</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="6ee527af-1f8f-4cf3-a1bb-ca357c166638" role="passive" negated="false">VSS</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="bf893436-b8b0-471a-85dc-f7b6ff18741f" role="passive" negated="false">VSSA/VREF-</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="35e22656-d7e1-44a1-921c-ce73c991c256">BOOT0</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="b8749c5b-fd33-4f69-bde8-6a9e2bc3681a">NPOR</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f97e0eac-ddf7-4322-825a-7157626b5c7e">NRST</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="d8cb2644-73ff-47d0-b535-001bf7a533ab">PA0</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="54290dc6-ae2d-49de-8683-900b5908f3a7">PA1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8b5c92ba-1139-4738-90a8-0918e3be468e">PA10</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="fb2059dd-97d7-4771-8113-44fa8120c728">PA11</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="cc8d881e-dee7-4187-9776-5fc9aeee4edb">PA12</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="2ef175e4-73cc-4265-aeda-0011a11351dd">PA13/JTMS</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c5eea2f8-6f17-410c-bd0c-b746ae6d3240">PA14/JTCK</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="04f1212c-bb63-4c10-afd3-1151b464f123">PA15/JTDI</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="d9d2b64c-bc60-4549-b6aa-ef048a5cd614">PA2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="66653f0a-7f27-4beb-aa5c-659d93253ad6">PA3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="25d9d2e5-2a9e-447a-b1f7-7454f90c2807">PA4</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="5c1796e4-3cbf-4ef2-a380-60844fe2178f">PA5</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e274eb67-a8fa-4ecb-9bc2-0bc7eeccf9df">PA6</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="580a8542-0264-4edc-8cef-f4c71b62b4ac">PA7</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="5ea5bf6b-56a7-4e07-948d-13235ef26d1a">PA8</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="3b431544-b7f2-417f-8f48-9e10495a3485">PA9</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="4f413fd6-f45f-4b29-8327-9fbb09602732">PB0</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="d415cb1c-fb09-42fa-b885-ae3a5028c94a">PB1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="d8aac727-05f2-4a74-8140-ec054b149a37">PB10</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ab77f49c-520b-4648-9142-2a9dfb86ba64">PB11</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f39b8247-c436-45b3-be07-77ebbb93b03a">PB12</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8af448cb-d59e-4b3a-accb-2afc178aca80">PB13</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="bae474fc-b8c0-4533-865e-b38a92acb42c">PB14</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="a77570a5-72f2-44d0-82cd-8fbbaad3bc6a">PB15</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="7052fadd-f1d1-4a38-90f6-432fda3e51b2">PB3/JTDO</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="88be5595-14f9-472a-82c5-c37c0982bb4a">PB4/NJTRST</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ef5ab157-2240-46c2-8c4d-8f8b73be1170">PB5</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="b7ec71fe-2e17-4a97-83a6-ae4e0d9f072e">PB6</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="05c6498e-6085-4f23-8cc2-bf00f199605a">PB7</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="cf15aaab-01dd-45f4-99e5-5e65be4cd6a6">PB8</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="85f1c19c-f8d6-4b43-97cf-b4b8f5a80e1f">PB9</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="d48762ed-1fda-4009-9f81-773e4d1018bd">PC13</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e9667511-79c6-4aad-918a-1394b083c02c">PC14</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8d8cfe30-8fc6-45c6-86d3-64b012ed97cf">PC15</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="5d63a2fa-51f7-4f47-9e39-09f0aed1e70a">PF0/OSC_IN</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="5cbf921e-344e-4bff-9fcb-08ff1594f2eb">PF1/OSC_OUT</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0b079d45-5118-48f6-8a79-4f53c2e8fb72">VBAT</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="79d86b44-14fe-4c14-aff7-9787811a44a4">VDD</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="a2e93aaf-1d54-4120-ac22-e6e7c1a59b4a">VDDA/VREF+</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6ee527af-1f8f-4cf3-a1bb-ca357c166638">VSS</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="bf893436-b8b0-471a-85dc-f7b6ff18741f">VSSA/VREF-</signal>
  </signals>
  <symbol_variants default="8b0986f8-45fb-48e5-8b8d-0c5565a75fad">
   <variant norm="" uuid="8b0986f8-45fb-48e5-8b8d-0c5565a75fad">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="f0061936-5169-49c9-bfa5-4efc8108cd1c" required="true" uuid="bdbaf229-8520-4044-a59c-384a2faebf47">
+    <item required="true" suffix="" symbol="f0061936-5169-49c9-bfa5-4efc8108cd1c" uuid="bdbaf229-8520-4044-a59c-384a2faebf47">
      <pin_signal_map>
       <map display="component_signal" pin="169d6728-7108-4600-aa48-765711db01bc">f97e0eac-ddf7-4322-825a-7157626b5c7e</map>
       <map display="component_signal" pin="1c49822e-fd83-452a-a7a6-f4ae1357a0c7">8d8cfe30-8fc6-45c6-86d3-64b012ed97cf</map>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>88291eb2-0bcb-4c55-9100-f7fb0a0d479f</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BYW55</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 silicon-mesa rectifier (Vishay Telefunken)
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="6d3da87d-9cf7-4941-9a2b-3af0d5359001" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="93fa7507-7088-488d-8b94-5f060af98e9e" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6d3da87d-9cf7-4941-9a2b-3af0d5359001">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="93fa7507-7088-488d-8b94-5f060af98e9e">C</signal>
  </signals>
  <symbol_variants default="6e9b4cd4-ddc8-40bb-ad13-084e5a44d064">
   <variant norm="" uuid="6e9b4cd4-ddc8-40bb-ad13-084e5a44d064">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="f61bdca3-eb85-4cf3-b386-c8006b9db533">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="f61bdca3-eb85-4cf3-b386-c8006b9db533">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">93fa7507-7088-488d-8b94-5f060af98e9e</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">6d3da87d-9cf7-4941-9a2b-3af0d5359001</map>

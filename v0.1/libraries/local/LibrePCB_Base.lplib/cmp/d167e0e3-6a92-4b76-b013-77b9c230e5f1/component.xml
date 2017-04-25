@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>d167e0e3-6a92-4b76-b013-77b9c230e5f1</uuid>
@@ -13,7 +13,7 @@
   <category>c011cc6b-b762-498e-8494-d1994f3043cf</category>
  </meta>
  <attributes>
-  <attribute unit="nanofarad" key="CAPACITANCE" type="capacitance"></attribute>
+  <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad"></attribute>
  </attributes>
  <properties>
   <schematic_only>false</schematic_only>
@@ -21,15 +21,15 @@
   <prefix norm="">C</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="true" forced_net_name="" uuid="1c1c7abc-7b40-4f92-b533-f65604644db7" role="passive" negated="false">1</signal>
-  <signal clock="false" required="true" forced_net_name="" uuid="6d776f4d-2a7c-4128-a98a-dbb1dd861411" role="passive" negated="false">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="1c1c7abc-7b40-4f92-b533-f65604644db7">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="6d776f4d-2a7c-4128-a98a-dbb1dd861411">2</signal>
  </signals>
  <symbol_variants default="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af">
   <variant norm="IEC 60617" uuid="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af">
    <name locale="en_US">European</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="eaa5837a-a451-40ae-8620-d21e9af42151" required="true" uuid="42989503-2795-4892-9d83-b919cd7dad76">
+    <item required="true" suffix="" symbol="eaa5837a-a451-40ae-8620-d21e9af42151" uuid="42989503-2795-4892-9d83-b919cd7dad76">
      <pin_signal_map>
       <map display="none" pin="99ba7020-af70-432f-9584-c452397065c5">6d776f4d-2a7c-4128-a98a-dbb1dd861411</map>
       <map display="none" pin="fba2100c-f69f-40e1-b6be-8b2f2758ad52">1c1c7abc-7b40-4f92-b533-f65604644db7</map>
@@ -41,7 +41,7 @@
    <name locale="en_US">American</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="d5aad17b-0d58-4f79-9429-49e8201220b9" required="true" uuid="5e9de029-0af9-477f-afb4-bc05692e4b87">
+    <item required="true" suffix="" symbol="d5aad17b-0d58-4f79-9429-49e8201220b9" uuid="5e9de029-0af9-477f-afb4-bc05692e4b87">
      <pin_signal_map>
       <map display="none" pin="83d40864-0a14-496e-a08d-faeb2bbd9af6">1c1c7abc-7b40-4f92-b533-f65604644db7</map>
       <map display="none" pin="c39ca7a0-22c0-4338-83e8-98aba0874d88">6d776f4d-2a7c-4128-a98a-dbb1dd861411</map>

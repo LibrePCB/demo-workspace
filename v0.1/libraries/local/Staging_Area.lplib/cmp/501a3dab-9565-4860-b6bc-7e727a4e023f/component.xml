@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>501a3dab-9565-4860-b6bc-7e727a4e023f</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BAS15</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 high speed
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="92665648-ac9c-452f-9672-4d64fda422af" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="5438ec37-b052-4b2b-9c86-954505dfc362" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="92665648-ac9c-452f-9672-4d64fda422af">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="5438ec37-b052-4b2b-9c86-954505dfc362">C</signal>
  </signals>
  <symbol_variants default="798b3135-8770-4e8b-a5eb-d185dc19be09">
   <variant norm="" uuid="798b3135-8770-4e8b-a5eb-d185dc19be09">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="900e639d-fc7f-472f-947f-5cb40d505413">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="900e639d-fc7f-472f-947f-5cb40d505413">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">5438ec37-b052-4b2b-9c86-954505dfc362</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">92665648-ac9c-452f-9672-4d64fda422af</map>

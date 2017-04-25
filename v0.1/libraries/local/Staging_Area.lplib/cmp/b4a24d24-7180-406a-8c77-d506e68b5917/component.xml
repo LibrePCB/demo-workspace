@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>b4a24d24-7180-406a-8c77-d506e68b5917</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:00Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">PMLL41*</name>
-  <description locale="en_US">&lt;b>High-speed diodes&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;High-speed diodes&lt;/b&gt;&lt;p&gt;
 Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/PMLL4150_2.pdf
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="c153d722-596f-4db4-b057-8bb934a032a3" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="2814000c-6976-4734-9a73-60aa434ce225" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c153d722-596f-4db4-b057-8bb934a032a3">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="2814000c-6976-4734-9a73-60aa434ce225">C</signal>
  </signals>
  <symbol_variants default="47447e0d-f945-49a1-94e0-75b3de3ca26d">
   <variant norm="" uuid="47447e0d-f945-49a1-94e0-75b3de3ca26d">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="cd601a50-c83d-44ca-bf34-a88c4a60d327">
+    <item required="true" suffix="" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="cd601a50-c83d-44ca-bf34-a88c4a60d327">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">2814000c-6976-4734-9a73-60aa434ce225</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">c153d722-596f-4db4-b057-8bb934a032a3</map>

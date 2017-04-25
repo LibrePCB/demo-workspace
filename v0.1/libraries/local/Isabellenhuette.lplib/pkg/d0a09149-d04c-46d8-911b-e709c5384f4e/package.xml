@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>d0a09149-d04c-46d8-911b-e709c5384f4e</uuid>
@@ -27,18 +27,18 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.200000" start_y="-2.895600" grab_area="true" fill="false" layer="260" start_x="4.876800">
+    <polygon fill="false" grab_area="true" layer="260" start_x="4.876800" start_y="-2.895600" width="0.200000">
      <segment angle="0.000000" end_x="4.876800" end_y="2.895600"/>
      <segment angle="0.000000" end_x="-4.876800" end_y="2.895600"/>
      <segment angle="0.000000" end_x="-4.876800" end_y="-2.895600"/>
      <segment angle="0.000000" end_x="4.876800" end_y="-2.895600"/>
     </polygon>
-    <text rotation="90.000000" x="-0.355600" height="2.500000" layer="240" y="-2.590800" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <text rotation="90.000000" x="1.574800" height="2.000000" layer="250" y="-2.590800" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <pad rotation="0.000000" technology="smt" side="top" x="-3.200400" height="3.300000" width="2.800000" uuid="7193095b-06ae-4a31-833d-c1413c1c8344" y="-0.965200"/>
-    <pad rotation="0.000000" technology="smt" side="top" x="3.200400" height="3.300000" width="2.800000" uuid="7d114eda-8b0e-4e3a-9b98-d168090c7598" y="-0.965200"/>
-    <pad rotation="0.000000" technology="smt" side="top" x="3.200400" height="1.600000" width="2.800000" uuid="c1b480a1-b365-46ee-863e-9bc3253ca215" y="1.828800"/>
-    <pad rotation="0.000000" technology="smt" side="top" x="-3.200400" height="1.600000" width="2.800000" uuid="f72ea0d7-1e30-45aa-b9f5-db5365026497" y="1.828800"/>
+    <text h_align="left" height="2.500000" layer="240" rotation="90.000000" v_align="bottom" x="-0.355600" y="-2.590800">${CMP::NAME}</text>
+    <text h_align="left" height="2.000000" layer="250" rotation="90.000000" v_align="bottom" x="1.574800" y="-2.590800">${CMP::VALUE}</text>
+    <pad height="3.300000" rotation="0.000000" side="top" technology="smt" uuid="7193095b-06ae-4a31-833d-c1413c1c8344" width="2.800000" x="-3.200400" y="-0.965200"/>
+    <pad height="3.300000" rotation="0.000000" side="top" technology="smt" uuid="7d114eda-8b0e-4e3a-9b98-d168090c7598" width="2.800000" x="3.200400" y="-0.965200"/>
+    <pad height="1.600000" rotation="0.000000" side="top" technology="smt" uuid="c1b480a1-b365-46ee-863e-9bc3253ca215" width="2.800000" x="3.200400" y="1.828800"/>
+    <pad height="1.600000" rotation="0.000000" side="top" technology="smt" uuid="f72ea0d7-1e30-45aa-b9f5-db5365026497" width="2.800000" x="-3.200400" y="1.828800"/>
    </geometry>
   </footprint>
  </footprints>

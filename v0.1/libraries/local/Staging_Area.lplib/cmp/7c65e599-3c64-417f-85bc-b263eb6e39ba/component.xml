@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>7c65e599-3c64-417f-85bc-b263eb6e39ba</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">EGP20A</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 ultra fast-recovery rectifier
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="868ad682-455d-49c7-85e2-ab34167c0134" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="b57225de-5f55-4b9d-aab0-acd1f1fa970b" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="868ad682-455d-49c7-85e2-ab34167c0134">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="b57225de-5f55-4b9d-aab0-acd1f1fa970b">C</signal>
  </signals>
  <symbol_variants default="f50df0a6-59d3-4daf-b0e4-9f1e796d9fb3">
   <variant norm="" uuid="f50df0a6-59d3-4daf-b0e4-9f1e796d9fb3">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="d39962f0-9d6e-4cf6-8d00-8db29d0c63ea">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="d39962f0-9d6e-4cf6-8d00-8db29d0c63ea">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">b57225de-5f55-4b9d-aab0-acd1f1fa970b</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">868ad682-455d-49c7-85e2-ab34167c0134</map>

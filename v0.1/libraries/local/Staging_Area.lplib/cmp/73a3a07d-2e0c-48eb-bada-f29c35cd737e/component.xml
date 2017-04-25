@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>73a3a07d-2e0c-48eb-bada-f29c35cd737e</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BZV10</name>
-  <description locale="en_US">&lt;b>Z DIODE&lt;/b>
+  <description locale="en_US">&lt;b&gt;Z DIODE&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: diode.lbr
@@ -23,15 +23,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="37af149e-df67-4483-b073-4a58ccb2fc53" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="0f0f7012-1a19-4fe2-81d8-3dc8dc22ea36" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="37af149e-df67-4483-b073-4a58ccb2fc53">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0f0f7012-1a19-4fe2-81d8-3dc8dc22ea36">C</signal>
  </signals>
  <symbol_variants default="a8e06b4c-187a-49c3-b17b-3cd557d0ca3a">
   <variant norm="" uuid="a8e06b4c-187a-49c3-b17b-3cd557d0ca3a">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="d7a60962-0f8b-44e9-831b-dd7bca1649b0" required="true" uuid="1e908ad3-2b27-4bfb-a8bf-ae7b241858cf">
+    <item required="true" suffix="1" symbol="d7a60962-0f8b-44e9-831b-dd7bca1649b0" uuid="1e908ad3-2b27-4bfb-a8bf-ae7b241858cf">
      <pin_signal_map>
       <map display="component_signal" pin="bcc4ce5f-1594-4790-be6a-b42e9f0ddea3">0f0f7012-1a19-4fe2-81d8-3dc8dc22ea36</map>
       <map display="component_signal" pin="e72b6a12-69fb-44b7-ba93-b164352f614f">37af149e-df67-4483-b073-4a58ccb2fc53</map>

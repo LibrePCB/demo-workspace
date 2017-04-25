@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>9b1481ca-7d89-4157-90ce-6e7ffc339249</uuid>
@@ -8,8 +8,8 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">ASF*</name>
-  <description locale="en_US">&lt;b>CRYSTAL CLOCK OSCILLATORS&lt;/b>&lt;p>
-5.0 Vdc or 3.3 Vdc - LOW PROFILE ULTRA MINIATURE CERAMIC SURFACE MOUNT&lt;br>
+  <description locale="en_US">&lt;b&gt;CRYSTAL CLOCK OSCILLATORS&lt;/b&gt;&lt;p&gt;
+5.0 Vdc or 3.3 Vdc - LOW PROFILE ULTRA MINIATURE CERAMIC SURFACE MOUNT&lt;br&gt;
 Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf
 
 This element was automatically imported from Eagle
@@ -25,17 +25,17 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">Q</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="d2df895a-e472-48ed-863e-f0aee18b8161" role="passive" negated="false">FO</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="a0b8cf68-2b23-4a39-b5d5-cb3a7dc21546" role="passive" negated="false">GND</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="ba73b6f0-1114-4200-8b6b-bad2f0dd23f9" role="passive" negated="false">OE</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="637f1f36-7633-426e-be13-550b920e8e48" role="passive" negated="false">VCC</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="d2df895a-e472-48ed-863e-f0aee18b8161">FO</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="a0b8cf68-2b23-4a39-b5d5-cb3a7dc21546">GND</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ba73b6f0-1114-4200-8b6b-bad2f0dd23f9">OE</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="637f1f36-7633-426e-be13-550b920e8e48">VCC</signal>
  </signals>
  <symbol_variants default="d243e01a-8258-4e96-acb3-6c3ece46e5de">
   <variant norm="" uuid="d243e01a-8258-4e96-acb3-6c3ece46e5de">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="e24e0a27-d7dc-43d5-8ca6-cef47a36f6ec" required="true" uuid="6760a81b-5854-4a88-a1c2-67bfc9d284d3">
+    <item required="true" suffix="" symbol="e24e0a27-d7dc-43d5-8ca6-cef47a36f6ec" uuid="6760a81b-5854-4a88-a1c2-67bfc9d284d3">
      <pin_signal_map>
       <map display="component_signal" pin="19366e0b-bfc6-4b78-b509-815d6c6f0700">a0b8cf68-2b23-4a39-b5d5-cb3a7dc21546</map>
       <map display="component_signal" pin="31ba3c4d-bd94-478f-9d9d-44c3a4873f01">637f1f36-7633-426e-be13-550b920e8e48</map>

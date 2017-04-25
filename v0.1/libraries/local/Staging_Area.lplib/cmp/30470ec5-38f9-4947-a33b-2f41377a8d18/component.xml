@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>30470ec5-38f9-4947-a33b-2f41377a8d18</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:56Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">IEEE1394P6-</name>
-  <description locale="en_US">&lt;b>IEEE 1394 6P Connector&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;IEEE 1394 6P Connector&lt;/b&gt;&lt;p&gt;
 Source: http://www.molex.com/pdm_docs/sd/534620621_sd.pdf
 
 This element was automatically imported from Eagle
@@ -24,19 +24,19 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">X</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="02e2c3d1-6cd1-4649-bd50-0fc5f8da896c" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="c895ead2-f5d5-4f7f-a343-a32f0f484e81" role="passive" negated="false">2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="206e845e-7167-48a1-b379-48953346eb47" role="passive" negated="false">3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="222a6dad-8181-42a1-ba19-41ba71f862cd" role="passive" negated="false">4</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="82204c9a-d2ae-46db-a940-6abf3aa4747c" role="passive" negated="false">5</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="07870a99-0d85-4fc1-a9c6-0cca8ce542ab" role="passive" negated="false">6</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="02e2c3d1-6cd1-4649-bd50-0fc5f8da896c">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c895ead2-f5d5-4f7f-a343-a32f0f484e81">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="206e845e-7167-48a1-b379-48953346eb47">3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="222a6dad-8181-42a1-ba19-41ba71f862cd">4</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="82204c9a-d2ae-46db-a940-6abf3aa4747c">5</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="07870a99-0d85-4fc1-a9c6-0cca8ce542ab">6</signal>
  </signals>
  <symbol_variants default="eff3a845-15ee-44e6-a25e-3fd5b71041bd">
   <variant norm="" uuid="eff3a845-15ee-44e6-a25e-3fd5b71041bd">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="8799d51a-41e3-4a27-afc7-d991bc1058ac" required="true" uuid="934f4d97-e937-4538-9f40-4171aa5d45f6">
+    <item required="true" suffix="" symbol="8799d51a-41e3-4a27-afc7-d991bc1058ac" uuid="934f4d97-e937-4538-9f40-4171aa5d45f6">
      <pin_signal_map>
       <map display="component_signal" pin="026a8969-ce74-4bf2-87bb-713203c8e145">82204c9a-d2ae-46db-a940-6abf3aa4747c</map>
       <map display="component_signal" pin="2bbfbea7-5f77-40d7-8c80-37835d78e1f5">02e2c3d1-6cd1-4649-bd50-0fc5f8da896c</map>

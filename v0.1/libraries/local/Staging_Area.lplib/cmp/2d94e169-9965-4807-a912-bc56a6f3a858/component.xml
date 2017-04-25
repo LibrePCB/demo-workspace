@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>2d94e169-9965-4807-a912-bc56a6f3a858</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:01Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">*W51M</name>
-  <description locale="en_US">&lt;b>Golden DRAGON® with Lens&lt;/b> Enhanced Thinfilm LED&lt;p>
+  <description locale="en_US">&lt;b&gt;Golden DRAGON® with Lens&lt;/b&gt; Enhanced Thinfilm LED&lt;p&gt;
 Source: LA_LR_LY_W51M_Pb_free[1].pdf
 
 This element was automatically imported from Eagle
@@ -24,22 +24,22 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="75421950-425d-4b56-a0a1-466a3d45f90a" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="242f2985-57d1-4dfb-9db7-877b390abc96" role="passive" negated="false">C</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="cc6963b9-a3fd-4a9f-9498-e6155361a8a0" role="passive" negated="false">TH</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="75421950-425d-4b56-a0a1-466a3d45f90a">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="242f2985-57d1-4dfb-9db7-877b390abc96">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="cc6963b9-a3fd-4a9f-9498-e6155361a8a0">TH</signal>
  </signals>
  <symbol_variants default="e1b831ab-7c0c-4d85-91ae-5bf7919d9793">
   <variant norm="" uuid="e1b831ab-7c0c-4d85-91ae-5bf7919d9793">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" required="true" uuid="43882741-c816-4845-9240-a8b6a447180b">
+    <item required="true" suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" uuid="43882741-c816-4845-9240-a8b6a447180b">
      <pin_signal_map>
       <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">242f2985-57d1-4dfb-9db7-877b390abc96</map>
       <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">75421950-425d-4b56-a0a1-466a3d45f90a</map>
      </pin_signal_map>
     </item>
-    <item suffix="G$2" symbol="a49024b3-de81-419e-a4cf-1841b255e637" required="true" uuid="3a82d535-0c3e-458b-bc31-ef7923317242">
+    <item required="true" suffix="G$2" symbol="a49024b3-de81-419e-a4cf-1841b255e637" uuid="3a82d535-0c3e-458b-bc31-ef7923317242">
      <pin_signal_map>
       <map display="component_signal" pin="d6cd1e3e-8404-47b3-b588-361810590a72">cc6963b9-a3fd-4a9f-9498-e6155361a8a0</map>
      </pin_signal_map>

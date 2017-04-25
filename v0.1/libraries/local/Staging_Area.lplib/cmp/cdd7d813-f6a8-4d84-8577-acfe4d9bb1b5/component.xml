@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>cdd7d813-f6a8-4d84-8577-acfe4d9bb1b5</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:00Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BAT54C</name>
-  <description locale="en_US">&lt;b>Schottky Diodes&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;Schottky Diodes&lt;/b&gt;&lt;p&gt;
 Source: Fairchild .. BAT54.pdf
 
 This element was automatically imported from Eagle
@@ -24,16 +24,16 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="a9d6c91b-88e7-4f09-a71b-05e39a8595c6" role="passive" negated="false">A1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="972012d2-b452-45e4-bf77-f271981f5fc4" role="passive" negated="false">A2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="96de8b17-e413-433c-9326-06457d5cde7c" role="passive" negated="false">CC</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="a9d6c91b-88e7-4f09-a71b-05e39a8595c6">A1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="972012d2-b452-45e4-bf77-f271981f5fc4">A2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="96de8b17-e413-433c-9326-06457d5cde7c">CC</signal>
  </signals>
  <symbol_variants default="6dd9d9d9-673e-4e9f-bb67-a733a62d7a8e">
   <variant norm="" uuid="6dd9d9d9-673e-4e9f-bb67-a733a62d7a8e">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="f6c87c79-37f6-40bb-9841-018c89928a00" required="true" uuid="aeaea408-0c7c-416d-a20c-2bf3dd85bbe6">
+    <item required="true" suffix="" symbol="f6c87c79-37f6-40bb-9841-018c89928a00" uuid="aeaea408-0c7c-416d-a20c-2bf3dd85bbe6">
      <pin_signal_map>
       <map display="component_signal" pin="30903862-64f1-4534-970c-8c0cf79a4b29">a9d6c91b-88e7-4f09-a71b-05e39a8595c6</map>
       <map display="component_signal" pin="43d2eb8c-11cd-4bb8-ba1f-8eaefd78cff9">96de8b17-e413-433c-9326-06457d5cde7c</map>

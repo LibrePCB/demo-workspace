@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>fc1a87b3-b84a-45a6-9b4d-61402b1999e6</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:01Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">NSSM038A</name>
-  <description locale="en_US">&lt;b>NICHIA CHIP TYPE FULL COLOR LED&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;NICHIA CHIP TYPE FULL COLOR LED&lt;/b&gt;&lt;p&gt;
 Source: NICIA CORPORATION .. NSSM038AT-E.PDF
 
 This element was automatically imported from Eagle
@@ -24,19 +24,19 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="4b5b44a3-d50e-4cad-b781-17c8d47ec940" role="passive" negated="false">BA</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="51a5ad75-5438-4103-b43c-a36859d3dfc6" role="passive" negated="false">BC</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="78b027ea-7a0a-492b-b9f0-63c197a65cc0" role="passive" negated="false">GA</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="be730120-d116-43c8-acc1-143ea0f59daf" role="passive" negated="false">GC</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="2fcccc50-be0e-45f9-acdf-9899b907e5d4" role="passive" negated="false">RA</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="4122acbf-d5bc-4484-bc7a-68b3536cb372" role="passive" negated="false">RC</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="4b5b44a3-d50e-4cad-b781-17c8d47ec940">BA</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="51a5ad75-5438-4103-b43c-a36859d3dfc6">BC</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="78b027ea-7a0a-492b-b9f0-63c197a65cc0">GA</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="be730120-d116-43c8-acc1-143ea0f59daf">GC</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="2fcccc50-be0e-45f9-acdf-9899b907e5d4">RA</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="4122acbf-d5bc-4484-bc7a-68b3536cb372">RC</signal>
  </signals>
  <symbol_variants default="a4bbd871-6c78-4f9a-9012-f5c0f9d4f6a7">
   <variant norm="" uuid="a4bbd871-6c78-4f9a-9012-f5c0f9d4f6a7">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="B" symbol="8745398d-1762-4392-8710-12a7faafe6f2" required="true" uuid="e2058ac7-8b75-428c-99e1-ad55254a19ea">
+    <item required="true" suffix="B" symbol="8745398d-1762-4392-8710-12a7faafe6f2" uuid="e2058ac7-8b75-428c-99e1-ad55254a19ea">
      <pin_signal_map>
       <map display="component_signal" pin="204f9839-2951-4c5d-98a9-3521d9727c3c">51a5ad75-5438-4103-b43c-a36859d3dfc6</map>
       <map display="component_signal" pin="2d5daace-83ce-4e42-82fd-b878b3c69475">78b027ea-7a0a-492b-b9f0-63c197a65cc0</map>

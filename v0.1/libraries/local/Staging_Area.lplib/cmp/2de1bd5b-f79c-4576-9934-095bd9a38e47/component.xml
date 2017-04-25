@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>2de1bd5b-f79c-4576-9934-095bd9a38e47</uuid>
@@ -8,8 +8,8 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">TC49</name>
-  <description locale="en_US">&lt;b>Temperature Compensated Xtal Oscillator&lt;/b>&lt;p>
-HCMOS, Clipped Sine Wave or Sine Wave Compatible&lt;br>
+  <description locale="en_US">&lt;b&gt;Temperature Compensated Xtal Oscillator&lt;/b&gt;&lt;p&gt;
+HCMOS, Clipped Sine Wave or Sine Wave Compatible&lt;br&gt;
 Source: www.pletronics.com .. tc4.pdf
 
 This element was automatically imported from Eagle
@@ -25,17 +25,17 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">QG</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="ef03de90-cad5-4180-9948-78ae00851bb5" role="passive" negated="false">GND</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="3b426cdc-a6b7-42f6-81a9-316c46a84184" role="passive" negated="false">GND1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="a9a5f976-d2ac-42ed-990e-0b7ad49f0622" role="passive" negated="false">OUT</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="9b979f8f-5c28-45ad-8421-efe2880199a3" role="passive" negated="false">VCC</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ef03de90-cad5-4180-9948-78ae00851bb5">GND</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="3b426cdc-a6b7-42f6-81a9-316c46a84184">GND1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="a9a5f976-d2ac-42ed-990e-0b7ad49f0622">OUT</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9b979f8f-5c28-45ad-8421-efe2880199a3">VCC</signal>
  </signals>
  <symbol_variants default="8e6442b8-77ce-4197-93be-db0c09113248">
   <variant norm="" uuid="8e6442b8-77ce-4197-93be-db0c09113248">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="34109847-7962-4c2b-9ff5-86f3e3688bda" required="true" uuid="b32567e1-a270-46f2-8b13-e2c304d2e15c">
+    <item required="true" suffix="" symbol="34109847-7962-4c2b-9ff5-86f3e3688bda" uuid="b32567e1-a270-46f2-8b13-e2c304d2e15c">
      <pin_signal_map>
       <map display="component_signal" pin="474d10e1-db23-4e53-836d-f5483ec610b6">3b426cdc-a6b7-42f6-81a9-316c46a84184</map>
       <map display="component_signal" pin="925e85b6-21cf-453c-9586-f2bdf5416fd4">9b979f8f-5c28-45ad-8421-efe2880199a3</map>

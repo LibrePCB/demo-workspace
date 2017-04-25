@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>912f20b3-420c-4a4d-8240-2f39a470565c</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:50Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">2,54/1,0</name>
-  <description locale="en_US">&lt;b>THROUGH-HOLE PAD&lt;/b>
+  <description locale="en_US">&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: wirepad.lbr
@@ -24,34 +24,34 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.152400" start_y="1.270000" grab_area="true" fill="false" layer="260" start_x="1.270000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="1.270000" start_y="1.270000" width="0.152400">
      <segment angle="0.000000" end_x="1.270000" end_y="0.762000"/>
     </polygon>
-    <polygon width="0.152400" start_y="1.270000" grab_area="true" fill="false" layer="260" start_x="1.270000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="1.270000" start_y="1.270000" width="0.152400">
      <segment angle="0.000000" end_x="0.762000" end_y="1.270000"/>
     </polygon>
-    <polygon width="0.152400" start_y="1.270000" grab_area="true" fill="false" layer="260" start_x="-1.270000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="-1.270000" start_y="1.270000" width="0.152400">
      <segment angle="0.000000" end_x="-0.762000" end_y="1.270000"/>
     </polygon>
-    <polygon width="0.152400" start_y="1.270000" grab_area="true" fill="false" layer="260" start_x="-1.270000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="-1.270000" start_y="1.270000" width="0.152400">
      <segment angle="0.000000" end_x="-1.270000" end_y="0.762000"/>
     </polygon>
-    <polygon width="0.152400" start_y="-1.270000" grab_area="true" fill="false" layer="260" start_x="-1.270000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="-1.270000" start_y="-1.270000" width="0.152400">
      <segment angle="0.000000" end_x="-1.270000" end_y="-0.762000"/>
     </polygon>
-    <polygon width="0.152400" start_y="-1.270000" grab_area="true" fill="false" layer="260" start_x="-1.270000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="-1.270000" start_y="-1.270000" width="0.152400">
      <segment angle="0.000000" end_x="-0.762000" end_y="-1.270000"/>
     </polygon>
-    <polygon width="0.152400" start_y="-1.270000" grab_area="true" fill="false" layer="260" start_x="0.762000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="0.762000" start_y="-1.270000" width="0.152400">
      <segment angle="0.000000" end_x="1.270000" end_y="-1.270000"/>
     </polygon>
-    <polygon width="0.152400" start_y="-1.270000" grab_area="true" fill="false" layer="260" start_x="1.270000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="1.270000" start_y="-1.270000" width="0.152400">
      <segment angle="0.000000" end_x="1.270000" end_y="-0.762000"/>
     </polygon>
-    <text rotation="0.000000" x="-1.270000" height="2.500000" layer="240" y="1.524000" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <text rotation="0.000000" x="0.000000" height="2.000000" layer="250" y="1.000000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <ellipse radius_y="1.016000" rotation="0.000000" radius_x="1.016000" x="0.000000" width="0.152400" grab_area="true" fill="false" layer="200" y="0.000000"/>
-    <pad rotation="0.000000" technology="tht" shape="octagon" x="0.000000" height="2.540000" width="2.540000" drill="1.016000" uuid="e4f24afa-60ca-4a58-98c0-ad5b6200e3d7" y="0.000000"/>
+    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="-1.270000" y="1.524000">${CMP::NAME}</text>
+    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="0.000000" y="1.000000">${CMP::VALUE}</text>
+    <ellipse fill="false" grab_area="true" layer="200" radius_x="1.016000" radius_y="1.016000" rotation="0.000000" width="0.152400" x="0.000000" y="0.000000"/>
+    <pad drill="1.016000" height="2.540000" rotation="0.000000" shape="octagon" technology="tht" uuid="e4f24afa-60ca-4a58-98c0-ad5b6200e3d7" width="2.540000" x="0.000000" y="0.000000"/>
    </geometry>
   </footprint>
  </footprints>

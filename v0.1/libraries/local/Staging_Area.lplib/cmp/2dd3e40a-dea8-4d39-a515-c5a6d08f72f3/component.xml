@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>2dd3e40a-dea8-4d39-a515-c5a6d08f72f3</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:03Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">MCS10B</name>
-  <description locale="en_US">&lt;b>SOLDER PAD&lt;/b>&lt;p> MC S1, distributor Buerklin, 15F505
+  <description locale="en_US">&lt;b&gt;SOLDER PAD&lt;/b&gt;&lt;p&gt; MC S1, distributor Buerklin, 15F505
 
 This element was automatically imported from Eagle
 Filepath: solpad.lbr
@@ -23,14 +23,14 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">LSP</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="9d92721f-a987-472e-921d-0bb7d7cef82c" role="passive" negated="false">MP</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9d92721f-a987-472e-921d-0bb7d7cef82c">MP</signal>
  </signals>
  <symbol_variants default="c3162a8e-b80f-4040-a78b-a11eec8c3f13">
   <variant norm="" uuid="c3162a8e-b80f-4040-a78b-a11eec8c3f13">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="052aa7bc-7a56-4a3e-8b6e-8bd20873f5fe" required="true" uuid="f90e9926-3002-4d8e-903c-30d769f50f24">
+    <item required="true" suffix="1" symbol="052aa7bc-7a56-4a3e-8b6e-8bd20873f5fe" uuid="f90e9926-3002-4d8e-903c-30d769f50f24">
      <pin_signal_map>
       <map display="component_signal" pin="85838f32-e34b-43b7-929c-8dad5764c146">9d92721f-a987-472e-921d-0bb7d7cef82c</map>
      </pin_signal_map>

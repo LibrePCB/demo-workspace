@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>058b7331-41ec-495a-a7c6-e87ed5e10d16</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BY505</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 high-voltage soft recovery rectifier
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="8d87a94e-c503-4af7-9e38-a539c00b5bb8" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="1380ae9d-1a8a-4f0b-a597-079bf7ccd266" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8d87a94e-c503-4af7-9e38-a539c00b5bb8">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="1380ae9d-1a8a-4f0b-a597-079bf7ccd266">C</signal>
  </signals>
  <symbol_variants default="eea6bb72-0206-4006-a3c0-12af3cd62a1d">
   <variant norm="" uuid="eea6bb72-0206-4006-a3c0-12af3cd62a1d">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="d8968868-f1a1-4031-a2d1-e874f1a8c6ee">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="d8968868-f1a1-4031-a2d1-e874f1a8c6ee">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">1380ae9d-1a8a-4f0b-a597-079bf7ccd266</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">8d87a94e-c503-4af7-9e38-a539c00b5bb8</map>

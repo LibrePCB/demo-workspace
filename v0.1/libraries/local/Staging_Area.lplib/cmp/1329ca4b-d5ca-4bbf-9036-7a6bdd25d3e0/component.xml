@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>1329ca4b-d5ca-4bbf-9036-7a6bdd25d3e0</uuid>
@@ -8,8 +8,8 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">TC46</name>
-  <description locale="en_US">&lt;b>Temperature Compensated Xtal Oscillator&lt;/b>&lt;p>
-HCMOS, Clipped Sine Wave or Sine Wave Compatible&lt;br>
+  <description locale="en_US">&lt;b&gt;Temperature Compensated Xtal Oscillator&lt;/b&gt;&lt;p&gt;
+HCMOS, Clipped Sine Wave or Sine Wave Compatible&lt;br&gt;
 Source: www.pletronics.com .. tc4.pdf
 
 This element was automatically imported from Eagle
@@ -25,18 +25,18 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">QG</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="115ed926-49f1-4100-a4e2-3d2548a47f52" role="passive" negated="false">GND</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="8557472d-2e6c-4cce-859c-a5b60c43a7d0" role="passive" negated="false">OUT</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="271f2f91-42bc-4d73-a065-b425dbf2d5f6" role="passive" negated="false">S1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="08ee764b-7406-471b-ae4c-d1fe67686747" role="passive" negated="false">S2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="dfc9f4a0-7612-4688-833c-2e1af3e6f5bb" role="passive" negated="false">VCC</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="115ed926-49f1-4100-a4e2-3d2548a47f52">GND</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8557472d-2e6c-4cce-859c-a5b60c43a7d0">OUT</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="271f2f91-42bc-4d73-a065-b425dbf2d5f6">S1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="08ee764b-7406-471b-ae4c-d1fe67686747">S2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="dfc9f4a0-7612-4688-833c-2e1af3e6f5bb">VCC</signal>
  </signals>
  <symbol_variants default="6394024f-066c-4d12-ae68-6fe8da1c0f49">
   <variant norm="" uuid="6394024f-066c-4d12-ae68-6fe8da1c0f49">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="81fc75ae-26c0-40b0-a228-496d3cd08752" required="true" uuid="6dc873e5-b41b-428a-a6f3-038fe9d4329f">
+    <item required="true" suffix="" symbol="81fc75ae-26c0-40b0-a228-496d3cd08752" uuid="6dc873e5-b41b-428a-a6f3-038fe9d4329f">
      <pin_signal_map>
       <map display="component_signal" pin="3e319604-fe2e-4609-8af2-335f1215df1e">8557472d-2e6c-4cce-859c-a5b60c43a7d0</map>
       <map display="component_signal" pin="5bf3ff92-28eb-427b-865c-8efb6a5973b8">dfc9f4a0-7612-4688-833c-2e1af3e6f5bb</map>

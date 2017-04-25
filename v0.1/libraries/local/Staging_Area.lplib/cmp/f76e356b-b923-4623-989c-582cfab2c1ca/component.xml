@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>f76e356b-b923-4623-989c-582cfab2c1ca</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">HC49TL-H</name>
-  <description locale="en_US">&lt;b>CRYSTAL&lt;/b>
+  <description locale="en_US">&lt;b&gt;CRYSTAL&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: crystal.lbr
@@ -23,16 +23,16 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">Q</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="e5fb91f0-49c3-45da-a6d8-166fcee7040d" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="fbcfcc3c-b75d-44b2-b76e-f1dfe1a39dfc" role="passive" negated="false">2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="eb959915-799c-49d1-8414-d25240fbf4b2" role="passive" negated="false">3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e5fb91f0-49c3-45da-a6d8-166fcee7040d">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="fbcfcc3c-b75d-44b2-b76e-f1dfe1a39dfc">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="eb959915-799c-49d1-8414-d25240fbf4b2">3</signal>
  </signals>
  <symbol_variants default="a8c04bdd-52fd-4ecf-9be0-534db2da5d90">
   <variant norm="" uuid="a8c04bdd-52fd-4ecf-9be0-534db2da5d90">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="52e2bffc-3e84-4f56-9f21-86ac2bc9a806" required="true" uuid="9aa31312-5490-472c-85b5-b946b55450b3">
+    <item required="true" suffix="" symbol="52e2bffc-3e84-4f56-9f21-86ac2bc9a806" uuid="9aa31312-5490-472c-85b5-b946b55450b3">
      <pin_signal_map>
       <map display="component_signal" pin="060e8a02-9eea-4564-9713-68785429a1ac">fbcfcc3c-b75d-44b2-b76e-f1dfe1a39dfc</map>
       <map display="component_signal" pin="5ca0b351-1d63-450c-bacc-53d1fd51b500">eb959915-799c-49d1-8414-d25240fbf4b2</map>

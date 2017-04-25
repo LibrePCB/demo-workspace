@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>109a14e6-83c7-44e6-938a-62df9c818ad0</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:50Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">SMD2,54-5,08</name>
-  <description locale="en_US">&lt;b>SMD PAD&lt;/b>
+  <description locale="en_US">&lt;b&gt;SMD PAD&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: wirepad.lbr
@@ -24,9 +24,9 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <text rotation="0.000000" x="0.000000" height="2.000000" layer="250" y="0.000000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <text rotation="90.000000" x="-1.500000" height="2.500000" layer="240" y="-2.500000" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <pad rotation="0.000000" technology="smt" side="top" x="0.000000" height="5.080000" width="2.540000" uuid="58788f1b-2136-49a6-b2b0-a9fc72617f49" y="0.000000"/>
+    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="0.000000" y="0.000000">${CMP::VALUE}</text>
+    <text h_align="left" height="2.500000" layer="240" rotation="90.000000" v_align="bottom" x="-1.500000" y="-2.500000">${CMP::NAME}</text>
+    <pad height="5.080000" rotation="0.000000" side="top" technology="smt" uuid="58788f1b-2136-49a6-b2b0-a9fc72617f49" width="2.540000" x="0.000000" y="0.000000"/>
    </geometry>
   </footprint>
  </footprints>

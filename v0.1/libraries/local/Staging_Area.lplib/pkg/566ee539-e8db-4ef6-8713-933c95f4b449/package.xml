@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>566ee539-e8db-4ef6-8713-933c95f4b449</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:50Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">4,16O1,6</name>
-  <description locale="en_US">&lt;b>THROUGH-HOLE PAD&lt;/b>
+  <description locale="en_US">&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: wirepad.lbr
@@ -24,9 +24,9 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <text rotation="0.000000" x="0.000000" height="2.000000" layer="250" y="0.000000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <text rotation="0.000000" x="-2.100000" height="2.500000" layer="240" y="2.200000" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <pad rotation="0.000000" technology="tht" shape="octagon" x="0.000000" height="4.165600" width="4.165600" drill="1.600200" uuid="913e2998-c791-4424-97c0-36dbcff883de" y="0.000000"/>
+    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="0.000000" y="0.000000">${CMP::VALUE}</text>
+    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="-2.100000" y="2.200000">${CMP::NAME}</text>
+    <pad drill="1.600200" height="4.165600" rotation="0.000000" shape="octagon" technology="tht" uuid="913e2998-c791-4424-97c0-36dbcff883de" width="4.165600" x="0.000000" y="0.000000"/>
    </geometry>
   </footprint>
  </footprints>

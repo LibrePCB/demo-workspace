@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>15a6f592-6c00-4c56-89d9-439f88073fb2</uuid>
@@ -25,16 +25,16 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.200000" start_y="-0.650000" grab_area="true" fill="false" layer="200" start_x="1.400000">
+    <polygon fill="false" grab_area="true" layer="200" start_x="1.400000" start_y="-0.650000" width="0.200000">
      <segment angle="0.000000" end_x="1.400000" end_y="0.650000"/>
      <segment angle="0.000000" end_x="-1.400000" end_y="0.650000"/>
      <segment angle="0.000000" end_x="-1.400000" end_y="-0.650000"/>
      <segment angle="0.000000" end_x="1.400000" end_y="-0.650000"/>
     </polygon>
-    <text rotation="0.000000" x="-2.692400" height="2.500000" layer="240" y="1.066800" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <text rotation="0.000000" x="-2.692400" height="2.000000" layer="250" y="-2.336800" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <pad rotation="0.000000" technology="smt" side="top" x="1.524000" height="2.000000" width="2.500000" uuid="598ae543-3f62-4b9c-8a43-ae0c39112a12" y="0.000000"/>
-    <pad rotation="0.000000" technology="smt" side="top" x="-1.524000" height="2.000000" width="2.500000" uuid="920a8be0-72a5-4a2f-a438-82105c8569da" y="0.000000"/>
+    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="-2.692400" y="1.066800">${CMP::NAME}</text>
+    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="-2.692400" y="-2.336800">${CMP::VALUE}</text>
+    <pad height="2.000000" rotation="0.000000" side="top" technology="smt" uuid="598ae543-3f62-4b9c-8a43-ae0c39112a12" width="2.500000" x="1.524000" y="0.000000"/>
+    <pad height="2.000000" rotation="0.000000" side="top" technology="smt" uuid="920a8be0-72a5-4a2f-a438-82105c8569da" width="2.500000" x="-1.524000" y="0.000000"/>
    </geometry>
   </footprint>
  </footprints>

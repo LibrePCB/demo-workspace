@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>5e38d8e3-9ab8-4e19-a3fe-3cb96172be91</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:54Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">DVI-D-V</name>
-  <description locale="en_US">&lt;b>CONNECTOR&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
 MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)
 
 This element was automatically imported from Eagle
@@ -24,37 +24,37 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">X</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="d2d37562-6be9-4582-8eb5-46427f9f365e" role="passive" negated="false">+5V</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="87280deb-7716-4a13-acbb-dba51aabaf14" role="passive" negated="false">CLOCK+</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="758b38e0-5d57-4390-8b5a-94519e278499" role="passive" negated="false">CLOCK-</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="ee96b3c3-c5b3-4e0b-b55a-0abbc3b14b82" role="passive" negated="false">CLOCKS</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="ae596a89-d07d-4766-bbea-8c46eb64f5d2" role="passive" negated="false">DATA0+</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="485a67bf-bdec-4015-868f-aba503a9110e" role="passive" negated="false">DATA0-</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="82e94efa-4968-4aad-8a03-cbf4621fefca" role="passive" negated="false">DATA0/5S</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="241ad8bb-7072-4f22-a92e-9bfb89a1cb80" role="passive" negated="false">DATA1+</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="eb7e42d8-a93a-4831-acbc-3680fd5aa9f4" role="passive" negated="false">DATA1-</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="1e98f8af-435a-4140-8bb6-37ba7ab48ab4" role="passive" negated="false">DATA1/3S</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="dab6677e-1dbe-47e9-b715-6d7a87dd4608" role="passive" negated="false">DATA2+</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="1695402f-1065-444d-a96e-c012c373553c" role="passive" negated="false">DATA2-</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="0df91d44-8f92-4436-a0fe-83383a312857" role="passive" negated="false">DATA2/4S</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="0a9878c0-e45b-4b7c-bfc8-5f08ad6d9758" role="passive" negated="false">DATA3+</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="8265fa5c-c4ab-4145-88de-dc91f631748c" role="passive" negated="false">DATA3-</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="4dc86c33-bb8c-4575-95e5-29a8d4bfa268" role="passive" negated="false">DATA4+</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="3e5f4360-c8c8-49ac-aced-64e7ccef5d51" role="passive" negated="false">DATA4-</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="4344cf06-f609-4ee1-b626-06eeaf8a015c" role="passive" negated="false">DATA5+</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="2edcdd6a-1131-44a7-80f3-7a21c14f4162" role="passive" negated="false">DATA5-</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="9882dba5-57b5-429b-b50c-03a106c3134f" role="passive" negated="false">DDCCLOCK</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="b83b2df6-92c5-4d58-afc4-520e623183a6" role="passive" negated="false">DDCDATA</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="497e0840-d165-4422-b124-ed8fcb1ac98f" role="passive" negated="false">GND</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="e0baf6c4-e71a-4ec3-ac75-909da7fe190e" role="passive" negated="false">HOT-PLUG</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="2246bd87-e775-4c34-b08f-54a0f37024e5" role="passive" negated="false">NC</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="d2d37562-6be9-4582-8eb5-46427f9f365e">+5V</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="87280deb-7716-4a13-acbb-dba51aabaf14">CLOCK+</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="758b38e0-5d57-4390-8b5a-94519e278499">CLOCK-</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ee96b3c3-c5b3-4e0b-b55a-0abbc3b14b82">CLOCKS</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ae596a89-d07d-4766-bbea-8c46eb64f5d2">DATA0+</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="485a67bf-bdec-4015-868f-aba503a9110e">DATA0-</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="82e94efa-4968-4aad-8a03-cbf4621fefca">DATA0/5S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="241ad8bb-7072-4f22-a92e-9bfb89a1cb80">DATA1+</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="eb7e42d8-a93a-4831-acbc-3680fd5aa9f4">DATA1-</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="1e98f8af-435a-4140-8bb6-37ba7ab48ab4">DATA1/3S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="dab6677e-1dbe-47e9-b715-6d7a87dd4608">DATA2+</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="1695402f-1065-444d-a96e-c012c373553c">DATA2-</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0df91d44-8f92-4436-a0fe-83383a312857">DATA2/4S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0a9878c0-e45b-4b7c-bfc8-5f08ad6d9758">DATA3+</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8265fa5c-c4ab-4145-88de-dc91f631748c">DATA3-</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="4dc86c33-bb8c-4575-95e5-29a8d4bfa268">DATA4+</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="3e5f4360-c8c8-49ac-aced-64e7ccef5d51">DATA4-</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="4344cf06-f609-4ee1-b626-06eeaf8a015c">DATA5+</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="2edcdd6a-1131-44a7-80f3-7a21c14f4162">DATA5-</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9882dba5-57b5-429b-b50c-03a106c3134f">DDCCLOCK</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="b83b2df6-92c5-4d58-afc4-520e623183a6">DDCDATA</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="497e0840-d165-4422-b124-ed8fcb1ac98f">GND</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e0baf6c4-e71a-4ec3-ac75-909da7fe190e">HOT-PLUG</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="2246bd87-e775-4c34-b08f-54a0f37024e5">NC</signal>
  </signals>
  <symbol_variants default="5cc9ae99-ac27-491f-8350-6e5360c45048">
   <variant norm="" uuid="5cc9ae99-ac27-491f-8350-6e5360c45048">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="d2ad408f-ad8d-4e81-8332-a636e60d57a8" required="true" uuid="2863dc58-f931-4bdf-aa35-630ae40ac592">
+    <item required="true" suffix="" symbol="d2ad408f-ad8d-4e81-8332-a636e60d57a8" uuid="2863dc58-f931-4bdf-aa35-630ae40ac592">
      <pin_signal_map>
       <map display="component_signal" pin="124b0add-12d0-4779-a61e-b4e06496dea1">485a67bf-bdec-4015-868f-aba503a9110e</map>
       <map display="component_signal" pin="1c9bc9c5-a96a-48b6-89cc-33cea0e97e15">4344cf06-f609-4ee1-b626-06eeaf8a015c</map>

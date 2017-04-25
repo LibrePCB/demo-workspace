@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>43ba0568-a0b3-4ae4-9db1-a9872442a22f</uuid>
@@ -8,9 +8,9 @@
   <last_modified>2015-12-20T22:11:01Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">PB3XX301V050A</name>
-  <description locale="en_US">&lt;b>Self-addressed led , single point control with integrated RGB leds and drive IC&lt;/b>&lt;p>
-Easy control by MCU.&lt;br>
-Source: DycolED.pdf &lt;a href="http://www.kirronlightcomponents.com/index.php/download_file/view/41/83/"> Data sheet &lt;/a>
+  <description locale="en_US">&lt;b&gt;Self-addressed led , single point control with integrated RGB leds and drive IC&lt;/b&gt;&lt;p&gt;
+Easy control by MCU.&lt;br&gt;
+Source: DycolED.pdf &lt;a href=&quot;http://www.kirronlightcomponents.com/index.php/download_file/view/41/83/&quot;&gt; Data sheet &lt;/a&gt;
 
 This element was automatically imported from Eagle
 Filepath: led.lbr
@@ -25,19 +25,19 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="05c4fdfc-f222-4bff-ad02-f491a4df563b" role="passive" negated="false">CI</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="54dfb16d-d8ac-462f-9ec5-6462118277c9" role="passive" negated="false">CO</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="6fe11f48-61ff-4d77-b67c-2fbbb79c9fb9" role="passive" negated="false">DI</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="00f754d4-2b31-4386-920f-35b67b1851c3" role="passive" negated="false">DO</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="aa26a554-d044-4f8b-a054-5a3e3fa4f180" role="passive" negated="false">VDD</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="f187e635-a2c7-44d2-8424-b565ab8457a6" role="passive" negated="false">VSS</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="05c4fdfc-f222-4bff-ad02-f491a4df563b">CI</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="54dfb16d-d8ac-462f-9ec5-6462118277c9">CO</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6fe11f48-61ff-4d77-b67c-2fbbb79c9fb9">DI</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="00f754d4-2b31-4386-920f-35b67b1851c3">DO</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="aa26a554-d044-4f8b-a054-5a3e3fa4f180">VDD</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f187e635-a2c7-44d2-8424-b565ab8457a6">VSS</signal>
  </signals>
  <symbol_variants default="91131125-643f-460a-a5b0-3386b52b486e">
   <variant norm="" uuid="91131125-643f-460a-a5b0-3386b52b486e">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="4fcaabb9-2c1c-4783-86bc-0cb97d94edd7" required="true" uuid="93f24a56-bbff-4e2d-88fe-eb4c8fb83e96">
+    <item required="true" suffix="" symbol="4fcaabb9-2c1c-4783-86bc-0cb97d94edd7" uuid="93f24a56-bbff-4e2d-88fe-eb4c8fb83e96">
      <pin_signal_map>
       <map display="component_signal" pin="0ae60d85-1b39-4c41-95ab-5fc0dfcb7081">05c4fdfc-f222-4bff-ad02-f491a4df563b</map>
       <map display="component_signal" pin="4140b41b-2683-4de6-b6d0-fdb18f058077">00f754d4-2b31-4386-920f-35b67b1851c3</map>

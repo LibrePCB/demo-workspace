@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>02d68685-011b-42d9-9d4a-9c7e01588267</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:03Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">EL-</name>
-  <description locale="en_US">&lt;B>BIPOLAR ELECTROLYTIC CAPACITOR&lt;/B>
+  <description locale="en_US">&lt;B&gt;BIPOLAR ELECTROLYTIC CAPACITOR&lt;/B&gt;
 
 This element was automatically imported from Eagle
 Filepath: rcl.lbr
@@ -23,15 +23,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">C</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="5b165fc1-792e-46e9-ab75-5e701608f468" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="3c4ba8a4-d63a-4225-b09e-c337f09bca5b" role="passive" negated="false">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="5b165fc1-792e-46e9-ab75-5e701608f468">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="3c4ba8a4-d63a-4225-b09e-c337f09bca5b">2</signal>
  </signals>
  <symbol_variants default="d6563b12-bf48-4c17-9235-6f1b906c62a0">
   <variant norm="" uuid="d6563b12-bf48-4c17-9235-6f1b906c62a0">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="c276333d-d5fe-4fa1-bfb4-5b83d6dedf48" required="true" uuid="c8470aff-06d9-4177-bc95-ac483645bfe2">
+    <item required="true" suffix="" symbol="c276333d-d5fe-4fa1-bfb4-5b83d6dedf48" uuid="c8470aff-06d9-4177-bc95-ac483645bfe2">
      <pin_signal_map>
       <map display="component_signal" pin="9151eb5b-4c0b-4e31-afe0-796053ed6b71">3c4ba8a4-d63a-4225-b09e-c337f09bca5b</map>
       <map display="component_signal" pin="d8312243-b011-45cf-890a-c32a32af447e">5b165fc1-792e-46e9-ab75-5e701608f468</map>

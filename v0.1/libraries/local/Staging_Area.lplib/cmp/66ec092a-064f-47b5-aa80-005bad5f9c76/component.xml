@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>66ec092a-064f-47b5-aa80-005bad5f9c76</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BAT81</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
  barrier diode
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="ded3bf04-5a55-49c3-8f8c-1eb6dad3f35f" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="996ef5a9-96ad-42af-b83a-f5ddf2ed50e0" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ded3bf04-5a55-49c3-8f8c-1eb6dad3f35f">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="996ef5a9-96ad-42af-b83a-f5ddf2ed50e0">C</signal>
  </signals>
  <symbol_variants default="f3682abd-887f-4f0b-bc03-4bfa885c39f3">
   <variant norm="" uuid="f3682abd-887f-4f0b-bc03-4bfa885c39f3">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="537dd562-d2b9-4f0e-ab2a-648f09784033">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="537dd562-d2b9-4f0e-ab2a-648f09784033">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">996ef5a9-96ad-42af-b83a-f5ddf2ed50e0</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">ded3bf04-5a55-49c3-8f8c-1eb6dad3f35f</map>

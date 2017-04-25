@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>cbceb14a-d28c-4c40-90ac-959cbedd03e3</uuid>
@@ -23,41 +23,41 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm=""></prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="bc8266e8-cdbc-4a6c-9384-29e0a53c2e79" role="passive" negated="false">CA-</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="98c8bb16-2667-487f-bf04-98b47c08c3f2" role="passive" negated="false">CA0</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="1373917f-a5b8-4386-820c-269d361e05f5" role="passive" negated="false">FAULT</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="0334d6b5-7779-4c38-acd9-63e47e2c20e1" role="passive" negated="false">HIN1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="c0bc9eb4-75d0-4df4-9133-30a6191da135" role="passive" negated="false">HIN2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="305a32a0-c89a-4121-80b4-b4a0f70bf3bc" role="passive" negated="false">HIN3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="fceb45fc-aa9e-4101-b4cb-d2e26569acb1" role="passive" negated="false">HO1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="12f5d2e5-b446-4e60-a449-06edb968aeb9" role="passive" negated="false">HO2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="798e662f-f400-40cd-ac30-4101988a709c" role="passive" negated="false">HO3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="ce104fca-596b-4e0e-893c-500544024fdc" role="passive" negated="false">ITRIP</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="063bf25f-e998-4947-84bf-e203c062e752" role="passive" negated="false">LIN1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="f99ee521-91c5-4b92-9a6b-4dfa49b0d8e0" role="passive" negated="false">LIN2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="f3e913b1-189a-4caa-9b83-4716d1d0016c" role="passive" negated="false">LIN3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="6e2c34e5-dc01-4985-aaea-4a44775dbfae" role="passive" negated="false">LO1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="ea068b9b-1c68-4044-8b80-639768ce7aa2" role="passive" negated="false">LO2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="372e7014-0c64-4393-8a7b-dbb38cc9b2a4" role="passive" negated="false">LO3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="eab1530c-5757-4556-9557-7ff84712d3be" role="passive" negated="false">NC_1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="fa6dfdb3-90e6-44e0-acec-cc2dad828d52" role="passive" negated="false">NC_2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="db6a1c10-e5ba-49ee-b526-7e40d5396bd5" role="passive" negated="false">NC_3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="dc5905fd-fafb-43d7-a5a6-958c1bbb2f08" role="passive" negated="false">VB1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="bbb1b5a2-fc15-4c73-9d69-38c3ab91ab70" role="passive" negated="false">VB2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="35f7d283-8b31-4777-8c0a-41af74ab5e82" role="passive" negated="false">VB3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="8f43c67f-20b0-48bf-be82-da6c58c10784" role="passive" negated="false">VCC</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="f4fecdf3-7f44-4955-a28e-7a2d15d1a838" role="passive" negated="false">VS0</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="0f2d4c46-d061-44a2-a761-5d1af3e192bc" role="passive" negated="false">VS1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="a2ac91ca-8d48-4e2a-9f01-ad9d64ed1086" role="passive" negated="false">VS2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="18c92b91-930d-4425-8f5f-786028de8892" role="passive" negated="false">VS3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="2b510bb1-a229-49df-9ed7-d4624c6d4de7" role="passive" negated="false">VSS</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="bc8266e8-cdbc-4a6c-9384-29e0a53c2e79">CA-</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="98c8bb16-2667-487f-bf04-98b47c08c3f2">CA0</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="1373917f-a5b8-4386-820c-269d361e05f5">FAULT</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0334d6b5-7779-4c38-acd9-63e47e2c20e1">HIN1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c0bc9eb4-75d0-4df4-9133-30a6191da135">HIN2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="305a32a0-c89a-4121-80b4-b4a0f70bf3bc">HIN3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="fceb45fc-aa9e-4101-b4cb-d2e26569acb1">HO1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="12f5d2e5-b446-4e60-a449-06edb968aeb9">HO2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="798e662f-f400-40cd-ac30-4101988a709c">HO3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ce104fca-596b-4e0e-893c-500544024fdc">ITRIP</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="063bf25f-e998-4947-84bf-e203c062e752">LIN1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f99ee521-91c5-4b92-9a6b-4dfa49b0d8e0">LIN2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f3e913b1-189a-4caa-9b83-4716d1d0016c">LIN3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6e2c34e5-dc01-4985-aaea-4a44775dbfae">LO1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ea068b9b-1c68-4044-8b80-639768ce7aa2">LO2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="372e7014-0c64-4393-8a7b-dbb38cc9b2a4">LO3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="eab1530c-5757-4556-9557-7ff84712d3be">NC_1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="fa6dfdb3-90e6-44e0-acec-cc2dad828d52">NC_2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="db6a1c10-e5ba-49ee-b526-7e40d5396bd5">NC_3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="dc5905fd-fafb-43d7-a5a6-958c1bbb2f08">VB1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="bbb1b5a2-fc15-4c73-9d69-38c3ab91ab70">VB2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="35f7d283-8b31-4777-8c0a-41af74ab5e82">VB3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8f43c67f-20b0-48bf-be82-da6c58c10784">VCC</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f4fecdf3-7f44-4955-a28e-7a2d15d1a838">VS0</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0f2d4c46-d061-44a2-a761-5d1af3e192bc">VS1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="a2ac91ca-8d48-4e2a-9f01-ad9d64ed1086">VS2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="18c92b91-930d-4425-8f5f-786028de8892">VS3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="2b510bb1-a229-49df-9ed7-d4624c6d4de7">VSS</signal>
  </signals>
  <symbol_variants default="af9b39e6-c7bd-4a9b-b8c2-4480829d51fc">
   <variant norm="" uuid="af9b39e6-c7bd-4a9b-b8c2-4480829d51fc">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="ed9b801e-74ed-4435-8ab1-3d711ed88eec" required="true" uuid="af5b40e6-cb26-4503-8055-4d9aa310b567">
+    <item required="true" suffix="" symbol="ed9b801e-74ed-4435-8ab1-3d711ed88eec" uuid="af5b40e6-cb26-4503-8055-4d9aa310b567">
      <pin_signal_map>
       <map display="component_signal" pin="03db8f8c-be3d-4bd8-82e7-bb3a019bbfb3">bbb1b5a2-fc15-4c73-9d69-38c3ab91ab70</map>
       <map display="component_signal" pin="1653fa57-45aa-4913-8e7b-112ea2484a3a">063bf25f-e998-4947-84bf-e203c062e752</map>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>1d76ac1a-8fd5-410c-a07d-5cdfef883977</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">PBYR3035</name>
-  <description locale="en_US">Dual &lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">Dual &lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 common cathode
 
 This element was automatically imported from Eagle
@@ -24,16 +24,16 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="b5677ad4-dff4-4edc-aad0-a2349b46c6d6" role="passive" negated="false">A1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="09849289-24ab-4f1a-8910-a48a348f8f64" role="passive" negated="false">A2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="5f4e0f2f-f837-4d27-a504-d4db1bf7e859" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="b5677ad4-dff4-4edc-aad0-a2349b46c6d6">A1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="09849289-24ab-4f1a-8910-a48a348f8f64">A2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="5f4e0f2f-f837-4d27-a504-d4db1bf7e859">C</signal>
  </signals>
  <symbol_variants default="fd382e91-3df5-4f99-a474-9ae66b6a96fe">
   <variant norm="" uuid="fd382e91-3df5-4f99-a474-9ae66b6a96fe">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="ef47f640-bc59-44c2-b2c4-ca53f075d392" required="true" uuid="9bea295a-c974-49dc-9fc2-dba4ddf4f348">
+    <item required="true" suffix="1" symbol="ef47f640-bc59-44c2-b2c4-ca53f075d392" uuid="9bea295a-c974-49dc-9fc2-dba4ddf4f348">
      <pin_signal_map>
       <map display="component_signal" pin="3bb212ed-c465-44f6-9435-ac6a11895a5c">5f4e0f2f-f837-4d27-a504-d4db1bf7e859</map>
       <map display="component_signal" pin="ba59f65f-ab4a-4fb4-9af2-989b4f65808f">09849289-24ab-4f1a-8910-a48a348f8f64</map>

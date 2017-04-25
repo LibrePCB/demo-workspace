@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>e7216c5e-62f4-43d4-84c1-3e2d3cb98f76</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">43160-*06</name>
-  <description locale="en_US">&lt;b>SDA-43160 Connector&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;SDA-43160 Connector&lt;/b&gt;&lt;p&gt;
 Source: http://www.molex.com/pdm_docs/sd/431601306_sd.pdf
 
 This element was automatically imported from Eagle
@@ -24,49 +24,49 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">X</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="6406e55d-a3bc-4fc9-9793-03d7eae6e0f3" role="passive" negated="false">S</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="3644c176-dcb0-4050-a75a-9801f38af9a1" role="passive" negated="false">S</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="ef9a7832-da8b-44a9-baa4-3981de5628eb" role="passive" negated="false">S</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="9995c74c-b5ba-41b8-9b81-6ec1e447999a" role="passive" negated="false">S</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="bfe03e98-809c-417a-8690-9a7f011bf5f6" role="passive" negated="false">S</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="0cb33693-35da-4983-9a13-2fa05042522c" role="passive" negated="false">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6406e55d-a3bc-4fc9-9793-03d7eae6e0f3">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="3644c176-dcb0-4050-a75a-9801f38af9a1">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ef9a7832-da8b-44a9-baa4-3981de5628eb">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9995c74c-b5ba-41b8-9b81-6ec1e447999a">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="bfe03e98-809c-417a-8690-9a7f011bf5f6">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0cb33693-35da-4983-9a13-2fa05042522c">S</signal>
  </signals>
  <symbol_variants default="5c33ec4e-54c8-4562-9bde-78c886e24a02">
   <variant norm="" uuid="5c33ec4e-54c8-4562-9bde-78c886e24a02">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="-1" symbol="de13cfaf-4ebe-47df-b55a-190a1bd35a02" required="true" uuid="1f0e0917-7b52-407e-86c4-700be85a2608">
+    <item required="true" suffix="-1" symbol="de13cfaf-4ebe-47df-b55a-190a1bd35a02" uuid="1f0e0917-7b52-407e-86c4-700be85a2608">
      <pin_signal_map>
       <map display="component_signal" pin="1c2c1832-2057-41f4-96ac-a0c08c7dc8ee">6406e55d-a3bc-4fc9-9793-03d7eae6e0f3</map>
       <map display="component_signal" pin="be996167-186d-4064-96d8-2ea695ee9fce">6406e55d-a3bc-4fc9-9793-03d7eae6e0f3</map>
      </pin_signal_map>
     </item>
-    <item suffix="-2" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea" required="true" uuid="6e25653a-973b-45b1-909e-d9dc778723ef">
+    <item required="true" suffix="-2" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea" uuid="6e25653a-973b-45b1-909e-d9dc778723ef">
      <pin_signal_map>
       <map display="component_signal" pin="0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9">3644c176-dcb0-4050-a75a-9801f38af9a1</map>
       <map display="component_signal" pin="39249903-f7b9-4a60-83ff-4af061a9d13d">3644c176-dcb0-4050-a75a-9801f38af9a1</map>
      </pin_signal_map>
     </item>
-    <item suffix="-3" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea" required="true" uuid="71a01133-d23a-43e3-8a8d-42365bb38a00">
+    <item required="true" suffix="-3" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea" uuid="71a01133-d23a-43e3-8a8d-42365bb38a00">
      <pin_signal_map>
       <map display="component_signal" pin="0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9">ef9a7832-da8b-44a9-baa4-3981de5628eb</map>
       <map display="component_signal" pin="39249903-f7b9-4a60-83ff-4af061a9d13d">ef9a7832-da8b-44a9-baa4-3981de5628eb</map>
      </pin_signal_map>
     </item>
-    <item suffix="-4" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea" required="true" uuid="6d662a21-4603-4864-b802-188b9f074df7">
+    <item required="true" suffix="-4" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea" uuid="6d662a21-4603-4864-b802-188b9f074df7">
      <pin_signal_map>
       <map display="component_signal" pin="0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9">9995c74c-b5ba-41b8-9b81-6ec1e447999a</map>
       <map display="component_signal" pin="39249903-f7b9-4a60-83ff-4af061a9d13d">9995c74c-b5ba-41b8-9b81-6ec1e447999a</map>
      </pin_signal_map>
     </item>
-    <item suffix="-5" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea" required="true" uuid="e24e3da8-a929-4f7c-b9bd-aabcf872347e">
+    <item required="true" suffix="-5" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea" uuid="e24e3da8-a929-4f7c-b9bd-aabcf872347e">
      <pin_signal_map>
       <map display="component_signal" pin="0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9">bfe03e98-809c-417a-8690-9a7f011bf5f6</map>
       <map display="component_signal" pin="39249903-f7b9-4a60-83ff-4af061a9d13d">bfe03e98-809c-417a-8690-9a7f011bf5f6</map>
      </pin_signal_map>
     </item>
-    <item suffix="-6" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea" required="true" uuid="0a0c901c-3484-4832-b577-b20b1672a8b9">
+    <item required="true" suffix="-6" symbol="0ec4c95b-7237-427c-8eb1-76a3afed20ea" uuid="0a0c901c-3484-4832-b577-b20b1672a8b9">
      <pin_signal_map>
       <map display="component_signal" pin="0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9">0cb33693-35da-4983-9a13-2fa05042522c</map>
       <map display="component_signal" pin="39249903-f7b9-4a60-83ff-4af061a9d13d">0cb33693-35da-4983-9a13-2fa05042522c</map>

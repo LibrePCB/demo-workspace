@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>c52f0fda-4514-4ed5-92cd-12e111ee3b36</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BYW80</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 high-efficiency fast recovery rectifier (ST)
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="913ecc57-a1b8-42f6-9ea4-dba8a7868ea2" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="e71ea7e6-b3e1-42f3-953d-d32780d1e3e8" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="913ecc57-a1b8-42f6-9ea4-dba8a7868ea2">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e71ea7e6-b3e1-42f3-953d-d32780d1e3e8">C</signal>
  </signals>
  <symbol_variants default="dba0f183-ca48-4652-a09b-ef69a9d093d3">
   <variant norm="" uuid="dba0f183-ca48-4652-a09b-ef69a9d093d3">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="5b2b665f-69ae-43a4-abc3-0d71148a4f13">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="5b2b665f-69ae-43a4-abc3-0d71148a4f13">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">e71ea7e6-b3e1-42f3-953d-d32780d1e3e8</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">913ecc57-a1b8-42f6-9ea4-dba8a7868ea2</map>

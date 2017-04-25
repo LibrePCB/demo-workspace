@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>01fe9dd4-229f-4083-8c1a-4e1fe7a1fe72</uuid>
@@ -19,21 +19,21 @@
   <prefix norm="">IC</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="a9d53e7f-94cd-4f11-a6ca-fcc6aa02ff07" role="passive" negated="false">CANH</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="61c63013-6455-417c-b88b-734de7aa7146" role="passive" negated="false">VCC</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="f233a935-431c-4e10-9e97-7ddcf8fedfb2" role="passive" negated="false">Mode</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="d3e74d5b-a662-4d3d-aff3-8da209cdb66f" role="passive" negated="false">GND</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="bbefed63-7beb-44ba-841e-63231c01cd64" role="passive" negated="false">TXD</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="004bde4f-0412-48a8-b986-bed973ab3b92" role="passive" negated="false">CANL</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="35c7b2e1-e2b6-4d8b-b65e-0bca0316f6d1" role="passive" negated="false">RXD</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="589f8b34-815e-4890-bc88-0d2565ac06ca" role="passive" negated="false">VRef</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="a9d53e7f-94cd-4f11-a6ca-fcc6aa02ff07">CANH</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="61c63013-6455-417c-b88b-734de7aa7146">VCC</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f233a935-431c-4e10-9e97-7ddcf8fedfb2">Mode</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="d3e74d5b-a662-4d3d-aff3-8da209cdb66f">GND</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="bbefed63-7beb-44ba-841e-63231c01cd64">TXD</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="004bde4f-0412-48a8-b986-bed973ab3b92">CANL</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="35c7b2e1-e2b6-4d8b-b65e-0bca0316f6d1">RXD</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="589f8b34-815e-4890-bc88-0d2565ac06ca">VRef</signal>
  </signals>
  <symbol_variants default="e82fe1cc-0178-4949-ab27-16c8975ffd1d">
   <variant norm="" uuid="e82fe1cc-0178-4949-ab27-16c8975ffd1d">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="8f089c97-5f9b-4437-94a6-3d2f958583c7" required="true" uuid="42e8f509-3f37-4b36-9ef6-98ecd19e8ca4">
+    <item required="true" suffix="" symbol="8f089c97-5f9b-4437-94a6-3d2f958583c7" uuid="42e8f509-3f37-4b36-9ef6-98ecd19e8ca4">
      <pin_signal_map>
       <map display="component_signal" pin="371eaace-87bd-4780-846c-1cf31e4f1b74">004bde4f-0412-48a8-b986-bed973ab3b92</map>
       <map display="component_signal" pin="4338b443-d96e-4725-9d32-06a76a4680bf">bbefed63-7beb-44ba-841e-63231c01cd64</map>

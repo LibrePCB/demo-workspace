@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>0ae40a69-0615-49b6-9eb4-596a2e105e3f</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">87438-02</name>
-  <description locale="en_US">&lt;b>Wire-to-Board  1.50mm (.059") Pitch Header - Right Angle, SMT, Shrouded&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;Wire-to-Board  1.50mm (.059&quot;) Pitch Header - Right Angle, SMT, Shrouded&lt;/b&gt;&lt;p&gt;
 Source: http://www.molex.com/product/micro/87438.html
 
 This element was automatically imported from Eagle
@@ -24,20 +24,20 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">X</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="3d4473dd-9a57-4d7b-866b-82155163a8d8" role="passive" negated="false">S</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="127871ee-8693-474f-8261-8e25f836ca22" role="passive" negated="false">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="3d4473dd-9a57-4d7b-866b-82155163a8d8">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="127871ee-8693-474f-8261-8e25f836ca22">S</signal>
  </signals>
  <symbol_variants default="dad067fd-f97e-4e86-b687-82ce388d9bf9">
   <variant norm="" uuid="dad067fd-f97e-4e86-b687-82ce388d9bf9">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="-1" symbol="0a757ef4-781e-4f3c-aade-8a81ddaced49" required="true" uuid="1f443487-0279-42df-9e7d-d3a43cb6ab22">
+    <item required="true" suffix="-1" symbol="0a757ef4-781e-4f3c-aade-8a81ddaced49" uuid="1f443487-0279-42df-9e7d-d3a43cb6ab22">
      <pin_signal_map>
       <map display="component_signal" pin="45616a4f-3a27-43fe-b63f-11ee8266a5d9">3d4473dd-9a57-4d7b-866b-82155163a8d8</map>
      </pin_signal_map>
     </item>
-    <item suffix="-2" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5" required="true" uuid="66b904a4-f0f1-4c73-a954-9fddb545c6c2">
+    <item required="true" suffix="-2" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5" uuid="66b904a4-f0f1-4c73-a954-9fddb545c6c2">
      <pin_signal_map>
       <map display="component_signal" pin="30aecab6-78da-4867-91a2-4425c2addf92">127871ee-8693-474f-8261-8e25f836ca22</map>
      </pin_signal_map>

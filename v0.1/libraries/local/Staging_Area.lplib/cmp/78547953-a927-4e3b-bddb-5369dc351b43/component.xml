@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>78547953-a927-4e3b-bddb-5369dc351b43</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BYD13</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 controlled avalanche rectifier
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="6df7400b-10ab-445a-8d30-68bc53f3322f" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="ad9c6082-ad79-4d93-b908-6ad9c3883bfc" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6df7400b-10ab-445a-8d30-68bc53f3322f">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ad9c6082-ad79-4d93-b908-6ad9c3883bfc">C</signal>
  </signals>
  <symbol_variants default="57b3fcec-d49b-4e88-8e49-c9c03e8df2b6">
   <variant norm="" uuid="57b3fcec-d49b-4e88-8e49-c9c03e8df2b6">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="1c7fe452-94e7-40e9-808b-dc677fe25405">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="1c7fe452-94e7-40e9-808b-dc677fe25405">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">ad9c6082-ad79-4d93-b908-6ad9c3883bfc</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">6df7400b-10ab-445a-8d30-68bc53f3322f</map>

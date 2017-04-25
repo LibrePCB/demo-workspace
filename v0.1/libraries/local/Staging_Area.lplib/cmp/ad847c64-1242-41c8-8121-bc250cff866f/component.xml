@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>ad847c64-1242-41c8-8121-bc250cff866f</uuid>
@@ -8,8 +8,8 @@
   <last_modified>2015-12-20T22:11:00Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">OA95</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
-germanium diode&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+germanium diode&lt;p&gt;
 115 V, 50 mA/150 mA
 
 This element was automatically imported from Eagle
@@ -25,15 +25,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="cdb9ddb1-7347-4e94-8764-6892cd888f5a" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="2db8e407-f628-436f-8284-49850e6a0a8e" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="cdb9ddb1-7347-4e94-8764-6892cd888f5a">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="2db8e407-f628-436f-8284-49850e6a0a8e">C</signal>
  </signals>
  <symbol_variants default="7ac02065-65ee-4725-b1dc-a5e0bc4764c6">
   <variant norm="" uuid="7ac02065-65ee-4725-b1dc-a5e0bc4764c6">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="8ca5bfc5-88fc-4005-909f-3313f943117f">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="8ca5bfc5-88fc-4005-909f-3313f943117f">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">2db8e407-f628-436f-8284-49850e6a0a8e</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">cdb9ddb1-7347-4e94-8764-6892cd888f5a</map>

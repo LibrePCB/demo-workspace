@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>e148ddf4-f575-4c96-9dae-b5f257c4eeb1</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:00Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BAS70-06</name>
-  <description locale="en_US">&lt;b>Silicon Schottky Diodes&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;Silicon Schottky Diodes&lt;/b&gt;&lt;p&gt;
 General-purpose diode for high-speed switching
 
 This element was automatically imported from Eagle
@@ -24,16 +24,16 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="e5b63d1e-cc3d-4de0-ad3b-7765f65f8a12" role="passive" negated="false">AA</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="0cd5b342-ee14-41b1-8f44-c4261094e9ad" role="passive" negated="false">K1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="ad36250d-c01b-48fd-ad00-ba9c345af8dc" role="passive" negated="false">K2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e5b63d1e-cc3d-4de0-ad3b-7765f65f8a12">AA</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0cd5b342-ee14-41b1-8f44-c4261094e9ad">K1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ad36250d-c01b-48fd-ad00-ba9c345af8dc">K2</signal>
  </signals>
  <symbol_variants default="1412a97f-a8cf-4958-9c68-3f1c109a77c7">
   <variant norm="" uuid="1412a97f-a8cf-4958-9c68-3f1c109a77c7">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="3d1998f3-34a4-4896-9f48-dc572357ea86" required="true" uuid="3f96a328-5717-4f8b-b24c-9310feed5c46">
+    <item required="true" suffix="" symbol="3d1998f3-34a4-4896-9f48-dc572357ea86" uuid="3f96a328-5717-4f8b-b24c-9310feed5c46">
      <pin_signal_map>
       <map display="component_signal" pin="91696bdd-e5da-4ab7-bb34-d52f47f783d4">ad36250d-c01b-48fd-ad00-ba9c345af8dc</map>
       <map display="component_signal" pin="9e28bcac-1d49-43bc-b63d-9e7851fd10ec">0cd5b342-ee14-41b1-8f44-c4261094e9ad</map>

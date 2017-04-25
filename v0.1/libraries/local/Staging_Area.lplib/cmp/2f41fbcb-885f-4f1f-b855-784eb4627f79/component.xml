@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>2f41fbcb-885f-4f1f-b855-784eb4627f79</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">FEP30AP</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 dual ultra-fast recovery rectifier, common cathode
 
 This element was automatically imported from Eagle
@@ -24,16 +24,16 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="2ef866ca-693e-4896-9aa1-c0f49769bdde" role="passive" negated="false">A1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="bc807be7-067d-49d2-8d43-fae240977ee3" role="passive" negated="false">A2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="97ee3357-26ac-416e-9374-601c14be2364" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="2ef866ca-693e-4896-9aa1-c0f49769bdde">A1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="bc807be7-067d-49d2-8d43-fae240977ee3">A2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="97ee3357-26ac-416e-9374-601c14be2364">C</signal>
  </signals>
  <symbol_variants default="778a63a3-f1f9-40b3-b4dd-fa7b321f6a18">
   <variant norm="" uuid="778a63a3-f1f9-40b3-b4dd-fa7b321f6a18">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="bcb4e654-9c8a-4373-8024-4f823afd72b4" required="true" uuid="b71edc8b-30d1-4d26-8aa5-b73d298b69a9">
+    <item required="true" suffix="1" symbol="bcb4e654-9c8a-4373-8024-4f823afd72b4" uuid="b71edc8b-30d1-4d26-8aa5-b73d298b69a9">
      <pin_signal_map>
       <map display="component_signal" pin="1c997823-be8b-4853-8997-1bdb649731fe">bc807be7-067d-49d2-8d43-fae240977ee3</map>
       <map display="component_signal" pin="3fa1746f-f8b7-423e-b582-849abb746ea0">97ee3357-26ac-416e-9374-601c14be2364</map>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>f8dbb0a1-d558-4df9-82f1-86564304a768</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:03Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">CX</name>
-  <description locale="en_US">&lt;B>X CAPACITOR&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;X CAPACITOR&lt;/B&gt;&lt;p&gt;
 for power line
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">CX</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="7bdf360c-b2cf-437a-b1cc-b6788994cf8d" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="68690a33-db60-4d6e-864e-745c86d25bff" role="passive" negated="false">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="7bdf360c-b2cf-437a-b1cc-b6788994cf8d">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="68690a33-db60-4d6e-864e-745c86d25bff">2</signal>
  </signals>
  <symbol_variants default="388f0c38-7717-4a44-9a29-5c53954aa567">
   <variant norm="" uuid="388f0c38-7717-4a44-9a29-5c53954aa567">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="26407a68-e278-4464-b15a-44504345524c" required="true" uuid="dd331eee-136f-411e-93a2-072d123c79c7">
+    <item required="true" suffix="" symbol="26407a68-e278-4464-b15a-44504345524c" uuid="dd331eee-136f-411e-93a2-072d123c79c7">
      <pin_signal_map>
       <map display="component_signal" pin="c8472c3d-0737-4ce3-9a71-ae4c2d4ca5ee">68690a33-db60-4d6e-864e-745c86d25bff</map>
       <map display="component_signal" pin="cb22cc71-d694-41b8-afdf-022acfe65004">7bdf360c-b2cf-437a-b1cc-b6788994cf8d</map>

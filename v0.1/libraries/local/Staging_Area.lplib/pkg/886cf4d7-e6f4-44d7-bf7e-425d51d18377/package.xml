@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>886cf4d7-e6f4-44d7-bf7e-425d51d18377</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:45Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">POWERDI323</name>
-  <description locale="en_US">1.0A SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER POWERDI ® 323 &lt;p>
+  <description locale="en_US">1.0A SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER POWERDI ® 323 &lt;p&gt;
 Source: http://www.diodes.com/datasheets/ds30899.pdf
 
 This element was automatically imported from Eagle
@@ -26,34 +26,34 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.000000" start_y="-0.537500" grab_area="true" fill="true" layer="200" start_x="-1.300000">
+    <polygon fill="true" grab_area="true" layer="200" start_x="-1.300000" start_y="-0.537500" width="0.000000">
      <segment angle="0.000000" end_x="-0.525000" end_y="-0.537500"/>
      <segment angle="0.000000" end_x="-0.525000" end_y="0.537500"/>
      <segment angle="0.000000" end_x="-1.300000" end_y="0.537500"/>
      <segment angle="0.000000" end_x="-1.300000" end_y="-0.537500"/>
     </polygon>
-    <polygon width="0.000000" start_y="-0.400000" grab_area="true" fill="true" layer="200" start_x="0.837500">
+    <polygon fill="true" grab_area="true" layer="200" start_x="0.837500" start_y="-0.400000" width="0.000000">
      <segment angle="0.000000" end_x="1.300000" end_y="-0.400000"/>
      <segment angle="0.000000" end_x="1.300000" end_y="0.400000"/>
      <segment angle="0.000000" end_x="0.837500" end_y="0.400000"/>
      <segment angle="0.000000" end_x="0.837500" end_y="-0.400000"/>
     </polygon>
-    <polygon width="0.200000" start_y="0.350000" grab_area="true" fill="false" layer="200" start_x="0.000000">
+    <polygon fill="false" grab_area="true" layer="200" start_x="0.000000" start_y="0.350000" width="0.200000">
      <segment angle="0.000000" end_x="-0.425000" end_y="0.000000"/>
     </polygon>
-    <polygon width="0.200000" start_y="0.000000" grab_area="true" fill="false" layer="200" start_x="-0.425000">
+    <polygon fill="false" grab_area="true" layer="200" start_x="-0.425000" start_y="0.000000" width="0.200000">
      <segment angle="0.000000" end_x="0.000000" end_y="-0.350000"/>
     </polygon>
-    <polygon width="0.203200" start_y="0.550000" grab_area="true" fill="false" layer="200" start_x="-0.875000">
+    <polygon fill="false" grab_area="true" layer="200" start_x="-0.875000" start_y="0.550000" width="0.203200">
      <segment angle="0.000000" end_x="-0.875000" end_y="-0.550000"/>
      <segment angle="0.000000" end_x="0.862500" end_y="-0.550000"/>
      <segment angle="0.000000" end_x="0.862500" end_y="0.550000"/>
      <segment angle="0.000000" end_x="-0.875000" end_y="0.550000"/>
     </polygon>
-    <text rotation="0.000000" x="-1.851600" height="2.500000" layer="240" y="0.778600" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <text rotation="0.000000" x="-1.851600" height="2.000000" layer="250" y="-2.556600" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <pad rotation="0.000000" technology="smt" side="top" x="1.150000" height="0.800000" width="0.800000" uuid="2114c098-9e6b-40b2-a119-80260dbf060c" y="0.000000"/>
-    <pad rotation="0.000000" technology="smt" side="top" x="-0.750000" height="1.100000" width="2.000000" uuid="e5ba0734-9bd9-48ed-9ec6-1922709b0867" y="0.000000"/>
+    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="-1.851600" y="0.778600">${CMP::NAME}</text>
+    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="-1.851600" y="-2.556600">${CMP::VALUE}</text>
+    <pad height="0.800000" rotation="0.000000" side="top" technology="smt" uuid="2114c098-9e6b-40b2-a119-80260dbf060c" width="0.800000" x="1.150000" y="0.000000"/>
+    <pad height="1.100000" rotation="0.000000" side="top" technology="smt" uuid="e5ba0734-9bd9-48ed-9ec6-1922709b0867" width="2.000000" x="-0.750000" y="0.000000"/>
    </geometry>
   </footprint>
  </footprints>

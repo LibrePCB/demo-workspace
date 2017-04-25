@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>81ab1602-5c5a-4ed6-ab29-55847cbd0924</uuid>
@@ -8,8 +8,8 @@
   <last_modified>2015-12-20T22:10:55Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">C-GRID-02</name>
-  <description locale="en_US">&lt;b>CONNECTOR&lt;/b>&lt;p>
-wire to board 2.54 mm (0.100") pitch header
+  <description locale="en_US">&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
+wire to board 2.54 mm (0.100&quot;) pitch header
 
 This element was automatically imported from Eagle
 Filepath: con-molex.lbr
@@ -24,20 +24,20 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">X</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="47c7fd7d-d3c7-4261-9af1-cd9e804e7ae1" role="passive" negated="false">S</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="c5979cca-09f2-4c48-bb4d-9cec7dcd65cd" role="passive" negated="false">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="47c7fd7d-d3c7-4261-9af1-cd9e804e7ae1">S</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c5979cca-09f2-4c48-bb4d-9cec7dcd65cd">S</signal>
  </signals>
  <symbol_variants default="a0199d98-a1b4-4428-80c0-bf56847255dc">
   <variant norm="" uuid="a0199d98-a1b4-4428-80c0-bf56847255dc">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="-2" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5" required="true" uuid="895de707-29ee-4d98-b246-13f1f541d065">
+    <item required="true" suffix="-2" symbol="37fe28e9-c52d-4849-a2d5-a7288e0ad8f5" uuid="895de707-29ee-4d98-b246-13f1f541d065">
      <pin_signal_map>
       <map display="component_signal" pin="30aecab6-78da-4867-91a2-4425c2addf92">c5979cca-09f2-4c48-bb4d-9cec7dcd65cd</map>
      </pin_signal_map>
     </item>
-    <item suffix="-1" symbol="0a757ef4-781e-4f3c-aade-8a81ddaced49" required="true" uuid="42b20de8-a77e-4683-ab91-2f71b7fdfe98">
+    <item required="true" suffix="-1" symbol="0a757ef4-781e-4f3c-aade-8a81ddaced49" uuid="42b20de8-a77e-4683-ab91-2f71b7fdfe98">
      <pin_signal_map>
       <map display="component_signal" pin="45616a4f-3a27-43fe-b63f-11ee8266a5d9">47c7fd7d-d3c7-4261-9af1-cd9e804e7ae1</map>
      </pin_signal_map>

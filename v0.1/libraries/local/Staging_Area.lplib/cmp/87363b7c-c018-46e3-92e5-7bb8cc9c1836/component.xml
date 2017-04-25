@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>87363b7c-c018-46e3-92e5-7bb8cc9c1836</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:53Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">FE06-1</name>
-  <description locale="en_US">&lt;b>FEMALE HEADER&lt;/b>
+  <description locale="en_US">&lt;b&gt;FEMALE HEADER&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: con-lsta.lbr
@@ -23,19 +23,19 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">SV</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="45ebd44f-89a9-49f7-b881-b3194d9a16c5" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="e58a7133-03f5-4c34-88c5-ff0b5916b159" role="passive" negated="false">2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="d7b579dc-866a-42cd-b6e1-ed5201f64ec6" role="passive" negated="false">3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="e7adc21d-5c31-4b2b-bd02-4d2783aeaafe" role="passive" negated="false">4</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="0f6ae3aa-de8c-4e65-aff9-daf029d76215" role="passive" negated="false">5</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="5edfdf73-39c9-4408-b4a3-aca2a30e9232" role="passive" negated="false">6</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="45ebd44f-89a9-49f7-b881-b3194d9a16c5">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e58a7133-03f5-4c34-88c5-ff0b5916b159">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="d7b579dc-866a-42cd-b6e1-ed5201f64ec6">3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e7adc21d-5c31-4b2b-bd02-4d2783aeaafe">4</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0f6ae3aa-de8c-4e65-aff9-daf029d76215">5</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="5edfdf73-39c9-4408-b4a3-aca2a30e9232">6</signal>
  </signals>
  <symbol_variants default="75953c96-c677-4f2f-b277-4107956c6ef4">
   <variant norm="" uuid="75953c96-c677-4f2f-b277-4107956c6ef4">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="6e53b240-7bec-4be8-b897-d3c37798f28f" required="true" uuid="bf15ea8a-4ecc-4355-b44a-5dadea69cc69">
+    <item required="true" suffix="" symbol="6e53b240-7bec-4be8-b897-d3c37798f28f" uuid="bf15ea8a-4ecc-4355-b44a-5dadea69cc69">
      <pin_signal_map>
       <map display="component_signal" pin="0268b88c-663a-4e2b-901d-512e2d554297">0f6ae3aa-de8c-4e65-aff9-daf029d76215</map>
       <map display="component_signal" pin="2b164b7e-348e-47b6-8a86-01dd190c4e1b">e58a7133-03f5-4c34-88c5-ff0b5916b159</map>

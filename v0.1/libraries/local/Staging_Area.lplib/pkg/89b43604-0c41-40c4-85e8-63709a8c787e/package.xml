@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>89b43604-0c41-40c4-85e8-63709a8c787e</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:46Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">0309V</name>
-  <description locale="en_US">&lt;b>RESISTOR&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0309, grid 2.5 mm
 
 This element was automatically imported from Eagle
@@ -26,36 +26,36 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.609600" start_y="0.000000" grab_area="true" fill="false" layer="200" start_x="1.270000">
+    <polygon fill="false" grab_area="true" layer="200" start_x="1.270000" start_y="0.000000" width="0.609600">
      <segment angle="0.000000" end_x="0.635000" end_y="0.000000"/>
     </polygon>
-    <polygon width="0.609600" start_y="0.000000" grab_area="true" fill="false" layer="200" start_x="-0.635000">
+    <polygon fill="false" grab_area="true" layer="200" start_x="-0.635000" start_y="0.000000" width="0.609600">
      <segment angle="0.000000" end_x="-1.270000" end_y="0.000000"/>
     </polygon>
-    <polygon width="0.000000" start_y="-0.304800" grab_area="true" fill="true" layer="200" start_x="0.254000">
+    <polygon fill="true" grab_area="true" layer="200" start_x="0.254000" start_y="-0.304800" width="0.000000">
      <segment angle="0.000000" end_x="0.558800" end_y="-0.304800"/>
      <segment angle="0.000000" end_x="0.558800" end_y="0.304800"/>
      <segment angle="0.000000" end_x="0.254000" end_y="0.304800"/>
      <segment angle="0.000000" end_x="0.254000" end_y="-0.304800"/>
     </polygon>
-    <polygon width="0.000000" start_y="-0.304800" grab_area="true" fill="true" layer="200" start_x="-0.635000">
+    <polygon fill="true" grab_area="true" layer="200" start_x="-0.635000" start_y="-0.304800" width="0.000000">
      <segment angle="0.000000" end_x="-0.330200" end_y="-0.304800"/>
      <segment angle="0.000000" end_x="-0.330200" end_y="0.304800"/>
      <segment angle="0.000000" end_x="-0.635000" end_y="0.304800"/>
      <segment angle="0.000000" end_x="-0.635000" end_y="-0.304800"/>
     </polygon>
-    <polygon width="0.000000" start_y="-0.304800" grab_area="true" fill="true" layer="260" start_x="-0.330200">
+    <polygon fill="true" grab_area="true" layer="260" start_x="-0.330200" start_y="-0.304800" width="0.000000">
      <segment angle="0.000000" end_x="0.254000" end_y="-0.304800"/>
      <segment angle="0.000000" end_x="0.254000" end_y="0.304800"/>
      <segment angle="0.000000" end_x="-0.330200" end_y="0.304800"/>
      <segment angle="0.000000" end_x="-0.330200" end_y="-0.304800"/>
     </polygon>
-    <text rotation="0.000000" x="0.254000" height="2.500000" layer="240" y="1.016000" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <text rotation="0.000000" x="0.254000" height="2.000000" layer="250" y="-2.209800" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <ellipse radius_y="1.524000" rotation="0.000000" radius_x="1.524000" x="-1.270000" width="0.152400" grab_area="true" fill="false" layer="260" y="0.000000"/>
-    <ellipse radius_y="0.762000" rotation="0.000000" radius_x="0.762000" x="-1.270000" width="0.152400" grab_area="true" fill="false" layer="200" y="0.000000"/>
-    <pad rotation="0.000000" technology="tht" shape="octagon" x="-1.270000" height="1.625600" width="1.625600" drill="0.812800" uuid="baa42d3d-e7dc-4d0c-b12e-2c473bd24ce5" y="0.000000"/>
-    <pad rotation="0.000000" technology="tht" shape="octagon" x="1.270000" height="1.625600" width="1.625600" drill="0.812800" uuid="fe228405-e1ce-479a-b5d5-48ad7245a852" y="0.000000"/>
+    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="0.254000" y="1.016000">${CMP::NAME}</text>
+    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="0.254000" y="-2.209800">${CMP::VALUE}</text>
+    <ellipse fill="false" grab_area="true" layer="260" radius_x="1.524000" radius_y="1.524000" rotation="0.000000" width="0.152400" x="-1.270000" y="0.000000"/>
+    <ellipse fill="false" grab_area="true" layer="200" radius_x="0.762000" radius_y="0.762000" rotation="0.000000" width="0.152400" x="-1.270000" y="0.000000"/>
+    <pad drill="0.812800" height="1.625600" rotation="0.000000" shape="octagon" technology="tht" uuid="baa42d3d-e7dc-4d0c-b12e-2c473bd24ce5" width="1.625600" x="-1.270000" y="0.000000"/>
+    <pad drill="0.812800" height="1.625600" rotation="0.000000" shape="octagon" technology="tht" uuid="fe228405-e1ce-479a-b5d5-48ad7245a852" width="1.625600" x="1.270000" y="0.000000"/>
    </geometry>
   </footprint>
  </footprints>

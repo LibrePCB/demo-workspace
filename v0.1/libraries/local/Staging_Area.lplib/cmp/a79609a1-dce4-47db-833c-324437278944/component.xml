@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>a79609a1-dce4-47db-833c-324437278944</uuid>
@@ -8,8 +8,8 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">MC-405</name>
-  <description locale="en_US">&lt;b>kHz RANGE CRYSTAL UNIT&lt;/b> SMD&lt;p>
-Source: MC-306_405_406_E07X.PDF &lt;a href="http://www.epsontoyocom.co.jp"> Homepage &lt;/a>
+  <description locale="en_US">&lt;b&gt;kHz RANGE CRYSTAL UNIT&lt;/b&gt; SMD&lt;p&gt;
+Source: MC-306_405_406_E07X.PDF &lt;a href=&quot;http://www.epsontoyocom.co.jp&quot;&gt; Homepage &lt;/a&gt;
 
 This element was automatically imported from Eagle
 Filepath: crystal.lbr
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">Q</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="9939db0d-039e-4c8b-8370-313b7b2fa127" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="25b06037-23b3-45dd-9da5-9b4772e9efb5" role="passive" negated="false">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9939db0d-039e-4c8b-8370-313b7b2fa127">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="25b06037-23b3-45dd-9da5-9b4772e9efb5">2</signal>
  </signals>
  <symbol_variants default="b5177b6d-cf16-4e42-87e3-5e49e92ba2c3">
   <variant norm="" uuid="b5177b6d-cf16-4e42-87e3-5e49e92ba2c3">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="P" symbol="986f38ca-ea17-4c03-97a6-b7d5fc7d8012" required="true" uuid="b17f3e78-b47b-4634-afd4-eaa4b39dc0ce">
+    <item required="true" suffix="P" symbol="986f38ca-ea17-4c03-97a6-b7d5fc7d8012" uuid="b17f3e78-b47b-4634-afd4-eaa4b39dc0ce">
      <pin_signal_map>
       <map display="component_signal" pin="2fa806c9-af1c-457c-a92f-3459e6131fbc">25b06037-23b3-45dd-9da5-9b4772e9efb5</map>
       <map display="component_signal" pin="ac7d1cc8-4a9e-4936-ab7c-ed70c7347195">9939db0d-039e-4c8b-8370-313b7b2fa127</map>

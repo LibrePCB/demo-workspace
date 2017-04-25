@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <symbol>
  <meta>
   <uuid>f57c65d1-d899-4853-ac11-dd2f559b154f</uuid>
@@ -17,39 +17,39 @@ NOTE: Remove this text after manual rework!</description>
   <keywords locale="en_US"></keywords>
  </meta>
  <pins>
-  <pin rotation="90.000000" x="0.000000" length="2.540000" uuid="6a23e8de-8b10-4814-a5f4-4ad02ab3fc42" y="-2.540000">A</pin>
-  <pin rotation="270.000000" x="0.000000" length="2.540000" uuid="e82fb240-b93c-4463-a191-1e65147bb758" y="2.540000">C</pin>
+  <pin length="2.540000" rotation="90.000000" uuid="6a23e8de-8b10-4814-a5f4-4ad02ab3fc42" x="0.000000" y="-2.540000">A</pin>
+  <pin length="2.540000" rotation="270.000000" uuid="e82fb240-b93c-4463-a191-1e65147bb758" x="0.000000" y="2.540000">C</pin>
  </pins>
  <geometry>
-  <polygon width="0.254000" start_y="-1.270000" grab_area="true" fill="false" layer="10" start_x="1.905000">
+  <polygon fill="false" grab_area="true" layer="10" start_x="1.905000" start_y="-1.270000" width="0.254000">
    <segment angle="0.000000" end_x="0.000000" end_y="1.270000"/>
   </polygon>
-  <polygon width="0.254000" start_y="1.270000" grab_area="true" fill="false" layer="10" start_x="0.000000">
+  <polygon fill="false" grab_area="true" layer="10" start_x="0.000000" start_y="1.270000" width="0.254000">
    <segment angle="0.000000" end_x="-1.905000" end_y="-1.270000"/>
   </polygon>
-  <polygon width="0.254000" start_y="-1.270000" grab_area="true" fill="false" layer="10" start_x="-1.905000">
+  <polygon fill="false" grab_area="true" layer="10" start_x="-1.905000" start_y="-1.270000" width="0.254000">
    <segment angle="0.000000" end_x="1.905000" end_y="-1.270000"/>
   </polygon>
-  <polygon width="0.254000" start_y="1.397000" grab_area="true" fill="false" layer="10" start_x="-1.905000">
+  <polygon fill="false" grab_area="true" layer="10" start_x="-1.905000" start_y="1.397000" width="0.254000">
    <segment angle="0.000000" end_x="1.905000" end_y="1.397000"/>
   </polygon>
-  <polygon width="0.152400" start_y="1.016000" grab_area="true" fill="false" layer="10" start_x="-3.556000">
+  <polygon fill="false" grab_area="true" layer="10" start_x="-3.556000" start_y="1.016000" width="0.152400">
    <segment angle="0.000000" end_x="-4.572000" end_y="2.032000"/>
   </polygon>
-  <polygon width="0.152400" start_y="1.778000" grab_area="true" fill="false" layer="10" start_x="-2.794000">
+  <polygon fill="false" grab_area="true" layer="10" start_x="-2.794000" start_y="1.778000" width="0.152400">
    <segment angle="0.000000" end_x="-3.810000" end_y="2.794000"/>
   </polygon>
-  <polygon width="0.152400" start_y="1.016000" grab_area="true" fill="false" layer="10" start_x="-4.064000">
+  <polygon fill="false" grab_area="true" layer="10" start_x="-4.064000" start_y="1.016000" width="0.152400">
    <segment angle="0.000000" end_x="-3.556000" end_y="1.524000"/>
    <segment angle="0.000000" end_x="-3.302000" end_y="0.762000"/>
    <segment angle="0.000000" end_x="-4.064000" end_y="1.016000"/>
   </polygon>
-  <polygon width="0.152400" start_y="1.778000" grab_area="true" fill="false" layer="10" start_x="-3.302000">
+  <polygon fill="false" grab_area="true" layer="10" start_x="-3.302000" start_y="1.778000" width="0.152400">
    <segment angle="0.000000" end_x="-2.794000" end_y="2.286000"/>
    <segment angle="0.000000" end_x="-2.540000" end_y="1.524000"/>
    <segment angle="0.000000" end_x="-3.302000" end_y="1.778000"/>
   </polygon>
-  <text rotation="0.000000" x="3.810000" height="3.175000" layer="20" y="1.270000" h_align="left" v_align="bottom">${SYM::NAME}</text>
-  <text rotation="0.000000" x="3.810000" height="2.500000" layer="21" y="-1.270000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
+  <text h_align="left" height="3.175000" layer="20" rotation="0.000000" v_align="bottom" x="3.810000" y="1.270000">${SYM::NAME}</text>
+  <text h_align="left" height="2.500000" layer="21" rotation="0.000000" v_align="bottom" x="3.810000" y="-1.270000">${CMP::VALUE}</text>
  </geometry>
 </symbol>

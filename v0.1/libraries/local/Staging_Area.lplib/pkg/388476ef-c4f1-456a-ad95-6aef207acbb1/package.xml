@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>388476ef-c4f1-456a-ad95-6aef207acbb1</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:47Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">RTRIM3202</name>
-  <description locale="en_US">&lt;b>Trimm resistor&lt;/b> MEGGIT
+  <description locale="en_US">&lt;b&gt;Trimm resistor&lt;/b&gt; MEGGIT
 
 This element was automatically imported from Eagle
 Filepath: rcl.lbr
@@ -26,33 +26,33 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.254000" start_y="1.400000" grab_area="true" fill="false" layer="260" start_x="-1.600000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="-1.600000" start_y="1.400000" width="0.254000">
      <segment angle="0.000000" end_x="-1.000000" end_y="1.400000"/>
     </polygon>
-    <polygon width="0.254000" start_y="1.400000" grab_area="true" fill="false" layer="260" start_x="1.000000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="1.000000" start_y="1.400000" width="0.254000">
      <segment angle="0.000000" end_x="1.600000" end_y="1.400000"/>
     </polygon>
-    <polygon width="0.254000" start_y="-1.400000" grab_area="true" fill="false" layer="260" start_x="-0.300000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="-0.300000" start_y="-1.400000" width="0.254000">
      <segment angle="0.000000" end_x="0.300000" end_y="-1.400000"/>
     </polygon>
-    <polygon width="0.000000" start_y="-1.000000" grab_area="true" fill="true" layer="200" start_x="-0.200000">
+    <polygon fill="true" grab_area="true" layer="200" start_x="-0.200000" start_y="-1.000000" width="0.000000">
      <segment angle="0.000000" end_x="0.200000" end_y="-1.000000"/>
      <segment angle="0.000000" end_x="0.200000" end_y="1.000000"/>
      <segment angle="0.000000" end_x="-0.200000" end_y="1.000000"/>
      <segment angle="0.000000" end_x="-0.200000" end_y="-1.000000"/>
     </polygon>
-    <polygon width="0.254000" start_y="1.400000" grab_area="true" fill="false" layer="200" start_x="1.600000">
+    <polygon fill="false" grab_area="true" layer="200" start_x="1.600000" start_y="1.400000" width="0.254000">
      <segment angle="0.000000" end_x="1.600000" end_y="-1.400000"/>
      <segment angle="0.000000" end_x="-1.600000" end_y="-1.400000"/>
      <segment angle="0.000000" end_x="-1.600000" end_y="1.400000"/>
      <segment angle="0.000000" end_x="1.600000" end_y="1.400000"/>
     </polygon>
-    <text rotation="90.000000" x="-1.990000" height="2.500000" layer="240" y="-2.390000" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <text rotation="90.000000" x="3.260000" height="2.000000" layer="250" y="-2.390000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <ellipse radius_y="1.000000" rotation="0.000000" radius_x="1.000000" x="0.000000" width="0.101600" grab_area="true" fill="false" layer="200" y="0.000000"/>
-    <pad rotation="0.000000" technology="smt" side="top" x="-0.950000" height="1.300000" width="0.900000" uuid="22bd0c00-7b98-4847-808e-fd71c5baa446" y="-1.750000"/>
-    <pad rotation="0.000000" technology="smt" side="top" x="0.950000" height="1.300000" width="0.900000" uuid="4ea0108c-6edc-465a-bcfc-6fcc3fa99c96" y="-1.750000"/>
-    <pad rotation="0.000000" technology="smt" side="top" x="0.000000" height="1.400000" width="1.600000" uuid="d95e9fd1-4779-437e-be81-9a36548574fa" y="1.600000"/>
+    <text h_align="left" height="2.500000" layer="240" rotation="90.000000" v_align="bottom" x="-1.990000" y="-2.390000">${CMP::NAME}</text>
+    <text h_align="left" height="2.000000" layer="250" rotation="90.000000" v_align="bottom" x="3.260000" y="-2.390000">${CMP::VALUE}</text>
+    <ellipse fill="false" grab_area="true" layer="200" radius_x="1.000000" radius_y="1.000000" rotation="0.000000" width="0.101600" x="0.000000" y="0.000000"/>
+    <pad height="1.300000" rotation="0.000000" side="top" technology="smt" uuid="22bd0c00-7b98-4847-808e-fd71c5baa446" width="0.900000" x="-0.950000" y="-1.750000"/>
+    <pad height="1.300000" rotation="0.000000" side="top" technology="smt" uuid="4ea0108c-6edc-465a-bcfc-6fcc3fa99c96" width="0.900000" x="0.950000" y="-1.750000"/>
+    <pad height="1.400000" rotation="0.000000" side="top" technology="smt" uuid="d95e9fd1-4779-437e-be81-9a36548574fa" width="1.600000" x="0.000000" y="1.600000"/>
    </geometry>
   </footprint>
  </footprints>

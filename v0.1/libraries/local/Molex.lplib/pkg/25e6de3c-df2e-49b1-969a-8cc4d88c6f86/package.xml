@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>25e6de3c-df2e-49b1-969a-8cc4d88c6f86</uuid>
@@ -8,8 +8,8 @@
   <last_modified>2015-12-21T13:40:32Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">71061-0001</name>
-  <description locale="en_US">&lt;b>CONNECTOR&lt;/b>&lt;p>
-50-pin 1.27mm (.050 inch) pitch SCSI+ unshielded receptacle, right angle, all plastic&lt;br>
+  <description locale="en_US">&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
+50-pin 1.27mm (.050 inch) pitch SCSI+ unshielded receptacle, right angle, all plastic&lt;br&gt;
 Source: http://www.molex.com/product/io/71061.html
 
 This element was automatically imported from Eagle
@@ -75,85 +75,85 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.203200" start_y="9.365000" grab_area="true" fill="false" layer="260" start_x="-17.235000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="-17.235000" start_y="9.365000" width="0.203200">
      <segment angle="0.000000" end_x="17.235000" end_y="9.365000"/>
     </polygon>
-    <polygon width="0.203200" start_y="9.365000" grab_area="true" fill="false" layer="260" start_x="17.235000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="17.235000" start_y="9.365000" width="0.203200">
      <segment angle="0.000000" end_x="17.235000" end_y="4.365000"/>
     </polygon>
-    <polygon width="0.203200" start_y="4.365000" grab_area="true" fill="false" layer="260" start_x="17.235000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="17.235000" start_y="4.365000" width="0.203200">
      <segment angle="0.000000" end_x="20.735000" end_y="4.365000"/>
     </polygon>
-    <polygon width="0.203200" start_y="4.365000" grab_area="true" fill="false" layer="260" start_x="20.735000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="20.735000" start_y="4.365000" width="0.203200">
      <segment angle="0.000000" end_x="20.735000" end_y="-6.885000"/>
     </polygon>
-    <polygon width="0.203200" start_y="-6.885000" grab_area="true" fill="false" layer="260" start_x="20.735000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="20.735000" start_y="-6.885000" width="0.203200">
      <segment angle="0.000000" end_x="-20.785000" end_y="-6.885000"/>
     </polygon>
-    <polygon width="0.203200" start_y="-6.885000" grab_area="true" fill="false" layer="260" start_x="-20.785000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="-20.785000" start_y="-6.885000" width="0.203200">
      <segment angle="0.000000" end_x="-20.785000" end_y="4.365000"/>
     </polygon>
-    <polygon width="0.203200" start_y="4.365000" grab_area="true" fill="false" layer="260" start_x="-20.785000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="-20.785000" start_y="4.365000" width="0.203200">
      <segment angle="0.000000" end_x="-17.235000" end_y="4.365000"/>
     </polygon>
-    <polygon width="0.203200" start_y="4.365000" grab_area="true" fill="false" layer="260" start_x="-17.235000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="-17.235000" start_y="4.365000" width="0.203200">
      <segment angle="0.000000" end_x="-17.235000" end_y="9.365000"/>
     </polygon>
-    <polygon width="0.203200" start_y="4.365000" grab_area="true" fill="false" layer="260" start_x="17.235000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="17.235000" start_y="4.365000" width="0.203200">
      <segment angle="0.000000" end_x="-17.235000" end_y="4.365000"/>
     </polygon>
-    <text rotation="0.000000" x="-17.780000" height="2.500000" layer="240" y="-9.525000" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <text rotation="0.000000" x="-15.240000" height="2.000000" layer="250" y="1.905000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="0.000000" height="1.397000" width="1.397000" drill="0.812800" uuid="0ab8c53d-60e7-4f84-8707-87b0e4c58c10" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-3.810000" height="1.397000" width="1.397000" drill="0.812800" uuid="0b090b23-3765-477f-a2a9-5e639eff8d85" y="0.000000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-11.430000" height="1.397000" width="1.397000" drill="0.812800" uuid="0fc9fb03-2b70-423b-9835-3b1c31769fa1" y="0.000000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="12.700000" height="1.397000" width="1.397000" drill="0.812800" uuid="16a5410c-4651-418f-80c3-0d6461a2fc3c" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-7.620000" height="1.397000" width="1.397000" drill="0.812800" uuid="1a59f582-2077-4e25-b741-969a3d18b830" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-1.270000" height="1.397000" width="1.397000" drill="0.812800" uuid="24996ebd-5507-4d85-b710-bd19646d3b03" y="0.000000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="10.160000" height="1.397000" width="1.397000" drill="0.812800" uuid="25d0abbe-e407-46f7-9116-0d970f5ee7ac" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="1.270000" height="1.397000" width="1.397000" drill="0.812800" uuid="2854a7c3-c7b4-4620-bb7d-91533d0cd79e" y="-3.820000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="12.700000" height="1.397000" width="1.397000" drill="0.812800" uuid="286484f3-0b35-4b2b-a574-8148dee9fef3" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-8.890000" height="1.397000" width="1.397000" drill="0.812800" uuid="2f814762-5eb8-444f-8424-9de1fff8a88a" y="-3.820000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-5.080000" height="1.397000" width="1.397000" drill="0.812800" uuid="3c1acfd4-665e-4976-9931-8a21352e63fa" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="7.620000" height="1.397000" width="1.397000" drill="0.812800" uuid="40226364-4ea1-47ec-9162-dc2ecaf65781" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-12.700000" height="1.397000" width="1.397000" drill="0.812800" uuid="403b72da-c3b8-4822-a9f5-bac993ecf3c8" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="2.540000" height="1.397000" width="1.397000" drill="0.812800" uuid="41bababa-a2d2-4cfc-bfbe-347a1d537990" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-7.620000" height="1.397000" width="1.397000" drill="0.812800" uuid="48043950-0bf6-44bc-8414-7043b5cff9e8" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="5.080000" height="1.397000" width="1.397000" drill="0.812800" uuid="4909e166-6a66-4caa-ab6c-6cafabd266b8" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-10.160000" height="1.397000" width="1.397000" drill="0.812800" uuid="4b9f4c3e-0968-4857-958c-e343b4664580" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="6.350000" height="1.397000" width="1.397000" drill="0.812800" uuid="50a6706a-9f3e-4e7c-b841-9f1b28b26516" y="-3.820000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="8.890000" height="1.397000" width="1.397000" drill="0.812800" uuid="513c2ec5-12c1-48c7-85de-9da61b76887d" y="-3.820000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-6.350000" height="1.397000" width="1.397000" drill="0.812800" uuid="5dd30885-0fd8-45e3-9613-4f28d307091f" y="0.000000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-10.160000" height="1.397000" width="1.397000" drill="0.812800" uuid="627aa7ae-58f3-4c7d-b445-d1c59c23a88b" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="1.270000" height="1.397000" width="1.397000" drill="0.812800" uuid="62a2ad5c-f0f6-4603-9ed2-098d2a198d3a" y="0.000000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="3.810000" height="1.397000" width="1.397000" drill="0.812800" uuid="6e02a202-1211-4c19-a512-2703289f1791" y="-3.820000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="7.620000" height="1.397000" width="1.397000" drill="0.812800" uuid="776d6664-d920-4a64-aecf-443129e9e1e6" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="6.350000" height="1.397000" width="1.397000" drill="0.812800" uuid="77c39033-1cba-4754-8a9b-766b2e253141" y="0.000000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-12.700000" height="1.397000" width="1.397000" drill="0.812800" uuid="7a5d9358-8c6c-4777-8a5e-513571400c75" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-15.240000" height="1.397000" width="1.397000" drill="0.812800" uuid="7e471997-8733-4a4d-b5ab-79fd177e01ed" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-3.810000" height="1.397000" width="1.397000" drill="0.812800" uuid="87f69a3f-7cd2-408a-a03e-28ae780d4933" y="-3.820000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="2.540000" height="1.397000" width="1.397000" drill="0.812800" uuid="88d35d89-d8e9-40ba-8cb2-0b339c35c30e" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="0.000000" height="1.397000" width="1.397000" drill="0.812800" uuid="8b226ef8-a828-40d9-9184-9ca0fbee2045" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-15.240000" height="1.397000" width="1.397000" drill="0.812800" uuid="8e9146d2-d958-4e5f-8bcf-d95d396d8793" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-2.540000" height="1.397000" width="1.397000" drill="0.812800" uuid="979910fe-a706-45ef-87c2-5a2eb4dc05e5" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="10.160000" height="1.397000" width="1.397000" drill="0.812800" uuid="9ae1d474-0ad7-4de6-950d-61297e529b0e" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-13.970000" height="1.397000" width="1.397000" drill="0.812800" uuid="a526c204-b18d-4704-93bc-7ec3a98edecd" y="0.000000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-1.270000" height="1.397000" width="1.397000" drill="0.812800" uuid="a835cc96-b4af-4b01-bc51-8245a88dd286" y="-3.820000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="15.240000" height="1.397000" width="1.397000" drill="0.812800" uuid="abbdb59a-81ed-4b80-b611-f86e164283d5" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-8.890000" height="1.397000" width="1.397000" drill="0.812800" uuid="b43f571e-c1c8-471c-b711-7520d6384108" y="0.000000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="11.430000" height="1.397000" width="1.397000" drill="0.812800" uuid="bae7ed2f-20b3-4d9b-bd73-d9ca1207bcab" y="-3.820000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="5.080000" height="1.397000" width="1.397000" drill="0.812800" uuid="c18bc950-afc1-4d0d-9883-b2b041322310" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="8.890000" height="1.397000" width="1.397000" drill="0.812800" uuid="c460f9f2-fcef-4c82-920a-fe8a6ec07de8" y="0.000000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="13.970000" height="1.397000" width="1.397000" drill="0.812800" uuid="ce871359-1a56-4be6-b26c-1a556d2c5342" y="0.000000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="13.970000" height="1.397000" width="1.397000" drill="0.812800" uuid="ceb354c9-780f-4e6f-8d31-5eed169da7ee" y="-3.820000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="3.810000" height="1.397000" width="1.397000" drill="0.812800" uuid="d40bd667-e8cf-422f-8b26-5c217b57b8c0" y="0.000000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-5.080000" height="1.397000" width="1.397000" drill="0.812800" uuid="d803f60e-db62-41d9-84dc-8f6a0d8ac049" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-13.970000" height="1.397000" width="1.397000" drill="0.812800" uuid="dc686c6f-9842-4420-8dd6-ab7a782c204d" y="-3.820000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="15.240000" height="1.397000" width="1.397000" drill="0.812800" uuid="df2c7167-e677-4247-9d2c-9851e6479d51" y="-5.730000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-11.430000" height="1.397000" width="1.397000" drill="0.812800" uuid="e192f1ca-94e7-4152-8014-96350e5105d4" y="-3.820000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-2.540000" height="1.397000" width="1.397000" drill="0.812800" uuid="e3bf0954-aea3-4014-9861-8da9bc0d0b23" y="-1.910000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="11.430000" height="1.397000" width="1.397000" drill="0.812800" uuid="e9afd20b-3285-4ee9-b1c8-9bd0796ab18b" y="0.000000"/>
-    <pad rotation="180.000000" technology="tht" shape="octagon" x="-6.350000" height="1.397000" width="1.397000" drill="0.812800" uuid="f58de825-a635-41f0-825b-75784e24f1a2" y="-3.820000"/>
+    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="-17.780000" y="-9.525000">${CMP::NAME}</text>
+    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="-15.240000" y="1.905000">${CMP::VALUE}</text>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="0ab8c53d-60e7-4f84-8707-87b0e4c58c10" width="1.397000" x="0.000000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="0b090b23-3765-477f-a2a9-5e639eff8d85" width="1.397000" x="-3.810000" y="0.000000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="0fc9fb03-2b70-423b-9835-3b1c31769fa1" width="1.397000" x="-11.430000" y="0.000000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="16a5410c-4651-418f-80c3-0d6461a2fc3c" width="1.397000" x="12.700000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="1a59f582-2077-4e25-b741-969a3d18b830" width="1.397000" x="-7.620000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="24996ebd-5507-4d85-b710-bd19646d3b03" width="1.397000" x="-1.270000" y="0.000000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="25d0abbe-e407-46f7-9116-0d970f5ee7ac" width="1.397000" x="10.160000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="2854a7c3-c7b4-4620-bb7d-91533d0cd79e" width="1.397000" x="1.270000" y="-3.820000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="286484f3-0b35-4b2b-a574-8148dee9fef3" width="1.397000" x="12.700000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="2f814762-5eb8-444f-8424-9de1fff8a88a" width="1.397000" x="-8.890000" y="-3.820000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="3c1acfd4-665e-4976-9931-8a21352e63fa" width="1.397000" x="-5.080000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="40226364-4ea1-47ec-9162-dc2ecaf65781" width="1.397000" x="7.620000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="403b72da-c3b8-4822-a9f5-bac993ecf3c8" width="1.397000" x="-12.700000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="41bababa-a2d2-4cfc-bfbe-347a1d537990" width="1.397000" x="2.540000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="48043950-0bf6-44bc-8414-7043b5cff9e8" width="1.397000" x="-7.620000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="4909e166-6a66-4caa-ab6c-6cafabd266b8" width="1.397000" x="5.080000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="4b9f4c3e-0968-4857-958c-e343b4664580" width="1.397000" x="-10.160000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="50a6706a-9f3e-4e7c-b841-9f1b28b26516" width="1.397000" x="6.350000" y="-3.820000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="513c2ec5-12c1-48c7-85de-9da61b76887d" width="1.397000" x="8.890000" y="-3.820000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="5dd30885-0fd8-45e3-9613-4f28d307091f" width="1.397000" x="-6.350000" y="0.000000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="627aa7ae-58f3-4c7d-b445-d1c59c23a88b" width="1.397000" x="-10.160000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="62a2ad5c-f0f6-4603-9ed2-098d2a198d3a" width="1.397000" x="1.270000" y="0.000000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="6e02a202-1211-4c19-a512-2703289f1791" width="1.397000" x="3.810000" y="-3.820000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="776d6664-d920-4a64-aecf-443129e9e1e6" width="1.397000" x="7.620000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="77c39033-1cba-4754-8a9b-766b2e253141" width="1.397000" x="6.350000" y="0.000000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="7a5d9358-8c6c-4777-8a5e-513571400c75" width="1.397000" x="-12.700000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="7e471997-8733-4a4d-b5ab-79fd177e01ed" width="1.397000" x="-15.240000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="87f69a3f-7cd2-408a-a03e-28ae780d4933" width="1.397000" x="-3.810000" y="-3.820000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="88d35d89-d8e9-40ba-8cb2-0b339c35c30e" width="1.397000" x="2.540000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="8b226ef8-a828-40d9-9184-9ca0fbee2045" width="1.397000" x="0.000000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="8e9146d2-d958-4e5f-8bcf-d95d396d8793" width="1.397000" x="-15.240000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="979910fe-a706-45ef-87c2-5a2eb4dc05e5" width="1.397000" x="-2.540000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="9ae1d474-0ad7-4de6-950d-61297e529b0e" width="1.397000" x="10.160000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="a526c204-b18d-4704-93bc-7ec3a98edecd" width="1.397000" x="-13.970000" y="0.000000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="a835cc96-b4af-4b01-bc51-8245a88dd286" width="1.397000" x="-1.270000" y="-3.820000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="abbdb59a-81ed-4b80-b611-f86e164283d5" width="1.397000" x="15.240000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="b43f571e-c1c8-471c-b711-7520d6384108" width="1.397000" x="-8.890000" y="0.000000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="bae7ed2f-20b3-4d9b-bd73-d9ca1207bcab" width="1.397000" x="11.430000" y="-3.820000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="c18bc950-afc1-4d0d-9883-b2b041322310" width="1.397000" x="5.080000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="c460f9f2-fcef-4c82-920a-fe8a6ec07de8" width="1.397000" x="8.890000" y="0.000000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="ce871359-1a56-4be6-b26c-1a556d2c5342" width="1.397000" x="13.970000" y="0.000000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="ceb354c9-780f-4e6f-8d31-5eed169da7ee" width="1.397000" x="13.970000" y="-3.820000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="d40bd667-e8cf-422f-8b26-5c217b57b8c0" width="1.397000" x="3.810000" y="0.000000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="d803f60e-db62-41d9-84dc-8f6a0d8ac049" width="1.397000" x="-5.080000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="dc686c6f-9842-4420-8dd6-ab7a782c204d" width="1.397000" x="-13.970000" y="-3.820000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="df2c7167-e677-4247-9d2c-9851e6479d51" width="1.397000" x="15.240000" y="-5.730000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="e192f1ca-94e7-4152-8014-96350e5105d4" width="1.397000" x="-11.430000" y="-3.820000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="e3bf0954-aea3-4014-9861-8da9bc0d0b23" width="1.397000" x="-2.540000" y="-1.910000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="e9afd20b-3285-4ee9-b1c8-9bd0796ab18b" width="1.397000" x="11.430000" y="0.000000"/>
+    <pad drill="0.812800" height="1.397000" rotation="180.000000" shape="octagon" technology="tht" uuid="f58de825-a635-41f0-825b-75784e24f1a2" width="1.397000" x="-6.350000" y="-3.820000"/>
    </geometry>
   </footprint>
  </footprints>

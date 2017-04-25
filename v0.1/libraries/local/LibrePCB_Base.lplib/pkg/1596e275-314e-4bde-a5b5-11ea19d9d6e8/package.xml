@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>1596e275-314e-4bde-a5b5-11ea19d9d6e8</uuid>
@@ -20,16 +20,16 @@
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.203200" start_y="3.375000" grab_area="true" fill="false" layer="260" start_x="-5.675000">
+    <polygon fill="false" grab_area="true" layer="260" start_x="-5.675000" start_y="3.375000" width="0.203200">
      <segment angle="0.000000" end_x="-5.675000" end_y="-3.375000"/>
      <segment angle="0.000000" end_x="5.650000" end_y="-3.375000"/>
      <segment angle="0.000000" end_x="5.650000" end_y="3.375000"/>
      <segment angle="0.000000" end_x="-5.675000" end_y="3.375000"/>
     </polygon>
-    <text rotation="0.000000" x="-5.715000" height="2.500000" layer="240" y="3.810000" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <text rotation="0.000000" x="-5.715000" height="2.000000" layer="250" y="-5.080000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <pad rotation="0.000000" technology="smt" side="top" x="-4.575000" height="5.840000" width="3.940000" uuid="a10546c8-2806-4188-96bc-7e7400a3c02f" y="0.000000"/>
-    <pad rotation="0.000000" technology="smt" side="top" x="4.575000" height="5.840000" width="3.940000" uuid="cdae853b-def2-4b2b-b56c-a30c9ad336eb" y="0.000000"/>
+    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="-5.715000" y="3.810000">${CMP::NAME}</text>
+    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="-5.715000" y="-5.080000">${CMP::VALUE}</text>
+    <pad height="5.840000" rotation="0.000000" side="top" technology="smt" uuid="a10546c8-2806-4188-96bc-7e7400a3c02f" width="3.940000" x="-4.575000" y="0.000000"/>
+    <pad height="5.840000" rotation="0.000000" side="top" technology="smt" uuid="cdae853b-def2-4b2b-b56c-a30c9ad336eb" width="3.940000" x="4.575000" y="0.000000"/>
    </geometry>
   </footprint>
  </footprints>

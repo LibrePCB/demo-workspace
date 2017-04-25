@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>2d148859-b572-4880-b530-fca7e250c6e1</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:00Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">PESD1CAN</name>
-  <description locale="en_US">&lt;b>CAN bus ESD protection diode&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;CAN bus ESD protection diode&lt;/b&gt;&lt;p&gt;
 Source: http://www.nxp.com/documents/data_sheet/PESD1CAN.pdf
 
 This element was automatically imported from Eagle
@@ -24,16 +24,16 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="9c7581b0-1678-4352-b6dc-3c8753816781" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="1b12d7b1-9172-4073-b692-49c03af2f56f" role="passive" negated="false">2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="daf08249-e6c6-443a-bc18-995a7d10888e" role="passive" negated="false">3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9c7581b0-1678-4352-b6dc-3c8753816781">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="1b12d7b1-9172-4073-b692-49c03af2f56f">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="daf08249-e6c6-443a-bc18-995a7d10888e">3</signal>
  </signals>
  <symbol_variants default="878d2427-5e17-484b-905e-f30167c7aa8c">
   <variant norm="" uuid="878d2427-5e17-484b-905e-f30167c7aa8c">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="0d1f2678-9843-4bab-b911-a9caf6b0215d" required="true" uuid="e6cfd147-b9a2-415b-b451-756f38713f9f">
+    <item required="true" suffix="" symbol="0d1f2678-9843-4bab-b911-a9caf6b0215d" uuid="e6cfd147-b9a2-415b-b451-756f38713f9f">
      <pin_signal_map>
       <map display="component_signal" pin="945e7b01-0da4-40ce-aa3b-da12496fe1e4">9c7581b0-1678-4352-b6dc-3c8753816781</map>
       <map display="component_signal" pin="9a5f12c9-f4ab-42da-a23e-3c45f0dbabe8">1b12d7b1-9172-4073-b692-49c03af2f56f</map>

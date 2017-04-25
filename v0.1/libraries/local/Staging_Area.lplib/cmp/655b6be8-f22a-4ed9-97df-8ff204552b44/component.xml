@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>655b6be8-f22a-4ed9-97df-8ff204552b44</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BY448</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 damper diode
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="5994152b-ced4-4a0d-b18f-c54982eab724" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="6db4688a-f2b7-488c-9b1b-2c9517bd325b" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="5994152b-ced4-4a0d-b18f-c54982eab724">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6db4688a-f2b7-488c-9b1b-2c9517bd325b">C</signal>
  </signals>
  <symbol_variants default="87e6714a-782f-4c9a-a280-a7a64de893ed">
   <variant norm="" uuid="87e6714a-782f-4c9a-a280-a7a64de893ed">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="1a9a9275-8729-4835-9977-5a2373f549fd">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="1a9a9275-8729-4835-9977-5a2373f549fd">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">6db4688a-f2b7-488c-9b1b-2c9517bd325b</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">5994152b-ced4-4a0d-b18f-c54982eab724</map>

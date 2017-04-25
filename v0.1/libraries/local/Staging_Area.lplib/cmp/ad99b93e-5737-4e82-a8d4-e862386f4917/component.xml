@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>ad99b93e-5737-4e82-a8d4-e862386f4917</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:00Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">D5-1C</name>
-  <description locale="en_US">4 &lt;B>DIODES&lt;/B>&lt;p>
+  <description locale="en_US">4 &lt;B&gt;DIODES&lt;/B&gt;&lt;p&gt;
 SIL, common cathode
 
 This element was automatically imported from Eagle
@@ -24,18 +24,18 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">DN</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="58784e39-24c3-4119-9624-b0735e7272c1" role="passive" negated="false">2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="d982aaec-ffbd-48bd-8e96-d5d23ec03900" role="passive" negated="false">3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="e829eb3c-d0e7-4be8-8685-20d096d3bf73" role="passive" negated="false">4</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="9c5e0796-30cd-4c2d-ad87-385d97d50a12" role="passive" negated="false">5</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="369eef10-f503-46f4-8d1e-e52dc379aa6d" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="58784e39-24c3-4119-9624-b0735e7272c1">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="d982aaec-ffbd-48bd-8e96-d5d23ec03900">3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e829eb3c-d0e7-4be8-8685-20d096d3bf73">4</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9c5e0796-30cd-4c2d-ad87-385d97d50a12">5</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="369eef10-f503-46f4-8d1e-e52dc379aa6d">C</signal>
  </signals>
  <symbol_variants default="c2bd87ed-7408-40fb-a789-5f4655521894">
   <variant norm="" uuid="c2bd87ed-7408-40fb-a789-5f4655521894">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="A" symbol="78544865-8858-49d8-a306-85f517f8007d" required="true" uuid="27e87607-aa77-4d1c-8836-3b883f97a6a0">
+    <item required="true" suffix="A" symbol="78544865-8858-49d8-a306-85f517f8007d" uuid="27e87607-aa77-4d1c-8836-3b883f97a6a0">
      <pin_signal_map>
       <map display="component_signal" pin="0538b5e6-bf12-43c7-b7d9-c4c85378eaae">d982aaec-ffbd-48bd-8e96-d5d23ec03900</map>
       <map display="component_signal" pin="090ebc4c-a7f6-41b0-a802-710f9354637e">9c5e0796-30cd-4c2d-ad87-385d97d50a12</map>

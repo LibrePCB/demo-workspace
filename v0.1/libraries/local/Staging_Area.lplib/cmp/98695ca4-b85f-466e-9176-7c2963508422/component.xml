@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>98695ca4-b85f-466e-9176-7c2963508422</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:58Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">46M15AUM1</name>
-  <description locale="en_US">&lt;b>Monolithic Crystal Filters&lt;/b>&lt;p>
+  <description locale="en_US">&lt;b&gt;Monolithic Crystal Filters&lt;/b&gt;&lt;p&gt;
 Source: www.vanlong.com
 
 This element was automatically imported from Eagle
@@ -24,16 +24,16 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">QF</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="41e08623-ed56-49f4-bc48-e19fb984b1b7" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="c60aec1d-513c-44c1-aaec-242aa288b10f" role="passive" negated="false">2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="426ce97e-d229-47bf-b429-6c7b9052efa9" role="passive" negated="false">3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="41e08623-ed56-49f4-bc48-e19fb984b1b7">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c60aec1d-513c-44c1-aaec-242aa288b10f">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="426ce97e-d229-47bf-b429-6c7b9052efa9">3</signal>
  </signals>
  <symbol_variants default="da61f80b-99eb-452d-ba4f-db1c9efe3c09">
   <variant norm="" uuid="da61f80b-99eb-452d-ba4f-db1c9efe3c09">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="a6126794-71cd-44d0-813f-fe1847754a41" required="true" uuid="2f0b6f0d-f025-44a5-9441-c481d4a24ff8">
+    <item required="true" suffix="" symbol="a6126794-71cd-44d0-813f-fe1847754a41" uuid="2f0b6f0d-f025-44a5-9441-c481d4a24ff8">
      <pin_signal_map>
       <map display="component_signal" pin="7a058510-7077-48de-bfdf-f7bde9458f69">426ce97e-d229-47bf-b429-6c7b9052efa9</map>
       <map display="component_signal" pin="a5bf62e8-174f-4ea6-b364-dc67be3f427f">41e08623-ed56-49f4-bc48-e19fb984b1b7</map>

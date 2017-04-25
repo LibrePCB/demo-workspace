@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>ae3563aa-c182-4967-921c-d385b7ff5f98</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BAV17</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 silicon-epitaxial planar diode
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="6fea9143-73b7-4214-8edb-36ad443dccd0" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="35801c30-c771-41a3-bfa4-ecf106c1fb16" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6fea9143-73b7-4214-8edb-36ad443dccd0">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="35801c30-c771-41a3-bfa4-ecf106c1fb16">C</signal>
  </signals>
  <symbol_variants default="4d81eb44-ab1d-4c88-ba08-c8b12f6945a9">
   <variant norm="" uuid="4d81eb44-ab1d-4c88-ba08-c8b12f6945a9">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="0f62b61c-4636-4cb6-bdee-761b7a3fba35">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="0f62b61c-4636-4cb6-bdee-761b7a3fba35">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">35801c30-c771-41a3-bfa4-ecf106c1fb16</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">6fea9143-73b7-4214-8edb-36ad443dccd0</map>

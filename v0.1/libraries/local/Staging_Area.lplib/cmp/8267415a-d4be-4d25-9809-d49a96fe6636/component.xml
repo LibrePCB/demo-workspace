@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>8267415a-d4be-4d25-9809-d49a96fe6636</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:11:03Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">3,81/1,1</name>
-  <description locale="en_US">&lt;b>THROUGH-HOLE PAD&lt;/b>
+  <description locale="en_US">&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: wirepad.lbr
@@ -23,14 +23,14 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">PAD</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="1ce38a1e-71cd-4708-af8f-dd02dd7722d8" role="passive" negated="false">P</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="1ce38a1e-71cd-4708-af8f-dd02dd7722d8">P</signal>
  </signals>
  <symbol_variants default="8c221c0f-5096-46a7-bbdd-4c656c38371b">
   <variant norm="" uuid="8c221c0f-5096-46a7-bbdd-4c656c38371b">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="P" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b" required="true" uuid="cb153abb-9a5e-45ef-b1fa-cf7c0c6b93df">
+    <item required="true" suffix="P" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b" uuid="cb153abb-9a5e-45ef-b1fa-cf7c0c6b93df">
      <pin_signal_map>
       <map display="component_signal" pin="01f564d5-9975-4613-bf90-153a031fe625">1ce38a1e-71cd-4708-af8f-dd02dd7722d8</map>
      </pin_signal_map>

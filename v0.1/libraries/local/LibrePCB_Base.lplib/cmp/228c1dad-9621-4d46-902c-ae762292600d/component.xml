@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>228c1dad-9621-4d46-902c-ae762292600d</uuid>
@@ -19,17 +19,17 @@
   <prefix norm="">LED</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="true" forced_net_name="" uuid="629d9077-427d-417f-b204-0e0144716db9" role="passive" negated="false">A</signal>
-  <signal clock="false" required="true" forced_net_name="" uuid="c87bdcf6-2200-4536-8fbb-adff360e306f" role="passive" negated="false">CB</signal>
-  <signal clock="false" required="true" forced_net_name="" uuid="46350bbf-a664-40fb-bddf-c312906e079c" role="passive" negated="false">CG</signal>
-  <signal clock="false" required="true" forced_net_name="" uuid="eaa37b79-770c-4bcd-9326-7e98e5f95f60" role="passive" negated="false">CR</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="629d9077-427d-417f-b204-0e0144716db9">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="c87bdcf6-2200-4536-8fbb-adff360e306f">CB</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="46350bbf-a664-40fb-bddf-c312906e079c">CG</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="eaa37b79-770c-4bcd-9326-7e98e5f95f60">CR</signal>
  </signals>
  <symbol_variants default="49635612-4237-43d8-b8b7-c084ebdc7ca9">
   <variant norm="" uuid="49635612-4237-43d8-b8b7-c084ebdc7ca9">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="cb9e1ec9-e935-40e0-863e-7946730e8325" required="true" uuid="868b741e-c752-455c-92b6-c021b7a2393f">
+    <item required="true" suffix="" symbol="cb9e1ec9-e935-40e0-863e-7946730e8325" uuid="868b741e-c752-455c-92b6-c021b7a2393f">
      <pin_signal_map>
       <map display="none" pin="11d0b59a-11b0-4168-ac68-189c24c14f80">eaa37b79-770c-4bcd-9326-7e98e5f95f60</map>
       <map display="none" pin="4a8012fb-c5ee-47a7-85dc-a69e7af5f491">46350bbf-a664-40fb-bddf-c312906e079c</map>

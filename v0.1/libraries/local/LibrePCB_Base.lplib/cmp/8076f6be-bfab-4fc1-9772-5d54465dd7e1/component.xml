@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>8076f6be-bfab-4fc1-9772-5d54465dd7e1</uuid>
@@ -19,14 +19,14 @@
   <prefix norm="">SUP</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="true" forced_net_name="${CMP::VALUE}" uuid="ff161c97-29a5-43aa-a9ae-3ca7a66982ce" role="power" negated="false">Net</signal>
+  <signal clock="false" forced_net_name="${CMP::VALUE}" negated="false" required="true" role="power" uuid="ff161c97-29a5-43aa-a9ae-3ca7a66982ce">Net</signal>
  </signals>
  <symbol_variants default="f09ad258-595b-4ee9-a1fc-910804a203ae">
   <variant norm="" uuid="f09ad258-595b-4ee9-a1fc-910804a203ae">
    <name locale="en_US">Default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="80f8cd68-69d9-43c4-9ed2-da32ca714b10" required="true" uuid="0539fd52-890f-48af-97a9-bacfb79c9475">
+    <item required="true" suffix="" symbol="80f8cd68-69d9-43c4-9ed2-da32ca714b10" uuid="0539fd52-890f-48af-97a9-bacfb79c9475">
      <pin_signal_map>
       <map display="none" pin="abcc319b-d09f-437b-a624-3dcf3eff5792">ff161c97-29a5-43aa-a9ae-3ca7a66982ce</map>
      </pin_signal_map>

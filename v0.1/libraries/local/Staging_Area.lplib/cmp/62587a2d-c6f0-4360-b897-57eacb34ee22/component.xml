@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>62587a2d-c6f0-4360-b897-57eacb34ee22</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:53Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">MA09-1</name>
-  <description locale="en_US">&lt;b>PIN HEADER&lt;/b>
+  <description locale="en_US">&lt;b&gt;PIN HEADER&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: con-lstb.lbr
@@ -23,22 +23,22 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">SV</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="0f32fbf9-bf40-44ad-b608-7a59ace9e14e" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="9d7b3bbc-6666-449f-b3ef-d287c132f9e4" role="passive" negated="false">2</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="e118ea99-95ad-409a-96cc-4d3fc949ea94" role="passive" negated="false">3</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="e833f44a-e7db-4c37-855b-6d880afc05d0" role="passive" negated="false">4</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="e28417ca-ebb6-4a9a-a793-74cc06b345aa" role="passive" negated="false">5</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="332a2648-66ce-4b5e-85ce-979ee326812a" role="passive" negated="false">6</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="1c96aa1a-80c8-4442-87ed-65dce3a76757" role="passive" negated="false">7</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="5ffcbc14-4819-4ea1-85dd-cd42fe7d0edd" role="passive" negated="false">8</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="9c062810-20ac-4b6e-b53a-927c810cd6c4" role="passive" negated="false">9</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0f32fbf9-bf40-44ad-b608-7a59ace9e14e">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9d7b3bbc-6666-449f-b3ef-d287c132f9e4">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e118ea99-95ad-409a-96cc-4d3fc949ea94">3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e833f44a-e7db-4c37-855b-6d880afc05d0">4</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e28417ca-ebb6-4a9a-a793-74cc06b345aa">5</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="332a2648-66ce-4b5e-85ce-979ee326812a">6</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="1c96aa1a-80c8-4442-87ed-65dce3a76757">7</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="5ffcbc14-4819-4ea1-85dd-cd42fe7d0edd">8</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9c062810-20ac-4b6e-b53a-927c810cd6c4">9</signal>
  </signals>
  <symbol_variants default="3c6b1e44-0c44-4687-bba2-ecd3d72566db">
   <variant norm="" uuid="3c6b1e44-0c44-4687-bba2-ecd3d72566db">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="ee0c0a81-7bf6-4a8a-9bb6-d5b968536933" required="true" uuid="88e7726e-7bfe-4dd6-a39c-7d09420c4cec">
+    <item required="true" suffix="1" symbol="ee0c0a81-7bf6-4a8a-9bb6-d5b968536933" uuid="88e7726e-7bfe-4dd6-a39c-7d09420c4cec">
      <pin_signal_map>
       <map display="component_signal" pin="1fa63032-736b-4253-94b0-04ed55cc3047">e118ea99-95ad-409a-96cc-4d3fc949ea94</map>
       <map display="component_signal" pin="20fd8c26-5b42-4a4c-897e-20e097e1f0a0">e28417ca-ebb6-4a9a-a793-74cc06b345aa</map>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>eb6bd73c-0104-44ed-9dff-f10f326a0291</uuid>
@@ -13,8 +13,8 @@
   <category>b3adfa1e-b878-44f6-902a-14ef3dad7a14</category>
  </meta>
  <attributes>
-  <attribute unit="" key="WINDINGS_PRIMARY" type="string"></attribute>
-  <attribute unit="" key="WINDINGS_SECONDARY" type="string"></attribute>
+  <attribute key="WINDINGS_PRIMARY" type="string" unit=""></attribute>
+  <attribute key="WINDINGS_SECONDARY" type="string" unit=""></attribute>
  </attributes>
  <properties>
   <schematic_only>false</schematic_only>
@@ -22,18 +22,18 @@
   <prefix norm="">T</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="true" forced_net_name="" uuid="91bbbff2-1851-4ee4-bfcc-02eee09020cf" role="passive" negated="false">W1a</signal>
-  <signal clock="false" required="true" forced_net_name="" uuid="fafc50dc-ee0e-4e3f-ba51-f19f353399f6" role="passive" negated="false">W1b</signal>
-  <signal clock="false" required="true" forced_net_name="" uuid="fe722e6f-61b9-45d8-9746-f6ad5487f766" role="passive" negated="false">W1c</signal>
-  <signal clock="false" required="true" forced_net_name="" uuid="0cfaf72f-5c92-4c91-bedc-b5a607dee5dc" role="passive" negated="false">W2a</signal>
-  <signal clock="false" required="true" forced_net_name="" uuid="f5097956-7257-4bcb-8771-fc356910fbed" role="passive" negated="false">W2b</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="91bbbff2-1851-4ee4-bfcc-02eee09020cf">W1a</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="fafc50dc-ee0e-4e3f-ba51-f19f353399f6">W1b</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="fe722e6f-61b9-45d8-9746-f6ad5487f766">W1c</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="0cfaf72f-5c92-4c91-bedc-b5a607dee5dc">W2a</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="f5097956-7257-4bcb-8771-fc356910fbed">W2b</signal>
  </signals>
  <symbol_variants default="f0647872-4617-437e-ab5a-0029fdc7a1d5">
   <variant norm="" uuid="f0647872-4617-437e-ab5a-0029fdc7a1d5">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="acac1f23-a4e2-4e0f-b9c8-ff6a40df4219" required="true" uuid="b1bf362d-4437-4421-9efe-1b5fec6466e2">
+    <item required="true" suffix="" symbol="acac1f23-a4e2-4e0f-b9c8-ff6a40df4219" uuid="b1bf362d-4437-4421-9efe-1b5fec6466e2">
      <pin_signal_map>
       <map display="none" pin="0cff3006-ab43-4d98-a2c4-dfa633977b49">f5097956-7257-4bcb-8771-fc356910fbed</map>
       <map display="none" pin="193c60a4-5a9b-4174-85dd-d08ca5b390eb">91bbbff2-1851-4ee4-bfcc-02eee09020cf</map>

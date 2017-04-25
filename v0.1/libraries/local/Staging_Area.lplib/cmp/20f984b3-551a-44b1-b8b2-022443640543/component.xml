@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>20f984b3-551a-44b1-b8b2-022443640543</uuid>
@@ -8,7 +8,7 @@
   <last_modified>2015-12-20T22:10:59Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">BYW96</name>
-  <description locale="en_US">&lt;B>DIODE&lt;/B>&lt;p>
+  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 fast soft-recovery rectifier
 
 This element was automatically imported from Eagle
@@ -24,15 +24,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="aac587b3-19cb-46ba-b976-cfb7e1c82b3d" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="99204de6-f727-411e-97d4-1fe34b90c500" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="aac587b3-19cb-46ba-b976-cfb7e1c82b3d">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="99204de6-f727-411e-97d4-1fe34b90c500">C</signal>
  </signals>
  <symbol_variants default="225f83d8-f44b-4390-bc68-6ad79cf0289a">
   <variant norm="" uuid="225f83d8-f44b-4390-bc68-6ad79cf0289a">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" required="true" uuid="070b115e-1866-4f7c-aeae-32e2f2e6d13c">
+    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="070b115e-1866-4f7c-aeae-32e2f2e6d13c">
      <pin_signal_map>
       <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">99204de6-f727-411e-97d4-1fe34b90c500</map>
       <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">aac587b3-19cb-46ba-b976-cfb7e1c82b3d</map>

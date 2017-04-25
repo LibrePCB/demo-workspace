@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>23ab1ea9-6ee2-434b-8170-07248f56673f</uuid>
@@ -23,15 +23,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">R</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="688ec627-e6cf-46ca-813e-8541c1e7c5f3" role="passive" negated="false">1</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="3f0f710d-d418-4b0c-9f3e-4ec065482eb2" role="passive" negated="false">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="688ec627-e6cf-46ca-813e-8541c1e7c5f3">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="3f0f710d-d418-4b0c-9f3e-4ec065482eb2">2</signal>
  </signals>
  <symbol_variants default="f4fc6674-dea7-4125-b17a-b17ccbb46a1c">
   <variant norm="" uuid="f4fc6674-dea7-4125-b17a-b17ccbb46a1c">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="3d077a0c-9523-46fb-9afc-cd44d1f197ab" required="true" uuid="379fccec-2779-4a44-abab-227ae7f110ad">
+    <item required="true" suffix="" symbol="3d077a0c-9523-46fb-9afc-cd44d1f197ab" uuid="379fccec-2779-4a44-abab-227ae7f110ad">
      <pin_signal_map>
       <map display="component_signal" pin="1779c9ef-c47c-46f8-a983-464bad8d18d4">688ec627-e6cf-46ca-813e-8541c1e7c5f3</map>
       <map display="component_signal" pin="3dd63044-7022-44c6-95cb-3f4205c67f1c">3f0f710d-d418-4b0c-9f3e-4ec065482eb2</map>

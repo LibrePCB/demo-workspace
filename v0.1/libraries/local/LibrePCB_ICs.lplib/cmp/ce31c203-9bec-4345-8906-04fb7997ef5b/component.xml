@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>ce31c203-9bec-4345-8906-04fb7997ef5b</uuid>
@@ -19,16 +19,16 @@
   <prefix norm="">IC</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="8e074b73-9015-4c28-969f-d2d929af889d" role="passive" negated="false">GND</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="a78ae9aa-1c78-4d1f-98e8-9bd253555a6d" role="passive" negated="false">VI</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="bdd7ce7c-4bfc-4215-9431-3ea24f340e8a" role="passive" negated="false">VO</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8e074b73-9015-4c28-969f-d2d929af889d">GND</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="a78ae9aa-1c78-4d1f-98e8-9bd253555a6d">VI</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="bdd7ce7c-4bfc-4215-9431-3ea24f340e8a">VO</signal>
  </signals>
  <symbol_variants default="80db57cd-d3fa-4fec-80f1-3543456340ec">
   <variant norm="" uuid="80db57cd-d3fa-4fec-80f1-3543456340ec">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="5062dbe6-4215-4c75-bb61-03e82f2c0734" required="true" uuid="52ef2b10-c149-4dfc-a2d8-2805efff2e13">
+    <item required="true" suffix="" symbol="5062dbe6-4215-4c75-bb61-03e82f2c0734" uuid="52ef2b10-c149-4dfc-a2d8-2805efff2e13">
      <pin_signal_map>
       <map display="component_signal" pin="114de26b-3fe5-4a03-89ae-769ab7136879">bdd7ce7c-4bfc-4215-9431-3ea24f340e8a</map>
       <map display="none" pin="61bd9691-1775-4001-b8e3-e44cd98e685a">8e074b73-9015-4c28-969f-d2d929af889d</map>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
  <meta>
   <uuid>4e910169-dee8-45d6-aebd-1394ff6d17a1</uuid>
@@ -8,8 +8,8 @@
   <last_modified>2015-12-20T22:10:48Z</last_modified>
   <deprecated>false</deprecated>
   <name locale="en_US">SMC_B</name>
-  <description locale="en_US">&lt;b>Chip Capacitor &lt;/b> Polar tantalum capacitors with solid electrolyte&lt;p>
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br>
+  <description locale="en_US">&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
 Source: www.farnell.com/datasheets/247.pdf
 
 This element was automatically imported from Eagle
@@ -27,34 +27,34 @@ NOTE: Remove this text after manual rework!</description>
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <geometry>
-    <polygon width="0.000000" start_y="-1.100000" grab_area="true" fill="true" layer="200" start_x="-1.750000">
+    <polygon fill="true" grab_area="true" layer="200" start_x="-1.750000" start_y="-1.100000" width="0.000000">
      <segment angle="0.000000" end_x="-1.550000" end_y="-1.100000"/>
      <segment angle="0.000000" end_x="-1.550000" end_y="1.100000"/>
      <segment angle="0.000000" end_x="-1.750000" end_y="1.100000"/>
      <segment angle="0.000000" end_x="-1.750000" end_y="-1.100000"/>
     </polygon>
-    <polygon width="0.000000" start_y="-1.100000" grab_area="true" fill="true" layer="200" start_x="1.550000">
+    <polygon fill="true" grab_area="true" layer="200" start_x="1.550000" start_y="-1.100000" width="0.000000">
      <segment angle="0.000000" end_x="1.750000" end_y="-1.100000"/>
      <segment angle="0.000000" end_x="1.750000" end_y="1.100000"/>
      <segment angle="0.000000" end_x="1.550000" end_y="1.100000"/>
      <segment angle="0.000000" end_x="1.550000" end_y="-1.100000"/>
     </polygon>
-    <polygon width="0.000000" start_y="-1.350000" grab_area="true" fill="true" layer="200" start_x="-1.600000">
+    <polygon fill="true" grab_area="true" layer="200" start_x="-1.600000" start_y="-1.350000" width="0.000000">
      <segment angle="0.000000" end_x="-0.950000" end_y="-1.350000"/>
      <segment angle="0.000000" end_x="-0.950000" end_y="1.350000"/>
      <segment angle="0.000000" end_x="-1.600000" end_y="1.350000"/>
      <segment angle="0.000000" end_x="-1.600000" end_y="-1.350000"/>
     </polygon>
-    <polygon width="0.101600" start_y="-1.350000" grab_area="true" fill="false" layer="200" start_x="1.600000">
+    <polygon fill="false" grab_area="true" layer="200" start_x="1.600000" start_y="-1.350000" width="0.101600">
      <segment angle="0.000000" end_x="1.600000" end_y="1.350000"/>
      <segment angle="0.000000" end_x="-1.600000" end_y="1.350000"/>
      <segment angle="0.000000" end_x="-1.600000" end_y="-1.350000"/>
      <segment angle="0.000000" end_x="1.600000" end_y="-1.350000"/>
     </polygon>
-    <text rotation="0.000000" x="-1.905000" height="2.500000" layer="240" y="1.905000" h_align="left" v_align="bottom">${CMP::NAME}</text>
-    <text rotation="0.000000" x="-1.905000" height="2.000000" layer="250" y="-2.540000" h_align="left" v_align="bottom">${CMP::VALUE}</text>
-    <pad rotation="0.000000" technology="smt" side="top" x="-1.500000" height="2.400000" width="1.600000" uuid="f3f3882a-a997-4f05-ad23-a5d70dae628d" y="0.000000"/>
-    <pad rotation="180.000000" technology="smt" side="top" x="1.500000" height="2.400000" width="1.600000" uuid="f968e830-7b90-4c80-aabf-774a2ee13fdc" y="0.000000"/>
+    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="-1.905000" y="1.905000">${CMP::NAME}</text>
+    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="-1.905000" y="-2.540000">${CMP::VALUE}</text>
+    <pad height="2.400000" rotation="0.000000" side="top" technology="smt" uuid="f3f3882a-a997-4f05-ad23-a5d70dae628d" width="1.600000" x="-1.500000" y="0.000000"/>
+    <pad height="2.400000" rotation="180.000000" side="top" technology="smt" uuid="f968e830-7b90-4c80-aabf-774a2ee13fdc" width="1.600000" x="1.500000" y="0.000000"/>
    </geometry>
   </footprint>
  </footprints>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
  <meta>
   <uuid>e9da9519-fac6-49e4-85ce-de80841ed79b</uuid>
@@ -23,15 +23,15 @@ NOTE: Remove this text after manual rework!</description>
   <prefix norm="">D</prefix>
  </properties>
  <signals>
-  <signal clock="false" required="false" forced_net_name="" uuid="caab37d4-e089-464a-91ed-18d180bfd7ee" role="passive" negated="false">A</signal>
-  <signal clock="false" required="false" forced_net_name="" uuid="2b33ff0a-e944-4c8b-ba02-3edf022017ef" role="passive" negated="false">C</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="caab37d4-e089-464a-91ed-18d180bfd7ee">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="2b33ff0a-e944-4c8b-ba02-3edf022017ef">C</signal>
  </signals>
  <symbol_variants default="49344a1d-a1aa-4ee3-a038-7212d3f63337">
   <variant norm="" uuid="49344a1d-a1aa-4ee3-a038-7212d3f63337">
    <name locale="en_US">default</name>
    <description locale="en_US"></description>
    <symbol_items>
-    <item suffix="" symbol="bb3f309f-c32c-4f79-9fca-b5ce1377f5ee" required="true" uuid="2fea53e1-a7f2-4cf3-be29-34dee82b2303">
+    <item required="true" suffix="" symbol="bb3f309f-c32c-4f79-9fca-b5ce1377f5ee" uuid="2fea53e1-a7f2-4cf3-be29-34dee82b2303">
      <pin_signal_map>
       <map display="component_signal" pin="367f3c8b-53f4-4d92-b04c-619ca18680df">caab37d4-e089-464a-91ed-18d180bfd7ee</map>
       <map display="component_signal" pin="8c863cb3-8d3f-4648-8aec-762b14809cb6">2b33ff0a-e944-4c8b-ba02-3edf022017ef</map>
