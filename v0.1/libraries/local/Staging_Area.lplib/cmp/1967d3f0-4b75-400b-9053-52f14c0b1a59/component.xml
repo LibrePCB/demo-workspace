@@ -1,41 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>1967d3f0-4b75-400b-9053-52f14c0b1a59</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:11:03Z</created>
-  <last_modified>2015-12-20T22:11:03Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">2,54/1,1</name>
-  <description locale="en_US">&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;
+ <uuid>1967d3f0-4b75-400b-9053-52f14c0b1a59</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:11:03Z</created>
+ <last_modified>2015-12-20T22:11:03Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">2,54/1,1</name>
+ <description locale="">&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: wirepad.lbr
 Name: 2,54/1,1
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">PAD</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f759fb8b-630a-4a24-b914-0d78b8ccac54">P</signal>
- </signals>
- <symbol_variants default="a41df54c-8b98-4de8-8cf7-6c64353dfc8e">
-  <variant norm="" uuid="a41df54c-8b98-4de8-8cf7-6c64353dfc8e">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="1" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b" uuid="f43b07c9-5c91-4817-ae54-92492e6bf576">
-     <pin_signal_map>
-      <map display="component_signal" pin="01f564d5-9975-4613-bf90-153a031fe625">f759fb8b-630a-4a24-b914-0d78b8ccac54</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">PAD</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f759fb8b-630a-4a24-b914-0d78b8ccac54">P</signal>
+ <symbol_variant norm="" uuid="a41df54c-8b98-4de8-8cf7-6c64353dfc8e">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="1" symbol="dce44427-4d53-4881-a77a-3e4faa383e3b" uuid="f43b07c9-5c91-4817-ae54-92492e6bf576">
+   <pin_signal_map display="component_signal" pin="01f564d5-9975-4613-bf90-153a031fe625">f759fb8b-630a-4a24-b914-0d78b8ccac54</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

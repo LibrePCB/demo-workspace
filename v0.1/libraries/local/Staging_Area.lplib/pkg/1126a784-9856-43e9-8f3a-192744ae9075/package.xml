@@ -1,59 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
- <meta>
-  <uuid>1126a784-9856-43e9-8f3a-192744ae9075</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:43Z</created>
-  <last_modified>2015-12-20T22:10:43Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">SM77H</name>
-  <description locale="en_US">&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
+ <uuid>1126a784-9856-43e9-8f3a-192744ae9075</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:43Z</created>
+ <last_modified>2015-12-20T22:10:43Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">SM77H</name>
+ <description locale="">&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
 Source: www.pletronics.com .. sm77h%203.3v.pdf
 
 This element was automatically imported from Eagle
 Filepath: crystal.lbr
 Name: SM77H
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <pads>
-  <pad uuid="3400da54-a7d7-4f25-95b8-b4df6e3334b4">4</pad>
-  <pad uuid="78531d61-e28d-4245-807f-e8b21d9026d9">2</pad>
-  <pad uuid="b171a8bf-4da5-4ae0-aa1b-cd79d24942bc">1</pad>
-  <pad uuid="b59de88e-01d8-4390-93b5-548617d7385b">3</pad>
- </pads>
- <footprints default="29c02918-bd6c-459c-a843-7a8db7864ef9">
-  <footprint uuid="29c02918-bd6c-459c-a843-7a8db7864ef9">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <geometry>
-    <polygon fill="false" grab_area="true" layer="260" start_x="-1.368000" start_y="-2.400000" width="0.203200">
-     <segment angle="0.000000" end_x="1.368000" end_y="-2.400000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="-3.400000" start_y="0.876000" width="0.203200">
-     <segment angle="0.000000" end_x="-3.400000" end_y="-0.876000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="1.368000" start_y="2.400000" width="0.203200">
-     <segment angle="0.000000" end_x="-1.368000" end_y="2.400000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="3.400000" start_y="-0.876000" width="0.203200">
-     <segment angle="0.000000" end_x="3.400000" end_y="0.876000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="200" start_x="-3.400000" start_y="2.400000" width="0.203200">
-     <segment angle="0.000000" end_x="-3.400000" end_y="-2.400000"/>
-     <segment angle="0.000000" end_x="3.400000" end_y="-2.400000"/>
-     <segment angle="0.000000" end_x="3.400000" end_y="2.400000"/>
-     <segment angle="0.000000" end_x="-3.400000" end_y="2.400000"/>
-    </polygon>
-    <text h_align="left" height="2.500000" layer="240" rotation="90.000000" v_align="bottom" x="-3.810000" y="-2.540000">${CMP::NAME}</text>
-    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="-2.286000" y="-0.508000">${CMP::VALUE}</text>
-    <ellipse fill="true" grab_area="true" layer="260" radius_x="0.254000" radius_y="0.254000" rotation="0.000000" width="0.000000" x="-2.794000" y="-0.762000"/>
-    <pad height="1.600000" rotation="270.000000" side="top" technology="smt" uuid="3400da54-a7d7-4f25-95b8-b4df6e3334b4" width="1.500000" x="-2.550000" y="1.900000"/>
-    <pad height="1.600000" rotation="90.000000" side="top" technology="smt" uuid="78531d61-e28d-4245-807f-e8b21d9026d9" width="1.500000" x="2.550000" y="-1.900000"/>
-    <pad height="1.600000" rotation="90.000000" side="top" technology="smt" uuid="b171a8bf-4da5-4ae0-aa1b-cd79d24942bc" width="1.500000" x="-2.550000" y="-1.900000"/>
-    <pad height="1.600000" rotation="270.000000" side="top" technology="smt" uuid="b59de88e-01d8-4390-93b5-548617d7385b" width="1.500000" x="2.550000" y="1.900000"/>
-   </geometry>
-  </footprint>
- </footprints>
+ <keywords locale=""></keywords>
+ <pad uuid="3400da54-a7d7-4f25-95b8-b4df6e3334b4">4</pad>
+ <pad uuid="78531d61-e28d-4245-807f-e8b21d9026d9">2</pad>
+ <pad uuid="b171a8bf-4da5-4ae0-aa1b-cd79d24942bc">1</pad>
+ <pad uuid="b59de88e-01d8-4390-93b5-548617d7385b">3</pad>
+ <footprint uuid="29c02918-bd6c-459c-a843-7a8db7864ef9">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <pad height="1.600000" rotation="270.000000" side="top" technology="smt" uuid="3400da54-a7d7-4f25-95b8-b4df6e3334b4" width="1.500000" x="-2.550000" y="1.900000"/>
+  <pad height="1.600000" rotation="90.000000" side="top" technology="smt" uuid="78531d61-e28d-4245-807f-e8b21d9026d9" width="1.500000" x="2.550000" y="-1.900000"/>
+  <pad height="1.600000" rotation="90.000000" side="top" technology="smt" uuid="b171a8bf-4da5-4ae0-aa1b-cd79d24942bc" width="1.500000" x="-2.550000" y="-1.900000"/>
+  <pad height="1.600000" rotation="270.000000" side="top" technology="smt" uuid="b59de88e-01d8-4390-93b5-548617d7385b" width="1.500000" x="2.550000" y="1.900000"/>
+  <polygon fill="false" grab_area="true" layer="260" start_x="-1.368000" start_y="-2.400000" width="0.203200">
+   <segment angle="0.000000" end_x="1.368000" end_y="-2.400000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="-3.400000" start_y="0.876000" width="0.203200">
+   <segment angle="0.000000" end_x="-3.400000" end_y="-0.876000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="1.368000" start_y="2.400000" width="0.203200">
+   <segment angle="0.000000" end_x="-1.368000" end_y="2.400000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="3.400000" start_y="-0.876000" width="0.203200">
+   <segment angle="0.000000" end_x="3.400000" end_y="0.876000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="200" start_x="-3.400000" start_y="2.400000" width="0.203200">
+   <segment angle="0.000000" end_x="-3.400000" end_y="-2.400000"/>
+   <segment angle="0.000000" end_x="3.400000" end_y="-2.400000"/>
+   <segment angle="0.000000" end_x="3.400000" end_y="2.400000"/>
+   <segment angle="0.000000" end_x="-3.400000" end_y="2.400000"/>
+  </polygon>
+  <ellipse fill="true" grab_area="true" layer="260" radius_x="0.254000" radius_y="0.254000" rotation="0.000000" width="0.000000" x="-2.794000" y="-0.762000"/>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="90.000000" x="-3.810000" y="-2.540000">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="0.000000" x="-2.286000" y="-0.508000">${CMP::VALUE}</text>
+ </footprint>
 </package>

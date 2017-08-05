@@ -1,43 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>825d9a9b-5e77-423b-beb6-3792480842b7</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:11:00Z</created>
-  <last_modified>2015-12-20T22:11:00Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">SMR-0</name>
-  <description locale="en_US">
+ <uuid>825d9a9b-5e77-423b-beb6-3792480842b7</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:11:00Z</created>
+ <last_modified>2015-12-20T22:11:00Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">SMR-0</name>
+ <description locale="">
 
 This element was automatically imported from Eagle
 Filepath: isabellen.lbr
 Name: SMR-0
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">R</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0b37645b-4384-4bcf-be3d-034a95285076">1</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="379901ba-0ef9-409b-9307-bde0c6cbd89e">2</signal>
- </signals>
- <symbol_variants default="1003ef1f-0f80-4604-a4ad-5e48be58a79d">
-  <variant norm="" uuid="1003ef1f-0f80-4604-a4ad-5e48be58a79d">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="" symbol="3d077a0c-9523-46fb-9afc-cd44d1f197ab" uuid="d08d983a-3c46-4acc-9910-c233d70e4774">
-     <pin_signal_map>
-      <map display="component_signal" pin="1779c9ef-c47c-46f8-a983-464bad8d18d4">0b37645b-4384-4bcf-be3d-034a95285076</map>
-      <map display="component_signal" pin="3dd63044-7022-44c6-95cb-3f4205c67f1c">379901ba-0ef9-409b-9307-bde0c6cbd89e</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">R</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0b37645b-4384-4bcf-be3d-034a95285076">1</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="379901ba-0ef9-409b-9307-bde0c6cbd89e">2</signal>
+ <symbol_variant norm="" uuid="1003ef1f-0f80-4604-a4ad-5e48be58a79d">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="" symbol="3d077a0c-9523-46fb-9afc-cd44d1f197ab" uuid="d08d983a-3c46-4acc-9910-c233d70e4774">
+   <pin_signal_map display="component_signal" pin="1779c9ef-c47c-46f8-a983-464bad8d18d4">0b37645b-4384-4bcf-be3d-034a95285076</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="3dd63044-7022-44c6-95cb-3f4205c67f1c">379901ba-0ef9-409b-9307-bde0c6cbd89e</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

@@ -1,42 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
- <meta>
-  <uuid>94d9d573-adc3-4efe-9bac-12cf91b60763</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:49Z</created>
-  <last_modified>2015-12-20T22:10:49Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">WSC6927</name>
-  <description locale="en_US">&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
+ <uuid>94d9d573-adc3-4efe-9bac-12cf91b60763</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:49Z</created>
+ <last_modified>2015-12-20T22:10:49Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">WSC6927</name>
+ <description locale="">&lt;b&gt;Wirewound Resistors, Precision Power&lt;/b&gt;&lt;p&gt;
 Source: VISHAY wscwsn.pdf
 
 This element was automatically imported from Eagle
 Filepath: rcl.lbr
 Name: WSC6927
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <pads>
-  <pad uuid="496c5f4a-ef39-4bc8-bfee-847f86e688d1">2</pad>
-  <pad uuid="5878ed56-0ebc-4ff7-8501-0208f261babe">1</pad>
- </pads>
- <footprints default="60efc22e-1875-4e13-bc5f-17462781ae1e">
-  <footprint uuid="60efc22e-1875-4e13-bc5f-17462781ae1e">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <geometry>
-    <polygon fill="false" grab_area="true" layer="260" start_x="8.650000" start_y="3.375000" width="0.203200">
-     <segment angle="0.000000" end_x="8.650000" end_y="-3.375000"/>
-     <segment angle="0.000000" end_x="-8.650000" end_y="-3.375000"/>
-     <segment angle="0.000000" end_x="-8.650000" end_y="3.375000"/>
-     <segment angle="0.000000" end_x="8.650000" end_y="3.375000"/>
-    </polygon>
-    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="-8.750000" y="3.900000">${CMP::NAME}</text>
-    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="-8.750000" y="-5.150000">${CMP::VALUE}</text>
-    <pad height="5.970000" rotation="0.000000" side="top" technology="smt" uuid="496c5f4a-ef39-4bc8-bfee-847f86e688d1" width="3.940000" x="7.950000" y="0.000000"/>
-    <pad height="5.970000" rotation="0.000000" side="top" technology="smt" uuid="5878ed56-0ebc-4ff7-8501-0208f261babe" width="3.940000" x="-7.950000" y="0.025000"/>
-   </geometry>
-  </footprint>
- </footprints>
+ <keywords locale=""></keywords>
+ <pad uuid="496c5f4a-ef39-4bc8-bfee-847f86e688d1">2</pad>
+ <pad uuid="5878ed56-0ebc-4ff7-8501-0208f261babe">1</pad>
+ <footprint uuid="60efc22e-1875-4e13-bc5f-17462781ae1e">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <pad height="5.970000" rotation="0.000000" side="top" technology="smt" uuid="496c5f4a-ef39-4bc8-bfee-847f86e688d1" width="3.940000" x="7.950000" y="0.000000"/>
+  <pad height="5.970000" rotation="0.000000" side="top" technology="smt" uuid="5878ed56-0ebc-4ff7-8501-0208f261babe" width="3.940000" x="-7.950000" y="0.025000"/>
+  <polygon fill="false" grab_area="true" layer="260" start_x="8.650000" start_y="3.375000" width="0.203200">
+   <segment angle="0.000000" end_x="8.650000" end_y="-3.375000"/>
+   <segment angle="0.000000" end_x="-8.650000" end_y="-3.375000"/>
+   <segment angle="0.000000" end_x="-8.650000" end_y="3.375000"/>
+   <segment angle="0.000000" end_x="8.650000" end_y="3.375000"/>
+  </polygon>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="0.000000" x="-8.750000" y="3.900000">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="0.000000" x="-8.750000" y="-5.150000">${CMP::VALUE}</text>
+ </footprint>
 </package>

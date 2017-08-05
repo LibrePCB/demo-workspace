@@ -1,52 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>cdea715e-20f8-4106-b474-796f6c9ccd5b</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:11:01Z</created>
-  <last_modified>2015-12-20T22:11:01Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">ML-E</name>
-  <description locale="en_US">&lt;b&gt;Cree® XLamp® ML-E LEDs&lt;/b&gt; 1/2 watt, 3.5 x 3.5 mm&lt;p&gt;
+ <uuid>cdea715e-20f8-4106-b474-796f6c9ccd5b</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:11:01Z</created>
+ <last_modified>2015-12-20T22:11:01Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">ML-E</name>
+ <description locale="">&lt;b&gt;Cree® XLamp® ML-E LEDs&lt;/b&gt; 1/2 watt, 3.5 x 3.5 mm&lt;p&gt;
 Source: &lt;a href=&quot;http://www.cree.com/products/pdf/XLampML-E.pdf&quot;&gt; Data sheet &lt;/a&gt;
 
 This element was automatically imported from Eagle
 Filepath: led.lbr
 Name: ML-E
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">LED</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="704d3738-8425-4836-b1c5-0239937aa8ed">A</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="eab25fb6-353a-40c7-861e-9da625ff9218">C</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f0ca98b0-8596-43ab-a310-898a79fc479d">TH</signal>
- </signals>
- <symbol_variants default="1dca5115-c361-4bcc-80eb-3cc4d9f797cd">
-  <variant norm="" uuid="1dca5115-c361-4bcc-80eb-3cc4d9f797cd">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="" symbol="6cebe46f-52ed-4ff4-ba53-cdb2d66912a1" uuid="22d708d7-8c23-4fb1-9d48-63df2f2f263c">
-     <pin_signal_map>
-      <map display="component_signal" pin="301fe6b0-3ccd-4c62-a77c-51a755280931">eab25fb6-353a-40c7-861e-9da625ff9218</map>
-      <map display="component_signal" pin="974467d8-0e3d-4a8e-bccb-574ef922777c">eab25fb6-353a-40c7-861e-9da625ff9218</map>
-      <map display="component_signal" pin="9a21fe79-e746-47ae-913f-7d774047f744">704d3738-8425-4836-b1c5-0239937aa8ed</map>
-      <map display="component_signal" pin="f398942b-cd58-48ce-81c4-4d4a7476f4a3">704d3738-8425-4836-b1c5-0239937aa8ed</map>
-     </pin_signal_map>
-    </item>
-    <item required="true" suffix="TH" symbol="a49024b3-de81-419e-a4cf-1841b255e637" uuid="1335847c-9da7-4a0e-98fe-6dcd4855a2e3">
-     <pin_signal_map>
-      <map display="component_signal" pin="d6cd1e3e-8404-47b3-b588-361810590a72">f0ca98b0-8596-43ab-a310-898a79fc479d</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">LED</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="704d3738-8425-4836-b1c5-0239937aa8ed">A</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="eab25fb6-353a-40c7-861e-9da625ff9218">C</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="f0ca98b0-8596-43ab-a310-898a79fc479d">TH</signal>
+ <symbol_variant norm="" uuid="1dca5115-c361-4bcc-80eb-3cc4d9f797cd">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="" symbol="6cebe46f-52ed-4ff4-ba53-cdb2d66912a1" uuid="22d708d7-8c23-4fb1-9d48-63df2f2f263c">
+   <pin_signal_map display="component_signal" pin="301fe6b0-3ccd-4c62-a77c-51a755280931">eab25fb6-353a-40c7-861e-9da625ff9218</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="974467d8-0e3d-4a8e-bccb-574ef922777c">eab25fb6-353a-40c7-861e-9da625ff9218</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="9a21fe79-e746-47ae-913f-7d774047f744">704d3738-8425-4836-b1c5-0239937aa8ed</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="f398942b-cd58-48ce-81c4-4d4a7476f4a3">704d3738-8425-4836-b1c5-0239937aa8ed</pin_signal_map>
+  </symbol_item>
+  <symbol_item required="true" suffix="TH" symbol="a49024b3-de81-419e-a4cf-1841b255e637" uuid="1335847c-9da7-4a0e-98fe-6dcd4855a2e3">
+   <pin_signal_map display="component_signal" pin="d6cd1e3e-8404-47b3-b588-361810590a72">f0ca98b0-8596-43ab-a310-898a79fc479d</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

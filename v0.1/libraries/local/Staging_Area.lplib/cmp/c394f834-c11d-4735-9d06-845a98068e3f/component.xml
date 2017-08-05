@@ -1,46 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>c394f834-c11d-4735-9d06-845a98068e3f</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:59Z</created>
-  <last_modified>2015-12-20T22:10:59Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">BR220</name>
-  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+ <uuid>c394f834-c11d-4735-9d06-845a98068e3f</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:59Z</created>
+ <last_modified>2015-12-20T22:10:59Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">BR220</name>
+ <description locale="">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 double diode
 
 This element was automatically imported from Eagle
 Filepath: diode.lbr
 Name: BR220
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">D</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0c0e3e53-2d4b-4e4d-909e-c362f6959076">T1</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="7d6e7aa6-7f10-4117-975a-2d7118c208b2">T2</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="489091e2-2c81-4c65-becb-5818c7fc1fff">T3</signal>
- </signals>
- <symbol_variants default="e3bb459f-2b73-4b87-9fd3-6186923a3ebe">
-  <variant norm="" uuid="e3bb459f-2b73-4b87-9fd3-6186923a3ebe">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="1" symbol="3cf0cac9-a1c6-4995-8eee-04e41e518029" uuid="33a4d2f2-29ee-4ff0-b66d-ee2c6914744f">
-     <pin_signal_map>
-      <map display="component_signal" pin="24ac5697-3a34-4696-8479-9cc3b2c04abd">489091e2-2c81-4c65-becb-5818c7fc1fff</map>
-      <map display="component_signal" pin="711d0ef8-a72a-4542-a474-baa0074e25e1">7d6e7aa6-7f10-4117-975a-2d7118c208b2</map>
-      <map display="component_signal" pin="ea1a9645-2a7e-4bad-854b-0b52ff507810">0c0e3e53-2d4b-4e4d-909e-c362f6959076</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">D</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0c0e3e53-2d4b-4e4d-909e-c362f6959076">T1</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="7d6e7aa6-7f10-4117-975a-2d7118c208b2">T2</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="489091e2-2c81-4c65-becb-5818c7fc1fff">T3</signal>
+ <symbol_variant norm="" uuid="e3bb459f-2b73-4b87-9fd3-6186923a3ebe">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="1" symbol="3cf0cac9-a1c6-4995-8eee-04e41e518029" uuid="33a4d2f2-29ee-4ff0-b66d-ee2c6914744f">
+   <pin_signal_map display="component_signal" pin="24ac5697-3a34-4696-8479-9cc3b2c04abd">489091e2-2c81-4c65-becb-5818c7fc1fff</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="711d0ef8-a72a-4542-a474-baa0074e25e1">7d6e7aa6-7f10-4117-975a-2d7118c208b2</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="ea1a9645-2a7e-4bad-854b-0b52ff507810">0c0e3e53-2d4b-4e4d-909e-c362f6959076</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

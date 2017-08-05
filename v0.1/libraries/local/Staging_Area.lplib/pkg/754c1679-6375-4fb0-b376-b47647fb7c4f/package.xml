@@ -1,42 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
- <meta>
-  <uuid>754c1679-6375-4fb0-b376-b47647fb7c4f</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:48Z</created>
-  <last_modified>2015-12-20T22:10:48Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">TJ5-U1</name>
-  <description locale="en_US">&lt;b&gt;Inductor&lt;/b&gt;&lt;p&gt;
+ <uuid>754c1679-6375-4fb0-b376-b47647fb7c4f</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:48Z</created>
+ <last_modified>2015-12-20T22:10:48Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">TJ5-U1</name>
+ <description locale="">&lt;b&gt;Inductor&lt;/b&gt;&lt;p&gt;
 Source: TJ-Serie Vishay.pdf
 
 This element was automatically imported from Eagle
 Filepath: rcl.lbr
 Name: TJ5-U1
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <pads>
-  <pad uuid="20013a3f-4a84-4bf6-8a63-def88ab2555f">1</pad>
-  <pad uuid="5f992822-a93e-46e4-b74f-397a8dbc8933">2</pad>
- </pads>
- <footprints default="092f625c-6e7c-4b7d-af04-881058b88a24">
-  <footprint uuid="092f625c-6e7c-4b7d-af04-881058b88a24">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <geometry>
-    <polygon fill="false" grab_area="true" layer="260" start_x="-5.550000" start_y="12.550000" width="0.203200">
-     <segment angle="0.000000" end_x="-5.550000" end_y="-12.550000"/>
-     <segment angle="0.000000" end_x="5.550000" end_y="-12.550000"/>
-     <segment angle="0.000000" end_x="5.550000" end_y="12.550000"/>
-     <segment angle="0.000000" end_x="-5.550000" end_y="12.550000"/>
-    </polygon>
-    <text h_align="left" height="2.500000" layer="240" rotation="90.000000" v_align="bottom" x="-0.635000" y="-5.080000">${CMP::NAME}</text>
-    <text h_align="left" height="2.000000" layer="250" rotation="90.000000" v_align="bottom" x="1.905000" y="-5.080000">${CMP::VALUE}</text>
-    <pad drill="0.900000" height="1.800000" rotation="0.000000" shape="round" technology="tht" uuid="20013a3f-4a84-4bf6-8a63-def88ab2555f" width="1.800000" x="-4.700000" y="0.000000"/>
-    <pad drill="0.900000" height="1.800000" rotation="0.000000" shape="round" technology="tht" uuid="5f992822-a93e-46e4-b74f-397a8dbc8933" width="1.800000" x="4.700000" y="0.000000"/>
-   </geometry>
-  </footprint>
- </footprints>
+ <keywords locale=""></keywords>
+ <pad uuid="20013a3f-4a84-4bf6-8a63-def88ab2555f">1</pad>
+ <pad uuid="5f992822-a93e-46e4-b74f-397a8dbc8933">2</pad>
+ <footprint uuid="092f625c-6e7c-4b7d-af04-881058b88a24">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <pad drill="0.900000" height="1.800000" rotation="0.000000" shape="round" technology="tht" uuid="20013a3f-4a84-4bf6-8a63-def88ab2555f" width="1.800000" x="-4.700000" y="0.000000"/>
+  <pad drill="0.900000" height="1.800000" rotation="0.000000" shape="round" technology="tht" uuid="5f992822-a93e-46e4-b74f-397a8dbc8933" width="1.800000" x="4.700000" y="0.000000"/>
+  <polygon fill="false" grab_area="true" layer="260" start_x="-5.550000" start_y="12.550000" width="0.203200">
+   <segment angle="0.000000" end_x="-5.550000" end_y="-12.550000"/>
+   <segment angle="0.000000" end_x="5.550000" end_y="-12.550000"/>
+   <segment angle="0.000000" end_x="5.550000" end_y="12.550000"/>
+   <segment angle="0.000000" end_x="-5.550000" end_y="12.550000"/>
+  </polygon>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="90.000000" x="-0.635000" y="-5.080000">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="90.000000" x="1.905000" y="-5.080000">${CMP::VALUE}</text>
+ </footprint>
 </package>

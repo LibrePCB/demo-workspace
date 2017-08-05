@@ -1,60 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
- <meta>
-  <uuid>07eeb8fb-a6bf-4e60-8e09-2b23546221e6</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:48Z</created>
-  <last_modified>2015-12-20T22:10:48Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">C/6032-28W</name>
-  <description locale="en_US">&lt;b&gt;Chip Capacitor Type KEMET C / EIA 6032-28 Wafe solder&lt;/b&gt;&lt;p&gt;
+ <uuid>07eeb8fb-a6bf-4e60-8e09-2b23546221e6</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:48Z</created>
+ <last_modified>2015-12-20T22:10:48Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">C/6032-28W</name>
+ <description locale="">&lt;b&gt;Chip Capacitor Type KEMET C / EIA 6032-28 Wafe solder&lt;/b&gt;&lt;p&gt;
 KEMET U / EIA 6032-15
 
 This element was automatically imported from Eagle
 Filepath: rcl.lbr
 Name: C/6032-28W
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <pads>
-  <pad uuid="6046a035-f655-422b-92dd-8902cb52a9b0">+</pad>
-  <pad uuid="deb63bdf-798c-4781-95f2-4b3b62c1495d">-</pad>
- </pads>
- <footprints default="5a502576-1f63-494d-98ea-3a7b3ae671f4">
-  <footprint uuid="5a502576-1f63-494d-98ea-3a7b3ae671f4">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <geometry>
-    <polygon fill="true" grab_area="true" layer="200" start_x="-3.000000" start_y="-1.100000" width="0.000000">
-     <segment angle="0.000000" end_x="-2.850000" end_y="-1.100000"/>
-     <segment angle="0.000000" end_x="-2.850000" end_y="1.100000"/>
-     <segment angle="0.000000" end_x="-3.000000" end_y="1.100000"/>
-     <segment angle="0.000000" end_x="-3.000000" end_y="-1.100000"/>
-    </polygon>
-    <polygon fill="true" grab_area="true" layer="200" start_x="2.850000" start_y="-1.100000" width="0.000000">
-     <segment angle="0.000000" end_x="3.000000" end_y="-1.100000"/>
-     <segment angle="0.000000" end_x="3.000000" end_y="1.100000"/>
-     <segment angle="0.000000" end_x="2.850000" end_y="1.100000"/>
-     <segment angle="0.000000" end_x="2.850000" end_y="-1.100000"/>
-    </polygon>
-    <polygon fill="true" grab_area="true" layer="200" start_x="1.950000" start_y="-1.575000" width="0.000000">
-     <segment angle="0.000000" end_x="2.450000" end_y="-1.575000"/>
-     <segment angle="0.000000" end_x="2.450000" end_y="1.575000"/>
-     <segment angle="0.000000" end_x="1.950000" end_y="1.575000"/>
-     <segment angle="0.000000" end_x="1.950000" end_y="-1.575000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="200" start_x="-2.800000" start_y="-1.550000" width="0.101600">
-     <segment angle="0.000000" end_x="-2.800000" end_y="1.550000"/>
-     <segment angle="0.000000" end_x="2.800000" end_y="1.550000"/>
-     <segment angle="0.000000" end_x="2.800000" end_y="-1.550000"/>
-     <segment angle="0.000000" end_x="-2.800000" end_y="-1.550000"/>
-    </polygon>
-    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="-3.000000" y="1.825000">${CMP::NAME}</text>
-    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="-3.000000" y="-3.050000">${CMP::VALUE}</text>
-    <pad height="1.800000" rotation="0.000000" side="top" technology="smt" uuid="6046a035-f655-422b-92dd-8902cb52a9b0" width="2.750000" x="2.625000" y="0.000000"/>
-    <pad height="1.800000" rotation="0.000000" side="top" technology="smt" uuid="deb63bdf-798c-4781-95f2-4b3b62c1495d" width="2.750000" x="-2.625000" y="0.000000"/>
-   </geometry>
-  </footprint>
- </footprints>
+ <keywords locale=""></keywords>
+ <pad uuid="6046a035-f655-422b-92dd-8902cb52a9b0">+</pad>
+ <pad uuid="deb63bdf-798c-4781-95f2-4b3b62c1495d">-</pad>
+ <footprint uuid="5a502576-1f63-494d-98ea-3a7b3ae671f4">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <pad height="1.800000" rotation="0.000000" side="top" technology="smt" uuid="6046a035-f655-422b-92dd-8902cb52a9b0" width="2.750000" x="2.625000" y="0.000000"/>
+  <pad height="1.800000" rotation="0.000000" side="top" technology="smt" uuid="deb63bdf-798c-4781-95f2-4b3b62c1495d" width="2.750000" x="-2.625000" y="0.000000"/>
+  <polygon fill="true" grab_area="true" layer="200" start_x="-3.000000" start_y="-1.100000" width="0.000000">
+   <segment angle="0.000000" end_x="-2.850000" end_y="-1.100000"/>
+   <segment angle="0.000000" end_x="-2.850000" end_y="1.100000"/>
+   <segment angle="0.000000" end_x="-3.000000" end_y="1.100000"/>
+   <segment angle="0.000000" end_x="-3.000000" end_y="-1.100000"/>
+  </polygon>
+  <polygon fill="true" grab_area="true" layer="200" start_x="2.850000" start_y="-1.100000" width="0.000000">
+   <segment angle="0.000000" end_x="3.000000" end_y="-1.100000"/>
+   <segment angle="0.000000" end_x="3.000000" end_y="1.100000"/>
+   <segment angle="0.000000" end_x="2.850000" end_y="1.100000"/>
+   <segment angle="0.000000" end_x="2.850000" end_y="-1.100000"/>
+  </polygon>
+  <polygon fill="true" grab_area="true" layer="200" start_x="1.950000" start_y="-1.575000" width="0.000000">
+   <segment angle="0.000000" end_x="2.450000" end_y="-1.575000"/>
+   <segment angle="0.000000" end_x="2.450000" end_y="1.575000"/>
+   <segment angle="0.000000" end_x="1.950000" end_y="1.575000"/>
+   <segment angle="0.000000" end_x="1.950000" end_y="-1.575000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="200" start_x="-2.800000" start_y="-1.550000" width="0.101600">
+   <segment angle="0.000000" end_x="-2.800000" end_y="1.550000"/>
+   <segment angle="0.000000" end_x="2.800000" end_y="1.550000"/>
+   <segment angle="0.000000" end_x="2.800000" end_y="-1.550000"/>
+   <segment angle="0.000000" end_x="-2.800000" end_y="-1.550000"/>
+  </polygon>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="0.000000" x="-3.000000" y="1.825000">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="0.000000" x="-3.000000" y="-3.050000">${CMP::VALUE}</text>
+ </footprint>
 </package>

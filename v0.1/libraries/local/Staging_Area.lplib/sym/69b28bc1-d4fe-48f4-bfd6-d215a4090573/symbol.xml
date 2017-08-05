@@ -1,38 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <symbol>
- <meta>
-  <uuid>69b28bc1-d4fe-48f4-bfd6-d215a4090573</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:33Z</created>
-  <last_modified>2015-12-20T22:10:33Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">TLE4242</name>
-  <description locale="en_US">
+ <uuid>69b28bc1-d4fe-48f4-bfd6-d215a4090573</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:33Z</created>
+ <last_modified>2015-12-20T22:10:33Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">TLE4242</name>
+ <description locale="">
 
 This element was automatically imported from Eagle
 Filepath: led.lbr
 Name: TLE4242
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <pins>
-  <pin length="2.540000" rotation="0.000000" uuid="6266f161-b958-4954-a638-c9d3638413b7" x="-10.160000" y="7.620000">IN</pin>
-  <pin length="2.540000" rotation="0.000000" uuid="bd235a9d-11e3-422c-88a9-322e7513297a" x="-10.160000" y="-2.540000">D</pin>
-  <pin length="2.540000" rotation="180.000000" uuid="cc58fc9b-9eb3-4b22-84f9-c73f26d2234c" x="10.160000" y="-7.620000">ST</pin>
-  <pin length="2.540000" rotation="180.000000" uuid="cccd263c-c124-459c-9c32-96dde7d2470e" x="10.160000" y="0.000000">REF</pin>
-  <pin length="2.540000" rotation="180.000000" uuid="e197d31c-2cf8-4a02-8747-1cdaec5e1e79" x="10.160000" y="7.620000">Q</pin>
-  <pin length="2.540000" rotation="0.000000" uuid="f5c1c09a-08f6-400b-b585-c9389ee2f94c" x="-10.160000" y="-7.620000">GND</pin>
-  <pin length="2.540000" rotation="0.000000" uuid="fae58459-cfa5-4f9e-99dd-a1b17e8c6bab" x="-10.160000" y="2.540000">PWM</pin>
- </pins>
- <geometry>
-  <polygon fill="false" grab_area="true" layer="10" start_x="7.620000" start_y="10.160000" width="0.254000">
-   <segment angle="0.000000" end_x="7.620000" end_y="-10.160000"/>
-   <segment angle="0.000000" end_x="-7.620000" end_y="-10.160000"/>
-   <segment angle="0.000000" end_x="-7.620000" end_y="10.160000"/>
-   <segment angle="0.000000" end_x="7.620000" end_y="10.160000"/>
-  </polygon>
-  <text h_align="left" height="3.175000" layer="20" rotation="0.000000" v_align="bottom" x="-7.620000" y="11.430000">${SYM::NAME}</text>
-  <text h_align="left" height="2.500000" layer="21" rotation="0.000000" v_align="bottom" x="-7.620000" y="-12.700000">${CMP::VALUE}</text>
- </geometry>
+ <keywords locale=""></keywords>
+ <pin length="2.540000" rotation="0.000000" uuid="6266f161-b958-4954-a638-c9d3638413b7" x="-10.160000" y="7.620000">IN</pin>
+ <pin length="2.540000" rotation="0.000000" uuid="bd235a9d-11e3-422c-88a9-322e7513297a" x="-10.160000" y="-2.540000">D</pin>
+ <pin length="2.540000" rotation="180.000000" uuid="cc58fc9b-9eb3-4b22-84f9-c73f26d2234c" x="10.160000" y="-7.620000">ST</pin>
+ <pin length="2.540000" rotation="180.000000" uuid="cccd263c-c124-459c-9c32-96dde7d2470e" x="10.160000" y="0.000000">REF</pin>
+ <pin length="2.540000" rotation="180.000000" uuid="e197d31c-2cf8-4a02-8747-1cdaec5e1e79" x="10.160000" y="7.620000">Q</pin>
+ <pin length="2.540000" rotation="0.000000" uuid="f5c1c09a-08f6-400b-b585-c9389ee2f94c" x="-10.160000" y="-7.620000">GND</pin>
+ <pin length="2.540000" rotation="0.000000" uuid="fae58459-cfa5-4f9e-99dd-a1b17e8c6bab" x="-10.160000" y="2.540000">PWM</pin>
+ <polygon fill="false" grab_area="true" layer="10" start_x="7.620000" start_y="10.160000" width="0.254000">
+  <segment angle="0.000000" end_x="7.620000" end_y="-10.160000"/>
+  <segment angle="0.000000" end_x="-7.620000" end_y="-10.160000"/>
+  <segment angle="0.000000" end_x="-7.620000" end_y="10.160000"/>
+  <segment angle="0.000000" end_x="7.620000" end_y="10.160000"/>
+ </polygon>
+ <text align_h="left" align_v="bottom" height="3.175000" layer="20" rotation="0.000000" x="-7.620000" y="11.430000">${SYM::NAME}</text>
+ <text align_h="left" align_v="bottom" height="2.500000" layer="21" rotation="0.000000" x="-7.620000" y="-12.700000">${CMP::VALUE}</text>
 </symbol>

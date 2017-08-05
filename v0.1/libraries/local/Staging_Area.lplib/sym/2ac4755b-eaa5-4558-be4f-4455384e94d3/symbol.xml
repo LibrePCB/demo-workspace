@@ -1,40 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <symbol>
- <meta>
-  <uuid>2ac4755b-eaa5-4558-be4f-4455384e94d3</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:33Z</created>
-  <last_modified>2015-12-20T22:10:33Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">ELKO</name>
-  <description locale="en_US">
+ <uuid>2ac4755b-eaa5-4558-be4f-4455384e94d3</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:33Z</created>
+ <last_modified>2015-12-20T22:10:33Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">ELKO</name>
+ <description locale="">
 
 This element was automatically imported from Eagle
 Filepath: 0_Standardbauteile.lbr
 Name: ELKO
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <pins>
-  <pin length="2.540000" rotation="270.000000" uuid="07a519e1-81a4-4dec-95de-e9c1e1a0e144" x="0.000000" y="2.540000">+</pin>
-  <pin length="2.540000" rotation="90.000000" uuid="1c221bf3-afdb-49db-9f27-2ee55c1a5953" x="0.000000" y="-5.080000">-</pin>
- </pins>
- <geometry>
-  <polygon fill="true" grab_area="true" layer="10" start_x="-1.651000" start_y="-2.540000" width="0.000000">
-   <segment angle="0.000000" end_x="1.651000" end_y="-2.540000"/>
-   <segment angle="0.000000" end_x="1.651000" end_y="-1.651000"/>
-   <segment angle="0.000000" end_x="-1.651000" end_y="-1.651000"/>
-   <segment angle="0.000000" end_x="-1.651000" end_y="-2.540000"/>
-  </polygon>
-  <polygon fill="false" grab_area="true" layer="10" start_x="-1.524000" start_y="-0.889000" width="0.254000">
-   <segment angle="0.000000" end_x="-1.524000" end_y="0.000000"/>
-   <segment angle="0.000000" end_x="1.524000" end_y="0.000000"/>
-   <segment angle="0.000000" end_x="1.524000" end_y="-0.889000"/>
-   <segment angle="0.000000" end_x="-1.524000" end_y="-0.889000"/>
-  </polygon>
-  <text h_align="left" height="3.175000" layer="20" rotation="0.000000" v_align="bottom" x="1.143000" y="0.482600">${SYM::NAME}</text>
-  <text h_align="left" height="2.540000" layer="10" rotation="90.000000" v_align="bottom" x="-0.584200" y="0.406400">+</text>
-  <text h_align="left" height="2.500000" layer="21" rotation="0.000000" v_align="bottom" x="1.143000" y="-4.597400">${CMP::VALUE}</text>
- </geometry>
+ <keywords locale=""></keywords>
+ <pin length="2.540000" rotation="270.000000" uuid="07a519e1-81a4-4dec-95de-e9c1e1a0e144" x="0.000000" y="2.540000">+</pin>
+ <pin length="2.540000" rotation="90.000000" uuid="1c221bf3-afdb-49db-9f27-2ee55c1a5953" x="0.000000" y="-5.080000">-</pin>
+ <polygon fill="true" grab_area="true" layer="10" start_x="-1.651000" start_y="-2.540000" width="0.000000">
+  <segment angle="0.000000" end_x="1.651000" end_y="-2.540000"/>
+  <segment angle="0.000000" end_x="1.651000" end_y="-1.651000"/>
+  <segment angle="0.000000" end_x="-1.651000" end_y="-1.651000"/>
+  <segment angle="0.000000" end_x="-1.651000" end_y="-2.540000"/>
+ </polygon>
+ <polygon fill="false" grab_area="true" layer="10" start_x="-1.524000" start_y="-0.889000" width="0.254000">
+  <segment angle="0.000000" end_x="-1.524000" end_y="0.000000"/>
+  <segment angle="0.000000" end_x="1.524000" end_y="0.000000"/>
+  <segment angle="0.000000" end_x="1.524000" end_y="-0.889000"/>
+  <segment angle="0.000000" end_x="-1.524000" end_y="-0.889000"/>
+ </polygon>
+ <text align_h="left" align_v="bottom" height="3.175000" layer="20" rotation="0.000000" x="1.143000" y="0.482600">${SYM::NAME}</text>
+ <text align_h="left" align_v="bottom" height="2.540000" layer="10" rotation="90.000000" x="-0.584200" y="0.406400">+</text>
+ <text align_h="left" align_v="bottom" height="2.500000" layer="21" rotation="0.000000" x="1.143000" y="-4.597400">${CMP::VALUE}</text>
 </symbol>

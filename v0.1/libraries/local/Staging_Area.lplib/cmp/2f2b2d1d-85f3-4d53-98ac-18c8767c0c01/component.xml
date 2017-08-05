@@ -1,44 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>2f2b2d1d-85f3-4d53-98ac-18c8767c0c01</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:59Z</created>
-  <last_modified>2015-12-20T22:10:59Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">P4KEXX</name>
-  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+ <uuid>2f2b2d1d-85f3-4d53-98ac-18c8767c0c01</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:59Z</created>
+ <last_modified>2015-12-20T22:10:59Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">P4KEXX</name>
+ <description locale="">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 transient-voltage suppressor
 
 This element was automatically imported from Eagle
 Filepath: diode.lbr
 Name: P4KEXX
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">D</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="b0b13962-ec53-40fe-b533-5610a109f2d6">A</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="29e3ea9b-7dc1-45f9-a920-8c88efa94b23">C</signal>
- </signals>
- <symbol_variants default="eb851b7d-7a15-4b87-a3bf-dc4c29e00a9d">
-  <variant norm="" uuid="eb851b7d-7a15-4b87-a3bf-dc4c29e00a9d">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="1" symbol="b4019e5f-dead-4f11-9040-41fa27f7f4bd" uuid="95c45a8f-a781-447a-81f3-b979fa9409f6">
-     <pin_signal_map>
-      <map display="component_signal" pin="0c83d4fb-d2f9-4199-b82e-f65cdb357d55">b0b13962-ec53-40fe-b533-5610a109f2d6</map>
-      <map display="component_signal" pin="d1121c89-3dea-4883-9bd1-3cba1d5b038d">29e3ea9b-7dc1-45f9-a920-8c88efa94b23</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">D</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="b0b13962-ec53-40fe-b533-5610a109f2d6">A</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="29e3ea9b-7dc1-45f9-a920-8c88efa94b23">C</signal>
+ <symbol_variant norm="" uuid="eb851b7d-7a15-4b87-a3bf-dc4c29e00a9d">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="1" symbol="b4019e5f-dead-4f11-9040-41fa27f7f4bd" uuid="95c45a8f-a781-447a-81f3-b979fa9409f6">
+   <pin_signal_map display="component_signal" pin="0c83d4fb-d2f9-4199-b82e-f65cdb357d55">b0b13962-ec53-40fe-b533-5610a109f2d6</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="d1121c89-3dea-4883-9bd1-3cba1d5b038d">29e3ea9b-7dc1-45f9-a920-8c88efa94b23</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

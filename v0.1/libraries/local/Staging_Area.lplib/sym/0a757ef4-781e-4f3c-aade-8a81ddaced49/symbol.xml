@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <symbol>
- <meta>
-  <uuid>0a757ef4-781e-4f3c-aade-8a81ddaced49</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:32Z</created>
-  <last_modified>2015-12-20T22:10:32Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">MV</name>
-  <description locale="en_US">
+ <uuid>0a757ef4-781e-4f3c-aade-8a81ddaced49</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:32Z</created>
+ <last_modified>2015-12-20T22:10:32Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">MV</name>
+ <description locale="">
 
 This element was automatically imported from Eagle
 Filepath: con-molex.lbr
 Name: MV
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <pins>
-  <pin length="2.540000" rotation="0.000000" uuid="45616a4f-3a27-43fe-b63f-11ee8266a5d9" x="-2.540000" y="0.000000">S</pin>
- </pins>
- <geometry>
-  <polygon fill="false" grab_area="true" layer="10" start_x="1.270000" start_y="0.000000" width="0.609600">
-   <segment angle="0.000000" end_x="0.000000" end_y="0.000000"/>
-  </polygon>
-  <text h_align="left" height="3.175000" layer="20" rotation="0.000000" v_align="bottom" x="2.540000" y="-0.762000">${SYM::NAME}</text>
-  <text h_align="left" height="2.500000" layer="21" rotation="0.000000" v_align="bottom" x="-0.762000" y="1.397000">${CMP::VALUE}</text>
- </geometry>
+ <keywords locale=""></keywords>
+ <pin length="2.540000" rotation="0.000000" uuid="45616a4f-3a27-43fe-b63f-11ee8266a5d9" x="-2.540000" y="0.000000">S</pin>
+ <polygon fill="false" grab_area="true" layer="10" start_x="1.270000" start_y="0.000000" width="0.609600">
+  <segment angle="0.000000" end_x="0.000000" end_y="0.000000"/>
+ </polygon>
+ <text align_h="left" align_v="bottom" height="3.175000" layer="20" rotation="0.000000" x="2.540000" y="-0.762000">${SYM::NAME}</text>
+ <text align_h="left" align_v="bottom" height="2.500000" layer="21" rotation="0.000000" x="-0.762000" y="1.397000">${CMP::VALUE}</text>
 </symbol>

@@ -1,44 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>df5714a4-087e-434c-9990-48f7f6be9197</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:59Z</created>
-  <last_modified>2015-12-20T22:10:59Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">BB112</name>
-  <description locale="en_US">Capacity &lt;b&gt;DIODE&lt;/b&gt;&lt;p&gt;
+ <uuid>df5714a4-087e-434c-9990-48f7f6be9197</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:59Z</created>
+ <last_modified>2015-12-20T22:10:59Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">BB112</name>
+ <description locale="">Capacity &lt;b&gt;DIODE&lt;/b&gt;&lt;p&gt;
 variable-capacitance diode
 
 This element was automatically imported from Eagle
 Filepath: diode.lbr
 Name: BB112
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">D</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="60d16253-3355-4a31-880a-6463cf2d170e">A</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8dfe4b7b-f9f1-492d-9783-b502196a6ff7">C</signal>
- </signals>
- <symbol_variants default="c92f74c4-bd49-46e9-bda3-232621a36e99">
-  <variant norm="" uuid="c92f74c4-bd49-46e9-bda3-232621a36e99">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="1" symbol="6597da4b-0d3a-4002-8239-996dd850ce8b" uuid="61932869-1a5f-46d0-a6db-8aca077a4b22">
-     <pin_signal_map>
-      <map display="component_signal" pin="75817588-f9d3-4a6b-b9da-fcb12d072d4a">60d16253-3355-4a31-880a-6463cf2d170e</map>
-      <map display="component_signal" pin="7b8901fb-4d1b-424a-ba1b-59ab9cf948be">8dfe4b7b-f9f1-492d-9783-b502196a6ff7</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">D</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="60d16253-3355-4a31-880a-6463cf2d170e">A</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8dfe4b7b-f9f1-492d-9783-b502196a6ff7">C</signal>
+ <symbol_variant norm="" uuid="c92f74c4-bd49-46e9-bda3-232621a36e99">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="1" symbol="6597da4b-0d3a-4002-8239-996dd850ce8b" uuid="61932869-1a5f-46d0-a6db-8aca077a4b22">
+   <pin_signal_map display="component_signal" pin="75817588-f9d3-4a6b-b9da-fcb12d072d4a">60d16253-3355-4a31-880a-6463cf2d170e</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="7b8901fb-4d1b-424a-ba1b-59ab9cf948be">8dfe4b7b-f9f1-492d-9783-b502196a6ff7</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

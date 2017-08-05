@@ -1,52 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>24b98885-5b39-4af6-b4a9-1f9719512e0b</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:11:00Z</created>
-  <last_modified>2015-12-20T22:11:00Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">S6695-01</name>
-  <description locale="en_US">&lt;b&gt;Si PIN Quadrant photodiode&lt;/b&gt;&lt;p&gt;
+ <uuid>24b98885-5b39-4af6-b4a9-1f9719512e0b</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:11:00Z</created>
+ <last_modified>2015-12-20T22:11:00Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">S6695-01</name>
+ <description locale="">&lt;b&gt;Si PIN Quadrant photodiode&lt;/b&gt;&lt;p&gt;
 Source: http://sales.hamamatsu.com/assets/pdf/parts_S/S7379-01_etc.pdf
 
 This element was automatically imported from Eagle
 Filepath: diode.lbr
 Name: S6695-01
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">D</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8dbd1fa6-c543-40fe-ae7f-62dae7977493">AA</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="076cd49e-4237-4897-88ec-4b20bcd79156">AB</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6e4d94a4-3d0a-48e8-92be-65e3c305c57d">AC</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e849fb14-79c1-4938-a789-9d36fff93f0f">AD</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="07482d84-a073-40f8-a601-1bdd27c439d9">C1</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c26b7c1a-627e-4be8-9fc8-2369b004939b">C2</signal>
- </signals>
- <symbol_variants default="8495ae91-867d-4ff7-a6a8-e17025296bd5">
-  <variant norm="" uuid="8495ae91-867d-4ff7-a6a8-e17025296bd5">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="" symbol="29c75321-a306-4770-947e-7d621f256da3" uuid="0d03a673-d8f4-4e0b-a1c5-13cb379a5618">
-     <pin_signal_map>
-      <map display="component_signal" pin="1002eb00-2319-41ea-819b-91acfafeabb9">076cd49e-4237-4897-88ec-4b20bcd79156</map>
-      <map display="component_signal" pin="19619e53-8957-4b28-9b77-d6caaf2cea6d">6e4d94a4-3d0a-48e8-92be-65e3c305c57d</map>
-      <map display="component_signal" pin="2108cbd3-732f-47e4-bc25-6b03be6245d9">c26b7c1a-627e-4be8-9fc8-2369b004939b</map>
-      <map display="component_signal" pin="8fd9d849-5c45-41ef-8e02-aca7e69c3ad8">e849fb14-79c1-4938-a789-9d36fff93f0f</map>
-      <map display="component_signal" pin="b14ddd80-be76-47cc-89cb-05971c0f3162">8dbd1fa6-c543-40fe-ae7f-62dae7977493</map>
-      <map display="component_signal" pin="b3a2f31a-57a0-435e-90d2-225d07f680cc">07482d84-a073-40f8-a601-1bdd27c439d9</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">D</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8dbd1fa6-c543-40fe-ae7f-62dae7977493">AA</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="076cd49e-4237-4897-88ec-4b20bcd79156">AB</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6e4d94a4-3d0a-48e8-92be-65e3c305c57d">AC</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e849fb14-79c1-4938-a789-9d36fff93f0f">AD</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="07482d84-a073-40f8-a601-1bdd27c439d9">C1</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c26b7c1a-627e-4be8-9fc8-2369b004939b">C2</signal>
+ <symbol_variant norm="" uuid="8495ae91-867d-4ff7-a6a8-e17025296bd5">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="" symbol="29c75321-a306-4770-947e-7d621f256da3" uuid="0d03a673-d8f4-4e0b-a1c5-13cb379a5618">
+   <pin_signal_map display="component_signal" pin="1002eb00-2319-41ea-819b-91acfafeabb9">076cd49e-4237-4897-88ec-4b20bcd79156</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="19619e53-8957-4b28-9b77-d6caaf2cea6d">6e4d94a4-3d0a-48e8-92be-65e3c305c57d</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="2108cbd3-732f-47e4-bc25-6b03be6245d9">c26b7c1a-627e-4be8-9fc8-2369b004939b</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="8fd9d849-5c45-41ef-8e02-aca7e69c3ad8">e849fb14-79c1-4938-a789-9d36fff93f0f</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="b14ddd80-be76-47cc-89cb-05971c0f3162">8dbd1fa6-c543-40fe-ae7f-62dae7977493</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="b3a2f31a-57a0-435e-90d2-225d07f680cc">07482d84-a073-40f8-a601-1bdd27c439d9</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

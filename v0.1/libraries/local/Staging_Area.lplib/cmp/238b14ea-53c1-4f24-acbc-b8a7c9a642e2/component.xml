@@ -1,43 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>238b14ea-53c1-4f24-acbc-b8a7c9a642e2</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:11:03Z</created>
-  <last_modified>2015-12-20T22:11:03Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">DIODEN</name>
-  <description locale="en_US">
+ <uuid>238b14ea-53c1-4f24-acbc-b8a7c9a642e2</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:11:03Z</created>
+ <last_modified>2015-12-20T22:11:03Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">DIODEN</name>
+ <description locale="">
 
 This element was automatically imported from Eagle
 Filepath: 0_Standardbauteile.lbr
 Name: DIODEN
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">D</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="3021e726-3643-4fc4-b954-0824e517507d">A</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e297155e-9cb9-48f0-a85f-29d8d69b6b4e">C</signal>
- </signals>
- <symbol_variants default="c1a16a38-cd67-4379-a3fa-3e4b3ba5a542">
-  <variant norm="" uuid="c1a16a38-cd67-4379-a3fa-3e4b3ba5a542">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="" symbol="378caa05-2ca6-4d7d-bf0d-39cc3dd738b8" uuid="a92ad473-dc01-49d1-b857-a122df67c2fb">
-     <pin_signal_map>
-      <map display="component_signal" pin="dbd4cd25-2c95-45d7-bb0c-994aa41b9894">e297155e-9cb9-48f0-a85f-29d8d69b6b4e</map>
-      <map display="component_signal" pin="f131f0e2-7a72-4fab-bd6d-bdf358450217">3021e726-3643-4fc4-b954-0824e517507d</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">D</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="3021e726-3643-4fc4-b954-0824e517507d">A</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="e297155e-9cb9-48f0-a85f-29d8d69b6b4e">C</signal>
+ <symbol_variant norm="" uuid="c1a16a38-cd67-4379-a3fa-3e4b3ba5a542">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="" symbol="378caa05-2ca6-4d7d-bf0d-39cc3dd738b8" uuid="a92ad473-dc01-49d1-b857-a122df67c2fb">
+   <pin_signal_map display="component_signal" pin="dbd4cd25-2c95-45d7-bb0c-994aa41b9894">e297155e-9cb9-48f0-a85f-29d8d69b6b4e</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="f131f0e2-7a72-4fab-bd6d-bdf358450217">3021e726-3643-4fc4-b954-0824e517507d</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

@@ -1,48 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>94a413e4-0e48-4742-875c-8d516eb33230</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:58Z</created>
-  <last_modified>2015-12-20T22:10:58Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">SM77H</name>
-  <description locale="en_US">&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
+ <uuid>94a413e4-0e48-4742-875c-8d516eb33230</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:58Z</created>
+ <last_modified>2015-12-20T22:10:58Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">SM77H</name>
+ <description locale="">&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
 Source: www.pletronics.com .. sm77h%203.3v.pdf
 
 This element was automatically imported from Eagle
 Filepath: crystal.lbr
 Name: SM77H
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">QG</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="979eedd2-1e3d-48e1-bf99-e52c2e04e93a">E/D</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="929ad3e8-c204-42a1-bcfa-28b41ed39863">GND</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c5efad17-6da6-4ed7-9031-0e67172a51f1">OUT</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="183b22c3-3cb8-4b6c-819d-d8343065035b">VCC</signal>
- </signals>
- <symbol_variants default="bbbbf8a5-633a-4ac0-ae69-014bcab8050f">
-  <variant norm="" uuid="bbbbf8a5-633a-4ac0-ae69-014bcab8050f">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="" symbol="7e87f8e3-b8cf-4f5e-821a-c066f05ec162" uuid="c6c149ed-6e1f-4037-9d85-ca637b81e540">
-     <pin_signal_map>
-      <map display="component_signal" pin="360d3da3-966e-4eb3-aedd-8873402bec3e">183b22c3-3cb8-4b6c-819d-d8343065035b</map>
-      <map display="component_signal" pin="3f8b2861-4acc-4f41-b13f-10887a3fefca">c5efad17-6da6-4ed7-9031-0e67172a51f1</map>
-      <map display="component_signal" pin="c04544a1-6fbd-4578-b0f8-cc3b2d1571ca">979eedd2-1e3d-48e1-bf99-e52c2e04e93a</map>
-      <map display="component_signal" pin="cd2ae635-ba8e-4af8-a93d-f849048a88ac">929ad3e8-c204-42a1-bcfa-28b41ed39863</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">QG</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="979eedd2-1e3d-48e1-bf99-e52c2e04e93a">E/D</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="929ad3e8-c204-42a1-bcfa-28b41ed39863">GND</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c5efad17-6da6-4ed7-9031-0e67172a51f1">OUT</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="183b22c3-3cb8-4b6c-819d-d8343065035b">VCC</signal>
+ <symbol_variant norm="" uuid="bbbbf8a5-633a-4ac0-ae69-014bcab8050f">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="" symbol="7e87f8e3-b8cf-4f5e-821a-c066f05ec162" uuid="c6c149ed-6e1f-4037-9d85-ca637b81e540">
+   <pin_signal_map display="component_signal" pin="360d3da3-966e-4eb3-aedd-8873402bec3e">183b22c3-3cb8-4b6c-819d-d8343065035b</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="3f8b2861-4acc-4f41-b13f-10887a3fefca">c5efad17-6da6-4ed7-9031-0e67172a51f1</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="c04544a1-6fbd-4578-b0f8-cc3b2d1571ca">979eedd2-1e3d-48e1-bf99-e52c2e04e93a</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="cd2ae635-ba8e-4af8-a93d-f849048a88ac">929ad3e8-c204-42a1-bcfa-28b41ed39863</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

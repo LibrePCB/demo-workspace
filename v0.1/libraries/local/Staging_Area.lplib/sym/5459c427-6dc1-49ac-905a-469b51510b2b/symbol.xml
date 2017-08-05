@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <symbol>
- <meta>
-  <uuid>5459c427-6dc1-49ac-905a-469b51510b2b</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:30Z</created>
-  <last_modified>2015-12-20T22:10:30Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">SN65HVD23X</name>
-  <description locale="en_US">
+ <uuid>5459c427-6dc1-49ac-905a-469b51510b2b</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:30Z</created>
+ <last_modified>2015-12-20T22:10:30Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">SN65HVD23X</name>
+ <description locale="">
 
 This element was automatically imported from Eagle
 Filepath: 0_ICs.lbr
 Name: SN65HVD23X
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <pins>
-  <pin length="5.080000" rotation="180.000000" uuid="08a016dc-cd72-4d76-8899-035b1e11b238" x="15.240000" y="-2.540000">CANL</pin>
-  <pin length="5.080000" rotation="180.000000" uuid="19c21216-ab4c-4ce6-a84f-5ddff6bc52b1" x="15.240000" y="7.620000">VCC</pin>
-  <pin length="5.080000" rotation="0.000000" uuid="4a9d203a-663a-4ac0-b67b-460369477060" x="-15.240000" y="-2.540000">RXD</pin>
-  <pin length="5.080000" rotation="0.000000" uuid="4f303db1-5347-42ea-a700-0ff462a5dcc8" x="-15.240000" y="2.540000">TXD</pin>
-  <pin length="5.080000" rotation="0.000000" uuid="5743199b-b6e1-4393-a3a2-d271a79edc8f" x="-15.240000" y="-7.620000">VREF</pin>
-  <pin length="5.080000" rotation="180.000000" uuid="816561c6-ce8d-4551-8643-a6dd2579c803" x="15.240000" y="2.540000">CANH</pin>
-  <pin length="5.080000" rotation="180.000000" uuid="a709f981-bffe-4056-8984-efaf69c7c683" x="15.240000" y="-7.620000">GND</pin>
-  <pin length="5.080000" rotation="0.000000" uuid="bf71b5f3-cf86-4cb2-aeac-693387808cf6" x="-15.240000" y="7.620000">RS</pin>
- </pins>
- <geometry>
-  <polygon fill="false" grab_area="true" layer="10" start_x="-10.160000" start_y="10.160000" width="0.254000">
-   <segment angle="0.000000" end_x="-10.160000" end_y="-10.160000"/>
-   <segment angle="0.000000" end_x="10.160000" end_y="-10.160000"/>
-   <segment angle="0.000000" end_x="10.160000" end_y="10.160000"/>
-   <segment angle="0.000000" end_x="-10.160000" end_y="10.160000"/>
-  </polygon>
-  <text h_align="left" height="3.175000" layer="20" rotation="0.000000" v_align="bottom" x="-10.160000" y="11.430000">${SYM::NAME}</text>
-  <text h_align="left" height="2.500000" layer="21" rotation="0.000000" v_align="bottom" x="-10.160000" y="-12.700000">${CMP::VALUE}</text>
- </geometry>
+ <keywords locale=""></keywords>
+ <pin length="5.080000" rotation="180.000000" uuid="08a016dc-cd72-4d76-8899-035b1e11b238" x="15.240000" y="-2.540000">CANL</pin>
+ <pin length="5.080000" rotation="180.000000" uuid="19c21216-ab4c-4ce6-a84f-5ddff6bc52b1" x="15.240000" y="7.620000">VCC</pin>
+ <pin length="5.080000" rotation="0.000000" uuid="4a9d203a-663a-4ac0-b67b-460369477060" x="-15.240000" y="-2.540000">RXD</pin>
+ <pin length="5.080000" rotation="0.000000" uuid="4f303db1-5347-42ea-a700-0ff462a5dcc8" x="-15.240000" y="2.540000">TXD</pin>
+ <pin length="5.080000" rotation="0.000000" uuid="5743199b-b6e1-4393-a3a2-d271a79edc8f" x="-15.240000" y="-7.620000">VREF</pin>
+ <pin length="5.080000" rotation="180.000000" uuid="816561c6-ce8d-4551-8643-a6dd2579c803" x="15.240000" y="2.540000">CANH</pin>
+ <pin length="5.080000" rotation="180.000000" uuid="a709f981-bffe-4056-8984-efaf69c7c683" x="15.240000" y="-7.620000">GND</pin>
+ <pin length="5.080000" rotation="0.000000" uuid="bf71b5f3-cf86-4cb2-aeac-693387808cf6" x="-15.240000" y="7.620000">RS</pin>
+ <polygon fill="false" grab_area="true" layer="10" start_x="-10.160000" start_y="10.160000" width="0.254000">
+  <segment angle="0.000000" end_x="-10.160000" end_y="-10.160000"/>
+  <segment angle="0.000000" end_x="10.160000" end_y="-10.160000"/>
+  <segment angle="0.000000" end_x="10.160000" end_y="10.160000"/>
+  <segment angle="0.000000" end_x="-10.160000" end_y="10.160000"/>
+ </polygon>
+ <text align_h="left" align_v="bottom" height="3.175000" layer="20" rotation="0.000000" x="-10.160000" y="11.430000">${SYM::NAME}</text>
+ <text align_h="left" align_v="bottom" height="2.500000" layer="21" rotation="0.000000" x="-10.160000" y="-12.700000">${CMP::VALUE}</text>
 </symbol>

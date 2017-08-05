@@ -1,44 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>6f92556b-96c1-443b-8a6d-ade96b8a2bec</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:59Z</created>
-  <last_modified>2015-12-20T22:10:59Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">BYT51</name>
-  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+ <uuid>6f92556b-96c1-443b-8a6d-ade96b8a2bec</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:59Z</created>
+ <last_modified>2015-12-20T22:10:59Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">BYT51</name>
+ <description locale="">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 silicon-mesa rectifier (Vishay Telefunken)
 
 This element was automatically imported from Eagle
 Filepath: diode.lbr
 Name: BYT51
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">D</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8a9ed2c4-a512-4642-aa19-e76619815e68">A</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="3a842fe1-0e46-42fd-8563-86aaec43b489">C</signal>
- </signals>
- <symbol_variants default="41017eb7-4802-4d8d-92af-5c47b4e32d81">
-  <variant norm="" uuid="41017eb7-4802-4d8d-92af-5c47b4e32d81">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="eaf21925-ba6b-4849-b696-e31f072d6d03">
-     <pin_signal_map>
-      <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">3a842fe1-0e46-42fd-8563-86aaec43b489</map>
-      <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">8a9ed2c4-a512-4642-aa19-e76619815e68</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">D</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="8a9ed2c4-a512-4642-aa19-e76619815e68">A</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="3a842fe1-0e46-42fd-8563-86aaec43b489">C</signal>
+ <symbol_variant norm="" uuid="41017eb7-4802-4d8d-92af-5c47b4e32d81">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="eaf21925-ba6b-4849-b696-e31f072d6d03">
+   <pin_signal_map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">3a842fe1-0e46-42fd-8563-86aaec43b489</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">8a9ed2c4-a512-4642-aa19-e76619815e68</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

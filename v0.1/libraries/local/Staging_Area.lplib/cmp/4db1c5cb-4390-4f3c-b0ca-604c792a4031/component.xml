@@ -1,45 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>4db1c5cb-4390-4f3c-b0ca-604c792a4031</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:53Z</created>
-  <last_modified>2015-12-20T22:10:53Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">MA03-1</name>
-  <description locale="en_US">&lt;b&gt;PIN HEADER&lt;/b&gt;
+ <uuid>4db1c5cb-4390-4f3c-b0ca-604c792a4031</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:53Z</created>
+ <last_modified>2015-12-20T22:10:53Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">MA03-1</name>
+ <description locale="">&lt;b&gt;PIN HEADER&lt;/b&gt;
 
 This element was automatically imported from Eagle
 Filepath: con-lstb.lbr
 Name: MA03-1
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">SV</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ff2a5adb-3150-4e8a-a9c6-4a4ac3111651">1</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6ce632fb-9a70-4ffe-a88e-12d8424629f6">2</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9bae669e-ebf2-4e78-8d57-f73f9a32dbcd">3</signal>
- </signals>
- <symbol_variants default="3b209626-af8b-4570-ab61-676eeae4e518">
-  <variant norm="" uuid="3b209626-af8b-4570-ab61-676eeae4e518">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="" symbol="ebbff3f2-31ca-42cf-b335-93afa1c7b182" uuid="bd0b15f8-6b09-412b-8a87-6379e8353779">
-     <pin_signal_map>
-      <map display="component_signal" pin="29d83f90-a0e7-49bf-9677-09a012a47239">ff2a5adb-3150-4e8a-a9c6-4a4ac3111651</map>
-      <map display="component_signal" pin="807113cd-8135-473c-8782-c2bae4a09418">9bae669e-ebf2-4e78-8d57-f73f9a32dbcd</map>
-      <map display="component_signal" pin="f0b94a7e-8c94-497a-9b8a-ac0aa8505000">6ce632fb-9a70-4ffe-a88e-12d8424629f6</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">SV</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ff2a5adb-3150-4e8a-a9c6-4a4ac3111651">1</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6ce632fb-9a70-4ffe-a88e-12d8424629f6">2</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9bae669e-ebf2-4e78-8d57-f73f9a32dbcd">3</signal>
+ <symbol_variant norm="" uuid="3b209626-af8b-4570-ab61-676eeae4e518">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="" symbol="ebbff3f2-31ca-42cf-b335-93afa1c7b182" uuid="bd0b15f8-6b09-412b-8a87-6379e8353779">
+   <pin_signal_map display="component_signal" pin="29d83f90-a0e7-49bf-9677-09a012a47239">ff2a5adb-3150-4e8a-a9c6-4a4ac3111651</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="807113cd-8135-473c-8782-c2bae4a09418">9bae669e-ebf2-4e78-8d57-f73f9a32dbcd</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="f0b94a7e-8c94-497a-9b8a-ac0aa8505000">6ce632fb-9a70-4ffe-a88e-12d8424629f6</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

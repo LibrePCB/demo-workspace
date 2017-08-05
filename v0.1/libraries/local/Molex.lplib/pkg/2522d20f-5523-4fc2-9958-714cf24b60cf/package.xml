@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package>
- <meta>
-  <uuid>2522d20f-5523-4fc2-9958-714cf24b60cf</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-21T13:40:32Z</created>
-  <last_modified>2015-12-21T13:40:32Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">53047-12</name>
-  <description locale="en_US">&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
+ <uuid>2522d20f-5523-4fc2-9958-714cf24b60cf</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-21T13:40:32Z</created>
+ <last_modified>2015-12-21T13:40:32Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">53047-12</name>
+ <description locale="">&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
 wire to board 1.25 mm (.049 inch) pitch header&lt;p&gt;
 straight&lt;br&gt;
 Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf
@@ -17,87 +16,80 @@ This element was automatically imported from Eagle
 Filepath: con-molex.lbr
 Name: 53047-12
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <pads>
-  <pad uuid="3168d1b8-243d-4399-bcde-c25802c4fa92">6</pad>
-  <pad uuid="3db7b893-ccec-46e1-8736-7c0e25ee6943">9</pad>
-  <pad uuid="3efaeb62-0df5-47f1-bad4-d1c7c2ae0792">12</pad>
-  <pad uuid="437e4399-1a43-4228-942b-3f5436a0867d">8</pad>
-  <pad uuid="949d8ae8-0341-4032-bcd0-bc8996d86f1e">1</pad>
-  <pad uuid="ad3bf142-cbc6-4a96-bf51-b962c0fa3854">5</pad>
-  <pad uuid="b2bcc721-38e6-49ca-a3da-4af68c289be4">10</pad>
-  <pad uuid="cbf034d9-26e5-4615-9c10-5d1739f93a09">11</pad>
-  <pad uuid="ddfa46b7-2941-49d4-847b-70fcbffc1302">7</pad>
-  <pad uuid="fd9cbf88-1625-4a0b-9e1f-208b8b193661">4</pad>
-  <pad uuid="fe323bc4-bd32-4459-895d-c2556da0df55">2</pad>
-  <pad uuid="feb40740-9f3a-4ae9-bf11-ea953a9067e3">3</pad>
- </pads>
- <footprints default="5e586576-0b33-4d41-b7dc-8c192792a6df">
-  <footprint uuid="5e586576-0b33-4d41-b7dc-8c192792a6df">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <geometry>
-    <polygon fill="false" grab_area="true" layer="260" start_x="-8.250000" start_y="-0.250000" width="0.050800">
-     <segment angle="0.000000" end_x="-7.875000" end_y="-0.250000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="-7.875000" start_y="-0.250000" width="0.050800">
-     <segment angle="0.000000" end_x="-7.875000" end_y="-1.250000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="7.875000" start_y="-0.250000" width="0.050800">
-     <segment angle="0.000000" end_x="8.250000" end_y="-0.250000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="7.875000" start_y="-0.250000" width="0.050800">
-     <segment angle="0.000000" end_x="7.875000" end_y="-1.250000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="-8.250000" start_y="0.375000" width="0.050800">
-     <segment angle="0.000000" end_x="-7.875000" end_y="0.375000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="7.875000" start_y="0.375000" width="0.050800">
-     <segment angle="0.000000" end_x="8.250000" end_y="0.375000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="-7.875000" start_y="0.375000" width="0.050800">
-     <segment angle="0.000000" end_x="-7.875000" end_y="1.125000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="-7.875000" start_y="1.125000" width="0.050800">
-     <segment angle="0.000000" end_x="7.875000" end_y="1.125000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="7.875000" start_y="1.125000" width="0.050800">
-     <segment angle="0.000000" end_x="7.875000" end_y="0.375000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="7.875000" start_y="1.125000" width="0.050800">
-     <segment angle="0.000000" end_x="8.125000" end_y="1.375000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="-7.875000" start_y="1.125000" width="0.050800">
-     <segment angle="0.000000" end_x="-8.125000" end_y="1.375000"/>
-    </polygon>
-    <polygon fill="true" grab_area="true" layer="260" start_x="-8.250000" start_y="-1.500000" width="0.000000">
-     <segment angle="0.000000" end_x="8.250000" end_y="-1.500000"/>
-     <segment angle="0.000000" end_x="8.250000" end_y="-1.125000"/>
-     <segment angle="0.000000" end_x="-8.250000" end_y="-1.125000"/>
-     <segment angle="0.000000" end_x="-8.250000" end_y="-1.500000"/>
-    </polygon>
-    <polygon fill="false" grab_area="true" layer="260" start_x="8.275000" start_y="-1.500000" width="0.203200">
-     <segment angle="0.000000" end_x="8.275000" end_y="1.500000"/>
-     <segment angle="0.000000" end_x="-8.275000" end_y="1.500000"/>
-     <segment angle="0.000000" end_x="-8.275000" end_y="-1.500000"/>
-     <segment angle="0.000000" end_x="8.275000" end_y="-1.500000"/>
-    </polygon>
-    <text h_align="left" height="2.500000" layer="240" rotation="0.000000" v_align="bottom" x="-8.125000" y="1.750000">${CMP::NAME}</text>
-    <text h_align="left" height="2.000000" layer="250" rotation="0.000000" v_align="bottom" x="-1.375000" y="1.750000">${CMP::VALUE}</text>
-    <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="3168d1b8-243d-4399-bcde-c25802c4fa92" width="1.396800" x="0.625000" y="0.450000"/>
-    <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="3db7b893-ccec-46e1-8736-7c0e25ee6943" width="1.396800" x="-3.125000" y="0.450000"/>
-    <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="3efaeb62-0df5-47f1-bad4-d1c7c2ae0792" width="1.396800" x="-6.875000" y="0.450000"/>
-    <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="437e4399-1a43-4228-942b-3f5436a0867d" width="1.396800" x="-1.875000" y="0.450000"/>
-    <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="949d8ae8-0341-4032-bcd0-bc8996d86f1e" width="1.396800" x="6.875000" y="0.450000"/>
-    <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="ad3bf142-cbc6-4a96-bf51-b962c0fa3854" width="1.396800" x="1.875000" y="0.450000"/>
-    <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="b2bcc721-38e6-49ca-a3da-4af68c289be4" width="1.396800" x="-4.375000" y="0.450000"/>
-    <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="cbf034d9-26e5-4615-9c10-5d1739f93a09" width="1.396800" x="-5.625000" y="0.450000"/>
-    <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="ddfa46b7-2941-49d4-847b-70fcbffc1302" width="1.396800" x="-0.625000" y="0.450000"/>
-    <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="fd9cbf88-1625-4a0b-9e1f-208b8b193661" width="1.396800" x="3.125000" y="0.450000"/>
-    <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="fe323bc4-bd32-4459-895d-c2556da0df55" width="1.396800" x="5.625000" y="0.450000"/>
-    <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="feb40740-9f3a-4ae9-bf11-ea953a9067e3" width="1.396800" x="4.375000" y="0.450000"/>
-   </geometry>
-  </footprint>
- </footprints>
+ <keywords locale=""></keywords>
+ <pad uuid="3168d1b8-243d-4399-bcde-c25802c4fa92">6</pad>
+ <pad uuid="3db7b893-ccec-46e1-8736-7c0e25ee6943">9</pad>
+ <pad uuid="3efaeb62-0df5-47f1-bad4-d1c7c2ae0792">12</pad>
+ <pad uuid="437e4399-1a43-4228-942b-3f5436a0867d">8</pad>
+ <pad uuid="949d8ae8-0341-4032-bcd0-bc8996d86f1e">1</pad>
+ <pad uuid="ad3bf142-cbc6-4a96-bf51-b962c0fa3854">5</pad>
+ <pad uuid="b2bcc721-38e6-49ca-a3da-4af68c289be4">10</pad>
+ <pad uuid="cbf034d9-26e5-4615-9c10-5d1739f93a09">11</pad>
+ <pad uuid="ddfa46b7-2941-49d4-847b-70fcbffc1302">7</pad>
+ <pad uuid="fd9cbf88-1625-4a0b-9e1f-208b8b193661">4</pad>
+ <pad uuid="fe323bc4-bd32-4459-895d-c2556da0df55">2</pad>
+ <pad uuid="feb40740-9f3a-4ae9-bf11-ea953a9067e3">3</pad>
+ <footprint uuid="5e586576-0b33-4d41-b7dc-8c192792a6df">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="3168d1b8-243d-4399-bcde-c25802c4fa92" width="1.396800" x="0.625000" y="0.450000"/>
+  <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="3db7b893-ccec-46e1-8736-7c0e25ee6943" width="1.396800" x="-3.125000" y="0.450000"/>
+  <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="3efaeb62-0df5-47f1-bad4-d1c7c2ae0792" width="1.396800" x="-6.875000" y="0.450000"/>
+  <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="437e4399-1a43-4228-942b-3f5436a0867d" width="1.396800" x="-1.875000" y="0.450000"/>
+  <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="949d8ae8-0341-4032-bcd0-bc8996d86f1e" width="1.396800" x="6.875000" y="0.450000"/>
+  <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="ad3bf142-cbc6-4a96-bf51-b962c0fa3854" width="1.396800" x="1.875000" y="0.450000"/>
+  <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="b2bcc721-38e6-49ca-a3da-4af68c289be4" width="1.396800" x="-4.375000" y="0.450000"/>
+  <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="cbf034d9-26e5-4615-9c10-5d1739f93a09" width="1.396800" x="-5.625000" y="0.450000"/>
+  <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="ddfa46b7-2941-49d4-847b-70fcbffc1302" width="1.396800" x="-0.625000" y="0.450000"/>
+  <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="fd9cbf88-1625-4a0b-9e1f-208b8b193661" width="1.396800" x="3.125000" y="0.450000"/>
+  <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="fe323bc4-bd32-4459-895d-c2556da0df55" width="1.396800" x="5.625000" y="0.450000"/>
+  <pad drill="0.500000" height="0.698400" rotation="90.000000" shape="round" technology="tht" uuid="feb40740-9f3a-4ae9-bf11-ea953a9067e3" width="1.396800" x="4.375000" y="0.450000"/>
+  <polygon fill="false" grab_area="true" layer="260" start_x="-8.250000" start_y="-0.250000" width="0.050800">
+   <segment angle="0.000000" end_x="-7.875000" end_y="-0.250000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="-7.875000" start_y="-0.250000" width="0.050800">
+   <segment angle="0.000000" end_x="-7.875000" end_y="-1.250000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="7.875000" start_y="-0.250000" width="0.050800">
+   <segment angle="0.000000" end_x="8.250000" end_y="-0.250000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="7.875000" start_y="-0.250000" width="0.050800">
+   <segment angle="0.000000" end_x="7.875000" end_y="-1.250000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="-8.250000" start_y="0.375000" width="0.050800">
+   <segment angle="0.000000" end_x="-7.875000" end_y="0.375000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="7.875000" start_y="0.375000" width="0.050800">
+   <segment angle="0.000000" end_x="8.250000" end_y="0.375000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="-7.875000" start_y="0.375000" width="0.050800">
+   <segment angle="0.000000" end_x="-7.875000" end_y="1.125000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="-7.875000" start_y="1.125000" width="0.050800">
+   <segment angle="0.000000" end_x="7.875000" end_y="1.125000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="7.875000" start_y="1.125000" width="0.050800">
+   <segment angle="0.000000" end_x="7.875000" end_y="0.375000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="7.875000" start_y="1.125000" width="0.050800">
+   <segment angle="0.000000" end_x="8.125000" end_y="1.375000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="-7.875000" start_y="1.125000" width="0.050800">
+   <segment angle="0.000000" end_x="-8.125000" end_y="1.375000"/>
+  </polygon>
+  <polygon fill="true" grab_area="true" layer="260" start_x="-8.250000" start_y="-1.500000" width="0.000000">
+   <segment angle="0.000000" end_x="8.250000" end_y="-1.500000"/>
+   <segment angle="0.000000" end_x="8.250000" end_y="-1.125000"/>
+   <segment angle="0.000000" end_x="-8.250000" end_y="-1.125000"/>
+   <segment angle="0.000000" end_x="-8.250000" end_y="-1.500000"/>
+  </polygon>
+  <polygon fill="false" grab_area="true" layer="260" start_x="8.275000" start_y="-1.500000" width="0.203200">
+   <segment angle="0.000000" end_x="8.275000" end_y="1.500000"/>
+   <segment angle="0.000000" end_x="-8.275000" end_y="1.500000"/>
+   <segment angle="0.000000" end_x="-8.275000" end_y="-1.500000"/>
+   <segment angle="0.000000" end_x="8.275000" end_y="-1.500000"/>
+  </polygon>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="0.000000" x="-8.125000" y="1.750000">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="0.000000" x="-1.375000" y="1.750000">${CMP::VALUE}</text>
+ </footprint>
 </package>

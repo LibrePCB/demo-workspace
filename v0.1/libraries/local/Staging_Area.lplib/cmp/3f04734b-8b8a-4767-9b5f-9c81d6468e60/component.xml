@@ -1,44 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>3f04734b-8b8a-4767-9b5f-9c81d6468e60</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:10:59Z</created>
-  <last_modified>2015-12-20T22:10:59Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">BYV28</name>
-  <description locale="en_US">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+ <uuid>3f04734b-8b8a-4767-9b5f-9c81d6468e60</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:10:59Z</created>
+ <last_modified>2015-12-20T22:10:59Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">BYV28</name>
+ <description locale="">&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 ultra fast
 
 This element was automatically imported from Eagle
 Filepath: diode.lbr
 Name: BYV28
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">D</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="00b54fc8-dfe2-4c13-bded-78dc476ede08">A</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="7824e6b5-b478-4844-8057-36344494a520">C</signal>
- </signals>
- <symbol_variants default="51cb4fad-261c-4f8e-9f3d-0213535003b2">
-  <variant norm="" uuid="51cb4fad-261c-4f8e-9f3d-0213535003b2">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="67c817da-86a5-421e-8a48-c5bbae56843c">
-     <pin_signal_map>
-      <map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">7824e6b5-b478-4844-8057-36344494a520</map>
-      <map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">00b54fc8-dfe2-4c13-bded-78dc476ede08</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">D</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="00b54fc8-dfe2-4c13-bded-78dc476ede08">A</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="7824e6b5-b478-4844-8057-36344494a520">C</signal>
+ <symbol_variant norm="" uuid="51cb4fad-261c-4f8e-9f3d-0213535003b2">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="1" symbol="8eaf9d11-7442-4af8-9051-9e3662b36279" uuid="67c817da-86a5-421e-8a48-c5bbae56843c">
+   <pin_signal_map display="component_signal" pin="8aa8c919-7171-4594-ae73-dc0b76bf036f">7824e6b5-b478-4844-8057-36344494a520</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="8ebf7e67-03d9-4666-8642-39a59899cb5d">00b54fc8-dfe2-4c13-bded-78dc476ede08</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

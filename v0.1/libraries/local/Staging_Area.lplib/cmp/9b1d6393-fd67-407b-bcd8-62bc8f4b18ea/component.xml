@@ -1,44 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>9b1d6393-fd67-407b-bcd8-62bc8f4b18ea</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:11:01Z</created>
-  <last_modified>2015-12-20T22:11:01Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">GM1BW76340A</name>
-  <description locale="en_US">&lt;b&gt;White LED&lt;/b&gt; 45 lumen 14000 mcd @50 mA&lt;p&gt;
+ <uuid>9b1d6393-fd67-407b-bcd8-62bc8f4b18ea</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:11:01Z</created>
+ <last_modified>2015-12-20T22:11:01Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">GM1BW76340A</name>
+ <description locale="">&lt;b&gt;White LED&lt;/b&gt; 45 lumen 14000 mcd @50 mA&lt;p&gt;
 http://document.sharpsma.com/files/GM1BW76340A_DS.pdf
 
 This element was automatically imported from Eagle
 Filepath: led.lbr
 Name: GM1BW76340A
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">LED</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c79e8235-727a-48f0-9d40-0505d1ca4868">A</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ba32f06a-6fd4-456c-ba42-f66b2955bc67">C</signal>
- </signals>
- <symbol_variants default="1e049ef6-e71f-405f-b615-8a7c0637e530">
-  <variant norm="" uuid="1e049ef6-e71f-405f-b615-8a7c0637e530">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="" symbol="e600a79e-cef7-40e7-a262-c836e5301013" uuid="43d5571f-3bd7-4fbd-8157-9108c5aaa9f9">
-     <pin_signal_map>
-      <map display="component_signal" pin="6858e91e-97ce-4b9d-b294-7c7566e5d2a1">c79e8235-727a-48f0-9d40-0505d1ca4868</map>
-      <map display="component_signal" pin="ab9f6025-3d86-4d86-ae38-ebb272e183fd">ba32f06a-6fd4-456c-ba42-f66b2955bc67</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">LED</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="c79e8235-727a-48f0-9d40-0505d1ca4868">A</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="ba32f06a-6fd4-456c-ba42-f66b2955bc67">C</signal>
+ <symbol_variant norm="" uuid="1e049ef6-e71f-405f-b615-8a7c0637e530">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="" symbol="e600a79e-cef7-40e7-a262-c836e5301013" uuid="43d5571f-3bd7-4fbd-8157-9108c5aaa9f9">
+   <pin_signal_map display="component_signal" pin="6858e91e-97ce-4b9d-b294-7c7566e5d2a1">c79e8235-727a-48f0-9d40-0505d1ca4868</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="ab9f6025-3d86-4d86-ae38-ebb272e183fd">ba32f06a-6fd4-456c-ba42-f66b2955bc67</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>

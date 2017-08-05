@@ -1,44 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <component>
- <meta>
-  <uuid>d6abf5ea-21a1-43ac-bee7-a963146481dc</uuid>
-  <version>0.1</version>
-  <author>LibrePCB</author>
-  <created>2015-12-20T22:11:01Z</created>
-  <last_modified>2015-12-20T22:11:01Z</last_modified>
-  <deprecated>false</deprecated>
-  <name locale="en_US">X42182</name>
-  <description locale="en_US">&lt;b&gt;Z-Power LED&lt;/b&gt; P4 Series, Dome type&lt;/b&gt;&lt;p&gt;
+ <uuid>d6abf5ea-21a1-43ac-bee7-a963146481dc</uuid>
+ <version>0.1</version>
+ <author>LibrePCB</author>
+ <created>2015-12-20T22:11:01Z</created>
+ <last_modified>2015-12-20T22:11:01Z</last_modified>
+ <deprecated>false</deprecated>
+ <name locale="">X42182</name>
+ <description locale="">&lt;b&gt;Z-Power LED&lt;/b&gt; P4 Series, Dome type&lt;/b&gt;&lt;p&gt;
 Source: http://www.seoulsemicon.co.kr .. X42182.pdf
 
 This element was automatically imported from Eagle
 Filepath: led.lbr
 Name: X42182
 NOTE: Remove this text after manual rework!</description>
-  <keywords locale="en_US"></keywords>
- </meta>
- <attributes/>
- <properties>
-  <schematic_only>false</schematic_only>
-  <default_value locale="en_US"></default_value>
-  <prefix norm="">LED</prefix>
- </properties>
- <signals>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="4e8c0481-b923-45b2-b340-699f05574798">A</signal>
-  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9fed177f-1336-4311-ba2a-b3589735ed4f">C</signal>
- </signals>
- <symbol_variants default="3b183746-a75d-4c8b-9373-257f9772864b">
-  <variant norm="" uuid="3b183746-a75d-4c8b-9373-257f9772864b">
-   <name locale="en_US">default</name>
-   <description locale="en_US"></description>
-   <symbol_items>
-    <item required="true" suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" uuid="f470ffa4-0b0b-4790-9fd8-17f83dc34aba">
-     <pin_signal_map>
-      <map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">9fed177f-1336-4311-ba2a-b3589735ed4f</map>
-      <map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">4e8c0481-b923-45b2-b340-699f05574798</map>
-     </pin_signal_map>
-    </item>
-   </symbol_items>
-  </variant>
- </symbol_variants>
+ <keywords locale=""></keywords>
+ <schematic_only>false</schematic_only>
+ <default_value></default_value>
+ <prefix norm="">LED</prefix>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="4e8c0481-b923-45b2-b340-699f05574798">A</signal>
+ <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="9fed177f-1336-4311-ba2a-b3589735ed4f">C</signal>
+ <symbol_variant norm="" uuid="3b183746-a75d-4c8b-9373-257f9772864b">
+  <name locale="">default</name>
+  <description locale=""></description>
+  <symbol_item required="true" suffix="" symbol="cb442e56-0ec7-4486-8c43-7bdfa9b47d9a" uuid="f470ffa4-0b0b-4790-9fd8-17f83dc34aba">
+   <pin_signal_map display="component_signal" pin="18de942d-8b47-4daf-9e07-d089204e09d0">9fed177f-1336-4311-ba2a-b3589735ed4f</pin_signal_map>
+   <pin_signal_map display="component_signal" pin="2a64f851-340a-43f2-b1cf-06a1d4b54560">4e8c0481-b923-45b2-b340-699f05574798</pin_signal_map>
+  </symbol_item>
+ </symbol_variant>
 </component>
