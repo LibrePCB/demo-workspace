@@ -68,8 +68,10 @@
       - symbol:   The uuid of the library symbol
       - required: If this is true and this symbol is not places in the schematic, the ERC will give an error.
       - suffix:   The component name suffix of this symbol (e.g. "A", "B", "C" to produce component names like "IC1A", "IC1B", "IC1C"). Must be unique in the symbol variant!
+      - x/y:      Position of the symbol when displaying a preview of the component. Not used anymore after adding the component to a project.
+      - rotation: Rotation of the symbol when displaying a preview of the component. Not used anymore after adding the component to a project.
   -->
-  <symbol_item uuid="adae210d-c505-487b-9fe8-834a24f14638" symbol="00000000-0000-4001-8000-000000000000" required="true" suffix="A">
+  <symbol_item uuid="adae210d-c505-487b-9fe8-834a24f14638" symbol="00000000-0000-4001-8000-000000000000" required="true" suffix="A" x="0" y="0" rotation="0">
    <!--
      This list must contain every pin of the specified symbol! Attributes:
        - pin:        The UUID of the symbol's pin
