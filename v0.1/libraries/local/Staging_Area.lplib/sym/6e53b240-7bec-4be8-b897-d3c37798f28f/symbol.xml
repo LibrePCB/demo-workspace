@@ -20,30 +20,30 @@ NOTE: Remove this text after manual rework!</description>
  <pin length="5.080000" rotation="0.000000" uuid="3f3756fe-7a93-474c-b9dd-33c58b046804" x="-7.620000" y="-2.540000">4</pin>
  <pin length="5.080000" rotation="0.000000" uuid="485b55be-e5a7-4658-8ef4-2fd1ce649c9b" x="-7.620000" y="0.000000">3</pin>
  <pin length="5.080000" rotation="0.000000" uuid="5fdcf641-ee21-4700-95f1-9e3191578f6e" x="-7.620000" y="5.080000">1</pin>
- <polygon fill="false" grab_area="true" layer="10" start_x="-1.905000" start_y="-0.635000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="-1.905000" start_y="-0.635000" width="0.254000">
   <segment angle="-180.000000" end_x="-1.905000" end_y="0.635000"/>
  </polygon>
- <polygon fill="false" grab_area="true" layer="10" start_x="-1.905000" start_y="1.905000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="-1.905000" start_y="1.905000" width="0.254000">
   <segment angle="-180.000000" end_x="-1.905000" end_y="3.175000"/>
  </polygon>
- <polygon fill="false" grab_area="true" layer="10" start_x="-1.905000" start_y="4.445000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="-1.905000" start_y="4.445000" width="0.254000">
   <segment angle="-180.000000" end_x="-1.905000" end_y="5.715000"/>
  </polygon>
- <polygon fill="false" grab_area="true" layer="10" start_x="-1.905000" start_y="-5.715000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="-1.905000" start_y="-5.715000" width="0.254000">
   <segment angle="-180.000000" end_x="-1.905000" end_y="-4.445000"/>
  </polygon>
- <polygon fill="false" grab_area="true" layer="10" start_x="-1.905000" start_y="-3.175000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="-1.905000" start_y="-3.175000" width="0.254000">
   <segment angle="-180.000000" end_x="-1.905000" end_y="-1.905000"/>
  </polygon>
- <polygon fill="false" grab_area="true" layer="10" start_x="-1.905000" start_y="-8.255000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="-1.905000" start_y="-8.255000" width="0.254000">
   <segment angle="-180.000000" end_x="-1.905000" end_y="-6.985000"/>
  </polygon>
- <polygon fill="false" grab_area="true" layer="10" start_x="-3.810000" start_y="7.620000" width="0.406400">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="-3.810000" start_y="7.620000" width="0.406400">
   <segment angle="0.000000" end_x="-3.810000" end_y="-10.160000"/>
   <segment angle="0.000000" end_x="1.270000" end_y="-10.160000"/>
   <segment angle="0.000000" end_x="1.270000" end_y="7.620000"/>
   <segment angle="0.000000" end_x="-3.810000" end_y="7.620000"/>
  </polygon>
- <text align_h="left" align_v="bottom" height="2.500000" layer="21" rotation="180.000000" x="1.270000" y="10.160000">${CMP::VALUE}</text>
- <text align_h="left" align_v="bottom" height="3.175000" layer="20" rotation="180.000000" x="1.270000" y="-10.922000">${SYM::NAME}</text>
+ <text align_h="left" align_v="bottom" height="2.500000" layer="sym_values" rotation="180.000000" x="1.270000" y="10.160000">${CMP::VALUE}</text>
+ <text align_h="left" align_v="bottom" height="3.175000" layer="sym_names" rotation="180.000000" x="1.270000" y="-10.922000">${SYM::NAME}</text>
 </symbol>

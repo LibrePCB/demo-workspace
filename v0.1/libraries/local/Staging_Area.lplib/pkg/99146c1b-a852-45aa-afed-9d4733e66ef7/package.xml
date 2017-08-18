@@ -39,19 +39,19 @@ NOTE: Remove this text after manual rework!</description>
   <pad height="0.570000" rotation="45.000000" side="top" technology="smt" uuid="ce013fb9-45cc-40d4-a6e8-75f1b5d848e2" width="1.100000" x="1.390000" y="1.380000"/>
   <pad height="0.730000" rotation="180.000000" side="top" technology="smt" uuid="d64e1a24-709e-43dd-bb5b-40f16e082cb8" width="1.260000" x="-0.870000" y="-2.510000"/>
   <pad height="0.570000" rotation="315.000000" side="top" technology="smt" uuid="e2214d44-bb3b-4d9e-b425-7b79334b156e" width="1.100000" x="1.390000" y="-2.780000"/>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-1.095000" start_y="-0.475000" width="0.101600">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-1.095000" start_y="-0.475000" width="0.101600">
    <segment angle="132.288823" end_x="1.075000" end_y="-0.475000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-1.435000" start_y="-2.083000" width="0.203200">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-1.435000" start_y="-2.083000" width="0.203200">
    <segment angle="0.000000" end_x="-1.435000" end_y="-0.627000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="1.435000" start_y="-0.627000" width="0.203200">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="1.435000" start_y="-0.627000" width="0.203200">
    <segment angle="0.000000" end_x="1.435000" end_y="-2.083000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="0.038000" start_y="-2.845000" width="0.203200">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="0.038000" start_y="-2.845000" width="0.203200">
    <segment angle="0.000000" end_x="-0.018000" end_y="-2.845000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="270" start_x="0.370000" start_y="-2.740000" width="0.101600">
+  <polygon fill="false" grab_area="true" layer="top_stop_mask" start_x="0.370000" start_y="-2.740000" width="0.101600">
    <segment angle="0.000000" end_x="0.370000" end_y="-2.280000"/>
    <segment angle="0.000000" end_x="1.370000" end_y="-2.280000"/>
    <segment angle="0.000000" end_x="1.370000" end_y="-2.430000"/>
@@ -60,7 +60,7 @@ NOTE: Remove this text after manual rework!</description>
    <segment angle="0.000000" end_x="1.020000" end_y="-2.740000"/>
    <segment angle="0.000000" end_x="0.370000" end_y="-2.740000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="270" start_x="-0.370000" start_y="-2.280000" width="0.101600">
+  <polygon fill="false" grab_area="true" layer="top_stop_mask" start_x="-0.370000" start_y="-2.280000" width="0.101600">
    <segment angle="0.000000" end_x="-0.370000" end_y="-2.740000"/>
    <segment angle="0.000000" end_x="-1.010000" end_y="-2.740000"/>
    <segment angle="0.000000" end_x="-1.510000" end_y="-3.240000"/>
@@ -69,7 +69,7 @@ NOTE: Remove this text after manual rework!</description>
    <segment angle="0.000000" end_x="-1.370000" end_y="-2.280000"/>
    <segment angle="0.000000" end_x="-0.370000" end_y="-2.280000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="270" start_x="-0.520000" start_y="1.330000" width="0.101600">
+  <polygon fill="false" grab_area="true" layer="top_stop_mask" start_x="-0.520000" start_y="1.330000" width="0.101600">
    <segment angle="0.000000" end_x="-0.520000" end_y="1.200000"/>
    <segment angle="0.000000" end_x="0.010000" end_y="0.670000"/>
    <segment angle="0.000000" end_x="0.010000" end_y="0.470000"/>
@@ -82,7 +82,7 @@ NOTE: Remove this text after manual rework!</description>
    <segment angle="0.000000" end_x="-1.020000" end_y="1.330000"/>
    <segment angle="0.000000" end_x="-0.520000" end_y="1.330000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="270" start_x="0.540000" start_y="-0.230000" width="0.101600">
+  <polygon fill="false" grab_area="true" layer="top_stop_mask" start_x="0.540000" start_y="-0.230000" width="0.101600">
    <segment angle="0.000000" end_x="0.540000" end_y="-0.060000"/>
    <segment angle="0.000000" end_x="0.010000" end_y="0.470000"/>
    <segment angle="0.000000" end_x="0.010000" end_y="0.670000"/>
@@ -95,7 +95,7 @@ NOTE: Remove this text after manual rework!</description>
    <segment angle="0.000000" end_x="1.370000" end_y="-0.230000"/>
    <segment angle="0.000000" end_x="0.540000" end_y="-0.230000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="230" start_x="-0.520000" start_y="1.330000" width="0.050800">
+  <polygon fill="false" grab_area="true" layer="top_solder_paste" start_x="-0.520000" start_y="1.330000" width="0.050800">
    <segment angle="0.000000" end_x="-0.520000" end_y="1.200000"/>
    <segment angle="0.000000" end_x="0.010000" end_y="0.670000"/>
    <segment angle="0.000000" end_x="0.010000" end_y="0.470000"/>
@@ -108,7 +108,7 @@ NOTE: Remove this text after manual rework!</description>
    <segment angle="0.000000" end_x="-1.020000" end_y="1.330000"/>
    <segment angle="0.000000" end_x="-0.520000" end_y="1.330000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="230" start_x="0.540000" start_y="-0.230000" width="0.050800">
+  <polygon fill="false" grab_area="true" layer="top_solder_paste" start_x="0.540000" start_y="-0.230000" width="0.050800">
    <segment angle="0.000000" end_x="0.540000" end_y="-0.060000"/>
    <segment angle="0.000000" end_x="0.010000" end_y="0.470000"/>
    <segment angle="0.000000" end_x="0.010000" end_y="0.670000"/>
@@ -121,7 +121,7 @@ NOTE: Remove this text after manual rework!</description>
    <segment angle="0.000000" end_x="1.370000" end_y="-0.230000"/>
    <segment angle="0.000000" end_x="0.540000" end_y="-0.230000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="230" start_x="0.370000" start_y="-2.740000" width="0.050800">
+  <polygon fill="false" grab_area="true" layer="top_solder_paste" start_x="0.370000" start_y="-2.740000" width="0.050800">
    <segment angle="0.000000" end_x="0.370000" end_y="-2.280000"/>
    <segment angle="0.000000" end_x="1.370000" end_y="-2.280000"/>
    <segment angle="0.000000" end_x="1.370000" end_y="-2.430000"/>
@@ -130,7 +130,7 @@ NOTE: Remove this text after manual rework!</description>
    <segment angle="0.000000" end_x="1.020000" end_y="-2.740000"/>
    <segment angle="0.000000" end_x="0.370000" end_y="-2.740000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="230" start_x="-0.370000" start_y="-2.280000" width="0.050800">
+  <polygon fill="false" grab_area="true" layer="top_solder_paste" start_x="-0.370000" start_y="-2.280000" width="0.050800">
    <segment angle="0.000000" end_x="-0.370000" end_y="-2.740000"/>
    <segment angle="0.000000" end_x="-1.010000" end_y="-2.740000"/>
    <segment angle="0.000000" end_x="-1.510000" end_y="-3.240000"/>
@@ -139,18 +139,18 @@ NOTE: Remove this text after manual rework!</description>
    <segment angle="0.000000" end_x="-1.370000" end_y="-2.280000"/>
    <segment angle="0.000000" end_x="-0.370000" end_y="-2.280000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="200" start_x="-1.435000" start_y="-2.845000" width="0.203200">
+  <polygon fill="false" grab_area="true" layer="top_documentation" start_x="-1.435000" start_y="-2.845000" width="0.203200">
    <segment angle="0.000000" end_x="-1.435000" end_y="1.405000"/>
    <segment angle="0.000000" end_x="1.435000" end_y="1.405000"/>
    <segment angle="0.000000" end_x="1.435000" end_y="-2.845000"/>
    <segment angle="0.000000" end_x="-1.435000" end_y="-2.845000"/>
   </polygon>
-  <ellipse fill="true" grab_area="true" layer="270" radius_x="0.220000" radius_y="0.220000" rotation="0.000000" width="0.000000" x="0.010000" y="-0.060000"/>
-  <ellipse fill="true" grab_area="true" layer="270" radius_x="0.220000" radius_y="0.220000" rotation="0.000000" width="0.000000" x="0.010000" y="1.200000"/>
-  <ellipse fill="false" grab_area="true" layer="200" radius_x="1.175000" radius_y="1.175000" rotation="0.000000" width="0.101600" x="0.000000" y="0.000000"/>
-  <ellipse fill="true" grab_area="true" layer="260" radius_x="0.050000" radius_y="0.050000" rotation="0.000000" width="0.000000" x="0.000000" y="-2.248000"/>
-  <ellipse fill="true" grab_area="true" layer="200" radius_x="0.050000" radius_y="0.050000" rotation="0.000000" width="0.000000" x="1.250000" y="1.250000"/>
-  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="0.000000" x="-1.397000" y="2.032000">${CMP::NAME}</text>
-  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="0.000000" x="-1.651000" y="-4.953000">${CMP::VALUE}</text>
+  <ellipse fill="true" grab_area="true" layer="top_stop_mask" radius_x="0.220000" radius_y="0.220000" rotation="0.000000" width="0.000000" x="0.010000" y="-0.060000"/>
+  <ellipse fill="true" grab_area="true" layer="top_stop_mask" radius_x="0.220000" radius_y="0.220000" rotation="0.000000" width="0.000000" x="0.010000" y="1.200000"/>
+  <ellipse fill="false" grab_area="true" layer="top_documentation" radius_x="1.175000" radius_y="1.175000" rotation="0.000000" width="0.101600" x="0.000000" y="0.000000"/>
+  <ellipse fill="true" grab_area="true" layer="top_placement" radius_x="0.050000" radius_y="0.050000" rotation="0.000000" width="0.000000" x="0.000000" y="-2.248000"/>
+  <ellipse fill="true" grab_area="true" layer="top_documentation" radius_x="0.050000" radius_y="0.050000" rotation="0.000000" width="0.000000" x="1.250000" y="1.250000"/>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="top_names" rotation="0.000000" x="-1.397000" y="2.032000">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="top_values" rotation="0.000000" x="-1.651000" y="-4.953000">${CMP::VALUE}</text>
  </footprint>
 </package>

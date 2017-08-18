@@ -22,12 +22,12 @@ NOTE: Remove this text after manual rework!</description>
  <pin length="5.080000" rotation="180.000000" uuid="9fcb852f-250e-4dbc-a271-389159f105bb" x="12.700000" y="-2.540000">VS</pin>
  <pin length="5.080000" rotation="0.000000" uuid="a2318bd3-23fc-4fa0-a62e-1bbc04282fa4" x="-12.700000" y="7.620000">VCC</pin>
  <pin length="5.080000" rotation="180.000000" uuid="a85ad8f3-cc65-4f66-a32e-15f58eec5140" x="12.700000" y="2.540000">HO</pin>
- <polygon fill="false" grab_area="true" layer="10" start_x="7.620000" start_y="10.160000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="7.620000" start_y="10.160000" width="0.254000">
   <segment angle="0.000000" end_x="7.620000" end_y="-10.160000"/>
   <segment angle="0.000000" end_x="-7.620000" end_y="-10.160000"/>
   <segment angle="0.000000" end_x="-7.620000" end_y="10.160000"/>
   <segment angle="0.000000" end_x="7.620000" end_y="10.160000"/>
  </polygon>
- <text align_h="left" align_v="bottom" height="3.175000" layer="20" rotation="0.000000" x="-7.620000" y="10.160000">${SYM::NAME}</text>
- <text align_h="left" align_v="bottom" height="2.500000" layer="21" rotation="0.000000" x="-7.620000" y="-12.700000">${CMP::VALUE}</text>
+ <text align_h="left" align_v="bottom" height="3.175000" layer="sym_names" rotation="0.000000" x="-7.620000" y="10.160000">${SYM::NAME}</text>
+ <text align_h="left" align_v="bottom" height="2.500000" layer="sym_values" rotation="0.000000" x="-7.620000" y="-12.700000">${CMP::VALUE}</text>
 </symbol>

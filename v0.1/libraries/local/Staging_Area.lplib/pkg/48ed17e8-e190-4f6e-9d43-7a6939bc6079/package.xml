@@ -23,40 +23,40 @@ NOTE: Remove this text after manual rework!</description>
   <pad height="1.700000" rotation="0.000000" side="top" technology="smt" uuid="0141f293-374a-47b5-aabd-612c6ec4e0cf" width="2.800000" x="0.000000" y="1.450000"/>
   <pad height="1.700000" rotation="0.000000" side="top" technology="smt" uuid="8c847c26-138b-4084-acfc-e5c8b5890793" width="1.200000" x="1.100000" y="-1.450000"/>
   <pad height="1.700000" rotation="0.000000" side="top" technology="smt" uuid="c3e76916-a6d2-4ad6-a093-bf05f2858eaf" width="1.200000" x="-1.100000" y="-1.450000"/>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-1.550000" start_y="-0.400000" width="0.203200">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-1.550000" start_y="-0.400000" width="0.203200">
    <segment angle="0.000000" end_x="-1.550000" end_y="0.400000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="1.550000" start_y="0.400000" width="0.203200">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="1.550000" start_y="0.400000" width="0.203200">
    <segment angle="0.000000" end_x="1.550000" end_y="-0.400000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="0.250000" start_y="-0.850000" width="0.203200">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="0.250000" start_y="-0.850000" width="0.203200">
    <segment angle="0.000000" end_x="-0.250000" end_y="-0.850000"/>
   </polygon>
-  <polygon fill="true" grab_area="true" layer="200" start_x="-1.150000" start_y="-1.500000" width="0.000000">
+  <polygon fill="true" grab_area="true" layer="top_documentation" start_x="-1.150000" start_y="-1.500000" width="0.000000">
    <segment angle="0.000000" end_x="-0.750000" end_y="-1.500000"/>
    <segment angle="0.000000" end_x="-0.750000" end_y="-0.950000"/>
    <segment angle="0.000000" end_x="-1.150000" end_y="-0.950000"/>
    <segment angle="0.000000" end_x="-1.150000" end_y="-1.500000"/>
   </polygon>
-  <polygon fill="true" grab_area="true" layer="200" start_x="0.750000" start_y="-1.500000" width="0.000000">
+  <polygon fill="true" grab_area="true" layer="top_documentation" start_x="0.750000" start_y="-1.500000" width="0.000000">
    <segment angle="0.000000" end_x="1.150000" end_y="-1.500000"/>
    <segment angle="0.000000" end_x="1.150000" end_y="-0.950000"/>
    <segment angle="0.000000" end_x="0.750000" end_y="-0.950000"/>
    <segment angle="0.000000" end_x="0.750000" end_y="-1.500000"/>
   </polygon>
-  <polygon fill="true" grab_area="true" layer="200" start_x="-0.200000" start_y="0.950000" width="0.000000">
+  <polygon fill="true" grab_area="true" layer="top_documentation" start_x="-0.200000" start_y="0.950000" width="0.000000">
    <segment angle="0.000000" end_x="0.200000" end_y="0.950000"/>
    <segment angle="0.000000" end_x="0.200000" end_y="1.500000"/>
    <segment angle="0.000000" end_x="-0.200000" end_y="1.500000"/>
    <segment angle="0.000000" end_x="-0.200000" end_y="0.950000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="200" start_x="-1.550000" start_y="0.850000" width="0.203200">
+  <polygon fill="false" grab_area="true" layer="top_documentation" start_x="-1.550000" start_y="0.850000" width="0.203200">
    <segment angle="0.000000" end_x="-1.550000" end_y="-0.850000"/>
    <segment angle="0.000000" end_x="1.550000" end_y="-0.850000"/>
    <segment angle="0.000000" end_x="1.550000" end_y="0.850000"/>
    <segment angle="0.000000" end_x="-1.550000" end_y="0.850000"/>
   </polygon>
-  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="0.000000" x="-1.650000" y="2.500000">${CMP::NAME}</text>
-  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="0.000000" x="-1.650000" y="-3.800000">${CMP::VALUE}</text>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="top_names" rotation="0.000000" x="-1.650000" y="2.500000">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="top_values" rotation="0.000000" x="-1.650000" y="-3.800000">${CMP::VALUE}</text>
  </footprint>
 </package>

@@ -27,13 +27,13 @@ NOTE: Remove this text after manual rework!</description>
   <description locale=""></description>
   <pad drill="0.800000" height="1.600000" rotation="0.000000" shape="rect" technology="tht" uuid="13a2cc93-2a5f-4e95-82f3-4423a860dd3a" width="1.600000" x="6.250000" y="1.250000"/>
   <pad drill="0.800000" height="1.600000" rotation="0.000000" shape="rect" technology="tht" uuid="28ec46bb-1ac9-45e5-a9c3-f742eea020df" width="1.600000" x="1.250000" y="1.250000"/>
-  <polygon fill="false" grab_area="true" layer="260" start_x="0.000000" start_y="2.500000" width="0.127000">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="0.000000" start_y="2.500000" width="0.127000">
    <segment angle="0.000000" end_x="0.000000" end_y="0.000000"/>
    <segment angle="0.000000" end_x="7.500000" end_y="0.000000"/>
    <segment angle="0.000000" end_x="7.500000" end_y="2.500000"/>
    <segment angle="0.000000" end_x="0.000000" end_y="2.500000"/>
   </polygon>
-  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="0.000000" x="0.000000" y="3.000000">${CMP::NAME}</text>
-  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="180.000000" x="5.560000" y="1.600000">${CMP::VALUE}</text>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="top_names" rotation="0.000000" x="0.000000" y="3.000000">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="top_values" rotation="180.000000" x="5.560000" y="1.600000">${CMP::VALUE}</text>
  </footprint>
 </package>

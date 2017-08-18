@@ -22,19 +22,19 @@ NOTE: Remove this text after manual rework!</description>
   <description locale=""></description>
   <pad height="1.600000" rotation="0.000000" side="top" technology="smt" uuid="881dca25-5d9e-4a30-a88f-ebaedeac26cb" width="0.800000" x="-1.500000" y="0.000000"/>
   <pad height="1.600000" rotation="0.000000" side="top" technology="smt" uuid="c370c26c-769a-4883-bc19-3e8b3e189362" width="0.800000" x="1.500000" y="0.000000"/>
-  <polygon fill="false" grab_area="true" layer="260" start_x="0.938000" start_y="0.600000" width="0.203200">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="0.938000" start_y="0.600000" width="0.203200">
    <segment angle="0.000000" end_x="-0.938000" end_y="0.600000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-0.938000" start_y="-0.600000" width="0.203200">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-0.938000" start_y="-0.600000" width="0.203200">
    <segment angle="0.000000" end_x="0.938000" end_y="-0.600000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="200" start_x="1.700000" start_y="-0.600000" width="0.203200">
+  <polygon fill="false" grab_area="true" layer="top_documentation" start_x="1.700000" start_y="-0.600000" width="0.203200">
    <segment angle="0.000000" end_x="1.700000" end_y="0.600000"/>
    <segment angle="0.000000" end_x="-1.700000" end_y="0.600000"/>
    <segment angle="0.000000" end_x="-1.700000" end_y="-0.600000"/>
    <segment angle="0.000000" end_x="1.700000" end_y="-0.600000"/>
   </polygon>
-  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="0.000000" x="-1.270000" y="0.952500">${CMP::NAME}</text>
-  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="0.000000" x="-1.270000" y="-2.222500">${CMP::VALUE}</text>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="top_names" rotation="0.000000" x="-1.270000" y="0.952500">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="top_values" rotation="0.000000" x="-1.270000" y="-2.222500">${CMP::VALUE}</text>
  </footprint>
 </package>

@@ -48,7 +48,7 @@
        - end_y:    The Y coordinate of the end point of this polygon segment (in millimeters)
        - angle:    The angle of an arc segment (in degrees). Use 0 for straight lines. Arc direction from start to end point: positive=CCW, negative=CW
  -->
- <polygon layer="10" width="0.254" fill="false" grab_area="true" start_x="-12.7" start_y="-7.62">
+ <polygon layer="sym_outlines" width="0.254" fill="false" grab_area="true" start_x="-12.7" start_y="-7.62">
   <segment angle="0" end_x="-12.7" end_y="5.08"/>
   <segment angle="0" end_x="12.7" end_y="5.08"/>
   <segment angle="0" end_x="12.7" end_y="-7.62"/>
@@ -66,6 +66,6 @@
      - node value: The displayed text (can contain placeholders, e.g. ${NAMESPACE::NAME})
                    Available namespaces: SYM (class project::SI_Symbol), CMP (class project::ComponentInstance), PAGE (class project::Schematic), PRJ (class project::Project)
  -->
- <text layer="20" align_v="bottom" height="2.54" rotation="0" x="-12.7" y="5.08" align_h="left">${SYM::NAME}</text>
- <text layer="21" align_v="top" height="2.54" rotation="0" x="-12.7" y="-7.62" align_h="left">${CMP::VALUE}</text>
+ <text layer="sym_names" align_v="bottom" height="2.54" rotation="0" x="-12.7" y="5.08" align_h="left">${SYM::NAME}</text>
+ <text layer="sym_values" align_v="top" height="2.54" rotation="0" x="-12.7" y="-7.62" align_h="left">${CMP::VALUE}</text>
 </symbol>

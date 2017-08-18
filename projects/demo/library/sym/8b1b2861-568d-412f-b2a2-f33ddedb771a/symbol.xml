@@ -53,12 +53,12 @@
  <pin length="5.080000" rotation="180.000000" uuid="f0f97c08-ae22-4702-96f7-f2a52879b1a3" x="20.320000" y="-22.860000">PB12</pin>
  <pin length="5.080000" rotation="180.000000" uuid="f6543ce2-c570-4bb4-a386-72f817e5689b" x="20.320000" y="17.780000">PA8</pin>
  <pin length="5.080000" rotation="180.000000" uuid="fe6a93d7-62fb-4313-93e0-ac962845b776" x="20.320000" y="35.560000">PA1</pin>
- <polygon fill="false" grab_area="true" layer="10" start_x="-15.240000" start_y="-45.720000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="-15.240000" start_y="-45.720000" width="0.254000">
   <segment angle="0.000000" end_x="-15.240000" end_y="40.640000"/>
   <segment angle="0.000000" end_x="15.240000" end_y="40.640000"/>
   <segment angle="0.000000" end_x="15.240000" end_y="-45.720000"/>
   <segment angle="0.000000" end_x="-15.240000" end_y="-45.720000"/>
  </polygon>
- <text align_h="left" align_v="bottom" height="2.540000" layer="20" rotation="0.000000" x="-15.240000" y="40.640000">${SYM::NAME}</text>
- <text align_h="left" align_v="top" height="2.540000" layer="21" rotation="0.000000" x="-15.240000" y="-45.720000">${CMP::VALUE}</text>
+ <text align_h="left" align_v="bottom" height="2.540000" layer="sym_names" rotation="0.000000" x="-15.240000" y="40.640000">${SYM::NAME}</text>
+ <text align_h="left" align_v="top" height="2.540000" layer="sym_values" rotation="0.000000" x="-15.240000" y="-45.720000">${CMP::VALUE}</text>
 </symbol>

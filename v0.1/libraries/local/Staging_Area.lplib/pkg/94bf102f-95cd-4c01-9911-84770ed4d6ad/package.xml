@@ -33,14 +33,14 @@ NOTE: Remove this text after manual rework!</description>
   <pad height="1.400000" rotation="180.000000" side="top" technology="smt" uuid="b6547b03-9f31-4029-aa96-fcf036b0ae43" width="1.400000" x="-1.850000" y="2.500000"/>
   <pad height="1.400000" rotation="180.000000" side="top" technology="smt" uuid="c1e9f4ff-5836-4791-9206-13a1c0221bc8" width="1.300000" x="0.000000" y="2.500000"/>
   <pad height="1.400000" rotation="0.000000" side="top" technology="smt" uuid="f849ad8f-b655-46bb-b881-61e007e1bf9a" width="1.400000" x="1.850000" y="-2.500000"/>
-  <polygon fill="false" grab_area="true" layer="200" start_x="2.400000" start_y="2.400000" width="0.200000">
+  <polygon fill="false" grab_area="true" layer="top_documentation" start_x="2.400000" start_y="2.400000" width="0.200000">
    <segment angle="0.000000" end_x="2.400000" end_y="-2.400000"/>
    <segment angle="0.000000" end_x="-2.400000" end_y="-2.400000"/>
    <segment angle="0.000000" end_x="-2.400000" end_y="2.400000"/>
    <segment angle="0.000000" end_x="2.400000" end_y="2.400000"/>
   </polygon>
-  <ellipse fill="false" grab_area="true" layer="200" radius_x="0.225000" radius_y="0.225000" rotation="0.000000" width="0.200000" x="-1.760000" y="-0.700000"/>
-  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="0.000000" x="-3.174400" y="3.455000">${CMP::NAME}</text>
-  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="0.000000" x="-3.174400" y="-5.233000">${CMP::VALUE}</text>
+  <ellipse fill="false" grab_area="true" layer="top_documentation" radius_x="0.225000" radius_y="0.225000" rotation="0.000000" width="0.200000" x="-1.760000" y="-0.700000"/>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="top_names" rotation="0.000000" x="-3.174400" y="3.455000">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="top_values" rotation="0.000000" x="-3.174400" y="-5.233000">${CMP::VALUE}</text>
  </footprint>
 </package>

@@ -22,8 +22,8 @@ NOTE: Remove this text after manual rework!</description>
   <description locale=""></description>
   <pad drill="0.900000" height="1.800000" rotation="0.000000" shape="round" technology="tht" uuid="4b68c964-b2b3-48c1-8417-36a798a5aa31" width="1.800000" x="-11.450000" y="0.000000"/>
   <pad drill="0.900000" height="1.800000" rotation="0.000000" shape="round" technology="tht" uuid="c982c5e0-a697-4f8c-8fa9-6809f5600a11" width="1.800000" x="11.450000" y="0.000000"/>
-  <ellipse fill="false" grab_area="true" layer="250" radius_x="12.600000" radius_y="12.600000" rotation="0.000000" width="0.203200" x="0.000000" y="0.000000"/>
-  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="0.000000" x="-5.080000" y="0.635000">${CMP::NAME}</text>
-  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="0.000000" x="-5.080000" y="-1.905000">${CMP::VALUE}</text>
+  <ellipse fill="false" grab_area="true" layer="top_values" radius_x="12.600000" radius_y="12.600000" rotation="0.000000" width="0.203200" x="0.000000" y="0.000000"/>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="top_names" rotation="0.000000" x="-5.080000" y="0.635000">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="top_values" rotation="0.000000" x="-5.080000" y="-1.905000">${CMP::VALUE}</text>
  </footprint>
 </package>

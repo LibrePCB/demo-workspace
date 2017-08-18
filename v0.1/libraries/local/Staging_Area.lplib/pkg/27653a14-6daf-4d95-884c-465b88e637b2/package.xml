@@ -26,37 +26,37 @@ NOTE: Remove this text after manual rework!</description>
   <pad height="1.450000" rotation="0.000000" side="top" technology="smt" uuid="7fffe6f1-6370-42b5-98e0-d817e5e8d665" width="1.000000" x="1.200000" y="-1.300000"/>
   <pad height="1.450000" rotation="0.000000" side="top" technology="smt" uuid="b43c0995-bd7e-4cf8-824d-234f3c418a08" width="1.200000" x="1.100000" y="1.300000"/>
   <pad height="1.450000" rotation="0.000000" side="top" technology="smt" uuid="bf183f19-f16a-4ba3-856e-447157279e1f" width="1.200000" x="-1.100000" y="-1.300000"/>
-  <polygon fill="true" grab_area="true" layer="200" start_x="0.736600" start_y="-1.320800" width="0.000000">
+  <polygon fill="true" grab_area="true" layer="top_documentation" start_x="0.736600" start_y="-1.320800" width="0.000000">
    <segment angle="0.000000" end_x="1.193800" end_y="-1.320800"/>
    <segment angle="0.000000" end_x="1.193800" end_y="-0.635000"/>
    <segment angle="0.000000" end_x="0.736600" end_y="-0.635000"/>
    <segment angle="0.000000" end_x="0.736600" end_y="-1.320800"/>
   </polygon>
-  <polygon fill="true" grab_area="true" layer="200" start_x="0.711200" start_y="0.635000" width="0.000000">
+  <polygon fill="true" grab_area="true" layer="top_documentation" start_x="0.711200" start_y="0.635000" width="0.000000">
    <segment angle="0.000000" end_x="1.168400" end_y="0.635000"/>
    <segment angle="0.000000" end_x="1.168400" end_y="1.320800"/>
    <segment angle="0.000000" end_x="0.711200" end_y="1.320800"/>
    <segment angle="0.000000" end_x="0.711200" end_y="0.635000"/>
   </polygon>
-  <polygon fill="true" grab_area="true" layer="200" start_x="-1.143000" start_y="0.635000" width="0.000000">
+  <polygon fill="true" grab_area="true" layer="top_documentation" start_x="-1.143000" start_y="0.635000" width="0.000000">
    <segment angle="0.000000" end_x="-0.685800" end_y="0.635000"/>
    <segment angle="0.000000" end_x="-0.685800" end_y="1.320800"/>
    <segment angle="0.000000" end_x="-1.143000" end_y="1.320800"/>
    <segment angle="0.000000" end_x="-1.143000" end_y="0.635000"/>
   </polygon>
-  <polygon fill="true" grab_area="true" layer="200" start_x="-1.193800" start_y="-1.320800" width="0.000000">
+  <polygon fill="true" grab_area="true" layer="top_documentation" start_x="-1.193800" start_y="-1.320800" width="0.000000">
    <segment angle="0.000000" end_x="-0.304800" end_y="-1.320800"/>
    <segment angle="0.000000" end_x="-0.304800" end_y="-0.635000"/>
    <segment angle="0.000000" end_x="-1.193800" end_y="-0.635000"/>
    <segment angle="0.000000" end_x="-1.193800" end_y="-1.320800"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="200" start_x="1.447800" start_y="-0.635000" width="0.101600">
+  <polygon fill="false" grab_area="true" layer="top_documentation" start_x="1.447800" start_y="-0.635000" width="0.101600">
    <segment angle="0.000000" end_x="1.447800" end_y="0.635000"/>
    <segment angle="0.000000" end_x="-1.447800" end_y="0.635000"/>
    <segment angle="0.000000" end_x="-1.447800" end_y="-0.635000"/>
    <segment angle="0.000000" end_x="1.447800" end_y="-0.635000"/>
   </polygon>
-  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="0.000000" x="-1.500000" y="2.200000">${CMP::NAME}</text>
-  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="0.000000" x="-1.500000" y="-3.450000">${CMP::VALUE}</text>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="top_names" rotation="0.000000" x="-1.500000" y="2.200000">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="top_values" rotation="0.000000" x="-1.500000" y="-3.450000">${CMP::VALUE}</text>
  </footprint>
 </package>

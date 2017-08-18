@@ -22,37 +22,37 @@ NOTE: Remove this text after manual rework!</description>
   <description locale=""></description>
   <pad drill="1.016000" height="2.032000" rotation="0.000000" shape="octagon" technology="tht" uuid="20ff6813-45c8-4e66-b100-8650d03ad4cb" width="2.032000" x="-11.430000" y="0.000000"/>
   <pad drill="1.016000" height="2.032000" rotation="0.000000" shape="octagon" technology="tht" uuid="a2ec3186-0b83-4883-b22b-51c146a554b5" width="2.032000" x="11.430000" y="0.000000"/>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-9.525000" start_y="0.000000" width="0.152400">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-9.525000" start_y="0.000000" width="0.152400">
    <segment angle="0.000000" end_x="-7.620000" end_y="0.000000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-7.620000" start_y="1.905000" width="0.406400">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-7.620000" start_y="1.905000" width="0.406400">
    <segment angle="0.000000" end_x="-7.620000" end_y="0.000000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-6.731000" start_y="1.905000" width="0.406400">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-6.731000" start_y="1.905000" width="0.406400">
    <segment angle="0.000000" end_x="-6.731000" end_y="0.000000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-6.731000" start_y="0.000000" width="0.152400">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-6.731000" start_y="0.000000" width="0.152400">
    <segment angle="0.000000" end_x="9.525000" end_y="0.000000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-6.731000" start_y="0.000000" width="0.406400">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-6.731000" start_y="0.000000" width="0.406400">
    <segment angle="0.000000" end_x="-6.731000" end_y="-1.905000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-7.620000" start_y="0.000000" width="0.406400">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-7.620000" start_y="0.000000" width="0.406400">
    <segment angle="0.000000" end_x="-7.620000" end_y="-1.905000"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-9.829800" start_y="2.590800" width="0.152400">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-9.829800" start_y="2.590800" width="0.152400">
    <segment angle="0.000000" end_x="-9.017000" end_y="1.346200"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-9.829800" start_y="1.346200" width="0.152400">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-9.829800" start_y="1.346200" width="0.152400">
    <segment angle="0.000000" end_x="-9.017000" end_y="2.590800"/>
   </polygon>
-  <polygon fill="false" grab_area="true" layer="260" start_x="-13.335000" start_y="-3.810000" width="0.152400">
+  <polygon fill="false" grab_area="true" layer="top_placement" start_x="-13.335000" start_y="-3.810000" width="0.152400">
    <segment angle="0.000000" end_x="-13.335000" end_y="3.810000"/>
    <segment angle="0.000000" end_x="13.335000" end_y="3.810000"/>
    <segment angle="0.000000" end_x="13.335000" end_y="-3.810000"/>
    <segment angle="0.000000" end_x="-13.335000" end_y="-3.810000"/>
   </polygon>
-  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="0.000000" x="-13.284200" y="4.267200">${CMP::NAME}</text>
-  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="0.000000" x="-5.765800" y="-2.870200">${CMP::VALUE}</text>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="top_names" rotation="0.000000" x="-13.284200" y="4.267200">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="top_values" rotation="0.000000" x="-5.765800" y="-2.870200">${CMP::VALUE}</text>
  </footprint>
 </package>

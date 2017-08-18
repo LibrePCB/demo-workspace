@@ -19,12 +19,12 @@ NOTE: Remove this text after manual rework!</description>
  <pin length="2.540000" rotation="0.000000" uuid="9cdd47ec-01b9-4f3e-aef4-f7e09025f431" x="-10.160000" y="-2.540000">REXT</pin>
  <pin length="2.540000" rotation="0.000000" uuid="ab0dcbf5-853c-4a7c-9ab0-a26f5d547b93" x="-10.160000" y="5.080000">VIN</pin>
  <pin length="2.540000" rotation="0.000000" uuid="b62b7423-e1ad-464c-ad68-d08d79aaf08f" x="-10.160000" y="2.540000">BOOST</pin>
- <polygon fill="false" grab_area="true" layer="10" start_x="7.620000" start_y="7.620000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="7.620000" start_y="7.620000" width="0.254000">
   <segment angle="0.000000" end_x="7.620000" end_y="-7.620000"/>
   <segment angle="0.000000" end_x="-7.620000" end_y="-7.620000"/>
   <segment angle="0.000000" end_x="-7.620000" end_y="7.620000"/>
   <segment angle="0.000000" end_x="7.620000" end_y="7.620000"/>
  </polygon>
- <text align_h="left" align_v="bottom" height="3.175000" layer="20" rotation="0.000000" x="-7.620000" y="8.890000">${SYM::NAME}</text>
- <text align_h="left" align_v="bottom" height="2.500000" layer="21" rotation="0.000000" x="-7.620000" y="-10.160000">${CMP::VALUE}</text>
+ <text align_h="left" align_v="bottom" height="3.175000" layer="sym_names" rotation="0.000000" x="-7.620000" y="8.890000">${SYM::NAME}</text>
+ <text align_h="left" align_v="bottom" height="2.500000" layer="sym_values" rotation="0.000000" x="-7.620000" y="-10.160000">${CMP::VALUE}</text>
 </symbol>

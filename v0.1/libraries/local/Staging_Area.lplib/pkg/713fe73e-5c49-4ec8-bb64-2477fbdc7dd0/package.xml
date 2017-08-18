@@ -21,10 +21,10 @@ NOTE: Remove this text after manual rework!</description>
   <description locale=""></description>
   <pad height="1.900000" rotation="0.000000" side="bottom" technology="smt" uuid="3e7cded5-f0c6-4f70-aae1-7cabcf66dddc" width="1.900000" x="0.000000" y="0.000000"/>
   <pad height="1.900000" rotation="0.000000" side="top" technology="smt" uuid="7925d16a-c00a-4ae4-9372-66c2a4ff905e" width="1.900000" x="0.000000" y="0.000000"/>
-  <ellipse fill="true" grab_area="true" layer="200" radius_x="0.600000" radius_y="0.600000" rotation="0.000000" width="0.000000" x="0.000000" y="0.000000"/>
-  <ellipse fill="true" grab_area="true" layer="500" radius_x="0.600000" radius_y="0.600000" rotation="0.000000" width="0.000000" x="0.000000" y="0.000000"/>
-  <text align_h="left" align_v="bottom" height="2.500000" layer="240" rotation="0.000000" x="-1.270000" y="0.952500">${CMP::NAME}</text>
-  <text align_h="left" align_v="bottom" height="2.000000" layer="250" rotation="0.000000" x="-1.270000" y="-2.222500">${CMP::VALUE}</text>
+  <ellipse fill="true" grab_area="true" layer="top_documentation" radius_x="0.600000" radius_y="0.600000" rotation="0.000000" width="0.000000" x="0.000000" y="0.000000"/>
+  <ellipse fill="true" grab_area="true" layer="bot_placement" radius_x="0.600000" radius_y="0.600000" rotation="0.000000" width="0.000000" x="0.000000" y="0.000000"/>
+  <text align_h="left" align_v="bottom" height="2.500000" layer="top_names" rotation="0.000000" x="-1.270000" y="0.952500">${CMP::NAME}</text>
+  <text align_h="left" align_v="bottom" height="2.000000" layer="top_values" rotation="0.000000" x="-1.270000" y="-2.222500">${CMP::VALUE}</text>
   <hole diameter="1.300000" x="0.000000" y="0.000000"/>
  </footprint>
 </package>

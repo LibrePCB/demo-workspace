@@ -62,12 +62,12 @@ NOTE: Remove this text after manual rework!</description>
  <pin length="5.080000" rotation="0.000000" uuid="eaa28762-1db4-41c4-b8dd-1c22835f573c" x="-20.320000" y="15.240000">VDD#2</pin>
  <pin length="5.080000" rotation="180.000000" uuid="ee9d5e51-d1ee-412d-8a40-25b2f2a11b8c" x="20.320000" y="-10.160000">PB8</pin>
  <pin length="5.080000" rotation="0.000000" uuid="ff029c53-c135-46b8-8484-fe95e292b85d" x="-20.320000" y="-30.480000">PA13/JTMS</pin>
- <polygon fill="false" grab_area="true" layer="10" start_x="15.240000" start_y="-43.180000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="15.240000" start_y="-43.180000" width="0.254000">
   <segment angle="0.000000" end_x="15.240000" end_y="43.180000"/>
   <segment angle="0.000000" end_x="-15.240000" end_y="43.180000"/>
   <segment angle="0.000000" end_x="-15.240000" end_y="-43.180000"/>
   <segment angle="0.000000" end_x="15.240000" end_y="-43.180000"/>
  </polygon>
- <text align_h="left" align_v="bottom" height="3.175000" layer="20" rotation="0.000000" x="-15.240000" y="43.180000">${SYM::NAME}</text>
- <text align_h="left" align_v="bottom" height="2.500000" layer="21" rotation="0.000000" x="-15.240000" y="-45.720000">${CMP::VALUE}</text>
+ <text align_h="left" align_v="bottom" height="3.175000" layer="sym_names" rotation="0.000000" x="-15.240000" y="43.180000">${SYM::NAME}</text>
+ <text align_h="left" align_v="bottom" height="2.500000" layer="sym_values" rotation="0.000000" x="-15.240000" y="-45.720000">${CMP::VALUE}</text>
 </symbol>

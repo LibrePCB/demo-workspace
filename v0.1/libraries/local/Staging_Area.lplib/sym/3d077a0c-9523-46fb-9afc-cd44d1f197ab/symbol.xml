@@ -16,12 +16,12 @@ NOTE: Remove this text after manual rework!</description>
  <keywords locale=""></keywords>
  <pin length="2.540000" rotation="180.000000" uuid="1779c9ef-c47c-46f8-a983-464bad8d18d4" x="5.080000" y="0.000000">1</pin>
  <pin length="2.540000" rotation="0.000000" uuid="3dd63044-7022-44c6-95cb-3f4205c67f1c" x="-5.080000" y="0.000000">2</pin>
- <polygon fill="false" grab_area="true" layer="10" start_x="-2.540000" start_y="-0.889000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="-2.540000" start_y="-0.889000" width="0.254000">
   <segment angle="0.000000" end_x="-2.540000" end_y="0.889000"/>
   <segment angle="0.000000" end_x="2.540000" end_y="0.889000"/>
   <segment angle="0.000000" end_x="2.540000" end_y="-0.889000"/>
   <segment angle="0.000000" end_x="-2.540000" end_y="-0.889000"/>
  </polygon>
- <text align_h="left" align_v="bottom" height="3.175000" layer="20" rotation="0.000000" x="-3.810000" y="1.371600">${SYM::NAME}</text>
- <text align_h="left" align_v="bottom" height="2.500000" layer="21" rotation="0.000000" x="-3.810000" y="-2.921000">${CMP::VALUE}</text>
+ <text align_h="left" align_v="bottom" height="3.175000" layer="sym_names" rotation="0.000000" x="-3.810000" y="1.371600">${SYM::NAME}</text>
+ <text align_h="left" align_v="bottom" height="2.500000" layer="sym_values" rotation="0.000000" x="-3.810000" y="-2.921000">${CMP::VALUE}</text>
 </symbol>

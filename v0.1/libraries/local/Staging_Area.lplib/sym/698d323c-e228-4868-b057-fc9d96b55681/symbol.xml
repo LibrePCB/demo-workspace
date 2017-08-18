@@ -43,21 +43,21 @@ NOTE: Remove this text after manual rework!</description>
  <pin length="2.540000" rotation="0.000000" uuid="f356b7c0-1370-4481-a826-fb3bc644d834" x="-12.700000" y="-5.080000">HOT-PLUG</pin>
  <pin length="2.540000" rotation="0.000000" uuid="fb8ed63d-4a79-4c6e-9692-ad4feedf55de" x="-12.700000" y="-35.560000">BLUE</pin>
  <pin length="2.540000" rotation="0.000000" uuid="ffcd133a-d507-44ab-a9ae-21bd0041f136" x="-12.700000" y="-12.700000">DATA0/5S</pin>
- <polygon fill="false" grab_area="true" layer="10" start_x="-10.160000" start_y="-27.940000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="-10.160000" start_y="-27.940000" width="0.254000">
   <segment angle="0.000000" end_x="-10.160000" end_y="-43.180000"/>
  </polygon>
- <polygon fill="false" grab_area="true" layer="10" start_x="-10.160000" start_y="-43.180000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="-10.160000" start_y="-43.180000" width="0.254000">
   <segment angle="0.000000" end_x="7.620000" end_y="-43.180000"/>
  </polygon>
- <polygon fill="false" grab_area="true" layer="10" start_x="7.620000" start_y="-43.180000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="7.620000" start_y="-43.180000" width="0.254000">
   <segment angle="0.000000" end_x="7.620000" end_y="-27.940000"/>
  </polygon>
- <polygon fill="false" grab_area="true" layer="10" start_x="7.620000" start_y="35.560000" width="0.254000">
+ <polygon fill="false" grab_area="true" layer="sym_outlines" start_x="7.620000" start_y="35.560000" width="0.254000">
   <segment angle="0.000000" end_x="7.620000" end_y="-27.940000"/>
   <segment angle="0.000000" end_x="-10.160000" end_y="-27.940000"/>
   <segment angle="0.000000" end_x="-10.160000" end_y="35.560000"/>
   <segment angle="0.000000" end_x="7.620000" end_y="35.560000"/>
  </polygon>
- <text align_h="left" align_v="bottom" height="3.175000" layer="20" rotation="0.000000" x="-10.160000" y="36.830000">${SYM::NAME}</text>
- <text align_h="left" align_v="bottom" height="2.500000" layer="21" rotation="0.000000" x="-10.160000" y="-45.720000">${CMP::VALUE}</text>
+ <text align_h="left" align_v="bottom" height="3.175000" layer="sym_names" rotation="0.000000" x="-10.160000" y="36.830000">${SYM::NAME}</text>
+ <text align_h="left" align_v="bottom" height="2.500000" layer="sym_values" rotation="0.000000" x="-10.160000" y="-45.720000">${CMP::VALUE}</text>
 </symbol>
