@@ -47,7 +47,7 @@
      - negated:          Defines if the signal has an inverted logic (low active). This will automatically mark the connected symbol pin as inverted.
      - clock:            Defines if the signal is a clock signal. This will automatically mark the connected symbol pin as a clock signal.
      - forced_net_name:  If this is a non-empty string, the name of the net signal which is connected to this component signal will be forced to this string.
-                         This should be used only for supply symbols (GND, VCC, ...). The string can contain variables like $CMP::VALUE.
+                         This should be used only for supply symbols (GND, VCC, ...). The string can contain variables like #VALUE.
      - node value:       The signal name (en_US, uppercase). Do not use "/RESET", "!RESET" or something similar for inverted signals! Use the attribute negated="true" instead.
  -->
  <signal uuid="71a44db9-5e42-405f-b6e4-b4725ae37af3" role="power"  required="true" negated="false" clock="false" forced_net_name="">GND</signal>

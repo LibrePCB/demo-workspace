@@ -63,9 +63,9 @@
      - rotation:   Rotation of the text (in degrees CCW)
      - align_h:    Horizontal alignment (left, center, right)
      - align_v:    Vertical alignment (top, center, bottom)
-     - node value: The displayed text (can contain placeholders, e.g. ${NAMESPACE::NAME})
+     - node value: The displayed text (can contain placeholders, e.g. #NAME)
                    Available namespaces: SYM (class project::SI_Symbol), CMP (class project::ComponentInstance), PAGE (class project::Schematic), PRJ (class project::Project)
  -->
- <text layer="sym_names" align_v="bottom" height="2.54" rotation="0" x="-12.7" y="5.08" align_h="left">${SYM::NAME}</text>
- <text layer="sym_values" align_v="top" height="2.54" rotation="0" x="-12.7" y="-7.62" align_h="left">${CMP::VALUE}</text>
+ <text layer="sym_names" align_v="bottom" height="2.54" rotation="0" x="-12.7" y="5.08" align_h="left">#NAME</text>
+ <text layer="sym_values" align_v="top" height="2.54" rotation="0" x="-12.7" y="-7.62" align_h="left">#VALUE</text>
 </symbol>

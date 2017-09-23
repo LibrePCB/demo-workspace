@@ -66,7 +66,7 @@
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="013aa324-6581-4a59-ba01-cce4dfa14c1c">
   <name>R29</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="kiloohm">47</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="6805d3ea-58c5-4e83-9646-348ba7fd8b94"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="4085a1b3-be8d-4b79-9078-a75234c647c7"/>
@@ -78,14 +78,14 @@
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="04eff528-df9e-4969-bc7e-5633d8011087">
   <name>C19</name>
-  <value>${CAPACITANCE}</value>
+  <value>#CAPACITANCE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">100</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="befa5cad-9aa3-4fbd-8c61-81636ccabd6e"/>
   <signal_map comp_signal="6d776f4d-2a7c-4128-a98a-dbb1dd861411" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
  </component>
  <component component="2b24b18d-bd95-4fb4-8fe6-bce1d020ead4" symbol_variant="ed0f0ca2-43ff-4a10-94c2-2958bc336586" uuid="06d050d5-cea1-4a9b-b92d-9c5114bdb3d1">
   <name>LED1</name>
-  <value>${COLOR}</value>
+  <value>#COLOR</value>
   <attribute key="COLOR" type="string" unit="">Red</attribute>
   <attribute key="FORWARD_VOLTAGE" type="string" unit=""></attribute>
   <attribute key="FORWARD_CURRENT" type="string" unit=""></attribute>
@@ -142,22 +142,22 @@
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="0c451a9f-1e21-4533-8d52-e2aacef8a883">
   <name>R13</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="ohm">220</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="161b9ccd-49cc-453b-944a-9c0f4aa804ad"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="60988db1-1e27-407d-b08d-929239787003"/>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="0c46076b-7882-4e44-942f-2592d2a21879">
   <name>R9</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="kiloohm">47</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="09750fe3-8f0b-4239-91ae-ec78221f6b60"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="765c49cf-ed87-472a-ba8f-a65052275c31"/>
  </component>
  <component component="c54375c5-7149-4ded-95c5-7462f7301ee7" symbol_variant="5412add2-af9c-44b8-876d-a0fb7c201897" uuid="0cd12bfe-4971-4905-8354-c2b2c47bfcde">
   <name>C7</name>
-  <value>${CAPACITANCE}
-${VOLTAGE}</value>
+  <value>#CAPACITANCE
+#VOLTAGE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="microfarad">680</attribute>
   <attribute key="VOLTAGE" type="voltage" unit="volt">35</attribute>
   <signal_map comp_signal="af3ffca8-0085-4edb-a775-fcb759f63411" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
@@ -175,8 +175,8 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="15e33177-fef9-4030-93f7-b7cf8b9ad9e7">
   <name>C8</name>
-  <value>${CAPACITANCE}
-${VOLTAGE}</value>
+  <value>#CAPACITANCE
+#VOLTAGE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">100</attribute>
   <attribute key="VOLTAGE" type="voltage" unit="volt">50</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="4085a1b3-be8d-4b79-9078-a75234c647c7"/>
@@ -184,14 +184,14 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="18cf34f6-95e4-48a0-bf4b-6a2d13523f0f">
   <name>C11</name>
-  <value>${CAPACITANCE}</value>
+  <value>#CAPACITANCE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">100</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="f346a129-4fa9-467d-bde0-34a6b66bdd67"/>
   <signal_map comp_signal="6d776f4d-2a7c-4128-a98a-dbb1dd861411" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="1b1ac6e2-3309-4447-8fcf-e95221f19090">
   <name>R6</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="ohm">56</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="609d1730-f335-4c39-90a6-acc934ab2273"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="0d51bec0-4d64-43d5-abab-d24d656bea17"/>
@@ -203,7 +203,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="1d8a93b9-7ac2-40a0-b1b7-79e987600197">
   <name>C14</name>
-  <value>${CAPACITANCE}</value>
+  <value>#CAPACITANCE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">100</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="066db5ac-3232-4824-be9e-fa65aa35c95b"/>
   <signal_map comp_signal="6d776f4d-2a7c-4128-a98a-dbb1dd861411" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
@@ -235,7 +235,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="26965a1b-09e1-41ee-b463-2684e7a87818">
   <name>R1</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="ohm">56</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="446c379c-7ca7-4a3c-bcb4-4b4803e5bf6a"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="0a6b8cee-5598-45ac-a56a-acf3bb7db32f"/>
@@ -252,7 +252,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="2c8af4fb-cc24-4676-b77e-8d2b64dd73d0">
   <name>R15</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="ohm">120</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="f7df2b18-9f30-449a-8afd-c4a6a16cc7d2"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="44b998b7-65e0-410f-b361-b2770278cd9a"/>
@@ -264,8 +264,8 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="2e61020a-4346-4277-8f6b-42d8ec60fe49">
   <name>C6</name>
-  <value>${CAPACITANCE}
-${VOLTAGE}</value>
+  <value>#CAPACITANCE
+#VOLTAGE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">220</attribute>
   <attribute key="VOLTAGE" type="voltage" unit="volt">50</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="7b38ebc6-0c34-4287-a3f2-192de454a1ff"/>
@@ -280,14 +280,14 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="3079e423-f0e6-42fc-8c93-4cd82690bdc1">
   <name>C15</name>
-  <value>${CAPACITANCE}</value>
+  <value>#CAPACITANCE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">100</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="066db5ac-3232-4824-be9e-fa65aa35c95b"/>
   <signal_map comp_signal="6d776f4d-2a7c-4128-a98a-dbb1dd861411" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="3110f961-42bd-4e24-bba7-47930f1b2c03">
   <name>R11</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="kiloohm">6.8</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="75696982-c10d-4ce6-955b-bdc868f7192d"/>
@@ -306,7 +306,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="3499d4eb-40bd-44df-8ef1-9544fae56a75">
   <name>R3</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="ohm">56</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="6fa069ec-4228-4d50-9683-9a5716368dce"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="d25ac99a-f158-4ceb-b46e-87df899b8b19"/>
@@ -328,7 +328,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="43bc94dc-6ab0-4bb2-bf66-c034b9f1cfd0">
   <name>C17</name>
-  <value>${CAPACITANCE}</value>
+  <value>#CAPACITANCE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="microfarad">1</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="97138543-14fc-4432-bf03-d42f4c8f1b31"/>
   <signal_map comp_signal="6d776f4d-2a7c-4128-a98a-dbb1dd861411" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
@@ -342,7 +342,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="4ea5b830-f231-4ded-9d0d-3d69b6a938df">
   <name>R28</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="ohm">130</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="1ebc4991-e356-4ec4-9394-5448780cedee"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="fd065cfa-b24b-448f-9be4-72b6e7e1a4c2"/>
@@ -354,8 +354,8 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="5295af36-44e2-4a2e-a988-87c9e1026ae9">
   <name>C1</name>
-  <value>${CAPACITANCE}
-${VOLTAGE}</value>
+  <value>#CAPACITANCE
+#VOLTAGE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">220</attribute>
   <attribute key="VOLTAGE" type="voltage" unit="volt">50</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="4085a1b3-be8d-4b79-9078-a75234c647c7"/>
@@ -368,7 +368,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="5a493e46-5b95-4d98-ba08-8bf6a741a817">
   <name>R12</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="kiloohm">6.8</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="765c49cf-ed87-472a-ba8f-a65052275c31"/>
@@ -387,7 +387,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="5ef7639d-db84-4bfa-8356-83fc28a1a9f7">
   <name>R10</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="kiloohm">6.8</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="2b3761fd-f01a-452c-b370-827dc2459a21"/>
@@ -399,8 +399,8 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="68c6b6ce-0bad-4965-aa85-c972ab3f16c6">
   <name>C9</name>
-  <value>${CAPACITANCE}
-${VOLTAGE}</value>
+  <value>#CAPACITANCE
+#VOLTAGE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">100</attribute>
   <attribute key="VOLTAGE" type="voltage" unit="volt">10</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="066db5ac-3232-4824-be9e-fa65aa35c95b"/>
@@ -413,8 +413,8 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="69f3d0cf-ca3d-4323-b0c3-67c4fce8b501">
   <name>C3</name>
-  <value>${CAPACITANCE}
-${VOLTAGE}</value>
+  <value>#CAPACITANCE
+#VOLTAGE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">220</attribute>
   <attribute key="VOLTAGE" type="voltage" unit="volt">50</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="4085a1b3-be8d-4b79-9078-a75234c647c7"/>
@@ -422,8 +422,8 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="6c9b623e-6231-4e9c-bf97-944df7a5d3d5">
   <name>C4</name>
-  <value>${CAPACITANCE}
-${VOLTAGE}</value>
+  <value>#CAPACITANCE
+#VOLTAGE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">220</attribute>
   <attribute key="VOLTAGE" type="voltage" unit="volt">50</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="666c87f9-9bf6-45be-bc8c-5ba8600ab269"/>
@@ -431,7 +431,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="709a326c-b6ad-4dcb-95cf-7ce8962bb16c">
   <name>R5</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="ohm">56</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="20a04b28-28f0-458b-a57e-86f64e522b36"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="f862e2a9-2596-4607-88b6-68f3696d3a8e"/>
@@ -443,7 +443,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="76c1f0be-1e24-4b1d-beed-edc08bd44118">
   <name>R19</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="ohm">130</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="b85d51dc-bb39-4227-b2c6-5e1f52cd1a11"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="56654caf-7ecf-4ad7-9cb9-2ef0035654a8"/>
@@ -470,7 +470,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="8092d8bb-f5df-4a43-b5d4-751cdfb474e9">
   <name>C12</name>
-  <value>${CAPACITANCE}</value>
+  <value>#CAPACITANCE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">100</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="066db5ac-3232-4824-be9e-fa65aa35c95b"/>
   <signal_map comp_signal="6d776f4d-2a7c-4128-a98a-dbb1dd861411" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
@@ -499,14 +499,14 @@ ${VOLTAGE}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="8417e1db-8764-46a7-b5ef-2c606ecab6e1">
   <name>R2</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="ohm">56</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="3f49a685-229f-4a34-bff6-4673cd8b3781"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="2c9064ac-a99a-425b-a78d-d6ae9675553a"/>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="84e890a4-2a41-4721-8737-a71f79f7d101">
   <name>C16</name>
-  <value>${CAPACITANCE}</value>
+  <value>#CAPACITANCE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="microfarad">4.7</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="066db5ac-3232-4824-be9e-fa65aa35c95b"/>
   <signal_map comp_signal="6d776f4d-2a7c-4128-a98a-dbb1dd861411" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
@@ -531,8 +531,8 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="90c89ce4-fb19-458d-912b-cf9818efd764">
   <name>C5</name>
-  <value>${CAPACITANCE}
-${VOLTAGE}</value>
+  <value>#CAPACITANCE
+#VOLTAGE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">220</attribute>
   <attribute key="VOLTAGE" type="voltage" unit="volt">50</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="86122564-ffb0-4792-a7f8-81de3061f197"/>
@@ -540,21 +540,21 @@ ${VOLTAGE}</value>
  </component>
  <component component="b847a54b-a83e-47ff-a976-7704bf05bbf4" symbol_variant="1b3fc3ac-2d19-4f11-809a-5c662b3111b8" uuid="91f8c3d3-c497-4d3f-b7a0-4088b442647b">
   <name>Q8</name>
-  <value>${FREQUENCY}</value>
+  <value>#FREQUENCY</value>
   <attribute key="FREQUENCY" type="frequency" unit="megahertz">16</attribute>
   <signal_map comp_signal="878301c2-bacc-4ffa-923c-ef5b1f06e5fe" netsignal="4024f8b2-6969-4f9b-ac41-9338b7319424"/>
   <signal_map comp_signal="fd760be8-09ce-411f-a869-fdc1e74229a9" netsignal="161b9ccd-49cc-453b-944a-9c0f4aa804ad"/>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="98064fbf-64b1-4958-a0b0-825005d7a6a1">
   <name>R27</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="kiloohm">47</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="f346a129-4fa9-467d-bde0-34a6b66bdd67"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="7103431c-5ae4-4a1d-be25-dd9f52e0cd52"/>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="9843ce9e-8e17-4baa-9980-6826fc257abf">
   <name>C20</name>
-  <value>${CAPACITANCE}</value>
+  <value>#CAPACITANCE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="picofarad">20</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
   <signal_map comp_signal="6d776f4d-2a7c-4128-a98a-dbb1dd861411" netsignal="4024f8b2-6969-4f9b-ac41-9338b7319424"/>
@@ -618,7 +618,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="506bd124-6062-400e-9078-b38bd7e1aaee" symbol_variant="62a7598c-17fe-41cf-8fa1-4ed274c3adc2" uuid="ad7d2b6e-21cc-4540-8ec8-bb24a61980ea">
   <name>L1</name>
-  <value>${INDUCTANCE}</value>
+  <value>#INDUCTANCE</value>
   <attribute key="INDUCTANCE" type="inductance" unit="microhenry"></attribute>
   <signal_map comp_signal="5b36d330-6f19-4391-8f95-1c2f6a658286" netsignal="97138543-14fc-4432-bf03-d42f4c8f1b31"/>
   <signal_map comp_signal="777f11cd-9d4e-4b2b-aafa-7e7a836ff56e" netsignal="066db5ac-3232-4824-be9e-fa65aa35c95b"/>
@@ -631,14 +631,10 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="b179313a-5fcb-4fb6-8e56-55865ed6ea4b">
   <name>C13</name>
-  <value>${CAPACITANCE}</value>
+  <value>#CAPACITANCE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">100</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="066db5ac-3232-4824-be9e-fa65aa35c95b"/>
   <signal_map comp_signal="6d776f4d-2a7c-4128-a98a-dbb1dd861411" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
- </component>
- <component component="98e71eaa-1b90-4a84-8529-ed4f493e5c41" symbol_variant="352cccd5-0c3c-4c66-88e0-6ee7c6a3cbf9" uuid="b2643695-14fd-4eea-8d66-a4f2c2c2196f">
-  <name>_1</name>
-  <value></value>
  </component>
  <component component="197dacc7-3785-4054-a538-ced0d6271faa" symbol_variant="0f0439a1-c258-40e7-b407-029f084c372f" uuid="b44652fd-99b6-459a-914b-41e0137146f1">
   <name>PAD7</name>
@@ -657,9 +653,19 @@ ${VOLTAGE}</value>
   <signal_map comp_signal="d3e74d5b-a662-4d3d-aff3-8da209cdb66f" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
   <signal_map comp_signal="f233a935-431c-4e10-9e97-7ddcf8fedfb2" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
  </component>
+ <component component="98e71eaa-1b90-4a84-8529-ed4f493e5c41" symbol_variant="352cccd5-0c3c-4c66-88e0-6ee7c6a3cbf9" uuid="ba877487-ff32-4005-8daa-6a01f996e65b">
+  <name>FRAME1</name>
+  <value></value>
+  <attribute key="_SHEET" type="string" unit="">#SCH_FRAME_SHEET|SHEET</attribute>
+  <attribute key="_PROJECT" type="string" unit="">#SCH_FRAME_PROJECT|PROJECT</attribute>
+  <attribute key="_VERSION" type="string" unit="">#SCH_FRAME_VERSION|VERSION</attribute>
+  <attribute key="_MODIFIED_DATE" type="string" unit="">#SCH_FRAME_MODIFIED_DATE|MODIFIED_DATE</attribute>
+  <attribute key="_AUTHOR" type="string" unit="">#SCH_FRAME_AUTHOR|AUTHOR</attribute>
+  <attribute key="_PAGE_X_OF_Y" type="string" unit="">#SCH_FRAME_PAGE_X_OF_Y|PAGE_X_OF_Y</attribute>
+ </component>
  <component component="2b24b18d-bd95-4fb4-8fe6-bce1d020ead4" symbol_variant="ed0f0ca2-43ff-4a10-94c2-2958bc336586" uuid="bfdf81af-9505-4e77-97e4-d68e4a90ba0f">
   <name>LED2</name>
-  <value>${COLOR}</value>
+  <value>#COLOR</value>
   <attribute key="COLOR" type="string" unit="">Green</attribute>
   <attribute key="FORWARD_VOLTAGE" type="string" unit=""></attribute>
   <attribute key="FORWARD_CURRENT" type="string" unit=""></attribute>
@@ -688,7 +694,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="d00cf83f-e2de-4e12-b176-1c45eb6fcf6c">
   <name>R8</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="kiloohm">47</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="e5fdb792-6bf4-421b-8078-b205693dfe1a"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="75696982-c10d-4ce6-955b-bdc868f7192d"/>
@@ -700,8 +706,8 @@ ${VOLTAGE}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="d98d04c5-74c7-4b7d-8f09-611ed955dd57">
   <name>R18</name>
-  <value>${RESISTANCE}
-${POWER}</value>
+  <value>#RESISTANCE
+#POWER</value>
   <attribute key="RESISTANCE" type="resistance" unit="milliohm">20</attribute>
   <attribute key="POWER" type="string" unit="">5W</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
@@ -714,7 +720,7 @@ ${POWER}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="ddba5f4c-cacf-45da-91d6-bac636da3a6e">
   <name>R4</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="ohm">56</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="e54d4e93-3f38-4980-8839-7249a758a3ad"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="7e125e0a-cf13-418a-847c-f832c0d78db6"/>
@@ -726,7 +732,7 @@ ${POWER}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="df40333d-b0ea-4b4f-8a7a-a59ae2de610f">
   <name>R30</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="kiloohm">6.8</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="6805d3ea-58c5-4e83-9646-348ba7fd8b94"/>
@@ -738,14 +744,14 @@ ${POWER}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="e4a5cdce-be42-4597-a045-6135ecd25ab8">
   <name>C18</name>
-  <value>${CAPACITANCE}</value>
+  <value>#CAPACITANCE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">10</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="97138543-14fc-4432-bf03-d42f4c8f1b31"/>
   <signal_map comp_signal="6d776f4d-2a7c-4128-a98a-dbb1dd861411" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="e69f768b-412d-4fe5-aeb3-c743351a6544">
   <name>C21</name>
-  <value>${CAPACITANCE}</value>
+  <value>#CAPACITANCE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="picofarad">20</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
   <signal_map comp_signal="6d776f4d-2a7c-4128-a98a-dbb1dd861411" netsignal="161b9ccd-49cc-453b-944a-9c0f4aa804ad"/>
@@ -757,8 +763,8 @@ ${POWER}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="e8ab7388-1846-4ca4-912d-d533fae37f01">
   <name>C2</name>
-  <value>${CAPACITANCE}
-${VOLTAGE}</value>
+  <value>#CAPACITANCE
+#VOLTAGE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">220</attribute>
   <attribute key="VOLTAGE" type="voltage" unit="volt">50</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="4085a1b3-be8d-4b79-9078-a75234c647c7"/>
@@ -771,8 +777,8 @@ ${VOLTAGE}</value>
  </component>
  <component component="c54375c5-7149-4ded-95c5-7462f7301ee7" symbol_variant="5412add2-af9c-44b8-876d-a0fb7c201897" uuid="ef27ad46-be54-4b1c-ba51-0446a0853203">
   <name>C10</name>
-  <value>${CAPACITANCE}
-${VOLTAGE}</value>
+  <value>#CAPACITANCE
+#VOLTAGE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="microfarad">47</attribute>
   <attribute key="VOLTAGE" type="voltage" unit="volt">10</attribute>
   <signal_map comp_signal="af3ffca8-0085-4edb-a775-fcb759f63411" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
@@ -780,7 +786,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="d167e0e3-6a92-4b76-b013-77b9c230e5f1" symbol_variant="8cd7b37f-e5fa-4af5-a8dd-d78830bba3af" uuid="f1121620-c541-46a5-90cc-92578e822b8f">
   <name>C22</name>
-  <value>${CAPACITANCE}</value>
+  <value>#CAPACITANCE</value>
   <attribute key="CAPACITANCE" type="capacitance" unit="nanofarad">220</attribute>
   <signal_map comp_signal="1c1c7abc-7b40-4f92-b533-f65604644db7" netsignal="6805d3ea-58c5-4e83-9646-348ba7fd8b94"/>
   <signal_map comp_signal="6d776f4d-2a7c-4128-a98a-dbb1dd861411" netsignal="8dbcc2b0-79cc-4750-8462-e9b7a00477e3"/>
@@ -792,7 +798,7 @@ ${VOLTAGE}</value>
  </component>
  <component component="ef80cd5e-2689-47ee-8888-31d04fc99174" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" uuid="f900538b-090d-482f-9c4c-b0da46d087a8">
   <name>R7</name>
-  <value>${RESISTANCE}</value>
+  <value>#RESISTANCE</value>
   <attribute key="RESISTANCE" type="resistance" unit="kiloohm">47</attribute>
   <signal_map comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8" netsignal="a87c6342-c3ac-40a2-b688-df06d98233d7"/>
   <signal_map comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd" netsignal="2b3761fd-f01a-452c-b370-827dc2459a21"/>
