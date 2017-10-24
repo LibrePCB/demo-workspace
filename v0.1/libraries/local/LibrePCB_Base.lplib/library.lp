@@ -1,0 +1,12 @@
+(librepcb_library
+ (uuid ad523ae0-9493-48bc-86b7-049a13cb35e2)
+ (version "0.1")
+ (author "LibrePCB")
+ (created 2013-04-13T12:43:52Z)
+ (modified 2013-04-20T18:01:33Z)
+ (deprecated false)
+ (name "LibrePCB Base")
+ (description "Official LibrePCB Base Library")
+ (keywords "")
+ (url "https://github.com/LibrePCB-Libraries/LibrePCB_Base.lplib")
+)

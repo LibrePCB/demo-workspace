@@ -1,0 +1,12 @@
+(librepcb_component_category
+ (uuid 4b890baf-9df3-4d9f-94ed-2808cd9a8781)
+ (version "0.1")
+ (author "LibrePCB")
+ (created 2015-07-05T12:43:52Z)
+ (modified 2015-07-05T18:01:33Z)
+ (deprecated false)
+ (name "Voltage Regulators")
+ (description "")
+ (keywords "voltage,regulator,vreg")
+ (parent b037e5c3-4e14-42e5-b542-cb4d8c7bff71)
+)

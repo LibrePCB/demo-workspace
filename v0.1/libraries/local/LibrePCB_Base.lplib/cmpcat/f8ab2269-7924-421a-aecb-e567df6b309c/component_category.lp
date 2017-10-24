@@ -1,0 +1,13 @@
+(librepcb_component_category
+ (uuid f8ab2269-7924-421a-aecb-e567df6b309c)
+ (version "0.1")
+ (author "LibrePCB")
+ (created 2015-07-05T12:43:52Z)
+ (modified 2015-07-05T18:01:33Z)
+ (deprecated false)
+ (name "Filters")
+ (name (locale "de_DE") "Filter")
+ (description "")
+ (keywords "filter")
+ (parent null)
+)

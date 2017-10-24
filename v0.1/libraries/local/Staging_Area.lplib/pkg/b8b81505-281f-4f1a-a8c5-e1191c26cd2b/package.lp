@@ -1,0 +1,18 @@
+(librepcb_package
+ (uuid b8b81505-281f-4f1a-a8c5-e1191c26cd2b)
+ (version "0.1")
+ (author "LibrePCB")
+ (created 2015-12-20T22:10:46Z)
+ (modified 2015-12-20T22:10:46Z)
+ (deprecated false)
+ (name "LED_OFF")
+ (description "<B>LED OFF</B>\nSymbol for Silkscreen layer\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LED_OFF\nNOTE: Remove this text after manual rework!")
+ (keywords "")
+ (footprint ea1575ca-8ab8-4a58-986f-1d2735f3342a
+  (name "default")
+  (description "")
+  (ellipse (layer top_placement) (width 0.127) (fill false) (grab true)
+   (pos 0.0 0.0) (rot 0.0) (rx 0.8032) (ry 0.8032)
+  )
+ )
+)

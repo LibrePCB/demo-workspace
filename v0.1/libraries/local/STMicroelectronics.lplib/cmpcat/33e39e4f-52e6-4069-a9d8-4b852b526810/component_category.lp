@@ -1,0 +1,12 @@
+(librepcb_component_category
+ (uuid 33e39e4f-52e6-4069-a9d8-4b852b526810)
+ (version "0.1")
+ (author "LibrePCB")
+ (created 2015-07-05T12:43:52Z)
+ (modified 2015-07-05T18:01:33Z)
+ (deprecated false)
+ (name "STM32")
+ (description "")
+ (keywords "stm32")
+ (parent 81bc83af-f0b1-4d90-bdf6-d94e5db8e550)
+)

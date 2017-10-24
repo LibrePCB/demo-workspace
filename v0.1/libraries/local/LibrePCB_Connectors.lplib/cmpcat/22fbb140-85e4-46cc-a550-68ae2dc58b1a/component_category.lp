@@ -1,0 +1,12 @@
+(librepcb_component_category
+ (uuid 22fbb140-85e4-46cc-a550-68ae2dc58b1a)
+ (version "0.1")
+ (author "LibrePCB")
+ (created 2015-07-05T12:43:52Z)
+ (modified 2015-07-05T18:01:33Z)
+ (deprecated false)
+ (name "Connectors")
+ (description "")
+ (keywords "connector")
+ (parent null)
+)

@@ -1,0 +1,12 @@
+(librepcb_component_category
+ (uuid e23e8182-29ed-4177-ad29-6bdb26042482)
+ (version "0.1")
+ (author "LibrePCB")
+ (created 2015-07-05T12:43:52Z)
+ (modified 2015-07-05T18:01:33Z)
+ (deprecated false)
+ (name "Transceivers")
+ (description "")
+ (keywords "transceiver,receiver,transmitter")
+ (parent b037e5c3-4e14-42e5-b542-cb4d8c7bff71)
+)
