@@ -162,12 +162,14 @@
  (component 0035f2f4-c0fe-4b64-8830-f4e8fd34d204
   (lib_component 197dacc7-3785-4054-a538-ced0d6271faa)
   (lib_variant 0f0439a1-c258-40e7-b407-029f084c372f)
+  (lib_device null)
   (name "PAD1") (value "VSS")
   (sig ad6ae81a-7914-49b7-a87b-a0e8574b7398 (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
  )
  (component 00df6fcc-ebae-4597-8398-a2d3864d3b43
   (lib_component 82207562-d317-4911-96fa-ceb0f45fd806)
   (lib_variant b9de4767-8626-4d02-8895-6fbce03105e9)
+  (lib_device null)
   (name "D1") (value "BAS21")
   (sig 69e22be3-d2fb-4b8f-ab4f-7fba3cff0aff (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
   (sig 6dd65f7f-8f6b-4b29-ade1-40bc4f84f4b8 (net 666c87f9-9bf6-45be-bc8c-5ba8600ab269))
@@ -175,6 +177,7 @@
  (component 013aa324-6581-4a59-ba01-cce4dfa14c1c
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R29") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "47"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 6805d3ea-58c5-4e83-9646-348ba7fd8b94))
@@ -183,12 +186,14 @@
  (component 0184602f-8b64-4bc2-ae5a-624b5f6d8907
   (lib_component 197dacc7-3785-4054-a538-ced0d6271faa)
   (lib_variant 0f0439a1-c258-40e7-b407-029f084c372f)
+  (lib_device null)
   (name "PAD6") (value "CANH")
   (sig ad6ae81a-7914-49b7-a87b-a0e8574b7398 (net 44b998b7-65e0-410f-b361-b2770278cd9a))
  )
  (component 04eff528-df9e-4969-bc7e-5633d8011087
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C19") (value "#CAPACITANCE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "100"))
   (sig 1c1c7abc-7b40-4f92-b533-f65604644db7 (net befa5cad-9aa3-4fbd-8c61-81636ccabd6e))
@@ -197,6 +202,7 @@
  (component 06d050d5-cea1-4a9b-b92d-9c5114bdb3d1
   (lib_component 2b24b18d-bd95-4fb4-8fe6-bce1d020ead4)
   (lib_variant ed0f0ca2-43ff-4a10-94c2-2958bc336586)
+  (lib_device null)
   (name "LED1") (value "#COLOR")
   (attribute "COLOR" (type string) (unit none) (value "Red"))
   (attribute "FORWARD_VOLTAGE" (type string) (unit none) (value ""))
@@ -207,6 +213,7 @@
  (component 06d30802-ba7f-431d-843d-42f276aaed22
   (lib_component e995a552-12c4-413a-8258-1d6ec9a8471d)
   (lib_variant f73e9091-7c9c-420b-a2a5-d028e0a5fbc0)
+  (lib_device null)
   (name "U4") (value "STM32F103C")
   (sig 17176110-d838-455c-93bc-83275de74c98 (net f346a129-4fa9-467d-bde0-34a6b66bdd67))
   (sig 1c19712a-913a-4cb6-961e-5771921ee17a (net a2d66e09-1611-4237-8912-4890d72d6bd0))
@@ -256,6 +263,7 @@
  (component 0c451a9f-1e21-4533-8d52-e2aacef8a883
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R13") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit ohm) (value "220"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 161b9ccd-49cc-453b-944a-9c0f4aa804ad))
@@ -264,6 +272,7 @@
  (component 0c46076b-7882-4e44-942f-2592d2a21879
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R9") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "47"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 09750fe3-8f0b-4239-91ae-ec78221f6b60))
@@ -272,6 +281,7 @@
  (component 0cd12bfe-4971-4905-8354-c2b2c47bfcde
   (lib_component c54375c5-7149-4ded-95c5-7462f7301ee7)
   (lib_variant 5412add2-af9c-44b8-876d-a0fb7c201897)
+  (lib_device null)
   (name "C7") (value "#CAPACITANCE\n#VOLTAGE")
   (attribute "CAPACITANCE" (type capacitance) (unit microfarad) (value "680"))
   (attribute "VOLTAGE" (type voltage) (unit volt) (value "35"))
@@ -281,18 +291,21 @@
  (component 149a7a8c-e3be-446e-aee2-53ba02a79384
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP15") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 14d30f5e-339e-4eee-9df4-6d6c8b10a97f
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP16") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 15e33177-fef9-4030-93f7-b7cf8b9ad9e7
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C8") (value "#CAPACITANCE\n#VOLTAGE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "100"))
   (attribute "VOLTAGE" (type voltage) (unit volt) (value "50"))
@@ -302,6 +315,7 @@
  (component 18cf34f6-95e4-48a0-bf4b-6a2d13523f0f
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C11") (value "#CAPACITANCE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "100"))
   (sig 1c1c7abc-7b40-4f92-b533-f65604644db7 (net f346a129-4fa9-467d-bde0-34a6b66bdd67))
@@ -310,6 +324,7 @@
  (component 1b1ac6e2-3309-4447-8fcf-e95221f19090
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R6") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit ohm) (value "56"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 609d1730-f335-4c39-90a6-acc934ab2273))
@@ -318,12 +333,14 @@
  (component 1b517f7e-cd6e-43ca-ba7f-cf6be1812b3d
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP25") (value "3V3")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 066db5ac-3232-4824-be9e-fa65aa35c95b))
  )
  (component 1d8a93b9-7ac2-40a0-b1b7-79e987600197
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C14") (value "#CAPACITANCE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "100"))
   (sig 1c1c7abc-7b40-4f92-b533-f65604644db7 (net 066db5ac-3232-4824-be9e-fa65aa35c95b))
@@ -332,6 +349,7 @@
  (component 1fe7624e-269b-4fba-880d-abef3d0efa2e
   (lib_component 27bf51af-a016-45b4-87cb-844c72a38d66)
   (lib_variant df7447ce-127b-4827-abe2-767791c96981)
+  (lib_device null)
   (name "Q2") (value "PSMN5R8")
   (sig 3982c030-dbdf-4cb9-8d75-0e471e12fabb (net a87c6342-c3ac-40a2-b688-df06d98233d7))
   (sig 4c7edd50-32d2-4098-a286-3536b882967b (net 2c9064ac-a99a-425b-a78d-d6ae9675553a))
@@ -340,6 +358,7 @@
  (component 217de8c7-c834-4900-b3b2-7c5b277a5737
   (lib_component 0d3f9c9a-8e7b-47e8-bbef-6d7c55a9e2e1)
   (lib_variant 019d6d8e-4f08-43c6-bfe8-18014bec2a47)
+  (lib_device null)
   (name "ST2") (value "UART")
   (sig 57377782-02e2-42cc-a1a2-dda3269ade9e (net 066db5ac-3232-4824-be9e-fa65aa35c95b))
   (sig 62bd0aac-cc16-41d7-8cd8-62d324da77e0 (net 99316d45-507c-4bbe-8210-e8d8f90e1d61))
@@ -349,18 +368,21 @@
  (component 228ff0bc-94bd-4218-84a7-f8ab51ad6f69
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP20") (value "VSS")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
  )
  (component 2632a8d7-e836-4fb2-8d00-0b6ea3483ad7
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP23") (value "3V3")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 066db5ac-3232-4824-be9e-fa65aa35c95b))
  )
  (component 26965a1b-09e1-41ee-b463-2684e7a87818
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R1") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit ohm) (value "56"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 446c379c-7ca7-4a3c-bcb4-4b4803e5bf6a))
@@ -369,18 +391,21 @@
  (component 291e62f2-5792-44e3-8532-4b85031b4314
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP18") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 2a1bc471-eacc-4730-83cb-6acf7f3b5c55
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP26") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 2c8af4fb-cc24-4676-b77e-8d2b64dd73d0
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R15") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit ohm) (value "120"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net f7df2b18-9f30-449a-8afd-c4a6a16cc7d2))
@@ -389,12 +414,14 @@
  (component 2de80edd-99e3-4d89-830e-cbf4a858b4cd
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP12") (value "VSS")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
  )
  (component 2e61020a-4346-4277-8f6b-42d8ec60fe49
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C6") (value "#CAPACITANCE\n#VOLTAGE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "220"))
   (attribute "VOLTAGE" (type voltage) (unit volt) (value "50"))
@@ -404,6 +431,7 @@
  (component 2ebbad7c-7050-4575-a1aa-4f3966506d83
   (lib_component 27bf51af-a016-45b4-87cb-844c72a38d66)
   (lib_variant df7447ce-127b-4827-abe2-767791c96981)
+  (lib_device null)
   (name "Q1") (value "PSMN5R8")
   (sig 3982c030-dbdf-4cb9-8d75-0e471e12fabb (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
   (sig 4c7edd50-32d2-4098-a286-3536b882967b (net 0a6b8cee-5598-45ac-a56a-acf3bb7db32f))
@@ -412,6 +440,7 @@
  (component 3079e423-f0e6-42fc-8c93-4cd82690bdc1
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C15") (value "#CAPACITANCE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "100"))
   (sig 1c1c7abc-7b40-4f92-b533-f65604644db7 (net 066db5ac-3232-4824-be9e-fa65aa35c95b))
@@ -420,6 +449,7 @@
  (component 3110f961-42bd-4e24-bba7-47930f1b2c03
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R11") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "6.8"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
@@ -428,12 +458,14 @@
  (component 334d7856-01f5-46e3-85b9-28445e6371ce
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP1") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 3437d160-1c40-458f-9867-f30c7706e0c3
   (lib_component ce31c203-9bec-4345-8906-04fb7997ef5b)
   (lib_variant 80db57cd-d3fa-4fec-80f1-3543456340ec)
+  (lib_device null)
   (name "IC2") (value "LM1117")
   (sig 8e074b73-9015-4c28-969f-d2d929af889d (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
   (sig a78ae9aa-1c78-4d1f-98e8-9bd253555a6d (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
@@ -442,6 +474,7 @@
  (component 3499d4eb-40bd-44df-8ef1-9544fae56a75
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R3") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit ohm) (value "56"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 6fa069ec-4228-4d50-9683-9a5716368dce))
@@ -450,24 +483,28 @@
  (component 40f0240d-6c33-452d-845f-29471c1eced5
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP22") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 41ee6094-1f47-4775-8f19-663f8b1efdde
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP17") (value "3V3")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 066db5ac-3232-4824-be9e-fa65aa35c95b))
  )
  (component 422bed02-7435-4aae-a71a-b5c7fecd3056
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP24") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 43bc94dc-6ab0-4bb2-bf66-c034b9f1cfd0
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C17") (value "#CAPACITANCE")
   (attribute "CAPACITANCE" (type capacitance) (unit microfarad) (value "1"))
   (sig 1c1c7abc-7b40-4f92-b533-f65604644db7 (net 97138543-14fc-4432-bf03-d42f4c8f1b31))
@@ -476,6 +513,7 @@
  (component 46601a79-4b4e-401c-826b-6c04056b4080
   (lib_component 27bf51af-a016-45b4-87cb-844c72a38d66)
   (lib_variant df7447ce-127b-4827-abe2-767791c96981)
+  (lib_device null)
   (name "Q4") (value "PSMN5R8")
   (sig 3982c030-dbdf-4cb9-8d75-0e471e12fabb (net e5fdb792-6bf4-421b-8078-b205693dfe1a))
   (sig 4c7edd50-32d2-4098-a286-3536b882967b (net 7e125e0a-cf13-418a-847c-f832c0d78db6))
@@ -484,6 +522,7 @@
  (component 4ea5b830-f231-4ded-9d0d-3d69b6a938df
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R28") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit ohm) (value "130"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 1ebc4991-e356-4ec4-9394-5448780cedee))
@@ -492,12 +531,14 @@
  (component 51f2b297-88ec-4703-b2ed-bab50489cba8
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP31") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 5295af36-44e2-4a2e-a988-87c9e1026ae9
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C1") (value "#CAPACITANCE\n#VOLTAGE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "220"))
   (attribute "VOLTAGE" (type voltage) (unit volt) (value "50"))
@@ -507,12 +548,14 @@
  (component 596d6d2e-97a9-47cf-9005-7a4a1e850f1e
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP32") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 5a493e46-5b95-4d98-ba08-8bf6a741a817
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R12") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "6.8"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
@@ -521,12 +564,14 @@
  (component 5ce9b3be-1fa3-471e-b498-77bfbf6c415a
   (lib_component 197dacc7-3785-4054-a538-ced0d6271faa)
   (lib_variant 0f0439a1-c258-40e7-b407-029f084c372f)
+  (lib_device null)
   (name "PAD2") (value "GND")
   (sig ad6ae81a-7914-49b7-a87b-a0e8574b7398 (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 5e0bdeff-3d85-4b74-b94d-097fb1de25ac
   (lib_component 27bf51af-a016-45b4-87cb-844c72a38d66)
   (lib_variant df7447ce-127b-4827-abe2-767791c96981)
+  (lib_device null)
   (name "Q3") (value "PSMN5R8")
   (sig 3982c030-dbdf-4cb9-8d75-0e471e12fabb (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
   (sig 4c7edd50-32d2-4098-a286-3536b882967b (net d25ac99a-f158-4ceb-b46e-87df899b8b19))
@@ -535,6 +580,7 @@
  (component 5ef7639d-db84-4bfa-8356-83fc28a1a9f7
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R10") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "6.8"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
@@ -543,12 +589,14 @@
  (component 6318899d-5a8e-4089-89ee-2d2b54fe8d42
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP28") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 68c6b6ce-0bad-4965-aa85-c972ab3f16c6
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C9") (value "#CAPACITANCE\n#VOLTAGE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "100"))
   (attribute "VOLTAGE" (type voltage) (unit volt) (value "10"))
@@ -558,12 +606,14 @@
  (component 694e8ab2-0367-49b7-b548-8314e2a84c77
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP8") (value "VSS")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
  )
  (component 69f3d0cf-ca3d-4323-b0c3-67c4fce8b501
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C3") (value "#CAPACITANCE\n#VOLTAGE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "220"))
   (attribute "VOLTAGE" (type voltage) (unit volt) (value "50"))
@@ -573,6 +623,7 @@
  (component 6c9b623e-6231-4e9c-bf97-944df7a5d3d5
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C4") (value "#CAPACITANCE\n#VOLTAGE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "220"))
   (attribute "VOLTAGE" (type voltage) (unit volt) (value "50"))
@@ -582,6 +633,7 @@
  (component 709a326c-b6ad-4dcb-95cf-7ce8962bb16c
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R5") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit ohm) (value "56"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 20a04b28-28f0-458b-a57e-86f64e522b36))
@@ -590,12 +642,14 @@
  (component 716ccdc2-fb79-492b-b76a-7f73c0833e5f
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP6") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 76c1f0be-1e24-4b1d-beed-edc08bd44118
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R19") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit ohm) (value "130"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net b85d51dc-bb39-4227-b2c6-5e1f52cd1a11))
@@ -604,30 +658,35 @@
  (component 78bd925b-ee02-4142-80c3-59153a60d658
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP29") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 7b566985-46f7-47e1-af33-2ba64918db44
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP27") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 7ce8e5bf-571d-4b03-a9e7-4e81130dc613
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP4") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component 7d9771c2-7a04-4ab3-866a-cbc12bb590b4
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP13") (value "VSS")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
  )
  (component 8092d8bb-f5df-4a43-b5d4-751cdfb474e9
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C12") (value "#CAPACITANCE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "100"))
   (sig 1c1c7abc-7b40-4f92-b533-f65604644db7 (net 066db5ac-3232-4824-be9e-fa65aa35c95b))
@@ -636,6 +695,7 @@
  (component 81c6addc-9f55-40ef-9b5a-08816ca0a661
   (lib_component cc20c58e-93b5-49cd-b6e1-48c5e5e76ed3)
   (lib_variant 4bfd5089-9ea7-4019-a507-583509a32d75)
+  (lib_device null)
   (name "U2") (value "IR25606")
   (sig 0c2b7df1-57c7-47a7-944f-4aece84b05ca (net 8867be40-a3b7-4d6f-9f87-bca92b51d043))
   (sig 1076d030-d216-467b-8a2d-40338779ad94 (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
@@ -649,18 +709,21 @@
  (component 820e8fe1-b1a9-488d-9610-0a97204391b4
   (lib_component 197dacc7-3785-4054-a538-ced0d6271faa)
   (lib_variant 0f0439a1-c258-40e7-b407-029f084c372f)
+  (lib_device null)
   (name "PAD4") (value "PHASE B")
   (sig ad6ae81a-7914-49b7-a87b-a0e8574b7398 (net e5fdb792-6bf4-421b-8078-b205693dfe1a))
  )
  (component 82709ca3-4d60-4b8c-9bbb-4c2669acf146
   (lib_component 197dacc7-3785-4054-a538-ced0d6271faa)
   (lib_variant 0f0439a1-c258-40e7-b407-029f084c372f)
+  (lib_device null)
   (name "PAD5") (value "PHASE C")
   (sig ad6ae81a-7914-49b7-a87b-a0e8574b7398 (net 09750fe3-8f0b-4239-91ae-ec78221f6b60))
  )
  (component 8417e1db-8764-46a7-b5ef-2c606ecab6e1
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R2") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit ohm) (value "56"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 3f49a685-229f-4a34-bff6-4673cd8b3781))
@@ -669,6 +732,7 @@
  (component 84e890a4-2a41-4721-8737-a71f79f7d101
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C16") (value "#CAPACITANCE")
   (attribute "CAPACITANCE" (type capacitance) (unit microfarad) (value "4.7"))
   (sig 1c1c7abc-7b40-4f92-b533-f65604644db7 (net 066db5ac-3232-4824-be9e-fa65aa35c95b))
@@ -677,6 +741,7 @@
  (component 893b43c4-ef31-4853-bfa2-bd7f919ba5e3
   (lib_component 27bf51af-a016-45b4-87cb-844c72a38d66)
   (lib_variant df7447ce-127b-4827-abe2-767791c96981)
+  (lib_device null)
   (name "Q5") (value "PSMN5R8")
   (sig 3982c030-dbdf-4cb9-8d75-0e471e12fabb (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
   (sig 4c7edd50-32d2-4098-a286-3536b882967b (net f862e2a9-2596-4607-88b6-68f3696d3a8e))
@@ -685,6 +750,7 @@
  (component 8a1420be-e7d4-4a7f-a88d-4dcfa99f67ed
   (lib_component 82207562-d317-4911-96fa-ceb0f45fd806)
   (lib_variant b9de4767-8626-4d02-8895-6fbce03105e9)
+  (lib_device null)
   (name "D2") (value "BAS21")
   (sig 69e22be3-d2fb-4b8f-ab4f-7fba3cff0aff (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
   (sig 6dd65f7f-8f6b-4b29-ade1-40bc4f84f4b8 (net 86122564-ffb0-4792-a7f8-81de3061f197))
@@ -692,12 +758,14 @@
  (component 8a4d3468-24cf-47ee-ac46-b65e47ced1ec
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP10") (value "VSS")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
  )
  (component 90c89ce4-fb19-458d-912b-cf9818efd764
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C5") (value "#CAPACITANCE\n#VOLTAGE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "220"))
   (attribute "VOLTAGE" (type voltage) (unit volt) (value "50"))
@@ -707,6 +775,7 @@
  (component 91f8c3d3-c497-4d3f-b7a0-4088b442647b
   (lib_component b847a54b-a83e-47ff-a976-7704bf05bbf4)
   (lib_variant 1b3fc3ac-2d19-4f11-809a-5c662b3111b8)
+  (lib_device null)
   (name "Q8") (value "#FREQUENCY")
   (attribute "FREQUENCY" (type frequency) (unit megahertz) (value "16"))
   (sig 878301c2-bacc-4ffa-923c-ef5b1f06e5fe (net 4024f8b2-6969-4f9b-ac41-9338b7319424))
@@ -715,6 +784,7 @@
  (component 98064fbf-64b1-4958-a0b0-825005d7a6a1
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R27") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "47"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net f346a129-4fa9-467d-bde0-34a6b66bdd67))
@@ -723,6 +793,7 @@
  (component 9843ce9e-8e17-4baa-9980-6826fc257abf
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C20") (value "#CAPACITANCE")
   (attribute "CAPACITANCE" (type capacitance) (unit picofarad) (value "20"))
   (sig 1c1c7abc-7b40-4f92-b533-f65604644db7 (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
@@ -731,6 +802,7 @@
  (component 98757eea-e6bf-4fe5-adaa-a7f407373243
   (lib_component 6f959627-00d2-4652-bfd9-f6ea0162ccdd)
   (lib_variant c864d663-a22e-4814-bc03-017d5bc7d6c6)
+  (lib_device null)
   (name "D4") (value "24V")
   (sig 0b345c41-0429-47f3-917a-5140944c7755 (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
   (sig 78fc7eeb-dca2-40c7-9543-9444e527056e (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
@@ -738,18 +810,21 @@
  (component 9c26d63b-991b-46aa-b229-fa92d44ced4e
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP3") (value "3V3")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 066db5ac-3232-4824-be9e-fa65aa35c95b))
  )
  (component 9fdd6c44-c091-4ddd-af76-5c7c70909007
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP14") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component a2df92fe-89d7-4c67-9d33-c4041c0e8f40
   (lib_component 27bf51af-a016-45b4-87cb-844c72a38d66)
   (lib_variant df7447ce-127b-4827-abe2-767791c96981)
+  (lib_device null)
   (name "Q6") (value "PSMN5R8")
   (sig 3982c030-dbdf-4cb9-8d75-0e471e12fabb (net 09750fe3-8f0b-4239-91ae-ec78221f6b60))
   (sig 4c7edd50-32d2-4098-a286-3536b882967b (net 0d51bec0-4d64-43d5-abab-d24d656bea17))
@@ -758,12 +833,14 @@
  (component a56f0beb-d2f3-4a3a-8ede-c5f5e4b69487
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP7") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component aaec816a-e94e-4d00-8ac6-dd105da862e3
   (lib_component cc20c58e-93b5-49cd-b6e1-48c5e5e76ed3)
   (lib_variant 4bfd5089-9ea7-4019-a507-583509a32d75)
+  (lib_device null)
   (name "U1") (value "IR25606")
   (sig 0c2b7df1-57c7-47a7-944f-4aece84b05ca (net a246f040-6793-47fa-8c26-f1d41163dba3))
   (sig 1076d030-d216-467b-8a2d-40338779ad94 (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
@@ -777,6 +854,7 @@
  (component ab96ca5d-43e6-4ecb-8981-1fa3117c1c7d
   (lib_component cc20c58e-93b5-49cd-b6e1-48c5e5e76ed3)
   (lib_variant 4bfd5089-9ea7-4019-a507-583509a32d75)
+  (lib_device null)
   (name "U3") (value "IR25606")
   (sig 0c2b7df1-57c7-47a7-944f-4aece84b05ca (net ecbfd5f5-0d80-4573-aeea-5d8fbaada4eb))
   (sig 1076d030-d216-467b-8a2d-40338779ad94 (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
@@ -790,12 +868,14 @@
  (component ace8d3f2-1db8-41a8-87ff-66ef95e2807c
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP5") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component ad7d2b6e-21cc-4540-8ec8-bb24a61980ea
   (lib_component 506bd124-6062-400e-9078-b38bd7e1aaee)
   (lib_variant 62a7598c-17fe-41cf-8fa1-4ed274c3adc2)
+  (lib_device null)
   (name "L1") (value "#INDUCTANCE")
   (attribute "INDUCTANCE" (type inductance) (unit microhenry) (value ""))
   (sig 5b36d330-6f19-4391-8f95-1c2f6a658286 (net 97138543-14fc-4432-bf03-d42f4c8f1b31))
@@ -804,6 +884,7 @@
  (component afd4e910-3c79-46cd-8d71-2ad6c33768d5
   (lib_component 82207562-d317-4911-96fa-ceb0f45fd806)
   (lib_variant b9de4767-8626-4d02-8895-6fbce03105e9)
+  (lib_device null)
   (name "D3") (value "BAS21")
   (sig 69e22be3-d2fb-4b8f-ab4f-7fba3cff0aff (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
   (sig 6dd65f7f-8f6b-4b29-ade1-40bc4f84f4b8 (net 7b38ebc6-0c34-4287-a3f2-192de454a1ff))
@@ -811,6 +892,7 @@
  (component b179313a-5fcb-4fb6-8e56-55865ed6ea4b
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C13") (value "#CAPACITANCE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "100"))
   (sig 1c1c7abc-7b40-4f92-b533-f65604644db7 (net 066db5ac-3232-4824-be9e-fa65aa35c95b))
@@ -819,12 +901,14 @@
  (component b44652fd-99b6-459a-914b-41e0137146f1
   (lib_component 197dacc7-3785-4054-a538-ced0d6271faa)
   (lib_variant 0f0439a1-c258-40e7-b407-029f084c372f)
+  (lib_device null)
   (name "PAD7") (value "CANL")
   (sig ad6ae81a-7914-49b7-a87b-a0e8574b7398 (net f7df2b18-9f30-449a-8afd-c4a6a16cc7d2))
  )
  (component b9859056-bbef-4848-9b60-978594cce1d4
   (lib_component 01fe9dd4-229f-4083-8c1a-4e1fe7a1fe72)
   (lib_variant e82fe1cc-0178-4949-ab27-16c8975ffd1d)
+  (lib_device null)
   (name "U5") (value "SN65HVD230DR")
   (sig 004bde4f-0412-48a8-b986-bed973ab3b92 (net f7df2b18-9f30-449a-8afd-c4a6a16cc7d2))
   (sig 35c7b2e1-e2b6-4d8b-b65e-0bca0316f6d1 (net 82bfa55d-323c-4444-8cd3-8c35e1bd0fec))
@@ -838,6 +922,7 @@
  (component ba877487-ff32-4005-8daa-6a01f996e65b
   (lib_component 98e71eaa-1b90-4a84-8529-ed4f493e5c41)
   (lib_variant 352cccd5-0c3c-4c66-88e0-6ee7c6a3cbf9)
+  (lib_device null)
   (name "FRAME1") (value "")
   (attribute "_SHEET" (type string) (unit none) (value "#SCH_FRAME_SHEET|SHEET"))
   (attribute "_PROJECT" (type string) (unit none) (value "#SCH_FRAME_PROJECT|PROJECT"))
@@ -849,6 +934,7 @@
  (component bfdf81af-9505-4e77-97e4-d68e4a90ba0f
   (lib_component 2b24b18d-bd95-4fb4-8fe6-bce1d020ead4)
   (lib_variant ed0f0ca2-43ff-4a10-94c2-2958bc336586)
+  (lib_device null)
   (name "LED2") (value "#COLOR")
   (attribute "COLOR" (type string) (unit none) (value "Green"))
   (attribute "FORWARD_VOLTAGE" (type string) (unit none) (value ""))
@@ -859,6 +945,7 @@
  (component c2030b99-62f8-4440-81de-fe7c31583926
   (lib_component 0791310f-63fb-4d8f-8266-ee309d8e5016)
   (lib_variant bfb9d5a0-9074-49de-a073-69ca2ffa4596)
+  (lib_device null)
   (name "ST1") (value "JTAG")
   (sig 0b9eae8a-63ad-4582-94c9-fe30266c86d1 (net befa5cad-9aa3-4fbd-8c61-81636ccabd6e))
   (sig 54aea1a2-260b-4cb1-a541-bac92a0457f2 (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
@@ -870,18 +957,21 @@
  (component c330f5a3-9bd5-4189-a86d-a7020235db20
   (lib_component 197dacc7-3785-4054-a538-ced0d6271faa)
   (lib_variant 0f0439a1-c258-40e7-b407-029f084c372f)
+  (lib_device null)
   (name "PAD3") (value "PHASE A")
   (sig ad6ae81a-7914-49b7-a87b-a0e8574b7398 (net a87c6342-c3ac-40a2-b688-df06d98233d7))
  )
  (component c3a404c4-3e04-44d0-a495-d8d7750fa1a1
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP9") (value "VSS")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
  )
  (component d00cf83f-e2de-4e12-b176-1c45eb6fcf6c
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R8") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "47"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net e5fdb792-6bf4-421b-8078-b205693dfe1a))
@@ -890,12 +980,14 @@
  (component d880210c-1868-4964-8dff-db2517af8024
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP11") (value "VSS")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
  )
  (component d98d04c5-74c7-4b7d-8f09-611ed955dd57
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R18") (value "#RESISTANCE\n#POWER")
   (attribute "RESISTANCE" (type resistance) (unit milliohm) (value "20"))
   (attribute "POWER" (type string) (unit none) (value "5W"))
@@ -905,12 +997,14 @@
  (component dcceb66c-f08e-4191-a47e-b24a53b41f8f
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP33") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component ddba5f4c-cacf-45da-91d6-bac636da3a6e
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R4") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit ohm) (value "56"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net e54d4e93-3f38-4980-8839-7249a758a3ad))
@@ -919,12 +1013,14 @@
  (component ded098d8-0251-473e-9602-b6638aad261f
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP34") (value "3V3")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 066db5ac-3232-4824-be9e-fa65aa35c95b))
  )
  (component df40333d-b0ea-4b4f-8a7a-a59ae2de610f
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R30") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "6.8"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
@@ -933,12 +1029,14 @@
  (component e459b9d0-21aa-40b0-b704-ae0af7de4d37
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP35") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component e4a5cdce-be42-4597-a045-6135ecd25ab8
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C18") (value "#CAPACITANCE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "10"))
   (sig 1c1c7abc-7b40-4f92-b533-f65604644db7 (net 97138543-14fc-4432-bf03-d42f4c8f1b31))
@@ -947,6 +1045,7 @@
  (component e69f768b-412d-4fe5-aeb3-c743351a6544
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C21") (value "#CAPACITANCE")
   (attribute "CAPACITANCE" (type capacitance) (unit picofarad) (value "20"))
   (sig 1c1c7abc-7b40-4f92-b533-f65604644db7 (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
@@ -955,12 +1054,14 @@
  (component e7c69946-ec6b-4fa8-a6f9-b32d65cbef69
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP30") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component e8ab7388-1846-4ca4-912d-d533fae37f01
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C2") (value "#CAPACITANCE\n#VOLTAGE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "220"))
   (attribute "VOLTAGE" (type voltage) (unit volt) (value "50"))
@@ -970,12 +1071,14 @@
  (component ebb49bc4-00fb-47bf-af63-db38d4a8f502
   (lib_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
   (lib_variant afb86b45-68ec-47b6-8d96-153d73567228)
+  (lib_device null)
   (name "SUP2") (value "VSS")
   (sig 1d893320-f811-4a79-b64e-cc23d749d394 (net 4085a1b3-be8d-4b79-9078-a75234c647c7))
  )
  (component ef27ad46-be54-4b1c-ba51-0446a0853203
   (lib_component c54375c5-7149-4ded-95c5-7462f7301ee7)
   (lib_variant 5412add2-af9c-44b8-876d-a0fb7c201897)
+  (lib_device null)
   (name "C10") (value "#CAPACITANCE\n#VOLTAGE")
   (attribute "CAPACITANCE" (type capacitance) (unit microfarad) (value "47"))
   (attribute "VOLTAGE" (type voltage) (unit volt) (value "10"))
@@ -985,6 +1088,7 @@
  (component f1121620-c541-46a5-90cc-92578e822b8f
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
   (lib_variant 8cd7b37f-e5fa-4af5-a8dd-d78830bba3af)
+  (lib_device null)
   (name "C22") (value "#CAPACITANCE")
   (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value "220"))
   (sig 1c1c7abc-7b40-4f92-b533-f65604644db7 (net 6805d3ea-58c5-4e83-9646-348ba7fd8b94))
@@ -993,12 +1097,14 @@
  (component f2ecbcd7-492d-4d2c-a28f-0af5ecf85215
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP21") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
  (component f900538b-090d-482f-9c4c-b0da46d087a8
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant a5995314-f535-45d4-8bd8-2d0b8a0dc42a)
+  (lib_device null)
   (name "R7") (value "#RESISTANCE")
   (attribute "RESISTANCE" (type resistance) (unit kiloohm) (value "47"))
   (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net a87c6342-c3ac-40a2-b688-df06d98233d7))
@@ -1007,6 +1113,7 @@
  (component feb77f2b-7f69-49e0-84e9-6684aeee2afe
   (lib_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
   (lib_variant f09ad258-595b-4ee9-a1fc-910804a203ae)
+  (lib_device null)
   (name "SUP19") (value "GND")
   (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce (net 8dbcc2b0-79cc-4750-8462-e9b7a00477e3))
  )
