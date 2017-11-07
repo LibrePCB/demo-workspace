@@ -22,7 +22,7 @@
  (variant 62a7598c-17fe-41cf-8fa1-4ed274c3adc2 (norm "IEC 60617")
   (name "European")
   (description "")
-  (item 60cec411-a717-4893-b12f-7b698925e15b
+  (gate 60cec411-a717-4893-b12f-7b698925e15b
    (symbol 11e1f693-0777-48e4-b3bd-b451f3c929b3)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 06d55f94-1316-48cb-a20f-0d4231eced31 (sig 777f11cd-9d4e-4b2b-aafa-7e7a836ff56e) (disp none))
@@ -32,7 +32,7 @@
  (variant 4245d515-6f6d-48cb-9958-a4ea23d0187f (norm "IEEE 315")
   (name "American")
   (description "")
-  (item 1a96486c-cb0e-4bd2-81cc-926f7b1dd2e4
+  (gate 1a96486c-cb0e-4bd2-81cc-926f7b1dd2e4
    (symbol d52c9a67-e522-4e17-8663-2b933b51f9fa)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 7c8796e8-a731-4428-ad4e-a85eeeaf58d1 (sig 5b36d330-6f19-4391-8f95-1c2f6a658286) (disp none))

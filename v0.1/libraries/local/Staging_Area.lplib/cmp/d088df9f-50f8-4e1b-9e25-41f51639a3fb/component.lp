@@ -56,7 +56,7 @@
  (variant 5a02736d-3200-4813-b7ae-96cab054d104 (norm "")
   (name "default")
   (description "")
-  (item b2b0bb13-97d2-4319-b355-af23084b6c33
+  (gate b2b0bb13-97d2-4319-b355-af23084b6c33
    (symbol dd907d2c-0ffa-4d4e-835e-13bfff3c445c)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "1")
    (pin 01c02288-18bd-461a-b0bf-eb576cdfcc21 (sig 2a45cebc-ee0c-4a2d-9254-56f59cc4db2b) (disp signal))

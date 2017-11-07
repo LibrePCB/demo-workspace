@@ -53,67 +53,67 @@
  (variant f0bd242f-8208-410e-ac71-d35a7ad7ef81 (norm "")
   (name "default")
   (description "")
-  (item b8738148-6825-49bf-8e45-a9abb095f246
+  (gate b8738148-6825-49bf-8e45-a9abb095f246
    (symbol 0a757ef4-781e-4f3c-aade-8a81ddaced49)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-1")
    (pin 45616a4f-3a27-43fe-b63f-11ee8266a5d9 (sig aab88b76-b5bb-49d1-909c-4860eb483ef4) (disp signal))
   )
-  (item b00c6aa4-b0ce-404d-a305-a72f12750030
+  (gate b00c6aa4-b0ce-404d-a305-a72f12750030
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-2")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig b33931b4-a7a0-4c03-9a66-d8322c290699) (disp signal))
   )
-  (item f7675953-6fc9-4aab-81c5-b0129e14bce2
+  (gate f7675953-6fc9-4aab-81c5-b0129e14bce2
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-3")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 14ef3b6f-af09-44b0-b082-5848fd83be65) (disp signal))
   )
-  (item c624eeae-0e3a-4fee-b115-fe9bdc286c89
+  (gate c624eeae-0e3a-4fee-b115-fe9bdc286c89
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-4")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 6c49a38c-c628-4230-912a-af6ec67a074b) (disp signal))
   )
-  (item f6ac43e6-f7f4-417e-8ff3-7f8afb3504e1
+  (gate f6ac43e6-f7f4-417e-8ff3-7f8afb3504e1
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-5")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig e8feb815-479d-4d2d-aeb2-8b0ef05e3c7c) (disp signal))
   )
-  (item 475f0e90-2ba9-47f5-a0a8-a31b6caa1141
+  (gate 475f0e90-2ba9-47f5-a0a8-a31b6caa1141
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-6")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 93efbc84-0f8e-43d6-be35-37ea7191b4e7) (disp signal))
   )
-  (item 33e18f9a-9f1d-4150-93d6-9f121c01614f
+  (gate 33e18f9a-9f1d-4150-93d6-9f121c01614f
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-7")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig ecd98556-6f2b-447c-bb7d-7dd2cf8d82de) (disp signal))
   )
-  (item 6661b2ae-11dc-46e9-a012-527120f19800
+  (gate 6661b2ae-11dc-46e9-a012-527120f19800
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-8")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 5e41819d-53d1-4047-b8b6-ea7bef74d099) (disp signal))
   )
-  (item 7eb3cafa-68eb-41f4-89ca-ce20dd6ffefc
+  (gate 7eb3cafa-68eb-41f4-89ca-ce20dd6ffefc
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-9")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig a905b94d-97bd-43d2-857f-aa7dce9af65a) (disp signal))
   )
-  (item 1dee665a-b8f4-473c-97be-0133c6de3de9
+  (gate 1dee665a-b8f4-473c-97be-0133c6de3de9
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-10")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 33701284-bb56-49ce-ad67-a02ce8517df0) (disp signal))
   )
-  (item 8a57133a-191a-40d5-b0f5-3ff2d44aeab6
+  (gate 8a57133a-191a-40d5-b0f5-3ff2d44aeab6
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-11")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 9b1cc891-46f9-4909-aebb-7db602d7b00a) (disp signal))
   )
-  (item 2d49fd19-954a-40f0-9d1a-6fe153456788
+  (gate 2d49fd19-954a-40f0-9d1a-6fe153456788
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-12")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig e894f8d6-f83a-4fe5-96f3-460781a50d75) (disp signal))
   )
-  (item 42a8184c-43e8-48a6-a854-4296e1fdb5b5
+  (gate 42a8184c-43e8-48a6-a854-4296e1fdb5b5
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-13")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig f512fa72-e835-4613-9b3a-c65d9d02d849) (disp signal))

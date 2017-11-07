@@ -29,7 +29,7 @@
  (variant 54eb46ce-0468-4559-bfb0-603e96899617 (norm "")
   (name "default")
   (description "")
-  (item dce5958c-5ae5-460e-b00d-e4416d5886af
+  (gate dce5958c-5ae5-460e-b00d-e4416d5886af
    (symbol 655b930c-a333-409e-aab6-03f17410a725)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "B")
    (pin 08ccb7fa-d9e7-4178-ad07-ce0ce31391fb (sig 9da4bc2e-4ade-422c-b77b-3b4010053105) (disp signal))

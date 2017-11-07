@@ -14,7 +14,7 @@
  (variant ff46c451-38fe-4485-8d5d-c2b79798981f (norm "")
   (name "default")
   (description "")
-  (item c0c9220e-dee7-47e6-9432-7e8a92bcfa62
+  (gate c0c9220e-dee7-47e6-9432-7e8a92bcfa62
    (symbol 2aa0e28c-8bd8-4fe3-bfc5-65bb7c123bee)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
   )

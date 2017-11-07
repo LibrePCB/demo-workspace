@@ -18,7 +18,7 @@
  (variant f09ad258-595b-4ee9-a1fc-910804a203ae (norm "")
   (name "Default")
   (description "")
-  (item 0539fd52-890f-48af-97a9-bacfb79c9475
+  (gate 0539fd52-890f-48af-97a9-bacfb79c9475
    (symbol 80f8cd68-69d9-43c4-9ed2-da32ca714b10)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin abcc319b-d09f-437b-a624-3dcf3eff5792 (sig ff161c97-29a5-43aa-a9ae-3ca7a66982ce) (disp none))

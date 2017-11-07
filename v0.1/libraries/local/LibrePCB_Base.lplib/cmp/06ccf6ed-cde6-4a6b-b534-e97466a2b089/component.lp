@@ -21,7 +21,7 @@
  (variant 9d8c0758-7c6a-4e39-9d55-4363d0d19f4d (norm "")
   (name "default")
   (description "")
-  (item f88e7d41-2aa6-4223-8362-6a8e50632a61
+  (gate f88e7d41-2aa6-4223-8362-6a8e50632a61
    (symbol 4a47ee5d-7e92-4b92-a62a-267f2bd5c1fb)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 23ed63d6-d60d-46c0-82f8-3bddacf237d4 (sig 4701d7cc-3273-4653-b495-1dbc07892069) (disp none))

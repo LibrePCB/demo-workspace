@@ -20,7 +20,7 @@
  (variant 45bd946f-700c-41bd-98c8-d42722afd163 (norm "")
   (name "default")
   (description "")
-  (item 7cb9b7e8-67eb-4844-b720-d243a8ced7aa
+  (gate 7cb9b7e8-67eb-4844-b720-d243a8ced7aa
    (symbol 8eaf9d11-7442-4af8-9051-9e3662b36279)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "1")
    (pin 8aa8c919-7171-4594-ae73-dc0b76bf036f (sig 4372e057-0650-4ed3-97b6-5b7bfe56d5ac) (disp signal))

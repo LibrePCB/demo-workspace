@@ -26,7 +26,7 @@
  (variant 916a7b60-a256-4c87-9185-d40c51321d66 (norm "")
   (name "default")
   (description "")
-  (item 05a17ab4-4c30-4095-9ec5-739ce43c5892
+  (gate 05a17ab4-4c30-4095-9ec5-739ce43c5892
    (symbol e24e0a27-d7dc-43d5-8ca6-cef47a36f6ec)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 19366e0b-bfc6-4b78-b509-815d6c6f0700 (sig fcefc1ef-f878-4c02-ad3e-1cf83660ba48) (disp signal))

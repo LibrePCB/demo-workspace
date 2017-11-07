@@ -32,7 +32,7 @@
  (variant f0647872-4617-437e-ab5a-0029fdc7a1d5 (norm "")
   (name "default")
   (description "")
-  (item b1bf362d-4437-4421-9efe-1b5fec6466e2
+  (gate b1bf362d-4437-4421-9efe-1b5fec6466e2
    (symbol acac1f23-a4e2-4e0f-b9c8-ff6a40df4219)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 0cff3006-ab43-4d98-a2c4-dfa633977b49 (sig f5097956-7257-4bcb-8771-fc356910fbed) (disp none))

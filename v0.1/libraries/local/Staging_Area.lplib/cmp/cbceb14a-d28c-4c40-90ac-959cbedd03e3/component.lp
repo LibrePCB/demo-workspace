@@ -98,7 +98,7 @@
  (variant af9b39e6-c7bd-4a9b-b8c2-4480829d51fc (norm "")
   (name "default")
   (description "")
-  (item af5b40e6-cb26-4503-8055-4d9aa310b567
+  (gate af5b40e6-cb26-4503-8055-4d9aa310b567
    (symbol ed9b801e-74ed-4435-8ab1-3d711ed88eec)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 03db8f8c-be3d-4bd8-82e7-bb3a019bbfb3 (sig bbb1b5a2-fc15-4c73-9d69-38c3ab91ab70) (disp signal))

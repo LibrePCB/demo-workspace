@@ -26,7 +26,7 @@
  (variant 571efc14-e620-4705-9e6a-344e76ad7079 (norm "")
   (name "default")
   (description "")
-  (item 05f34b5e-7510-4257-a57d-35c48a2b57cc
+  (gate 05f34b5e-7510-4257-a57d-35c48a2b57cc
    (symbol 86d899bc-4877-45d2-9cad-a16ad110de50)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 549dbb45-791d-4d7d-bed1-d7dc9cb20220 (sig 294fc494-3dc4-4c58-9aec-cb3ecdc79d18) (disp none))

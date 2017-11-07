@@ -44,7 +44,7 @@
  (variant 9071def2-0d7c-4d91-95ef-7263dd87896b (norm "")
   (name "default")
   (description "")
-  (item 1d535301-1593-4c39-88c4-e91106f8eeae
+  (gate 1d535301-1593-4c39-88c4-e91106f8eeae
    (symbol 29f8caf5-4ccf-49fd-9601-29c7641128ab)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 0dbf3d68-5c62-402a-a7dd-e385fc8923b6 (sig 0ef8853a-3ce4-483a-a4cb-a8141a6d401a) (disp signal))

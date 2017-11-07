@@ -23,7 +23,7 @@
  (variant 7b176921-1fe8-4b78-a1d7-b3075ef11fad (norm "")
   (name "default")
   (description "")
-  (item fc72d2cd-ad97-4ece-bebe-ba60995f026e
+  (gate fc72d2cd-ad97-4ece-bebe-ba60995f026e
    (symbol 9c3c52aa-e8b2-4680-9671-d5c48b7c7c67)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 3ac1bd16-0023-4e61-9e7f-e7319e0a3a64 (sig e11985a7-ac17-4f41-bf8a-956ffe5d16a6) (disp signal))

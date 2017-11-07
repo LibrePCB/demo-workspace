@@ -39,7 +39,7 @@
  (variant 4bfd5089-9ea7-4019-a507-583509a32d75 (norm "")
   (name "default")
   (description "")
-  (item dcf1ad9b-0242-450e-bb79-9ad9a1b82bf8
+  (gate dcf1ad9b-0242-450e-bb79-9ad9a1b82bf8
    (symbol 8f089c97-5f9b-4437-94a6-3d2f958583c7)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 371eaace-87bd-4780-846c-1cf31e4f1b74 (sig ff96d3fb-e43d-4391-b30f-ec72cbefb149) (disp signal))

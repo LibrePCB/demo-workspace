@@ -65,87 +65,87 @@
  (variant 1f6da06b-a579-4e41-a727-7120558f5a9a (norm "")
   (name "default")
   (description "")
-  (item 9c51b7be-34c3-4649-a78d-212d24a71996
+  (gate 9c51b7be-34c3-4649-a78d-212d24a71996
    (symbol 0a757ef4-781e-4f3c-aade-8a81ddaced49)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-1")
    (pin 45616a4f-3a27-43fe-b63f-11ee8266a5d9 (sig ef3d7847-fff8-442d-97bf-ef85f0b9655b) (disp signal))
   )
-  (item f11f9beb-c478-41a3-877a-a392c02e1071
+  (gate f11f9beb-c478-41a3-877a-a392c02e1071
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-2")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig ac6edc11-652a-4a8b-bdfd-fa46e039f854) (disp signal))
   )
-  (item 7631cba7-b945-43fa-9d12-739881f85ae3
+  (gate 7631cba7-b945-43fa-9d12-739881f85ae3
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-3")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig f5bd108b-7650-4bee-94e6-774cfd8e7f83) (disp signal))
   )
-  (item 438de479-23a3-4708-a91f-1adce0df32a0
+  (gate 438de479-23a3-4708-a91f-1adce0df32a0
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-4")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 63c8c829-a951-4b66-9167-4055af11ab11) (disp signal))
   )
-  (item de73177c-bcc4-44e5-a987-54d5b17ffd2b
+  (gate de73177c-bcc4-44e5-a987-54d5b17ffd2b
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-5")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 318f0e7b-7513-4ccd-840c-33ae47c7e5d5) (disp signal))
   )
-  (item 747efbb3-c377-4097-9add-2926ca201b18
+  (gate 747efbb3-c377-4097-9add-2926ca201b18
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-6")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 43479e71-b487-48f9-ace0-83ed753e8abb) (disp signal))
   )
-  (item 1728ad52-d2e7-4972-a979-ddb63146c290
+  (gate 1728ad52-d2e7-4972-a979-ddb63146c290
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-7")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 57606244-ae52-47fd-8d6e-9107f65583ce) (disp signal))
   )
-  (item 11f33b69-ed6a-42f7-ad3f-e35ba0cdbb5d
+  (gate 11f33b69-ed6a-42f7-ad3f-e35ba0cdbb5d
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-8")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig f38e5ae6-e60c-470a-871b-9bf4f42687a2) (disp signal))
   )
-  (item 281fdb7d-3215-40f3-a4d5-169ae9608412
+  (gate 281fdb7d-3215-40f3-a4d5-169ae9608412
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-9")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 10d86430-06fc-49f4-af4a-c748dd9fac8a) (disp signal))
   )
-  (item 8e77d1c2-c108-4db1-a7a8-4553947f2d57
+  (gate 8e77d1c2-c108-4db1-a7a8-4553947f2d57
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-10")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 331f2b8d-f389-4749-a0d0-8b74574fe77c) (disp signal))
   )
-  (item 7b7a5de9-1693-460b-8136-fe2d3ae58fb8
+  (gate 7b7a5de9-1693-460b-8136-fe2d3ae58fb8
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-11")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 7cb7396e-67b6-4688-8497-4975ef88c6d6) (disp signal))
   )
-  (item 145a6817-7d7f-4fbf-a741-c3284f54ebe2
+  (gate 145a6817-7d7f-4fbf-a741-c3284f54ebe2
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-12")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig e0ea9853-77cf-4fae-9f52-b3e9add71647) (disp signal))
   )
-  (item 2ef742fd-22f9-4731-82f6-6e7f844168ea
+  (gate 2ef742fd-22f9-4731-82f6-6e7f844168ea
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-13")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 83deac75-8672-4de8-825f-4d8ad59eb639) (disp signal))
   )
-  (item 8504e645-e8e6-425e-98cf-834b723f7988
+  (gate 8504e645-e8e6-425e-98cf-834b723f7988
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-14")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig c2a0f7ec-5377-4a00-ba17-359bc3b63c67) (disp signal))
   )
-  (item e0f18089-bfaa-409c-a1db-b954c11314c2
+  (gate e0f18089-bfaa-409c-a1db-b954c11314c2
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-15")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 7fd6e63f-f7b1-4eb2-9cca-876aa8d4b391) (disp signal))
   )
-  (item d30aae96-0adc-43f6-bff9-841541195968
+  (gate d30aae96-0adc-43f6-bff9-841541195968
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-16")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 82bdae48-f375-47d1-add9-4796f87a0775) (disp signal))
   )
-  (item f2eb8170-e060-4fe0-985e-3207a6647a44
+  (gate f2eb8170-e060-4fe0-985e-3207a6647a44
    (symbol 37fe28e9-c52d-4849-a2d5-a7288e0ad8f5)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-17")
    (pin 30aecab6-78da-4867-91a2-4425c2addf92 (sig 2d701987-ac78-4003-bd85-490d95c7737d) (disp signal))

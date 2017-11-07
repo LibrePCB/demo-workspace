@@ -21,7 +21,7 @@
  (variant 352cccd5-0c3c-4c66-88e0-6ee7c6a3cbf9 (norm "")
   (name "A4 Landscape")
   (description "")
-  (item 6ca391c0-1c6d-4176-9607-31bf40d1b406
+  (gate 6ca391c0-1c6d-4176-9607-31bf40d1b406
    (symbol f00ab942-6980-442b-86a8-51b92de5704d)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
   )

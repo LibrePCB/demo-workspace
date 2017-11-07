@@ -21,7 +21,7 @@
  (variant c864d663-a22e-4814-bc03-017d5bc7d6c6 (norm "")
   (name "default")
   (description "")
-  (item fade976e-1f99-41a4-bcfc-b29524c37768
+  (gate fade976e-1f99-41a4-bcfc-b29524c37768
    (symbol c2c427a9-17c6-4400-981c-6ece1c9735c3)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin b03c23a6-4890-42b5-ad6a-4b4fe1f77fbd (sig 0b345c41-0429-47f3-917a-5140944c7755) (disp none))

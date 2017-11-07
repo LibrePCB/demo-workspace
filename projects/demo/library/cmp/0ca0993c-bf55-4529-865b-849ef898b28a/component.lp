@@ -21,7 +21,7 @@
  (variant e7e782be-7879-4392-841f-875150aba9f2 (norm "")
   (name "default")
   (description "")
-  (item 426e2b17-da88-400b-b1fb-248b24f9c541
+  (gate 426e2b17-da88-400b-b1fb-248b24f9c541
    (symbol 9b75d0ce-ac4e-4a52-a88a-8777f66d3241)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 48dad2d5-4392-4d8f-870e-9e69d9727b83 (sig 343a05e0-6e9b-4317-a7de-61bd3c774b5c) (disp none))

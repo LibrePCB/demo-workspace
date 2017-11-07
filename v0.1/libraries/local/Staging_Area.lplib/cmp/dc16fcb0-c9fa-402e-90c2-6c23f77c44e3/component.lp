@@ -38,7 +38,7 @@
  (variant 798ad3c2-3a9b-47d3-9380-2bfc6867032a (norm "")
   (name "default")
   (description "")
-  (item 88ab1c23-5aab-44cb-b15a-acc7c83f6c48
+  (gate 88ab1c23-5aab-44cb-b15a-acc7c83f6c48
    (symbol ccd54157-5744-44bc-8533-8921a5990137)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "RV-3029-C1")
    (pin 0792d1c4-f715-474b-86a8-ba2b09e3d9d0 (sig 60598b7a-45ef-4405-87a6-5d8639bb9370) (disp signal))

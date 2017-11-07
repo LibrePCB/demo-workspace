@@ -21,7 +21,7 @@
  (variant b9de4767-8626-4d02-8895-6fbce03105e9 (norm "")
   (name "default")
   (description "")
-  (item c8239abb-cb41-4c06-ae9c-c2568a7cdcb8
+  (gate c8239abb-cb41-4c06-ae9c-c2568a7cdcb8
    (symbol b4019e5f-dead-4f11-9040-41fa27f7f4bd)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 0c83d4fb-d2f9-4199-b82e-f65cdb357d55 (sig 69e22be3-d2fb-4b8f-ab4f-7fba3cff0aff) (disp none))

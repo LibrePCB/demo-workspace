@@ -44,7 +44,7 @@
  (variant 32708750-98df-4a25-b03b-5d8b999e90f0 (norm "")
   (name "default")
   (description "")
-  (item 01c670ef-1d0a-45d1-bedd-e0fac130d74e
+  (gate 01c670ef-1d0a-45d1-bedd-e0fac130d74e
    (symbol c33afcd4-19a6-4a5b-aa1b-69cd904dfff2)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 01a5d256-9c72-48b8-8280-88656fb76795 (sig 28b0215e-9e38-4920-8c61-cadf232b1982) (disp signal))

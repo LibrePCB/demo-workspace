@@ -23,7 +23,7 @@
  (variant aee32b54-fe8a-4d2a-83b0-fb0006cacde6 (norm "")
   (name "default")
   (description "")
-  (item af88f614-431c-44e8-8083-ed0e49518ecc
+  (gate af88f614-431c-44e8-8083-ed0e49518ecc
    (symbol f6fda164-4f17-47be-a31d-50547ee09a2f)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "1")
    (pin 1f5ed495-be56-4af2-b9e1-36a8ad186b73 (sig 54160ff0-5a90-4bf3-8d69-39a568afe653) (disp signal))

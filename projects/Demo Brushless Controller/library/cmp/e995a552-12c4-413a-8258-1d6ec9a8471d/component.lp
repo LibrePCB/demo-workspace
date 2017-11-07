@@ -147,7 +147,7 @@
  (variant f73e9091-7c9c-420b-a2a5-d028e0a5fbc0 (norm "")
   (name "default")
   (description "")
-  (item 0428743a-191b-40d1-82b6-a943bff79846
+  (gate 0428743a-191b-40d1-82b6-a943bff79846
    (symbol 8b1b2861-568d-412f-b2a2-f33ddedb771a)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 05e0076e-df1f-44ad-8223-5d331ff5e103 (sig d32129a9-ef01-4f00-b988-edd609ce6554) (disp signal))

@@ -23,7 +23,7 @@
  (variant 1323b190-1303-4263-8df6-33d80045fd2d (norm "")
   (name "default")
   (description "")
-  (item 4bea04bb-05ac-4a11-a88e-644e8a7757ba
+  (gate 4bea04bb-05ac-4a11-a88e-644e8a7757ba
    (symbol fc440b09-8e99-4ad6-8cf2-6bd681faae53)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 4eef9bcf-68ec-4ae7-9ea3-08d703ef40ba (sig 1f35d61f-9dfa-4a7e-a2d3-3f0065164fb5) (disp signal))

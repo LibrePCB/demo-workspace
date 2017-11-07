@@ -146,7 +146,7 @@
  (variant 8b0986f8-45fb-48e5-8b8d-0c5565a75fad (norm "")
   (name "default")
   (description "")
-  (item bdbaf229-8520-4044-a59c-384a2faebf47
+  (gate bdbaf229-8520-4044-a59c-384a2faebf47
    (symbol f0061936-5169-49c9-bfa5-4efc8108cd1c)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 169d6728-7108-4600-aa48-765711db01bc (sig f97e0eac-ddf7-4322-825a-7157626b5c7e) (disp signal))

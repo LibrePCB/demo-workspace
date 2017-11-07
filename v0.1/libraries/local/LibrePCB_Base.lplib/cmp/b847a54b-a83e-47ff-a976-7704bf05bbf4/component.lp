@@ -22,7 +22,7 @@
  (variant 1b3fc3ac-2d19-4f11-809a-5c662b3111b8 (norm "")
   (name "default")
   (description "")
-  (item 2408ccc8-11f8-461c-9752-32f4383c2ff6
+  (gate 2408ccc8-11f8-461c-9752-32f4383c2ff6
    (symbol 986f38ca-ea17-4c03-97a6-b7d5fc7d8012)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 2fa806c9-af1c-457c-a92f-3459e6131fbc (sig fd760be8-09ce-411f-a869-fdc1e74229a9) (disp none))

@@ -86,7 +86,7 @@
  (variant f2252828-8cbd-443b-b767-f547f2625e2c (norm "")
   (name "default")
   (description "")
-  (item c0622ab3-55ab-482c-ae1a-3f4f57f501b2
+  (gate c0622ab3-55ab-482c-ae1a-3f4f57f501b2
    (symbol 7f2a3917-a794-40a2-922d-e6d67899cd5d)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 2eb86a7c-d585-4477-91db-720d9b730123 (sig bc8951b8-fd9c-4fed-9de2-21ae32911568) (disp signal))

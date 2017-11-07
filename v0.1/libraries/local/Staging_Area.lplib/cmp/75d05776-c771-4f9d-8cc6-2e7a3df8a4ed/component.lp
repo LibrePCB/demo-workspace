@@ -122,7 +122,7 @@
  (variant d13d55ef-9a86-4137-80ea-228d5e3fa2b0 (norm "")
   (name "default")
   (description "")
-  (item 3d581850-3faf-4405-8305-d376a5995bdd
+  (gate 3d581850-3faf-4405-8305-d376a5995bdd
    (symbol 36e14306-61bc-4c55-8f91-ab52a082c395)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 04333ae8-1028-4c29-b991-dc27df8fd82f (sig acfb9fed-43ca-4486-9cef-7409e92f52ad) (disp signal))

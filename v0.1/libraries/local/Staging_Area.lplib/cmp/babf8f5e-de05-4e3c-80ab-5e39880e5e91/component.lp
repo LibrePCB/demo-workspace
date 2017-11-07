@@ -92,7 +92,7 @@
  (variant f67d0780-8339-40d5-bdec-a6e1dd38582f (norm "")
   (name "default")
   (description "")
-  (item faab0646-294e-4f83-90d1-de38fbc9aabf
+  (gate faab0646-294e-4f83-90d1-de38fbc9aabf
    (symbol 01d22963-971a-4719-a6b1-081295d7fe31)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "1")
    (pin 0b10fc23-9153-41cc-b739-dfe94ceafb3e (sig 3b5d5e42-9032-410e-b700-0e05aad99a98) (disp signal))

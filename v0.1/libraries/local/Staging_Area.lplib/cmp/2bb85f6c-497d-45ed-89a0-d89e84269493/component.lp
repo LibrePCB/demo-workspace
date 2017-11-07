@@ -110,7 +110,7 @@
  (variant ec56f7f8-5cc1-4a97-8b75-0e67cc8ebdaf (norm "")
   (name "default")
   (description "")
-  (item 1d02191d-0724-4a73-a606-05db70ac07d0
+  (gate 1d02191d-0724-4a73-a606-05db70ac07d0
    (symbol c3b71d88-dcc2-4d62-a54d-82d529d219cd)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 0dbd0108-62de-4ac5-92c3-ab8f169bca49 (sig 7247fee7-baac-4ccd-88bc-deadf52c9291) (disp signal))

@@ -32,37 +32,37 @@
  (variant 5c33ec4e-54c8-4562-9bde-78c886e24a02 (norm "")
   (name "default")
   (description "")
-  (item 1f0e0917-7b52-407e-86c4-700be85a2608
+  (gate 1f0e0917-7b52-407e-86c4-700be85a2608
    (symbol de13cfaf-4ebe-47df-b55a-190a1bd35a02)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-1")
    (pin 1c2c1832-2057-41f4-96ac-a0c08c7dc8ee (sig 6406e55d-a3bc-4fc9-9793-03d7eae6e0f3) (disp signal))
    (pin be996167-186d-4064-96d8-2ea695ee9fce (sig 6406e55d-a3bc-4fc9-9793-03d7eae6e0f3) (disp signal))
   )
-  (item 6e25653a-973b-45b1-909e-d9dc778723ef
+  (gate 6e25653a-973b-45b1-909e-d9dc778723ef
    (symbol 0ec4c95b-7237-427c-8eb1-76a3afed20ea)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-2")
    (pin 0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9 (sig 3644c176-dcb0-4050-a75a-9801f38af9a1) (disp signal))
    (pin 39249903-f7b9-4a60-83ff-4af061a9d13d (sig 3644c176-dcb0-4050-a75a-9801f38af9a1) (disp signal))
   )
-  (item 71a01133-d23a-43e3-8a8d-42365bb38a00
+  (gate 71a01133-d23a-43e3-8a8d-42365bb38a00
    (symbol 0ec4c95b-7237-427c-8eb1-76a3afed20ea)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-3")
    (pin 0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9 (sig ef9a7832-da8b-44a9-baa4-3981de5628eb) (disp signal))
    (pin 39249903-f7b9-4a60-83ff-4af061a9d13d (sig ef9a7832-da8b-44a9-baa4-3981de5628eb) (disp signal))
   )
-  (item 6d662a21-4603-4864-b802-188b9f074df7
+  (gate 6d662a21-4603-4864-b802-188b9f074df7
    (symbol 0ec4c95b-7237-427c-8eb1-76a3afed20ea)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-4")
    (pin 0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9 (sig 9995c74c-b5ba-41b8-9b81-6ec1e447999a) (disp signal))
    (pin 39249903-f7b9-4a60-83ff-4af061a9d13d (sig 9995c74c-b5ba-41b8-9b81-6ec1e447999a) (disp signal))
   )
-  (item e24e3da8-a929-4f7c-b9bd-aabcf872347e
+  (gate e24e3da8-a929-4f7c-b9bd-aabcf872347e
    (symbol 0ec4c95b-7237-427c-8eb1-76a3afed20ea)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-5")
    (pin 0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9 (sig bfe03e98-809c-417a-8690-9a7f011bf5f6) (disp signal))
    (pin 39249903-f7b9-4a60-83ff-4af061a9d13d (sig bfe03e98-809c-417a-8690-9a7f011bf5f6) (disp signal))
   )
-  (item 0a0c901c-3484-4832-b577-b20b1672a8b9
+  (gate 0a0c901c-3484-4832-b577-b20b1672a8b9
    (symbol 0ec4c95b-7237-427c-8eb1-76a3afed20ea)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "-6")
    (pin 0bdf25ef-3cea-4bbc-9bc4-e0ff650435d9 (sig 0cb33693-35da-4983-9a13-2fa05042522c) (disp signal))

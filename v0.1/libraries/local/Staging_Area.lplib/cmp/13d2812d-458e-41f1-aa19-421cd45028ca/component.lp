@@ -53,7 +53,7 @@
  (variant d73691b5-253f-4627-804a-0a984fa3623d (norm "")
   (name "default")
   (description "")
-  (item f3db4963-0dbc-409d-9326-11faf415ce67
+  (gate f3db4963-0dbc-409d-9326-11faf415ce67
    (symbol f20553d8-d82e-4a58-8af5-0dc1739f7948)
    (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
    (pin 162b1715-a0de-424a-9021-0bf71d04f4c2 (sig 7faec839-5aa4-4034-99d8-cf821f2083af) (disp signal))
