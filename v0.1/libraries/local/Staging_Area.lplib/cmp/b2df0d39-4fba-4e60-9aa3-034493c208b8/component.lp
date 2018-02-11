@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid b2df0d39-4fba-4e60-9aa3-034493c208b8)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component b2df0d39-4fba-4e60-9aa3-034493c208b8
  (name "PL006*")
  (description "<b>PLH006 Series SMD LED</b> SOT23<p>\nPLH006-WCR21 Super Red<br>\nPLH006-WCR12 High Eff Red<br>\nPLH006-WCG13 Green<br>\nPLH006-WCY01 Yellow<br>\nwww.p-tec.net<p>\nSource: http://www.wittig-electronic.de/PTEC/PL006Series.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: PL006*\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LD")

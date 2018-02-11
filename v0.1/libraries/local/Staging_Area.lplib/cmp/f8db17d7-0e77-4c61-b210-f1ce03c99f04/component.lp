@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid f8db17d7-0e77-4c61-b210-f1ce03c99f04)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_component f8db17d7-0e77-4c61-b210-f1ce03c99f04
  (name "XO-")
  (description "<b>CRYSTAL</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: XO-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "QG")

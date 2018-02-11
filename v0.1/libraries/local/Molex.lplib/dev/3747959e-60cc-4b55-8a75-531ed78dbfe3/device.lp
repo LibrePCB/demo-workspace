@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 3747959e-60cc-4b55-8a75-531ed78dbfe3)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:41Z)
- (modified 2015-12-21T13:40:41Z)
- (deprecated false)
+(librepcb_device 3747959e-60cc-4b55-8a75-531ed78dbfe3
  (name "55091-0689")
  (description "<b>0.635 mm PITCH B TO B CONN.</b><p>\nSource: http://www.molex.com/pdm_docs/sd/550911609_sd.pdf\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 55091-0689\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:41Z)
+ (deprecated false)
  (component 5b1d81d1-f5c3-446b-a77b-88496c49d056)
  (package 00ecaa9b-daca-4273-9892-35b404649906)
  (pad 077fc8be-7a36-46e6-9ff7-78974060dc43 (sig 968d1d09-dce1-4e32-94e7-e415e2fed6c6))

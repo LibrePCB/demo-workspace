@@ -1,5 +1,4 @@
-(librepcb_schematic
- (uuid 990e5289-695b-4063-95e3-e2c2f98c55d4)
+(librepcb_schematic 990e5289-695b-4063-95e3-e2c2f98c55d4
  (name "ManySymbols")
  (grid (type lines) (interval 2.54) (unit millimeters))
 

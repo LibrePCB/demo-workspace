@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 3fac6bf0-4ed2-42e0-9708-8243075daa3a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 3fac6bf0-4ed2-42e0-9708-8243075daa3a
  (name "TOPLED-3")
  (description "<b>OSRAM</b><p>\n- <u>Hyper Multi TOPLED® (RGB)</u><br>\nLB E673, LV E673, LT E673<br>\n- <u>Power TOPLED® Enhanced optical Power LED (HOP2000)</u><br>\nLS E67B, LA E67B, LO E67B, LY E67B<br>\n- <u>Hyper Multi TOPLED® Enhanced optical Power LED (HOP2000 / ATON®)</u><br>\nLATB T66B<br>\n- <u>Hyper Multi TOPLED® Hyper-Bright LED</u><br>\nLATB T686<br>\n\n<p>\nSource: http://www.osram.convergy.de/\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: TOPLED-3\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 7422fc6d-202b-4970-b352-c9224908493a)
  (package 4f7faae2-0ccf-43be-9670-048e700903b4)
  (pad 07432c69-b222-4e90-984f-844795a98830 (sig be0ecbbd-1ade-4930-93fa-070363edea28))

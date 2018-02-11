@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid df26b758-350c-43dd-9aa9-ff01ab76f000)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_component df26b758-350c-43dd-9aa9-ff01ab76f000
  (name "SG531")
  (description "<b>CRYSTAL RESONATOR</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: SG531\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "QG")

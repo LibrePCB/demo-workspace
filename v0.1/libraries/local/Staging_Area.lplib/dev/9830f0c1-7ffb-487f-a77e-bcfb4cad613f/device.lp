@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 9830f0c1-7ffb-487f-a77e-bcfb4cad613f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 9830f0c1-7ffb-487f-a77e-bcfb4cad613f
  (name "GI820")
  (description "<B>DIODE</B><p>\nfast-recovery silicon diode, 6 A (Diotec)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: GI820\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 16cf1a2e-336f-4385-b947-d61e694744cd)
  (package f327af7b-95b7-4c96-8137-6ccfe46242d2)
  (pad 2150b814-a347-445d-9baf-706cd67d29c4 (sig 1ab8feef-97ec-4586-8a03-7f3344bfa399))

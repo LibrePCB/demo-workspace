@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 9a48e874-59b5-46a2-b93f-0da13f93ee0d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device 9a48e874-59b5-46a2-b93f-0da13f93ee0d
  (name "8M10AHC49T")
  (description "<b>Monolithic Crystal Filters</b><p>\nSource: www.vanlong.com\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: 8M10AHC49T\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component 366df88c-cf7d-45ee-a68b-4b5ffd6ed652)
  (package 7e56e4bf-037d-46fd-93f3-2e36968cad83)
  (pad 4626fca9-47bb-4b6c-bc6d-dcb44092f981 (sig edec5955-064f-4da4-a7e5-e3aa17904ea1))

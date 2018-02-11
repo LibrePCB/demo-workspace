@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 2704f5e1-f8c2-4565-b8bd-5a7ea9946f08)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device 2704f5e1-f8c2-4565-b8bd-5a7ea9946f08
  (name "C-0402")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
  (package 5c9b135f-2930-4450-8e04-954bdb1255af)
  (pad 5eb43e50-29c4-47aa-8a6d-60999d8f4729 (sig 1c1c7abc-7b40-4f92-b533-f65604644db7))

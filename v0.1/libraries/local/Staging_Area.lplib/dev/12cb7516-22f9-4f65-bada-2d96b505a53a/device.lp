@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 12cb7516-22f9-4f65-bada-2d96b505a53a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 12cb7516-22f9-4f65-bada-2d96b505a53a
  (name "BYT85")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYT85\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 201b0e88-5ad4-41b5-94fb-01124deac77f)
  (package 8da8dcf5-2027-4634-8324-2580c43d5062)
  (pad ddfa5480-45fa-49bc-a8f6-4ad86f6cd8ea (sig 1091e962-caca-4d09-9910-5b0cdbdbbead))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid d94c42be-8f13-4fe8-938b-5ca8378cc004)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device d94c42be-8f13-4fe8-938b-5ca8378cc004
  (name "21M*B_UM1")
  (description "<b>Monolithic Crystal Filters</b><p>\nSource: www.vanlong.com\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: 21M*B\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component 64b7d8c4-18ca-4164-b141-e14bf07b98a3)
  (package 6994cbfb-31d8-47a8-a385-a21250094e6a)
  (pad a14befb7-5214-4514-b1f5-51ee69176bcd (sig 5a50c128-d9f5-4025-b63d-bdba363ce5a0))

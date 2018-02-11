@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 650bcbad-2813-4ee9-b3d7-4fed398b4cc8)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 650bcbad-2813-4ee9-b3d7-4fed398b4cc8
  (name "D9-1C")
  (description "8 <B>DIODES</B><p>\nSIL, common cathode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: D9-1C\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 6d7e7b65-d698-41e6-b8a0-afb9e0e31ee3)
  (package d9d752db-6a12-4866-90ad-57bcd3435bca)
  (pad 1559e9ad-f61d-47de-8fca-e32cd58ba874 (sig 47480f96-7070-4c7d-9403-a20bdaf7f59a))

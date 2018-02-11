@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c636f3fb-c815-422e-b212-c5703e6b84b7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device c636f3fb-c815-422e-b212-c5703e6b84b7
  (name "C-1310")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
  (package 0a02c705-b948-4f23-b478-71543be562e1)
  (pad 7040952d-7016-49cd-8c3e-6078ecca98b9 (sig 6d776f4d-2a7c-4128-a98a-dbb1dd861411))

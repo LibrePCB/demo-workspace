@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5c396466-0fc4-42e3-b1b0-9fba3a7dc258)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 5c396466-0fc4-42e3-b1b0-9fba3a7dc258
  (name "A114")
  (description "<B>DIODE</B><p>\ngermanium\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: A114\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 39ea4397-7cec-49f6-b151-e5c33cb41ddc)
  (package 989a4f41-7532-495d-80b8-ac5e9599ed0e)
  (pad 576a42fd-ef66-431e-ba35-6a07d68ad094 (sig 006a5132-1c09-499e-9f15-b7ed2b13d7b2))

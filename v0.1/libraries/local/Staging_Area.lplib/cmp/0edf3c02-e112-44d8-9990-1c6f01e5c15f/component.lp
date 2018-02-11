@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 0edf3c02-e112-44d8-9990-1c6f01e5c15f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_component 0edf3c02-e112-44d8-9990-1c6f01e5c15f
  (name "10M*C")
  (description "<b>Monolithic Crystal Filters</b><p>\nSource: www.vanlong.com\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: 10M*C\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "QF")

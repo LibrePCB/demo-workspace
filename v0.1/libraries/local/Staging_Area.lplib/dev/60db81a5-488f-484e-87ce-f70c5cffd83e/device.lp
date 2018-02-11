@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 60db81a5-488f-484e-87ce-f70c5cffd83e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 60db81a5-488f-484e-87ce-f70c5cffd83e
  (name "R-TRIMM_3224X")
  (description "<b>Trimm resistor</b>\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-TRIMM\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component daeed3be-7232-49c4-8d32-003974e84e46)
  (package 0a6aabb1-9bec-468e-a7d7-2779033f576f)
  (pad 0da03c30-18d9-49b9-819c-f631d3e6c0cc (sig dc6abef1-4b87-4cf9-9559-480498799fa9))

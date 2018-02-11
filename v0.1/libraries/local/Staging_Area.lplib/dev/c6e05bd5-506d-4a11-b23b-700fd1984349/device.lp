@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c6e05bd5-506d-4a11-b23b-700fd1984349)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device c6e05bd5-506d-4a11-b23b-700fd1984349
  (name "GE1001")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: GE1001\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component d6fb38ad-d098-4d88-b1e1-e9b4b740cee4)
  (package 989a4f41-7532-495d-80b8-ac5e9599ed0e)
  (pad 576a42fd-ef66-431e-ba35-6a07d68ad094 (sig 9c712230-65d6-4cc9-ba1c-9762601f058a))

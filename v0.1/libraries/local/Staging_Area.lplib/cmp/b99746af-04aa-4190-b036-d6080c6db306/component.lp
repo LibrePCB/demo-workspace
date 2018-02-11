@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid b99746af-04aa-4190-b036-d6080c6db306)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component b99746af-04aa-4190-b036-d6080c6db306
  (name "SMR-WAV")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: isabellen.lbr\nName: SMR-WAV\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "R")

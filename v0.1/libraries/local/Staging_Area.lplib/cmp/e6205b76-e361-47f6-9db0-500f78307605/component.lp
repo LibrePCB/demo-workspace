@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid e6205b76-e361-47f6-9db0-500f78307605)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_component e6205b76-e361-47f6-9db0-500f78307605
  (name "POTENTIOMETER_")
  (description "<b>Potentiometer</b>\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: POTENTIOMETER_\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "R")

@@ -1,13 +1,11 @@
-(librepcb_library
- (uuid fbba9728-2c08-488e-8940-7d4aa76cb044)
- (version "0.1")
- (author "LibrePCB")
- (created 2013-04-13T12:43:52Z)
- (modified 2013-04-20T18:01:33Z)
- (deprecated false)
+(librepcb_library fbba9728-2c08-488e-8940-7d4aa76cb044
  (name "Molex")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2013-04-13T12:43:52Z)
+ (deprecated false)
  (url "https://github.com/LibrePCB-Libraries/Molex.lplib")
  (dependency 02351ef6-2334-4512-bb86-6d9bcf9aa8d0)
  (dependency ad523ae0-9493-48bc-86b7-049a13cb35e2)

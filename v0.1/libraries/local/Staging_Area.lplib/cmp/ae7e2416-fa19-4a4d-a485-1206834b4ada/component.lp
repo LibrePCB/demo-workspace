@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid ae7e2416-fa19-4a4d-a485-1206834b4ada)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_component ae7e2416-fa19-4a4d-a485-1206834b4ada
  (name "TC48")
  (description "<b>Temperature Compensated Xtal Oscillator</b><p>\nHCMOS, Clipped Sine Wave or Sine Wave Compatible<br>\nSource: www.pletronics.com .. tc4.pdf\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: TC48\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "QG")

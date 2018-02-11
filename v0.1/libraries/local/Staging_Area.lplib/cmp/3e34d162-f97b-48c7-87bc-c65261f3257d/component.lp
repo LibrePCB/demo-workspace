@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 3e34d162-f97b-48c7-87bc-c65261f3257d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 3e34d162-f97b-48c7-87bc-c65261f3257d
  (name "Z-POWER-LED")
  (description "<b>Z-Power LED</b><p>\nSource: http://www.seoulsemicon.co.kr .. X42182.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: Z-POWER-LED\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

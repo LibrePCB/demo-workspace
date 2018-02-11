@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 058b7331-41ec-495a-a7c6-e87ed5e10d16)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 058b7331-41ec-495a-a7c6-e87ed5e10d16
  (name "BY505")
  (description "<B>DIODE</B><p>\nhigh-voltage soft recovery rectifier\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BY505\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

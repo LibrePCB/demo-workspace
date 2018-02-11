@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 3debf303-f781-4125-b889-6d344a4c9c44)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 3debf303-f781-4125-b889-6d344a4c9c44
  (name "LZR185")
  (description "<B>LED BLOCK</B><p>\n5 LEDs, Siemens\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LZR185\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 027ee082-b533-4fce-9d5d-791678876e64)
  (package c23ee681-417f-4e0b-96d0-6be87f538e52)
  (pad 071572a7-98f2-4b5b-bfb9-5842adb4f3df (sig 7c40389b-fad4-444b-960a-7d4e27358846))

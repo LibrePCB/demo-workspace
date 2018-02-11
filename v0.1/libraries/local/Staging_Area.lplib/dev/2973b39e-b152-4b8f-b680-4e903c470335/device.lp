@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 2973b39e-b152-4b8f-b680-4e903c470335)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device 2973b39e-b152-4b8f-b680-4e903c470335
  (name "XO-_8")
  (description "<b>CRYSTAL</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: XO-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component f8db17d7-0e77-4c61-b210-f1ce03c99f04)
  (package 2e1fc649-4f8a-4268-9ad7-1b6fdbe18c96)
  (pad 08e515da-af36-4113-9b0a-e987e8987c9b (sig 1cba5d45-a53f-494e-82b8-9ad3224ef5b4))

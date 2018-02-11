@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid be68339d-9cac-403f-b9c7-4098f96f43ee)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device be68339d-9cac-403f-b9c7-4098f96f43ee
  (name "CPOL-EU_153CLV-1012")
  (description "<B>POLARIZED CAPACITOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: CPOL-EU\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component c54375c5-7149-4ded-95c5-7462f7301ee7)
  (package dd2e761c-ca27-4372-8225-232f34db8237)
  (pad 4b3c9327-30b7-4261-98f8-d2df0cda60e7 (sig af3ffca8-0085-4edb-a775-fcb759f63411))

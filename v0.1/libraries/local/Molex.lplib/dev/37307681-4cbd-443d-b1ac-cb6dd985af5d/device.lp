@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 37307681-4cbd-443d-b1ac-cb6dd985af5d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:38Z)
- (modified 2015-12-21T13:40:38Z)
- (deprecated false)
+(librepcb_device 37307681-4cbd-443d-b1ac-cb6dd985af5d
  (name "53\?-04_261")
  (description "<b>CONNECTOR</b><p>\nwire to board 1.25 mm (.049 inch) pitch header\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 53\?-04\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:38Z)
+ (deprecated false)
  (component 0d3f9c9a-8e7b-47e8-bbef-6d7c55a9e2e1)
  (package 8a0f6380-e83c-42d3-999d-438b58959f02)
  (pad 08e458fe-64be-45e0-95af-e630590ea669 (sig 62bd0aac-cc16-41d7-8cd8-62d324da77e0))

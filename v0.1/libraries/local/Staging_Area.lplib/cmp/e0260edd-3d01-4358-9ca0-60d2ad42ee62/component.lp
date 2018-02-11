@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid e0260edd-3d01-4358-9ca0-60d2ad42ee62)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component e0260edd-3d01-4358-9ca0-60d2ad42ee62
  (name "AA112")
  (description "<B>DIODE</B><p>\ngermanium\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: AA112\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

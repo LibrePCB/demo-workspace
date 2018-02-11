@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 52782d4e-cae3-4be1-92bd-98eec719bd4d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device 52782d4e-cae3-4be1-92bd-98eec719bd4d
  (name "SM77H")
  (description "<b>3.3V CMOS Clock Oscillator</b><p>\nSource: www.pletronics.com .. sm77h%203.3v.pdf\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: SM77H\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component 94a413e4-0e48-4742-875c-8d516eb33230)
  (package 1126a784-9856-43e9-8f3a-192744ae9075)
  (pad 3400da54-a7d7-4f25-95b8-b4df6e3334b4 (sig 183b22c3-3cb8-4b6c-819d-d8343065035b))

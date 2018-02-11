@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid f318c157-4ec0-4309-937d-23413520e297)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:02Z)
- (modified 2015-12-20T22:11:02Z)
- (deprecated false)
+(librepcb_device f318c157-4ec0-4309-937d-23413520e297
  (name "R-EU__VTA54")
  (description "<B>RESISTOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-EU_\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:02Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 4326ba5f-85a3-4f3f-a4a3-df62d086e7dc)
  (pad 1f07720a-09cb-406d-889c-60d4d9984087 (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))

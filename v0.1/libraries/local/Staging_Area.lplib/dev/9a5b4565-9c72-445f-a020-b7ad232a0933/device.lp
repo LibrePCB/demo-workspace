@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 9a5b4565-9c72-445f-a020-b7ad232a0933)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 9a5b4565-9c72-445f-a020-b7ad232a0933
  (name "SMF5.0AT1")
  (description "<b>200 W Transient Voltage Suppressor</b><p>\nSource: <a href=\"http://www.onsemi.com/pub_link/Collateral/SMF5.0AT1-D.PDF\">Data sheet</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: SMF5.0AT1\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 4b1fce45-0563-4738-98ea-a770b11ded33)
  (package 2c7ea23b-aeec-4bf6-a09e-d6994bd0d897)
  (pad 1df3ef63-156f-4dc1-9227-0530359d2796 (sig dd72b4c3-7d05-430f-ac87-e42aba41b11b))

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 0ca0993c-bf55-4529-865b-849ef898b28a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-04T21:27:40Z)
- (modified 2015-03-04T21:27:40Z)
- (deprecated false)
+(librepcb_component 0ca0993c-bf55-4529-865b-849ef898b28a
  (name "Standard Diode")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-04T21:27:40Z)
+ (deprecated false)
  (category 4d1c95f4-2e60-4f50-a15b-ba9186a01b1a)
  (schematic_only false)
  (default_value "")

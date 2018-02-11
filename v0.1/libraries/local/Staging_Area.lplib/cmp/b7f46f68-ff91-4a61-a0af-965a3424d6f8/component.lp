@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid b7f46f68-ff91-4a61-a0af-965a3424d6f8)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_component b7f46f68-ff91-4a61-a0af-965a3424d6f8
  (name "LSP11")
  (description "<b>SOLDER PAD</b><p>\ndrill 1.1 mm\n\nThis element was automatically imported from Eagle\nFilepath: solpad.lbr\nName: LSP11\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LSP")

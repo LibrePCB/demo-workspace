@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5a919dd1-55c6-49a7-b740-013116224b4c)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device 5a919dd1-55c6-49a7-b740-013116224b4c
  (name "CRYSTAL_HC49UP")
  (description "<b>CRYSTAL</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: CRYSTAL\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component b847a54b-a83e-47ff-a976-7704bf05bbf4)
  (package 16dc1add-4515-44e7-a422-ef7ce3c0fdb0)
  (pad 1df43411-a06c-40d7-824d-b9e761700f83 (sig fd760be8-09ce-411f-a869-fdc1e74229a9))

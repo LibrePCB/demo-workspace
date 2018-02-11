@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 6f97d9d4-f89d-40eb-8942-f446851f9f52)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 6f97d9d4-f89d-40eb-8942-f446851f9f52
  (name "CREE-XLAMP-XM-L")
  (description "<b>Cree® XLamp® XM-L LEDs</b><p>\nSource: http://www.cree.com\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: CREE-XLAMP-XM-L\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component b09c154d-a1c3-4025-b9de-213a73c1b89c)
  (package d9a54185-48cf-4d3e-832b-0f987391cc77)
  (pad 16e459fa-34b5-498a-9f65-0db0a857f2e2 (sig 241059cc-2d4c-45a0-ac71-36c660186fea))

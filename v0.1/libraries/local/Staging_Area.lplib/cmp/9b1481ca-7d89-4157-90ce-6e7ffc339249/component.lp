@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 9b1481ca-7d89-4157-90ce-6e7ffc339249)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_component 9b1481ca-7d89-4157-90ce-6e7ffc339249
  (name "ASF*")
  (description "<b>CRYSTAL CLOCK OSCILLATORS</b><p>\n5.0 Vdc or 3.3 Vdc - LOW PROFILE ULTRA MINIATURE CERAMIC SURFACE MOUNT<br>\nSource: http://www.abracon.com/Oscillators/asf1-L-L1.pdf\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: ASF*\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "Q")

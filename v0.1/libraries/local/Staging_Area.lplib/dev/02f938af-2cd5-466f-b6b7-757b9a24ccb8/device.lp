@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 02f938af-2cd5-466f-b6b7-757b9a24ccb8)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 02f938af-2cd5-466f-b6b7-757b9a24ccb8
  (name "CPOL-EU_E30-12AXIAL")
  (description "<B>POLARIZED CAPACITOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: CPOL-EU\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component c54375c5-7149-4ded-95c5-7462f7301ee7)
  (package 0cb6bc4e-8f00-4dbf-b45e-9d5a1066d1bc)
  (pad 19a676cd-ec76-46ad-9ee8-372a9e4199b4 (sig e010ecbb-6210-4da3-9270-ebd58656dbf0))

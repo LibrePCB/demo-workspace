@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid d40f5fbf-085a-461b-9922-89cc6f94ed88)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component d40f5fbf-085a-461b-9922-89cc6f94ed88
  (name "DIAC2-")
  (description "<B>DIAC</B><p>\ndouble diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIAC2-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

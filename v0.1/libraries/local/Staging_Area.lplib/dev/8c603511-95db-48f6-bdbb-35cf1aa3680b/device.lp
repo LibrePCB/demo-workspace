@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 8c603511-95db-48f6-bdbb-35cf1aa3680b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 8c603511-95db-48f6-bdbb-35cf1aa3680b
  (name "WIDERSTÄNDE_0207-RM10")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_Standardbauteile.lbr\nName: WIDERSTÄNDE\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component 67918c32-377a-492f-991b-813e97166499)
  (package 13901916-c1f2-47cb-a5c7-a0a7d96a92a5)
  (pad 02cc21d8-de8f-48ef-89d9-d4eb3640486e (sig 91d05c56-1e94-487e-aae9-0658d57e7d97))

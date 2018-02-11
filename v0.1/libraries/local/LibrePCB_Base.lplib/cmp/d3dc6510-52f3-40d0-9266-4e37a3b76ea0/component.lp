@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid d3dc6510-52f3-40d0-9266-4e37a3b76ea0)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-06-21T12:37:47Z)
- (modified 2015-06-21T12:37:47Z)
- (deprecated false)
+(librepcb_component d3dc6510-52f3-40d0-9266-4e37a3b76ea0
  (name "2x Schottky Diodes CC")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-06-21T12:37:47Z)
+ (deprecated false)
  (category 4d1c95f4-2e60-4f50-a15b-ba9186a01b1a)
  (schematic_only false)
  (default_value "")

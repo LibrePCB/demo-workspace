@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 10c412fd-ebea-4dc1-b9fa-62c690004355)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 10c412fd-ebea-4dc1-b9fa-62c690004355
  (name "BYV10")
  (description "<B>DIODE</B><p>\npower diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYV10\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component b080fcb7-8e0a-4db0-9a59-168764da51bb)
  (package 2f931593-bf9b-460b-af7f-d8e8f4d2510b)
  (pad 613f34f8-ec74-460b-9203-e64dcd075b58 (sig 2825c905-f99d-44f4-a973-f8a576d20b66))

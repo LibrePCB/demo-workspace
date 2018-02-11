@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 197dacc7-3785-4054-a538-ced0d6271faa)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-08T15:14:19Z)
- (modified 2015-03-08T15:14:19Z)
- (deprecated false)
+(librepcb_component 197dacc7-3785-4054-a538-ced0d6271faa
  (name "Solder Pad 1P")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-08T15:14:19Z)
+ (deprecated false)
  (category f8ad7e13-8509-45be-acce-68f2589a6814)
  (schematic_only false)
  (default_value "")

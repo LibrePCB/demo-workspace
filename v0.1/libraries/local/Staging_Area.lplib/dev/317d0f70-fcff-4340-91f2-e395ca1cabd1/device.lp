@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 317d0f70-fcff-4340-91f2-e395ca1cabd1)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 317d0f70-fcff-4340-91f2-e395ca1cabd1
  (name "GF1")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: GF1\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component b04c2d2f-d144-4eac-a18f-ca0a751afc17)
  (package 065d7368-2007-4fae-8542-0dddf95c0fc6)
  (pad 42fdfbaa-dfed-4e3e-b079-00fb71c6969b (sig 11aca540-30ce-4cf4-ba1e-0bcd48dcb10b))

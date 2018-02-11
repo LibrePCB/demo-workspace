@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 458ef947-debb-4892-9461-628a8ff615e7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:53Z)
- (modified 2015-12-20T22:10:53Z)
- (deprecated false)
+(librepcb_component 458ef947-debb-4892-9461-628a8ff615e7
  (name "FE12-1")
  (description "<b>FEMALE HEADER</b>\n\nThis element was automatically imported from Eagle\nFilepath: con-lsta.lbr\nName: FE12-1\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:53Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "SV")

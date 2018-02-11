@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 81c4dfe7-a789-4cc7-a642-542e7681f9ab)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 81c4dfe7-a789-4cc7-a642-542e7681f9ab
  (name "RGP15")
  (description "<B>DIODE</B><p>\nfast-recovery rectifier\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: RGP15\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 369a6848-bc67-415c-9702-7376077e7966)
  (package 28a1eab5-76ec-4878-a0e3-fb0b660b6209)
  (pad 3be318d8-b78f-4fe0-9d74-c38caa462de6 (sig f69546b1-2d42-46c7-a0cf-22a5ded6bb13))

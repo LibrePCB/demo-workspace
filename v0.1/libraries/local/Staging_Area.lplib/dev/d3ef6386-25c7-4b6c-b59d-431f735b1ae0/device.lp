@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid d3ef6386-25c7-4b6c-b59d-431f735b1ae0)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device d3ef6386-25c7-4b6c-b59d-431f735b1ae0
  (name "1N4942")
  (description "<B>DIODE</B><p>\n1.0 A, 200 V, 150 ns\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 1N4942\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 49fed876-7879-477e-97a9-8eaa8da828c4)
  (package 2f931593-bf9b-460b-af7f-d8e8f4d2510b)
  (pad 613f34f8-ec74-460b-9203-e64dcd075b58 (sig 1e493100-82f3-4983-9ee0-ead981aebd21))

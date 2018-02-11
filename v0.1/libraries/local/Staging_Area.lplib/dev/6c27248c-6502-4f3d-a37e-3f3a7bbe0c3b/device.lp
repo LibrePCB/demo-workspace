@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 6c27248c-6502-4f3d-a37e-3f3a7bbe0c3b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 6c27248c-6502-4f3d-a37e-3f3a7bbe0c3b
  (name "POTENTIOMETER__PT_SPIN")
  (description "<b>Potentiometer</b>\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: POTENTIOMETER_\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component e6205b76-e361-47f6-9db0-500f78307605)
  (package de050dd6-9c8a-4081-84fd-8e074e38d829)
  (pad 222a79dc-77e4-4b2f-bd2b-06ac779c7d5f (sig 72b05194-4cf5-44ff-b478-c5d6bdf70c99))

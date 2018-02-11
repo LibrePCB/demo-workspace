@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 8a8e0ef6-a495-4e8a-a862-98ed5fcf6fbc)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 8a8e0ef6-a495-4e8a-a862-98ed5fcf6fbc
  (name "S*08_-21")
  (description "<b>Kingbright 20mm (0.8Inch) Single Digit Numeric Display</b><p>\nSource: SA08-11SRWA.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: S*08\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 082c9c48-e353-477f-b4ab-72fafeda8ac4)
  (package cbb079ab-d0f2-4082-af8b-cdb951ed3b3a)
  (pad 112d91b2-cf7e-4751-831a-0ce9ef4d588e (sig b71bf5be-777a-4f7f-b8e1-acdb8e1daed6))

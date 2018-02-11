@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c609f6f6-e242-4b7a-8c27-0686b3a6fb7b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device c609f6f6-e242-4b7a-8c27-0686b3a6fb7b
  (name "WIREPAD_2,54/1,1")
  (description "<b>Wire PAD</b> connect wire on PCB\n\nThis element was automatically imported from Eagle\nFilepath: wirepad.lbr\nName: WIREPAD\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component 197dacc7-3785-4054-a538-ced0d6271faa)
  (package b8f85589-de3e-4797-afd0-9fdbb77a2c87)
  (pad b09a5602-f718-4b21-b837-4df8440d34a0 (sig ad6ae81a-7914-49b7-a87b-a0e8574b7398))

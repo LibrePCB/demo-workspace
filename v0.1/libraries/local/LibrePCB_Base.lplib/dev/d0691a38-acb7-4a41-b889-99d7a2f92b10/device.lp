@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid d0691a38-acb7-4a41-b889-99d7a2f92b10)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device d0691a38-acb7-4a41-b889-99d7a2f92b10
  (name "C-1206")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
  (package 6e4a8f3a-84ee-4583-ac25-bff8699e5b1d)
  (pad 40c1ac36-0911-4d9a-9109-8897d1953d94 (sig 6d776f4d-2a7c-4128-a98a-dbb1dd861411))

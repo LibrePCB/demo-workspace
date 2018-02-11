@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 79505511-955a-42d6-a093-ba38ff9eb72a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 79505511-955a-42d6-a093-ba38ff9eb72a
  (name "FEP16AT")
  (description "<B>DIODE</B><p>\ndual ultra-fast recovery rectifier, common cathode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: FEP16AT\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 3dd43051-70bd-49d6-a3cf-de05a84c5d43)
  (package 0eaf289c-166d-4bd9-a4ba-dbf6bbc76ef1)
  (pad 474059df-640b-4b17-98b2-148e340a7152 (sig cb3a35b8-23ce-4356-b428-b0d08c643376))

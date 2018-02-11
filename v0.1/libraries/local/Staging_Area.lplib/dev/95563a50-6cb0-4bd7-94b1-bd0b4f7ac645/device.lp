@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 95563a50-6cb0-4bd7-94b1-bd0b4f7ac645)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 95563a50-6cb0-4bd7-94b1-bd0b4f7ac645
  (name "R-US__R2512")
  (description "<B>RESISTOR</B>, American symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-US_\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package b365bcb7-8045-4470-ad52-fee3da8bd421)
  (pad 05a80f16-f9a4-41da-b1a8-941fe0f7ece2 (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))

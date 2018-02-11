@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 955f74a4-8d2a-42c5-8600-469e231820c2)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 955f74a4-8d2a-42c5-8600-469e231820c2
  (name "GM1BW78140A")
  (description "<b>High Brightness Chip LED (White)</b> 39 lm @ 150 mA<p>\nSource: http://document.sharpsma.com/files/GM1BW78140A.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: GM1BW78140A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

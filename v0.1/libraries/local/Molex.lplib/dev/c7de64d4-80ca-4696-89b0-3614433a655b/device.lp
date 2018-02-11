@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c7de64d4-80ca-4696-89b0-3614433a655b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:39Z)
- (modified 2015-12-21T13:40:39Z)
- (deprecated false)
+(librepcb_device c7de64d4-80ca-4696-89b0-3614433a655b
  (name "5566-16")
  (description "<b>Mini FIT connector 16 pol</b><p>\nSource: http://www.molex.com\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 5566-16\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:39Z)
+ (deprecated false)
  (component efe7eaa8-679a-4f03-8e6e-4ad38f8daa3d)
  (package 2e3d9f70-ab83-49f3-8a37-f6161cabb40f)
  (pad 0b8d1c75-43d7-49fa-a7ac-ad03c882b022 (sig 8f7b2929-4c46-4788-8ebd-46893632e1b4))

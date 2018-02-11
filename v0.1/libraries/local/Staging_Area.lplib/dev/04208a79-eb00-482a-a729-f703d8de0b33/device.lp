@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 04208a79-eb00-482a-a729-f703d8de0b33)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 04208a79-eb00-482a-a729-f703d8de0b33
  (name "C-TRIMM_CV05")
  (description "<b>Trimm capacitor</b>\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: C-TRIMM\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component fd75cd4c-8b11-4f06-8fa7-498e345f5248)
  (package 94f1ec13-da8a-4d7b-ac6c-a00e311c5539)
  (pad a4cbb94a-663b-4d68-80ce-bec799ec64d5 (sig 7950f37e-3fc4-4910-9f8f-27ee3b59dc89))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 2d1c2c5c-1cf1-4826-bf98-3dd17ea406b3)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 2d1c2c5c-1cf1-4826-bf98-3dd17ea406b3
  (name "DIODE-_C2673")
  (description "<b>DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 37afa3de-06dc-4dda-86d1-673099564e56)
  (package 1a2d5238-ca13-41e5-a5cc-4dac52bd462f)
  (pad 2f198546-0b85-4bc2-9d59-acdc7518dc89 (sig 2b1bc88a-66af-4d12-a243-011dcad5944e))

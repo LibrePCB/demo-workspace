@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 0c5d8971-4cfa-4f66-b8fb-f55f8ec8ae8b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 0c5d8971-4cfa-4f66-b8fb-f55f8ec8ae8b
  (name "1N6267A")
  (description "<B>DIODE</B><p>\ntransient voltage suppressor\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 1N6267A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

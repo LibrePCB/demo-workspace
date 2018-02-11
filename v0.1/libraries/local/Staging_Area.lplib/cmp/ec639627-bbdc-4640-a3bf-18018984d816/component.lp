@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid ec639627-bbdc-4640-a3bf-18018984d816)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component ec639627-bbdc-4640-a3bf-18018984d816
  (name "AA119")
  (description "<B>DIODE</B><p>\ngermanium\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: AA119\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

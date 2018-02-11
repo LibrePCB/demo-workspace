@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid a410c735-e1b5-4e58-b408-cadb2f865243)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:40Z)
- (modified 2015-12-21T13:40:40Z)
- (deprecated false)
+(librepcb_device a410c735-e1b5-4e58-b408-cadb2f865243
  (name "KK-156-5")
  (description "<b>KK 156 HEADER</b><p>\nSource: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: KK-156-5\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:40Z)
+ (deprecated false)
  (component 5e729c9b-4bd1-485b-8ee8-0e7f6059d3af)
  (package 9cc0af0e-390b-4f3e-a555-8f0c4a976ffe)
  (pad 0d5a755d-478f-410f-8fac-3ea75b72ac3b (sig d69b6025-04fc-45b7-b599-bcc0d18ef731))

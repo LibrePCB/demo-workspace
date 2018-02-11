@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid b5ccc409-75ca-4d8c-bc94-76fb1d8ca341)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device b5ccc409-75ca-4d8c-bc94-76fb1d8ca341
  (name "R-6332")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 3b071211-28c7-4549-ac02-87249f9224d8)
  (pad 22cce6f3-6fa6-400c-8e3f-b74e37ffb9f7 (sig ad623f98-9e73-49c3-9404-f7cfa99d17cd))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 37d6efc3-31f9-4657-91dc-50e77929f690)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:52Z)
- (modified 2015-12-20T22:10:52Z)
- (deprecated false)
+(librepcb_device 37d6efc3-31f9-4657-91dc-50e77929f690
  (name "STM32F103C_LQFP48")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_ICs.lbr\nName: STM32F103C\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:52Z)
+ (deprecated false)
  (component e995a552-12c4-413a-8258-1d6ec9a8471d)
  (package 584b7c26-5a8e-4a2b-807a-977edd1df991)
  (pad 04409f0b-bfeb-4391-a86f-c7fc13130c5c (sig 7dcab181-0695-49c2-9084-8ba8f5922743))

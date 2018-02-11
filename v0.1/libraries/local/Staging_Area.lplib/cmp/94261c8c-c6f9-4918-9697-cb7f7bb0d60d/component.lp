@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 94261c8c-c6f9-4918-9697-cb7f7bb0d60d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 94261c8c-c6f9-4918-9697-cb7f7bb0d60d
  (name "BYW100")
  (description "<B>DIODE</B><p>\nhigh-efficiency fast rectifier (ST)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYW100\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

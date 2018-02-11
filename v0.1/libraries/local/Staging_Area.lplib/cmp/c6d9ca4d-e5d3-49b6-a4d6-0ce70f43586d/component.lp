@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid c6d9ca4d-e5d3-49b6-a4d6-0ce70f43586d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component c6d9ca4d-e5d3-49b6-a4d6-0ce70f43586d
  (name "ZTE")
  (description "<b>Z DIODE</b><p>\n300 mW\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: ZTE\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 2120c8f7-88c7-4a88-b714-01ab9dc281a8)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:53Z)
- (modified 2015-12-20T22:10:53Z)
- (deprecated false)
+(librepcb_device 2120c8f7-88c7-4a88-b714-01ab9dc281a8
  (name "JU20")
  (description "<b>PIN HEADER</b>\n\nThis element was automatically imported from Eagle\nFilepath: con-lsta.lbr\nName: JU20\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:53Z)
+ (deprecated false)
  (component c1c3630c-4641-4c7e-a678-911643fb2e55)
  (package b71466c7-1dbc-4bdd-9b5a-551777da3705)
  (pad 0d616352-c18c-4083-bbef-bb23aee2ca2c (sig a513f80a-b691-4b0e-b049-a7e82e36a51d))

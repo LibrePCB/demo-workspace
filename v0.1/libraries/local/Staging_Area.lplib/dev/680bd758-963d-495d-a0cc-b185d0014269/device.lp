@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 680bd758-963d-495d-a0cc-b185d0014269)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device 680bd758-963d-495d-a0cc-b185d0014269
  (name "86SMX")
  (description "<b>CRYSTAL</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: 86SMX\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component a180c30c-8a45-403d-91ba-cecc72ca1634)
  (package d05c5e10-af62-4ec2-bd37-f33662814272)
  (pad 5b129496-32ea-4463-9444-3d4240b119d6 (sig e952f904-5a6b-4956-aa0d-ef35adca574f))

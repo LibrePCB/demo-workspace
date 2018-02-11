@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 27f72b48-be7d-4da1-94e6-ce8bce43d338)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 27f72b48-be7d-4da1-94e6-ce8bce43d338
  (name "FOLIENKONDENSATOREN_RM5_7.5X2.5")
  (description "Folienkondensatoren\n\nStandard MKS-2 (oder MKS-4)\n\nThis element was automatically imported from Eagle\nFilepath: 0_Standardbauteile.lbr\nName: FOLIENKONDENSATOREN\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component cf8e17b6-7ca9-4f49-a194-a1663a386e0f)
  (package f64955cd-174e-4ecd-9c56-881407489cf3)
  (pad 13a2cc93-2a5f-4e95-82f3-4423a860dd3a (sig 3bc15a5a-9049-470f-9615-cc501143fa2b))

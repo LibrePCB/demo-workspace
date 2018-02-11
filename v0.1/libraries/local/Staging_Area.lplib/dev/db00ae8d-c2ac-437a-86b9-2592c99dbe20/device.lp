@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid db00ae8d-c2ac-437a-86b9-2592c99dbe20)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device db00ae8d-c2ac-437a-86b9-2592c99dbe20
  (name "OA91")
  (description "<B>DIODE</B><p>\ngermanium signal diode<p>\n115 V 50 mA\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: OA91\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 8893a4ac-010b-43d2-9891-8822580184e7)
  (package 24bfa9e2-0054-4b3a-b007-f696afc7f81a)
  (pad afd2ecc2-c34e-4a0a-88ef-0ccb3f784d82 (sig 94a9db83-f873-4488-aff6-9634ebd7a247))

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 5506cb4e-8dd8-422c-9862-57afdee52c92)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_component 5506cb4e-8dd8-422c-9862-57afdee52c92
  (name "SE13")
  (description "<b>SOLDER PAD</b><p> E1542,  drill 1,3mm, distributor Buerklin, 07F815\n\nThis element was automatically imported from Eagle\nFilepath: solpad.lbr\nName: SE13\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LSP")

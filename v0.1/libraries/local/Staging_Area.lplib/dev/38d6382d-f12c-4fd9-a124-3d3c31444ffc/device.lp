@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 38d6382d-f12c-4fd9-a124-3d3c31444ffc)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 38d6382d-f12c-4fd9-a124-3d3c31444ffc
  (name "SCHOTTKY-DIODE_TO92H")
  (description "Schottky Diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: SCHOTTKY-DIODE\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 82207562-d317-4911-96fa-ceb0f45fd806)
  (package 484c5fd5-6f05-440a-a3d2-098d7549ec06)
  (pad bd9891d4-ed5d-49dc-94d5-7bc76d7cc0b8 (sig 6dd65f7f-8f6b-4b29-ade1-40bc4f84f4b8))

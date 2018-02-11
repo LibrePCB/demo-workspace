@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid bfa425a0-5ee8-4985-98b4-9592edb34320)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device bfa425a0-5ee8-4985-98b4-9592edb34320
  (name "DIAC-_DO35-10")
  (description "<b>DIAC</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIAC-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 1a3f3e99-0126-4bed-b8a1-2eb8df46a9dc)
  (package 9af20351-2599-421c-8671-f0355c2548bb)
  (pad 03958109-002d-4acc-8e80-e9768ddc69d7 (sig b5933321-d574-4dba-be74-02ba467cd8f3))

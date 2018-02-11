@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 393038f6-1be7-4e10-ac10-35fc55a90f39)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 393038f6-1be7-4e10-ac10-35fc55a90f39
  (name "ZDXX")
  (description "<b>Z DIODE</b><p>\n1.3 W\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: ZDXX\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

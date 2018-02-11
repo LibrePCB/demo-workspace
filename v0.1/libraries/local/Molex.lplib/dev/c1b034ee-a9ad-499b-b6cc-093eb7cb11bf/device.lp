@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c1b034ee-a9ad-499b-b6cc-093eb7cb11bf)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:42Z)
- (modified 2015-12-21T13:40:42Z)
- (deprecated false)
+(librepcb_device c1b034ee-a9ad-499b-b6cc-093eb7cb11bf
  (name "87438-05")
  (description "<b>Wire-to-Board  1.50mm (.059\") Pitch Header - Right Angle, SMT, Shrouded</b><p>\nSource: http://www.molex.com/product/micro/87438.html\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 87438-05\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:42Z)
+ (deprecated false)
  (component a3bd2140-eb83-4c68-833a-4c89c5725306)
  (package 90f06873-5386-4fec-abe7-c069cebca703)
  (pad 1dfd67cd-6af0-4223-b073-640bfff737be (sig c562ddc9-c794-45a1-816a-3ad9f0f9c1e9))

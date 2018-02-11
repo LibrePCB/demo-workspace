@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 03878d42-807e-409d-90f0-dd574c6c29e7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 03878d42-807e-409d-90f0-dd574c6c29e7
  (name "ZENER-DIODE_DO35Z10")
  (description "Z-Diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: ZENER-DIODE\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 5ea08765-9bbd-4c11-a475-698617200963)
  (package 753b669c-6acf-47df-ac5f-04673d86f040)
  (pad a2e1edb6-0a74-4cb9-90a6-edddb813eae8 (sig a10e2dd7-c855-493d-bc27-dcc34a8be1d5))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 1a2b2ec8-300a-4528-9df7-e0d9f54d37aa)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 1a2b2ec8-300a-4528-9df7-e0d9f54d37aa
  (name "1N581*")
  (description "<b>1.0A SCHOTTKY BARRIER RECTIFIER</b><p>\nSource: http://www.diodes.com/datasheets/ds23001.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 1N581*\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 4f149b80-f970-4e5c-b631-543277720c77)
  (package e167d906-66d1-4bd7-bbb4-cdc0f72dc578)
  (pad 548dfc84-fc59-40df-94dd-cf8abe1a8f0c (sig a17029be-cc10-4b73-a5fa-2ccae2f20b41))

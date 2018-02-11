@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 58c3c6cd-11eb-4557-aa3f-d3e05874afde)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-01T20:00:00Z)
- (modified 2015-03-01T20:00:00Z)
- (deprecated false)
+(librepcb_component 58c3c6cd-11eb-4557-aa3f-d3e05874afde
  (name "VCC Supply")
  (description "")
  (keywords "vcc,supply")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-01T20:00:00Z)
+ (deprecated false)
  (category adf8d941-787c-4b02-8772-fbc0a587463d)
  (schematic_only true)
  (default_value "VCC")

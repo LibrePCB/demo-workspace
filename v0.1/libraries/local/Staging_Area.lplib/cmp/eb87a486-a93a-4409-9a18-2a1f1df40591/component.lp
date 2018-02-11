@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid eb87a486-a93a-4409-9a18-2a1f1df40591)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component eb87a486-a93a-4409-9a18-2a1f1df40591
  (name "D9-1CS")
  (description "8 <B>DIODES</B><p>\nSIL, common cathode (single gate)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: D9-1CS\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "DN")

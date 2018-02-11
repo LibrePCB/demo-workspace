@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid cc2c33a3-2850-4b44-b300-2648caa7dadb)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device cc2c33a3-2850-4b44-b300-2648caa7dadb
  (name "F90M")
  (description "<b>Monolithic Crystal Filters</b><p>\nSource: ECM Electronics Limited\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: F90M\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component dd391e4c-d7ff-4f11-84c1-16089eae2715)
  (package 6994cbfb-31d8-47a8-a385-a21250094e6a)
  (pad a14befb7-5214-4514-b1f5-51ee69176bcd (sig 565729fc-87fd-412c-a6ef-041d2f7c153f))

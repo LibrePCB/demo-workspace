@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid e975af27-9c1d-4608-888b-908c96b50f8f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component e975af27-9c1d-4608-888b-908c96b50f8f
  (name "BY500")
  (description "<B>DIODE</B><p>\nfast recovery diode, 5 A, 800 V\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BY500\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

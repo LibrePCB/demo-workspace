@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 692842ad-83af-49ef-897e-532b20076324)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:04Z)
- (modified 2015-12-20T22:11:04Z)
- (deprecated false)
+(librepcb_component 692842ad-83af-49ef-897e-532b20076324
  (name "CRYSTAL")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_Standardbauteile.lbr\nName: CRYSTAL\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:04Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "Q")

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 98da9140-40a6-4eac-b80f-633eb25070e4)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:57Z)
- (modified 2015-12-20T22:10:57Z)
- (deprecated false)
+(librepcb_component 98da9140-40a6-4eac-b80f-633eb25070e4
  (name "87758-5016")
  (description "<b>50 Pin - 2mm Dual Row Single Wafer, Vertical T/H HDR</b><p>\nSource: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 87758-5016\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:57Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "X")

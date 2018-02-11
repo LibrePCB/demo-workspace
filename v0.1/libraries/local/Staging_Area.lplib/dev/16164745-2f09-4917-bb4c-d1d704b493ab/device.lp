@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 16164745-2f09-4917-bb4c-d1d704b493ab)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 16164745-2f09-4917-bb4c-d1d704b493ab
  (name "SUPPRESSOR-_SMBG")
  (description "<b>Suppressor diode</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: SUPPRESSOR-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 6f959627-00d2-4652-bfd9-f6ea0162ccdd)
  (package 02351029-30fb-4246-a94e-e68aa2b14039)
  (pad 1115169f-bf14-42c5-95da-30875917a493 (sig 0b345c41-0429-47f3-917a-5140944c7755))

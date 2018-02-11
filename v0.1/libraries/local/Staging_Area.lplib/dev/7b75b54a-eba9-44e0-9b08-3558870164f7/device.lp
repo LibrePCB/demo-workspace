@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 7b75b54a-eba9-44e0-9b08-3558870164f7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 7b75b54a-eba9-44e0-9b08-3558870164f7
  (name "BY448")
  (description "<B>DIODE</B><p>\ndamper diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BY448\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 655b6be8-f22a-4ed9-97df-8ff204552b44)
  (package ec3d80fe-1077-4941-8a46-14032e57c463)
  (pad 1db57d0b-3ea9-49d0-b119-93d01992b454 (sig 6db4688a-f2b7-488c-9b1b-2c9517bd325b))

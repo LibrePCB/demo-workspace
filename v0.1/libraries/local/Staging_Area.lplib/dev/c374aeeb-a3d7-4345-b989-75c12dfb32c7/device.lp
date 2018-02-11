@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c374aeeb-a3d7-4345-b989-75c12dfb32c7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device c374aeeb-a3d7-4345-b989-75c12dfb32c7
  (name "CY_YC10B4")
  (description "<B>Y CAPACITOR</B><p>\nfor power line\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: CY\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component a1f65756-4f96-4e7a-a767-75bd879e5aaa)
  (package 88bf5799-8a29-4ab1-b1fa-1224192b1e43)
  (pad 54f97ade-34e3-47aa-a84b-6c47d181547f (sig f1de620d-f2bd-4ee0-ba92-9153fdc9d6c6))

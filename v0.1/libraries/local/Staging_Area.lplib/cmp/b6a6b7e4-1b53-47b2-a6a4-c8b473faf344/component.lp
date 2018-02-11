@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid b6a6b7e4-1b53-47b2-a6a4-c8b473faf344)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component b6a6b7e4-1b53-47b2-a6a4-c8b473faf344
  (name "XPEWHT-")
  (description "<b>Cree® XLamp® XP-E LEDs</b><p>\nSource: www.cree.com/xlamp .. XLampXP-E.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: XPEWHT-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

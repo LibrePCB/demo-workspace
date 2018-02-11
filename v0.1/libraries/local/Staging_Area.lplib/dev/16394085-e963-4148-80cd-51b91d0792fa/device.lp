@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 16394085-e963-4148-80cd-51b91d0792fa)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 16394085-e963-4148-80cd-51b91d0792fa
  (name "CLN6A")
  (description "<b>Cree® CLN6A-WKW/MKW LED</b><p>\nSource: <a href=\"http://www.cree.com/products/pdf/LEDlamps/CLN6A%28979%29.pdf\"> Data sheet</a>\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: CLN6A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 8325a124-09bf-423a-b8a2-88861409f547)
  (package e2c66a8d-9b8b-4f0d-9ab6-f4beabd9a2ea)
  (pad 21821a45-1b5c-4352-b43b-952736886858 (sig 74c504b4-8a66-482b-a593-7bc44c729518))

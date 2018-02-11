@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 7a2f331d-766b-4f05-9ce7-db5694b20e94)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 7a2f331d-766b-4f05-9ce7-db5694b20e94
  (name "D8-3C")
  (description "4 <B>DIODES</B><p>\nSIL, cathode marked\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: D8-3C\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "DN")

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 2dd3e40a-dea8-4d39-a515-c5a6d08f72f3)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_component 2dd3e40a-dea8-4d39-a515-c5a6d08f72f3
  (name "MCS10B")
  (description "<b>SOLDER PAD</b><p> MC S1, distributor Buerklin, 15F505\n\nThis element was automatically imported from Eagle\nFilepath: solpad.lbr\nName: MCS10B\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LSP")

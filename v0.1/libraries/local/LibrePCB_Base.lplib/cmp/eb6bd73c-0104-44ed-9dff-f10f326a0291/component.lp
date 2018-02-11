@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid eb6bd73c-0104-44ed-9dff-f10f326a0291)
- (version "0.1")
- (author "Luz")
- (created 2015-11-02T20:35:00Z)
- (modified 2015-11-02T20:35:00Z)
- (deprecated false)
+(librepcb_component eb6bd73c-0104-44ed-9dff-f10f326a0291
  (name "Transformer")
  (description "Transformer simple")
  (keywords "transformer")
+ (author "Luz")
+ (version "0.1")
+ (created 2015-11-02T20:35:00Z)
+ (deprecated false)
  (category b3adfa1e-b878-44f6-902a-14ef3dad7a14)
  (schematic_only false)
  (default_value "#WINDINGS_PRIMARY:#WINDINGS_SECONDARY")

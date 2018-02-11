@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 9ee1cf51-f91b-494b-861d-911c4185b614)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:40Z)
- (modified 2015-12-21T13:40:40Z)
- (deprecated false)
+(librepcb_device 9ee1cf51-f91b-494b-861d-911c4185b614
  (name "52760-1079")
  (description "<b>MOLEX Connector SD-52760-**79</b><p>\nSource: 52760-1079_sd molex.pdf\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 52760-1079\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:40Z)
+ (deprecated false)
  (component 0f2072ae-673e-488e-ad74-016fa7712d14)
  (package 5e4c445b-037e-4949-b2b3-167cd40d91e9)
  (pad 01234e50-3475-47aa-898f-7d057135da4c (sig ab395b41-caed-46b4-b44d-2e9da079c505))

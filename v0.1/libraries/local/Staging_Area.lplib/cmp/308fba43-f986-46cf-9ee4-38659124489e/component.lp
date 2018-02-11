@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 308fba43-f986-46cf-9ee4-38659124489e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 308fba43-f986-46cf-9ee4-38659124489e
  (name "BY229B")
  (description "<B>DIODE</B><p>\nFast Switching Rectifier, 8A (Vishay)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BY229B\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

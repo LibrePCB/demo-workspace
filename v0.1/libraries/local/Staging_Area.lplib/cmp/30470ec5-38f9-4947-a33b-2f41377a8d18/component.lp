@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 30470ec5-38f9-4947-a33b-2f41377a8d18)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:56Z)
- (modified 2015-12-20T22:10:56Z)
- (deprecated false)
+(librepcb_component 30470ec5-38f9-4947-a33b-2f41377a8d18
  (name "IEEE1394P6-")
  (description "<b>IEEE 1394 6P Connector</b><p>\nSource: http://www.molex.com/pdm_docs/sd/534620621_sd.pdf\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: IEEE1394P6-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:56Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "X")

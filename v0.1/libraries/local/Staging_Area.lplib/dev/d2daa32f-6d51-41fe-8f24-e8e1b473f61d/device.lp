@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid d2daa32f-6d51-41fe-8f24-e8e1b473f61d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device d2daa32f-6d51-41fe-8f24-e8e1b473f61d
  (name "BBY51")
  (description "Capacity <b>DIODE</b><p>\nvariable-capacitance diode (Infineon)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BBY51\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component d62595b4-752f-4a09-94f2-2c39ffa8acfb)
  (package 5dee62bd-8765-43c3-bd15-3cdaa2af69f7)
  (pad 0b7e3bae-fd35-4351-876f-73d31fc11e9a (sig 4fc8cac6-df13-4dbc-953f-a3c7f5de644e))

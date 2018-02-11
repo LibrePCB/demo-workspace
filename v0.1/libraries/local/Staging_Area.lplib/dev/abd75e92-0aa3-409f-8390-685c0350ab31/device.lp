@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid abd75e92-0aa3-409f-8390-685c0350ab31)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device abd75e92-0aa3-409f-8390-685c0350ab31
  (name "TRIM_EU-_RJ6S")
  (description "<b>POTENTIOMETER</b>\n\nThis element was automatically imported from Eagle\nFilepath: 0_Standardbauteile.lbr\nName: TRIM_EU-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component a46882d3-34cb-43a7-9b77-dd35ceda684d)
  (package 1cad0b15-9d5b-4538-bdb6-01c3223754bb)
  (pad 2919edad-27a1-4b40-8dec-2a64aded530e (sig 19ad0a05-b61f-415f-ae1b-8841aca81499))

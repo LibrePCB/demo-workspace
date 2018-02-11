@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid de54227f-6ee5-40ff-a6dd-dfda4ab5f433)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device de54227f-6ee5-40ff-a6dd-dfda4ab5f433
  (name "BAT49")
  (description "<B>DIODE</B><p>\nsmall signal diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BAT49\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 308e5095-8dbc-4830-8af2-e3aea3fb1b49)
  (package 2f931593-bf9b-460b-af7f-d8e8f4d2510b)
  (pad 613f34f8-ec74-460b-9203-e64dcd075b58 (sig 56ffbe35-d157-4b05-98cb-6225451aed6b))

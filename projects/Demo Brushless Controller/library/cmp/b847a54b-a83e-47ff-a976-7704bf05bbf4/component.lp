@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid b847a54b-a83e-47ff-a976-7704bf05bbf4)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-08T15:39:55Z)
- (modified 2015-03-08T15:39:55Z)
- (deprecated false)
+(librepcb_component b847a54b-a83e-47ff-a976-7704bf05bbf4
  (name "Crystal")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-08T15:39:55Z)
+ (deprecated false)
  (category 39d4b3d6-4168-4fe2-9420-fbf7eb3ac248)
  (schematic_only false)
  (default_value "")

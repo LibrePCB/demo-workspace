@@ -1,5 +1,4 @@
-(librepcb_board
- (uuid ace706f3-b818-4ce9-86ab-e3185109c18f)
+(librepcb_board ace706f3-b818-4ce9-86ab-e3185109c18f
  (name "default")
  (grid (type off) (interval 0.15875) (unit millimeters))
  (layers (inner 0))
@@ -5529,8 +5528,8 @@
   )
  )
 
- (polygon (layer brd_outlines) (width 0.0)
-  (fill false) (grab false) (pos 0.0 0.0)
+ (polygon 3f1e224a-f723-4a7c-ab54-f14cda6b4c8e (layer brd_outlines)
+  (width 0.0) (fill false) (grab false) (pos 0.0 0.0)
   (segment (pos 58.0 0.0) (angle 0.0))
   (segment (pos 58.0 16.5) (angle 0.0))
   (segment (pos 0.0 16.5) (angle 0.0))

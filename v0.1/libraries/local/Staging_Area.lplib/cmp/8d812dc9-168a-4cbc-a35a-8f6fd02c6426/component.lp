@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 8d812dc9-168a-4cbc-a35a-8f6fd02c6426)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 8d812dc9-168a-4cbc-a35a-8f6fd02c6426
  (name "SMK")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: isabellen.lbr\nName: SMK\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "R")

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 2e41d6e6-e33a-419a-88d9-78647b0cdcd3)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 2e41d6e6-e33a-419a-88d9-78647b0cdcd3
  (name "*W51M-TH")
  (description "<b>Golden DRAGON® with Lens</b> Enhanced Thinfilm LED<p>\nSource: LA_LR_LY_W51M_Pb_free[1].pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: *W51M-TH\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

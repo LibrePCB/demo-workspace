@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c54a0f5d-8852-448f-be93-11a950489001)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:53Z)
- (modified 2015-12-20T22:10:53Z)
- (deprecated false)
+(librepcb_device c54a0f5d-8852-448f-be93-11a950489001
  (name "MA20-2W")
  (description "<b>PIN HEADER</b>\n\nThis element was automatically imported from Eagle\nFilepath: con-lstb.lbr\nName: MA20-2W\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:53Z)
+ (deprecated false)
  (component 7451ee74-c23b-4525-9ed0-d63b12340c35)
  (package aaf1ecd0-af4c-4d84-abb4-33e6e5da56de)
  (pad 16917f8c-c03a-4dce-8337-45071d4e8b03 (sig 373fc054-7cc3-4022-afd2-59fa24763724))

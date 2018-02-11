@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid cfc7221d-d8a2-476c-bb6f-923fd4811147)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device cfc7221d-d8a2-476c-bb6f-923fd4811147
  (name "SB120")
  (description "<B>DIODE</B><p>\nbarrier rectifier, 1 A (Fairchild)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: SB120\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 5730dbf3-f1ce-4d03-ae9a-b095dad4e100)
  (package 2f931593-bf9b-460b-af7f-d8e8f4d2510b)
  (pad 613f34f8-ec74-460b-9203-e64dcd075b58 (sig 3a15ed05-c1a4-437a-abb5-0811f9e0ea21))

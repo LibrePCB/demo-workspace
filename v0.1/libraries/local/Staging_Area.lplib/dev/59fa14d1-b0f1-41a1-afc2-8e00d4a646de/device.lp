@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 59fa14d1-b0f1-41a1-afc2-8e00d4a646de)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 59fa14d1-b0f1-41a1-afc2-8e00d4a646de
  (name "UF4003")
  (description "<B>DIODE</B><p>\nultrafast recovery diode, 200 V<p>\nrectifier\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: UF4003\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component fc3c2261-6cf6-4ad6-abe7-586770e00b25)
  (package 2f931593-bf9b-460b-af7f-d8e8f4d2510b)
  (pad 613f34f8-ec74-460b-9203-e64dcd075b58 (sig d69ceb16-7ac4-42d3-8f31-ed0a76a8f2d5))

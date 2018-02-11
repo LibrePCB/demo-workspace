@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 9e33ea87-96c1-4eb6-9c01-3a223bfdded8)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:57Z)
- (modified 2015-12-20T22:10:57Z)
- (deprecated false)
+(librepcb_component 9e33ea87-96c1-4eb6-9c01-3a223bfdded8
  (name "53460-0629")
  (description "<b>IEEE 1394 Firewire Connector 6P</b> 2.0 I/O SOCKET RIGHT-ANGLE UPRIGHT WITH KINK<p>\nSource: 53460-0629.pdf<br>\nalso DWG.NO. SD-53460-0621\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 53460-0629\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:57Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "X")

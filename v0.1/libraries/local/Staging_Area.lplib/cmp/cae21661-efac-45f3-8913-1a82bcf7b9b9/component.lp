@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid cae21661-efac-45f3-8913-1a82bcf7b9b9)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component cae21661-efac-45f3-8913-1a82bcf7b9b9
  (name "LZR184")
  (description "<B>LED BLOCK</B><p>\n4 LEDs, Siemens\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LZR184\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "DZ")

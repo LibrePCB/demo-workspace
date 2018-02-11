@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 9288b6cf-ba4f-4705-a1c4-4958da693b5e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 9288b6cf-ba4f-4705-a1c4-4958da693b5e
  (name "3,17/1,3")
  (description "<b>THROUGH-HOLE PAD</b>\n\nThis element was automatically imported from Eagle\nFilepath: wirepad.lbr\nName: 3,17/1,3\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component a7d3b88f-a4b8-407a-a290-5624dc3c31b1)
  (package 79d97f6e-c72a-44c7-9748-b46bb99fefd5)
  (pad df97eb6b-375c-4705-9ede-3005ae4da822 (sig 8d5b148d-5450-4320-a418-bd078b7436cb))

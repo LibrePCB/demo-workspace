@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 1e884376-8400-41a9-b87f-a427fd919033)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device 1e884376-8400-41a9-b87f-a427fd919033
  (name "C-3640")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
  (package 11fe8774-ade2-4b36-bde6-1ec36ae627df)
  (pad b1efd1a3-d10d-4879-a508-6689b1124438 (sig 6d776f4d-2a7c-4128-a98a-dbb1dd861411))

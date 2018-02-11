@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 9ee79f1c-4263-4a47-a757-f447cd80f7e5)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 9ee79f1c-4263-4a47-a757-f447cd80f7e5
  (name "NFSG036BT")
  (description "<b>CHIP TYPE GREEN LED</b> NFSx036xT<p>\nSource: NICHIA CORPORATION .. NFSG036BT-E.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: NFSG036BT\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

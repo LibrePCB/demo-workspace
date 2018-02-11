@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid dd53b53b-5c7a-4f96-9a6e-771708b23895)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:28:20Z)
- (modified 2015-12-21T13:28:20Z)
- (deprecated false)
+(librepcb_device dd53b53b-5c7a-4f96-9a6e-771708b23895
  (name "SMT-WAV")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: isabellen.lbr\nName: SMT-WAV\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:28:20Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 3ecdb8bd-cba5-4bad-8a08-89da6ed3d5a8)
  (pad 659f0b4e-d487-4a91-a83b-65bea415e76a (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid ea6f4b6b-f9b2-48e0-a31b-827df6644781)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-06-21T12:37:45Z)
- (modified 2015-06-21T12:37:45Z)
- (deprecated false)
+(librepcb_component ea6f4b6b-f9b2-48e0-a31b-827df6644781
  (name "Crystal Filter 4 poles")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-06-21T12:37:45Z)
+ (deprecated false)
  (category f8ab2269-7924-421a-aecb-e567df6b309c)
  (schematic_only false)
  (default_value "")

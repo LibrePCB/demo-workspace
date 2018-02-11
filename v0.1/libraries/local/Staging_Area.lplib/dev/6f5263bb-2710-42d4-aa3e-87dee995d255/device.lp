@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 6f5263bb-2710-42d4-aa3e-87dee995d255)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 6f5263bb-2710-42d4-aa3e-87dee995d255
  (name "FOLIENKONDENSATOREN_KERAMIK")
  (description "Folienkondensatoren\n\nStandard MKS-2 (oder MKS-4)\n\nThis element was automatically imported from Eagle\nFilepath: 0_Standardbauteile.lbr\nName: FOLIENKONDENSATOREN\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component cf8e17b6-7ca9-4f49-a194-a1663a386e0f)
  (package d906f305-35a1-43fd-83b7-af4ca870e4db)
  (pad c8d8bb9a-aef0-402d-b42d-fe1b464937ea (sig 3bc15a5a-9049-470f-9615-cc501143fa2b))

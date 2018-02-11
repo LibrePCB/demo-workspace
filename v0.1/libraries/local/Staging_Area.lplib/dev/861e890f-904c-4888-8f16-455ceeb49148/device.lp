@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 861e890f-904c-4888-8f16-455ceeb49148)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 861e890f-904c-4888-8f16-455ceeb49148
  (name "DIAC2-_BR220H")
  (description "<B>DIAC</B><p>\ndouble diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIAC2-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component d40f5fbf-085a-461b-9922-89cc6f94ed88)
  (package 535701cc-a0b8-467c-8c8a-9b8eed521eb7)
  (pad 5bbc257f-8777-4110-9b7e-37705432768f (sig bd5e5eff-8b69-412e-8a7f-27a3b6e0442e))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid e809e324-df83-4c43-aaf1-5d030307894b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:39Z)
- (modified 2015-12-21T13:40:39Z)
- (deprecated false)
+(librepcb_device e809e324-df83-4c43-aaf1-5d030307894b
  (name "5566-2")
  (description "<b>Mini FIT connector 2 pol</b><p>\nSource: http://www.molex.com\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 5566-2\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:39Z)
+ (deprecated false)
  (component 221b8f61-d74c-45f1-b510-7706c492b822)
  (package bedd2221-5ece-4271-9733-b9d142caa26d)
  (pad 3d445847-70ba-44f2-b0f4-afe49988d925 (sig 43208bd1-91f7-45c0-85ec-7b5f5e61360f))

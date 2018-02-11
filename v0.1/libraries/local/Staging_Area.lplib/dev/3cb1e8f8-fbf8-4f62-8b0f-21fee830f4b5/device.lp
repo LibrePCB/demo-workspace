@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 3cb1e8f8-fbf8-4f62-8b0f-21fee830f4b5)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:53Z)
- (modified 2015-12-20T22:10:53Z)
- (deprecated false)
+(librepcb_device 3cb1e8f8-fbf8-4f62-8b0f-21fee830f4b5
  (name "FE18-2W")
  (description "<b>FEMALE HEADER</b>\n\nThis element was automatically imported from Eagle\nFilepath: con-lsta.lbr\nName: FE18-2W\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:53Z)
+ (deprecated false)
  (component 8249c28e-9671-4ed0-9672-f94b21d57d24)
  (package 4d66b976-a4d2-48e3-953d-083fcee6d498)
  (pad 00e2898a-e15e-4b1a-9ba4-a454343de94e (sig b256fecf-764f-431e-bc03-9ad9dac81d3c))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 4a2c75c3-f21a-41dc-ae67-f9fbec4fbe15)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:02Z)
- (modified 2015-12-20T22:11:02Z)
- (deprecated false)
+(librepcb_device 4a2c75c3-f21a-41dc-ae67-f9fbec4fbe15
  (name "L-EU_L4532C")
  (description "<B>INDUCTOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: L-EU\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:02Z)
+ (deprecated false)
  (component 506bd124-6062-400e-9078-b38bd7e1aaee)
  (package 1883af01-9639-4a98-ad58-1e985487682f)
  (pad adf0f8a8-7eb8-4766-a491-248d2cf0a336 (sig 777f11cd-9d4e-4b2b-aafa-7e7a836ff56e))

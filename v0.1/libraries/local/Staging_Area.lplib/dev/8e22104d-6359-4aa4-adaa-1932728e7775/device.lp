@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 8e22104d-6359-4aa4-adaa-1932728e7775)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 8e22104d-6359-4aa4-adaa-1932728e7775
  (name "P6KEXXC")
  (description "<B>DIODE</B><p>\ntransient-voltage suppressor\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: P6KEXXC\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component e158415a-27d4-48a1-af25-fb50e9b0fcff)
  (package 0fa2bded-8c3a-43f0-b162-eca0511e0b6f)
  (pad 1ea06992-da53-47e1-bd26-ce6a211dc864 (sig fd55c793-adf0-4ff7-8117-a52b9ccc6a05))

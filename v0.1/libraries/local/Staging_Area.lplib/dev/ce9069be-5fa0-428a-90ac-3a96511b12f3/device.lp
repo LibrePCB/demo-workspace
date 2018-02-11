@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid ce9069be-5fa0-428a-90ac-3a96511b12f3)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device ce9069be-5fa0-428a-90ac-3a96511b12f3
  (name "LRTB_G6SG")
  (description "<b>LRTB G6SG</b> 6-lead TOPLED®<p>\nSource: OSRAM Opto Semiconductors ... LRTB_G6SG_Pb_free.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LRTB_G6SG\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component c17f9489-7f99-4ead-986b-af76628b397f)
  (package 0e0977ef-e1e7-4d9c-96de-94e325aebb71)
  (pad 14972cf8-f062-4536-b94a-2a414a340a07 (sig ebdf69aa-6362-4963-89f9-786810d8f2f0))

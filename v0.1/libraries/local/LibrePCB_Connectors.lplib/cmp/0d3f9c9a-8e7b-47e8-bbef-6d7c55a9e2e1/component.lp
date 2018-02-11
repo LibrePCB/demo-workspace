@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 0d3f9c9a-8e7b-47e8-bbef-6d7c55a9e2e1)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-11T20:58:56Z)
- (modified 2015-03-11T20:58:56Z)
- (deprecated false)
+(librepcb_component 0d3f9c9a-8e7b-47e8-bbef-6d7c55a9e2e1
  (name "1x4P Male Connector")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-11T20:58:56Z)
+ (deprecated false)
  (category 22fbb140-85e4-46cc-a550-68ae2dc58b1a)
  (schematic_only false)
  (default_value "")

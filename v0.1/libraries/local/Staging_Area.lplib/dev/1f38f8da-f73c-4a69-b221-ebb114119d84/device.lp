@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 1f38f8da-f73c-4a69-b221-ebb114119d84)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 1f38f8da-f73c-4a69-b221-ebb114119d84
  (name "GT32")
  (description "Trigger <B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: GT32\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component b413899c-8496-47d0-9774-170f8c45d8a2)
  (package d56202bc-3269-4998-b210-a6c186ebb6db)
  (pad 30b2bc4e-40cc-43e7-835d-c514f7ed455c (sig b0c017fa-29b0-4c87-8485-1ed19a53c37d))

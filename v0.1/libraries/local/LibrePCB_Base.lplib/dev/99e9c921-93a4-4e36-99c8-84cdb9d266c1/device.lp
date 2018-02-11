@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 99e9c921-93a4-4e36-99c8-84cdb9d266c1)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device 99e9c921-93a4-4e36-99c8-84cdb9d266c1
  (name "R-1005")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 8d4eff95-cb5c-47a1-bc6c-f51ed2299388)
  (pad 3e4056b8-b59d-4dfe-a8a5-2a4cde9f19f0 (sig ad623f98-9e73-49c3-9404-f7cfa99d17cd))

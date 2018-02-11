@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 3c6c38aa-45c8-4058-8c14-d4326e289ead)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 3c6c38aa-45c8-4058-8c14-d4326e289ead
  (name "DIODE-_P6-15")
  (description "<b>DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 37afa3de-06dc-4dda-86d1-673099564e56)
  (package f327af7b-95b7-4c96-8137-6ccfe46242d2)
  (pad 2150b814-a347-445d-9baf-706cd67d29c4 (sig 2b1bc88a-66af-4d12-a243-011dcad5944e))

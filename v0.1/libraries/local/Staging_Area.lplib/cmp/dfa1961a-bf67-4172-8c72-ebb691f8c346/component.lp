@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid dfa1961a-bf67-4172-8c72-ebb691f8c346)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component dfa1961a-bf67-4172-8c72-ebb691f8c346
  (name "MSA5*C")
  (description "<b>16 Segment, Single Digit Alpha-Numeric Display</b> 0.5 Inch (12.7 mm)<p>\nSource: www.fairchildsemi.com/ds/MS/MSA5480C.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: MSA5*C\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

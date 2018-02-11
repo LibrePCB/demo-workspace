@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid e75c2237-2b8b-44de-bdb0-cc4a34efb326)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component e75c2237-2b8b-44de-bdb0-cc4a34efb326
  (name "5KPXX")
  (description "<B>DIODE</B><p>\ntransient voltage suppressor\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 5KPXX\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

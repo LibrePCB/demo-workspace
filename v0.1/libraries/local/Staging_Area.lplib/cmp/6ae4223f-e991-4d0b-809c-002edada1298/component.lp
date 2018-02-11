@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 6ae4223f-e991-4d0b-809c-002edada1298)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:52Z)
- (modified 2015-12-20T22:10:52Z)
- (deprecated false)
+(librepcb_component 6ae4223f-e991-4d0b-809c-002edada1298
  (name "LM6172")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_ICs.lbr\nName: LM6172\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:52Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "IC")

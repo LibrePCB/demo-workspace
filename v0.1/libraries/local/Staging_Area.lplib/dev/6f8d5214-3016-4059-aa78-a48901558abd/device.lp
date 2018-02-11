@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 6f8d5214-3016-4059-aa78-a48901558abd)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 6f8d5214-3016-4059-aa78-a48901558abd
  (name "1N4933")
  (description "<B>DIODE</B><p>\nfast recovery rectifier, 1A\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 1N4933\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 98284bab-f653-4e20-9ee1-75a76185b956)
  (package 2f931593-bf9b-460b-af7f-d8e8f4d2510b)
  (pad 613f34f8-ec74-460b-9203-e64dcd075b58 (sig 1d466e5b-7101-4e43-adf3-ed71cf420773))

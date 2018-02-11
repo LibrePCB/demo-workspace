@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 29a2fe19-7115-49cb-9d31-05199beee120)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 29a2fe19-7115-49cb-9d31-05199beee120
  (name "OSTAR_4-")
  (description "<b>OSTAR - Lighting with / without Optics</b><p>\nSource: http://catalog.osram-os.com/media/_en/Graphics/00035766_0.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: OSTAR_4-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

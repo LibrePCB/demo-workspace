@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid f43242ec-1304-4c9a-b590-34ac614b8ff2)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device f43242ec-1304-4c9a-b590-34ac614b8ff2
  (name "TLUV5300")
  (description "<b>Bicolor LED 5 mm</b> Untinted Diffused Package<p>\nSource: www.vishay.com .. Bi-Color LED Vashay TLUV5300.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: TLUV5300\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component aeca3492-06fb-477c-b9d5-8fd21d5e99b2)
  (package 46ebb042-4b46-4eb5-9fe8-bf5ee3ec592a)
  (pad 687fa894-eb31-4e67-9aff-8203974022fe (sig b92a7efd-47bd-49e2-b544-144b9a1d0ba8))

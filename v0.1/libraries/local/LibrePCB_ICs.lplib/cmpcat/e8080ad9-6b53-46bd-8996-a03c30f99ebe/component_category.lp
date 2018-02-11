@@ -1,12 +1,10 @@
-(librepcb_component_category
- (uuid e8080ad9-6b53-46bd-8996-a03c30f99ebe)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-07-05T12:43:52Z)
- (modified 2015-07-05T18:01:33Z)
- (deprecated false)
+(librepcb_component_category e8080ad9-6b53-46bd-8996-a03c30f99ebe
  (name "MOSFET Drivers")
  (description "")
  (keywords "mosfet,drivers")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-07-05T12:43:52Z)
+ (deprecated false)
  (parent b037e5c3-4e14-42e5-b542-cb4d8c7bff71)
 )

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid b19044b7-d637-43a1-80f0-66bfb647da28)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:28:20Z)
- (modified 2015-12-21T13:28:20Z)
- (deprecated false)
+(librepcb_device b19044b7-d637-43a1-80f0-66bfb647da28
  (name "SMS-0")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: isabellen.lbr\nName: SMS-0\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:28:20Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 10caf38f-7ca8-4deb-ba8f-fceba1ccd795)
  (pad 7f1d7c11-0ac4-463b-b0cc-92cf27f812bc (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))

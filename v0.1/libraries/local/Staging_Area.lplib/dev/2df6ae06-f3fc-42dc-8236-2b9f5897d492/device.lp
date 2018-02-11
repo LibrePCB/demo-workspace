@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 2df6ae06-f3fc-42dc-8236-2b9f5897d492)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 2df6ae06-f3fc-42dc-8236-2b9f5897d492
  (name "TRIM_EU-_CIP20C-6MM")
  (description "<b>POTENTIOMETER</b>\n\nThis element was automatically imported from Eagle\nFilepath: 0_Standardbauteile.lbr\nName: TRIM_EU-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component a46882d3-34cb-43a7-9b77-dd35ceda684d)
  (package 931ea880-0508-4539-b974-86cc6751f211)
  (pad 27c218a5-22de-460c-9dc5-5db2f793b717 (sig b7dbb9fa-1f75-4c6d-be54-310f0323bedb))

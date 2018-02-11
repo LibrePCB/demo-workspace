@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 448ac7ad-701c-4f55-a00a-3e9d141fbea9)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 448ac7ad-701c-4f55-a00a-3e9d141fbea9
  (name "LED\'S_LED_10MM")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_Standardbauteile.lbr\nName: LED\'S\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component e9da9519-fac6-49e4-85ce-de80841ed79b)
  (package 6b254509-4439-4e43-bca0-443f54bf6aa8)
  (pad 27b3964f-9387-4b72-8259-c09fa3c63b52 (sig 2b33ff0a-e944-4c8b-ba02-3edf022017ef))

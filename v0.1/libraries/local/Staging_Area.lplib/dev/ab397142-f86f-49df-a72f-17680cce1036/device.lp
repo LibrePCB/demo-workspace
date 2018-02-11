@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid ab397142-f86f-49df-a72f-17680cce1036)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device ab397142-f86f-49df-a72f-17680cce1036
  (name "SRP100")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: SRP100\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component e014fb07-497a-4726-bdf7-e59378e9aad5)
  (package 2f931593-bf9b-460b-af7f-d8e8f4d2510b)
  (pad 613f34f8-ec74-460b-9203-e64dcd075b58 (sig 4695a418-9765-4274-aaf7-de1a0ee3c76e))

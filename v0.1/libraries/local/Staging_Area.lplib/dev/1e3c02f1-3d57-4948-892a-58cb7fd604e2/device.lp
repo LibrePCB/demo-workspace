@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 1e3c02f1-3d57-4948-892a-58cb7fd604e2)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 1e3c02f1-3d57-4948-892a-58cb7fd604e2
  (name "MBRS130LT3")
  (description "<b>Schottky Power Rectifier</b><p>\nSource: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: MBRS130LT3\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component c08ad678-63d8-4633-9812-284669833331)
  (package 41950662-b3e4-44c0-96a0-d488e8fc07cc)
  (pad 512ccfa3-78bb-4157-8420-951664bafeb8 (sig 4190b0ec-5043-46b8-85a1-62c4edcf74ba))

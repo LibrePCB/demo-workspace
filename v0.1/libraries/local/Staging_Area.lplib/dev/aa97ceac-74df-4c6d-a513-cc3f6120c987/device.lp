@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid aa97ceac-74df-4c6d-a513-cc3f6120c987)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device aa97ceac-74df-4c6d-a513-cc3f6120c987
  (name "S7379-01")
  (description "<b>Si PIN Quadrant photodiode</b><p>\nSource: http://sales.hamamatsu.com/assets/pdf/parts_S/S7379-01_etc.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: S7379-01\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 16ad1e52-4225-4414-a07a-6c577783fb59)
  (package 21ade3c1-57d9-4488-9ec5-65b893c174ab)
  (pad 029f1b76-284d-46c8-a33a-e1384955b68e (sig d9f3bab0-1fde-40ea-a657-f7147db5d7a2))

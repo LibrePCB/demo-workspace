@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid a0f3dbe8-33f0-45f1-bb96-2912a9cebf6a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device a0f3dbe8-33f0-45f1-bb96-2912a9cebf6a
  (name "ZY")
  (description "<b>Z DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: ZY\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 096b9ce8-51f2-45fa-92f9-94b84f44de66)
  (package e5810691-09d4-4691-87e7-c73d548cca8b)
  (pad 0458c33c-a9ea-469c-882c-c7f4e68f608d (sig c2fc728b-515b-45b5-9c06-addf1d371274))

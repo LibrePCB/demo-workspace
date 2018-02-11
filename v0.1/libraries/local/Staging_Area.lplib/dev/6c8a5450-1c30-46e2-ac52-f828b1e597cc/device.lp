@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 6c8a5450-1c30-46e2-ac52-f828b1e597cc)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 6c8a5450-1c30-46e2-ac52-f828b1e597cc
  (name "PB3XX301V050A")
  (description "<b>Self-addressed led , single point control with integrated RGB leds and drive IC</b><p>\nEasy control by MCU.<br>\nSource: DycolED.pdf <a href=\"http://www.kirronlightcomponents.com/index.php/download_file/view/41/83/\"> Data sheet </a>\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: PB3XX301V050A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 43ba0568-a0b3-4ae4-9db1-a9872442a22f)
  (package 94bf102f-95cd-4c01-9911-84770ed4d6ad)
  (pad 4418715e-b6db-4615-b938-024c929addbc (sig 05c4fdfc-f222-4bff-ad02-f491a4df563b))

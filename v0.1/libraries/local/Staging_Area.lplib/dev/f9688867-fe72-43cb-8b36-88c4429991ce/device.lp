@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid f9688867-fe72-43cb-8b36-88c4429991ce)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device f9688867-fe72-43cb-8b36-88c4429991ce
  (name "ES2D")
  (description "<B>DIODE</B><p>\nsuper fast rectifier, 2 A\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: ES2D\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component b68905a9-8921-4789-8ba9-a6b9ba4a4d0d)
  (package 41950662-b3e4-44c0-96a0-d488e8fc07cc)
  (pad 512ccfa3-78bb-4157-8420-951664bafeb8 (sig 13b5773b-18e1-4ebd-bd19-4f6f4302c272))

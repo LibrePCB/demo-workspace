@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5b6ce6d0-3414-4416-a5f5-775803e804f9)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 5b6ce6d0-3414-4416-a5f5-775803e804f9
  (name "TLLG4400")
  (description "<b>Low Current (2mA) LED 3 mm Tinted Diffused Package</b> color <b><font color=\"green\">GREEN</font></b><p>\nSource: <a href=\"http://www.farnell.com/datasheets/391098.pdf\"> Data sheet</a>\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: TLLG4400\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component dd9e8f30-94e8-4c0b-a8fa-f0de6cf5a2bf)
  (package bba72ff1-b62e-41f3-8e1b-ad62bd55a0bb)
  (pad 3c750b30-bcd8-4469-aa4d-fda7a636631e (sig d4824bee-6461-4b95-a773-15e30586fd45))

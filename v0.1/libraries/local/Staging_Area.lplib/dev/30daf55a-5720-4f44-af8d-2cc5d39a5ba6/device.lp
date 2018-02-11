@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 30daf55a-5720-4f44-af8d-2cc5d39a5ba6)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 30daf55a-5720-4f44-af8d-2cc5d39a5ba6
  (name "OA95")
  (description "<B>DIODE</B><p>\ngermanium diode<p>\n115 V, 50 mA/150 mA\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: OA95\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component ad847c64-1242-41c8-8121-bc250cff866f)
  (package 24bfa9e2-0054-4b3a-b007-f696afc7f81a)
  (pad afd2ecc2-c34e-4a0a-88ef-0ccb3f784d82 (sig cdb9ddb1-7347-4e94-8764-6892cd888f5a))

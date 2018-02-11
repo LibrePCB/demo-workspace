@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 8b536226-188a-4440-8075-a97be9549409)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 8b536226-188a-4440-8075-a97be9549409
  (name "BZW50B")
  (description "<B>DIODE</B><p>\nuni and bidirectional supressor diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BZW50B\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

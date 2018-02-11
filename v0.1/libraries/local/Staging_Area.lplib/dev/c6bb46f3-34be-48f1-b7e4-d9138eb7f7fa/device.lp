@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c6bb46f3-34be-48f1-b7e4-d9138eb7f7fa)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device c6bb46f3-34be-48f1-b7e4-d9138eb7f7fa
  (name "HC49GW")
  (description "<b>CRYSTAL</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: HC49GW\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component ac61560c-ea3f-4db1-953d-7d7f7251b194)
  (package 01cffac8-e4ca-4e3b-afed-6aea68d151be)
  (pad 3ac88b6c-ed56-44d7-b48e-8ca6dbe355bc (sig b1173e21-702d-4a05-a6dc-7ff382af41ed))

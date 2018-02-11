@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid f290b50a-9ac3-499c-b527-9038fdc6f10e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component f290b50a-9ac3-499c-b527-9038fdc6f10e
  (name "BZX85")
  (description "<b>Z DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BZX85\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 3efc63ca-fcc4-4cbf-a2d6-977a02898bc6)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 3efc63ca-fcc4-4cbf-a2d6-977a02898bc6
  (name "BAV21")
  (description "<B>DIODE</B><p>\nhigh-voltage general purpose diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BAV21\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

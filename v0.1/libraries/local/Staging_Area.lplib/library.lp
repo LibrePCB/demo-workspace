@@ -1,13 +1,11 @@
-(librepcb_library
- (uuid 700c846f-242e-4cb4-aea7-8b1646b9f8c0)
- (version "0.1")
- (author "LibrePCB")
- (created 2016-04-13T12:43:52Z)
- (modified 2016-04-20T18:01:33Z)
- (deprecated false)
+(librepcb_library 700c846f-242e-4cb4-aea7-8b1646b9f8c0
  (name "LibrePCB Staging Area")
  (description "Review required")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2016-04-13T12:43:52Z)
+ (deprecated false)
  (url "https://github.com/LibrePCB-Libraries/LibrePCB_StagingArea.lplib")
  (dependency 02351ef6-2334-4512-bb86-6d9bcf9aa8d0)
  (dependency ab480219-c385-4dc3-9ac0-5e7acc762fc7)

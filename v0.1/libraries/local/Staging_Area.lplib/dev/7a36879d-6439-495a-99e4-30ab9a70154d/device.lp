@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 7a36879d-6439-495a-99e4-30ab9a70154d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 7a36879d-6439-495a-99e4-30ab9a70154d
  (name "TLLY4400")
  (description "<b>Low Current (2mA) LED 3 mm Tinted Diffused Package</b> color<b><font color=\"#909020\"> YELLOW</font></b><p>\nSource: <a href=\"http://www.farnell.com/datasheets/391098.pdf\"> Data sheet</a>\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: TLLY4400\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component e832008d-f84b-423e-9618-620a720d543f)
  (package bba72ff1-b62e-41f3-8e1b-ad62bd55a0bb)
  (pad 3c750b30-bcd8-4469-aa4d-fda7a636631e (sig b2092cc0-38d7-4639-b4dc-757a30b2f2ef))

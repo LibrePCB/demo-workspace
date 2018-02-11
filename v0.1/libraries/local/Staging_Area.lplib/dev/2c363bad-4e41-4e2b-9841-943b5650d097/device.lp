@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 2c363bad-4e41-4e2b-9841-943b5650d097)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 2c363bad-4e41-4e2b-9841-943b5650d097
  (name "DIODEN_DO15-12")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_Standardbauteile.lbr\nName: DIODEN\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component 238b14ea-53c1-4f24-acbc-b8a7c9a642e2)
  (package 836a9d72-7b0e-4a52-b26a-7226e7e653c7)
  (pad 4de2f23b-e61c-4fb6-afa4-8b87ef30634e (sig 3021e726-3643-4fc4-b954-0824e517507d))

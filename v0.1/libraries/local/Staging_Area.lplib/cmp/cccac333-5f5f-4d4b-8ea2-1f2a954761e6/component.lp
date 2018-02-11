@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid cccac333-5f5f-4d4b-8ea2-1f2a954761e6)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component cccac333-5f5f-4d4b-8ea2-1f2a954761e6
  (name "AA215")
  (description "<B>DIODE</B><p>\ngermanium\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: AA215\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

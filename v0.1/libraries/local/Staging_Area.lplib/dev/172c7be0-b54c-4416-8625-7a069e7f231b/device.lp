@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 172c7be0-b54c-4416-8625-7a069e7f231b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 172c7be0-b54c-4416-8625-7a069e7f231b
  (name "PMLL4150")
  (description "<B>DIODE</B><p>\nhigh speed\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: PMLL4150\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component be55f715-9c93-4257-b4a3-d204f0860412)
  (package 7598b2cd-b3d6-48aa-8105-b99609654747)
  (pad 69ff349a-c3b8-4fdd-bfb8-f2088b5e933d (sig d700a4c8-a63e-4bca-9c32-4ea8ca0646d5))

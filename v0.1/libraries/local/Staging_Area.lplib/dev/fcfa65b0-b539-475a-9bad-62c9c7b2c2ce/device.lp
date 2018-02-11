@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid fcfa65b0-b539-475a-9bad-62c9c7b2c2ce)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device fcfa65b0-b539-475a-9bad-62c9c7b2c2ce
  (name "SB320")
  (description "<B>DIODE</B><p>\nbarrier rectifier, 3 A (Fairchild)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: SB320\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component ac87323a-305b-4597-bc7b-33e624eccb2c)
  (package cdc60685-ebe6-4a3d-9ce1-8873f76a8f24)
  (pad 7403240f-13dc-4614-a9e9-90395e2a0e19 (sig a649dd36-eca8-480d-ab1b-fce647fd99d0))

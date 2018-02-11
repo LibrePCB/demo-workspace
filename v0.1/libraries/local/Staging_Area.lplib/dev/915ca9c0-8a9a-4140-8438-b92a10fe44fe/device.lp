@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 915ca9c0-8a9a-4140-8438-b92a10fe44fe)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 915ca9c0-8a9a-4140-8438-b92a10fe44fe
  (name "BZT03XX")
  (description "<b>Z DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BZT03XX\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 33f8f901-18d9-401f-96f7-b74299bd54ff)
  (package f7a5b286-b2e3-43c6-a86c-49bde7f33cba)
  (pad c251b36d-36ca-42c4-8c56-d7a28e6ee94a (sig ef381646-eb51-4d01-9e49-c2b97a36f0bb))

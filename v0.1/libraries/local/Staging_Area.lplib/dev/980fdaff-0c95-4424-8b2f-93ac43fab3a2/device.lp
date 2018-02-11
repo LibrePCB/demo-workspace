@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 980fdaff-0c95-4424-8b2f-93ac43fab3a2)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device 980fdaff-0c95-4424-8b2f-93ac43fab3a2
  (name "RV-3029-C2")
  (description "<b>Highly accurate, DTCXO Temperature Compensated Real Time Clock / Calendar</b><p>\nModule with I2C Interface.\nSource: <a href=\"http://www.mcrystal.ch/Resources/PDFs/DataSheet/Real-Time-Clocks/RV-3029-C2.aspx\"> Data shhet </a>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: RV-3029-C2\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component dc16fcb0-c9fa-402e-90c2-6c23f77c44e3)
  (package 306883e8-ed01-4c5c-9227-75da35fa73fb)
  (pad 19bc1fd7-010a-4236-9984-64385a7050b3 (sig 04b94378-ecdf-41f7-b9ec-201e48fcb3ef))

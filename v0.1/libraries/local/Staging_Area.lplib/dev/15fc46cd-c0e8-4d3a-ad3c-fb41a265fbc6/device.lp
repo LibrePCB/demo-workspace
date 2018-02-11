@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 15fc46cd-c0e8-4d3a-ad3c-fb41a265fbc6)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 15fc46cd-c0e8-4d3a-ad3c-fb41a265fbc6
  (name "DIODE_2SCHOTTKY-_SOT93V")
  (description "Dual <B>SCHOTTKY DIODE</B><p>\ncommon cathode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE_2SCHOTTKY-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component dd6f1ca8-7222-41d5-be2f-2ed4b4e17213)
  (package f7a2023f-8f5a-4789-ad59-494299d4a48a)
  (pad 0d6f7409-a96e-4bd6-82c1-dc6496a53ae6 (sig dbaea8d9-cc6f-4679-a89c-6c74e12cec6a))

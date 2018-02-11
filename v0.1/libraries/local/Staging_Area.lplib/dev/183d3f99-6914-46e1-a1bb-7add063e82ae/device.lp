@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 183d3f99-6914-46e1-a1bb-7add063e82ae)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 183d3f99-6914-46e1-a1bb-7add063e82ae
  (name "BYV27")
  (description "<B>DIODE</B><p>\nultra fast\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYV27\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 3ffd2d41-9729-4147-a087-b4b7cc6c9c91)
  (package ec3d80fe-1077-4941-8a46-14032e57c463)
  (pad 1db57d0b-3ea9-49d0-b119-93d01992b454 (sig 2300d606-4632-4e5f-b5db-ab3b7ad5f2c5))

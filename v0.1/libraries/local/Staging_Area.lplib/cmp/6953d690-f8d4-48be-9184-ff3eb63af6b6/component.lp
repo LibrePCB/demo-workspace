@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 6953d690-f8d4-48be-9184-ff3eb63af6b6)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_component 6953d690-f8d4-48be-9184-ff3eb63af6b6
  (name "10")
  (description "<b>Monolithic Crystal Filters</b><p>\nSource: www.golledge.com\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: 10\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "QF")

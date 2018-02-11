@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 01fc4c7f-5944-458f-bdda-1293b81fb451)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 01fc4c7f-5944-458f-bdda-1293b81fb451
  (name "MBR0520LT")
  (description "<b>SCHOTTKY BARRIER RECTIFIER</b><p>\nSource: http://onsemi.com .. MBR0520LT1-D.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: MBR0520LT\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

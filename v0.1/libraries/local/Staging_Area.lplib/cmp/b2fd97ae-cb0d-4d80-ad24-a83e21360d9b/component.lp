@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid b2fd97ae-cb0d-4d80-ad24-a83e21360d9b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_component b2fd97ae-cb0d-4d80-ad24-a83e21360d9b
  (name "MF_")
  (description "<b>CRYSTAL FILTERS</b><p>\nSource: http://www.presto.co.uk\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: MF_\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "QF")

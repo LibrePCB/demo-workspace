@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid b956a72c-8208-42b0-9b53-92ba2b9e8388)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device b956a72c-8208-42b0-9b53-92ba2b9e8388
  (name "LED\'S_LED_5MM")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_Standardbauteile.lbr\nName: LED\'S\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component e9da9519-fac6-49e4-85ce-de80841ed79b)
  (package bb6f8988-b356-4c14-b424-2223c993b89d)
  (pad 08d6a01a-2a98-46ab-b4f9-7e6fff10fc0c (sig caab37d4-e089-464a-91ed-18d180bfd7ee))

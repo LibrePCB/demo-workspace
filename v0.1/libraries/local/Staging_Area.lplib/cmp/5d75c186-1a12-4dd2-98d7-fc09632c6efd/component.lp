@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 5d75c186-1a12-4dd2-98d7-fc09632c6efd)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:55Z)
- (modified 2015-12-20T22:10:55Z)
- (deprecated false)
+(librepcb_component 5d75c186-1a12-4dd2-98d7-fc09632c6efd
  (name "5566-12")
  (description "<b>Mini FIT connector 12 pol</b><p>\nSource: http://www.molex.com\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 5566-12\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:55Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "X")

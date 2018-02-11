@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 31df0910-dfba-4df2-a379-d96ecc0eff0e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 31df0910-dfba-4df2-a379-d96ecc0eff0e
  (name "1N4728")
  (description "<b>Z DIODE</b><p>\n3.3 V, 1W, 5 percent\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 1N4728\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component b4f7c396-e6e7-407c-9e91-44996137c332)
  (package df634fb8-41a4-494b-8b35-6bd7d6467009)
  (pad 01145a7d-f795-48bf-86a8-645d40637c26 (sig e426246c-e943-4756-8039-ae424db9454a))

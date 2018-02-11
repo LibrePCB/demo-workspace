@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 557dfa77-1ad5-47ec-b604-74fc6c5dcd21)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:52Z)
- (modified 2015-12-20T22:10:52Z)
- (deprecated false)
+(librepcb_device 557dfa77-1ad5-47ec-b604-74fc6c5dcd21
  (name "IR2101")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_ICs.lbr\nName: IR2101\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:52Z)
+ (deprecated false)
  (component cc20c58e-93b5-49cd-b6e1-48c5e5e76ed3)
  (package 8f527584-632b-4643-8a12-6443af735944)
  (pad 3ff35ac1-920f-4dac-b0e3-4ab33a39a731 (sig 7c1df97a-34a0-470c-9d96-ebbd5f281aaa))

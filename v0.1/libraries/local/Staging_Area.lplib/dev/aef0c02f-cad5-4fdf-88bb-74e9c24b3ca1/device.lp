@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid aef0c02f-cad5-4fdf-88bb-74e9c24b3ca1)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device aef0c02f-cad5-4fdf-88bb-74e9c24b3ca1
  (name "BYW80")
  (description "<B>DIODE</B><p>\nhigh-efficiency fast recovery rectifier (ST)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYW80\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component c52f0fda-4514-4ed5-92cd-12e111ee3b36)
  (package d209d33d-0fdd-4fde-ace9-d4ef1fe4e70c)
  (pad 22c59b75-9555-4663-b1ec-2cb2e628e643 (sig 913ecc57-a1b8-42f6-9ea4-dba8a7868ea2))

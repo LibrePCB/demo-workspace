@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid ece9549c-bbae-47d0-bb2a-9544c150e1ce)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:02Z)
- (modified 2015-12-20T22:11:02Z)
- (deprecated false)
+(librepcb_device ece9549c-bbae-47d0-bb2a-9544c150e1ce
  (name "C-EU_325-162X374")
  (description "<B>CAPACITOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: C-EU\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:02Z)
+ (deprecated false)
  (component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
  (package 67f54178-c7e5-48a8-a37b-e6052b903e8b)
  (pad 110687c7-b47d-43b6-8c02-e6b7ae070259 (sig 6d776f4d-2a7c-4128-a98a-dbb1dd861411))

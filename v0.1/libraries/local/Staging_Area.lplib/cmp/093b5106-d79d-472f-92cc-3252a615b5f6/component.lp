@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 093b5106-d79d-472f-92cc-3252a615b5f6)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 093b5106-d79d-472f-92cc-3252a615b5f6
  (name "LZ4-00WW10")
  (description "<b>High Luminous Efficacy 10W LED</b><p>\nhttp://www.ledengin.com/products/10wLZ/LZ4-00WW10.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LZ4-00WW10\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

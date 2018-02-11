@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 832d9738-c245-439a-bb86-ce870313fc4d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 832d9738-c245-439a-bb86-ce870313fc4d
  (name "FES08AT")
  (description "<B>DIODE</B><p>\nultra-fast recovery rectifier\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: FES08AT\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component ff043607-26a3-4dfa-b529-669ebe24e041)
  (package 8da8dcf5-2027-4634-8324-2580c43d5062)
  (pad ddfa5480-45fa-49bc-a8f6-4ad86f6cd8ea (sig c7b5c237-55a2-43f7-b20a-9b3b3a22f8b6))

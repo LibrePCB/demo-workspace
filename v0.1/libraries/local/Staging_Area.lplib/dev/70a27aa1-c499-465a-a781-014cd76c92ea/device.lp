@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 70a27aa1-c499-465a-a781-014cd76c92ea)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 70a27aa1-c499-465a-a781-014cd76c92ea
  (name "R-US__R3216W")
  (description "<B>RESISTOR</B>, American symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-US_\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 6237e73f-d5c2-4000-8492-18a306a7f3e7)
  (pad 15c10e3c-f625-4529-8b62-162211a66c0f (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))

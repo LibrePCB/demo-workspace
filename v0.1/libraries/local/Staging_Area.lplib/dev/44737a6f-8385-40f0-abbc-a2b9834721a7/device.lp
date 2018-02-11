@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 44737a6f-8385-40f0-abbc-a2b9834721a7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 44737a6f-8385-40f0-abbc-a2b9834721a7
  (name "ELKOS_D6.5/RM2.54")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_Standardbauteile.lbr\nName: ELKOS\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component 7bf80867-2aca-47bb-93eb-1182cdff13a4)
  (package d4228c3b-2d27-4aa2-a1f7-5a811610a946)
  (pad 4af692cb-7f18-49d1-91f6-b76d1be0fcb2 (sig c73e6962-aa65-4e5b-afb5-6fb2302e28a1))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid cb4bbf93-793f-4bd9-8cb6-fa0a43f6d382)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device cb4bbf93-793f-4bd9-8cb6-fa0a43f6d382
  (name "R-TRIMM_TSM53YL")
  (description "<b>Trimm resistor</b>\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-TRIMM\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component daeed3be-7232-49c4-8d32-003974e84e46)
  (package a805ec5c-9826-4c88-9f42-4535b078cc35)
  (pad 4e95095e-30f3-48d5-b0d3-6e123a320632 (sig 8a87b90b-5d61-46e1-8af1-f554e3c83bf9))

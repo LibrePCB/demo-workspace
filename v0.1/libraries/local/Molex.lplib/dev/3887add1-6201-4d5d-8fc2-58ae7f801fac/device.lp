@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 3887add1-6201-4d5d-8fc2-58ae7f801fac)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:41Z)
- (modified 2015-12-21T13:40:41Z)
- (deprecated false)
+(librepcb_device 3887add1-6201-4d5d-8fc2-58ae7f801fac
  (name "87758-1016")
  (description "<b>10 Pin - 2mm Dual Row Single Wafer, Vertical T/H HDR</b><p>\nSource: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 87758-1016\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:41Z)
+ (deprecated false)
  (component 181818a5-9dad-40c2-99dc-1f04b65aa37d)
  (package b533900d-ce12-4a69-b671-31424567ada9)
  (pad 05ac4d38-de2c-4901-8e73-3474fcdb5106 (sig bf03f40a-831d-487f-b745-853b82147d43))

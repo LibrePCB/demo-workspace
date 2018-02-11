@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5512ed40-604c-43fd-802c-1da10d419357)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device 5512ed40-604c-43fd-802c-1da10d419357
  (name "R-2010")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 410e053a-5533-4c13-b058-eab440add9a6)
  (pad 23185bd8-a9bb-4f51-9d4f-0cc0ce214b19 (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))

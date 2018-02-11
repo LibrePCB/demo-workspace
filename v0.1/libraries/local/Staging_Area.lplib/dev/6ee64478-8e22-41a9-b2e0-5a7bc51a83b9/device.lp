@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 6ee64478-8e22-41a9-b2e0-5a7bc51a83b9)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 6ee64478-8e22-41a9-b2e0-5a7bc51a83b9
  (name "R-TRIMM_T93YA")
  (description "<b>Trimm resistor</b>\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-TRIMM\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component daeed3be-7232-49c4-8d32-003974e84e46)
  (package 95176f3e-dd63-49b7-bb74-8291a4f35d5e)
  (pad 0222dd30-2471-4c36-b81b-c5ec409c46f9 (sig ef7d6004-a9dd-441a-a605-965863019345))

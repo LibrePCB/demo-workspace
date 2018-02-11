@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid edc8ebdb-0504-4199-9dc5-ba8798243c17)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device edc8ebdb-0504-4199-9dc5-ba8798243c17
  (name "ZENER-DIODE_SOT223")
  (description "Z-Diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: ZENER-DIODE\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 5ea08765-9bbd-4c11-a475-698617200963)
  (package 9cb46b04-9e9f-45e6-af5e-11c526f8fa49)
  (pad 2af0ba26-5f28-4051-aa65-70cbf6f52f01 (sig 798ebf9f-6adb-4998-a9be-8919af3d3c65))

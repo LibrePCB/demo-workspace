@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid bbddd5c0-2e33-4b42-8d05-bc452a539e1c)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component bbddd5c0-2e33-4b42-8d05-bc452a539e1c
  (name "F50360")
  (description "<b>Full color Z-Power LED RGB</b> P5-II Series<p>\nSource: http://www.seoulsemicon.co.kr .. F50360.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: F50360\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid b4a24d24-7180-406a-8c77-d506e68b5917)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component b4a24d24-7180-406a-8c77-d506e68b5917
  (name "PMLL41*")
  (description "<b>High-speed diodes</b><p>\nSource: http://www.semiconductors.philips.com/acrobat_download/datasheets/PMLL4150_2.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: PMLL41*\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

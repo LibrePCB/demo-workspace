@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 88128b66-bb62-4964-ac98-a81e3a669940)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device 88128b66-bb62-4964-ac98-a81e3a669940
  (name "C-4564")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
  (package 11b7567a-b972-4c22-bd17-5b2b8e5c8e89)
  (pad 0233dfaf-adff-4931-a3c5-9fa8855c4cea (sig 6d776f4d-2a7c-4128-a98a-dbb1dd861411))

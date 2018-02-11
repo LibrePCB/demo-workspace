@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid bdb95888-60c1-43de-b062-e7fd87ff64f6)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device bdb95888-60c1-43de-b062-e7fd87ff64f6
  (name "GP15")
  (description "<B>DIODE</B><p>\nlow leakage at high temperature, 2 A (Diotec)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: GP15\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component a05d872f-55a8-4c74-8c48-462361d89f73)
  (package 28a1eab5-76ec-4878-a0e3-fb0b660b6209)
  (pad 3be318d8-b78f-4fe0-9d74-c38caa462de6 (sig ea60ad2e-9666-4e25-803b-d4501a5c0486))

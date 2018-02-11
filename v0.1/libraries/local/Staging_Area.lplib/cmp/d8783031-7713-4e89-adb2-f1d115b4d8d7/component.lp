@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid d8783031-7713-4e89-adb2-f1d115b4d8d7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component d8783031-7713-4e89-adb2-f1d115b4d8d7
  (name "BYT03")
  (description "<B>DIODE</B><p>\nultra fast\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYT03\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

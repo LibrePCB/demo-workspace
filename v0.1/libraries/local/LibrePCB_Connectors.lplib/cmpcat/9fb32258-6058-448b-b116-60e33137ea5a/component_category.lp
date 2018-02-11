@@ -1,12 +1,10 @@
-(librepcb_component_category
- (uuid 9fb32258-6058-448b-b116-60e33137ea5a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-07-05T12:43:52Z)
- (modified 2015-07-05T18:01:33Z)
- (deprecated false)
+(librepcb_component_category 9fb32258-6058-448b-b116-60e33137ea5a
  (name "Board-to-Board")
  (description "Board-to-Board Connectors")
  (keywords "board,connector,b2b")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-07-05T12:43:52Z)
+ (deprecated false)
  (parent 22fbb140-85e4-46cc-a550-68ae2dc58b1a)
 )

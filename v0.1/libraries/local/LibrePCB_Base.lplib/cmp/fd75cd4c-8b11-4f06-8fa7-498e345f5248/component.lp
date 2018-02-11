@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid fd75cd4c-8b11-4f06-8fa7-498e345f5248)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-06-21T12:37:43Z)
- (modified 2015-06-21T12:37:43Z)
- (deprecated false)
+(librepcb_component fd75cd4c-8b11-4f06-8fa7-498e345f5248
  (name "Trimmer Capacitor")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-06-21T12:37:43Z)
+ (deprecated false)
  (category c011cc6b-b762-498e-8494-d1994f3043cf)
  (schematic_only false)
  (default_value "")

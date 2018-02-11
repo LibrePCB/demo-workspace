@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 964aa38f-c167-4fc0-92c9-c27da9c22775)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 964aa38f-c167-4fc0-92c9-c27da9c22775
  (name "R-US__VTA55")
  (description "<B>RESISTOR</B>, American symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-US_\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 493eadd2-9a53-470c-94ce-2249f09b9b41)
  (pad 696d5c1f-6093-4f3e-b45c-ffc8a77712f1 (sig ad623f98-9e73-49c3-9404-f7cfa99d17cd))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 3c9b36b3-acde-43e0-b0ec-2e815efe0f72)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 3c9b36b3-acde-43e0-b0ec-2e815efe0f72
  (name "UF5400")
  (description "<B>DIODE</B><p>\nultra fast rectifier, 3 A\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: UF5400\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component b88d90fb-8305-4f48-9107-b2391d6eb67a)
  (package cdc60685-ebe6-4a3d-9ce1-8873f76a8f24)
  (pad 7403240f-13dc-4614-a9e9-90395e2a0e19 (sig b9e09e2e-7ddf-45ff-ba8e-4e07128947cb))

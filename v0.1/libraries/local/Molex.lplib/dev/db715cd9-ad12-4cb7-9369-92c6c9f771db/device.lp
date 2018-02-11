@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid db715cd9-ad12-4cb7-9369-92c6c9f771db)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:40Z)
- (modified 2015-12-21T13:40:40Z)
- (deprecated false)
+(librepcb_device db715cd9-ad12-4cb7-9369-92c6c9f771db
  (name "52746-15")
  (description "<b>FPC Connector ZIF for SMT 0.5mm</b><p>\nSource: http://www.farnell.com/datasheets/73044.pdf [DWG. NO. (Sheet 1 OF 2) SD-52746-**17]\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 52746-15\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:40Z)
+ (deprecated false)
  (component 965388a8-a9bf-4af8-a12b-c88c9f23024f)
  (package a3e9975e-6f3f-48a1-858a-b73101f9d59d)
  (pad 0cd94f41-c7c2-41f1-b0cf-c6eb9058bd14 (sig 8a214b1b-75e5-4fc5-a1e7-db7af41effaa))

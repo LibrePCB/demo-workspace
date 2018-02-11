@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 781c74f2-a57e-4ada-96c9-1687d9ee65c0)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device 781c74f2-a57e-4ada-96c9-1687d9ee65c0
  (name "C-1608")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
  (package 3e9c71fb-04bb-48c1-9aa2-06bf91d3ded1)
  (pad 3499070b-d90e-4013-a7d4-c4ac64265f45 (sig 1c1c7abc-7b40-4f92-b533-f65604644db7))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 7a39e048-49e6-431c-ba13-34adf0073367)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device 7a39e048-49e6-431c-ba13-34adf0073367
  (name "CRYSTAL_TC26H")
  (description "<b>CRYSTAL</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: CRYSTAL\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component b847a54b-a83e-47ff-a976-7704bf05bbf4)
  (package 82a43c87-acbd-4bd1-ae2f-529a096aa680)
  (pad 1a1d7713-fe0b-4e4d-a36f-3ebaf0769e5d (sig 878301c2-bacc-4ffa-923c-ef5b1f06e5fe))

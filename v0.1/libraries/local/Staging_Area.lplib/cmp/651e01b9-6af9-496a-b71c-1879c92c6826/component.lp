@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 651e01b9-6af9-496a-b71c-1879c92c6826)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 651e01b9-6af9-496a-b71c-1879c92c6826
  (name "BYW29")
  (description "<B>DIODE</B><p>\nultra fast rectifier, 200 V, 8 A\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYW29\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

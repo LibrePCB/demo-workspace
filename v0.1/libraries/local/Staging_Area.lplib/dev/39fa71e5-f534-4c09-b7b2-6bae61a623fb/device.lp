@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 39fa71e5-f534-4c09-b7b2-6bae61a623fb)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 39fa71e5-f534-4c09-b7b2-6bae61a623fb
  (name "DIODE_CAPACITANCE-_SOD523")
  (description "Capacity <b>DIODE</b><p>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE_CAPACITANCE-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component aff2a750-09d6-4da7-b5a0-242d09a33b5b)
  (package 07e9e4c7-4144-40e8-b9d3-e7b0dfd089df)
  (pad 197e0f79-e14a-4e2b-bf19-68efe1f4c67a (sig cb5624b3-3930-4ac4-8da5-1bf2f89ea788))

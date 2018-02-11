@@ -1,5 +1,4 @@
-(librepcb_schematic
- (uuid cb6501aa-f8c3-42ac-a9a0-8a9df0da3f05)
+(librepcb_schematic cb6501aa-f8c3-42ac-a9a0-8a9df0da3f05
  (name "Supply")
  (grid (type lines) (interval 2.54) (unit millimeters))
 

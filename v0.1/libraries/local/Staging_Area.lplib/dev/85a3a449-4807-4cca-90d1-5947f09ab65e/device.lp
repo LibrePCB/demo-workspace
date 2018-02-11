@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 85a3a449-4807-4cca-90d1-5947f09ab65e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 85a3a449-4807-4cca-90d1-5947f09ab65e
  (name "CX_XC22B7")
  (description "<B>X CAPACITOR</B><p>\nfor power line\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: CX\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component f8dbb0a1-d558-4df9-82f1-86564304a768)
  (package 4d4c1ea6-899c-4e61-b8cb-4009bf9168a0)
  (pad 20ff6813-45c8-4e66-b100-8650d03ad4cb (sig 7bdf360c-b2cf-437a-b1cc-b6788994cf8d))

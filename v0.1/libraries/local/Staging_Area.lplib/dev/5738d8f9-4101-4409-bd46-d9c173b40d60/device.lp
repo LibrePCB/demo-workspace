@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5738d8f9-4101-4409-bd46-d9c173b40d60)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:52Z)
- (modified 2015-12-20T22:10:52Z)
- (deprecated false)
+(librepcb_device 5738d8f9-4101-4409-bd46-d9c173b40d60
  (name "PSMN022-30PL")
  (description "N-channel 30V 22mΩ logic level MOSFET")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:52Z)
+ (deprecated false)
  (component 27bf51af-a016-45b4-87cb-844c72a38d66)
  (package 0eaf289c-166d-4bd9-a4ba-dbf6bbc76ef1)
  (pad 474059df-640b-4b17-98b2-148e340a7152 (sig d7eb84bb-7f47-4e0b-99d1-1ee30019c40e))

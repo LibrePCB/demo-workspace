@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 86b781d0-a0a0-4660-a525-c431f199ddbe)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device 86b781d0-a0a0-4660-a525-c431f199ddbe
  (name "C-4532")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
  (package 73309035-042c-4c0f-835b-2422ee596960)
  (pad 6bb997bf-5e3c-4564-961f-17c6ba8739d3 (sig 6d776f4d-2a7c-4128-a98a-dbb1dd861411))

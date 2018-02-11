@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 2b003086-9915-447b-9e14-ab04ea1acf08)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device 2b003086-9915-447b-9e14-ab04ea1acf08
  (name "R-US__WSC0001")
  (description "<B>RESISTOR</B>, American symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-US_\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package b0201f7e-f02f-480f-85fc-a3f1e0283242)
  (pad 4fd6d6c6-99a6-4e16-98fb-42da121ed85b (sig ad623f98-9e73-49c3-9404-f7cfa99d17cd))

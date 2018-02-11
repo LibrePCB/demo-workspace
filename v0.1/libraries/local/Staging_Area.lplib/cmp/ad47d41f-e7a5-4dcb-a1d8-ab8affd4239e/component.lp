@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid ad47d41f-e7a5-4dcb-a1d8-ab8affd4239e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component ad47d41f-e7a5-4dcb-a1d8-ab8affd4239e
  (name "BYM36")
  (description "<B>DIODE</B><p>\nfast soft-recovery controlled avalanche rectifier\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYM36\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

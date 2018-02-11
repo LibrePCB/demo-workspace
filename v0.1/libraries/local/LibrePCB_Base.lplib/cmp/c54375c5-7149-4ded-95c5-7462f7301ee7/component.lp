@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid c54375c5-7149-4ded-95c5-7462f7301ee7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-01T20:23:21Z)
- (modified 2015-03-01T20:23:21Z)
- (deprecated false)
+(librepcb_component c54375c5-7149-4ded-95c5-7462f7301ee7
  (name "Unipolar Capacitor")
  (description "")
  (keywords "capacitor,capacitance,unipolar")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-01T20:23:21Z)
+ (deprecated false)
  (category c011cc6b-b762-498e-8494-d1994f3043cf)
  (schematic_only false)
  (default_value "#CAPACITANCE")

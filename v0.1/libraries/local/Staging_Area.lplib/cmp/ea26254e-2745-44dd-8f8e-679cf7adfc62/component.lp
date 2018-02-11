@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid ea26254e-2745-44dd-8f8e-679cf7adfc62)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component ea26254e-2745-44dd-8f8e-679cf7adfc62
  (name "BAT54S")
  (description "<b>Schottky Diodes</b><p>\nPin connection corrected 2011-05-04<br>\nSource: Fairchild .. BAT54.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BAT54S\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

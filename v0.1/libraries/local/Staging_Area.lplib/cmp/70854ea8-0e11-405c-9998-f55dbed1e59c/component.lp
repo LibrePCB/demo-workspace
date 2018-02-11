@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 70854ea8-0e11-405c-9998-f55dbed1e59c)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 70854ea8-0e11-405c-9998-f55dbed1e59c
  (name "DUOLED-RY-A")
  (description "<B>DUO LED</B><P>\n2 colors (red/yellow), 5 mm, round, common Anode<BR>\n<I>www.ligitek.com</I> or other producers.\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: DUOLED-RY-A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LD")

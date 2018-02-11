@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid dfdf4904-bb41-462b-9f23-cf6e789665da)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_component dfdf4904-bb41-462b-9f23-cf6e789665da
  (name "SE11")
  (description "<b>SOLDER PAD</b><p> RTM, drill 1,1mm, distributor Buerklin, 07F810\n\nThis element was automatically imported from Eagle\nFilepath: solpad.lbr\nName: SE11\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LSP")

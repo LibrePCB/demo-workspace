@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid cc33824c-b26a-416a-aa1c-1d6ddb4d6d14)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component cc33824c-b26a-416a-aa1c-1d6ddb4d6d14
  (name "TLE4242")
  (description "<b>Adjustable LED Driver</b><p>\nSource: Infineon .. tle4242.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: TLE4242\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "IC")

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid a7f3b350-cdd3-44fc-9eb5-1d73f9a49111)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device a7f3b350-cdd3-44fc-9eb5-1d73f9a49111
  (name "1N5059")
  (description "<B>DIODE</B><p>\ncontrolled avalanche rectifier\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 1N5059\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 4c098653-f7ee-462f-bf18-e96951a7a96d)
  (package 989a4f41-7532-495d-80b8-ac5e9599ed0e)
  (pad 576a42fd-ef66-431e-ba35-6a07d68ad094 (sig aa62b185-4f49-4f30-b461-0de6d42d6254))

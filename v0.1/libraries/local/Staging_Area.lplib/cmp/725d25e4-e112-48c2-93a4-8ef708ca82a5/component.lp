@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 725d25e4-e112-48c2-93a4-8ef708ca82a5)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 725d25e4-e112-48c2-93a4-8ef708ca82a5
  (name "MUR620CT")
  (description "<B>DIODE</B><p>\ndual rectifier, 6 A, 200 V, common cathode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: MUR620CT\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

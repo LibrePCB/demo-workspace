@@ -1,4 +1,4 @@
-(librepcb_project_metadata
+(librepcb_project_metadata c1ad3b0e-2078-4fc8-ace5-659917d0959f
  (name "Demo Brushless Controller Project")
  (author "U. Bruhin")
  (version "v1")

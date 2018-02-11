@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 57834409-b092-4c83-915e-8a3749f52af3)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 57834409-b092-4c83-915e-8a3749f52af3
  (name "BA157")
  (description "<B>DIODE</B><p>\nfast soft-recovery controlled avalanche rectifier\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BA157\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

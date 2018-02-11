@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 483ca645-3cb1-4234-9eeb-64ae29ddfe57)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-03T20:19:27Z)
- (modified 2015-03-03T20:19:27Z)
- (deprecated false)
+(librepcb_component 483ca645-3cb1-4234-9eeb-64ae29ddfe57
  (name "PIC12F675")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-03T20:19:27Z)
+ (deprecated false)
  (category 19c9457a-1736-41fc-aad4-2572a960555c)
  (schematic_only false)
  (default_value "")

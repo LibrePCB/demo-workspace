@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 991bbe36-6ed5-4357-a782-ec60c4b5e867)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 991bbe36-6ed5-4357-a782-ec60c4b5e867
  (name "SCHOTTKY-DIODE_SMC")
  (description "Schottky Diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: SCHOTTKY-DIODE\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 82207562-d317-4911-96fa-ceb0f45fd806)
  (package cceff2df-54a0-49f4-b647-1d632ee13ebb)
  (pad 1552936e-75bf-445d-a30b-b4665eb7dbf6 (sig 69e22be3-d2fb-4b8f-ab4f-7fba3cff0aff))

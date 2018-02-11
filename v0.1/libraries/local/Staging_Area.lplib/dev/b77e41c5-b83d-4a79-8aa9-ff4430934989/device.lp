@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid b77e41c5-b83d-4a79-8aa9-ff4430934989)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device b77e41c5-b83d-4a79-8aa9-ff4430934989
  (name "R-TRIMM_CVR42A")
  (description "<b>Trimm resistor</b>\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-TRIMM\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component daeed3be-7232-49c4-8d32-003974e84e46)
  (package 8352f869-f9ff-46ed-8275-a1c51f5efbd4)
  (pad 197eeaab-1872-47b7-9278-34f6746cb6ab (sig ef7d6004-a9dd-441a-a605-965863019345))

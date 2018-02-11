@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 37fd1f94-e678-434f-bdbf-2742c334036f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:52Z)
- (modified 2015-12-20T22:10:52Z)
- (deprecated false)
+(librepcb_device 37fd1f94-e678-434f-bdbf-2742c334036f
  (name "SN65HVD230")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_ICs.lbr\nName: SN65HVD230\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:52Z)
+ (deprecated false)
  (component 01fe9dd4-229f-4083-8c1a-4e1fe7a1fe72)
  (package 8f527584-632b-4643-8a12-6443af735944)
  (pad 3ff35ac1-920f-4dac-b0e3-4ab33a39a731 (sig 35c7b2e1-e2b6-4d8b-b65e-0bca0316f6d1))

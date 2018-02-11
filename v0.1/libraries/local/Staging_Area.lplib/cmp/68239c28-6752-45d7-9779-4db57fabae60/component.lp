@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 68239c28-6752-45d7-9779-4db57fabae60)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 68239c28-6752-45d7-9779-4db57fabae60
  (name "SPHWHTHAD605S0W0U4")
  (description "<b>HV-AC HIGH POWER LED</b><p>\nSource: SAMSUNG SPHWHTHAD605S0W0U4.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: SPHWHTHAD605S0W0U4\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid aff2a750-09d6-4da7-b5a0-242d09a33b5b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-06-21T12:37:47Z)
- (modified 2015-06-21T12:37:47Z)
- (deprecated false)
+(librepcb_component aff2a750-09d6-4da7-b5a0-242d09a33b5b
  (name "Capacity Diode")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-06-21T12:37:47Z)
+ (deprecated false)
  (category 4d1c95f4-2e60-4f50-a15b-ba9186a01b1a)
  (schematic_only false)
  (default_value "")

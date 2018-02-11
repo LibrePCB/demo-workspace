@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 80618837-5a5c-4216-8328-e3b3c332c9c0)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 80618837-5a5c-4216-8328-e3b3c332c9c0
  (name "MBRA340T3")
  (description "<b>Surface Mount Schottky Power Rectifier</b><p>\nSource: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: MBRA340T3\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

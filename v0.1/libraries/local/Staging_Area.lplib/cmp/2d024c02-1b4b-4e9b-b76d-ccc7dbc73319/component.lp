@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 2d024c02-1b4b-4e9b-b76d-ccc7dbc73319)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 2d024c02-1b4b-4e9b-b76d-ccc7dbc73319
  (name "OSTAR_6-")
  (description "<b>OSTAR - Lighting wihtout Optics</b><p>\nSource: http://catalog.osram-os.com/media/_en/Graphics/00035769_0.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: OSTAR_6-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid b20a2971-2dca-4b35-a421-f4ce28af164a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:38Z)
- (modified 2015-12-21T13:40:38Z)
- (deprecated false)
+(librepcb_device b20a2971-2dca-4b35-a421-f4ce28af164a
  (name "87360-SCSI")
  (description "<b>CONNECTOR</b><p>\ninput/output 3 in 1 combo connector<p>\nwide SCSI, 2.00 mm, power, right angle\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 87360-SCSI\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:38Z)
+ (deprecated false)
  (component 964861fb-3c8c-4967-8adb-7023f9236498)
  (package 2a7a6fa6-deb6-4d52-b057-c3a2da22bf6f)
  (pad 00266698-73f2-4803-89d6-07b6ee68d90d (sig f7fc85fd-6c06-4402-92f4-d011c2507e28))

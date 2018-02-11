@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 23906a4b-67a5-4a0f-9c59-b15c964c1169)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 23906a4b-67a5-4a0f-9c59-b15c964c1169
  (name "CGRM400*-G")
  (description "<b>Molded plasitc,JEDEC SOD-123/Mini SMA</b><p>\nSource: Comchip CGRM4001-G.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: CGRM400*-G\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 9fbba64e-9daa-4346-a7d4-b3d462421d0d)
  (package 80d47521-f849-487e-97e7-1fca7c276dfa)
  (pad 240a78c2-b051-4c87-938f-b479cf3443fc (sig 5f17a51a-612b-4b8c-ae81-4a7de518ce5b))

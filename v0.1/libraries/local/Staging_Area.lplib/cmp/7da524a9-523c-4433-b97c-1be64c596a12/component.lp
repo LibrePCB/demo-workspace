@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 7da524a9-523c-4433-b97c-1be64c596a12)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 7da524a9-523c-4433-b97c-1be64c596a12
  (name "L-59EGW-CA")
  (description "<b>T-1 3/4 (5mm) BI-COLOR INDICATOR LAMP</b><p>\nSource: http://www.kingbright.com/manager/upload/pdf/L-59EGW-CA%28Ver1292805989.13%29\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: L-59EGW-CA\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

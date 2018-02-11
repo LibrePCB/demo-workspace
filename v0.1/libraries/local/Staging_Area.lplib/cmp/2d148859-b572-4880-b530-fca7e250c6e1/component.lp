@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 2d148859-b572-4880-b530-fca7e250c6e1)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 2d148859-b572-4880-b530-fca7e250c6e1
  (name "PESD1CAN")
  (description "<b>CAN bus ESD protection diode</b><p>\nSource: http://www.nxp.com/documents/data_sheet/PESD1CAN.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: PESD1CAN\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

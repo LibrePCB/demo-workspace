@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 14e7557e-d935-4ecb-acca-cd13e5aff537)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 14e7557e-d935-4ecb-acca-cd13e5aff537
  (name "SMT-REF")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: isabellen.lbr\nName: SMT-REF\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "R")

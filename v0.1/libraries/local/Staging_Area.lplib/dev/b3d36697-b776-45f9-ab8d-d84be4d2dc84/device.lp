@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid b3d36697-b776-45f9-ab8d-d84be4d2dc84)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device b3d36697-b776-45f9-ab8d-d84be4d2dc84
  (name "DUOLED5MM")
  (description "<B>DUO LED</B><p>\n2 colors, 5 mm, round\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: DUOLED5MM\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component d5395bbf-8f69-41af-b8a1-767802755275)
  (package bca67ccd-6cad-4d1c-958c-c890d29c25e8)
  (pad 1e9cf4e0-d198-43d3-95ba-768165d598ba (sig 6f8f0d46-ad84-4ba9-838b-bc693625e56d))

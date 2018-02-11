@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 764610b1-4ebb-41c1-9a89-353c2dbe7fd6)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_component 764610b1-4ebb-41c1-9a89-353c2dbe7fd6
  (name "MCS08")
  (description "<b>SOLDER PAD</b><p> MC S0,8, drill 1.2 mm, distributor Buerklin, 08F130\n\nThis element was automatically imported from Eagle\nFilepath: solpad.lbr\nName: MCS08\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LSP")

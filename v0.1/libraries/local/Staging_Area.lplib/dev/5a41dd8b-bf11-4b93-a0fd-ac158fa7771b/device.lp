@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5a41dd8b-bf11-4b93-a0fd-ac158fa7771b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 5a41dd8b-bf11-4b93-a0fd-ac158fa7771b
  (name "PD3S160")
  (description "1.0A SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER POWERDI ® 323 <p>\nSource: http://www.diodes.com/datasheets/ds30899.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: PD3S160\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component dfdaf608-2fea-4ffe-8e65-067d422aae10)
  (package 886cf4d7-e6f4-44d7-bf7e-425d51d18377)
  (pad 2114c098-9e6b-40b2-a119-80260dbf060c (sig bbe07a96-9022-4237-99f0-d645d7f4a632))

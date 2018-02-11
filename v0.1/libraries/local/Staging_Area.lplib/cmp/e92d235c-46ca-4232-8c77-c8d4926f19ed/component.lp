@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid e92d235c-46ca-4232-8c77-c8d4926f19ed)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component e92d235c-46ca-4232-8c77-c8d4926f19ed
  (name "BA221")
  (description "<B>DIODE</B><p>\nhigh speed (Philips)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BA221\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

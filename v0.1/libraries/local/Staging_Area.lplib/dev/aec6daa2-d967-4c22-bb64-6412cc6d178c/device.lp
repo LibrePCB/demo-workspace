@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid aec6daa2-d967-4c22-bb64-6412cc6d178c)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device aec6daa2-d967-4c22-bb64-6412cc6d178c
  (name "DIODE-_SGA-10")
  (description "<b>DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 37afa3de-06dc-4dda-86d1-673099564e56)
  (package c1e9adc2-ea2a-4cc9-8b36-27621626436f)
  (pad 69c6a1c9-6265-455a-9c74-7af75ad20cdb (sig 2b1bc88a-66af-4d12-a243-011dcad5944e))

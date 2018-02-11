@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 8076f6be-bfab-4fc1-9772-5d54465dd7e1)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-01T20:00:00Z)
- (modified 2015-03-01T20:00:00Z)
- (deprecated false)
+(librepcb_component 8076f6be-bfab-4fc1-9772-5d54465dd7e1
  (name "GND Supply")
  (description "")
  (keywords "gnd,supply")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-01T20:00:00Z)
+ (deprecated false)
  (category adf8d941-787c-4b02-8772-fbc0a587463d)
  (schematic_only true)
  (default_value "GND")

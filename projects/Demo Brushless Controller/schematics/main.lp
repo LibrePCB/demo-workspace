@@ -1,5 +1,4 @@
-(librepcb_schematic
- (uuid 5acb574c-ba33-47e1-b837-dae2222e69ef)
+(librepcb_schematic 5acb574c-ba33-47e1-b837-dae2222e69ef
  (name "Brushless Controller")
  (grid (type lines) (interval 2.54) (unit millimeters))
 

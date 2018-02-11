@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 506bd124-6062-400e-9078-b38bd7e1aaee)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-01T20:00:00Z)
- (modified 2015-03-01T20:00:00Z)
- (deprecated false)
+(librepcb_component 506bd124-6062-400e-9078-b38bd7e1aaee
  (name "Inductor")
  (description "")
  (keywords "inductor,inductance")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-01T20:00:00Z)
+ (deprecated false)
  (category b3adfa1e-b878-44f6-902a-14ef3dad7a14)
  (schematic_only false)
  (default_value "#INDUCTANCE")

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 101477a8-30bf-449a-a854-6dd583d34902)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-06-21T12:37:48Z)
- (modified 2015-06-21T12:37:48Z)
- (deprecated false)
+(librepcb_component 101477a8-30bf-449a-a854-6dd583d34902
  (name "Duo LED CC")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-06-21T12:37:48Z)
+ (deprecated false)
  (category 70421345-ae1d-4fed-aa60-e7619524b97f)
  (schematic_only false)
  (default_value "")

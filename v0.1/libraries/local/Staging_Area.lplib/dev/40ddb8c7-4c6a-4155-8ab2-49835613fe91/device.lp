@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 40ddb8c7-4c6a-4155-8ab2-49835613fe91)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 40ddb8c7-4c6a-4155-8ab2-49835613fe91
  (name "BY550")
  (description "<B>DIODE</B><p>\nSi200 V, 5 A\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BY550\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 8c225003-60a6-4e8f-8ad4-c369f983c2c8)
  (package c656ee80-5a6e-46bd-9443-c01724a669bb)
  (pad 5cfdc9a2-8b51-4a99-8b01-b2a0047d58da (sig 2e6d39c0-3792-4873-9d1b-6e964259e652))

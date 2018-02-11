@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c139e505-592b-46ba-bdf2-acb7383ea0cd)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device c139e505-592b-46ba-bdf2-acb7383ea0cd
  (name "C-0805")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
  (package 60b715fa-bd1d-4d96-b153-2a28208f32fb)
  (pad 4f6ec20b-c2e7-47d9-ba0e-8cde302966c5 (sig 1c1c7abc-7b40-4f92-b533-f65604644db7))

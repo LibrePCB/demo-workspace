@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid d932ff3d-1e09-4413-afce-7e666421009e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device d932ff3d-1e09-4413-afce-7e666421009e
  (name "CRYSTAL_HC13U-H")
  (description "<b>CRYSTAL</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: CRYSTAL\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component b847a54b-a83e-47ff-a976-7704bf05bbf4)
  (package fcd28fce-bd7f-44d4-b556-0367813b6047)
  (pad 6cd94935-61b4-4170-b5e0-61c71783323a (sig fd760be8-09ce-411f-a869-fdc1e74229a9))

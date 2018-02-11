@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 23ae2c9d-694d-4e96-9b41-fe7a8d6fb67a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 23ae2c9d-694d-4e96-9b41-fe7a8d6fb67a
  (name "NSSM038A")
  (description "<b>NICHIA CHIP TYPE FULL COLOR LED</b><p>\nSource: NICIA CORPORATION .. NSSM038AT-E.PDF\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: NSSM038A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component fc1a87b3-b84a-45a6-9b4d-61402b1999e6)
  (package c1207df1-c975-474d-a41e-d8762ac7a24a)
  (pad 0254c965-d92f-44ad-b733-c8394f5cb35c (sig 4122acbf-d5bc-4484-bc7a-68b3536cb372))

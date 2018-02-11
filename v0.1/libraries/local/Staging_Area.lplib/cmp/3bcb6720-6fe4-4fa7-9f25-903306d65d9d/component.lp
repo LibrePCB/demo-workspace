@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 3bcb6720-6fe4-4fa7-9f25-903306d65d9d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 3bcb6720-6fe4-4fa7-9f25-903306d65d9d
  (name "D9-1AS")
  (description "8 <B>DIODES</B><p>\nSIL, common anode (single gate)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: D9-1AS\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "DN")

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5bf6e4f4-cbfb-49a9-b3bc-199a6b2ec53f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 5bf6e4f4-cbfb-49a9-b3bc-199a6b2ec53f
  (name "L-115WEGW-CA")
  (description "<b>T-1(3mm) BI-COLOR INDICATOR LAMP</b><p>\nSource: Kingbright .. 2_colour_led_.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: L-115WEGW-CA\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component c3761bb1-720f-4b6a-9ce9-738bbd5a1db1)
  (package 00925c0c-2b84-4153-8fc9-6b6984c6e617)
  (pad 24fa0f3c-9c84-46da-8cf0-ad745631737e (sig 3165f9f8-3d25-4bf2-a702-67f6b8e20e19))

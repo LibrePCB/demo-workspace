@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 1f604091-0993-4c67-bc42-3cbe970d78b3)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:28:20Z)
- (modified 2015-12-21T13:28:20Z)
- (deprecated false)
+(librepcb_device 1f604091-0993-4c67-bc42-3cbe970d78b3
  (name "BVS")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: isabellen.lbr\nName: BVS\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:28:20Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package cd05025d-3baa-4095-985d-312ec741f2b5)
  (pad 3a4882b1-038b-4c23-9eb6-4ad1ab32ece3 (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))

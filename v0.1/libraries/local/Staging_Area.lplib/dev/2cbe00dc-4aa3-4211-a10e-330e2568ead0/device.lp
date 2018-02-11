@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 2cbe00dc-4aa3-4211-a10e-330e2568ead0)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 2cbe00dc-4aa3-4211-a10e-330e2568ead0
  (name "DIODE-_DO220S")
  (description "<b>DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 37afa3de-06dc-4dda-86d1-673099564e56)
  (package 8da8dcf5-2027-4634-8324-2580c43d5062)
  (pad ddfa5480-45fa-49bc-a8f6-4ad86f6cd8ea (sig e9c960fd-ff27-4ec4-a801-43ce63e5fe33))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 4f8182fd-89fe-45c1-956c-02948540584f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:38Z)
- (modified 2015-12-21T13:40:38Z)
- (deprecated false)
+(librepcb_device 4f8182fd-89fe-45c1-956c-02948540584f
  (name "87832-32")
  (description "<b>Milli-Grid Header</b><p> \n2.00mm (.079\") Pitch\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 87832-32\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:38Z)
+ (deprecated false)
  (component 2bb85f6c-497d-45ed-89a0-d89e84269493)
  (package ee3e1b21-00d8-4680-b610-3b248246522d)
  (pad 1e1d5001-cc6d-4ea0-8526-5ffd55afc040 (sig 13878b36-3118-46ff-baf3-cd7632149813))

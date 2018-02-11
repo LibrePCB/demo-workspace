@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 63175133-da03-43aa-9c34-4d3b968a19fe)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device 63175133-da03-43aa-9c34-4d3b968a19fe
  (name "C-3216")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
  (package 30f37780-2422-4a59-952d-2466d6dbb1e0)
  (pad 0f5cb29a-afd2-4d00-b72b-7a4722cf02d6 (sig 1c1c7abc-7b40-4f92-b533-f65604644db7))

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 13ad25b7-a2bb-41b3-9456-a4b2f7a07fe4)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 13ad25b7-a2bb-41b3-9456-a4b2f7a07fe4
  (name "LUXEON_REBEL")
  (description "<b>LUXEON Rebel</b><p>\n\nDisplay layer 93, Pins, and connect all contact points with a net.<br>\nThe thermal pads are defined in a separate gate with addlevel REQUEST.<br>\nDraw a net named \'TH\' and connect all thermal pads with it.<br>\nPlease read the Package\'s Description about DRC settings.<p>\nSource: http://www.lumileds.com/pdfs/AB32.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LUXEON_REBEL\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 27bf51af-a016-45b4-87cb-844c72a38d66)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-03T20:19:27Z)
- (modified 2015-03-03T20:19:27Z)
- (deprecated false)
+(librepcb_component 27bf51af-a016-45b4-87cb-844c72a38d66
  (name "N-Channel MOSFET")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-03T20:19:27Z)
+ (deprecated false)
  (category e9663545-80dd-4658-9357-d4ef62e55168)
  (schematic_only false)
  (default_value "")

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 2ac4eb0c-83dd-4981-9752-bf0a35cb1de9)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 2ac4eb0c-83dd-4981-9752-bf0a35cb1de9
  (name "ACULED-RGB")
  (description "<b>ACULED</b><p>\nSource: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_ACULED.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: ACULED-RGB\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

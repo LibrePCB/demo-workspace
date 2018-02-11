@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 12a8deb7-c256-4f16-a6c9-de5b3785a1f7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:52Z)
- (modified 2015-12-20T22:10:52Z)
- (deprecated false)
+(librepcb_component 12a8deb7-c256-4f16-a6c9-de5b3785a1f7
  (name "HCPL-181")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_ICs.lbr\nName: HCPL-181\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:52Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "OK")

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid baa4cc44-fbde-4711-a0cd-83cb362affa1)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device baa4cc44-fbde-4711-a0cd-83cb362affa1
  (name "CSM-7X-DU")
  (description "<b>SMD CRYSTAL</b><p>\nSource: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: CSM-7X-DU\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component 4d0c8189-ab65-4260-98c9-51bda03182e2)
  (package 4ebed051-648b-4d86-9753-874ad1070498)
  (pad 47ed2c1e-bedb-419b-bf04-810cefd87922 (sig 4cbc42f4-e9a4-4f03-b176-95e80fd33d2c))

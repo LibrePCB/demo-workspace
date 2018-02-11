@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c9d00cb4-c096-4089-8e67-7f7ca6895d07)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:02Z)
- (modified 2015-12-20T22:11:02Z)
- (deprecated false)
+(librepcb_device c9d00cb4-c096-4089-8e67-7f7ca6895d07
  (name "L-EU_TJ5-U1")
  (description "<B>INDUCTOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: L-EU\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:02Z)
+ (deprecated false)
  (component 506bd124-6062-400e-9078-b38bd7e1aaee)
  (package 754c1679-6375-4fb0-b376-b47647fb7c4f)
  (pad 20013a3f-4a84-4bf6-8a63-def88ab2555f (sig 777f11cd-9d4e-4b2b-aafa-7e7a836ff56e))

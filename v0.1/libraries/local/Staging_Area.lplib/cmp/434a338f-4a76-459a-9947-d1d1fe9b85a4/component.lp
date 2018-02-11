@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 434a338f-4a76-459a-9947-d1d1fe9b85a4)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 434a338f-4a76-459a-9947-d1d1fe9b85a4
  (name "SFH482")
  (description "<B>IR LED</B><p>\ninfrared emitting diode, Infineon\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: SFH482\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

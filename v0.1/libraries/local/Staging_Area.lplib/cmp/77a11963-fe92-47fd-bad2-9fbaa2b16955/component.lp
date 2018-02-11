@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 77a11963-fe92-47fd-bad2-9fbaa2b16955)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 77a11963-fe92-47fd-bad2-9fbaa2b16955
  (name "BYW52")
  (description "<B>DIODE</B><p>\nsilicon mesa rectifier (Vishay Telefunken)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYW52\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

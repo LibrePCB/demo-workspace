@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid bf38cecb-cba9-443e-b144-938f76bfbc25)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device bf38cecb-cba9-443e-b144-938f76bfbc25
  (name "BZX84CSMD")
  (description "<b>Z DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BZX84CSMD\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component c480e469-aba1-49df-bf3f-80cad027cc63)
  (package 1c421c92-ff5f-4afb-98bc-2a9d3854bee6)
  (pad 5b6dfb78-c4dc-4393-9ae8-9a094b036ce2 (sig a320a34a-c3be-43fe-ab43-2477a0536524))

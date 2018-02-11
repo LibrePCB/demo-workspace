@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 652ede6c-17e3-4e68-8ee1-c74a60a9ac79)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 652ede6c-17e3-4e68-8ee1-c74a60a9ac79
  (name "LZ1-00WW03")
  (description "<b>High Luminous Efficacy 3W Warm White LED Emitter</b><p>\nSource: http://www.ledengin.com/products/3wLZ/LZ1-00WW03.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LZ1-00WW03\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component e9cbcfb6-c049-493b-af3f-dbeb650a88a1)
  (package a819a286-39ff-4fa2-bf95-a96c3dcb5a37)
  (pad 08d91260-f8fb-41ea-873e-79ea42907aeb (sig 3a7b7c0e-4636-497a-b94d-bc98a90969f6))

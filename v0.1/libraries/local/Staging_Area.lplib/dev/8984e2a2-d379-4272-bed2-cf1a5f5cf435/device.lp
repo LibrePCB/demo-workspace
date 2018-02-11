@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 8984e2a2-d379-4272-bed2-cf1a5f5cf435)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 8984e2a2-d379-4272-bed2-cf1a5f5cf435
  (name "ZTK")
  (description "<b>Z DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: ZTK\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 0f05de11-ca36-4dc6-b13f-79df68420c6d)
  (package 753b669c-6acf-47df-ac5f-04673d86f040)
  (pad a2e1edb6-0a74-4cb9-90a6-edddb813eae8 (sig 7549cb72-11cf-4589-8fdc-e6ade5477dff))

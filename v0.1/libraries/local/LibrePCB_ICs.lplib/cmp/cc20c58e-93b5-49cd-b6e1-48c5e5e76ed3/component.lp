@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid cc20c58e-93b5-49cd-b6e1-48c5e5e76ed3)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-03T20:19:27Z)
- (modified 2015-03-03T20:19:27Z)
- (deprecated false)
+(librepcb_component cc20c58e-93b5-49cd-b6e1-48c5e5e76ed3
  (name "Single Half-Bridge MOSFET Driver with \"HIN\" and \"LIN\" Input Pins")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-03T20:19:27Z)
+ (deprecated false)
  (category e8080ad9-6b53-46bd-8996-a03c30f99ebe)
  (schematic_only false)
  (default_value "")

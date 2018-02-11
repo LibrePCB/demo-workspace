@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 383cd1c4-6c8b-4cec-bce4-94b67bd2fab7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 383cd1c4-6c8b-4cec-bce4-94b67bd2fab7
  (name "S1M")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: S1M\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

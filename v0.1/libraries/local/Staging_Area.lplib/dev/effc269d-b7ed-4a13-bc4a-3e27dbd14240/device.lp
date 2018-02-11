@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid effc269d-b7ed-4a13-bc4a-3e27dbd14240)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device effc269d-b7ed-4a13-bc4a-3e27dbd14240
  (name "70M*_UM5")
  (description "<b>Monolithic Crystal Filters</b><p>\nSource: www.vanlong.com\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: 70M*\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component 96530f13-7471-4ca8-9371-a46451bd9695)
  (package a68aa489-0b6a-45e5-a7a4-880e43f63545)
  (pad 19d42c73-6102-482e-bba7-50cfeda56f04 (sig ce8536c0-4ce7-43a2-9e63-44be8b6214cf))

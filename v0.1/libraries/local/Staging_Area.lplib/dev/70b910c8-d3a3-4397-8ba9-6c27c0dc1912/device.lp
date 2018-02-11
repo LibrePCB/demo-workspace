@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 70b910c8-d3a3-4397-8ba9-6c27c0dc1912)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 70b910c8-d3a3-4397-8ba9-6c27c0dc1912
  (name "BR210")
  (description "<B>DIAC</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BR210\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 936960f0-a77d-4cdb-9323-e5a8ec1766e9)
  (package 7c202069-4856-427d-a803-ae597c58b2fd)
  (pad 3ce580e3-24f7-4ebc-9ddf-648d22992d15 (sig 96850cc4-ddf0-446b-bd48-7ca9b071f34f))

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 291ddc29-43f4-481f-991c-079052f730cd)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 291ddc29-43f4-481f-991c-079052f730cd
  (name "BB141")
  (description "Capacity <b>DIODE</b><p>\nvariable-capacitance diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BB141\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

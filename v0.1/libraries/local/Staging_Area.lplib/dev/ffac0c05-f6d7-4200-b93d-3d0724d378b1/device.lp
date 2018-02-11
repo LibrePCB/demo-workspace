@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid ffac0c05-f6d7-4200-b93d-3d0724d378b1)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device ffac0c05-f6d7-4200-b93d-3d0724d378b1
  (name "MC-405")
  (description "<b>kHz RANGE CRYSTAL UNIT</b> SMD<p>\nSource: MC-306_405_406_E07X.PDF <a href=\"http://www.epsontoyocom.co.jp\"> Homepage </a>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: MC-405\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component a79609a1-dce4-47db-833c-324437278944)
  (package b32393f8-92c6-4b3c-9569-07bf1491386e)
  (pad 51a27c12-e20d-434c-97f0-b6c0be2d0a82 (sig 9939db0d-039e-4c8b-8370-313b7b2fa127))

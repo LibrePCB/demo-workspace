@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 07e49249-5132-4046-8ce0-60beb9d1c118)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 07e49249-5132-4046-8ce0-60beb9d1c118
  (name "FEP30AP")
  (description "<B>DIODE</B><p>\ndual ultra-fast recovery rectifier, common cathode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: FEP30AP\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 2f41fbcb-885f-4f1f-b855-784eb4627f79)
  (package 4a0cd064-30d4-471d-83a8-15aa6c78c6dd)
  (pad 41518afb-fce4-442c-9cb3-1bdf0c0bd25a (sig 2ef866ca-693e-4896-9aa1-c0f49769bdde))

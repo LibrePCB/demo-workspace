@@ -1,13 +1,11 @@
-(librepcb_library
- (uuid 0b7ff929-d4d1-4d5d-bf8d-a94a8d829f4e)
- (version "0.1")
- (author "LibrePCB")
- (created 2013-04-13T12:43:52Z)
- (modified 2013-04-20T18:01:33Z)
- (deprecated false)
+(librepcb_library 0b7ff929-d4d1-4d5d-bf8d-a94a8d829f4e
  (name "Isabellenhütte")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2013-04-13T12:43:52Z)
+ (deprecated false)
  (url "https://github.com/LibrePCB-Libraries/Isabellenhuette.lplib")
  (dependency ad523ae0-9493-48bc-86b7-049a13cb35e2)
 )

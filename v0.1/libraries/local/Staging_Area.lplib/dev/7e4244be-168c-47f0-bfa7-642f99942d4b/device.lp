@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 7e4244be-168c-47f0-bfa7-642f99942d4b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 7e4244be-168c-47f0-bfa7-642f99942d4b
  (name "DIODE_SCHOTTKY2-_CB429-17")
  (description "<b>Schottky Bidirectional Diode</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE_SCHOTTKY2-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component ea25a7ed-0ea8-42f4-9862-b7a1327ef82c)
  (package 0fd6ce12-dcb8-49f1-a4eb-9b3ce35b6d45)
  (pad 2937d965-3380-4221-be61-e38b508b6a08 (sig 4ac0bbfd-cf86-442f-a60d-85434e43f2e0))

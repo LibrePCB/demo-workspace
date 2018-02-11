@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 2677ee86-a2b0-4405-aeab-ac8006771796)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 2677ee86-a2b0-4405-aeab-ac8006771796
  (name "1N5400")
  (description "<B>DIODE</B><p>\nstandard rectifier, 3 A, 50 V (Motorola)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 1N5400\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 0ca0993c-bf55-4529-865b-849ef898b28a)
  (package cdc60685-ebe6-4a3d-9ce1-8873f76a8f24)
  (pad 7403240f-13dc-4614-a9e9-90395e2a0e19 (sig 343a05e0-6e9b-4317-a7de-61bd3c774b5c))

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid cdea715e-20f8-4106-b474-796f6c9ccd5b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component cdea715e-20f8-4106-b474-796f6c9ccd5b
  (name "ML-E")
  (description "<b>Cree® XLamp® ML-E LEDs</b> 1/2 watt, 3.5 x 3.5 mm<p>\nSource: <a href=\"http://www.cree.com/products/pdf/XLampML-E.pdf\"> Data sheet </a>\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: ML-E\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

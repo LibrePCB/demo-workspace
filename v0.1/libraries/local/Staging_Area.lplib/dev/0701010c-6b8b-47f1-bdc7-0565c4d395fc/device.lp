@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 0701010c-6b8b-47f1-bdc7-0565c4d395fc)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 0701010c-6b8b-47f1-bdc7-0565c4d395fc
  (name "OVSTRGBBCR8")
  (description "<b>Full Color PLCC6 LED</b> OVSTRGBBCR8<p>\nSource: www.optekinc.com  .. ovstrgbbcr8.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: OVSTRGBBCR8\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 1a319250-d292-4449-b94f-b3b14352ba89)
  (package 522c2051-2603-4954-bc29-d52fdde57b9a)
  (pad 063e9683-72fd-4e4b-8a11-51ae074a4112 (sig 23e0b882-6b21-438c-b0d7-72c9119ee36b))

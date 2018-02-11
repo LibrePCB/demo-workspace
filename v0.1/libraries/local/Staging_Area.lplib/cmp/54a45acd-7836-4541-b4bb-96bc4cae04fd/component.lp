@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 54a45acd-7836-4541-b4bb-96bc4cae04fd)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 54a45acd-7836-4541-b4bb-96bc4cae04fd
  (name "MBR750")
  (description "<B>DIODE</B><p>\nbarrier rectifier, 7.5 A, 50 V\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: MBR750\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

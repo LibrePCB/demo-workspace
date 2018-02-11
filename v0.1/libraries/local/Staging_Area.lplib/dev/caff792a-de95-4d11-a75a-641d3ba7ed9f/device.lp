@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid caff792a-de95-4d11-a75a-641d3ba7ed9f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device caff792a-de95-4d11-a75a-641d3ba7ed9f
  (name "BYW51")
  (description "<B>DIODE</B><p>\nhyperfast dual diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYW51\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component fc31ba59-c01f-4de7-881e-b586f175ae87)
  (package 0eaf289c-166d-4bd9-a4ba-dbf6bbc76ef1)
  (pad 474059df-640b-4b17-98b2-148e340a7152 (sig f1454fee-20ee-4c63-8157-1bfe2149564b))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 7f005b28-9740-487c-ad7d-9243ae60ded3)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 7f005b28-9740-487c-ad7d-9243ae60ded3
  (name "LD266")
  (description "<B>LED BLOCK</B><p>\n6 LEDs, Siemens\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LD266\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 708b9349-1fb5-49d9-b43c-e23133643b78)
  (package d5f76210-14ba-4755-8a11-c5608f9f6151)
  (pad 0b0e1a4d-2925-44ad-ac2b-aa1beb96dfdb (sig ad4c95eb-8007-426c-8a26-fcfcb879ff88))

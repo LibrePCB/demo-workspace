@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid b2498f77-03a1-4f18-82b3-45a50abd823a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_component b2498f77-03a1-4f18-82b3-45a50abd823a
  (name "CRYSTAL_RES-")
  (description "<b>CRYSTAL RESONATOR</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: CRYSTAL_RES-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "QG")

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid ecf519e8-682b-4101-8cb6-e645adb5fcc9)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:55Z)
- (modified 2015-12-20T22:10:55Z)
- (deprecated false)
+(librepcb_component ecf519e8-682b-4101-8cb6-e645adb5fcc9
  (name "5566-20")
  (description "<b>Mini FIT connector 20 pol</b><p>\nATX PC-Motherboard Power connector<br>\nSource: http://www.molex.com\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 5566-20\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:55Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "X")

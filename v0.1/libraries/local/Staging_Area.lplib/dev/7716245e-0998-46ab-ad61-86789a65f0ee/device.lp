@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 7716245e-0998-46ab-ad61-86789a65f0ee)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:02Z)
- (modified 2015-12-20T22:11:02Z)
- (deprecated false)
+(librepcb_device 7716245e-0998-46ab-ad61-86789a65f0ee
  (name "R-EU__0414/15")
  (description "<B>RESISTOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-EU_\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:02Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package cd0664c8-6d8d-4400-a7d6-bbb925b6b813)
  (pad 9413453f-94ea-46d0-a65e-b5ac50a83f8e (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))

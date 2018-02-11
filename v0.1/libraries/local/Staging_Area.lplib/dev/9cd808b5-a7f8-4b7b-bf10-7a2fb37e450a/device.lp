@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 9cd808b5-a7f8-4b7b-bf10-7a2fb37e450a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 9cd808b5-a7f8-4b7b-bf10-7a2fb37e450a
  (name "BB112")
  (description "Capacity <b>DIODE</b><p>\nvariable-capacitance diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BB112\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component df5714a4-087e-434c-9990-48f7f6be9197)
  (package 3f6470ca-e795-4f1b-8eed-c9383a77bf3b)
  (pad 78e93778-5f1e-4a62-9258-ed40b995145d (sig 60d16253-3355-4a31-880a-6463cf2d170e))

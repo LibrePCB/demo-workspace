@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 3787a52f-3914-4429-a030-15e9ec7dece2)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 3787a52f-3914-4429-a030-15e9ec7dece2
  (name "BYT08P")
  (description "<B>DIODE</B><p>\nultra fast\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYT08P\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

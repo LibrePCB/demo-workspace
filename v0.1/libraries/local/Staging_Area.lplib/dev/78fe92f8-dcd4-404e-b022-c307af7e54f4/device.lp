@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 78fe92f8-dcd4-404e-b022-c307af7e54f4)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:52Z)
- (modified 2015-12-20T22:10:52Z)
- (deprecated false)
+(librepcb_device 78fe92f8-dcd4-404e-b022-c307af7e54f4
  (name "PIC12F675SN")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:52Z)
+ (deprecated false)
  (component 483ca645-3cb1-4234-9eeb-64ae29ddfe57)
  (package 4cdd78c8-182d-4a57-b075-f4c61b4826da)
  (pad 042f87a6-77e8-4ff1-bd59-6338f24248b1 (sig 7ed70846-2b12-469f-b9ed-ade80615cb7e))

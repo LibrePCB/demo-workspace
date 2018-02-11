@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c111024a-38e1-464e-bcaf-ab366680cf85)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:02Z)
- (modified 2015-12-20T22:11:02Z)
- (deprecated false)
+(librepcb_device c111024a-38e1-464e-bcaf-ab366680cf85
  (name "L-EU_L3216C")
  (description "<B>INDUCTOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: L-EU\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:02Z)
+ (deprecated false)
  (component 506bd124-6062-400e-9078-b38bd7e1aaee)
  (package 8fcf6642-2f40-4bf8-9618-4eaf5c644bf3)
  (pad 454a82ca-8b4e-4262-896e-25833963ebb0 (sig 5b36d330-6f19-4391-8f95-1c2f6a658286))

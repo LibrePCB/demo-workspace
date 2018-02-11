@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 66b17e80-059a-4edd-993e-c2024d37f3e7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 66b17e80-059a-4edd-993e-c2024d37f3e7
  (name "MBD701")
  (description "UHF <B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: MBD701\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

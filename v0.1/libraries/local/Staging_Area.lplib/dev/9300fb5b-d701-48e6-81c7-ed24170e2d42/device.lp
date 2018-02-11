@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 9300fb5b-d701-48e6-81c7-ed24170e2d42)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 9300fb5b-d701-48e6-81c7-ed24170e2d42
  (name "ZENER-DIODE_P1-Z12")
  (description "Z-Diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: ZENER-DIODE\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 5ea08765-9bbd-4c11-a475-698617200963)
  (package e5810691-09d4-4691-87e7-c73d548cca8b)
  (pad 0458c33c-a9ea-469c-882c-c7f4e68f608d (sig a10e2dd7-c855-493d-bc27-dcc34a8be1d5))

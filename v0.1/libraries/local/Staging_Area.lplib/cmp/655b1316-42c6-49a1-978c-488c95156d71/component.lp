@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 655b1316-42c6-49a1-978c-488c95156d71)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_component 655b1316-42c6-49a1-978c-488c95156d71
  (name "PAD-N")
  (description "<b>PAD SYMBOL</b>\n\nThis element was automatically imported from Eagle\nFilepath: wirepad.lbr\nName: PAD-N\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "X")

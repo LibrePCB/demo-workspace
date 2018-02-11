@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5cc09ebe-d64d-49d8-b85d-15002eea8795)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 5cc09ebe-d64d-49d8-b85d-15002eea8795
  (name "GM1BW76340A")
  (description "<b>White LED</b> 45 lumen 14000 mcd @50 mA<p>\nhttp://document.sharpsma.com/files/GM1BW76340A_DS.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: GM1BW76340A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 9b1d6393-fd67-407b-bcd8-62bc8f4b18ea)
  (package 0caf07ec-5f0d-440b-b450-76f3471b12c2)
  (pad c145af3e-1db7-4a45-9e1f-2cbb57b12c68 (sig c79e8235-727a-48f0-9d40-0505d1ca4868))

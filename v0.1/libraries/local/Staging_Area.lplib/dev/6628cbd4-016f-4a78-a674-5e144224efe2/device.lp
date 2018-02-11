@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 6628cbd4-016f-4a78-a674-5e144224efe2)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device 6628cbd4-016f-4a78-a674-5e144224efe2
  (name "10_G30C-50.0KHZ")
  (description "<b>Monolithic Crystal Filters</b><p>\nSource: www.golledge.com\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: 10\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component 6953d690-f8d4-48be-9184-ff3eb63af6b6)
  (package b25c1aa0-cc78-4ed5-a231-37e1d6e2a88f)
  (pad 064c45de-ae80-4290-8310-fdacaa8e9be5 (sig fe525a6b-013c-44e7-a605-7f940890486f))

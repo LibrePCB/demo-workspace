@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 61ef5376-825e-4a76-b86d-d7f8fb20b866)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device 61ef5376-825e-4a76-b86d-d7f8fb20b866
  (name "CRYSTAL_SM49")
  (description "<b>CRYSTAL</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: CRYSTAL\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component b847a54b-a83e-47ff-a976-7704bf05bbf4)
  (package 2c9f9186-5313-4e72-98db-e40de0f57845)
  (pad 04f30791-7ac3-4679-8e8e-43b63a14517c (sig fd760be8-09ce-411f-a869-fdc1e74229a9))

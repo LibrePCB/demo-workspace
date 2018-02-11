@@ -1,12 +1,10 @@
-(librepcb_component_category
- (uuid d592081f-77b1-4193-9424-b0e3f1b7ebca)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-07-05T12:43:52Z)
- (modified 2015-07-05T18:01:33Z)
- (deprecated false)
+(librepcb_component_category d592081f-77b1-4193-9424-b0e3f1b7ebca
  (name "Wire-to-Board")
  (description "Woard-to-Board Connectors")
  (keywords "wire,board,connector,w2b")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-07-05T12:43:52Z)
+ (deprecated false)
  (parent 22fbb140-85e4-46cc-a550-68ae2dc58b1a)
 )

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid f3d7872e-addd-4cd7-976a-589a45e82d0f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device f3d7872e-addd-4cd7-976a-589a45e82d0f
  (name "DIODE-_SMC")
  (description "<b>DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 37afa3de-06dc-4dda-86d1-673099564e56)
  (package cceff2df-54a0-49f4-b647-1d632ee13ebb)
  (pad 1552936e-75bf-445d-a30b-b4665eb7dbf6 (sig e9c960fd-ff27-4ec4-a801-43ce63e5fe33))

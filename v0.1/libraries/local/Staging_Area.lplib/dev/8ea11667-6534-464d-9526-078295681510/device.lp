@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 8ea11667-6534-464d-9526-078295681510)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 8ea11667-6534-464d-9526-078295681510
  (name "*P4_-BOTTOM")
  (description "<b>PointLED® Enhanced Thinfilm LED</b> TOP & BOTTOM mount<p>\nLS P47F, LR P47F, LA P47F, LY P47F, LT P4SG, LB P4SG, LW P4SG<br>\nSource: http://catalog.osram-os.com .. LA_LR_LS_LY_P47F_Pb_free.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: *P4\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component a43f14cd-9984-45a9-8ac9-c438cea1b73b)
  (package 20ed0d95-ba71-4d59-a12e-1062523781a5)
  (pad fb18b4cf-ed49-46ab-a5e3-60aa85ec6b46 (sig 0cfe8fbc-2c08-4c0a-91bf-50e2d77424a2))

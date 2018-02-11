@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c9e0a166-98db-49c4-968f-3bb9eca748cf)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device c9e0a166-98db-49c4-968f-3bb9eca748cf
  (name "SG-615")
  (description "<b>SOJ HIGH-FREQUENCY CRYSTAL OSCILLATOR</b><p>\nSource: Crystal Oscillator SG-615%20Series.pdf\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: SG-615\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component e547f1b1-f24b-4621-9d46-9fb8f9768340)
  (package deabd104-4e7e-417d-91d1-67ec36659921)
  (pad 9a5242c9-ba39-4838-8238-912a6c4b2a5b (sig ee70385f-2fcc-4d01-8adb-d6b2a6960497))

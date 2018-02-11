@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 04347021-e97d-43a9-86a9-8867a0ff9f5b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:54Z)
- (modified 2015-12-20T22:10:54Z)
- (deprecated false)
+(librepcb_component 04347021-e97d-43a9-86a9-8867a0ff9f5b
  (name "71061-001")
  (description "<b>CONNECTOR</b><p>\n50-pin 1.27mm (.050 inch) pitch SCSI+ unshielded receptacle<p>\nright angle<p>\nall plastic\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 71061-001\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:54Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "X")

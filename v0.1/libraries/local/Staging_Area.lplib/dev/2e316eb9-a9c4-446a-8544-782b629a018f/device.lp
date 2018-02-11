@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 2e316eb9-a9c4-446a-8544-782b629a018f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:52Z)
- (modified 2015-12-20T22:10:52Z)
- (deprecated false)
+(librepcb_device 2e316eb9-a9c4-446a-8544-782b629a018f
  (name "R-78B5")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_ICs.lbr\nName: R-78B5\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:52Z)
+ (deprecated false)
  (component ce31c203-9bec-4345-8906-04fb7997ef5b)
  (package c1bff644-5680-47ed-b28f-f51f68d5e356)
  (pad 2cd059e7-ad75-402f-8476-615a6b1152c2 (sig bdd7ce7c-4bfc-4215-9431-3ea24f340e8a))

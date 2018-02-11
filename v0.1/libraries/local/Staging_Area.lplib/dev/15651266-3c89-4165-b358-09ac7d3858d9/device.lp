@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 15651266-3c89-4165-b358-09ac7d3858d9)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 15651266-3c89-4165-b358-09ac7d3858d9
  (name "PBYR3035")
  (description "Dual <B>DIODE</B><p>\ncommon cathode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: PBYR3035\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 1d76ac1a-8fd5-410c-a07d-5cdfef883977)
  (package f7a2023f-8f5a-4789-ad59-494299d4a48a)
  (pad 0d6f7409-a96e-4bd6-82c1-dc6496a53ae6 (sig b5677ad4-dff4-4edc-aad0-a2349b46c6d6))

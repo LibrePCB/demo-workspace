@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 1f78bc58-4de2-4cd5-9408-15756f3dca5b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-06-21T12:37:45Z)
- (modified 2015-06-21T12:37:45Z)
- (deprecated false)
+(librepcb_component 1f78bc58-4de2-4cd5-9408-15756f3dca5b
  (name "Crystal Resonator")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-06-21T12:37:45Z)
+ (deprecated false)
  (category 39d4b3d6-4168-4fe2-9420-fbf7eb3ac248)
  (schematic_only false)
  (default_value "")

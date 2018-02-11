@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 238b14ea-53c1-4f24-acbc-b8a7c9a642e2)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_component 238b14ea-53c1-4f24-acbc-b8a7c9a642e2
  (name "DIODEN")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_Standardbauteile.lbr\nName: DIODEN\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

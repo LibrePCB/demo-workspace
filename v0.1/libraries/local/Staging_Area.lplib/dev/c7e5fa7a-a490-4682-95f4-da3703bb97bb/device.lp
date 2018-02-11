@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c7e5fa7a-a490-4682-95f4-da3703bb97bb)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device c7e5fa7a-a490-4682-95f4-da3703bb97bb
  (name "BAS70XY")
  (description "<b>Silicon Schottky Diodes</b><p>\nGeneral-purpose diode for high-speed switching<br>\nSource: BAS70_1PS7XSB70_SER_8.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BAS70XY\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component a9aafdc2-24fd-443a-80c5-f3958d9af98e)
  (package 7b05f96c-ef08-47b4-965d-0ce248f7a194)
  (pad 24d208b7-2331-4c3b-b6f4-e930a0483e77 (sig b36dd72b-c101-4d9d-acc0-ffa1cee23e91))

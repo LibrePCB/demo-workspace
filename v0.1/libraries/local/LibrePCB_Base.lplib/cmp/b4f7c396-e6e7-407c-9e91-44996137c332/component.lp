@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid b4f7c396-e6e7-407c-9e91-44996137c332)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-04T21:27:40Z)
- (modified 2015-03-04T21:27:40Z)
- (deprecated false)
+(librepcb_component b4f7c396-e6e7-407c-9e91-44996137c332
  (name "Zener Diode")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-04T21:27:40Z)
+ (deprecated false)
  (category 4d1c95f4-2e60-4f50-a15b-ba9186a01b1a)
  (schematic_only false)
  (default_value "")

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid e022fb2a-a3e0-48e7-8724-444fa98bcd04)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device e022fb2a-a3e0-48e7-8724-444fa98bcd04
  (name "DIODE-_MICROMELF-R")
  (description "<b>DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 37afa3de-06dc-4dda-86d1-673099564e56)
  (package 04a53b9e-c20c-48b5-bb1d-3f58a0b9aa10)
  (pad d71f883c-6cb9-40a6-aa24-d78089de3452 (sig e9c960fd-ff27-4ec4-a801-43ce63e5fe33))

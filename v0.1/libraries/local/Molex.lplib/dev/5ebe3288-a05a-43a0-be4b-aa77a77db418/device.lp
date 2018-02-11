@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5ebe3288-a05a-43a0-be4b-aa77a77db418)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:41Z)
- (modified 2015-12-21T13:40:41Z)
- (deprecated false)
+(librepcb_device 5ebe3288-a05a-43a0-be4b-aa77a77db418
  (name "43160-*04")
  (description "<b>SDA-43160 Connector</b><p>\nSource: http://www.molex.com/pdm_docs/sd/431601306_sd.pdf\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 43160-*04\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:41Z)
+ (deprecated false)
  (component 223a669c-daf4-4c82-ab95-854bc8422b4f)
  (package 5b9b3ae5-12d3-4dc5-a46e-4ce99b84a7e0)
  (pad 1ee712ed-fa87-4d6a-bf31-14ab7a8b8684 (sig 2ef097cf-f1a3-49df-befe-a6cc6f8207dc))

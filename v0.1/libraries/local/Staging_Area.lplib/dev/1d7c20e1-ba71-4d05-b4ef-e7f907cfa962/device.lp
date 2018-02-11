@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 1d7c20e1-ba71-4d05-b4ef-e7f907cfa962)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 1d7c20e1-ba71-4d05-b4ef-e7f907cfa962
  (name "DUOLED-RG-C")
  (description "<B>DUO LED</B><P>\n2 colors (red/green), 5 mm, round, common Cathode<BR>\n<I>www.ligitek.com</I> or other producers.\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: DUOLED-RG-C\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 3216c386-c85f-433e-a818-ed9bc8d64ef1)
  (package d6ba7258-1021-43c6-9d17-7287f6d42770)
  (pad 3debee99-8728-4462-b3ca-7b22f3faa006 (sig 19155ad0-192d-443c-b746-377d6580afae))

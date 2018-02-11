@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid e7b067c2-d714-4bef-bcac-41f0a0cae12b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:28:20Z)
- (modified 2015-12-21T13:28:20Z)
- (deprecated false)
+(librepcb_device e7b067c2-d714-4bef-bcac-41f0a0cae12b
  (name "SMK")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: isabellen.lbr\nName: SMK\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:28:20Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 15a6f592-6c00-4c56-89d9-439f88073fb2)
  (pad 598ae543-3f62-4b9c-8a43-ae0c39112a12 (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))

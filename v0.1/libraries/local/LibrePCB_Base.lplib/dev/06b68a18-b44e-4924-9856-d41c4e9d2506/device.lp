@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 06b68a18-b44e-4924-9856-d41c4e9d2506)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:31Z)
- (modified 2015-08-13T20:22:31Z)
- (deprecated false)
+(librepcb_device 06b68a18-b44e-4924-9856-d41c4e9d2506
  (name "C-1812")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:31Z)
+ (deprecated false)
  (component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
  (package 51fbf91d-c346-4686-972e-5380cc1bedc0)
  (pad 8f7fa8e1-afba-4efb-b02c-ce7f4717ffdf (sig 6d776f4d-2a7c-4128-a98a-dbb1dd861411))

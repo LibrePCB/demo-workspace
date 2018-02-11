@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid df5714a4-087e-434c-9990-48f7f6be9197)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component df5714a4-087e-434c-9990-48f7f6be9197
  (name "BB112")
  (description "Capacity <b>DIODE</b><p>\nvariable-capacitance diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BB112\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

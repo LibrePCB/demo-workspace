@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 65a18502-2ed6-438b-ae9d-f9910e117497)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 65a18502-2ed6-438b-ae9d-f9910e117497
  (name "BAT54C")
  (description "<b>Schottky Diodes</b><p>\nSource: Fairchild .. BAT54.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BAT54C\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component cdd7d813-f6a8-4d84-8577-acfe4d9bb1b5)
  (package 5dee62bd-8765-43c3-bd15-3cdaa2af69f7)
  (pad 0b7e3bae-fd35-4351-876f-73d31fc11e9a (sig 972012d2-b452-45e4-bf77-f271981f5fc4))

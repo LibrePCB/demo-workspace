@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid e995a552-12c4-413a-8258-1d6ec9a8471d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-03T20:19:27Z)
- (modified 2015-03-03T20:19:27Z)
- (deprecated false)
+(librepcb_component e995a552-12c4-413a-8258-1d6ec9a8471d
  (name "STM32F103C")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-03T20:19:27Z)
+ (deprecated false)
  (category 33e39e4f-52e6-4069-a9d8-4b852b526810)
  (schematic_only false)
  (default_value "STM32F103C")

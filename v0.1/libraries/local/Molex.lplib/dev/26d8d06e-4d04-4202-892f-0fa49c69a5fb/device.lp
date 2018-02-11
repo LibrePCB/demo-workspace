@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 26d8d06e-4d04-4202-892f-0fa49c69a5fb)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:38Z)
- (modified 2015-12-21T13:40:38Z)
- (deprecated false)
+(librepcb_device 26d8d06e-4d04-4202-892f-0fa49c69a5fb
  (name "DVI-D-R")
  (description "<b>CONNECTOR</b><p>\nMiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: DVI-D-R\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:38Z)
+ (deprecated false)
  (component f6e2a3b1-9f15-44a8-bf89-6b09d6c206d5)
  (package 01d74c86-4137-474a-a02f-185ca8a65d24)
  (pad 0b0a995f-ef8d-41cf-b261-f046c2425420 (sig 6aaba73d-325b-41e0-aafb-618202455ab5))

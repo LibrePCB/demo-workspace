@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid ce069040-440f-4f88-b812-6711ed66c92e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device ce069040-440f-4f88-b812-6711ed66c92e
  (name "D5-1AS")
  (description "4 <B>DIODES</B><p>\nSIL, common anode (single gate)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: D5-1AS\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 0c3081cf-5dfe-41c2-ae39-985bd4656618)
  (package 419b43be-f74a-428b-abaa-4d987d4b0e75)
  (pad 3ad17954-b1b2-42c8-95db-f09586fc7bb8 (sig cc6b1dc6-2fd1-4206-8e26-8207b8cb99f5))

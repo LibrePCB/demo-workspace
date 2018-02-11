@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid f83a5ae8-7f42-42be-9dd6-e762f4da2ec2)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:35Z)
- (modified 2015-08-13T20:22:35Z)
- (deprecated false)
+(librepcb_device f83a5ae8-7f42-42be-9dd6-e762f4da2ec2
  (name "ABM3")
  (description "<b>CRYSTAL</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: CRYSTAL\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:35Z)
+ (deprecated false)
  (component b847a54b-a83e-47ff-a976-7704bf05bbf4)
  (package 41efc3b6-16e3-4525-850a-e678a28a0376)
  (pad 62e1ed41-b4a0-4fa5-a204-735cda0e77fb (sig fd760be8-09ce-411f-a869-fdc1e74229a9))

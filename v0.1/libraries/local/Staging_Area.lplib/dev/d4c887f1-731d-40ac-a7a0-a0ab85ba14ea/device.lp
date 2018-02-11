@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid d4c887f1-731d-40ac-a7a0-a0ab85ba14ea)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device d4c887f1-731d-40ac-a7a0-a0ab85ba14ea
  (name "C-TRIMM_TZBX4")
  (description "<b>Trimm capacitor</b>\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: C-TRIMM\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component fd75cd4c-8b11-4f06-8fa7-498e345f5248)
  (package bcd1dbf7-c4cf-4d99-80e9-1f682ea6ec69)
  (pad 26d2b802-7efd-4914-84cb-305f4eeb302e (sig 0aaecffd-ef4a-417b-a142-8a1093ce83b3))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid ff6a9688-6b53-4cf1-bcc0-2142f122c51a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device ff6a9688-6b53-4cf1-bcc0-2142f122c51a
  (name "IXF_A")
  (description "<b>Crystal Filter</b><p>\nSource: www.ilsiamerica.com .. C1 IXF Series.pdf\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: IXF\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component 09284abd-9cd1-45fb-aedc-de78e84296ce)
  (package 7e56e4bf-037d-46fd-93f3-2e36968cad83)
  (pad 4626fca9-47bb-4b6c-bc6d-dcb44092f981 (sig 4678ec8a-a860-4750-bdca-7402d6b17f77))

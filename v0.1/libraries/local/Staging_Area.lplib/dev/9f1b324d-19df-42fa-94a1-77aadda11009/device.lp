@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 9f1b324d-19df-42fa-94a1-77aadda11009)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:02Z)
- (modified 2015-12-20T22:11:02Z)
- (deprecated false)
+(librepcb_device 9f1b324d-19df-42fa-94a1-77aadda11009
  (name "R-EU__MELF0102AX")
  (description "<B>RESISTOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-EU_\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:02Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 713fe73e-5c49-4ec8-bb64-2477fbdc7dd0)
  (pad 3e7cded5-f0c6-4f70-aae1-7cabcf66dddc (sig ad623f98-9e73-49c3-9404-f7cfa99d17cd))

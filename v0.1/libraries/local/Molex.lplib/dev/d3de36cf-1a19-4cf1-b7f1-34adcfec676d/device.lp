@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid d3de36cf-1a19-4cf1-b7f1-34adcfec676d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:39Z)
- (modified 2015-12-21T13:40:39Z)
- (deprecated false)
+(librepcb_device d3de36cf-1a19-4cf1-b7f1-34adcfec676d
  (name "5566-8")
  (description "<b>Mini FIT connector 8 pol</b><p>\nSource: http://www.molex.com\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 5566-8\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:39Z)
+ (deprecated false)
  (component 5bc83597-ff47-4539-aee1-21f7a9950809)
  (package 05d50426-b484-450f-a7e4-6185dde627cb)
  (pad 0a639308-1bd7-4784-8253-7669b845cd8c (sig 7141e5a2-dba6-459e-a323-e382d67b5e46))

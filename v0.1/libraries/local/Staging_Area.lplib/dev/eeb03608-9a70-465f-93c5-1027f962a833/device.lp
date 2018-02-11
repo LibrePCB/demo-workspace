@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid eeb03608-9a70-465f-93c5-1027f962a833)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device eeb03608-9a70-465f-93c5-1027f962a833
  (name "BYV32")
  (description "<B>DIODE</B><p>\n2 x Si diode<p>\n200 V, 20 A/230 Apeak, 25 ns\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYV32\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component e4b1faad-e386-44f2-b40b-1abaff345f6c)
  (package 0eaf289c-166d-4bd9-a4ba-dbf6bbc76ef1)
  (pad 474059df-640b-4b17-98b2-148e340a7152 (sig 97855b7f-6a0a-4cae-9f74-3ca1f67c8358))

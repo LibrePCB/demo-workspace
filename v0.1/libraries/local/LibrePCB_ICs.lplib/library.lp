@@ -1,13 +1,11 @@
-(librepcb_library
- (uuid ab480219-c385-4dc3-9ac0-5e7acc762fc7)
- (version "0.1")
- (author "LibrePCB")
- (created 2016-04-13T12:43:52Z)
- (modified 2016-04-20T18:01:33Z)
- (deprecated false)
+(librepcb_library ab480219-c385-4dc3-9ac0-5e7acc762fc7
  (name "LibrePCB Integrated Circuits")
  (description "Official LibrePCB ICs Library")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2016-04-13T12:43:52Z)
+ (deprecated false)
  (url "https://github.com/LibrePCB-Libraries/LibrePCB_IntegratedCircuits.lplib")
  (dependency ad523ae0-9493-48bc-86b7-049a13cb35e2)
 )

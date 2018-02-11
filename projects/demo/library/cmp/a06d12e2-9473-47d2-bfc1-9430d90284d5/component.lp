@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid a06d12e2-9473-47d2-bfc1-9430d90284d5)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-03T20:19:27Z)
- (modified 2015-03-03T20:19:27Z)
- (deprecated false)
+(librepcb_component a06d12e2-9473-47d2-bfc1-9430d90284d5
  (name "Single Half-Bridge MOSFET Driver with \"IN\" and \"/SD\" Input Pins")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-03T20:19:27Z)
+ (deprecated false)
  (category e8080ad9-6b53-46bd-8996-a03c30f99ebe)
  (schematic_only false)
  (default_value "")

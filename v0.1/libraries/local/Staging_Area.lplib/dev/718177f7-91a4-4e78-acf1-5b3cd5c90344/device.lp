@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 718177f7-91a4-4e78-acf1-5b3cd5c90344)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device 718177f7-91a4-4e78-acf1-5b3cd5c90344
  (name "10_G15D-25.0KHZ")
  (description "<b>Monolithic Crystal Filters</b><p>\nSource: www.golledge.com\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: 10\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component 6953d690-f8d4-48be-9184-ff3eb63af6b6)
  (package e15099bc-9ca4-4604-bd19-c86d7a26f060)
  (pad 2fb79444-cd02-4b70-a044-763acc983892 (sig 553ddf10-34fd-4430-b845-72fd9f212208))

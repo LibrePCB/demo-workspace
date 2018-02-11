@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 99e6caba-6788-4ea0-9eb1-8aed9132552e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 99e6caba-6788-4ea0-9eb1-8aed9132552e
  (name "LB10")
  (description "<B>LED BLOCK</B><p>\n10-LED bar graph, DIL, Siemens\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LB10\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "DZ")

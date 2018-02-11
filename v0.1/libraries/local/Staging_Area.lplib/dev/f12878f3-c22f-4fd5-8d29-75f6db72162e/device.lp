@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid f12878f3-c22f-4fd5-8d29-75f6db72162e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device f12878f3-c22f-4fd5-8d29-75f6db72162e
  (name "DIODE-_SOT54H")
  (description "<b>DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 37afa3de-06dc-4dda-86d1-673099564e56)
  (package 3f6470ca-e795-4f1b-8eed-c9383a77bf3b)
  (pad 78e93778-5f1e-4a62-9258-ed40b995145d (sig e9c960fd-ff27-4ec4-a801-43ce63e5fe33))

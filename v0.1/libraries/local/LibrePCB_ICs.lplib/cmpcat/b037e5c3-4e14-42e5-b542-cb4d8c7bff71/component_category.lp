@@ -1,12 +1,10 @@
-(librepcb_component_category
- (uuid b037e5c3-4e14-42e5-b542-cb4d8c7bff71)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-07-05T12:43:52Z)
- (modified 2015-07-05T18:01:33Z)
- (deprecated false)
+(librepcb_component_category b037e5c3-4e14-42e5-b542-cb4d8c7bff71
  (name "Integrated Circuits")
  (description "")
  (keywords "integrated,circuit,ic,ics")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-07-05T12:43:52Z)
+ (deprecated false)
  (parent null)
 )

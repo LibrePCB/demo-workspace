@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 1314327d-df62-490e-b522-33f95e3d83e8)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 1314327d-df62-490e-b522-33f95e3d83e8
  (name "ACULEDVHL_-RGBY")
  (description "<b>ACULED® VHL</b> Standard Monochromatic and Multi-Colored Four-Chip LED<p>\nSource: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_ACULEDVHL.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: ACULEDVHL\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 67fc95c5-2dc8-4c78-9110-9c36056fdf24)
  (package 732beb5c-4ed0-4fbd-8704-32a92eedaf26)
  (pad 0c6fc925-b0c9-4a05-a294-3d4f900b46c4 (sig bdbe47a3-a77b-480a-88f4-354c75c7e593))

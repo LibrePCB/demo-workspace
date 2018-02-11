@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 15bf2212-54c1-4f78-b50a-78df2d6eaff5)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:57Z)
- (modified 2015-12-20T22:10:57Z)
- (deprecated false)
+(librepcb_component 15bf2212-54c1-4f78-b50a-78df2d6eaff5
  (name "679105700")
  (description "<b>MINI PCI EXPRESS CONNECTOR</b> 0.8MM PITCH, 52 CIRCUIT<p>\nSource: http://www.molex.com/pdm_docs/sd/679105700_sd.pdf\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 679105700\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:57Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "X")

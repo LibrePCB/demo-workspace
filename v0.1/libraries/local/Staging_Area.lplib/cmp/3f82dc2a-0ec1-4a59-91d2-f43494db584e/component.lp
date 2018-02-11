@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 3f82dc2a-0ec1-4a59-91d2-f43494db584e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 3f82dc2a-0ec1-4a59-91d2-f43494db584e
  (name "1N4004")
  (description "<B>DIODE</B><p>\ngeneral purpose rectifier, 1 A\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 1N4004\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

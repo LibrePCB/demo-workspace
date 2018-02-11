@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 460e0f77-1223-4c5e-9b0b-2607c1932fcd)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:28:20Z)
- (modified 2015-12-21T13:28:20Z)
- (deprecated false)
+(librepcb_device 460e0f77-1223-4c5e-9b0b-2607c1932fcd
  (name "SMT-REF")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: isabellen.lbr\nName: SMT-REF\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:28:20Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 3c7800d2-e3ba-4db7-ad8c-e2d2378e65bc)
  (pad ac395512-4938-4ced-b7e0-5cbd81181987 (sig ad623f98-9e73-49c3-9404-f7cfa99d17cd))

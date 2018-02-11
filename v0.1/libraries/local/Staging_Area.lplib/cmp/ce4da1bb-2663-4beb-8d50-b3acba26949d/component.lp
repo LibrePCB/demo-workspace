@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid ce4da1bb-2663-4beb-8d50-b3acba26949d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component ce4da1bb-2663-4beb-8d50-b3acba26949d
  (name "DIODE-2CAPACITANCE")
  (description "Capacity <b>DIODE</b><p>\nvariable-capacitance diode (Infineon)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE-2CAPACITANCE\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

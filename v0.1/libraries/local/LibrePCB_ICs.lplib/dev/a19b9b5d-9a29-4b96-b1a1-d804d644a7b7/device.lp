@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid a19b9b5d-9a29-4b96-b1a1-d804d644a7b7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:33Z)
- (modified 2015-08-13T20:22:33Z)
- (deprecated false)
+(librepcb_device a19b9b5d-9a29-4b96-b1a1-d804d644a7b7
  (name "LM1117")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:33Z)
+ (deprecated false)
  (component ce31c203-9bec-4345-8906-04fb7997ef5b)
  (package 9cb46b04-9e9f-45e6-af5e-11c526f8fa49)
  (pad 2af0ba26-5f28-4051-aa65-70cbf6f52f01 (sig 8e074b73-9015-4c28-969f-d2d929af889d))

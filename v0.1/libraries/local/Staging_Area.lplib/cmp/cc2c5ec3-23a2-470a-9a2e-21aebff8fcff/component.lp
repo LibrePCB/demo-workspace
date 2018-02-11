@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid cc2c5ec3-23a2-470a-9a2e-21aebff8fcff)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component cc2c5ec3-23a2-470a-9a2e-21aebff8fcff
  (name "1N821")
  (description "Reference <B>DIODE</B><p>\ntemperature compensated, 6,2 V\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 1N821\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

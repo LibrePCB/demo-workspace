@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 7ff9a694-882c-4b69-a8c1-5596fb871c2b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 7ff9a694-882c-4b69-a8c1-5596fb871c2b
  (name "BYT52")
  (description "<B>DIODE</B><p>\nfast silicon-mesa rectifier (Vishay Telefunken)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYT52\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

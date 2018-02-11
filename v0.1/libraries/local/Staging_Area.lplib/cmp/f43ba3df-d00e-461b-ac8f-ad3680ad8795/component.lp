@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid f43ba3df-d00e-461b-ac8f-ad3680ad8795)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_component f43ba3df-d00e-461b-ac8f-ad3680ad8795
  (name "MC-406")
  (description "<b>kHz RANGE CRYSTAL UNIT</b> SMD<p>\nSource: MC-306_405_406_E07X.PDF <a href=\"http://www.epsontoyocom.co.jp\"> Homepage </a>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: MC-406\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "Q")

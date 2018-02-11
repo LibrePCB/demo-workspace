@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid daeed3be-7232-49c4-8d32-003974e84e46)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-06-21T12:37:43Z)
- (modified 2015-06-21T12:37:43Z)
- (deprecated false)
+(librepcb_component daeed3be-7232-49c4-8d32-003974e84e46
  (name "Trimmer Resistor")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-06-21T12:37:43Z)
+ (deprecated false)
  (category 1039f038-20a6-4bfe-89c1-99f34fbb45bd)
  (schematic_only false)
  (default_value "")

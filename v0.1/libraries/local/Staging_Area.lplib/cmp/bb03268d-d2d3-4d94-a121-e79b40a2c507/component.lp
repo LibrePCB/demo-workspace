@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid bb03268d-d2d3-4d94-a121-e79b40a2c507)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component bb03268d-d2d3-4d94-a121-e79b40a2c507
  (name "PBYR635")
  (description "Dual <B>DIODE</B><p>\ncommon cathode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: PBYR635\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

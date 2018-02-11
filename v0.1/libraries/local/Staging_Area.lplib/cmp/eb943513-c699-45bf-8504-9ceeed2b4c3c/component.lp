@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid eb943513-c699-45bf-8504-9ceeed2b4c3c)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_component eb943513-c699-45bf-8504-9ceeed2b4c3c
  (name "SIM-CARD_496191611")
  (description "MICROSD/SIM COMBO SOCKET RIGHT ENTRY TYPE<p>\nSource: 1648045.pdf\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: SIM-CARD_496191611\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "X")

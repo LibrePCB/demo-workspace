@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5bee0a60-e92f-44ee-81f0-a444c5e67b3a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 5bee0a60-e92f-44ee-81f0-a444c5e67b3a
  (name "GM5BW96385A")
  (description "<b>High brightness White Color LED</b> 2300 mcd @ IF = 20mA<p>\nachieved via InGaN Blue LED chip in combination with Yellow Phosphor<br>\nSource: http://document.sharpsma.com/files/GM5BW96385A.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: GM5BW96385A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component a88c4141-9c43-4f4b-84f6-131172c6dd3b)
  (package f14770c9-591a-4e82-9d32-6f6c3fc85d19)
  (pad 8e794971-4db5-41a2-b49b-58fd393a60d5 (sig 413a437d-c5c0-4116-a9e6-4b8a161d2610))

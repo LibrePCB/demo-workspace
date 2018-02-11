@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5b7516b8-1944-4e53-a3a5-3e074f8bbddb)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 5b7516b8-1944-4e53-a3a5-3e074f8bbddb
  (name "*_T679-\?-1_D2E2")
  (description "<b>LC TOPLED® Low Current LED</b><p>\nSource: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: *_T679-\?-1\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 3cd9db8c-f5b4-4d35-9730-314ba34fdee0)
  (package 63ec9dd6-3dd3-46eb-b6be-f6cdc47b1d76)
  (pad 8250c263-4605-4599-a8c4-3f8e39e748e2 (sig 09cc3266-9f96-4844-a1cf-87a1a30342dc))

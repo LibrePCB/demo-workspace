@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 8198b20f-1d24-4fbc-8783-29571270002e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 8198b20f-1d24-4fbc-8783-29571270002e
  (name "BAW75")
  (description "<B>DIODE</B><p>\nsilicon-epitaxial planar diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BAW75\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 82d2720d-0623-4507-a746-7965166da9d0)
  (package 9af20351-2599-421c-8671-f0355c2548bb)
  (pad 03958109-002d-4acc-8e80-e9768ddc69d7 (sig 095fa809-403a-498f-be0e-cf144cbdf710))

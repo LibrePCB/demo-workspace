@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 504df6ce-99fb-4deb-9989-fcbc44cc740e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 504df6ce-99fb-4deb-9989-fcbc44cc740e
  (name "LED-2AC-_SUPERFLUX")
  (description "<b>LEDs with 2 Cathode & 2 Anode</b><p>\n- Kingbright SUPER FLUX LED LAMP<br>\nSource: www.us.kingbright.com/images/catalog/SPEC/W7676CPBC-H.pdf<p>\n<b>Cree® P4 LED CP41B-WES/WGS</b><p>\nSource: <a href=\"http://www.cree.com/products/pdf/LEDlamps/CP41B-WES&WGS.pdf\"> Data sheet</a>\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LED-2AC-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 72f45351-734b-412b-b5eb-720253e08215)
  (package 7010548f-0d0c-4836-9cff-cc30edcf35fd)
  (pad 12253702-882c-432e-b7e9-6f7f8e55f8cc (sig bbaaee77-dd73-4710-813f-e201bed287b0))

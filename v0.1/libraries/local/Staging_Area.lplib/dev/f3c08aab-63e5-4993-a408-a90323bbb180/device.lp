@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid f3c08aab-63e5-4993-a408-a90323bbb180)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device f3c08aab-63e5-4993-a408-a90323bbb180
  (name "F50380")
  (description "<b>Z-POWER LED</b><p>\nSource: www.zpowerled.com .. F50380.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: F50380\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 4f05b918-056c-4cb3-8bf2-f966805698c5)
  (package 0db36e4a-b316-46c0-aa1c-42ebaacd8d38)
  (pad 009c9041-a9d4-4026-9f32-5fd1d5c6505b (sig 1d1f6f70-2e67-4edf-a35b-d2642d395188))

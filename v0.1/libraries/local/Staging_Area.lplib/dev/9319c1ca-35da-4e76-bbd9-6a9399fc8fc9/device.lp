@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 9319c1ca-35da-4e76-bbd9-6a9399fc8fc9)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 9319c1ca-35da-4e76-bbd9-6a9399fc8fc9
  (name "BAV17")
  (description "<B>DIODE</B><p>\nsilicon-epitaxial planar diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BAV17\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component ae3563aa-c182-4967-921c-d385b7ff5f98)
  (package 9af20351-2599-421c-8671-f0355c2548bb)
  (pad 03958109-002d-4acc-8e80-e9768ddc69d7 (sig 35801c30-c771-41a3-bfa4-ecf106c1fb16))

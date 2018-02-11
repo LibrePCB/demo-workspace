@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid ce31c203-9bec-4345-8906-04fb7997ef5b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-03T20:19:27Z)
- (modified 2015-03-03T20:19:27Z)
- (deprecated false)
+(librepcb_component ce31c203-9bec-4345-8906-04fb7997ef5b
  (name "Voltage Regulator 3P")
  (description "Voltage Regulator with 3 Pins: IN, GND, OUT")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-03T20:19:27Z)
+ (deprecated false)
  (category 4b890baf-9df3-4d9f-94ed-2808cd9a8781)
  (schematic_only false)
  (default_value "")

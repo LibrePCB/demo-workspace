@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 1a3f3e99-0126-4bed-b8a1-2eb8df46a9dc)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-06-21T12:37:47Z)
- (modified 2015-06-21T12:37:47Z)
- (deprecated false)
+(librepcb_component 1a3f3e99-0126-4bed-b8a1-2eb8df46a9dc
  (name "Diac")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-06-21T12:37:47Z)
+ (deprecated false)
  (category e9663545-80dd-4658-9357-d4ef62e55168)
  (schematic_only false)
  (default_value "")

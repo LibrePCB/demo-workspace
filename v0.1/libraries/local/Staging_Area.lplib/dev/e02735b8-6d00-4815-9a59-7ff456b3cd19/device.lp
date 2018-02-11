@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid e02735b8-6d00-4815-9a59-7ff456b3cd19)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device e02735b8-6d00-4815-9a59-7ff456b3cd19
  (name "EL-_BI45-16AXIAL")
  (description "<B>BIPOLAR ELECTROLYTIC CAPACITOR</B>\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: EL-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component 02d68685-011b-42d9-9d4a-9c7e01588267)
  (package fe893a1d-d970-470d-a5f2-cb4f77713919)
  (pad 2046f82b-f9c5-49b9-af16-5e009c3aef0c (sig 3c4ba8a4-d63a-4225-b09e-c337f09bca5b))

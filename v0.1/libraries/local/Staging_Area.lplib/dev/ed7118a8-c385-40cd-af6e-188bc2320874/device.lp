@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid ed7118a8-c385-40cd-af6e-188bc2320874)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:02Z)
- (modified 2015-12-20T22:11:02Z)
- (deprecated false)
+(librepcb_device ed7118a8-c385-40cd-af6e-188bc2320874
  (name "L-EU_IRF-24")
  (description "<B>INDUCTOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: L-EU\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:02Z)
+ (deprecated false)
  (component 506bd124-6062-400e-9078-b38bd7e1aaee)
  (package 0e931ba0-88da-46c1-b54b-b020c72f2f43)
  (pad 5ca084ad-428f-464a-a618-8690e52f4836 (sig 5b36d330-6f19-4391-8f95-1c2f6a658286))

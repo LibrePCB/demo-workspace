@@ -1,13 +1,11 @@
-(librepcb_library
- (uuid d297c31b-2e55-42ce-8d9f-e36fde675ae1)
- (version "0.1")
- (author "LibrePCB")
- (created 2016-04-13T12:43:52Z)
- (modified 2016-04-20T18:01:33Z)
- (deprecated false)
+(librepcb_library d297c31b-2e55-42ce-8d9f-e36fde675ae1
  (name "ST Microelectronics")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2016-04-13T12:43:52Z)
+ (deprecated false)
  (url "https://github.com/LibrePCB-Libraries/STMicroelectronics.lplib")
  (dependency ab480219-c385-4dc3-9ac0-5e7acc762fc7)
  (dependency ad523ae0-9493-48bc-86b7-049a13cb35e2)

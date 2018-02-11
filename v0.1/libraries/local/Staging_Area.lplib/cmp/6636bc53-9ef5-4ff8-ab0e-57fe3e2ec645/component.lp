@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 6636bc53-9ef5-4ff8-ab0e-57fe3e2ec645)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 6636bc53-9ef5-4ff8-ab0e-57fe3e2ec645
  (name "BZW04XX")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BZW04XX\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 26e03b83-e0e0-45e0-88aa-3bc3e031dc58)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 26e03b83-e0e0-45e0-88aa-3bc3e031dc58
  (name "TOPLED-2-_/")
  (description "<b>Multi TOPLED® (two color)</b><p>\nLG T672, LP T672<br>\nLSY T67B<br>\nLSW T67C<br>\nLSY T675<br>\nLSY T676<br>\nLSG T677<br>\nLSG T770<br>\n\nSource: http://www.osram.convergy.de/\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: TOPLED-2-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 7a41804b-58ad-41de-a34d-61f2cf2c738e)
  (package 27186596-4143-458d-bb7a-23c720fe11c9)
  (pad 0446116d-e027-49ed-98a5-410e2c7e364e (sig 3e97ce01-0022-4a91-94b4-2e544a7d6bf4))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 2d1c60f7-955e-45a7-895c-be934ab55f31)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-08-13T20:22:37Z)
- (modified 2015-08-13T20:22:37Z)
- (deprecated false)
+(librepcb_device 2d1c60f7-955e-45a7-895c-be934ab55f31
  (name "BAS21")
  (description "General-purpose diode for high-speed switching")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-08-13T20:22:37Z)
+ (deprecated false)
  (component 82207562-d317-4911-96fa-ceb0f45fd806)
  (package 5dee62bd-8765-43c3-bd15-3cdaa2af69f7)
  (pad 0b7e3bae-fd35-4351-876f-73d31fc11e9a (sig null))

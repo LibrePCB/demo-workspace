@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 86286ed0-dd63-4c54-9c1c-a0d45fe87e72)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 86286ed0-dd63-4c54-9c1c-a0d45fe87e72
  (name "NUD4001")
  (description "<b>High Current LED Driver</b><p>\nSource: <a href=\"http://www.onsemi.com/pub/Collateral/NUD4001-D.PDF\"> Data sheet </a>\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: NUD4001\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "IC")

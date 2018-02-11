@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid f9c0896e-27aa-4c35-a510-c2abc966d0c3)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component f9c0896e-27aa-4c35-a510-c2abc966d0c3
  (name "GM5WA94310A")
  (description "<b>Chip LED</b> RGB<p>\nSource: http://document.sharpsma.com/files/GM5WA94310A_SS.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: GM5WA94310A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid bd705d69-6f06-4ec2-a682-5d6959d9f40d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:52Z)
- (modified 2015-12-20T22:10:52Z)
- (deprecated false)
+(librepcb_device bd705d69-6f06-4ec2-a682-5d6959d9f40d
  (name "LM6172_SMD")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_ICs.lbr\nName: LM6172\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:52Z)
+ (deprecated false)
  (component 6ae4223f-e991-4d0b-809c-002edada1298)
  (package 87872dd3-fce2-4ad8-aa60-d47e809b8beb)
  (pad 0afd493c-f565-4f17-bc86-ba83fc6de278 (sig d395ba90-c4b6-485b-8eec-1b8c8623fb17))

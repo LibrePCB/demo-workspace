@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 185c015d-ec31-44e7-b4f4-98a5f5eb9f7c)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 185c015d-ec31-44e7-b4f4-98a5f5eb9f7c
  (name "W49180")
  (description "<b>Z-Power LED</b> P4 Series, Dome type<p>\nSource: http://www.acriche.com .. W49180.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: W49180\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

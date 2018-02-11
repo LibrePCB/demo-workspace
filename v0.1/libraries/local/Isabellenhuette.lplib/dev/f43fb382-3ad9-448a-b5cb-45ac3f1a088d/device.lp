@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid f43fb382-3ad9-448a-b5cb-45ac3f1a088d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:28:20Z)
- (modified 2015-12-21T13:28:20Z)
- (deprecated false)
+(librepcb_device f43fb382-3ad9-448a-b5cb-45ac3f1a088d
  (name "SMV")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: isabellen.lbr\nName: SMV\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:28:20Z)
+ (deprecated false)
  (component 5e95030d-4a1b-4813-bf12-f2ae1b6f78d9)
  (package da8be747-ee66-4cd8-8b15-1b248ca67c42)
  (pad 0a2a1ade-0491-43d9-92df-707a2a63c3cf (sig 899a66f6-04f3-476e-b5d9-f4b29986b16b))

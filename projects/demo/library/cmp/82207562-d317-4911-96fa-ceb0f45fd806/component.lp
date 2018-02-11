@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 82207562-d317-4911-96fa-ceb0f45fd806)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-04T21:27:41Z)
- (modified 2015-03-04T21:27:41Z)
- (deprecated false)
+(librepcb_component 82207562-d317-4911-96fa-ceb0f45fd806
  (name "Schottky Diode")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-04T21:27:41Z)
+ (deprecated false)
  (category 4d1c95f4-2e60-4f50-a15b-ba9186a01b1a)
  (schematic_only false)
  (default_value "")

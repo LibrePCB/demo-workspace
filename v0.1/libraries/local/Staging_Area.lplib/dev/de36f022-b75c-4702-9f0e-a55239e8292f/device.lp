@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid de36f022-b75c-4702-9f0e-a55239e8292f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device de36f022-b75c-4702-9f0e-a55239e8292f
  (name "BYD13")
  (description "<B>DIODE</B><p>\ncontrolled avalanche rectifier\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYD13\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 78547953-a927-4e3b-bddb-5369dc351b43)
  (package 98dce77c-cfd3-467f-876b-5c329789aaa0)
  (pad 2291c861-70ab-487d-9496-909accd3c038 (sig ad9c6082-ad79-4d93-b908-6ad9c3883bfc))

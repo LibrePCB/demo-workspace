@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid a06e21e4-dfc0-478e-a348-8a62bf7c17a0)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:39Z)
- (modified 2015-12-21T13:40:39Z)
- (deprecated false)
+(librepcb_device a06e21e4-dfc0-478e-a348-8a62bf7c17a0
  (name "52745-2990")
  (description "<b>FFC/FPC</b>-to-Board  0.50mm (.020\") SMT Top Contact<p>\nRight Angle, ZIF, Style Receptacle 52745 / 52435<br>\nSource: http://www.molex.com/product/ffc/52745.html\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 52745-2990\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:39Z)
+ (deprecated false)
  (component 188d805c-3bce-466a-9db3-418bfa652c12)
  (package 2975ac7c-452a-4932-ab2e-87dc757509fd)
  (pad 110846f0-aadc-4233-97c8-b83b574d4a89 (sig 1b9641a3-b3ac-4ba8-8058-89c5bf9efa7e))

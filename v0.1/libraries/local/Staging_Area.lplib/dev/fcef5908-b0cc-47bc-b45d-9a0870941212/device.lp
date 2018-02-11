@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid fcef5908-b0cc-47bc-b45d-9a0870941212)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device fcef5908-b0cc-47bc-b45d-9a0870941212
  (name "EGP20A")
  (description "<B>DIODE</B><p>\nultra fast-recovery rectifier\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: EGP20A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 7c65e599-3c64-417f-85bc-b263eb6e39ba)
  (package 28a1eab5-76ec-4878-a0e3-fb0b660b6209)
  (pad 3be318d8-b78f-4fe0-9d74-c38caa462de6 (sig 868ad682-455d-49c7-85e2-ab34167c0134))

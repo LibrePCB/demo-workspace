@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 9a4bea84-6c6a-4945-b71f-f118db058561)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 9a4bea84-6c6a-4945-b71f-f118db058561
  (name "NUD4011")
  (description "<b>Low Current LED Driver</b><p>\nSource: <a href=\"http://www.onsemi.com/pub/Collateral/NUD4011-D.PDF\"> Data sheet </a>\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: NUD4011\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "IC")

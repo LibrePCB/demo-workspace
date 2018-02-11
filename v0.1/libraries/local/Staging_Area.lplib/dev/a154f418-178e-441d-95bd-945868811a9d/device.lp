@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid a154f418-178e-441d-95bd-945868811a9d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device a154f418-178e-441d-95bd-945868811a9d
  (name "CRYSTAL_MM20SS")
  (description "<b>CRYSTAL</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: CRYSTAL\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component b847a54b-a83e-47ff-a976-7704bf05bbf4)
  (package c6e7610e-8624-4b92-affd-7cefd6543c70)
  (pad 01a878e2-8d51-48f9-91d9-1250a450d54f (sig fd760be8-09ce-411f-a869-fdc1e74229a9))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 092c5708-a269-4627-8c2f-4cdff291ee72)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device 092c5708-a269-4627-8c2f-4cdff291ee72
  (name "QG5460")
  (description "<b>CRYSTAL RESONATOR</b>\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: QG5460\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component 1f78bc58-4de2-4cd5-9408-15756f3dca5b)
  (package 2e1fc649-4f8a-4268-9ad7-1b6fdbe18c96)
  (pad 08e515da-af36-4113-9b0a-e987e8987c9b (sig 724ff4d7-851e-4911-a4c1-94df804b8c8f))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid f4608170-a716-44c3-8802-83efe6019171)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device f4608170-a716-44c3-8802-83efe6019171
  (name "ASE")
  (description "<b>3.3Vdc CMOS SMD CRYSTAL CLOCK OSCILLATOR</b><p>\nSOurce: www.abracon.com\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: ASE\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component 979e570c-2fdc-4a67-91ff-6bfd42fc0b39)
  (package 49051ad9-91ca-4063-8e74-5ccbf8127619)
  (pad 1e3c10b8-0b1f-4f96-a594-7cac1de031c4 (sig 04d9c032-5a91-4b43-84f7-ccb5d9409110))

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 2964ab72-2d94-4d8f-9932-a362c1044032)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 2964ab72-2d94-4d8f-9932-a362c1044032
  (name "W724C0")
  (description "<b>Z-Power LED</b> P7 Series<p>\nSource: http://www.acriche.com .. W724C0.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: W724C0\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

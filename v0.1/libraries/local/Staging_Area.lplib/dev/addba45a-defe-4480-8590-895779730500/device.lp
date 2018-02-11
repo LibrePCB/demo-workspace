@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid addba45a-defe-4480-8590-895779730500)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device addba45a-defe-4480-8590-895779730500
  (name "FE3A")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: FE3A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 64b86568-9a06-479e-b991-d44d992a1377)
  (package 374b1ba1-15e7-4fe6-8028-1535c0ab3e66)
  (pad 97a47d05-f178-416d-8e00-e0058be18b34 (sig 0cb9e483-555e-4b7b-a97d-3e2287e3826e))

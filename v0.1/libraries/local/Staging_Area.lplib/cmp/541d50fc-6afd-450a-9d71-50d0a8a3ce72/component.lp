@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 541d50fc-6afd-450a-9d71-50d0a8a3ce72)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 541d50fc-6afd-450a-9d71-50d0a8a3ce72
  (name "LZC-00CW40")
  (description "<b>High Luminous Efficacy Cool White LED Emitter</b><p>\nSource: http://www.ledengin.com/products/40wLZ/LZC-00CW40.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LZC-00CW40\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

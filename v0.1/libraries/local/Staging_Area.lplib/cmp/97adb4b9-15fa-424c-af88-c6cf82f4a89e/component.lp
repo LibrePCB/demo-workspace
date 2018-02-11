@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 97adb4b9-15fa-424c-af88-c6cf82f4a89e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 97adb4b9-15fa-424c-af88-c6cf82f4a89e
  (name "BAT42")
  (description "<B>DIODE</B><p>\n barrier diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BAT42\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

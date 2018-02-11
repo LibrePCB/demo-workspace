@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid f5b55d8a-779e-4afd-a6ef-a663968377d0)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component f5b55d8a-779e-4afd-a6ef-a663968377d0
  (name "BYW51F")
  (description "<B>DIODE</B><p>\ndual ultra fast diode, 200 V (ST)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYW51F\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

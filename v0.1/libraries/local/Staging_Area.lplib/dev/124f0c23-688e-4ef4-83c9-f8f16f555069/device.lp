@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 124f0c23-688e-4ef4-83c9-f8f16f555069)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 124f0c23-688e-4ef4-83c9-f8f16f555069
  (name "BAV199")
  (description "<B>DIODE</B><p>\nlow-leakage double diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BAV199\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 27429e8c-b812-492a-91e5-bb5a419387f8)
  (package 5dee62bd-8765-43c3-bd15-3cdaa2af69f7)
  (pad 0b7e3bae-fd35-4351-876f-73d31fc11e9a (sig 7280561b-5d39-4a84-9129-0ec52016a5f0))

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid d167e0e3-6a92-4b76-b013-77b9c230e5f1)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-01T20:00:00Z)
- (modified 2015-03-01T20:00:00Z)
- (deprecated false)
+(librepcb_component d167e0e3-6a92-4b76-b013-77b9c230e5f1
  (name "Bipolar Capacitor")
  (description "")
  (keywords "capacitor,capacitance,bipolar")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-01T20:00:00Z)
+ (deprecated false)
  (category c011cc6b-b762-498e-8494-d1994f3043cf)
  (schematic_only false)
  (default_value "#CAPACITANCE")

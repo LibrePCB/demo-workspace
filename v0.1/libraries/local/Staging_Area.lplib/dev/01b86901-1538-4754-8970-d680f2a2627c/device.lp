@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 01b86901-1538-4754-8970-d680f2a2627c)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 01b86901-1538-4754-8970-d680f2a2627c
  (name "BAS15")
  (description "<B>DIODE</B><p>\nhigh speed\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BAS15\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 501a3dab-9565-4860-b6bc-7e727a4e023f)
  (package 862673a0-ffbe-4fa0-9f4d-6698b775b948)
  (pad 4a351bbe-da3b-4db3-b397-ed516e7db75f (sig 92665648-ac9c-452f-9672-4d64fda422af))

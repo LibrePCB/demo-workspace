@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 04e222ac-38b6-474d-ab8a-c9fb19337c79)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 04e222ac-38b6-474d-ab8a-c9fb19337c79
  (name "1N5908")
  (description "<B>DIODE</B><p>\nschottky\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 1N5908\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

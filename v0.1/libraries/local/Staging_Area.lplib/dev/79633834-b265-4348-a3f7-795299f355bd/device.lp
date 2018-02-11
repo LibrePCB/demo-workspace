@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 79633834-b265-4348-a3f7-795299f355bd)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 79633834-b265-4348-a3f7-795299f355bd
  (name "DIODE-2AC|CA_TO220H")
  (description "Dual <b>DIODE</b> Anode-Cathode|Cathode-Anode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE-2AC|CA\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 4d2771c2-4e3c-44cb-a281-7b04746de560)
  (package 9053b774-f4c5-41da-9257-41ecac5d5502)
  (pad 4afbfd6e-11ad-440d-b903-d19b38a2fa31 (sig d1043ea5-f7a7-46f1-9e0e-b3b0188b924d))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid e23f0766-ff01-4bd6-9cac-1dd59bcbf5f2)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:02Z)
- (modified 2015-12-20T22:11:02Z)
- (deprecated false)
+(librepcb_device e23f0766-ff01-4bd6-9cac-1dd59bcbf5f2
  (name "R-EU__WSC6927")
  (description "<B>RESISTOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-EU_\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:02Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 94d9d573-adc3-4efe-9bac-12cf91b60763)
  (pad 496c5f4a-ef39-4bc8-bfee-847f86e688d1 (sig ad623f98-9e73-49c3-9404-f7cfa99d17cd))

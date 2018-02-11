@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5f231fac-2679-4796-99a5-4ad2c2e1e816)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:28:20Z)
- (modified 2015-12-21T13:28:20Z)
- (deprecated false)
+(librepcb_device 5f231fac-2679-4796-99a5-4ad2c2e1e816
  (name "PMA-B")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: isabellen.lbr\nName: PMA-B\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:28:20Z)
+ (deprecated false)
  (component 443433ce-6c39-4d6c-9311-909286cb9ce4)
  (package d0a09149-d04c-46d8-911b-e709c5384f4e)
  (pad 7193095b-06ae-4a31-833d-c1413c1c8344 (sig 1b925a3a-ad0d-44c6-b612-9befe5eaf623))

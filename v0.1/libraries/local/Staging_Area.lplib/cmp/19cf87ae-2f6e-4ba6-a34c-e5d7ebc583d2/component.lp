@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 19cf87ae-2f6e-4ba6-a34c-e5d7ebc583d2)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 19cf87ae-2f6e-4ba6-a34c-e5d7ebc583d2
  (name "BY203")
  (description "<B>DIODE</B><p>\nSi, 2 kV, 0.25 A, 300 ns\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BY203\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

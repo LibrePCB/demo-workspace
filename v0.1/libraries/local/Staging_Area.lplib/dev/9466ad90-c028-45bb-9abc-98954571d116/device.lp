@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 9466ad90-c028-45bb-9abc-98954571d116)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 9466ad90-c028-45bb-9abc-98954571d116
  (name "ZZ22")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: ZZ22\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component baf4f12a-74fe-4146-a6c1-947060d311dd)
  (package 426c0938-fa62-44f4-bbaa-ef01f4c3a5aa)
  (pad 2b7cfc0e-b210-4548-9e87-1f1a37d5cb6c (sig 70bfae8a-9d09-45d9-864a-d8e75597a900))

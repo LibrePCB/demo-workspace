@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5ffe9455-189f-4202-8393-df38eb36f2b2)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 5ffe9455-189f-4202-8393-df38eb36f2b2
  (name "BY712")
  (description "<B>DIODE</B><p>\nfast high-voltage soft-recovery rectifier\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BY712\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component af3bc363-ac64-472b-90e0-050179b38f65)
  (package ac1856c0-9f22-4834-b9ec-cbbc551e791b)
  (pad 717b641c-6333-4aca-9206-b9efd9245ee9 (sig 679f7da7-c921-464d-9a85-a811827a0d17))

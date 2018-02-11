@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid ceb77b1a-c6d7-439b-9d20-5769567d0d9b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device ceb77b1a-c6d7-439b-9d20-5769567d0d9b
  (name "MUR810")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: MUR810\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 1371ae32-736f-4962-b7c0-7617355f688d)
  (package d209d33d-0fdd-4fde-ace9-d4ef1fe4e70c)
  (pad 22c59b75-9555-4663-b1ec-2cb2e628e643 (sig 227d82f3-e638-4e5b-8ac6-78f1040475c1))

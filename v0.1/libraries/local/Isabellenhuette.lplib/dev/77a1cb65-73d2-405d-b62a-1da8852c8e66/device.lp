@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 77a1cb65-73d2-405d-b62a-1da8852c8e66)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:28:20Z)
- (modified 2015-12-21T13:28:20Z)
- (deprecated false)
+(librepcb_device 77a1cb65-73d2-405d-b62a-1da8852c8e66
  (name "PMD")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: isabellen.lbr\nName: PMD\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:28:20Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 22b7a237-97b8-4dd1-93b7-45ef9fbde4fd)
  (pad 530f9cfc-110c-4294-bac6-0979f7a90e97 (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))

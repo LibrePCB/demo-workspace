@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 6efa291e-58d9-4f53-9399-4de3c82fce84)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 6efa291e-58d9-4f53-9399-4de3c82fce84
  (name "ZPD")
  (description "<b>Z DIODE</b><p>\n500 mW\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: ZPD\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component f232f63c-4785-47f8-aa77-5d0d776f474f)
  (package 753b669c-6acf-47df-ac5f-04673d86f040)
  (pad a2e1edb6-0a74-4cb9-90a6-edddb813eae8 (sig 8adaa6cf-9040-4977-a7f4-7db7b4e7a136))

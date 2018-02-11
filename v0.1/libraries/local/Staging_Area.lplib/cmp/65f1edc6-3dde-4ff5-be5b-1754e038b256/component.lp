@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 65f1edc6-3dde-4ff5-be5b-1754e038b256)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:52Z)
- (modified 2015-12-20T22:10:52Z)
- (deprecated false)
+(librepcb_component 65f1edc6-3dde-4ff5-be5b-1754e038b256
  (name "STM32F313C")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_ICs.lbr\nName: STM32F313C\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:52Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "")

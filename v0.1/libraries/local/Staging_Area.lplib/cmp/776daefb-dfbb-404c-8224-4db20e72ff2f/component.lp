@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 776daefb-dfbb-404c-8224-4db20e72ff2f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component 776daefb-dfbb-404c-8224-4db20e72ff2f
  (name "U57X32")
  (description "<B>LED</B><p>\nrectangle, 5.7 x 3.2 mm\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: U57X32\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

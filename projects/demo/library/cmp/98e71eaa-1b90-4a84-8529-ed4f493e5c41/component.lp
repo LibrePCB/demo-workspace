@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 98e71eaa-1b90-4a84-8529-ed4f493e5c41)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-01T20:00:00Z)
- (modified 2015-03-01T20:00:00Z)
- (deprecated false)
+(librepcb_component 98e71eaa-1b90-4a84-8529-ed4f493e5c41
  (name "A4 Landscape Schematic Frame")
  (description "")
  (keywords "frame,a4,landscape")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-01T20:00:00Z)
+ (deprecated false)
  (category e0702c57-f31f-497d-ae1e-e31c4017f3c0)
  (schematic_only true)
  (default_value "")

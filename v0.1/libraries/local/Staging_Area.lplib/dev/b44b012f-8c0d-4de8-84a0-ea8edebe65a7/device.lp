@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid b44b012f-8c0d-4de8-84a0-ea8edebe65a7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device b44b012f-8c0d-4de8-84a0-ea8edebe65a7
  (name "BYX90G")
  (description "<B>DIODE</B><p>\nhigh voltage\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYX90G\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 41398dcf-ce4b-42f8-91d2-3c5da1a8245f)
  (package 1527088c-e2e8-427a-83d9-54ca47c2e8af)
  (pad 14e204c8-8cef-42e7-ac75-d4fa4b08fe6f (sig 2fab78af-3503-49be-b922-37f3686be799))

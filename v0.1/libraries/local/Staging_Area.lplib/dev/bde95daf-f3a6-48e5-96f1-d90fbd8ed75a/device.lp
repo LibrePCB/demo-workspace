@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid bde95daf-f3a6-48e5-96f1-d90fbd8ed75a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device bde95daf-f3a6-48e5-96f1-d90fbd8ed75a
  (name "ZENER-DIODE_SOD80C")
  (description "Z-Diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: ZENER-DIODE\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 5ea08765-9bbd-4c11-a475-698617200963)
  (package 7598b2cd-b3d6-48aa-8105-b99609654747)
  (pad 69ff349a-c3b8-4fdd-bfb8-f2088b5e933d (sig 798ebf9f-6adb-4998-a9be-8919af3d3c65))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5488073b-3514-4415-9322-ae544e9757ac)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 5488073b-3514-4415-9322-ae544e9757ac
  (name "DUOLED-RY-C")
  (description "<B>DUO LED</B><P>\n2 colors (red/yellow), 5 mm, round, common Cathode<BR>\n<I>www.ligitek.com</I> or other producers.\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: DUOLED-RY-C\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 101477a8-30bf-449a-a854-6dd583d34902)
  (package d6ba7258-1021-43c6-9d17-7287f6d42770)
  (pad 3debee99-8728-4462-b3ca-7b22f3faa006 (sig e91b0bf6-8004-4022-9ff8-86cf911a2ace))

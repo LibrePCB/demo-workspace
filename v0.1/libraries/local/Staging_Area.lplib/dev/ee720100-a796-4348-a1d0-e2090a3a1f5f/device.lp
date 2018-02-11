@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid ee720100-a796-4348-a1d0-e2090a3a1f5f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_device ee720100-a796-4348-a1d0-e2090a3a1f5f
  (name "TRIM_EU-_ST10")
  (description "<b>POTENTIOMETER</b>\n\nThis element was automatically imported from Eagle\nFilepath: 0_Standardbauteile.lbr\nName: TRIM_EU-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (component a46882d3-34cb-43a7-9b77-dd35ceda684d)
  (package b75ba90b-402d-42d1-90d5-ed86ae165559)
  (pad 0c75f474-ab9d-42b2-ae57-db05474c7c8b (sig 3cdd1d10-751b-4535-acbc-246ff9acb618))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 1e71084e-58ae-4b84-ac53-5864101db9d9)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 1e71084e-58ae-4b84-ac53-5864101db9d9
  (name "BB212")
  (description "Capacity <b>DIODE</b><p>\nvariable-capacitance double diode, 9 V\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BB212\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component c4c60fef-2903-4a3f-89d8-5764f7490e7c)
  (package 3637e71e-ae1f-4f72-b83c-f2d264fea7ef)
  (pad 0cbe5f59-3c97-41a1-b9b8-4f0f61fb648e (sig 75b72e12-d57e-4e99-94d9-914e220d9684))

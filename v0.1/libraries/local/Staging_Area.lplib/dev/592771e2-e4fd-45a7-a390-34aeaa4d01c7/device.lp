@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 592771e2-e4fd-45a7-a390-34aeaa4d01c7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device 592771e2-e4fd-45a7-a390-34aeaa4d01c7
  (name "ECS-_10.7-15D")
  (description "<b>CRYSTAL FILTERS</b><p>\nSource: http://www.presto.co.uk\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: ECS-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component 7ea3bae2-3614-4625-ac81-f8e5aca2e994)
  (package 19d16e7d-cd59-4f3c-bfc1-f9cfca8c8940)
  (pad 2ee9c614-1380-4ea7-8376-7e8ed1f282cc (sig d18a0439-5175-4391-a0b7-a4ec019b70e3))

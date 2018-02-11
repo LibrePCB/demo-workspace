@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid e853266a-670c-45cb-b0ae-a7eee288786e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device e853266a-670c-45cb-b0ae-a7eee288786e
  (name "X42180")
  (description "<b>Z-Power LED</b> P4 Series, Dome type<p>\nSource: http://www.seoulsemicon.co.kr .. X42180.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: X42180\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component ca805da5-8e65-43d3-97b7-5e33f01ea44b)
  (package ae92db7b-92c0-42be-b487-a5e3aa2bfd9c)
  (pad 3c536d5f-977a-4580-ad9a-a6e6b8195932 (sig 6269bc92-bea1-4520-ae86-409364662c7a))

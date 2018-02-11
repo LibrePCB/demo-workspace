@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 1c54180a-ff40-4698-ac34-42140de39abc)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 1c54180a-ff40-4698-ac34-42140de39abc
  (name "MBRS3*0T3")
  (description "<b>SCHOTTKY BARRIER RECTIFIER 3.0 AMPERES 20, 30, 40 VOLT</b><p>\nSource: MBRS340T3-D.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: MBRS3*0T3\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component b08e57a3-51e9-4cdc-891e-2ae2faa9e803)
  (package cceff2df-54a0-49f4-b647-1d632ee13ebb)
  (pad 1552936e-75bf-445d-a30b-b4665eb7dbf6 (sig 25f6a4e6-df58-4c23-90f2-1e5268053c1f))

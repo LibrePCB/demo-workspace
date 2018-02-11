@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 63bb67c4-ff0f-4398-9d9b-a275a83c0ccd)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:28:20Z)
- (modified 2015-12-21T13:28:20Z)
- (deprecated false)
+(librepcb_device 63bb67c4-ff0f-4398-9d9b-a275a83c0ccd
  (name "SMR-0")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: isabellen.lbr\nName: SMR-0\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:28:20Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 4ee4223b-16d5-4aae-9335-6f97c9b5b97e)
  (pad 20e72c18-df78-4d9f-96c8-9f4d0c047445 (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))

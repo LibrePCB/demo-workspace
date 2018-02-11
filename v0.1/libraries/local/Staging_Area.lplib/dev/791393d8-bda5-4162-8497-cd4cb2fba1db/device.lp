@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 791393d8-bda5-4162-8497-cd4cb2fba1db)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:52Z)
- (modified 2015-12-20T22:10:52Z)
- (deprecated false)
+(librepcb_device 791393d8-bda5-4162-8497-cd4cb2fba1db
  (name "IR2132")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_ICs.lbr\nName: IR2132\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:52Z)
+ (deprecated false)
  (component cbceb14a-d28c-4c40-90ac-959cbedd03e3)
  (package 4ba0c5ab-78d4-495c-85ed-d9001b2d358b)
  (pad 06a4142b-7d85-446d-bc49-56d2e96f5069 (sig 2b510bb1-a229-49df-9ed7-d4624c6d4de7))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 2452b4f2-2c4c-40f2-8199-53658e64465c)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 2452b4f2-2c4c-40f2-8199-53658e64465c
  (name "BR220")
  (description "<B>DIODE</B><p>\ndouble diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BR220\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component c394f834-c11d-4735-9d06-845a98068e3f)
  (package 535701cc-a0b8-467c-8c8a-9b8eed521eb7)
  (pad 5bbc257f-8777-4110-9b7e-37705432768f (sig 0c0e3e53-2d4b-4e4d-909e-c362f6959076))

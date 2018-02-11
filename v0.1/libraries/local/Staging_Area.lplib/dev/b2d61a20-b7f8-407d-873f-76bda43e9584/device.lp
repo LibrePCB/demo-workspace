@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid b2d61a20-b7f8-407d-873f-76bda43e9584)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:02Z)
- (modified 2015-12-20T22:11:02Z)
- (deprecated false)
+(librepcb_device b2d61a20-b7f8-407d-873f-76bda43e9584
  (name "R-EU__VMTB60")
  (description "<B>RESISTOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: R-EU_\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:02Z)
+ (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package 41a74e86-7d26-4c1f-a807-83204f4d7bc4)
  (pad 78c0b012-b46e-403c-8efc-68be7da0243c (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))

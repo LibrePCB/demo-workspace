@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 25fcfa5b-2c25-4f50-954d-bd38f811d176)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:02Z)
- (modified 2015-12-20T22:11:02Z)
- (deprecated false)
+(librepcb_device 25fcfa5b-2c25-4f50-954d-bd38f811d176
  (name "CPOL-EU_SANYO_SMD_C6")
  (description "<B>POLARIZED CAPACITOR</B>, European symbol\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: CPOL-EU\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:02Z)
+ (deprecated false)
  (component c54375c5-7149-4ded-95c5-7462f7301ee7)
  (package 190db3a1-6093-4b87-9ad2-4c79556b86db)
  (pad 241af2da-69b4-4416-974a-f6616033f34c (sig af3ffca8-0085-4edb-a775-fcb759f63411))

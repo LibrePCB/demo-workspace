@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 6f959627-00d2-4652-bfd9-f6ea0162ccdd)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-04T21:27:41Z)
- (modified 2015-03-04T21:27:41Z)
- (deprecated false)
+(librepcb_component 6f959627-00d2-4652-bfd9-f6ea0162ccdd
  (name "Suppressor Diode")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-04T21:27:41Z)
+ (deprecated false)
  (category 4d1c95f4-2e60-4f50-a15b-ba9186a01b1a)
  (schematic_only false)
  (default_value "")

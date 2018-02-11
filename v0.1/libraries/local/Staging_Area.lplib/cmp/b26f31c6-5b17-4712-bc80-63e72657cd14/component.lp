@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid b26f31c6-5b17-4712-bc80-63e72657cd14)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component b26f31c6-5b17-4712-bc80-63e72657cd14
  (name "MBR3035CT")
  (description "<B>DIODE</B><p>\ndual barrier rectifier, 30 A, 30 V, common cathode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: MBR3035CT\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

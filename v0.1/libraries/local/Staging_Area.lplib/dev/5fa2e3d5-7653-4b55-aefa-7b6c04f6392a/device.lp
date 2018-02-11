@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5fa2e3d5-7653-4b55-aefa-7b6c04f6392a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 5fa2e3d5-7653-4b55-aefa-7b6c04f6392a
  (name "S6058")
  (description "<b>Si PIN Quadrant photodiode</b><p>\nSource: http://sales.hamamatsu.com/assets/pdf/parts_S/S7379-01_etc.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: S6058\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 22f82ec1-125a-4742-a2a0-87b051765fca)
  (package 656aea6f-5fda-498d-859d-e85d53d2c042)
  (pad 33ddb1a0-7ad6-4a48-a60e-5522c80ba358 (sig bebd4e7f-857f-492f-a07c-06bce9eb6530))

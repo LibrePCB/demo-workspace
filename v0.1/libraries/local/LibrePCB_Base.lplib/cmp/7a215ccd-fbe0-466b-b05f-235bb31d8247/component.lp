@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 7a215ccd-fbe0-466b-b05f-235bb31d8247)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-06-21T12:37:47Z)
- (modified 2015-06-21T12:37:47Z)
- (deprecated false)
+(librepcb_component 7a215ccd-fbe0-466b-b05f-235bb31d8247
  (name "2x Schottky Diode in Series")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-06-21T12:37:47Z)
+ (deprecated false)
  (category 4d1c95f4-2e60-4f50-a15b-ba9186a01b1a)
  (schematic_only false)
  (default_value "")

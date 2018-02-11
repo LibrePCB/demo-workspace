@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid b27d62c6-8db7-4981-8cd3-ba3650545389)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device b27d62c6-8db7-4981-8cd3-ba3650545389
  (name "D5-1A")
  (description "4 <B>DIODES</B><p>\nSIL, common anode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: D5-1A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 747c1629-7019-4f1e-96b7-9938874f493b)
  (package 419b43be-f74a-428b-abaa-4d987d4b0e75)
  (pad 3ad17954-b1b2-42c8-95db-f09586fc7bb8 (sig 1dcf3dc5-bc68-41ed-a010-3eeaab7be9f0))

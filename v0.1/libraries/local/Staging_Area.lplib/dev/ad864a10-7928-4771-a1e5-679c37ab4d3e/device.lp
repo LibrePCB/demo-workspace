@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid ad864a10-7928-4771-a1e5-679c37ab4d3e)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:58Z)
- (modified 2015-12-20T22:10:58Z)
- (deprecated false)
+(librepcb_device ad864a10-7928-4771-a1e5-679c37ab4d3e
  (name "FA-_20H")
  (description "<b>MHz RANGE CRYSTAL UNIT</b> <p>\nSource: Epson Toyocom\n\nThis element was automatically imported from Eagle\nFilepath: crystal.lbr\nName: FA-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:58Z)
+ (deprecated false)
  (component 8a0d7780-6150-44fe-831d-de095cd4fc35)
  (package 037a6a41-20aa-475b-9c5f-cb9809b39d1e)
  (pad 96609595-aeff-41ee-a856-8be16cf74b87 (sig f1ff2237-ffbb-4f15-b22f-b2d30d9eaadc))

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 7dd924ce-a40e-4733-82cc-33335ad51209)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 7dd924ce-a40e-4733-82cc-33335ad51209
  (name "\?W5KM")
  (description "<b>Golden DRAGON® ARGUS® LED</b><p>\nPlace TH-Gate and connect pins in schematic.<br>\nSet DRC-Clearance - Same Signals to 0mm in board.<br>\nSource: catalog.osram-os.com .. LD_LB_LT_W5KM_Pb_free.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: \?W5KM\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 368e404a-5476-4f71-9f1a-9a74bb4da38c)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-06-21T12:37:45Z)
- (modified 2015-06-21T12:37:45Z)
- (deprecated false)
+(librepcb_component 368e404a-5476-4f71-9f1a-9a74bb4da38c
  (name "Crystal Resonator with OE")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-06-21T12:37:45Z)
+ (deprecated false)
  (category 39d4b3d6-4168-4fe2-9420-fbf7eb3ac248)
  (schematic_only false)
  (default_value "")

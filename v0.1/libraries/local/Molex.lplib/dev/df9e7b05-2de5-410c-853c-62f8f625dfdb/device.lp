@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid df9e7b05-2de5-410c-853c-62f8f625dfdb)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:41Z)
- (modified 2015-12-21T13:40:41Z)
- (deprecated false)
+(librepcb_device df9e7b05-2de5-410c-853c-62f8f625dfdb
  (name "71436-XX64")
  (description "<b>Board-to-Board Connector</b> 1.00mm (.039\") Mezzanine IEEE 1386 Plug - Dual Row, SMT, Vertical Stacking<p>\nSource: http://www.molex.com/product/micro/71436.html\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 71436-XX64\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:41Z)
+ (deprecated false)
  (component 03c7c561-92f1-4b92-86fc-2acf9df227ab)
  (package 7126692c-a440-47e3-82e6-305c91c5af35)
  (pad 052f5e36-6534-45f8-b6c7-2157531f11b1 (sig babc52e2-a7f0-4d32-89e0-6163d6d20a45))

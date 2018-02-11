@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5993b44f-3189-4b53-a87a-7b261090b5e9)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:39Z)
- (modified 2015-12-21T13:40:39Z)
- (deprecated false)
+(librepcb_device 5993b44f-3189-4b53-a87a-7b261090b5e9
  (name "52559-0692")
  (description "<b>FFC/FPC</b>-to-Board  0.50mm (.020\") SMT, Vertical, ZIF Receptacle<p>\nSource: http://www.molex.com/product/ffc/52559.html\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 52559-0692\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:39Z)
+ (deprecated false)
  (component 361e8fff-c432-4c67-a3b6-e5472d47c78c)
  (package 77376d61-89bf-44cc-9d86-4b25d317b6b5)
  (pad 13813fc8-07ca-4663-90f9-a1e94405af7d (sig 92c03b48-7cfc-42cb-8d17-fd60a89296b7))

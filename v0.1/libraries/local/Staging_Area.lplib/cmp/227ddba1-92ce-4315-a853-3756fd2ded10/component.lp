@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 227ddba1-92ce-4315-a853-3756fd2ded10)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 227ddba1-92ce-4315-a853-3756fd2ded10
  (name "1N4148")
  (description "<B>DIODE</B><p>\nhigh speed (Philips)\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 1N4148\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

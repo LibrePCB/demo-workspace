@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid f868fc51-3cc3-4645-a493-a8fc3b32895f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device f868fc51-3cc3-4645-a493-a8fc3b32895f
  (name "P600")
  (description "<B>DIODE</B><p>\nhigh voltage diode, silicon rectifier<p>\n1.0 A to 6.0 A, 50 V to 1300 V<p>\nhttp://www.kosemi.com/product/diosr.html\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: P600\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 8de88f5f-6b56-4cf9-83b5-5bd0067bd57e)
  (package f327af7b-95b7-4c96-8137-6ccfe46242d2)
  (pad 2150b814-a347-445d-9baf-706cd67d29c4 (sig 1546a4a5-26f2-4d77-8d1f-02376f61388c))

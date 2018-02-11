@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 7fb624ac-787c-43a8-995e-49722f639870)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 7fb624ac-787c-43a8-995e-49722f639870
  (name "DIODE-_SOD106A-R")
  (description "<b>DIODE</b>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 37afa3de-06dc-4dda-86d1-673099564e56)
  (package 71b58d90-344f-4772-9457-21e43f5e3ae3)
  (pad 15ba6c8b-7043-47a3-96ee-e0f363147a11 (sig e9c960fd-ff27-4ec4-a801-43ce63e5fe33))

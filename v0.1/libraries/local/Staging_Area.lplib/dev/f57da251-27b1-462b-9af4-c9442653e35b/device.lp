@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid f57da251-27b1-462b-9af4-c9442653e35b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device f57da251-27b1-462b-9af4-c9442653e35b
  (name "TSD15")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: TSD15\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component d8021525-235a-4f2e-9698-d81b0964670c)
  (package 4e31b059-922a-4a05-ada7-0f129b884997)
  (pad 23a1fc7b-3ab0-4a5c-a734-7a4b6b7f0d29 (sig 462b875e-c711-4af1-9a59-c155c912ef2c))

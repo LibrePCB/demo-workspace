@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 5a1ff0ad-9198-40e1-a158-40cd48e440c4)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 5a1ff0ad-9198-40e1-a158-40cd48e440c4
  (name "MULTILED_LRTB_G6TG")
  (description "<b>6-lead MULTILED® Enhanced optical Power LED (ThinFilm® / ThinGaN®)</b><p>\nSource. OSRAM - LRTB_G6TG.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: MULTILED_LRTB_G6TG\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 8ec0ea02-59ef-4d12-990e-d8517a09863b)
  (package fa56a688-99eb-4706-86f7-c4096b3c1ccd)
  (pad 1cceeaa2-d7ea-4698-9285-46ee42bf8b5c (sig aa25a26b-5d1a-4fc9-9695-6b2052f63d92))

@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid ec7460e7-f221-4754-b6d6-73a0e584cb35)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_component ec7460e7-f221-4754-b6d6-73a0e584cb35
  (name "SMD2")
  (description "<b>SMD PAD</b>\n\nThis element was automatically imported from Eagle\nFilepath: wirepad.lbr\nName: SMD2\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "PAD")

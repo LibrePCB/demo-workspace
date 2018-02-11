@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 49037b06-41a8-4181-bc42-0671680170d5)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:53Z)
- (modified 2015-12-20T22:10:53Z)
- (deprecated false)
+(librepcb_device 49037b06-41a8-4181-bc42-0671680170d5
  (name "FE05-1")
  (description "<b>FEMALE HEADER</b>\n\nThis element was automatically imported from Eagle\nFilepath: con-lsta.lbr\nName: FE05-1\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:53Z)
+ (deprecated false)
  (component 8d3c26ae-ecb4-4b37-ac1b-c8ac358030cd)
  (package 0a1896d0-eafd-4459-89fd-c6d0a6daafbf)
  (pad 2f8d8fe3-57e7-4aaa-8410-54f16f6b10fa (sig 1c8b55b7-09e3-44c6-862d-4e5c1e692a0f))

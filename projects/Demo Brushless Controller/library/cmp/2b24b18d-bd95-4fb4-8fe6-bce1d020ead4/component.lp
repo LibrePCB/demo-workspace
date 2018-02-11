@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 2b24b18d-bd95-4fb4-8fe6-bce1d020ead4)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-08T16:21:14Z)
- (modified 2015-03-08T16:21:14Z)
- (deprecated false)
+(librepcb_component 2b24b18d-bd95-4fb4-8fe6-bce1d020ead4
  (name "LED")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-08T16:21:14Z)
+ (deprecated false)
  (category 70421345-ae1d-4fed-aa60-e7619524b97f)
  (schematic_only false)
  (default_value "#COLOR")

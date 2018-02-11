@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 02d68685-011b-42d9-9d4a-9c7e01588267)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:03Z)
- (modified 2015-12-20T22:11:03Z)
- (deprecated false)
+(librepcb_component 02d68685-011b-42d9-9d4a-9c7e01588267
  (name "EL-")
  (description "<B>BIPOLAR ELECTROLYTIC CAPACITOR</B>\n\nThis element was automatically imported from Eagle\nFilepath: rcl.lbr\nName: EL-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:03Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "C")

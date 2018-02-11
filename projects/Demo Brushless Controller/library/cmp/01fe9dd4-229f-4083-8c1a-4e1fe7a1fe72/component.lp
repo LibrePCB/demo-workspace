@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 01fe9dd4-229f-4083-8c1a-4e1fe7a1fe72)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-03-03T20:19:27Z)
- (modified 2015-03-03T20:19:27Z)
- (deprecated false)
+(librepcb_component 01fe9dd4-229f-4083-8c1a-4e1fe7a1fe72
  (name "CAN Transceiver with Mode Select and VRef Pins")
  (description "")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-03-03T20:19:27Z)
+ (deprecated false)
  (category e23e8182-29ed-4177-ad29-6bdb26042482)
  (schematic_only false)
  (default_value "")

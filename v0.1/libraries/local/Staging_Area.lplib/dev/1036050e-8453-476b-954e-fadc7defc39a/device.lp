@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 1036050e-8453-476b-954e-fadc7defc39a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 1036050e-8453-476b-954e-fadc7defc39a
  (name "BA296")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BA296\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component c006f171-5a62-43ab-a625-c44121349cd1)
  (package 426c0938-fa62-44f4-bbaa-ef01f4c3a5aa)
  (pad 2b7cfc0e-b210-4548-9e87-1f1a37d5cb6c (sig a4e17039-24b1-41a3-95aa-9e6f56aa1f65))

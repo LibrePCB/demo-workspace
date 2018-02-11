@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 93f71cc2-02e0-4e91-b19d-6f2da37b8eae)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device 93f71cc2-02e0-4e91-b19d-6f2da37b8eae
  (name "SCHOTTKY-DIODE_DO35-7")
  (description "Schottky Diode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: SCHOTTKY-DIODE\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 82207562-d317-4911-96fa-ceb0f45fd806)
  (package 19303436-1f33-4cad-9f8d-fc3c8d360d0f)
  (pad d23855a1-d4d6-4299-8d57-96790918c343 (sig 69e22be3-d2fb-4b8f-ab4f-7fba3cff0aff))

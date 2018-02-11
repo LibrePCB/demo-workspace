@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 7e62a1fd-384d-4d45-8792-0b701f951691)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 7e62a1fd-384d-4d45-8792-0b701f951691
  (name "*W57B")
  (description "<b>Golden Dragon® 1 Watt LED</b><p>\nPlace heat sink pads of cathode with INVOKE<br>\nSource: www.osram-os.com la_ly_w57b.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: *W57B\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

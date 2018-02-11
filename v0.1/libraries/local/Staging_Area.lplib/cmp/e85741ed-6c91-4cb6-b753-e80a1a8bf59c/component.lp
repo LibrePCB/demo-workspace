@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid e85741ed-6c91-4cb6-b753-e80a1a8bf59c)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component e85741ed-6c91-4cb6-b753-e80a1a8bf59c
  (name "EGP30A")
  (description "<B>DIODE</B><p>\nultra fast-recovery rectifier\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: EGP30A\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

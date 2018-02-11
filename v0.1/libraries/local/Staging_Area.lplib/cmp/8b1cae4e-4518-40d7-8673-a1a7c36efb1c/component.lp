@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 8b1cae4e-4518-40d7-8673-a1a7c36efb1c)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 8b1cae4e-4518-40d7-8673-a1a7c36efb1c
  (name "LP2C63-ST-RGB-SR0")
  (description "<b>1.5W RGB HIGH POWER LED</b><p>\nSource: http://www.ledtech.com.tw .. LP2C63-ST-RGB-SR0.SPEC.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LP2C63-ST-RGB-SR0\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

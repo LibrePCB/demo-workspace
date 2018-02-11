@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 06353e9d-b2ca-41ac-aab4-55f9f3dedbcc)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 06353e9d-b2ca-41ac-aab4-55f9f3dedbcc
  (name "BYW95")
  (description "<B>DIODE</B><p>\nfast soft-recovery rectifier\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYW95\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

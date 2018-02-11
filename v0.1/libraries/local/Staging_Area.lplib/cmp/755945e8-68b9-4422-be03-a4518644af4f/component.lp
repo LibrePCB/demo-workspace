@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 755945e8-68b9-4422-be03-a4518644af4f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 755945e8-68b9-4422-be03-a4518644af4f
  (name "MUR440RL")
  (description "<B>DIODE</B><p>\nultra-fast recovery rectifier, Vrrm = 40 V, 4 A\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: MUR440RL\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

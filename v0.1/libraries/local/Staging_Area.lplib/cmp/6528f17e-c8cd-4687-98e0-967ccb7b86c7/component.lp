@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 6528f17e-c8cd-4687-98e0-967ccb7b86c7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_component 6528f17e-c8cd-4687-98e0-967ccb7b86c7
  (name "MX3")
  (description "<b>Cree® XLamp® MX-3 LEDs</b><p>\nSource: <a href=\"http://www.cree.com/products/pdf/XLampMX-3.pdf\"> Data sheet </a>\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: MX3\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "LED")

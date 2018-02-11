@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 03ab6634-f663-4e46-86ee-6a50e2bcf217)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:52Z)
- (modified 2015-12-20T22:10:52Z)
- (deprecated false)
+(librepcb_device 03ab6634-f663-4e46-86ee-6a50e2bcf217
  (name "L6506")
  (description "\n\nThis element was automatically imported from Eagle\nFilepath: 0_ICs.lbr\nName: L6506\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:52Z)
+ (deprecated false)
  (component 4025d9ee-2ecc-422a-9236-851d4807700f)
  (package b663d530-f816-4d64-9092-7d802d2b8f10)
  (pad 064c114e-a5d9-4043-8190-51816752ccfc (sig da8037fb-745f-49db-94aa-ab9f3ccedefb))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid a27e220b-fdf2-4643-b861-35d47498bb63)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device a27e220b-fdf2-4643-b861-35d47498bb63
  (name "BY619")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BY619\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 3eedb597-132c-4208-b34d-192a918d34d5)
  (package d44c27a3-7758-46c2-916d-1d74284461d5)
  (pad 0702ac35-2c19-4bdb-a99e-50502b9f0902 (sig 326744c5-4389-4c1e-b35f-5be2b8034ecb))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid c9c9dfe4-adc7-44eb-82ac-e664c9bd3d17)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:38Z)
- (modified 2015-12-21T13:40:38Z)
- (deprecated false)
+(librepcb_device c9c9dfe4-adc7-44eb-82ac-e664c9bd3d17
  (name "22-23-2091")
  (description ".100\" (2.54mm) Center Header - 9 Pin\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 22-23-2091\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:38Z)
+ (deprecated false)
  (component fb21a6fa-1eb4-4fd8-8075-87ae7eb0bd2b)
  (package f13e7585-2e6b-4671-a5d6-fb7730af5775)
  (pad 0725f3f6-cd75-409a-9e8c-3a31e7ec2de8 (sig e455eeb8-86d8-434e-a108-c88b26abd5da))

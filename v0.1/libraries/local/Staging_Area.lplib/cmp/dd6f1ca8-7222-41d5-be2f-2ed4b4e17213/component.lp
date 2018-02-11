@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid dd6f1ca8-7222-41d5-be2f-2ed4b4e17213)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_component dd6f1ca8-7222-41d5-be2f-2ed4b4e17213
  (name "DIODE_2SCHOTTKY-")
  (description "Dual <B>SCHOTTKY DIODE</B><p>\ncommon cathode\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: DIODE_2SCHOTTKY-\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")

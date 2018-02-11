@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid bc9128f6-4745-4468-b1ff-3530d03132b7)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device bc9128f6-4745-4468-b1ff-3530d03132b7
  (name "BAT60J")
  (description "<b>Schottky barrier diode</b><p>\nSource: www.st.com, BAT60J.pdf\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BAT60J\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component 92261d70-d988-45f2-b87e-f1d4ede7f45b)
  (package 79b3c9db-f019-43fb-b85b-27bc598485d8)
  (pad 4e500c5c-1ad6-498e-a506-6ea13a035270 (sig f22d81d3-7865-48cb-b39b-663851cdce73))

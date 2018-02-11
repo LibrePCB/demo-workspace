@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 7530cbe3-41ff-4471-b2f0-994b5a8afa1a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:39Z)
- (modified 2015-12-21T13:40:39Z)
- (deprecated false)
+(librepcb_device 7530cbe3-41ff-4471-b2f0-994b5a8afa1a
  (name "C-GRID-18_-70553")
  (description "<b>CONNECTOR</b><p>\nwire to board 2.54 mm (0.100\") pitch header\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: C-GRID-18\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:39Z)
+ (deprecated false)
  (component aefbe78b-85b2-4253-825e-c29a099275a7)
  (package 3836931b-f146-4e56-8d5e-84022cc82273)
  (pad 0b98b345-71ab-4389-97f3-6d33ba8af862 (sig 321ed5b4-9f4a-4eba-8ef0-33b809e88312))

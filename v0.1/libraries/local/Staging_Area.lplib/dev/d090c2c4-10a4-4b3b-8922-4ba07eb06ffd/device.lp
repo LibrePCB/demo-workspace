@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid d090c2c4-10a4-4b3b-8922-4ba07eb06ffd)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:00Z)
- (modified 2015-12-20T22:11:00Z)
- (deprecated false)
+(librepcb_device d090c2c4-10a4-4b3b-8922-4ba07eb06ffd
  (name "LD269")
  (description "<B>LED BLOCK</B><p>\n9 LEDs, Siemens\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LD269\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:00Z)
+ (deprecated false)
  (component f4bb9901-f598-485a-8df6-7f4d60a74ba7)
  (package f460e509-9a97-452d-8a22-d9b0749ba8ef)
  (pad 0b905ea7-ec6b-44d5-a0fa-459ce4470dfa (sig 1a243be4-361f-464d-9366-f91d5354da6b))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 8d209b53-558d-482d-8f4d-6eb3c403f78d)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 8d209b53-558d-482d-8f4d-6eb3c403f78d
  (name "LSG-T676")
  (description "<b>LSG T676 Hyper Multi TOPLED ® Hyper-Bright LED</b><p>\nSource: http://docs-europe.electrocomponents.com/webdocs/08c3/0900766b808c36ca.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LSG-T676\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 9c953053-ebb6-4cb2-b8b1-cd75526c137c)
  (package 536f96ee-9a95-46ed-83ae-8e379b99d539)
  (pad 4083b86d-ba8d-4b29-9414-9958b2cc17ab (sig 9417dcf3-e446-4077-b7fe-6397aa0179e1))

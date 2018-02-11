@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 96a1a7a2-0b74-4cb0-8e6c-083d255736a3)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:41Z)
- (modified 2015-12-21T13:40:41Z)
- (deprecated false)
+(librepcb_device 96a1a7a2-0b74-4cb0-8e6c-083d255736a3
  (name "44520-0002")
  (description "<b>STACKED MODULAR JACK CATEGORY 5</b><p>\nSource: http://www.molex.com/pdm_docs/sd/445200006_sd.pdf\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 44520-0002\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:41Z)
+ (deprecated false)
  (component fd081b0a-bbc6-4b02-8338-f93a3749fbc6)
  (package 97589179-1bf5-4d45-aa16-9c02f82b694d)
  (pad 00c41b37-d100-4c9d-b9dd-66971a8bd77a (sig 37714867-bbc0-4b87-bd56-8386bdaa93ce))

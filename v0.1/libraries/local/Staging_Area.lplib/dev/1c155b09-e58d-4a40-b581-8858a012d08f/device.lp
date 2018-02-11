@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 1c155b09-e58d-4a40-b581-8858a012d08f)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:11:01Z)
- (modified 2015-12-20T22:11:01Z)
- (deprecated false)
+(librepcb_device 1c155b09-e58d-4a40-b581-8858a012d08f
  (name "LZ1-00WW05")
  (description "<b>High Luminous Efficacy 5W Warm White LED</b><p>\nSource: http://www.ledengin.com/products/5wLZ/LZ1-00WW05.pdf\n\nThis element was automatically imported from Eagle\nFilepath: led.lbr\nName: LZ1-00WW05\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:11:01Z)
+ (deprecated false)
  (component 3ece8463-3248-49e1-a93a-9d2938ffd84b)
  (package a819a286-39ff-4fa2-bf95-a96c3dcb5a37)
  (pad 08d91260-f8fb-41ea-873e-79ea42907aeb (sig 9da8ad7d-85f1-40c7-ae9b-5eb330f708c2))

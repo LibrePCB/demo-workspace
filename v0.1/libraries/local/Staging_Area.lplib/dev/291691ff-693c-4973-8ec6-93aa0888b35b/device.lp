@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 291691ff-693c-4973-8ec6-93aa0888b35b)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device 291691ff-693c-4973-8ec6-93aa0888b35b
  (name "15KEXXC")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: 15KEXXC\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component 06ccf6ed-cde6-4a6b-b534-e97466a2b089)
  (package 0fd6ce12-dcb8-49f1-a4eb-9b3ce35b6d45)
  (pad 2937d965-3380-4221-be61-e38b508b6a08 (sig 4701d7cc-3273-4653-b495-1dbc07892069))

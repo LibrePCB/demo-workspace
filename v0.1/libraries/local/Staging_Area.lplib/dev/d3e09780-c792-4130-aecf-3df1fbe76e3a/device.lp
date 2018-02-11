@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid d3e09780-c792-4130-aecf-3df1fbe76e3a)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_device d3e09780-c792-4130-aecf-3df1fbe76e3a
  (name "BYD14")
  (description "<B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: BYD14\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (component c6f34eb0-f48a-4d56-8f38-022cbf84711a)
  (package 8ad10e1b-ef55-4e7c-8a99-85a36eee9b93)
  (pad 274ed449-4a7a-461f-85ca-ca3c53d2e75d (sig 49af5aec-b11b-4129-bc79-3117b42fc5d8))

@@ -1,13 +1,11 @@
-(librepcb_device
- (uuid 37d37d93-a26b-4d12-b603-64466167db95)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-21T13:40:42Z)
- (modified 2015-12-21T13:40:42Z)
- (deprecated false)
+(librepcb_device 37d37d93-a26b-4d12-b603-64466167db95
  (name "105081-0001")
  (description "<b> RIGHT ANGLE MINI-DISPLAYPORT RECEPTACLE</b><p>\nSource: http://www.molex.com/pdm_docs/sd/1050810001_sd.pdf\n\nThis element was automatically imported from Eagle\nFilepath: con-molex.lbr\nName: 105081-0001\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-21T13:40:42Z)
+ (deprecated false)
  (component f17bce15-2b70-4a0b-b856-961e2a221fa3)
  (package c53febef-140f-4f20-9823-37519e59809a)
  (pad 06af035f-0727-4451-a92c-af35e0bb10e5 (sig 0f87ed25-21f5-4bb6-b94a-744d70759f93))

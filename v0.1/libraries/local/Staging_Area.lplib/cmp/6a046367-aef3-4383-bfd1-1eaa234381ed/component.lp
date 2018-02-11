@@ -1,13 +1,11 @@
-(librepcb_component
- (uuid 6a046367-aef3-4383-bfd1-1eaa234381ed)
- (version "0.1")
- (author "LibrePCB")
- (created 2015-12-20T22:10:59Z)
- (modified 2015-12-20T22:10:59Z)
- (deprecated false)
+(librepcb_component 6a046367-aef3-4383-bfd1-1eaa234381ed
  (name "ICTE5")
  (description "Transient-suppressor <B>DIODE</B>\n\nThis element was automatically imported from Eagle\nFilepath: diode.lbr\nName: ICTE5\nNOTE: Remove this text after manual rework!")
  (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2015-12-20T22:10:59Z)
+ (deprecated false)
  (schematic_only false)
  (default_value "")
  (prefix "D")
