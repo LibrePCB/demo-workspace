@@ -11,7 +11,7 @@
  (default_value "VCC")
  (prefix "SUP")
  (signal 1d893320-f811-4a79-b64e-cc23d749d394 (name "Net") (role power)
-  (required true) (negated false) (clock false) (forced_net "#VALUE")
+  (required true) (negated false) (clock false) (forced_net "{{VALUE}}")
  )
  (variant afb86b45-68ec-47b6-8d96-153d73567228 (norm "")
   (name "Default")

@@ -17,7 +17,7 @@
   (vertex (pos 1.27 0.0) (angle 0.0))
   (vertex (pos 0.0 0.0) (angle 0.0))
  )
- (text 7dfaa7e0-6ebb-485c-b52d-c2ae16b3db44 (layer sym_names) (value "#NAME")
+ (text 7dfaa7e0-6ebb-485c-b52d-c2ae16b3db44 (layer sym_names) (value "{{NAME}}")
   (align left bottom) (height 3.175) (pos 2.54 -0.762) (rot 0.0)
  )
 )

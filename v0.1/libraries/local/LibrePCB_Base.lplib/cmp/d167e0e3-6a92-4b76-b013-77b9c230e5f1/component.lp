@@ -8,7 +8,7 @@
  (deprecated false)
  (category c011cc6b-b762-498e-8494-d1994f3043cf)
  (schematic_only false)
- (default_value "#CAPACITANCE")
+ (default_value "{{CAPACITANCE}}")
  (prefix "C")
  (attribute "CAPACITANCE" (type capacitance) (unit nanofarad) (value ""))
  (signal 1c1c7abc-7b40-4f92-b533-f65604644db7 (name "1") (role passive)

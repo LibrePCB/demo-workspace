@@ -12,7 +12,7 @@
  (ellipse f1debb94-c13a-4c63-8bb7-838fd3d6be7c (layer sym_outlines) (width 0.254)
   (fill false) (grab true) (size 2.794 2.794) (pos 0.0 -1.524) (rot 0.0)
  )
- (text 51ea7a85-1bba-4e7a-9fe4-78c452078950 (layer sym_names) (value "#NAME")
+ (text 51ea7a85-1bba-4e7a-9fe4-78c452078950 (layer sym_names) (value "{{NAME}}")
   (align left bottom) (height 3.175) (pos -2.54 -5.08) (rot 0.0)
  )
  (text c7d9bff9-2643-46ae-94dc-8118892d696c (layer sym_names) (value "TH")

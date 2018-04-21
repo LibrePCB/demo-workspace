@@ -8,7 +8,7 @@
  (deprecated false)
  (category b3adfa1e-b878-44f6-902a-14ef3dad7a14)
  (schematic_only false)
- (default_value "#INDUCTANCE")
+ (default_value "{{INDUCTANCE}}")
  (prefix "L")
  (attribute "INDUCTANCE" (type inductance) (unit millihenry) (value ""))
  (signal 777f11cd-9d4e-4b2b-aafa-7e7a836ff56e (name "1") (role passive)

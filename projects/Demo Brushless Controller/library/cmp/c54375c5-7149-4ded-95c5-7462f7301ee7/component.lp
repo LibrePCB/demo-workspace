@@ -8,7 +8,7 @@
  (deprecated false)
  (category c011cc6b-b762-498e-8494-d1994f3043cf)
  (schematic_only false)
- (default_value "#CAPACITANCE")
+ (default_value "{{CAPACITANCE}}")
  (prefix "C")
  (attribute "CAPACITANCE" (type capacitance) (unit microfarad) (value ""))
  (signal af3ffca8-0085-4edb-a775-fcb759f63411 (name "-") (role passive)

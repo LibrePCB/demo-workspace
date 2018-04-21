@@ -16,7 +16,7 @@
   (vertex (pos 0.0 0.0) (angle 0.0))
   (vertex (pos -1.27 -1.905) (angle 0.0))
  )
- (text c6a06108-e4eb-4467-a524-83a1f472183c (layer sym_values) (value "#VALUE")
+ (text c6a06108-e4eb-4467-a524-83a1f472183c (layer sym_values) (value "{{VALUE}}")
   (align center bottom) (height 2.54) (pos 0.0 0.0) (rot 0.0)
  )
 )

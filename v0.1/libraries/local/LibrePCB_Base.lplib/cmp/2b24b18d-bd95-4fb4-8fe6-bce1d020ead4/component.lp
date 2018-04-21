@@ -8,7 +8,7 @@
  (deprecated false)
  (category 70421345-ae1d-4fed-aa60-e7619524b97f)
  (schematic_only false)
- (default_value "#COLOR")
+ (default_value "{{COLOR}}")
  (prefix "LED")
  (attribute "COLOR" (type string) (unit none) (value ""))
  (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (name "A") (role passive)

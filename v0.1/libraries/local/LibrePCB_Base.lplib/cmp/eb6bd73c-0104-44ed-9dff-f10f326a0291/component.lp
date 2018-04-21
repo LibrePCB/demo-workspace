@@ -8,7 +8,7 @@
  (deprecated false)
  (category b3adfa1e-b878-44f6-902a-14ef3dad7a14)
  (schematic_only false)
- (default_value "#WINDINGS_PRIMARY:#WINDINGS_SECONDARY")
+ (default_value "{{WINDINGS_PRIMARY}}:{{WINDINGS_SECONDARY}}")
  (prefix "T")
  (attribute "WINDINGS_PRIMARY" (type string) (unit none) (value ""))
  (attribute "WINDINGS_SECONDARY" (type string) (unit none) (value ""))

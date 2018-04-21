@@ -22,7 +22,7 @@
  (ellipse 9c294f5a-1255-4515-a364-ca5e18bd8a8c (layer sym_outlines) (width 0.4064)
   (fill false) (grab true) (size 2.032 2.032) (pos 0.0 1.016) (rot 0.0)
  )
- (text e870b51b-07fe-45d2-b42a-d3819005bdb9 (layer sym_names) (value "#NAME")
+ (text e870b51b-07fe-45d2-b42a-d3819005bdb9 (layer sym_names) (value "{{NAME}}")
   (align left bottom) (height 3.175) (pos -1.27 2.921) (rot 0.0)
  )
 )

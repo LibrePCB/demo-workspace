@@ -11,7 +11,7 @@
  (deprecated false)
  (category 1039f038-20a6-4bfe-89c1-99f34fbb45bd)
  (schematic_only false)
- (default_value "#RESISTANCE")
+ (default_value "{{RESISTANCE}}")
  (prefix "R")
  (attribute "RESISTANCE" (type resistance) (unit ohm) (value ""))
  (signal 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (name "1") (role passive)

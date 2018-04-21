@@ -9,7 +9,7 @@
  (pin d09d1ce8-a27c-442e-8ce8-8c3daf5c2ef3 (name "AGND")
   (pos -2.54 0.0) (rot 0.0) (length 2.54)
  )
- (text e280a2e2-9539-4c8e-a680-36bf5b09acee (layer sym_names) (value "#NAME")
+ (text e280a2e2-9539-4c8e-a680-36bf5b09acee (layer sym_names) (value "{{NAME}}")
   (align left bottom) (height 3.175) (pos -2.54 2.54) (rot 0.0)
  )
 )

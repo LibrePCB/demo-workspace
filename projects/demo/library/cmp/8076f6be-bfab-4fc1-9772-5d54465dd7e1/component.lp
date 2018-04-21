@@ -11,7 +11,7 @@
  (default_value "GND")
  (prefix "SUP")
  (signal ff161c97-29a5-43aa-a9ae-3ca7a66982ce (name "Net") (role power)
-  (required true) (negated false) (clock false) (forced_net "#VALUE")
+  (required true) (negated false) (clock false) (forced_net "{{VALUE}}")
  )
  (variant f09ad258-595b-4ee9-a1fc-910804a203ae (norm "")
   (name "Default")
