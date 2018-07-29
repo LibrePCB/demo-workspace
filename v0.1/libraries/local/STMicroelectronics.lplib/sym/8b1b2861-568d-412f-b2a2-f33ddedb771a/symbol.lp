@@ -60,7 +60,7 @@
  (pin 555381e2-21e8-4dd4-a909-62e9ace76bc8 (name "PA5")
   (pos 20.32 25.4) (rot 180.0) (length 5.08)
  )
- (pin 5b365f0e-7ce6-46e7-baf9-871193ff9835 (name "PB2/BOOT1(/NPOR)")
+ (pin 5b365f0e-7ce6-46e7-baf9-871193ff9835 (name "PB2/BOOT1/NPOR")
   (pos -20.32 27.94) (rot 0.0) (length 5.08)
  )
  (pin 6d284715-9e06-469b-b0b9-581ab28ab064 (name "PC13")

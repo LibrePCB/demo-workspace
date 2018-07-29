@@ -73,7 +73,7 @@
  (signal d1ee2eed-76fa-4520-b7f5-7de90dd99b37 (name "PA10") (role passive)
   (required false) (negated false) (clock false) (forced_net "")
  )
- (signal 576f8414-a935-43ed-af09-79b8925071df (name "PB2/BOOT1(/NPOR)") (role passive)
+ (signal 576f8414-a935-43ed-af09-79b8925071df (name "PB2/BOOT1/NPOR") (role passive)
   (required false) (negated false) (clock false) (forced_net "")
  )
  (signal 8e3ea603-935e-4343-bcd2-06f42a05625a (name "BOOT0") (role passive)
