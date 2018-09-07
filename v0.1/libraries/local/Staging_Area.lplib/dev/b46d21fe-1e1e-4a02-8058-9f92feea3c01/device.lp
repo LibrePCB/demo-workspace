@@ -8,6 +8,6 @@
  (deprecated false)
  (component ef80cd5e-2689-47ee-8888-31d04fc99174)
  (package de4a76f2-630d-4af7-9926-5f4707fd9ab4)
- (pad 4e99becb-75c5-46da-9e70-d3cc0df89385 (sig ad623f98-9e73-49c3-9404-f7cfa99d17cd))
- (pad 86ec9c69-a602-4120-a7e2-561afba9a8ff (sig 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))
+ (pad 4e99becb-75c5-46da-9e70-d3cc0df89385 (signal ad623f98-9e73-49c3-9404-f7cfa99d17cd))
+ (pad 86ec9c69-a602-4120-a7e2-561afba9a8ff (signal 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8))
 )

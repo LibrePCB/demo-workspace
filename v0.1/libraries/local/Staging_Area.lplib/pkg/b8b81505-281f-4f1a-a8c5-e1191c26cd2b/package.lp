@@ -10,7 +10,7 @@
   (name "default")
   (description "")
   (circle 61128111-1052-40ff-8a2b-d682a5282fda (layer top_placement)
-   (width 0.127) (fill false) (grab true) (dia 1.6064) (pos 0.0 0.0)
+   (width 0.127) (fill false) (grab_area true) (diameter 1.6064) (position 0.0 0.0)
   )
  )
 )

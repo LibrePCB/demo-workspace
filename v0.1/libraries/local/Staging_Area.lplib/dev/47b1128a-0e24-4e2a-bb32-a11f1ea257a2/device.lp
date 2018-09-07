@@ -8,5 +8,5 @@
  (deprecated false)
  (component 197dacc7-3785-4054-a538-ced0d6271faa)
  (package 7c8d0d25-eca9-4aea-bbdf-343a88c46471)
- (pad 2b04800d-d8ae-4bc6-a3db-5f4cc1c7d38e (sig ad6ae81a-7914-49b7-a87b-a0e8574b7398))
+ (pad 2b04800d-d8ae-4bc6-a3db-5f4cc1c7d38e (signal ad6ae81a-7914-49b7-a87b-a0e8574b7398))
 )

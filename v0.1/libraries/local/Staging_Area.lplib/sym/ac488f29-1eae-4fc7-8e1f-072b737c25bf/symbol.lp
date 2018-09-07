@@ -7,6 +7,6 @@
  (created 2015-12-20T22:10:32Z)
  (deprecated false)
  (pin 45132d6b-2c08-4675-845b-ef545e474c32 (name "GND")
-  (pos 0.0 -2.54) (rot 90.0) (length 2.54)
+  (position 0.0 -2.54) (rotation 90.0) (length 2.54)
  )
 )

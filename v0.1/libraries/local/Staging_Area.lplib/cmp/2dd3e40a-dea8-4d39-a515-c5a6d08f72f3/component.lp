@@ -17,8 +17,8 @@
   (description "")
   (gate f90e9926-3002-4d8e-903c-30d769f50f24
    (symbol 052aa7bc-7a56-4a3e-8b6e-8bd20873f5fe)
-   (pos 0.0 0.0) (rot 0.0) (required true) (suffix "1")
-   (pin 85838f32-e34b-43b7-929c-8dad5764c146 (sig 9d92721f-a987-472e-921d-0bb7d7cef82c) (disp signal))
+   (position 0.0 0.0) (rotation 0.0) (required true) (suffix "1")
+   (pin 85838f32-e34b-43b7-929c-8dad5764c146 (signal 9d92721f-a987-472e-921d-0bb7d7cef82c) (text signal))
   )
  )
 )

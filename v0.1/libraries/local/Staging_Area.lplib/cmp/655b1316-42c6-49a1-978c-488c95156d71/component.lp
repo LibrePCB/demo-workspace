@@ -14,7 +14,7 @@
   (description "")
   (gate c0c9220e-dee7-47e6-9432-7e8a92bcfa62
    (symbol 2aa0e28c-8bd8-4fe3-bfc5-65bb7c123bee)
-   (pos 0.0 0.0) (rot 0.0) (required true) (suffix "")
+   (position 0.0 0.0) (rotation 0.0) (required true) (suffix "")
   )
  )
 )

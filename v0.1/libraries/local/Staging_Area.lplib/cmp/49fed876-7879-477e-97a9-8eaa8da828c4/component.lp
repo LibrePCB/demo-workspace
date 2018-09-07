@@ -20,9 +20,9 @@
   (description "")
   (gate 8e75d850-7cfa-4275-a27b-f9a68a89cc64
    (symbol 8eaf9d11-7442-4af8-9051-9e3662b36279)
-   (pos 0.0 0.0) (rot 0.0) (required true) (suffix "1")
-   (pin 8aa8c919-7171-4594-ae73-dc0b76bf036f (sig a280ee8b-b525-4b13-af91-e7afffd56ffa) (disp signal))
-   (pin 8ebf7e67-03d9-4666-8642-39a59899cb5d (sig 1e493100-82f3-4983-9ee0-ead981aebd21) (disp signal))
+   (position 0.0 0.0) (rotation 0.0) (required true) (suffix "1")
+   (pin 8aa8c919-7171-4594-ae73-dc0b76bf036f (signal a280ee8b-b525-4b13-af91-e7afffd56ffa) (text signal))
+   (pin 8ebf7e67-03d9-4666-8642-39a59899cb5d (signal 1e493100-82f3-4983-9ee0-ead981aebd21) (text signal))
   )
  )
 )

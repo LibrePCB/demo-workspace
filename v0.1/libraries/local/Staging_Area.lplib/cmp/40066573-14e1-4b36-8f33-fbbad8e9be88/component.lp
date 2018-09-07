@@ -17,8 +17,8 @@
   (description "")
   (gate 9f6caba7-a68b-4f94-a4ad-ec3a4218f498
    (symbol dce44427-4d53-4881-a77a-3e4faa383e3b)
-   (pos 0.0 0.0) (rot 0.0) (required true) (suffix "1")
-   (pin 01f564d5-9975-4613-bf90-153a031fe625 (sig 06f02040-3d86-4c91-9906-5778da2ddf99) (disp signal))
+   (position 0.0 0.0) (rotation 0.0) (required true) (suffix "1")
+   (pin 01f564d5-9975-4613-bf90-153a031fe625 (signal 06f02040-3d86-4c91-9906-5778da2ddf99) (text signal))
   )
  )
 )
